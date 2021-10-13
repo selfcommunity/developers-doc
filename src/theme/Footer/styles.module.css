@@ -1,0 +1,27 @@
+.footerLogoLink {
+    opacity: 0.5;
+    transition: opacity var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.footerLogoLink:hover {
+    opacity: 1;
+}
+
+footer {
+    position: relative;
+}
+
+footer > svg {
+    position: absolute;
+    display: block;
+    width: calc(100% + 4rem);
+    height: 120px;
+    transform: rotateX(180deg);
+    top: -7rem;
+    z-index: -1;
+    left: -4rem;
+}
+
+footer > svg path {
+    fill: var(--ifm-color-secondary)
+}
