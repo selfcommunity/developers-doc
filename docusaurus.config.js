@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'SelfCommunity Developers',
   tagline: 'Build amazing community solutions powered by the SelfCommunity platform',
-  url: 'https://developers.selfcommunity.com',
+  url: 'https://selfcommunity.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -56,7 +56,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'apireference/intro',
+            docId: 'apireference/v2/intro',
             position: 'right',
             label: 'Api Reference',
           },
@@ -80,7 +80,7 @@ const config = {
               },
               {
                 label: 'API Reference',
-                to: '/docs/apireference',
+                to: '/docs/apireference/v2',
               },
               {
                 label: 'Webhooks',
