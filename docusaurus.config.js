@@ -10,7 +10,7 @@ const config = {
   tagline: 'Build amazing community solutions powered by the SelfCommunity platform',
   url: 'https://selfcommunity.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'SelfCommunity', // Usually your GitHub org/user name.
@@ -29,7 +29,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/selfcommunity/developers_doc/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
