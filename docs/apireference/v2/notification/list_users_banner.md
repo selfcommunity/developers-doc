@@ -10,9 +10,9 @@ Notification banners are notifications that have a high priority and for this re
 They belong to their own list. For some reasons they behave differently from the notification.
 They are initially shown and can be removed.
 
-<!-- Example preview:
+Example preview:
 
-<%= image_tag "notification_types/notification_banner.png" %> -->
+![Notification](/img/notification_types/notification_banner.png)
 
 :::info
 

@@ -52,8 +52,6 @@ import TabItem from '@theme/TabItem';
 ### Example Request
 
 ````mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs defaultValue="js" values={[{ label: 'JavaScript', value: 'js', }, { label: 'Bash', value: 'bash', }]}>
 <TabItem value="js">

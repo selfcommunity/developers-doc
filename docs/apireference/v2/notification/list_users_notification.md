@@ -12,11 +12,11 @@ Notifications include all possible interactions with other users of the communit
 
 :::
 
-<!-- Example previews:
+Example previews:
 
-<%= image_tag "notification_types/notification_aggregate_1.png" %>
+![Notification](/img/notification_types/notification_aggregate_1.png)
 
-<%= image_tag "notification_types/notification_aggregate_2.png" %> -->
+![Notification](/img/notification_types/notification_aggregate_2.png)
 
 :::info
 
