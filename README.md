@@ -31,3 +31,14 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### Convert from openapi to slate
+Install widdershins globally with
+
+```
+sudo npm i -g widdershins
+```
+
+```
+widdershins --search false --language_tabs 'shell:cURL' 'javascript:Javascript' -x --expandBody --summary openapi -o openapi.md
+```
