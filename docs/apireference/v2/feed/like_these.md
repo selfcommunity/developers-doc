@@ -4,11 +4,11 @@ sidebar_position: 5
 title: Like These feed objects
 ---
 
-This endpoint retrieve a list of [Feed](#schemafeed) objects similar to the id of passed objects
+This endpoint retrieves a list of [Feed](#schemafeed) objects similar to the id of passed objects
 
 :::info
 
-This operation require authentication
+This operation requires authentication
 
 :::
 

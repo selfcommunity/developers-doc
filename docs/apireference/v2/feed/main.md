@@ -9,7 +9,7 @@ This endpoint retrieves the main (home) feed
 
 :::info
 
-This operation require authentication
+This operation requires authentication
 
 :::
 

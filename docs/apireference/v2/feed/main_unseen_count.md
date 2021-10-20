@@ -8,7 +8,7 @@ This endpoint retrieves Main Feed unseen count
 
 :::info
 
-This operation require authentication
+This operation requires authentication
 
 :::
 

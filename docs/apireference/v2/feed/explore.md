@@ -6,7 +6,7 @@ title: Get Explore Feed
 
 :::info
 
-This operation require authentication only if `content_availability` community option is false
+This operation requires authentication only if `content_availability` community option is false
 
 :::
 

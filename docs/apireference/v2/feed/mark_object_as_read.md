@@ -9,7 +9,7 @@ This endpoint marks as read a list of objects in the feed. Usually it is called 
 
 :::info
 
-This operation require authentication
+This operation requires authentication
 
 :::
 
