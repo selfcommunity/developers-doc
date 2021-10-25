@@ -1,11 +1,10 @@
 ---
-sidebar_label: Get All Incubators
-sidebar_position: 1
-title: Get All Incubators
+sidebar_label: Get a Specific Incubator
+sidebar_position: 3
+title: Get a Specific Incubator
 ---
 
-This endpoint retrieves all incubators.
-
+This endpoint retrieves a specific incubator.
 
 :::info
 
@@ -16,26 +15,13 @@ This operation requires authentication only if `content_availability` community 
 
 ## HTTP Request
 
-`GET /api/v2/incubator/`
+`GET /api/v2/incubator/{id}/`
 
 ### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term to be applied to the fields 'name' and 'slogan').|
-|status|query|integer|false|Valid values are from 0 to 3|
-|ordering|query|string|false|Which field to use when ordering the results.|
-
-#### Status valid Values
-
-|Parameter|Value|Description|
-|---|---|---|
-|status|0|pending|
-|status|1|proposal|
-|status|2|approved|
-|status|3|ignored|
+|id|path|string|true|A unique integer value identifying this incubator.|
 
 ### Example Request
 
@@ -47,13 +33,12 @@ import TabItem from '@theme/TabItem';
 <TabItem value="js">
 
 ```js
-
 const headers = {
   'Accept':'application/json',
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/incubator/',
+fetch('/api/v2/incubator/{id}/',
 {
   method: 'GET',
   headers: headers
@@ -71,8 +56,8 @@ fetch('/api/v2/incubator/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/incubator/ \
-  -H 'Accept: application/json'
+curl -X GET /api/v2/incubator/{id}/ \
+  -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
 </TabItem>
@@ -80,21 +65,9 @@ curl -X GET /api/v2/incubator/ \
 ````
 
 ## Responses
-
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
-
-### Response Schema
-
-Status Code **200**
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Incubator](../schemas/incubator))|false|none|List of results|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Incubator](../schemas/incubator)|
 
 ### Example responses
 
@@ -106,12 +79,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": string(uri),
-  "previous": string(uri),
-  "results": [
-    {
-      "id": 0,
+  "id": 0,
       "name": "string",
       "slug": "string",
       "slogan": "string",
@@ -163,11 +131,13 @@ Status Code **200**
       },
       "subscribers_count": "string",
       "subscribers_threshold": "string"
-    }
-  ]
 }
 ```
 
 </TabItem>
 </Tabs>
 ````
+
+
+
+
