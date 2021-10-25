@@ -1,10 +1,10 @@
 ---
-sidebar_label: Search an Incubator
+sidebar_label: Search Incubators
 sidebar_position: 2
-title: Search an Incubator
+title: Search Incubators
 ---
 
-This endpoint performs search of an Incubator
+This endpoint performs search od Incubators
 
 :::info
 
