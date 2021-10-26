@@ -4,7 +4,7 @@ sidebar_position: 22
 title: Hide a Specific Discussion
 ---
 
-This Endpoint hides the [Discussion](#schemadiscussion) for the logged user. The discussion must be in show state.
+This Endpoint hides the [Discussion](../schemas/discussion) for the logged user. The discussion must be in show state.
 
 :::info
 

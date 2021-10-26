@@ -29,7 +29,7 @@ This operation requires authentication and admin or editor role.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this loyalty prize.|
-|body|body|[LoyaltyPrize](#schemaloyaltyprize)|false|none|
+|body|body|[LoyaltyPrize](../schemas/loyalty_prize)|false|none|
 
 #### Example Body Parameters
 
@@ -110,7 +110,7 @@ curl -X PATCH /api/v2/loyalty/prize/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[LoyaltyPrize](#schemaloyaltyprize)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[LoyaltyPrize](../schemas/loyalty_prize)|
 
 ### Example responses
 

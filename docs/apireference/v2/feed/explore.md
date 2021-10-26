@@ -29,7 +29,7 @@ This endpoint retrieves the explore feed. This endpoint can be disabled by setti
 |Parameter|Value|Description|
 |---|---|---|
 |» ordering|recent|Order by recent creation datetime|
-|» ordering|last_activity|Order by last activity in the [Feed](#schemafeed) object|
+|» ordering|last_activity|Order by last activity in the [Feed](../schemas/feed) object|
 
 ### Example Request
 
@@ -89,7 +89,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|list([Feed](#schemafeed))|false|none|none|
+|» results|list([Feed](../schemas/feed))|false|none|none|
 
 
 ### Example responses

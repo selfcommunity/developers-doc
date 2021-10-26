@@ -98,7 +98,7 @@ curl -X PUT /api/v2/embed/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UpdateEmbed](#schemaupdateembed)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UpdateEmbed](../schemas/update_embed)|
 
 ### Example responses
 

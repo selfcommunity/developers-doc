@@ -21,8 +21,8 @@ This operation requires authentication.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |» text|body|string|false|The content of the post in html format, it can contain some [mentions](#selfcommunity-api-mention)|
-|» categories|body|list(integer)|true|List of id of [Category](#schemacategory)|
-|» medias|body|list(integer)|false|List of id of [Media](#schemamedia)|
+|» categories|body|list(integer)|true|List of id of [Category](../schemas/category)|
+|» medias|body|list(integer)|false|List of id of [Media](../schemas/media)|
 |» location|body|object¦null|false|The Location object to associate at the post|
 |»» location|body|string¦null|true|none|
 |»» lat|body|number¦null|true|none|
@@ -33,7 +33,7 @@ This operation requires authentication.
 |»» expiration_at|body|string(date-time)|false|none|
 |»» choices|body|list(object)|true|none|
 |»»» choice|body|string|true|none|
-|» addressing|body|list(integer)|false|List of id of [Tag](#schematag)|
+|» addressing|body|list(integer)|false|List of id of [Tag](../schemas/tag)|
 
 #### Example Body Parameters
 
@@ -163,7 +163,7 @@ curl -X POST /api/v2/post/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Post](#schemapost)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Post](../schemas/post)|
 
 ### Example responses
 

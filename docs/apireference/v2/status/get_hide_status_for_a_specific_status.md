@@ -4,7 +4,7 @@ sidebar_position: 17
 title: Get Hide Status for a Specific Status
 ---
 
-This endpoint retrieves if the logged user has hidden the [Status](#schemastatus)
+This endpoint retrieves if the logged user has hidden the [Status](../schemas/status)
 
 :::info
 
@@ -66,7 +66,7 @@ curl -X GET /api/v2/status/{id}/hide/status/ \
 
 | Status | Meaning                                                 | Description | Schema              |
 |--------|---------------------------------------------------------|-------------|---------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Flag](#schemaflag) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Flag](../schemas/flag) |
 
 ### Example responses
 

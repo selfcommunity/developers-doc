@@ -92,7 +92,7 @@ curl -X POST /api/v2/loyalty/request/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[LoyaltyPrizeUser](#schemaloyaltyprizeuser)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[LoyaltyPrizeUser](../schemas/loyalty_prize_user)|
 
 ### Example responses
 

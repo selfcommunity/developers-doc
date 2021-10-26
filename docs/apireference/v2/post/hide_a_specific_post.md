@@ -4,7 +4,7 @@ sidebar_position: 18
 title: Hide a Specific Post
 ---
 
-This endpoint hides the [Post](#schemapost) for the logged user. The post must be in show state
+This endpoint hides the [Post](../schemas/post) for the logged user. The post must be in show state
 
 :::info
 

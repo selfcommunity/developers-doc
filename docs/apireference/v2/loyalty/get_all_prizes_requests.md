@@ -95,7 +95,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|[[LoyaltyPrizeUser](#schemaloyaltyprizeuser)]|false|none|none|
+|» results|[[LoyaltyPrizeUser](../schemas/loyalty_prize_user)]|false|none|none|
 
 ### Example responses
 

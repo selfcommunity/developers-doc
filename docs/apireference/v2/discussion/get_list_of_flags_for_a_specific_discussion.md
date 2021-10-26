@@ -68,7 +68,7 @@ curl -X GET /api/v2/discussion/{id}/flag/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](#schemaflag)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](../schemas/flag)|
 
 ### Example responses
 

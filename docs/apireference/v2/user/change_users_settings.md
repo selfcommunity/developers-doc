@@ -5,7 +5,7 @@ title: Change User's Settings
 ---
 
 This endpoint changes the user settings for the authenticated user.
-See [UserSettings](#schemausersettings) for the list of possible user settings.
+See [UserSettings](../schemas/user_settings) for the list of possible user settings.
 
 :::info
 
@@ -22,7 +22,7 @@ This operation does not require authentication.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying the current user id.|
-|body|body|[UserSettings](#schemausersettings)|false|none|
+|body|body|[UserSettings](../schemas/user_settings)|false|none|
 
 ### Example Request
 
@@ -75,6 +75,6 @@ curl -X PATCH /api/v2/user/{id}/settings/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UserSettings](#schemausersettings)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UserSettings](../schemas/user_settings)|
 
 

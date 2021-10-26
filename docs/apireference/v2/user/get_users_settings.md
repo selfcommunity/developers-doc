@@ -5,7 +5,7 @@ title: Get User's Settings
 ---
 
 This endpoint retrieves all current user's settings for the authenticated user.
-See [UserSettings](#schemausersettings) for the list of possible user settings.
+See [UserSettings](../schemas/user_settings) for the list of possible user settings.
 
 
 :::info
@@ -71,7 +71,7 @@ curl -X POST /api/v2/user/{id}/settings/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UserSettings](#schemausersettings)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UserSettings](../schemas/user_settings)|
 
 ### Example responses
 

@@ -22,7 +22,7 @@ This operation requires authentication and admin role.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |type|body|string|true|A string that identifies a type of notification|
-|embed|body|object|false|[Embed](#schemaembed)|
+|embed|body|object|false|[Embed](../schemas/embed)|
 |title|body|string¦null|true|A title for the notification|
 |description|body|string¦null|true|A description for the notification|
 |user|body|integer|true|The user who issues the notification|

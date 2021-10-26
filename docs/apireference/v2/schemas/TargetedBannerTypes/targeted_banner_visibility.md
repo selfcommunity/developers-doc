@@ -44,7 +44,7 @@ title: Targeted Banner Visibility
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|none|
-|banner|[TargetedHtmlBanner](#schematargetedhtmlbanner), [TargetedNotificationBanner](#schematargetednotificationbanner)|false|read-only|none|
+|banner|[TargetedHtmlBanner](../TargetedBannerTypes/targeted_html_banner), [TargetedNotificationBanner](../TargetedBannerTypes/targeted_notification_banner)|false|read-only|none|
 |added_at|string(date-time)|false|read-only|none|
 |disposed_at|string(date-time)|false|read-only|none|
 |viewed_at|string(date-time)|false|read-only|none|

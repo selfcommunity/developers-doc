@@ -70,7 +70,7 @@ curl -X GET /api/v2/webhook/endpoint/{id}/attempt/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Attempt](#schemaattempt)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Attempt](../schemas/attempt)|
 
 ### Example responses
 

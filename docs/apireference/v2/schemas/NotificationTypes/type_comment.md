@@ -28,7 +28,7 @@ Example previews:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "comment" or "nested_comment"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|comment|[Comment](#schemacomment)|true|read-only|Comment of second level|
+|comment|[Comment](../comment)|true|read-only|Comment of second level|
 
 #### Enumerated Values
 

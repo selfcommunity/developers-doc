@@ -8,7 +8,7 @@ This endpoint updates a Media
 
 :::info
 
-It must be used for media of `type` *url* for set the preview image that can be choosed between the images returned by the [create](#opIdcreateMedia) endpoint or other images that can be retrieved by an url.
+It must be used for media of `type` *url* for set the preview image that can be choosed between the images returned by the [create](../media/create_a_media) endpoint or other images that can be retrieved by an url.
 
 :::
 
@@ -100,7 +100,7 @@ curl -X PUT /api/v2/media/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Media](#schemamedia)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Media](../schemas/media)|
 
 ### Example responses
 

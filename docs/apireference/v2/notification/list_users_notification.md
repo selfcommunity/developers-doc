@@ -98,7 +98,7 @@ Status Code **200**
 |---|---|---|---|---|
 |next|string¦null|false|none|Next page url|
 |previous|string¦null|false|none|Previous page url|
-|results|list([Notification](#schemanotification))|false|none|List of notification results|
+|results|list([Notification](../schemas/notification))|false|none|List of notification results|
 
 ### Example responses
 

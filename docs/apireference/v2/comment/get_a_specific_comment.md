@@ -69,7 +69,7 @@ curl -X GET /api/v2/comment/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Comment](#schemacomment)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Comment](../schemas/comment)|
 
 ### Example responses
 

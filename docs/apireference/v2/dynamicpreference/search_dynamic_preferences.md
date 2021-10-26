@@ -81,7 +81,7 @@ Status Code **200**
 | » count    | integer                                         | false    | none         | Total results count |
 | » next     | string(uri)¦null                                | false    | none         | Next page url       |
 | » previous | string(uri)¦null                                | false    | none         | Previous page url   |
-| » results  | [[DynamicPreference](#schemadynamicpreference)] | false    | none         | List of results     |
+| » results  | [[DynamicPreference](../schemas/dynamic_preference)] | false    | none         | List of results     |
 
 ### Example responses
 

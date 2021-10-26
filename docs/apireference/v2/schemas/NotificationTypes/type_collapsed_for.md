@@ -26,7 +26,7 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Types: "collapsed_for_advertising", "collapsed_for_aggressive", "collapsed_for_vulgar", "collapsed_for_poor", "collapsed_for_offtopic", "uncollapsed_for"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|comment|[Comment](#schemacomment)|true|read-only|if a comment is collapsed|
+|comment|[Comment](../comment)|true|read-only|if a comment is collapsed|
 
 #### Enumerated Values
 

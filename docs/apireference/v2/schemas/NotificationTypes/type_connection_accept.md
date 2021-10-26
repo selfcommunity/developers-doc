@@ -26,4 +26,4 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "connection_accept"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|accept_user|[User](#schemauser)|true|read-only|User accepted the connection request|
+|accept_user|[User](../user)|true|read-only|User accepted the connection request|

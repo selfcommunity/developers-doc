@@ -68,7 +68,7 @@ curl -X GET /api/v2/category/{id}/ \
 ## Responses
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Category](#schemacategory)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Category](../schemas/category)|
 
 ### Example responses
 

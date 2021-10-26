@@ -27,7 +27,7 @@ This operation requires authentication and admin or editor role.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this loyalty prize user.|
-|body|body|[LoyaltyPrizeUser](#schemaloyaltyprizeuser)|false|none|
+|body|body|[LoyaltyPrizeUser](../schemas/loyalty_prize_user)|false|none|
 
 #### Example Body Parameters
 
@@ -106,7 +106,7 @@ curl -X PATCH /api/v2/loyalty/request/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[LoyaltyPrizeUser](#schemaloyaltyprizeuser)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[LoyaltyPrizeUser](../schemas/loyalty_prize_user)|
 
 ### Example responses
 

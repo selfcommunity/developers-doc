@@ -28,7 +28,7 @@ Example preview:
 |sid|string|false|read-only|Serialization id of the notification|
 |type|string|false|read-only|Type "follow"|
 |active_at|string(date-time)|false|read-only|Time when the notification was generated|
-|discussion|[Discussion](#schemadiscussion)|false|read-only|if a discussion is followed|
-|post|[Post](#schemadpost)|false|read-only|if a post is followed|
-|status|[Status](#schemastatus)|false|read-only|if a status is followed|
-|user|[User](#schemaduser)|true|read-only|Follower user|
+|discussion|[Discussion](../discussion)|false|read-only|if a discussion is followed|
+|post|[Post](../post)|false|read-only|if a post is followed|
+|status|[Status](../status)|false|read-only|if a status is followed|
+|user|[User](../user)|true|read-only|Follower user|

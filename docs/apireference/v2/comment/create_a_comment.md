@@ -31,12 +31,12 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|» discussion|body|integer|true|Id of the [Discussion](#schemadiscussion)|
-|» post|body|integer|true|Id of the [Post](#schemapost)|
-|» status|body|integer|true|Id of the [Status](#schemastatus)|
-|» parent|body|integer¦null|false|Id of a [Comment](#schemacomment), used for creating nested comments|
-|» in_reply_to|body|integer¦null|false|Id of a [Comment](#schemacomment), used for reply in nested comments|
-|» text|body|string|true|text for the [Comment](#schemacomment), html format, it can contain some [mentions](#selfcommunity-api-mention)|
+|» discussion|body|integer|true|Id of the [Discussion](../schemas/discussion)|
+|» post|body|integer|true|Id of the [Post](../schemas/post)|
+|» status|body|integer|true|Id of the [Status](../schemas/status)|
+|» parent|body|integer¦null|false|Id of a [Comment](../schemas/comment), used for creating nested comments|
+|» in_reply_to|body|integer¦null|false|Id of a [Comment](../schemas/comment), used for reply in nested comments|
+|» text|body|string|true|text for the [Comment](../schemas/comment), html format, it can contain some [mentions](#selfcommunity-api-mention)|
 
 #### Example Body Parameters
 
@@ -118,7 +118,7 @@ curl -X POST /api/v2/comment/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Comment](#schemacomment)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Comment](../schemas/comment)|
 
 ### Example responses
 

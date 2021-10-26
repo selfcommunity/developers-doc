@@ -4,7 +4,7 @@ sidebar_position: 24
 title: Get Hide Status for a Specific Discussion
 ---
 
-This Endpoint retrieves if the logged user has hidden the [Discussion](#schemadiscussion).
+This Endpoint retrieves if the logged user has hidden the [Discussion](../schemas/discussion).
 
 :::info
 
@@ -68,7 +68,7 @@ curl -X GET /api/v2/discussion/{id}/hide/status/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](#schemaflag)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](../schemas/flag)|
 
 
 

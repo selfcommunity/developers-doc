@@ -21,7 +21,7 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|body|body|[Category](#schemacategory)|false|none|
+|body|body|[Category](../schemas/category)|false|none|
 
 #### Example Body Parameters
 
@@ -122,7 +122,7 @@ curl -X POST /api/v2/category/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Category](#schemacategory)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Category](../schemas/category)|
 
 ### Example responses
 

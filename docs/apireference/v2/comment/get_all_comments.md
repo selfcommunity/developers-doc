@@ -8,15 +8,15 @@ This endpoint retrieves all comments.
 
 :::info
 
-If the `discussion` parameter is specified the endpoint retrieves all comments of a specific [Discussion](#schemadiscussion).
+If the `discussion` parameter is specified the endpoint retrieves all comments of a specific [Discussion](../schemas/discussion).
 
-If the `post` parameter is specified the endpoint retrieves all comments of a specific [Post](#schemapost).
+If the `post` parameter is specified the endpoint retrieves all comments of a specific [Post](../schemas/post).
 
-If the `status` parameter is specified the endpoint retrieves all comments of a specific [Status](#schemastatus).
+If the `status` parameter is specified the endpoint retrieves all comments of a specific [Status](../schemas/status).
 
 The `discussion` , `post` and `status` parameters cannot be used together and one of these parameters is mandatory.
 
-If the `parent` parameter is specified the endpoint retrieves all comments of a specific [Discussion](#schemadiscussion) , [Post](#schemapost) or [Status](#schemastatus) that has the passed parent (nested comments).
+If the `parent` parameter is specified the endpoint retrieves all comments of a specific [Discussion](../schemas/discussion) , [Post](../schemas/post) or [Status](../schemas/status) that has the passed parent (nested comments).
 
 :::
 
@@ -42,10 +42,10 @@ This operation requires authentication only if `content_availability` community 
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
-|discussion|query|string|true|Id of the [Discussion](#schemadiscussion), required if both post and status parameters are not set|
-|post|query|string|true|Id of the [Post](#schemapost), required if both discussion and status parameters are not set|
-|status|query|string|true|Id of the [Status](#schemastatus), required if both discussion and post parameters are not set|
-|parent|query|string|false|Id of the parent [Comment](#schemacomment), used for retrieve nested comments|
+|discussion|query|string|true|Id of the [Discussion](../schemas/discussion), required if both post and status parameters are not set|
+|post|query|string|true|Id of the [Post](../schemas/post), required if both discussion and status parameters are not set|
+|status|query|string|true|Id of the [Status](../schemas/status), required if both discussion and post parameters are not set|
+|parent|query|string|false|Id of the parent [Comment](../schemas/comment), used for retrieve nested comments|
 |ordering|query|string|false|The field for sorting use - for order desc. Default to `added_at`|
 
 #### Enumerated Values
@@ -112,7 +112,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|[[Comment](#schemacomment)]|false|none|none|
+|» results|[[Comment](../schemas/comment)]|false|none|none|
 
 ### Example responses
 

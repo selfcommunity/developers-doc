@@ -94,7 +94,7 @@ curl -X POST /api/v2/webhook/endpoint/{id}/secret/reveal/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[EndpointSecret](#schemaendpointsecret)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[EndpointSecret](../schemas/endpoint_secret)|
 
 ### Example responses
 

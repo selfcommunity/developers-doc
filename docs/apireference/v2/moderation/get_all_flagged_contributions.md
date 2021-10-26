@@ -102,7 +102,7 @@ Status Code **200**
 |» count|integer|false|none|Total results count|
 |» next|string(uri)¦null|false|none|Next page url|
 |» previous|string(uri)¦null|false|none|Previous page url|
-|» results|[[FlaggedContribution](#schemaflaggedcontribution)]|false|none|none|
+|» results|[[FlaggedContribution](../schemas/flagged_contribution)]|false|none|none|
 
 ### Example responses
 

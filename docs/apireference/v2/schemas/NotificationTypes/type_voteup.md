@@ -30,9 +30,9 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "vote_up"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|user|[User](#schemauser)|true|read-only|user who voted up|
-|discussion|[Discussion](#schemadiscussion)|false|read-only|if a discussion is voted up|
-|post|[Post](#schemadpost)|false|read-only|if a post is voted up|
-|comment|[Comment](#schemacomment)|false|read-only|if a comment is voted up|
-|status|[Status](#schemastatus)|false|read-only|if a status is voted up|
+|user|[User](../user)|true|read-only|user who voted up|
+|discussion|[Discussion](../discussion)|false|read-only|if a discussion is voted up|
+|post|[Post](../post)|false|read-only|if a post is voted up|
+|comment|[Comment](../comment)|false|read-only|if a comment is voted up|
+|status|[Status](../status)|false|read-only|if a status is voted up|
 

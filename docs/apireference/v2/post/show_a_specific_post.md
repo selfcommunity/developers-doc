@@ -4,7 +4,7 @@ sidebar_position: 19
 title: Show a Specific Post
 ---
 
-This endpoint shows the [Post](#schemapost) for the logged user. The post must be in hidden state
+This endpoint shows the [Post](../schemas/post) for the logged user. The post must be in hidden state
 
 :::info
 

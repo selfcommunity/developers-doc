@@ -65,7 +65,7 @@ curl -X GET /api/v2/user/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](#schemauser)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](../schemas/user)|
 
 ### Example responses
 

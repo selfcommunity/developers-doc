@@ -69,7 +69,7 @@ curl -X GET /api/v2/media/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Media](#schemamedia)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Media](../schemas/media)|
 
 ### Example responses
 

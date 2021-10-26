@@ -67,7 +67,7 @@ curl -X GET /api/v2/webhook/endpoint/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Endpoint](#schemaendpoint)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Endpoint](../schemas/endpoint)|
 
 ### Example responses
 

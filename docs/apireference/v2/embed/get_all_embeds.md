@@ -80,7 +80,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|list([Embed](#schemaembed))|false|none|none|
+|» results|list([Embed](../schemas/embed))|false|none|none|
 
 
 ### Example responses

@@ -75,7 +75,7 @@ curl -X GET /api/v2/user/{id}/connection_requests/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[ConnectionRequest](#schemaconnectionrequest)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[ConnectionRequest](../schemas/connection_request)|
 
 ### Response Schema
 
@@ -86,7 +86,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|[[ConnectionRequest](#schemaconnectionrequest)]|false|none|none|
+|» results|[[ConnectionRequest](../schemas/connection_request)]|false|none|none|
 
 ### Example responses
 

@@ -26,5 +26,5 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "custom_notification"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|custom_notification|[CustomNotification](#schemacustomnotification)|true|read-only|Custom notification|
-|user|[User](#schemauser)|true|read-only|User generate the custom notification|
+|custom_notification|[CustomNotification](../custom_notification)|true|read-only|Custom notification|
+|user|[User](../user)|true|read-only|User generate the custom notification|
