@@ -21,26 +21,6 @@ This operation requires authentication and admin role.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this endpoint.|
-|password|body|string|false|Logged user password. It is used for security check.|
-
-#### Example Body Parameters
-
-````mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
-<TabItem value="json">
-
-```json
-{
-  "password": "string"
-}
-```
-
-</TabItem>
-</Tabs>
-````
 
 ### Example Request
 
@@ -50,9 +30,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="js">
 
 ```js
-const inputBody = '{
-  "password": "string"
-}';
+const inputBody = '{}';
 const headers = {
   'Content-Type':'application/json',
   'Accept':'application/json',
@@ -81,10 +59,7 @@ fetch('/api/v2/webhook/endpoint/{id}/secret/expire/',
 curl -X POST /api/v2/webhook/endpoint/{id}/secret/expire/ \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json' \
-  -H 'Authorization: Bearer {access_token}' \
-  --data-raw '{
-    "password": "string"
-  }'
+  -H 'Authorization: Bearer {access_token}'
 ```
 </TabItem>
 </Tabs>
