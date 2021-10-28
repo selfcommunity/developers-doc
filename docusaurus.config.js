@@ -41,6 +41,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: true,
+          },
       navbar: {
         title: 'Developers',
         logo: {
@@ -61,6 +64,12 @@ const config = {
             label: 'Api Reference',
           },
           {
+            type: 'doc',
+            docId: 'webhooks/intro',
+            position: 'right',
+            label: 'Webhook',
+          },
+          {
             href: 'https://github.com/selfcommunity',
             position: 'right',
             className: 'header-github-link',
@@ -76,15 +85,15 @@ const config = {
             items: [
               {
                 label: 'API Docs',
-                to: '/docs/api',
+                to: '/docs/api/intro',
               },
               {
                 label: 'API Reference',
-                to: '/docs/apireference/v2',
+                to: '/docs/apireference/v2/intro',
               },
               {
                 label: 'Webhooks',
-                to: '/docs/webhooks',
+                to: '/docs/webhooks/intro',
               },
             ],
           },

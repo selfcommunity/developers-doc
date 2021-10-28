@@ -21,7 +21,7 @@ This operation requires authentication. The logged user must be the status creat
 | Name         | In   | Type          | Required | Description                                                                                          |
 |--------------|------|---------------|----------|------------------------------------------------------------------------------------------------------|
 | » action     | body | string¦null   | true     | The action of the status                                                                             |
-| » text       | body | string        | false    | The content of the status in html format, it can contain some [mentions](#selfcommunity-api-mention) |
+| » text       | body | string        | false    | The content of the status in html format, it can contain some [mentions](../mention/mention) |
 | » categories | body | list(integer) | true     | List of id of [Category](../schemas/category)                                                            |
 | » medias     | body | list(integer) | false    | List of id of [Media](../schemas/amedia)                                                                  |
 | » location   | body | object¦null   | false    | The Location object to associate with the status                                                     |

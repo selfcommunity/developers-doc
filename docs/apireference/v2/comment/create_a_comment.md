@@ -36,7 +36,7 @@ This operation requires authentication
 |» status|body|integer|true|Id of the [Status](../schemas/status)|
 |» parent|body|integer¦null|false|Id of a [Comment](../schemas/comment), used for creating nested comments|
 |» in_reply_to|body|integer¦null|false|Id of a [Comment](../schemas/comment), used for reply in nested comments|
-|» text|body|string|true|text for the [Comment](../schemas/comment), html format, it can contain some [mentions](#selfcommunity-api-mention)|
+|» text|body|string|true|text for the [Comment](../schemas/comment), html format, it can contain some [mentions](../mention/mention)|
 
 #### Example Body Parameters
 

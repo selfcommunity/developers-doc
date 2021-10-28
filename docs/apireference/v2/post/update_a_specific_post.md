@@ -20,7 +20,7 @@ This operation requires authentication. The logged user must be the post creator
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|» text|body|string|false|The content of the post in html format, it can contain some [mentions](#selfcommunity-api-mention)|
+|» text|body|string|false|The content of the post in html format, it can contain some [mentions](../mention/mention)|
 |» categories|body|list(integer)|true|List of id of [Category](../schemas/category)|
 |» medias|body|list(integer)|false|List of id of [Media](../schemas/media)|
 |» location|body|object¦null|false|The Location object to associate at the post|
