@@ -22,7 +22,6 @@ This operation requires authentication and admin role.
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this endpoint.|
 |event|body|[integer]|true|Array of ids of Events that the endpoint must resend.|
-|password|body|string|false|Logged user password. It is used for security check.|
 
 #### Example Body Parameters
 
@@ -35,8 +34,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "event": [0, 1],
-  "password": "string"
+  "event": [0, 1]
 }
 ```
 
@@ -53,8 +51,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "event": [0, 1],
-  "password": "string"
+  "event": [0, 1]
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -86,8 +83,7 @@ curl -X POST /api/v2/webhook/endpoint/{id}/event/resend/bulk/ \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "event": [0, 1],
-    "password": "string"
+    "event": [0, 1]
   }'
 ```
 </TabItem>
