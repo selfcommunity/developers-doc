@@ -53,6 +53,13 @@ body {
   no-repeat;
 }
 
+@media screen and (max-width: 414px) {
+  .blogPostTitle_GeHD, .hero__title {
+    font-size: 1.8rem;
+  }
+}
+
+
 .hero svg {
   position: absolute;
   display: block;
@@ -61,6 +68,7 @@ body {
   transform: rotateY(180deg);
   bottom: -7rem;
   z-index: -1;
+  left: 0;
 }
 
 .hero--secondary {
