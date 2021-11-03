@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'API Documentation',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/api.svg').default,
     description: (
       <>
         Explore our APIs. Learn how to build apps and integrations with the SelfCommunity platform
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'API Reference',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/api_reference.svg').default,
     description: (
       <>
           Harness the power of our v2 APIs. Discover the endpoints you can use to build innovative community solutions.

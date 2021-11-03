@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'SelfCommunity Developers',
   tagline: 'Build amazing community solutions powered by the SelfCommunity platform',
-  url: 'https://selfcommunity.github.io',
+  url: 'https://developers.selfcommunity.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -29,7 +29,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/selfcommunity/developers_doc/edit/main/',
+          editUrl: 'https://github.com/selfcommunity/developers-doc/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,7 +45,7 @@ const config = {
         disableSwitch: true,
           },
       navbar: {
-        title: 'Developers',
+        title: '',
         logo: {
           alt: 'SelfCommunity Developers',
           src: 'img/logo.svg',
