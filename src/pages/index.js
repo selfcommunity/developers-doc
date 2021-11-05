@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description={`Build amazing Community solutions powered by SelfCommunity\nExplore our APIs\nLearn how to build apps and integrations with the most common and advanced Social features.`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
