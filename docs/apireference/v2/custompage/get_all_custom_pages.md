@@ -1,10 +1,11 @@
 ---
-sidebar_label: Search a Category
-sidebar_position: 2
-title: Search a Category
+sidebar_label: Get All Custom pages
+sidebar_position: 1
+title: Get All Custom pages
 ---
 
-This endpoint performs search of a Category
+This endpoint retrieves all custom pages.
+
 
 :::info
 
@@ -15,7 +16,7 @@ This operation requires authentication only if `content_availability` community 
 
 ## HTTP Request
 
-`GET /api/v2/category/search/`
+`GET /api/v2/custom_page/`
 
 ### Parameters
 
@@ -23,9 +24,9 @@ This operation requires authentication only if `content_availability` community 
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
-|active|query|string|false|Filter using field active (only if user is administrator).|
-|deleted|query|string|false|Filter using field deleted (only if user is administrator).|
+|active|query|string|false|Filter using field active (only if user is administrator or editor).|
+|visible_in_menu|query|string|false|Filter using field visible_in_menu.|
+
 
 ### Example Request
 
@@ -43,7 +44,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/category/search/',
+fetch('/api/v2/custom_page/',
 {
   method: 'GET',
   headers: headers
@@ -61,7 +62,7 @@ fetch('/api/v2/category/search/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/category/search/ \
+curl -X GET /api/v2/custom_page/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
@@ -70,6 +71,7 @@ curl -X GET /api/v2/category/search/ \
 ````
 
 ## Responses
+
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
@@ -83,7 +85,7 @@ Status Code **200**
 |» count|integer|false|none|Total results count|
 |» next|string(uri)¦null|false|none|Next page url|
 |» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Category](../schemas/category))|false|none|List of results|
+|» results|list([Custom Page](../schemas/custom_page))|false|none|List of results|
 
 ### Example responses
 
@@ -98,32 +100,21 @@ Status Code **200**
   "count": 123,
   "next": "string(uri)",
   "previous": "string(uri)",
-  "results": [
+  "results": [ 
     {
       "id": 0,
-      "tags": [],
-      "order": 123,
-      "name": "string",
-      "name_synonyms": "string",
       "slug": "string",
-      "slogan": "string",
-      "html_info": "string",
-      "seo_title": "string",
-      "seo_description": "string",
-      "auto_follow": "string",
-      "active": true,
-      "deleted": false,
-      "image_original": "string",
-      "image_bigger": "string",
-      "image_big": "string",
-      "image_medium": "string",
-      "image_small": "string",
-      "emotional_image_original": "string",
-      "emotional_image_position": 123,
+      "label": "string",
+      "title": "string",
+      "alternative_url": "string",
+      "html_body": "string",
+      "visible_in_menu": true,
+      "order": -2147483648,
+      "created_at": "2019-08-24T14:15:22Z",
       "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "stream_order_by": "string",
-
-    }
+      "active": true,
+      "created_by": 0
+    }    
   ]
 }
 ```

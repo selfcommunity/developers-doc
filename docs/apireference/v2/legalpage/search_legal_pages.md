@@ -1,31 +1,31 @@
 ---
-sidebar_label: Search a Category
-sidebar_position: 2
-title: Search a Category
+sidebar_label: Search Legal Pages
+sidebar_position: 1
+title: Search Legal Pages
 ---
 
-This endpoint performs search of a Category
+This endpoint performs search of a Legal Page
+
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+This operation does not require authentication.
 
 :::
 
 
 ## HTTP Request
 
-`GET /api/v2/category/search/`
+`GET /api/v2/legal_page/search/`
 
 ### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
 |search|query|string|false|A search term.|
-|active|query|string|false|Filter using field active (only if user is administrator).|
-|deleted|query|string|false|Filter using field deleted (only if user is administrator).|
+|valid_from|query|string|false|valid_from|
+|valid_to|query|string|false|valid_to|
+|ordering|query|string|false|Which field to use when ordering the results.|
 
 ### Example Request
 
@@ -43,7 +43,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/category/search/',
+fetch('/api/v2/legal_page/search/',
 {
   method: 'GET',
   headers: headers
@@ -61,7 +61,7 @@ fetch('/api/v2/category/search/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/category/search/ \
+curl -X GET /api/v2/legal_page/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
@@ -70,6 +70,7 @@ curl -X GET /api/v2/category/search/ \
 ````
 
 ## Responses
+
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
@@ -83,7 +84,7 @@ Status Code **200**
 |» count|integer|false|none|Total results count|
 |» next|string(uri)¦null|false|none|Next page url|
 |» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Category](../schemas/category))|false|none|List of results|
+|» results|list([Legal Page](../schemas/legal_page))|false|none|List of results|
 
 ### Example responses
 
@@ -98,32 +99,21 @@ Status Code **200**
   "count": 123,
   "next": "string(uri)",
   "previous": "string(uri)",
-  "results": [
+  "results": [ 
     {
       "id": 0,
-      "tags": [],
-      "order": 123,
-      "name": "string",
-      "name_synonyms": "string",
-      "slug": "string",
-      "slogan": "string",
-      "html_info": "string",
-      "seo_title": "string",
-      "seo_description": "string",
-      "auto_follow": "string",
-      "active": true,
-      "deleted": false,
-      "image_original": "string",
-      "image_bigger": "string",
-      "image_big": "string",
-      "image_medium": "string",
-      "image_small": "string",
-      "emotional_image_original": "string",
-      "emotional_image_position": 123,
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "stream_order_by": "string",
-
-    }
+      "name_and_version": "string",
+      "icon_class": "string",
+      "label": "string",
+      "external_url": "string",
+      "html_summary": "string",
+      "html_body": "string",
+      "order": -2147483648,
+      "valid_from": "2019-08-24",
+      "valid_to": "2019-08-24",
+      "created_at": "2019-08-24T14:15:22Z",
+      "created_by": 0
+    }   
   ]
 }
 ```
