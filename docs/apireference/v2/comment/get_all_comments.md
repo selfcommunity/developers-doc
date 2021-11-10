@@ -14,9 +14,11 @@ If the `post` parameter is specified the endpoint retrieves all comments of a sp
 
 If the `status` parameter is specified the endpoint retrieves all comments of a specific [Status](../schemas/status).
 
-The `discussion` , `post` and `status` parameters cannot be used together and one of these parameters is mandatory.
+If the `user` parameter is specified the endpoint retrieves all comments of a specific [User](../schemas/user).
 
-If the `parent` parameter is specified the endpoint retrieves all comments of a specific [Discussion](../schemas/discussion) , [Post](../schemas/post) or [Status](../schemas/status) that has the passed parent (nested comments).
+The `discussion`, `post`, `status` and `user` parameters cannot be used together and one of these parameters is mandatory.
+
+If the `parent` parameter is specified (only with `discussion`, `post` or `status`) the endpoint retrieves all comments of a specific [Discussion](../schemas/discussion) , [Post](../schemas/post) or [Status](../schemas/status) that has the passed parent (nested comments).
 
 :::
 
@@ -42,9 +44,10 @@ This operation requires authentication only if `content_availability` community 
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
-|discussion|query|string|true|Id of the [Discussion](../schemas/discussion), required if both post and status parameters are not set|
-|post|query|string|true|Id of the [Post](../schemas/post), required if both discussion and status parameters are not set|
-|status|query|string|true|Id of the [Status](../schemas/status), required if both discussion and post parameters are not set|
+|discussion|query|string|true|Id of the [Discussion](../schemas/discussion), required if both post, status and user parameters are not set|
+|post|query|string|true|Id of the [Post](../schemas/post), required if both discussion, status and user parameters are not set|
+|status|query|string|true|Id of the [Status](../schemas/status), required if both discussion, post and user parameters are not set|
+|user|query|string|true|Id of the [User](../schemas/user), required if both discussion, post and status parameters are not set|
 |parent|query|string|false|Id of the parent [Comment](../schemas/comment), used for retrieve nested comments|
 |ordering|query|string|false|The field for sorting use - for order desc. Default to `added_at`|
 
