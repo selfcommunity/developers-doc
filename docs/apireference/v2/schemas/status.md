@@ -33,7 +33,6 @@ title: Status
       "stream_order_by": "recent"
     }
   ],
-  "media_type": "images",
   "medias": [
     {
       "id": 0,
@@ -101,7 +100,6 @@ title: Status
 |id|integer|false|read-only|none|
 |action|string|true|none|none|
 |categories|list([Category](../schemas/category))|true|none|none|
-|media_type|string|false|read-only|none|
 |medias|list([Media](../schemas/media))|false|none|none|
 |location|object¦null|false|none|none|
 |» location|string¦null|true|none|none|

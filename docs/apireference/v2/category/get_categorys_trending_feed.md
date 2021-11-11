@@ -126,8 +126,7 @@ Status Code **200**
                     "lastmod_datetime": "2019-08-24T14:15:22Z",
                     "stream_order_by": "string",
               }
-                    ],
-      "media_type": "images",
+        ],
       "medias": [
         0
       ],

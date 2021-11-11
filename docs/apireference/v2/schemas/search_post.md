@@ -32,7 +32,6 @@ title: Search Post
       "stream_order_by": "recent"
     }
   ],
-  "media_type": "images",
   "medias": [
     {
       "id": 0,

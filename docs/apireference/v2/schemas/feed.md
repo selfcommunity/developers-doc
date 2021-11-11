@@ -13,7 +13,6 @@ title: Feed
     "categories": [
       0
     ],
-    "media_type": "images",
     "medias": [
       0
     ],
@@ -107,7 +106,6 @@ title: Feed
     "categories": [
       0
     ],
-    "media_type": "images",
     "medias": [
       0
     ],

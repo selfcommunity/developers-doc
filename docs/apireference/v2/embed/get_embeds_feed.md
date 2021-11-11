@@ -142,7 +142,6 @@ Status Code **200**
                 "stream_order_by": "string",
             }
         ],
-        "media_type": "images",
         "medias": [
             {
                 "id": 0,

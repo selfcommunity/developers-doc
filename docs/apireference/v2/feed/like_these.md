@@ -146,7 +146,6 @@ curl -X POST /api/v2/feed/likethis/ \
             "stream_order_by": "string",
             }
         ],
-        "media_type": "images",
         "medias": [
             {
             "id": 0,
