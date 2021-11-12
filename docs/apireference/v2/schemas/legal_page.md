@@ -26,15 +26,15 @@ title: Legal Page
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|id|integer|false|read-only|none|
-|name_and_version|string|true|none|none|
-|icon_class|string|false|none|none|
-|label|string|true|none|none|
-|external_url|string|false|none|none|
-|html_summary|string|true|none|none|
-|html_body|string¦null|false|none|none|
-|order|integer|false|none|none|
-|valid_from|string(date)|true|none|none|
-|valid_to|string(date)|true|none|none|
-|created_at|string(date-time)|false|none|none|
-|created_by|integer|true|none|none|
+|id|integer|false|read-only|Unique integer value identifying this page|
+|name_and_version|string|true|none|The name and version code for this page|
+|icon_class|string|false|none|A css class representing the icon associated to this page|
+|label|string|true|none|A label for the page in the menu|
+|external_url|string|false|none|An external url for this page (in alternative to the full body)|
+|html_summary|string|true|none|A short html summary|
+|html_body|string¦null|false|none|The full html body for this page|
+|order|integer|false|none|The extraction order of the page|
+|valid_from|string(date)|true|none|This page is valid from this date|
+|valid_to|string(date)|true|none|This page is valid till this date|
+|created_at|string(date-time)|false|none|datetime of creation|
+|created_by|integer|true|none|The id of the creator of this page|

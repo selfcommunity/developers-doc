@@ -26,15 +26,15 @@ title: Custom Page
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|id|integer|false|read-only|none|
-|slug|string|false|none|none|
-|label|string|true|none|none|
-|title|string|true|none|none|
-|alternative_url|string|false|none|none|
-|html_body|string¦null|false|none|none|
-|visible_in_menu|boolean|false|none|none|
-|order|integer|false|none|none|
-|created_at|string(date-time)|false|none|none|
-|lastmod_datetime|string(date-time)|false|none|none|
-|active|boolean|false|none|none|
-|created_by|integer|true|none|none|
+|id|integer|false|read-only|Unique integer value identifying this page|
+|slug|string|false|none|The url slug|
+|label|string|true|none|A label for the link in the menu|
+|title|string|true|none|The title of this page|
+|alternative_url|string|false|none|An url usable in alternative to the full body of the page (typically for the menu)|
+|html_body|string¦null|false|none|The html body pf the page|
+|visible_in_menu|boolean|false|none|Is this page visible in menu?|
+|order|integer|false|none|The extraction order of the page|
+|created_at|string(date-time)|false|none|datetime of creation|
+|lastmod_datetime|string(date-time)|false|none|last modify datetime|
+|active|boolean|false|none|Is this page active?|
+|created_by|integer|true|none|The id of the creator of this page|
