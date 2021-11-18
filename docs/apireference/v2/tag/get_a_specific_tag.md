@@ -8,7 +8,11 @@ This endpoint retrieves a specific tag
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires authentication only if `content_availability` community option is false.
+
+This operation can be done by not administrators users and it will return only a public visible and active tag.
+
+If this operation has been done by an administrator user it will show all tag details and not active, not visible or deleted tag also.
 
 :::
 
@@ -64,9 +68,10 @@ curl -X GET /api/v2/tag/{id}/ \
 </Tabs>
 ````
 
+
 ## Responses
 
-### Response Schema|Status|Meaning|Description|Schema|
+|Status|Meaning|Description|Schema|
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Tag](../schemas/tag)|
 
@@ -75,8 +80,8 @@ curl -X GET /api/v2/tag/{id}/ \
 
 ````mdx-code-block
 
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
+<Tabs defaultValue="200 (administrator)" values={[{ label: '200 (administrator)', value: '200 (administrator)', }, { label: '200 (normal user)', value: '200 (normal user)', }]}>
+<TabItem value="200 (administrator)">
 
 ```json
 {
@@ -90,6 +95,20 @@ curl -X GET /api/v2/tag/{id}/ \
   "created_at": "2019-08-24T14:15:22Z",
   "active": true,
   "deleted": false
+}
+```
+
+</TabItem>
+
+<TabItem value="200 (normal user)">
+
+```json
+{
+  "id": 0,
+  "type": "string",      
+  "name": "string",      
+  "description": "string",
+  "color": "string"
 }
 ```
 

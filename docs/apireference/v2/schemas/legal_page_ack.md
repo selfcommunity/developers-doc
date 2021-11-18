@@ -5,7 +5,7 @@ title: Legal Page Ack
 ---
 
 ```json
-{
+{ 
   "id": 0,
   "accepted_at": "2019-08-24T14:15:22Z",
   "not_accepted_at": "2019-08-24T14:15:22Z",
