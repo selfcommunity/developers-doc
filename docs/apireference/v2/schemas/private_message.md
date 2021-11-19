@@ -25,4 +25,4 @@ title: Private Message
 |message|string|true|none|Text message|
 |created_at|string(date-time)|false|read-only|Send date time|
 |status|string|true|none|Message status: created, deleted or hidden message|
-|file|[Private Message File](../schemas/private_message_file)]|true|none|The private message file|
+|file|[Private Message File](../schemas/private_message_file)|true|none|The private message file|
