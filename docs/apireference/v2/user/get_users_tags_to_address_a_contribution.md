@@ -76,25 +76,19 @@ curl -X GET /api/v2/user/tag/tags_to_address_a_contribution/ \
 [
     {
       "id": 0,
-      "active": true,
       "type": "user",
       "name": "string",
       "description": "string",
       "color": "string",
-      "visible": true,
-      "deleted": true,
-      "created_at": "2019-08-24T14:15:22Z"
+      "visible": true
     },
     {
       "id": 0,
-      "active": true,
       "type": "user",
       "name": "string",
       "description": "string",
       "color": "string",
-      "visible": true,
-      "deleted": true,
-      "created_at": "2019-08-24T14:15:22Z"
+      "visible": false
     }
 ]
 ```
