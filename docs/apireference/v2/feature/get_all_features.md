@@ -25,7 +25,7 @@ This operation does not require authentication
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
 |name|query|string|false|Filter using field name.|
-
+|search|query|string|false|A search term.|
 
 ### Example Request
 
