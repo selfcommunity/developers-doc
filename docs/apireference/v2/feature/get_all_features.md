@@ -84,7 +84,7 @@ Status Code **200**
 |» count|integer|false|none|Total results count|
 |» next|string(uri)¦null|false|none|Next page url|
 |» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Feature](../schemas/feature))|false|none|List of results|
+|» results|list([Feature](/docs/apireference/v2/schemas/feature))|false|none|List of results|
 
 ### Example responses
 
