@@ -96,14 +96,32 @@ Status Code **200**
             "username": "string",
             "real_name": "string",
             "avatar": "url",
-            "ext_id": "string"
+            "ext_id": "string",
+            "connection_requests_sent_counter": 0,
+            "connection_requests_received_counter": 0,
+            "connections_counter": 0,
+            "followings_counter": 3,
+            "followers_counter": 4,
+            "posts_counter": 4,
+            "discussions_counter": 0,
+            "statuses_counter": 0,
+            "polls_counter": 1            
         },
         {
             "id": 123,
             "username": "string",
             "real_name": "string",
             "avatar": "url",
-            "ext_id": "string"
+            "ext_id": "string",
+            "connection_requests_sent_counter": 0,
+            "connection_requests_received_counter": 0,
+            "connections_counter": 0,
+            "followings_counter": 3,
+            "followers_counter": 4,
+            "posts_counter": 4,
+            "discussions_counter": 0,
+            "statuses_counter": 0,
+            "polls_counter": 1    
         },
   ]
 }
