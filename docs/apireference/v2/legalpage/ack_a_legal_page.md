@@ -4,7 +4,7 @@ sidebar_position: 3
 title: Ack a Legal Page
 ---
 
-This endpoint perform ack of a Legal Page.
+This endpoint performs ack of a Legal Page.
 
 :::info
 

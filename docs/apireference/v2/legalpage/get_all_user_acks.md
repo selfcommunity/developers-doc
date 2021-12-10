@@ -8,20 +8,16 @@ This endpoint retrieves all user acks.
 
 :::info
 
-This operation require authentication.
+This operation requires authentication.
 
 :::
 
 
 ## HTTP Request
 
-`GET /api/v2/legal_page/{id}/user_acks/`
+`GET /api/v2/legal_page/user_acks/`
 
-### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this legal page.|
 
 ### Example Request
 
@@ -38,7 +34,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/legal_page/{id}/user_acks/',
+fetch('/api/v2/legal_page/user_acks/',
 {
   method: 'GET',
   headers: headers
@@ -56,7 +52,7 @@ fetch('/api/v2/legal_page/{id}/user_acks/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/legal_page/{id}/user_acks/ \
+curl -X GET /api/v2/legal_page/user_acks/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
