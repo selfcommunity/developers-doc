@@ -228,6 +228,8 @@ curl -X PUT /api/v2/status/{id}/ \
   "collapsed": false,
   "comment_count": 0,
   "vote_count": 0,
+  "followed": false,
+  "suspended": true,
   "flag_count": 0,
   "share_count": 0,
   "addressing": []

@@ -105,7 +105,8 @@ Status Code **200**
             "posts_counter": 4,
             "discussions_counter": 0,
             "statuses_counter": 0,
-            "polls_counter": 1            
+            "polls_counter": 1,
+            "connection_status": "string"             
         },
         {
             "id": 123,
@@ -121,7 +122,8 @@ Status Code **200**
             "posts_counter": 4,
             "discussions_counter": 0,
             "statuses_counter": 0,
-            "polls_counter": 1    
+            "polls_counter": 1,
+            "connection_status": "string"     
         },
   ]
 }

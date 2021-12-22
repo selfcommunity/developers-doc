@@ -86,6 +86,9 @@ title: Status
   "collapsed": false,
   "comment_count": 0,
   "vote_count": 0,
+  "voted": false,
+  "followed": false,
+  "suspended": true,
   "flag_count": 0,
   "share_count": 0,
   "addressing": []
@@ -116,6 +119,8 @@ title: Status
 |share_count|integer|false|read-only|none|
 |vote_count|integer|false|read-only|none|
 |voted|boolean|false|read-only|true if the logged user has already voted the status|
+|followed|boolean|false|read-only|true if the logged user follows the status|
+|suspended|boolean|false|read-only|true if the logged user has suspended the notifications for the status|
 |flag_count|integer|false|read-only|none|
 |addressing|[integer]|false|none|none|
 

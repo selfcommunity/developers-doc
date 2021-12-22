@@ -1,26 +1,26 @@
 ---
-sidebar_label: Get list of related Discussions
+sidebar_label: Get list of related Statuses
 sidebar_position: 9
-title: Get list of related Discussions
+title: Get list of related Statuses
 ---
 
-This endpoint retrieves related discussions
+This endpoint retrieves related statuses
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false
+This operation requires authentication only if `content_availability` community option is false.
 
 :::
 
 ## HTTP Request
 
-`GET /api/v2/discussion/{id}/related/`
+`GET /api/v2/status/{id}/related/`
 
 ### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this discussion.|
+|id|path|string|true|A unique integer value identifying this status.|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
 
@@ -39,7 +39,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/discussion/{id}/related/',
+fetch('/api/v2/status/{id}/related/',
 {
   method: 'GET',
 
@@ -58,7 +58,7 @@ fetch('/api/v2/discussion/{id}/related/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/discussion/{id}/related/ \
+curl -X GET /api/v2/status/{id}/related/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
@@ -75,7 +75,7 @@ Status Code **200**
 |» count|integer|true|none|Total results count|
 |» next|string¦null|false|none|Next page url|
 |» previous|string¦null|false|none|Previous page url|
-|» results|list([Discussion](../schemas/discussion))|true|none|List of results|
+|» results|list([Status](../schemas/status))|true|none|List of results|
 
 ### Example responses
 

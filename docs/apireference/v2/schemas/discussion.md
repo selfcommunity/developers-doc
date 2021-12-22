@@ -112,6 +112,8 @@ title: Discussion
   "share_count": 0,
   "vote_count": 0,
   "voted": false,
+  "followed": false,
+  "suspended": true,
   "flag_count": 0,
   "addressing": [
     0
@@ -163,6 +165,8 @@ title: Discussion
 |share_count|integer|false|read-only|none|
 |vote_count|integer|false|read-only|none|
 |voted|boolean|false|read-only|true if the logged user has already voted the discussion|
+|followed|boolean|false|read-only|true if the logged user follows the discussion|
+|suspended|boolean|false|read-only|true if the logged user has suspended the notifications for the discussion|
 |flag_count|integer|false|read-only|none|
 |addressing|[integer]|false|none|none|
 |follower_count|string|false|read-only|none|

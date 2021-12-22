@@ -282,6 +282,8 @@ curl -X POST /api/v2/post/ \
   "comment_count": 0,
   "vote_count": 0,
   "voted": false,
+  "followed": false,
+  "suspended": true,
   "flag_count": 0,
   "share_count": 0,
   "addressing": []

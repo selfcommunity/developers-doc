@@ -108,6 +108,8 @@ title: Post
   "share_count": 0,
   "vote_count": 0,
   "voted": false,
+  "followed": false,
+  "suspended": true,
   "flag_count": 0,
   "addressing": [
     0
@@ -155,6 +157,8 @@ title: Post
 |share_count|integer|false|read-only|none|
 |vote_count|integer|false|read-only|none|
 |voted|boolean|false|read-only|true if the logged user has already voted the post|
+|followed|boolean|false|read-only|true if the logged user follows the post|
+|suspended|boolean|false|read-only|true if the logged user has suspended the notifications for the post|
 |flag_count|integer|false|read-only|none|
 |addressing|[integer]|false|none|none|
 

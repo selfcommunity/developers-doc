@@ -1,21 +1,20 @@
 ---
-sidebar_label: Get All Discussions
-sidebar_position: 1
-title: Get All Discussions
+sidebar_label: Get List of Following Posts
+sidebar_position: 23
+title: Get List of Following Posts
 ---
 
-This endpoint retrieves all discussions.
+This endpoint retrieves all followed posts by me
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false
+This operation requires authentication.
 
 :::
 
-
 ## HTTP Request
 
-`GET /api/v2/discussion/`
+`GET /api/v2/post/following/`
 
 ### Parameters
 
@@ -23,7 +22,6 @@ This operation requires authentication only if `content_availability` community 
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
-|ordering|query|string|false|Which field to use when ordering the results. For sorting desc use - in front of the field name. Default to -added_at. Available values are added_at, last_activity_at|
 
 ### Example Request
 
@@ -40,10 +38,9 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/discussion/',
+fetch('/api/v2/post/following/',
 {
   method: 'GET',
-
   headers: headers
 })
 .then(function(res) {
@@ -59,7 +56,7 @@ fetch('/api/v2/discussion/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/discussion/ \
+curl -X GET /api/v2/post/following/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
@@ -67,22 +64,16 @@ curl -X GET /api/v2/discussion/ \
 </Tabs>
 ````
 
-## Responses
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
-
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|true|none|Total results count|
-|» next|string¦null|false|none|Next page url|
-|» previous|string¦null|false|none|Previous page url|
-|» results|list([Discussion](../schemas/discussion))|true|none|List of results|
+|Name|Type|Required|Restrictions| Description                                                        |
+|---|---|---|---|--------------------------------------------------------------------|
+|» count|integer|true|none| Total results count                                                |
+|» next|string¦null|false|none| Next page url                                                      |
+|» previous|string¦null|false|none| Previous page url                                                  |
+|» results|list([Post](/docs/apireference/v2/schemas/post))|true|none|List of posts and a field added_at that represent the timestamp|
 
 ### Example responses
 
@@ -92,6 +83,7 @@ Status Code **200**
 <Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
 <TabItem value="200">
 
+
 ```json
 {
   "count": 123,
@@ -99,7 +91,10 @@ Status Code **200**
   "previous": "string",
   "results": [
     {
+    "added_at": "2021-12-03T16:42:20.808402+01:00",
+    "thread": {    
       "id": 0,
+      "type": "post",
       "categories": [
         {
           "id": 0,
@@ -207,8 +202,8 @@ Status Code **200**
       "comment_count": 0,
       "vote_count": "string",
       "voted": false,
-      "followed": false,
-      "suspended": true,
+      "followed": true,
+      "suspended": false,
       "flag_count": 0,
       "share_count": 0,
       "addressing": [],
@@ -217,6 +212,7 @@ Status Code **200**
       "view_count": 1,
       "follower_count": "string"
     }
+   }
   ]
 }
 ```

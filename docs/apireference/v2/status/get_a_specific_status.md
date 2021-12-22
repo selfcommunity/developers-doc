@@ -168,6 +168,8 @@ curl -X GET /api/v2/status/{id}/ \
   "comment_count": 0,
   "vote_count": 0,
   "voted": false,
+  "followed": false,
+  "suspended": true,
   "share_count": 0,
   "flag_count": 0,
   "addressing": []

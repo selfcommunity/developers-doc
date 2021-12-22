@@ -187,6 +187,8 @@ Status Code **200**
       "share_count": 0,
       "vote_count": 0,
       "voted": false,
+      "followed": false,
+      "suspended": true,
       "flag_count": 0,
       "addressing": [
         0

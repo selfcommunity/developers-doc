@@ -1,21 +1,20 @@
 ---
-sidebar_label: Get All Discussions
-sidebar_position: 1
-title: Get All Discussions
+sidebar_label: Get All Uncommented Statuses
+sidebar_position: 2
+title: Get All Uncommented Statuses
 ---
 
-This endpoint retrieves all discussions.
+This endpoint retrieves all uncommented statuses.
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false
+This operation requires authentication
 
 :::
 
-
 ## HTTP Request
 
-`GET /api/v2/discussion/`
+`GET /api/v2/statuse/uncommented/`
 
 ### Parameters
 
@@ -23,7 +22,6 @@ This operation requires authentication only if `content_availability` community 
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
-|ordering|query|string|false|Which field to use when ordering the results. For sorting desc use - in front of the field name. Default to -added_at. Available values are added_at, last_activity_at|
 
 ### Example Request
 
@@ -40,7 +38,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/discussion/',
+fetch('/api/v2/statuse/uncommented/',
 {
   method: 'GET',
 
@@ -59,7 +57,7 @@ fetch('/api/v2/discussion/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/discussion/ \
+curl -X GET /api/v2/statuse/uncommented/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
@@ -82,7 +80,8 @@ Status Code **200**
 |» count|integer|true|none|Total results count|
 |» next|string¦null|false|none|Next page url|
 |» previous|string¦null|false|none|Previous page url|
-|» results|list([Discussion](../schemas/discussion))|true|none|List of results|
+|» results|list([Status](../schemas/statuse))|true|none|List of results|
+
 
 ### Example responses
 

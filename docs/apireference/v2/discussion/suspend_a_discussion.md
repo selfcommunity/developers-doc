@@ -1,27 +1,27 @@
 ---
-sidebar_label: Delete a Specific Category
-sidebar_position: 7
-title: Delete a Specific Category
+sidebar_label: Suspend a Discussion
+sidebar_position: 16
+title: Suspend a Discussion
 ---
 
-This endpoint deletes a specific category identified by {id}. 
-
+This endpoint suspends the notifications for the selected discussion.
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires authentication.
 
 :::
 
+
 ## HTTP Request
 
-`DELETE /api/v2/category/{id}/`
+`POST /api/v2/discussion/{id}/suspend/`
 
 ### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this category.|
+|id|path|string|true|A unique integer value identifying this discussion.|
 
 ### Example Request
 
@@ -34,13 +34,14 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const headers = {
-  'Content-Type':'application/x-www-form-urlencoded',
+  'Content-Type':'application/json',
   'Accept':'application/json',
-  'Authorization: Bearer <token>'
+  'Authorization': 'Bearer {access_token}'
 };
-fetch('/api/v2/category/{id}/',
+
+fetch('/api/v2/discussion/{id}/suspend/',
 {
-  method: 'DELETE',
+  method: 'POST',
   headers: headers
 })
 .then(function(res) {
@@ -49,7 +50,6 @@ fetch('/api/v2/category/{id}/',
     console.log(body);
 });
 
-
 ```
 
 </TabItem>
@@ -57,8 +57,10 @@ fetch('/api/v2/category/{id}/',
 
 ```bash
 # You can also use wget
-curl -X DELETE /api/v2/category/{id}/
-  -H "Authorization: Bearer <token>"
+curl -X POST /api/v2/discussion/{id}/suspend/ \
+  -H 'Content-Type: application/json' \
+  -H 'Accept: application/json' \
+  -H 'Authorization: Bearer {access_token}'
 ```
 </TabItem>
 </Tabs>

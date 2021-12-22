@@ -227,6 +227,8 @@ curl -X POST /api/v2/status/ \
   "collapsed": false,
   "comment_count": 0,
   "vote_count": 0,
+  "followed": false,
+  "suspended": true,
   "flag_count": 0,
   "share_count": 0,
   "addressing": []
