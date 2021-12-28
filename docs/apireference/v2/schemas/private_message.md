@@ -22,7 +22,8 @@ title: Private Message
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|Unique integer value identifying this private message|
+|sender_id|integer|false|read-only|The id of the user who sent the message|
 |message|string|true|none|Text message|
 |created_at|string(date-time)|false|read-only|Send date time|
 |status|string|true|none|Message status: created, deleted or hidden message|
-|file|[Private Message File](../schemas/private_message_file)|true|none|The private message file|
+|file|[File](../schemas/file)|true|none|The private message file|

@@ -1,31 +1,34 @@
 ---
-sidebar_label: Upload a Media
-sidebar_position: 6
-title:  Upload a Media
+sidebar_label: Chunk Upload Done
+sidebar_position: 8
+title: Chunk Upload Done
 ---
 
-This endpoint uploads a media.
+This endpoint finalizes the chunk upload and creates the [File](../schemas/file)
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication
 
 :::
 
 ## HTTP Request
 
-`POST /api/v2/pm/upload/`
+`POST /api/v2/pm/upload/?done/`
 
 ### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|qqfile|body|string|true|The file to upload|
-|qqfiletype|body|string|false|The type of the file to upload|
-|qqfilename|body|string|false|The name of the file to upload|
-|qqduration|body|integer|false|The duration (in seconds) of the video or audio track to upload|
-|qqtotalfilesize|body|integer|false|The size of the file to upload|
+|done|query|string|true|none|
+|qquuid|body|string|true|The file uuid returned by the first chunk upload|
+|qqfilename|body|string|true|The name of the file to upload|
+|qqtotalparts|body|integer|false|The number of total parts of the chunk to upload|
 |qqmd5|body|string|false|The MD5 of the file to upload|
+|qqfiletype|body|string|false|The type of the file to upload|
+|qqtotalfilesize|body|integer|false|The size of the file to upload|
+
+
 
 #### Example Body Parameters
 
@@ -38,7 +41,9 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
- qqfile: "string"   
+  "qquuid": "string",
+  "qqfilename": "string"
+  "qqtotalparts": 5
 }
 ```
 
@@ -54,14 +59,19 @@ import TabItem from '@theme/TabItem';
 <TabItem value="js">
 
 ```js
+const inputBody = '{
+  "qquuid": "string",
+  "qqfilename": "string",
+  "qqtotalparts": "5"
+}';
 const headers = {
-  'Accept':'application/json',
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/pm/upload/',
+fetch('/api/v2/pm/upload/?done/',
 {
   method: 'POST',
+  body: inputBody,
   headers: headers
 })
 .then(function(res) {
@@ -77,9 +87,10 @@ fetch('/api/v2/pm/upload/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/pm/upload/ \
-  -H 'Accept: application/json' \
-  -H 'Authorization: Bearer {access_token}'
+curl -X POST /api/v2/pm/upload/?done/ \
+  -H "Authorization: Bearer {access_token}"
+  --body-data 'qquuid=5ffbebd3-60a7-4b35-ba39-74e7021b0e44&qqfilename=compressed.tracemonkey-pldi-09.pdf&qqtotalparts=5' \
+   'https://apiv2.quentrix.com/api/v2/pm/upload/?done'
 ```
 </TabItem>
 </Tabs>
@@ -89,17 +100,7 @@ curl -X POST /api/v2/pm/upload/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|Inline|
-
-### Response Schema
-
-Status Code **201**
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|file_url|string|false|none|The file url|
-|file_uuid|string|false|read-only|The file id|
-
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[File](../schemas/file)|
 
 ### Example responses
 

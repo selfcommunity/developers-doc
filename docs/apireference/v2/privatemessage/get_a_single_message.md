@@ -65,20 +65,7 @@ curl -X GET /api/v2/pm/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
-
-### Response Schema
-
-Status Code **200**
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|The id of the message|
-|sender_id|integer|false|read-only|The id of the user who sent the message|
-|message|string|false|read-only|The content of the message|
-|created_at|string(date-time)|false|read-only|Creation date time|
-|status|string|false|read-only|The status of the message|
-|file|blob|false|read-only|The file attached to the message|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Private Message](../schemas/private_message)|
 
 ### Example responses
 
@@ -95,7 +82,15 @@ Status Code **200**
     "message": "string",
     "created_at": "2021-12-27T11:10:27.729971+01:00",
     "status": "string",
-    "file": blob
+    "file": {
+        "uuid": "string",
+        "filename": "string",
+        "filesize": 17037,
+        "mimetype": "string",
+        "duration": 120,
+        "url": "string",
+        "thumbnail": "string"
+    }
 }
 ```
 

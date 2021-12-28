@@ -23,6 +23,7 @@ This operation requires authentication. The logged user must be followed by reci
 |---|---|---|---|---|
 |recipients|body|integer|true|The id(s) of the recipient(s) of the message|
 |message|body|string|true|The content of the message|
+|file|body|[File](../schemas/file)|false|The private message file|
 
 #### Example Body Parameters
 
@@ -88,22 +89,7 @@ curl -X POST /api/v2/pm/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|Inline|
-
-
-### Response Schema
-
-Status Code **201**
-
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|The id of the message|
-|sender_id|integer|false|read-only|The id of the user who sent the message|
-|message|string|false|read-only|The content of the message|
-|created_at|string(date-time)|false|read-only|Creation date time|
-|status|string|false|read-only|The status of the message|
-|file|blob|false|read-only|The file attached to the message|
-
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Private Message](../schemas/private_message)|
 
 ### Example responses
 
@@ -120,7 +106,15 @@ Status Code **201**
     "message": "string",
     "created_at": "2021-12-27T11:10:27.729971+01:00",
     "status": "string",
-    "file": blob
+    "file": {
+          "uuid": "string",
+          "filename": "string",
+          "filesize": 17037,
+          "mimetype": "string",
+          "duration": 120,
+          "url": "string",
+          "thumbnail": "string"
+          }
 }
 ```
 
