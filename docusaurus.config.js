@@ -70,6 +70,12 @@ const config = {
             label: 'Webhook',
           },
           {
+            type: 'doc',
+            docId: 'sdk/intro',
+            position: 'right',
+            label: 'SDK',
+          },
+          {
             href: 'https://github.com/selfcommunity',
             position: 'right',
             className: 'header-github-link',
@@ -94,6 +100,10 @@ const config = {
               {
                 label: 'Webhooks',
                 to: '/docs/webhooks/intro',
+              },
+              {
+                label: 'SDK',
+                to: '/docs/sdk/intro',
               },
             ],
           },
