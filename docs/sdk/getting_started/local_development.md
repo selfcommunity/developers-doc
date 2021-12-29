@@ -29,9 +29,9 @@ Requiring an sc-core component from this package, use the exact code currently l
 what is published on npm.
 
 ### sc-templates
-Contains full community pages components usefull to integrate a community in a frontend service context.
+Contains full community pages components useful to integrate a community in a frontend service context.
 
-### sc-ui
+### sc-i18n
 Contains i18n.
 ````
 
