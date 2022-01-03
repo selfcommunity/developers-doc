@@ -22,8 +22,8 @@ This operation requires authentication. The logged user must be followed by reci
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |recipients|body|integer|true|The id(s) of the recipient(s) of the message|
-|message|body|string|true|The content of the message|
-|file|body|[File](../schemas/file)|false|The private message file|
+|message|body|string|false*|The content of the message. It is required when file_uuid param is missing|
+|file_uuid|body|[File](../schemas/file)|false|The private message file|
 
 #### Example Body Parameters
 
@@ -96,8 +96,8 @@ curl -X POST /api/v2/pm/ \
 
 ````mdx-code-block
 
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
+<Tabs defaultValue="201" values={[{ label: '201', value: '201', }]}>
+<TabItem value="201">
 
 ```json
 {

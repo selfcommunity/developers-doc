@@ -13,6 +13,12 @@ This operation requires authentication. The logged user must be the message send
 
 :::
 
+:::info
+
+If the message was sent less than 60 seconds before it is deleted and hidden from the thread (and the status is set to deleted); otherwise it is overwritten by the message "Message delete" and the status is set to hidden.
+
+:::
+
 
 ## HTTP Request
 

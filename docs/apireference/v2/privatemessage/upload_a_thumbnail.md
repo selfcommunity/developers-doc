@@ -1,14 +1,20 @@
 ---
-sidebar_label: Upload a Media
+sidebar_label: Upload a Thumbnail
 sidebar_position: 6
-title:  Upload a Media
+title:  Upload a Thumbnail
 ---
 
-This endpoint uploads a media.
+This endpoint uploads a thumbnail.
 
 :::info
 
 This operation requires authentication.
+
+:::
+
+:::info
+
+This endpoint always follows [Upload a Media](../privatemessage/upload_a_media) or [Upload a Media in Chunks](../privatemessage/upload_a_media_in_chunks).
 
 :::
 
@@ -20,10 +26,10 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|qqfile|body|blob|true|The file to upload|
+|qqfile|body|image|true|The file to upload|
+|qqparentuuid|body|string|true|The parent file uuid. It has to be the file_uuid returned by the previous call|
 |qqfiletype|body|string|false|The type of the file to upload|
 |qqfilename|body|string|false|The name of the file to upload|
-|qqduration|body|integer|false|The duration (in seconds) of the video or audio track to upload|
 |qqtotalfilesize|body|integer|false|The size of the file to upload|
 |qqmd5|body|string|false|The MD5 of the file to upload|
 
@@ -38,7 +44,8 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
- qqfile: "blob"   
+ qqfile: "image",
+ qqparentuuid: "string"
 }
 ```
 
@@ -99,6 +106,7 @@ Status Code **200**
 |---|---|---|---|---|
 |file_url|string|false|none|The file url|
 |file_uuid|string|false|read-only|The file id|
+|parent_file_uuid|string|false|read-only|The parent file id|
 
 
 ### Example responses
@@ -112,7 +120,8 @@ Status Code **200**
 ```json
 {
     "file_url": "string",
-    "file_uuid": "string"
+    "file_uuid": "string",
+    "parent_file_uuid": "string"
 }
 ```
 
