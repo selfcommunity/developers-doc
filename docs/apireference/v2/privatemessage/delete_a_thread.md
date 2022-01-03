@@ -21,7 +21,7 @@ The thread is deleted only for the logged user.
 
 ## HTTP Request
 
-`DELETE /api/v2/pm/{id}/`
+`DELETE /api/v2/pm/{id}/?hide=1`
 
 ### Example Request
 
