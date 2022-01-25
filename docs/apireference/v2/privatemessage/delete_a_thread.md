@@ -10,18 +10,18 @@ This endpoint deletes a thread.
 :::info
 
 This operation requires authentication.
+
 :::
 
+:::info
+
+The thread is deleted only for the logged user.
+
+:::
 
 ## HTTP Request
 
-`DELETE /api/v2/pm/{id}/`
-
-### Parameters
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|hide|query|integer|true|The id of the thread to hide|
+`DELETE /api/v2/pm/{id}/?hide=1`
 
 ### Example Request
 
@@ -38,7 +38,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/pm/{id}/?hide={id}',
+fetch('/api/v2/pm/{id}/?hide=1',
 {
   method: 'DELETE',
   headers: headers
@@ -56,7 +56,7 @@ fetch('/api/v2/pm/{id}/?hide={id}',
 
 ```bash
 # You can also use wget
-curl -X DELETE /api/v2/pm/{id}/?hide={id} \
+curl -X DELETE /api/v2/pm/{id}/?hide=1 \
   -H 'Authorization: Bearer {access_token}'
 ```
 </TabItem>
