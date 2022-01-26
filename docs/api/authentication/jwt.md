@@ -227,7 +227,7 @@ const inputBody = {
 
 fetch('/api/v2/jwt/verify_token/',
 {
-  method: 'GET',
+  method: 'POST',
   headers: headers,
   body: inputBody
 })
@@ -245,7 +245,7 @@ This Endpoint test the validity of the token. It verifies the JWS (Signature) of
 
 <h4 id="http-request">HTTP Request</h4>
 
-`GET /api/v2/jwt/verify_token/`
+`POST /api/v2/jwt/verify_token/`
 
 <h4 id="VerifyJwt-responses">Responses</h4>
 
