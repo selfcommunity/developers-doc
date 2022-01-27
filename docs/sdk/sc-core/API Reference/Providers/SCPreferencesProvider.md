@@ -8,7 +8,9 @@ title: SCPreferencesProvider
 This component imports all preferences and features enabled.
 :::
 
-## Create Global Context
+## SCPreferencesContext()
+
+Creates global context.
 
 ````mdx-code-block
 import TabItem from '@theme/TabItem';
@@ -32,14 +34,23 @@ export const SCPreferencesContext = createContext<SCPreferencesContextType>({} a
 
 ```jsx
 1. <SCPreferencesContext.Consumer>{(preferences) => (...)}</SCPreferencesContext.Consumer>
+```
+```jsx
 2. const scPreferences: SCPreferencesType = usePreferencesContext(SCPreferencesContext);
+```
+```jsx
 3. const scPreferences: SCPreferencesType = useSCPreferences();
 ````
 </TabItem>
 
 :::
 
+## Members
 
+<a name="useEffect"></a>
+
+### useEffect
+Loads all dynamic preferences and features enabled to manage project configurations.
 
 ## Functions
 

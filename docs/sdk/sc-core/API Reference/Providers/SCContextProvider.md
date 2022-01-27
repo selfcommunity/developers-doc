@@ -8,7 +8,9 @@ title: SCContextProvider
 This component imports all providers.
 :::
 
-## Create Global Context
+## SCContext()
+
+Creates global context.
 
 ````mdx-code-block
 import TabItem from '@theme/TabItem';
@@ -32,7 +34,11 @@ export const SCContext = createContext<SCContextType>({} as SCContextType);
 
 ```jsx
 1. <SCContext.Consumer>{settings => (...)}</SCContext.Consumer>
+```
+```jsx
 2. const scContext: SCContextType = useContext(SCContext);
+```
+```jsx
 3. const scContext: SCContextType = useSCContext();
 ````
 </TabItem>

@@ -9,7 +9,9 @@ This component makes the notification context available down the React tree.
 :::
 
 
-## Create Global Context
+## SCNotificationContext()
+
+Creates global context.
 
 ````mdx-code-block
 import TabItem from '@theme/TabItem';
@@ -33,12 +35,40 @@ export const SCNotificationContext = createContext<SCNotificationContextType>({}
 
 ```jsx
 1. <SCNotificationContext.Consumer>{(wsInstance, subscribe,) => (...)}</SCNotificationContext.Consumer>
+```
+```jsx
 2. const scNotificationContext: SCNotificationContextType = useContext(SCNotificationContext);
+```
+```jsx
 3. const scNotificationContext: SCNotificationContextType = useSCNotification();
 ````
 </TabItem>
 
 :::
+
+
+## Members
+
+- [receiveMessage](#receiveMessage)
+- [useEffect](#useEffect)
+
+<a name="receiveMessage"></a>
+
+### receiveMessage(data)
+
+Receive a message from wsInstance.
+
+| Param |
+| --- |
+| data |
+
+<a name="useEffect"></a>
+
+### useEffect
+
+Checks if there is a currently active session and a
+wsInstance connection when the provider is mounted for the first time.
+If there is an error, it means there is no session.
 
 
 

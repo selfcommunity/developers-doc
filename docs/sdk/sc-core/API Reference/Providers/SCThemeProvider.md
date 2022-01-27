@@ -1,7 +1,7 @@
 ---
-sidebar_label: SCContextProvider
+sidebar_label: SCThemeProvider
 sidebar_position: 1
-title: SCContextProvider
+title: SCThemeProvider
 ---
 
 :::info
@@ -10,7 +10,9 @@ It should preferably be used at <strong>the root of your component tree</strong>
 See: https://mui.com/system/styled/
 :::
 
-## Create Global Context
+## SCThemeContext()
+
+Create global context.
 
 ````mdx-code-block
 import TabItem from '@theme/TabItem';
@@ -34,12 +36,27 @@ export const SCThemeContext = createContext<SCThemeContextType>({} as SCThemeCon
 
 ```jsx
 1. <SCThemeContext.Consumer>{(theme,) => (...)}</SCThemeContext.Consumer>
+```
+```jsx
 2. const scThemeContext: SCThemeContextType = useContext(SCThemeContext);
+```
+```jsx
 3. const scThemeContext: SCThemeContextType = useSCTheme();
 ````
 </TabItem>
 
 :::
+
+
+## Members
+
+### withSCTheme(Component)
+
+Exports hoc to inject the base theme to components.
+
+| Param |
+| --- |
+| Component | 
 
 ## Functions
 

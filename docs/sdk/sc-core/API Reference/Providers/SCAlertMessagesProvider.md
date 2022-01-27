@@ -4,9 +4,13 @@ sidebar_position: 1
 title: SCAlertMessagesProvider
 ---
 
+:::info
+This component makes the `intl` available down the React tree.
+:::
 
+## SCAlertMessagesContext()
 
-## Create Global Context
+Creates global context.
 
 ````mdx-code-block
 import TabItem from '@theme/TabItem';
@@ -30,7 +34,11 @@ export const SCAlertMessagesContext = createContext<SCAlertMessagesContextType>(
 
 ```jsx
 1. <SCAlertMessagesContext.Consumer>{(options,) => (...)}</SCAlertMessagesContext.Consumer>
-2. const scAlertMessagesContext: SCAlertMessagesContextType = useContext(SCAlertMessagesContext);
+```
+```jsx
+2. const scAlertMessagesContext: SCAlertMessagesContextType = useContext(SCAlertMessagesContext)
+```
+```jsx
 3. const scAlertMessagesContext: SCAlertMessagesContextType = useSCAlertMessages();
 ````
 </TabItem>
