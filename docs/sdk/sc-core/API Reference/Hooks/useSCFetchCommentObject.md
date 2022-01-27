@@ -4,23 +4,35 @@ sidebar_position: 1
 title: useSCFetchCommentObject
 ---
 
-
-<a name="useSCFetchCommentObject"></a>
+:::info
+This custom hooks is used to fetch a comment.
+:::
 
 ## useSCFetchCommentObject(id, commentObject)
-<p>Custom hook 'useSCFetchCommentObject'
-Use this hook to fetch a comment</p>
 
-**Kind**: global function  
-
+ 
 | Param |
 | --- |
 | id | 
 | commentObject | 
 
-<a name="useSCFetchCommentObject..fetchCommentObject"></a>
 
-### useSCFetchCommentObject~fetchCommentObject
-<p>Memoized fetchCommentObject</p>
+## Members
 
-**Kind**: inner constant of [<code>useSCFetchCommentObject</code>](#useSCFetchCommentObject)  
+- [fetchCommentObject](#fetchCommentObject)
+- [useEffect](#useEffect)
+
+
+<a name="fetchCommentObject"></a>
+
+### fetchCommentObject
+Memoized fetchCommentObject.
+
+**Kind**: inner constant of `useSCFetchCommentObject`
+
+<a name="useEffect"></a>
+
+### useEffect
+
+If id and feedObjectType, resolves feedObject.
+

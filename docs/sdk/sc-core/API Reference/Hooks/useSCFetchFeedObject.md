@@ -4,14 +4,12 @@ sidebar_position: 1
 title: useSCFetchFeedObject
 ---
 
-
-<a name="useSCFetchFeedObject"></a>
+:::info
+This custom hooks is used to fetch a feed object.
+:::
 
 ## useSCFetchFeedObject(id, feedObject, feedObjectType)
-<p>Custom hook 'useFetchFeedObject'
-Use this hook to fetch a feed object</p>
 
-**Kind**: global function  
 
 | Param |
 | --- |
@@ -19,9 +17,22 @@ Use this hook to fetch a feed object</p>
 | feedObject | 
 | feedObjectType | 
 
+
+## Members
+
+- [fetchFeedObject](#fetchFeedObject)
+- [useEffect](#useEffect)
+
+
 <a name="useSCFetchFeedObject..fetchFeedObject"></a>
 
-### useSCFetchFeedObject~fetchFeedObject
-<p>Memoized fetchFeedObject</p>
+### fetchFeedObject
+Memoized fetchFeedObject.
 
-**Kind**: inner constant of [<code>useSCFetchFeedObject</code>](#useSCFetchFeedObject)  
+**Kind**: inner constant of `useSCFetchFeedObject` 
+
+<a name="useEffect"></a>
+
+### useEffect
+
+If id and feedObjectType, resolves feedObject.

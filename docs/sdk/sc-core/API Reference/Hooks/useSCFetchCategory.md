@@ -4,25 +4,35 @@ sidebar_position: 1
 title: useSCFetchCategory
 ---
 
+:::info
+This custom hook is used to fetch a category object.
+:::
 
-
-
-<a name="useSCFetchCategory"></a>
 
 ## useSCFetchCategory(id, tag)
-<p>Custom hook 'useSCFetchCategory'
-Use this hook to fetch a category object</p>
-
-**Kind**: global function  
 
 | Param |
 | --- |
 | id | 
 | tag | 
 
-<a name="useSCFetchCategory..fetchCategory"></a>
+## Members 
 
-### useSCFetchCategory~fetchCategory
-<p>Memoized fetchTag</p>
+- [fetchCategory](#fetchCategory)
+- [useEffect](#useEffect)
 
-**Kind**: inner constant of [<code>useSCFetchCategory</code>](#useSCFetchCategory)  
+<a name="fetchCategory"></a>
+
+### fetchCategory
+
+Memoized fetchTag.
+
+**Kind**: inner constant of `useSCFetchCategory`  
+
+
+<a name="useEffect"></a>
+
+### useEffect
+
+If id, attempts to get the category by id.
+

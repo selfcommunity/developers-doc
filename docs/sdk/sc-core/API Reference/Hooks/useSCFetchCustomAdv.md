@@ -4,23 +4,33 @@ sidebar_position: 1
 title: useSCFetchCustomAdv
 ---
 
-
-<a name="useSCFetchCustomAdv"></a>
+:::info
+This custom hooks is used to fetch a custom adv object.
+:::
 
 ## useSCFetchCustomAdv(position, category)
-<p>Custom hook 'useSCFetchCustomAdv'
-Use this hook to fetch a custom adv object</p>
-
-**Kind**: global function  
 
 | Param |
 | --- |
 | position | 
 | category | 
 
-<a name="useSCFetchCustomAdv..fetchCustomAdv"></a>
 
-### useSCFetchCustomAdv~fetchCustomAdv
-<p>Memoized fetchCustomAdv</p>
+## Members
 
-**Kind**: inner constant of [<code>useSCFetchCustomAdv</code>](#useSCFetchCustomAdv)  
+- [fetchCustomAdv](#fetchCustomAdv)
+- [useEffect](#useEffect)
+
+<a name="fetchCustomAdv"></a>
+
+### fetchCustomAdv
+
+Memoized fetchCustomAdv.
+
+**Kind**: inner constant of `useSCFetchCustomAdv`
+
+<a name="useEffect"></a>
+
+### useEffect
+
+If id, attempts to get the adv by id.

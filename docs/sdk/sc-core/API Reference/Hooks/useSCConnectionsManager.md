@@ -2,119 +2,122 @@
 sidebar_label: useSCConnectionsManager
 sidebar_position: 1
 title: useSCConnectionsManager
+
 ---
+:::info
+This custom hook is used to manage to manage friends.
+:::
+
+:::tip
+
+Follow these steps:
+```jsx
+1. const scUserContext: SCUserContextType = useSCUser();
+2. const scConnectionsManager: SCConnectionsManagerType = scUserContext.manager.connections;
+3. scConnectionsManager.status(user)
+```
+:::
+
+## Members
+
+- [refresh](refresh)
+- [requestConnection](#requestConnection)
+- [acceptConnection](#acceptConnection)
+- [getCurrentStatus](#getCurrentStatus)
+- [status](#status)
+- [notificationSubscriber(msg, data)](#notificationSubscriber)
+- [checkUserConnectionStatus(user)](#checkUserConnectionStatus)
+- [useEffect](useEffect)
 
 
-## Constants
+<a name="refresh"></a>
 
-<dl>
-<dt><a href="#STATUS_CONNECTED">STATUS_CONNECTED</a></dt>
-<dd><p>Used on refresh and in status method
-Check if the user status is 'connected', 'sent_connection_request'
-'received_connection_request', to update the cache and data</p></dd>
-</dl>
+### refresh
 
-## Functions
+Memoized refresh all connections.
+It makes a single request to the server and retrieves all the users connected to the authenticated user in a single solution.
+It might be useful for multi-tab sync.
 
-<dl>
-<dt><a href="#useSCConnectionsManager">useSCConnectionsManager()</a></dt>
-<dd><p>Custom hook 'useSCConnectionsManager'
-Use this hook to manage friends:</p>
-<ol>
-<li>const scUserContext: SCUserContextType = useSCUser();</li>
-<li>const scConnectionsManager: SCConnectionsManagerType = scUserContext.manager.connections;</li>
-<li>scConnectionsManager.status(user)</li>
-</ol></dd>
-</dl>
+**Kind**: inner constant of `useSCConnectionsManager`
 
-<a name="STATUS_CONNECTED"></a>
+<a name="requestConnection"></a>
 
-## STATUS\_CONNECTED
-<p>Used on refresh and in status method
-Check if the user status is 'connected', 'sent_connection_request'
-'received_connection_request', to update the cache and data</p>
+### requestConnection
 
-**Kind**: global constant  
-<a name="useSCConnectionsManager"></a>
+Memoized Request connection.
 
-## useSCConnectionsManager()
-<p>Custom hook 'useSCConnectionsManager'
-Use this hook to manage friends:</p>
-<ol>
-<li>const scUserContext: SCUserContextType = useSCUser();</li>
-<li>const scConnectionsManager: SCConnectionsManagerType = scUserContext.manager.connections;</li>
-<li>scConnectionsManager.status(user)</li>
-</ol>
+**Kind**: inner constant of `useSCConnectionsManager`
 
-**Kind**: global function  
+<a name="acceptConnection"></a>
 
-* [useSCConnectionsManager()](#useSCConnectionsManager)
-    * [~refresh](#useSCConnectionsManager..refresh)
-    * [~requestConnection](#useSCConnectionsManager..requestConnection)
-    * [~acceptConnection](#useSCConnectionsManager..acceptConnection)
-    * [~getCurrentStatus](#useSCConnectionsManager..getCurrentStatus)
-    * [~status](#useSCConnectionsManager..status)
-    * [~notificationSubscriber(msg, data)](#useSCConnectionsManager..notificationSubscriber)
-    * [~checkUserConnectionStatus(user)](#useSCConnectionsManager..checkUserConnectionStatus)
+### acceptConnection
 
-<a name="useSCConnectionsManager..refresh"></a>
+Memoized Accept Request connection.
 
-### useSCConnectionsManager~refresh
-<p>Memoized refresh all connections
-It makes a single request to the server and retrieves
-all the users connected by the authenticated user in a single solution
-It might be useful for multi-tab sync</p>
+**Kind**: inner constant of `useSCConnectionsManager`
 
-**Kind**: inner constant of [<code>useSCConnectionsManager</code>](#useSCConnectionsManager)  
-<a name="useSCConnectionsManager..requestConnection"></a>
+<a name="getCurrentStatus"></a>
 
-### useSCConnectionsManager~requestConnection
-<p>Memoized Request connection</p>
+### getCurrentStatus
 
-**Kind**: inner constant of [<code>useSCConnectionsManager</code>](#useSCConnectionsManager)  
-<a name="useSCConnectionsManager..acceptConnection"></a>
+Returns the current user status if exists; otherwise it returns null.
 
-### useSCConnectionsManager~acceptConnection
-<p>Memoized Accept Request connection</p>
+**Kind**: inner constant of `useSCConnectionsManager`
 
-**Kind**: inner constant of [<code>useSCConnectionsManager</code>](#useSCConnectionsManager)  
-<a name="useSCConnectionsManager..getCurrentStatus"></a>
+<a name="status"></a>
 
-### useSCConnectionsManager~getCurrentStatus
-<p>Return current user status if exist,
-otherwise return null</p>
+### status
 
-**Kind**: inner constant of [<code>useSCConnectionsManager</code>](#useSCConnectionsManager)  
-<a name="useSCConnectionsManager..status"></a>
+Memoized status.
+If user is already in cache, checks data user statuses;
+otherwise, it checks if authenticated user is connected with user.
 
-### useSCConnectionsManager~status
-<p>Memoized status
-If user is already in cache -&gt; check data user statuses,
-otherwise, check if auth user is connected with user</p>
+**Kind**: inner constant of `useSCConnectionsManager`
 
-**Kind**: inner constant of [<code>useSCConnectionsManager</code>](#useSCConnectionsManager)  
-<a name="useSCConnectionsManager..notificationSubscriber"></a>
+<a name="notificationSubscriber"></a>
 
-### useSCConnectionsManager~notificationSubscriber(msg, data)
-<p>Notification subscriber only for FOLLOW</p>
+### notificationSubscriber(msg, data)
 
-**Kind**: inner method of [<code>useSCConnectionsManager</code>](#useSCConnectionsManager)  
+Notification subscriber only for `FOLLOW`.
+
+**Kind**: inner method of `useSCConnectionsManager`  
 
 | Param |
 | --- |
 | msg | 
 | data | 
 
-<a name="useSCConnectionsManager..checkUserConnectionStatus"></a>
 
-### useSCConnectionsManager~checkUserConnectionStatus(user)
-<p>Check if the authenticated user is connected with the user
-Update the users cached
-Update user statuses</p>
+<a name="checkUserConnectionStatus"></a>
 
-**Kind**: inner method of [<code>useSCConnectionsManager</code>](#useSCConnectionsManager)  
+### checkUserConnectionStatus(user)
+
+Checks if the authenticated user is connected with the user.
+Updates the users cached and their statuses.
+
+**Kind**: inner method of `useSCConnectionsManager` 
 
 | Param |
 | --- |
 | user | 
 
+<a name="useEffect"></a>
+
+### useEffect
+
+Subscribes to notification types `user_follow`, `user_unfollow`.
+
+
+## Constants
+
+- [Status](#STATUS)
+
+<a name="STATUS"></a>
+
+### STATUS_TYPE
+
+It is used on refresh and in status method.
+Checks if the user status is `connected`, `sent_connection_request` or
+`received_connection_request`  to update the cache and data.
+
+**Kind**: Global constant

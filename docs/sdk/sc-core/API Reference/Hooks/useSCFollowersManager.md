@@ -4,110 +4,107 @@ sidebar_position: 1
 title: useSCFollowedManager
 ---
 
+:::info
+This custom hook is used to manage to manage followed users.
+:::
 
-## Constants
 
-<dl>
-<dt><a href="#STATUS_FOLLOWED">STATUS_FOLLOWED</a></dt>
-<dd><p>Used on refresh and in isFollowed method
-Check if the user status is 'followed'
-to update the cache and data</p></dd>
-</dl>
+:::tip
 
-## Functions
+Follow these steps:
+```jsx
+1. const scUserContext: SCUserContextType = useSCUser();
+2. const scFollowedManager: SCFollowedManagerType = scUserContext.manager.followed;
+3. scFollowedManager.isFollowed(user)
+```
+:::
 
-<dl>
-<dt><a href="#useSCFollowedManager">useSCFollowedManager()</a></dt>
-<dd><p>Custom hook 'useSCFollowedManager'
-Use this hook to manage followed users:</p>
-<ol>
-<li>const scUserContext: SCUserContextType = useSCUser();</li>
-<li>const scFollowedManager: SCFollowedManagerType = scUserContext.manager.followed;</li>
-<li>scFollowedManager.isFollowed(user)</li>
-</ol></dd>
-</dl>
+## Members
 
-<a name="STATUS_FOLLOWED"></a>
+- [refresh](#refresh)
+- [follow](#follow)
+- [getConnectionStatus](#getConnectionStatus)
+- [isFollowed](#isFollowed)
+- [notificationSubscriber(msg, data)](#notificationSubscriber)
+- [checkIsUserFollowed(user)](#checkIsUserFollowed)
+- [useEffect](#useEffect)
 
-## STATUS\_FOLLOWED
-<p>Used on refresh and in isFollowed method
-Check if the user status is 'followed'
-to update the cache and data</p>
+<a name="refresh"></a>
 
-**Kind**: global constant  
-<a name="useSCFollowedManager"></a>
+### refresh
 
-## useSCFollowedManager()
-<p>Custom hook 'useSCFollowedManager'
-Use this hook to manage followed users:</p>
-<ol>
-<li>const scUserContext: SCUserContextType = useSCUser();</li>
-<li>const scFollowedManager: SCFollowedManagerType = scUserContext.manager.followed;</li>
-<li>scFollowedManager.isFollowed(user)</li>
-</ol>
-
-**Kind**: global function  
-
-* [useSCFollowedManager()](#useSCFollowedManager)
-    * [~refresh](#useSCFollowedManager..refresh)
-    * [~follow](#useSCFollowedManager..follow)
-    * [~getConnectionStatus](#useSCFollowedManager..getConnectionStatus)
-    * [~isFollowed](#useSCFollowedManager..isFollowed)
-    * [~notificationSubscriber(msg, data)](#useSCFollowedManager..notificationSubscriber)
-    * [~checkIsUserFollowed(user)](#useSCFollowedManager..checkIsUserFollowed)
-
-<a name="useSCFollowedManager..refresh"></a>
-
-### useSCFollowedManager~refresh
-<p>Memoized refresh all followed
+Memoized refresh all followed users.
 It makes a single request to the server and retrieves
-all the users followed by the authenticated user in a single solution
-It might be useful for multi-tab sync</p>
+all the users followed by the authenticated user in a single solution.
+It might be useful for multi-tab sync.
 
-**Kind**: inner constant of [<code>useSCFollowedManager</code>](#useSCFollowedManager)  
-<a name="useSCFollowedManager..follow"></a>
+**Kind**: inner constant of `useSCFollowedManager`
 
-### useSCFollowedManager~follow
-<p>Memoized follow/unfollow User
-Toggle action</p>
+<a name="follow"></a>
 
-**Kind**: inner constant of [<code>useSCFollowedManager</code>](#useSCFollowedManager)  
-<a name="useSCFollowedManager..getConnectionStatus"></a>
+### follow
 
-### useSCFollowedManager~getConnectionStatus
-<p>Bypass remote check if the user is followed</p>
+Memoized follow/unfollow User, toggle action.
 
-**Kind**: inner constant of [<code>useSCFollowedManager</code>](#useSCFollowedManager)  
-<a name="useSCFollowedManager..isFollowed"></a>
+**Kind**: inner constant of `useSCFollowedManager`
 
-### useSCFollowedManager~isFollowed
-<p>Memoized isFollowed
-If user is already in cache -&gt; check if the user is in followed,
-otherwise, check if auth user follow the user</p>
+<a name="getConnectionStatus"></a>
 
-**Kind**: inner constant of [<code>useSCFollowedManager</code>](#useSCFollowedManager)  
-<a name="useSCFollowedManager..notificationSubscriber"></a>
+### getConnectionStatus
 
-### useSCFollowedManager~notificationSubscriber(msg, data)
-<p>Notification subscriber only for FOLLOW</p>
+Bypasses remote check if the user is followed.
 
-**Kind**: inner method of [<code>useSCFollowedManager</code>](#useSCFollowedManager)  
+**Kind**: inner constant of `useSCFollowedManager`
+
+<a name="isFollowed"></a>
+
+### isFollowed
+
+Memoized isFollowed.
+If user is already in cache, checks if it is in followed;
+otherwise, it checks if authenticated user follows the user.
+
+**Kind**: inner constant of `useSCFollowedManager`
+
+<a name="notificationSubscriber"></a>
+
+### notificationSubscriber(msg, data)
+Notification subscriber only for `FOLLOW`
+
+**Kind**: inner method of `useSCFollowedManager` 
 
 | Param |
 | --- |
 | msg | 
 | data | 
 
-<a name="useSCFollowedManager..checkIsUserFollowed"></a>
+<a name="checkIsUserFollowed"></a>
 
-### useSCFollowedManager~checkIsUserFollowed(user)
-<p>Check if the authenticated user follow the user
-Update the followed cached
-Update followed user</p>
+### checkIsUserFollowed(user)
+Checks if the authenticated user follows the user.
+Update the followed cached and users.
 
-**Kind**: inner method of [<code>useSCFollowedManager</code>](#useSCFollowedManager)  
+**Kind**: inner method of `useSCFollowedManager` 
 
 | Param |
 | --- |
 | user | 
+
+<a name="useEffect"></a>
+
+### useEffect
+Subscribes to notification types `user_follow`, `user_unfollow`.
+
+## Constants
+
+- [STATUS_FOLLOWED](#STATUS_FOLLOWED)
+
+<a name="STATUS_FOLLOWED"></a>
+
+### STATUS_FOLLOWED
+
+It is used on refresh and in isFollowed method.
+Checks if the user status is `followed` to update the cache and data.
+
+**Kind**: Global constant
 

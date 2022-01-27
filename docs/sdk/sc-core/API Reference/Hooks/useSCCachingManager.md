@@ -4,47 +4,51 @@ sidebar_position: 1
 title: useSCCachingManager
 ---
 
-<a name="useSCCachingManager"></a>
+:::info
+This custom hook manages cached data and the loading state.
+:::
 
-## useSCCachingManager()
-<p>Custom hook 'useSCCachingManager'
-Helpers hook useful to manage cached data
-Manage cached data and the loading state</p>
+ 
 
-**Kind**: global function  
+## Members
 
-* [useSCCachingManager()](#useSCCachingManager)
-    * [~updateCache](#useSCCachingManager..updateCache)
-    * [~emptyCache](#useSCCachingManager..emptyCache)
-    * [~isLoading](#useSCCachingManager..isLoading)
+- [updateCache](#updateCache)
+- [emptyCache](#emptyCache)
+- [isLoading](#isLoading)
 
-<a name="useSCCachingManager..updateCache"></a>
 
-### useSCCachingManager~updateCache
-<p>Update cache</p>
+<a name="updateCache"></a>
 
-**Kind**: inner constant of [<code>useSCCachingManager</code>](#useSCCachingManager)  
+### updateCache
+
+Updates cache.
+
+**Kind**: inner constant of `useSCCachingManager`
 
 | Param |
 | --- |
 | ids | 
 
-<a name="useSCCachingManager..emptyCache"></a>
 
-### useSCCachingManager~emptyCache
-<p>Empty cache
-emptying the cache each isFollow request
-results in a request to the server</p>
+<a name="emptyCache"></a>
 
-**Kind**: inner constant of [<code>useSCCachingManager</code>](#useSCCachingManager)  
-<a name="useSCCachingManager..isLoading"></a>
+### emptyCache
 
-### useSCCachingManager~isLoading
-<p>Category is checking
-Return true if the manager is checking
-the follow status of the obj</p>
+Empties cache.
 
-**Kind**: inner constant of [<code>useSCCachingManager</code>](#useSCCachingManager)  
+:::warning
+Emptying the cache in each isFollow request results in a request to the server.
+:::
+
+**Kind**: inner constant of `useSCCachingManager`
+
+<a name="isLoading"></a>
+
+### isLoading
+
+Returns true if the manager is checking the follow status of the obj.
+
+**Kind**: inner constant of `useSCCachingManager`
 
 | Param |
 | --- |

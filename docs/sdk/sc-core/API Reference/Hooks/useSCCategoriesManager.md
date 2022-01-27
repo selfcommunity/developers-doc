@@ -4,57 +4,64 @@ sidebar_position: 1
 title: useSCCategoriesManager
 ---
 
-<a name="useSCCategoriesManager"></a>
+:::info
+This custom hook is used to manage the categories followed.
+:::
 
-## useSCCategoriesManager()
-<p>Custom hook 'useSCCategoriesManager'
-Use this hook to manage categories followed:</p>
-<ol>
-<li>const scUserContext: SCUserContextType = useSCUser();</li>
-<li>const scCategoriesManager: SCCategoriesManagerType = scUserContext.manager.categories;</li>
-<li>scCategoriesManager.isFollowed(category)</li>
-</ol>
+:::tip
 
-**Kind**: global function  
+Follow these steps:
+```jsx
+1. const scUserContext: SCUserContextType = useSCUser();
+2. const scCategoriesManager: SCCategoriesManagerType = scUserContext.manager.categories;
+3. scCategoriesManager.isFollowed(category)
+```
+:::
 
-* [useSCCategoriesManager()](#useSCCategoriesManager)
-    * [~refresh](#useSCCategoriesManager..refresh)
-    * [~follow](#useSCCategoriesManager..follow)
-    * [~isFollowed](#useSCCategoriesManager..isFollowed)
-    * [~checkIsCategoryFollowed(category)](#useSCCategoriesManager..checkIsCategoryFollowed)
+ ## Members
 
-<a name="useSCCategoriesManager..refresh"></a>
+- [refresh](#refresh)
+- [follow](#follow)
+- [isFollowed](#isFollowed)
+- [checkIsCategoryFollowed(category)](#checkIsCategoryFollowed)
 
-### useSCCategoriesManager~refresh
-<p>Memoized refresh all categories
+<a name="refresh"></a>
+
+### refresh
+
+Memoized refresh all categories.
 It makes a single request to the server and retrieves
-all the categories followed by the user in a single solution
-It might be useful for multi-tab sync</p>
+all the categories followed by the user in a single solution.
+It might be useful for multi-tab sync.
 
-**Kind**: inner constant of [<code>useSCCategoriesManager</code>](#useSCCategoriesManager)  
-<a name="useSCCategoriesManager..follow"></a>
+**Kind**: inner constant of `useSCCategoriesManager`  
 
-### useSCCategoriesManager~follow
-<p>Memoized follow/unfollow Category
-Toggle action</p>
+<a name="follow"></a>
 
-**Kind**: inner constant of [<code>useSCCategoriesManager</code>](#useSCCategoriesManager)  
-<a name="useSCCategoriesManager..isFollowed"></a>
+### follow
 
-### useSCCategoriesManager~isFollowed
-<p>Memoized isFollowed
-If category is already in cache -&gt; check if the category is in categories,
-otherwise, check if user follow the category</p>
+Memoized follow/unfollow Category toggle action.
 
-**Kind**: inner constant of [<code>useSCCategoriesManager</code>](#useSCCategoriesManager)  
-<a name="useSCCategoriesManager..checkIsCategoryFollowed"></a>
+**Kind**: inner constant of `useSCCategoriesManager`  
 
-### useSCCategoriesManager~checkIsCategoryFollowed(category)
-<p>Check if the user follow the category
-Update the categories cached
-Update categories followed</p>
+<a name="isFollowed"></a>
 
-**Kind**: inner method of [<code>useSCCategoriesManager</code>](#useSCCategoriesManager)  
+### isFollowed
+
+Memoized isFollowed.
+If category is already in cache, checks if the category is in categories;
+otherwise, it checks if user follows the category
+
+**Kind**: inner constant of `useSCCategoriesManager` 
+
+<a name="checkIsCategoryFollowed"></a>
+
+### checkIsCategoryFollowed(category)
+
+Checks if the user follows the category.
+Then update the categories cached, and the ones followed.
+
+**Kind**: inner method of `useSCCategoriesManager`  
 
 | Param |
 | --- |

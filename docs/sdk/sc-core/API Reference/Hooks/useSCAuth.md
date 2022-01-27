@@ -4,48 +4,66 @@ sidebar_position: 1
 title: useAuth
 ---
 
+:::info
+This custom hook is used to manage the session in AuthContextProvider.
+:::
 
+## useAuth(initialSession)
 
+| Param |
+| --- |
+| initialSession | 
 
 ## Members
 
-<dl>
-<dt><a href="#userActionTypes">userActionTypes</a></dt>
-<dd><p>userReducer:</p>
-<ul>
-<li>manage the state of authentication</li>
-<li>update the state base on action type</li>
-</ul></dd>
-</dl>
+- [processQueue](#processQueue)
+- [useEffect](#useEffect)
+
+<a name="processQueue"></a>
+
+### processQueue
+
+Manages multiple request during refresh session.
+Saves concurrent requests and retries them again
+at the end of refreshing session.
+
+**Kind**: inner constant of `useAuth`
+
+
+<a name="useEffect"></a>
+
+### UseEffect
+
+Adds/removes an http request interceptor.
+When the component unmounts the interceptor will be detached.
+The interceptor check if the token is expiring.
 
 ## Constants
 
-<dl>
-<dt><a href="#userActionTypes">userActionTypes</a></dt>
-<dd><p>We have complex state logic that involves multiple sub-values,
-so useReducer is preferable to useState.
-Define all possible auth action types label
-Use this to export actions and dispatch an action</p></dd>
-</dl>
-
-## Functions
-
-<dl>
-<dt><a href="#stateInitializer">stateInitializer(session)</a></dt>
-<dd><p>Define initial context auth session</p></dd>
-<dt><a href="#useAuth">useAuth(initialSession)</a></dt>
-<dd><p>Custom hook 'useAuth'
-Use this hook to manage the session in AuthContextProvider</p></dd>
-</dl>
+- [userActionTypes](#userActionTypes)
 
 <a name="userActionTypes"></a>
 
-## userActionTypes
-<p>userReducer:</p>
-<ul>
-<li>manage the state of authentication</li>
-<li>update the state base on action type</li>
-</ul>
+### userActionTypes
+We have complex state logic that involves multiple sub-values, so useReducer is preferable to useState.
+Define all possible auth action types label and use this to export actions and dispatch them.
+
+
+
+
+## Functions
+
+- [userReducer](#userReducer)
+- [stateInitializer](#stateInitializer)
+
+
+
+
+<a name="userReducer"></a>
+
+### userReducer(state, action)
+
+Manages the state of authentication update the state base on action type
 
 **Kind**: global variable  
 
@@ -54,19 +72,12 @@ Use this hook to manage the session in AuthContextProvider</p></dd>
 | state | 
 | action | 
 
-<a name="userActionTypes"></a>
 
-## userActionTypes
-<p>We have complex state logic that involves multiple sub-values,
-so useReducer is preferable to useState.
-Define all possible auth action types label
-Use this to export actions and dispatch an action</p>
-
-**Kind**: global constant  
 <a name="stateInitializer"></a>
 
-## stateInitializer(session)
-<p>Define initial context auth session</p>
+### stateInitializer(session)
+
+Defines the initial auth session context.
 
 **Kind**: global function  
 
@@ -74,23 +85,9 @@ Use this to export actions and dispatch an action</p>
 | --- |
 | session | 
 
-<a name="useAuth"></a>
 
-## useAuth(initialSession)
-<p>Custom hook 'useAuth'
-Use this hook to manage the session in AuthContextProvider</p>
 
-**Kind**: global function  
 
-| Param |
-| --- |
-| initialSession | 
 
-<a name="useAuth..processQueue"></a>
 
-### useAuth~processQueue
-<p>Manages multiple request during refresh session
-Save concurrent requests and retry them again
-at the end of refreshing session</p>
 
-**Kind**: inner constant of [<code>useAuth</code>](#useAuth)  

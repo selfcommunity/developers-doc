@@ -4,23 +4,33 @@ sidebar_position: 1
 title: useSCFetchTag
 ---
 
-
-<a name="useSCFetchTag"></a>
+:::info
+This custom hook is used to fetch a tag object.
+:::
 
 ## useSCFetchTag(id, tag)
-<p>Custom hook 'useSCFetchTag'
-Use this hook to fetch a tag object</p>
-
-**Kind**: global function  
 
 | Param |
 | --- |
 | id | 
 | tag | 
 
-<a name="useSCFetchTag..fetchTag"></a>
 
-### useSCFetchTag~fetchTag
-<p>Memoized fetchTag</p>
+## Members
 
-**Kind**: inner constant of [<code>useSCFetchTag</code>](#useSCFetchTag)  
+- [fetchTag](#fetchTag)
+- [useEffect](#useEffect)
+
+<a name="fetchTag"></a>
+
+### fetchTag
+
+Memoized fetchTag
+
+**Kind**: inner constant of `useSCFetchTag`
+
+<a name="useEffect"></a>
+
+### useEffect
+
+If id, attempts to get the tag by id.

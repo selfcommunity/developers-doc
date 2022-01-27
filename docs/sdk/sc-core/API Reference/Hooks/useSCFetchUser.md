@@ -5,22 +5,33 @@ title: useSCFetchUser
 ---
 
 
-
-<a name="useSCFetchUser"></a>
+:::info
+This custom hook is used to fetch a user object.
+:::
 
 ## useSCFetchUser(initialSession)
-<p>Custom hook 'useSCFetchUser'
-Use this hook to fetch a user object</p>
 
-**Kind**: global function  
 
 | Param |
 | --- |
 | initialSession | 
 
-<a name="useSCFetchUser..fetchUser"></a>
+
+## Members
+
+- [fetchUser](#fetchUser)
+- [useEffect](#useEffect)
+
+<a name="fetchUser"></a>
 
 ### useSCFetchUser~fetchUser
-<p>Memoized fetchUser</p>
 
-**Kind**: inner constant of [<code>useSCFetchUser</code>](#useSCFetchUser)  
+Memoized fetchUser.
+
+**Kind**: inner constant of `useSCFetchUser`
+
+<a name="useEffect"></a>
+
+### useEffect
+
+If id, resolves the obj.
