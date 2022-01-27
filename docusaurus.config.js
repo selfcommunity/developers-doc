@@ -71,7 +71,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'sdk/intro',
+            docId: 'sdk/community-ui/intro',
             position: 'right',
             label: 'SDK',
           },
