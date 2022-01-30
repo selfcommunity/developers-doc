@@ -8,31 +8,30 @@ title: useSCFetchFeedObject
 This custom hooks is used to fetch a feed object.
 :::
 
-## useSCFetchFeedObject(id, feedObject, feedObjectType)
+## API
+
+`useSCFetchFeedObject(id, feedObject, feedObjectType) => {obj, setObj}`
 
 
-| Param |
-| --- |
-| id | 
-| feedObject | 
-| feedObjectType | 
+### Arguments
+1. `id ` (number): The feedobj Id.
+2. `feedObject` ([SCFeedObjectType](../Types/feed/#scfeedobjecttype)): The feed obj.
+3. `feedObjectType `([SCFeedObjectTypologyType](../Types/feed/#scfeedobjecttypologytype)):The feed object type (discussion, post, status).
 
 
-## Members
+### Returns
 
-- [fetchFeedObject](#fetchFeedObject)
-- [useEffect](#useEffect)
+`{obj, setObj}`:
 
+### Examples
 
-<a name="useSCFetchFeedObject..fetchFeedObject"></a>
+```jsx
+import useSCFetchFeedObject from '@selfcommunity/core';
 
-### fetchFeedObject
-Memoized fetchFeedObject.
+export default function FeedObject(props: FeedObjectProps): JSX.Element {
 
-**Kind**: inner constant of `useSCFetchFeedObject` 
+     const {obj, setObj} = useSCFetchFeedObject({id: feedObjectId, feedObject, feedObjectType});
 
-<a name="useEffect"></a>
+     }
+```
 
-### useEffect
-
-If id and feedObjectType, resolves feedObject.

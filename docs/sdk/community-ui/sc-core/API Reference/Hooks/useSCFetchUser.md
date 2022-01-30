@@ -9,29 +9,27 @@ title: useSCFetchUser
 This custom hook is used to fetch a user object.
 :::
 
-## useSCFetchUser(initialSession)
+## API
+
+`useSCFetchUser(initialSession) => {scUser, setSCUser}`
+
+### Arguments
+
+1. `id`(number): The user Id.
+2. `user`([SCUserType](../Types/user)): The user obj.
 
 
-| Param |
-| --- |
-| initialSession | 
 
+### Returns
 
-## Members
+`{scUser, setSCUser}`:
 
-- [fetchUser](#fetchUser)
-- [useEffect](#useEffect)
+### Examples
 
-<a name="fetchUser"></a>
+```jsx
+import useSCFetchUser from '@selfcommunity/core';
 
-### useSCFetchUser~fetchUser
-
-Memoized fetchUser.
-
-**Kind**: inner constant of `useSCFetchUser`
-
-<a name="useEffect"></a>
-
-### useEffect
-
-If id, resolves the obj.
+export default function User(props: UserProps): JSX.Element {
+      const {scUser, setSCUser} = useSCFetchUser({id, user});
+}
+```

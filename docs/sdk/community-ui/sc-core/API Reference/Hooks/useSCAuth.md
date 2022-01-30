@@ -5,86 +5,31 @@ title: useAuth
 ---
 
 :::info
-This custom hook is used to manage the session in AuthContextProvider.
+This custom hook is used to manage user session and other actions.
 :::
 
-## useAuth(initialSession)
+## API
 
-| Param |
-| --- |
-| initialSession | 
-
-## Members
-
-- [processQueue](#processQueue)
-- [useEffect](#useEffect)
-
-<a name="processQueue"></a>
-
-### processQueue
-
-Manages multiple request during refresh session.
-Saves concurrent requests and retries them again
-at the end of refreshing session.
-
-**Kind**: inner constant of `useAuth`
+`useSCAuth(initialSession) => {state, dispatch}`
 
 
-<a name="useEffect"></a>
+### Arguments
 
-### UseEffect
-
-Adds/removes an http request interceptor.
-When the component unmounts the interceptor will be detached.
-The interceptor check if the token is expiring.
-
-## Constants
-
-- [userActionTypes](#userActionTypes)
-
-<a name="userActionTypes"></a>
-
-### userActionTypes
-We have complex state logic that involves multiple sub-values, so useReducer is preferable to useState.
-Define all possible auth action types label and use this to export actions and dispatch them.
+`initialSession` ([SCSessionType](../Types/context/#scsessiontype))
 
 
+### Returns
+
+`{state, dispatch}`
 
 
-## Functions
+### Examples
 
-- [userReducer](#userReducer)
-- [stateInitializer](#stateInitializer)
-
-
-
-
-<a name="userReducer"></a>
-
-### userReducer(state, action)
-
-Manages the state of authentication update the state base on action type
-
-**Kind**: global variable  
-
-| Param |
-| --- |
-| state | 
-| action | 
-
-
-<a name="stateInitializer"></a>
-
-### stateInitializer(session)
-
-Defines the initial auth session context.
-
-**Kind**: global function  
-
-| Param |
-| --- |
-| session | 
-
+```tsx
+export default function SCUserProvider(): JSX.Element {
+  const {state, dispatch} = useSCAuth(initialSession);
+}
+```
 
 
 

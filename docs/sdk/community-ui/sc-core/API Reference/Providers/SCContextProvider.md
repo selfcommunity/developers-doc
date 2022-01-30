@@ -8,30 +8,25 @@ title: SCContextProvider
 This component imports all providers.
 :::
 
-## SCContext()
 
-Creates global context.
+## API
+### SCContext.Provider
 
-````mdx-code-block
-import TabItem from '@theme/TabItem';
+```jsx
+<SCContext.Provider value={{settings}}>
+```
 
-<TabItem value="jsx">
+
+### SCContext
+
+Creates a global Context object, of [SCContextType](../Types/context/#sccontexttype).
 
 ```jsx
 export const SCContext = createContext<SCContextType>({} as SCContextType);
 ```
 
-</TabItem>
-````
 
-:::tip
-
-<p>Context can be consumed in one of the following ways:</p>
-
-````mdx-code-block
-
-<TabItem value="jsx">
-
+:::tipContext can be consumed in one of the following ways:
 ```jsx
 1. <SCContext.Consumer>{settings => (...)}</SCContext.Consumer>
 ```
@@ -41,14 +36,5 @@ export const SCContext = createContext<SCContextType>({} as SCContextType);
 ```jsx
 3. const scContext: SCContextType = useSCContext();
 ````
-</TabItem>
-
 :::
 
-## Functions
-
-### useSCContext()
-<p>Let's only export the <code>useSCContext</code> hook instead of the context.
-We only want to use the hook directly and never the context component.</p>
-
-**Kind**: global function  

@@ -8,29 +8,28 @@ title: SCPreferencesProvider
 This component imports all preferences and features enabled.
 :::
 
-## SCPreferencesContext()
 
-Creates global context.
+## API
 
-````mdx-code-block
-import TabItem from '@theme/TabItem';
+### SCPreferencesContext.Provider
 
-<TabItem value="jsx">
+```JSX
+<SCPreferencesContext.Provider value={{preferences, features}}>{!loading && children}</SCPreferencesContext.Provider>
+```
+
+### SCPreferencesContext
+
+Creates a global Context object, of [SCPreferencesContextType](../Types/context/#scpreferencescontexttype).
+
 
 ```jsx
 export const SCPreferencesContext = createContext<SCPreferencesContextType>({} as SCPreferencesContextType);
 ```
 
-</TabItem>
 ````
 
-:::tip
+:::tipContext can be consumed in one of the following ways:
 
-<p>Context can be consumed in one of the following ways:</p>
-
-````mdx-code-block
-
-<TabItem value="jsx">
 
 ```jsx
 1. <SCPreferencesContext.Consumer>{(preferences) => (...)}</SCPreferencesContext.Consumer>
@@ -41,22 +40,6 @@ export const SCPreferencesContext = createContext<SCPreferencesContextType>({} a
 ```jsx
 3. const scPreferences: SCPreferencesType = useSCPreferences();
 ````
-</TabItem>
-
 :::
 
-## Members
 
-<a name="useEffect"></a>
-
-### useEffect
-Loads all dynamic preferences and features enabled to manage project configurations.
-
-## Functions
-
-
-### useSCPreferences()
-<p>Let's only export the <code>useSCPreferences</code> hook instead of the context.
-We only want to use the hook directly and never the context component.</p>
-
-**Kind**: global function  

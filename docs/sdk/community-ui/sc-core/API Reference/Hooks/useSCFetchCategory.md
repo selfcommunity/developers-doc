@@ -9,30 +9,27 @@ This custom hook is used to fetch a category object.
 :::
 
 
-## useSCFetchCategory(id, tag)
+## API 
 
-| Param |
-| --- |
-| id | 
-| tag | 
-
-## Members 
-
-- [fetchCategory](#fetchCategory)
-- [useEffect](#useEffect)
-
-<a name="fetchCategory"></a>
-
-### fetchCategory
-
-Memoized fetchTag.
-
-**Kind**: inner constant of `useSCFetchCategory`  
+`useSCFetchCategory(id, category) => {scCategory, setSCCategory}`
 
 
-<a name="useEffect"></a>
+### Arguments
 
-### useEffect
+1. `id`(number): Cateogry Id.
+2. `category` ([SCCategoryType](../Types/category)): Category obj.
 
-If id, attempts to get the category by id.
 
+### Returns
+
+`{scCategory, setSCCategory}`: 
+
+### Examples
+
+```jsx
+import {useSCFetchCategory} from '@selfcommunity/core';
+
+export default function Category(props: CategoryProps): JSX.Element {
+      const {scCategory, setSCCategory} = useSCFetchCategory({id, category});
+}
+```

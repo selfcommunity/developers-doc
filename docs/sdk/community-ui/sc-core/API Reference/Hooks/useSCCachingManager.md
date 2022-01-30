@@ -8,49 +8,31 @@ title: useSCCachingManager
 This custom hook manages cached data and the loading state.
 :::
 
- 
+ ## API 
 
-## Members
+` useSCCachingManager() => {cache: cache.current, updateCache, emptyCache, data, setData, loading, setLoading, isLoading}`
 
-- [updateCache](#updateCache)
-- [emptyCache](#emptyCache)
-- [isLoading](#isLoading)
+### Returns
+
+`{cache: cache.current, updateCache, emptyCache, data, setData, loading, setLoading, isLoading}`
+
+1. `cache`: Current cached data.
+2. `updateCache`: Updates cache.
+3. `emptyCache`: Empties cache. Emptying the cache in each isFollow request results in a request to the server.
+4. `{data, setData}`: To set data.
+5. `{loading, setLoading}`: To set loading state.
+6. `isLoading`: Returns `true` if the manager is checking the follow status of the obj.
+
+### Examples
+
+```jsx
+import useSCCachingManager from './useSCCachingManager';
 
 
-<a name="updateCache"></a>
-
-### updateCache
-
-Updates cache.
-
-**Kind**: inner constant of `useSCCachingManager`
-
-| Param |
-| --- |
-| ids | 
+export default function useSCFollowedManager(user?: SCUserType) {
+  const {cache, updateCache, emptyCache, data, setData, loading, setLoading, isLoading} = useSCCachingManager();
 
 
-<a name="emptyCache"></a>
-
-### emptyCache
-
-Empties cache.
-
-:::warning
-Emptying the cache in each isFollow request results in a request to the server.
-:::
-
-**Kind**: inner constant of `useSCCachingManager`
-
-<a name="isLoading"></a>
-
-### isLoading
-
-Returns true if the manager is checking the follow status of the obj.
-
-**Kind**: inner constant of `useSCCachingManager`
-
-| Param |
-| --- |
-| category | 
-
+  return {followed: data, loading, isLoading, follow, isFollowed, refresh, emptyCache};
+}
+  ```

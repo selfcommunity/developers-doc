@@ -8,29 +8,23 @@ title: useSCFetchCustomAdv
 This custom hooks is used to fetch a custom adv object.
 :::
 
-## useSCFetchCustomAdv(position, category)
+## API
 
-| Param |
-| --- |
-| position | 
-| category | 
+`useSCFetchCustomAdv(position, categoryId) => {scCustomAdv, setSCCustomAdv}`
+### Arguments
 
+1. `position`([SCCustomAdvPosition](../Types/custom_adv/#sccustomadvposition)): Adv banners position.
+2. `categoryId`(number): The Id of the category.
+### Returns
 
-## Members
+`{scCustomAdv, setSCCustomAdv}`:
 
-- [fetchCustomAdv](#fetchCustomAdv)
-- [useEffect](#useEffect)
+### Examples
 
-<a name="fetchCustomAdv"></a>
+```jsx
+import {SCCustomAdvPosition, useSCFetchCustomAdv} from '@selfcommunity/core';
 
-### fetchCustomAdv
-
-Memoized fetchCustomAdv.
-
-**Kind**: inner constant of `useSCFetchCustomAdv`
-
-<a name="useEffect"></a>
-
-### useEffect
-
-If id, attempts to get the adv by id.
+export default function CustomAdv(props: CustomAdvProps): JSX.Element {
+      const {scCustomAdv} = useSCFetchCustomAdv({position, categoryId});
+}
+```

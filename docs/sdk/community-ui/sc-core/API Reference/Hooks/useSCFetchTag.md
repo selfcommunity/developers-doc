@@ -8,29 +8,18 @@ title: useSCFetchTag
 This custom hook is used to fetch a tag object.
 :::
 
-## useSCFetchTag(id, tag)
+## API
 
-| Param |
-| --- |
-| id | 
-| tag | 
+`useSCFetchTag(id, tag) => {scTag, setSCTag}`
 
 
-## Members
+### Arguments
 
-- [fetchTag](#fetchTag)
-- [useEffect](#useEffect)
+1. `id` (number): The tag Id.
+2. `tag` ([SCTagType](../Types/tag)): The tag obj.
 
-<a name="fetchTag"></a>
 
-### fetchTag
+### Returns 
 
-Memoized fetchTag
+`{scTag, setSCTag}`:
 
-**Kind**: inner constant of `useSCFetchTag`
-
-<a name="useEffect"></a>
-
-### useEffect
-
-If id, attempts to get the tag by id.

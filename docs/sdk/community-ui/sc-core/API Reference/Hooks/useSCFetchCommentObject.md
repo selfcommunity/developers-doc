@@ -8,31 +8,26 @@ title: useSCFetchCommentObject
 This custom hooks is used to fetch a comment.
 :::
 
-## useSCFetchCommentObject(id, commentObject)
+## API
 
- 
-| Param |
-| --- |
-| id | 
-| commentObject | 
+`useSCFetchCommentObject(id, commentObject) => {obj, setObj}`
 
+### Arguments
 
-## Members
+1. `id`(number): The Comment id.
+2. `commentObject`([SCCommentType](../Types/comment)): Thre Comment obj.
 
-- [fetchCommentObject](#fetchCommentObject)
-- [useEffect](#useEffect)
+### Returns
 
+`{obj, setObj}`:
 
-<a name="fetchCommentObject"></a>
+### Examples
 
-### fetchCommentObject
-Memoized fetchCommentObject.
+```jsx
+import useSCFetchCommentObject from './hooks/useSCFetchCommentObject';
 
-**Kind**: inner constant of `useSCFetchCommentObject`
+export default function CommentObject(props: CommentObjectProps): JSX.Element {
 
-<a name="useEffect"></a>
-
-### useEffect
-
-If id and feedObjectType, resolves feedObject.
-
+    const {obj, setObj} = useSCFetchCommentObject({id: commentObjectId, commentObject});
+}
+```

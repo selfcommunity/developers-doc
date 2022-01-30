@@ -9,7 +9,7 @@ This custom hook is used to manage to manage followed users.
 :::
 
 
-:::tip
+:::tipHow to use it:
 
 Follow these steps:
 ```jsx
@@ -19,92 +19,33 @@ Follow these steps:
 ```
 :::
 
-## Members
 
-- [refresh](#refresh)
-- [follow](#follow)
-- [getConnectionStatus](#getConnectionStatus)
-- [isFollowed](#isFollowed)
-- [notificationSubscriber(msg, data)](#notificationSubscriber)
-- [checkIsUserFollowed(user)](#checkIsUserFollowed)
-- [useEffect](#useEffect)
+## API
 
-<a name="refresh"></a>
+`useSCFollowedManager(user) => {followed: data, loading, isLoading, follow, isFollowed, refresh, emptyCache}`
 
-### refresh
+### Arguments
 
-Memoized refresh all followed users.
-It makes a single request to the server and retrieves
-all the users followed by the authenticated user in a single solution.
-It might be useful for multi-tab sync.
+`user `: ([SCUserType](../Types/user))
 
-**Kind**: inner constant of `useSCFollowedManager`
 
-<a name="follow"></a>
+### Returns
 
-### follow
+1. `data`: Followed data.
+2. `loading`: Loading status.
+3. `isLoading`: Returns `true` if the manager is loading the obj.
+4. `follow`: Memoized follow/unfollow User, toggle action.
+5. `is_followed`: Memoized isFollowed. If user is already in cache, checks if it is in followed; otherwise, it checks if authenticated user follows the user.
+6. `refresh`: It makes a single request to the server and retrieves all the users followed by the authenticated user in a single solution.It might be useful for multi-tab sync.
+7. `emptyCache`: Empties cache.
 
-Memoized follow/unfollow User, toggle action.
 
-**Kind**: inner constant of `useSCFollowedManager`
+### Examples
 
-<a name="getConnectionStatus"></a>
+```jsx
+import useSCFollowedManager from '../../../hooks/useSCFollowersManager';
 
-### getConnectionStatus
-
-Bypasses remote check if the user is followed.
-
-**Kind**: inner constant of `useSCFollowedManager`
-
-<a name="isFollowed"></a>
-
-### isFollowed
-
-Memoized isFollowed.
-If user is already in cache, checks if it is in followed;
-otherwise, it checks if authenticated user follows the user.
-
-**Kind**: inner constant of `useSCFollowedManager`
-
-<a name="notificationSubscriber"></a>
-
-### notificationSubscriber(msg, data)
-Notification subscriber only for `FOLLOW`
-
-**Kind**: inner method of `useSCFollowedManager` 
-
-| Param |
-| --- |
-| msg | 
-| data | 
-
-<a name="checkIsUserFollowed"></a>
-
-### checkIsUserFollowed(user)
-Checks if the authenticated user follows the user.
-Update the followed cached and users.
-
-**Kind**: inner method of `useSCFollowedManager` 
-
-| Param |
-| --- |
-| user | 
-
-<a name="useEffect"></a>
-
-### useEffect
-Subscribes to notification types `user_follow`, `user_unfollow`.
-
-## Constants
-
-- [STATUS_FOLLOWED](#STATUS_FOLLOWED)
-
-<a name="STATUS_FOLLOWED"></a>
-
-### STATUS_FOLLOWED
-
-It is used on refresh and in isFollowed method.
-Checks if the user status is `followed` to update the cache and data.
-
-**Kind**: Global constant
-
+export default function SCUserProvider({children}: {children: React.ReactNode}): JSX.Element {
+  const followedManager: SCFollowedManagerType = useSCFollowedManager(state.user);
+}
+```

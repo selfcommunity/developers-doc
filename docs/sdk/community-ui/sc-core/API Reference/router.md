@@ -13,10 +13,7 @@ In order to use router you need to import this components first:
 import {SCRoutingContextType, useSCRouting, Link, SCRoutes} from '@selfcommunity/core';
 ````
 
-:::tip
-
-Example:
-
+:::tipExample:
 
 ```jsx
 const scRoutingContext: SCRoutingContextType = useSCRouting();

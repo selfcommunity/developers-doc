@@ -8,29 +8,27 @@ title: SCAlertMessagesProvider
 This component makes the `intl` available down the React tree.
 :::
 
-## SCAlertMessagesContext()
 
-Creates global context.
 
-````mdx-code-block
-import TabItem from '@theme/TabItem';
+## API
 
-<TabItem value="jsx">
+### SCAlertMessagesContext.Provider
+
+```jsx
+<SCAlertMessagesContext.Provider value={{options}}>
+```
+
+### SCAlertMessagesContext
+
+Creates a global Context object, of [SCAlertMessagesContextType](../Types/context/#scalertmessagescontexttype).
+
 
 ```jsx
 export const SCAlertMessagesContext = createContext<SCAlertMessagesContextType>({} as SCAlertMessagesContextType);;
 ```
 
-</TabItem>
-````
 
-:::tip
-
-<p>Context can be consumed in one of the following ways:</p>
-
-````mdx-code-block
-
-<TabItem value="jsx">
+:::tipContext can be consumed in one of the following ways:
 
 ```jsx
 1. <SCAlertMessagesContext.Consumer>{(options,) => (...)}</SCAlertMessagesContext.Consumer>
@@ -41,14 +39,5 @@ export const SCAlertMessagesContext = createContext<SCAlertMessagesContextType>(
 ```jsx
 3. const scAlertMessagesContext: SCAlertMessagesContextType = useSCAlertMessages();
 ````
-</TabItem>
-
 :::
 
-## Functions
-
-### useSCAlertMessages()
-<p>Let's only export the <code>useSCAlertMessages</code> hook instead of the context.
-We only want to use the hook directly and never the context component.</p>
-
-**Kind**: global function  

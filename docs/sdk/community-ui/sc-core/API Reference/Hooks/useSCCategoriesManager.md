@@ -8,7 +8,7 @@ title: useSCCategoriesManager
 This custom hook is used to manage the categories followed.
 :::
 
-:::tip
+:::tipHow to use it:
 
 Follow these steps:
 ```jsx
@@ -18,52 +18,34 @@ Follow these steps:
 ```
 :::
 
- ## Members
+## API 
 
-- [refresh](#refresh)
-- [follow](#follow)
-- [isFollowed](#isFollowed)
-- [checkIsCategoryFollowed(category)](#checkIsCategoryFollowed)
+`useSCCategoriesManager(user?: SCUserType) => {categories: data, loading, isLoading, follow, isFollowed, refresh, emptyCache}`
 
-<a name="refresh"></a>
+### Arguments
 
-### refresh
+`user `: ([SCUserType](../Types/user))
 
-Memoized refresh all categories.
-It makes a single request to the server and retrieves
-all the categories followed by the user in a single solution.
-It might be useful for multi-tab sync.
 
-**Kind**: inner constant of `useSCCategoriesManager`  
+### Returns
 
-<a name="follow"></a>
+1. `data`: Categories data.
+2. `loading`: Categories loading state.
+3. `isLoading`: Returns `true` if the manager is loading the obj.
+4. `follow`: Memoized follow/unfollow Category toggle action.
+5. `isFollowed`: Memoized isFollowed. If category is already in cache, checks if the category is in categories; otherwise, it checks if user follows the category.
+6. `refresh`: Memoized refresh all categories. It makes a single request to the server and retrieves all the categories followed by the user in a single solution. It might be useful for multi-tab sync.
+7. `emptyCache`: Empties cache.
 
-### follow
 
-Memoized follow/unfollow Category toggle action.
+### Examples
 
-**Kind**: inner constant of `useSCCategoriesManager`  
+```jsx
+import useSCCategoriesManager from '../../../hooks/useSCCategoriesManager';
 
-<a name="isFollowed"></a>
+export default function SCUserProvider({children}: {children: React.ReactNode}): JSX.Element {
+const categoriesManager: SCCategoriesManagerType = useSCCategoriesManager(user);
+}
 
-### isFollowed
-
-Memoized isFollowed.
-If category is already in cache, checks if the category is in categories;
-otherwise, it checks if user follows the category
-
-**Kind**: inner constant of `useSCCategoriesManager` 
-
-<a name="checkIsCategoryFollowed"></a>
-
-### checkIsCategoryFollowed(category)
-
-Checks if the user follows the category.
-Then update the categories cached, and the ones followed.
-
-**Kind**: inner method of `useSCCategoriesManager`  
-
-| Param |
-| --- |
-| category | 
+```
 

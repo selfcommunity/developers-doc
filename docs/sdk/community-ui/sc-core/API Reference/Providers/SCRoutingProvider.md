@@ -8,29 +8,26 @@ title: SCRoutingProvider
 This component provides routing context.
 :::
 
-## SCRoutingContext()
 
-Creates global context.
+## API
 
-````mdx-code-block
-import TabItem from '@theme/TabItem';
+### SCRoutingContext.Provider
 
-<TabItem value="jsx">
+```JSX
+<SCRoutingContext.Provider value={contextValue}>{children}</SCRoutingContext.Provider>
+```
+
+### SCRoutingContext
+
+Creates a global Context object, of [SCRoutingContextType](../Types/context/#scroutingcontexttype).
+
 
 ```jsx 
 export const SCRoutingContext = createContext<SCRoutingContextType>({} as SCRoutingContextType);
 ```
 
-</TabItem>
-````
+:::tipContext can be consumed in one of the following ways:
 
-:::tip
-
-<p>Context can be consumed in one of the following ways:</p>
-
-````mdx-code-block
-
-<TabItem value="jsx">
 
 ```jsx
 1. <SCRoutingContext.Consumer>{(routerLink, routes, url) => (...)}</SCRoutingContext.Consumer>
@@ -41,42 +38,7 @@ export const SCRoutingContext = createContext<SCRoutingContextType>({} as SCRout
 ```jsx
 3. const scRoutingContext: SCRoutingContextType = useSCRouting();
 ````
-</TabItem>
 
 :::
 
 
-
-## Members
-
-- [getPreferencesRoutes](#getPreferencesRoutes)
-- [url](#url)
-- [contextValue](#contextValue)
-
-
-<a name="getPreferencesRoutes"></a>
-
-### getPreferencesRoutes
-
-Get override routes from community preferences.
-
-<a name="url"></a>
-
-### url
-
-Generates a path.
-
-
-<a name="contextValue"></a>
-
-### contextValue
-
-Memoized context value.
-## Functions
-
-
-### useSCRouting()
-<p>Let's only export the <code>useSCTheme</code> hook instead of the context.
-We only want to use the hook directly and never the context component.</p>
-
-**Kind**: global function  

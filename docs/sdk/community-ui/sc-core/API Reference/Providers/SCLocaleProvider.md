@@ -8,29 +8,26 @@ title: SCLocaleProvider
 This component makes the `intl` available down the React tree.
 :::
 
-## SCLocaleContext()
 
-Creates global context.
+## API
 
-````mdx-code-block
-import TabItem from '@theme/TabItem';
+### SCLocaleContext.Provider
 
-<TabItem value="jsx">
+```JSX
+<SCLocaleContext.Provider value={{locale, messages, selectLocale}}>
+```
+
+## SCLocaleContext
+
+Creates a global Context object, of [SCLocaleContextType](../Types/context/#sclocalecontexttype).
+
 
 ```jsx
 export const SCLocaleContext = createContext<SCLocaleContextType>({} as SCLocaleContextType);
 ```
 
-</TabItem>
-````
 
-:::tip
-
-<p>Context can be consumed in one of the following ways:</p>
-
-````mdx-code-block
-
-<TabItem value="jsx">
+:::tipContext can be consumed in one of the following ways:
 
 ```jsx
 1. <SCLocaleContext.Consumer>{(locale,) => (...)}</SCLocaleContext.Consumer>
@@ -41,58 +38,6 @@ export const SCLocaleContext = createContext<SCLocaleContextType>({} as SCLocale
 ```jsx
 3. const scLocaleContext: SCLocaleContextType = useSCLocale();
 ````
-</TabItem>
-
 :::
 
 
-## Members
-
-- [updateLocale](#updateLocale)
-- [selectLocale](#selectLocale)
-- [handleIntlError](#handleIntlError)
-- [withSCLocale](#withSCLocale)
-
-
-<a name="updateLocale"></a>
-
-### updateLocale(_intl)
-
-Updates locale settings.
-
-
-<a name="selectLocale"></a>
-
-### selectLocale
-
-Memoized select locale.
-
-<a name="handleIntlError"></a>
-
-### handleIntlError(error)
-
-Handles intl errors.
-
-| Param |
-| --- |
-| error | 
-
-<a name="withSCLocale"></a>
-
-### withSCLocale(Component)
-
-Export hoc to inject the base theme to components.
-
-**Kind**: global function  
-
-| Param |
-| --- |
-| Component | 
-
-## Functions
-
-### useSCLocale()
-<p>Let's only export the <code>useSCLocale</code> hook instead of the context.
-We only want to use the hook directly and never the context component.</p>
-
-**Kind**: global function  
