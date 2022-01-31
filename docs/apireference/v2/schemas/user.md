@@ -43,7 +43,9 @@ title: User
   "posts_counter": 2,
   "discussions_counter": 4,
   "statuses_counter": 1,
-  "polls_counter": 6
+  "polls_counter": 6,
+  "unseen_interactions_counter": 0,
+  "unseen_notification_banners_counter": 1,
 }
 
 ```
@@ -83,6 +85,9 @@ title: User
 |discussions_counter|integer¦null|false|read-only|Number of discussions created by the user|Only if dynamic preference `configurations.post_type_enabled` is `true`|
 |statuses_counter|integer¦null|false|read-only|Number of statuses created by the user|Only if dynamic preference `configurations.status_type_enabled` is `true`|
 |polls_counter|integer¦null|false|read-only|Number of polls created by the user|Only if dynamic preference `addons.polls_enabled` is `true` or if the user has a staff role|
+|unseen_interactions_counter|integer¦null|false|read-only|Number of unseen notifications of interactions|Only for the resource  [/user/me/](../user/me/)|
+|unseen_notification_banners_counter|integer¦null|false|read-only|Number of unseen notification banners|Only for the resource  [/user/me/](../user/me/)|
+
 
 
 #### Enumerated Values
