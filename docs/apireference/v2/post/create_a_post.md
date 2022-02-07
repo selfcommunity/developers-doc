@@ -176,6 +176,7 @@ curl -X POST /api/v2/post/ \
 ```json
 {
   "id": 0,
+  "type": "post",
   "categories": [
     {
       "id": 0,

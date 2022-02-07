@@ -180,6 +180,7 @@ curl -X POST /api/v2/discussion/ \
 ```json
 {
   "id": 0,
+  "type": "discussion",
   "categories": [
     {
       "id": 0,

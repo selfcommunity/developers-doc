@@ -183,6 +183,7 @@ curl -X PUT /api/v2/discussion/{id}/ \
 ```json
 {
   "id": 0,
+  "type": "discussion",
   "categories": [
     {
       "id": 0,

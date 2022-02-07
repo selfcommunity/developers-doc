@@ -141,6 +141,7 @@ curl -X POST /api/v2/status/ \
 ```json
 {
   "id": 0,
+  "type": "status",
   "action": "string",
   "categories": [
     {

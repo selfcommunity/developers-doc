@@ -7,6 +7,7 @@ title: Post
 ```json
 {
   "id": 0,
+  "type": "post",
   "categories": [
     {
       "id": 0,
@@ -123,6 +124,7 @@ title: Post
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|none|
+|type|string|false|read-only|none|
 |categories|list([Category](../schemas/category))|true|none|none|
 |medias|list([Media](../schemas/media))|false|none|none|
 |location|object¦null|false|none|none|

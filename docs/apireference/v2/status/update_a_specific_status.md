@@ -141,6 +141,7 @@ curl -X PUT /api/v2/status/{id}/ \
 ```json
 {
   "id": 0,
+  "type": "status",
   "action": "string",
   "categories": [
     {

@@ -7,6 +7,7 @@ title: Discussion
 ```json
 {
   "id": 0,
+  "type": "discussion",
   "title": "string",
   "slug": "string",
   "text": "string",
@@ -128,6 +129,7 @@ title: Discussion
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|none|
+|type|string|false|read-only|none|
 |title|string|true|none|none|
 |slug|string|false|read-only|none|
 |categories|list([Category](../schemas/category))|true|none|At least one category is required|

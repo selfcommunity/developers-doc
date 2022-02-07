@@ -7,6 +7,7 @@ title: Status
 ```json
 {
   "id": 0,
+  "type": "status",
   "action":"string",
   "categories": [
     {
@@ -101,6 +102,7 @@ title: Status
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|none|
+|type|string|false|read-only|none|
 |action|string|true|none|none|
 |categories|list([Category](../schemas/category))|true|none|none|
 |medias|list([Media](../schemas/media))|false|none|none|
