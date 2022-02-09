@@ -4,14 +4,6 @@
 
   ↳ **`UserProps`**
 
-## Indexable
-
-▪ [p: `string`]: `any`
-
-Any other properties
-
-## Table of contents
-
 ### Properties
 
 
@@ -22,6 +14,7 @@ Any other properties
 - [hidden](#hidden)
 - [id](#id)
 - [user](#user)
+- [p](#p)
 
 
 ### Methods
@@ -137,3 +130,15 @@ User Object
 [packages/sc-ui/src/components/User/User.tsx:60](https://github.com/selfcommunity/community-ui/blob/6b6e2bd/packages/sc-ui/src/components/User/User.tsx#L60)
 
 ___
+
+ 
+### p
+
+
+• `Optional` **p**: `string`
+
+
+Other props
+
+
+**`default`** 'null'

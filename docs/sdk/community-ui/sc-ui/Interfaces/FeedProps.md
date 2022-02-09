@@ -1,26 +1,26 @@
 ### Properties
 
-- [FeedSidebarProps](FeedProps.md#feedsidebarprops)
-- [ItemComponent](FeedProps.md#itemcomponent)
-- [ItemProps](FeedProps.md#itemprops)
-- [ItemSkeleton](FeedProps.md#itemskeleton)
-- [ItemSkeletonProps](FeedProps.md#itemskeletonprops)
-- [className](FeedProps.md#classname)
-- [endMessage](FeedProps.md#endmessage)
-- [endpoint](FeedProps.md#endpoint)
-- [id](FeedProps.md#id)
-- [refreshMessage](FeedProps.md#refreshmessage)
-- [widgets](FeedProps.md#widgets)
+- [FeedSidebarProps](#feedsidebarprops)
+- [ItemComponent](#itemcomponent)
+- [ItemProps](#itemprops)
+- [ItemSkeleton](#itemskeleton)
+- [ItemSkeletonProps](#itemskeletonprops)
+- [className](#classname)
+- [endMessage](#endmessage)
+- [endpoint](#endpoint)
+- [id](#id)
+- [refreshMessage](#refreshmessage)
+- [widgets](#widgets)
 
 ### Methods
 
-- [itemPropsGenerator](FeedProps.md#itempropsgenerator)
+- [itemPropsGenerator](#itempropsgenerator)
 
 ## Properties
 
 ### FeedSidebarProps
 
-• `Optional` **FeedSidebarProps**: [`FeedSidebarProps`](FeedSidebarProps)
+• `Optional` **FeedSidebarProps**: [FeedSidebarProps](FeedSidebarProps)
 
 Props to spread to single feed object
 

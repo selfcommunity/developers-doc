@@ -13,7 +13,7 @@
 
 ### FeedObjectProps
 
-• `Optional` **FeedObjectProps**: [`FeedObjectProps`](FeedObjectProps)
+• `Optional` **FeedObjectProps**: [FeedObjectProps](FeedObjectProps)
 
 Props to spread to single feed object
 
@@ -69,7 +69,7 @@ ___
 
 ### feedObjectType
 
-• `Optional` **feedObjectType**: `SCFeedObjectTypologyType`
+• `Optional` **feedObjectType**: [SCFeedObjectTypologyType](../../sc-core/Api_Reference/Types/feed#scfeedobjecttypologytype)
 
 Type of  feed object
 
@@ -83,7 +83,7 @@ ___
 
 ### template
 
-• `Optional` **template**: [`FeedObjectTemplateType`](../enums/FeedObjectTemplateType.md)
+• `Optional` **template**: [FeedObjectTemplateType](../Types/feed#feedobjecttemplatetype)
 
 Feed Object template type
 

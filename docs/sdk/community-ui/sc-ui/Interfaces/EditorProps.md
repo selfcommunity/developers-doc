@@ -1,14 +1,14 @@
 ### Properties
 
-- [className](EditorProps.md#classname)
-- [defaultValue](EditorProps.md#defaultvalue)
-- [id](EditorProps.md#id)
-- [readOnly](EditorProps.md#readonly)
+- [className](#classname)
+- [defaultValue](#defaultvalue)
+- [id](#id)
+- [readOnly](#readonly)
 
 ### Methods
 
-- [onChange](EditorProps.md#onchange)
-- [onRef](EditorProps.md#onref)
+- [onChange](#onchange)
+- [onRef](#onref)
 
 ## Properties
 

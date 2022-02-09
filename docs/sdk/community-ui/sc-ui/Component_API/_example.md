@@ -20,6 +20,7 @@ The name `SCxxx` can be used when providing style overrides in the theme.
 ### Props
 
 See [xxx](../Component_API/xxx)
+See [xxxProps](../Interfaces/xxxProps)
 
 |Name|Type|Default|Description|
 |---|---|---|---|

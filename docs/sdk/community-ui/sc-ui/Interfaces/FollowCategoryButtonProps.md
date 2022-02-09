@@ -1,32 +1,19 @@
-[@selfcommunity/ui](../README.md) / [Exports](../modules.md) / FollowCategoryButtonProps
-
-# Interface: FollowCategoryButtonProps
-
-List all exports
-
-## Indexable
-
-▪ [p: `string`]: `any`
-
-Others properties
-
-## Table of contents
-
 ### Properties
 
-- [category](FollowCategoryButtonProps.md#category)
-- [categoryId](FollowCategoryButtonProps.md#categoryid)
-- [className](FollowCategoryButtonProps.md#classname)
+- [category](#category)
+- [categoryId](#categoryid)
+- [className](#classname)
+- [p](#p)
 
 ### Methods
 
-- [onFollow](FollowCategoryButtonProps.md#onfollow)
+- [onFollow](#onfollow)
 
 ## Properties
 
 ### category
 
-• `Optional` **category**: `SCCategoryType`
+• `Optional` **category**: [SCCategoryType](../../sc-core/Api_Reference/Types/category)
 
 Category Object
 
@@ -76,8 +63,8 @@ onFollow callback
 
 | Name | Type |
 | :------ | :------ |
-| `category` | `SCCategoryType` |
-| `followed` | `boolean` |
+| category | [SCCategoryType](../../sc-core/Api_Reference/Types/category)|
+| followed | boolean |
 
 #### Returns
 
@@ -86,3 +73,14 @@ onFollow callback
 #### Defined in
 
 [packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:49](https://github.com/selfcommunity/community-ui/blob/6b6e2bd/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L49)
+
+___
+
+ 
+### p
+
+• `Optional` **p**: `string`
+
+Other props
+
+**`default`** 'null'

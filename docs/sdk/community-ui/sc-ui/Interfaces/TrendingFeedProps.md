@@ -65,7 +65,7 @@ ___
 
 ### template
 
-• `Optional` **template**: [`FeedObjectTemplateType`](../enums/FeedObjectTemplateType.md)
+• `Optional` **template**: [FeedObjectTemplateType](../Types/feed#feedobjecttemplatetype)
 
 Feed Object template type
 

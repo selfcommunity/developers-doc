@@ -1,28 +1,15 @@
-[@selfcommunity/ui](../README.md) / [Exports](../modules.md) / PeopleSuggestionProps
-
-# Interface: PeopleSuggestionProps
-
-List all exports
-
-## Indexable
-
-▪ [p: `string`]: `any`
-
-Other props
-
-## Table of contents
-
 ### Properties
 
-- [UserProps](PeopleSuggestionProps.md#userprops)
-- [autoHide](PeopleSuggestionProps.md#autohide)
-- [className](PeopleSuggestionProps.md#classname)
+- [UserProps](#userprops)
+- [autoHide](#autohide)
+- [className](#classname)
+- [p](#p)
 
 ## Properties
 
 ### UserProps
 
-• `Optional` **UserProps**: [`UserProps`](UserProps.md)
+• `Optional` **UserProps**: [UserProps](UserProps)
 
 Props to spread to single user object
 
@@ -59,3 +46,17 @@ Overrides or extends the styles applied to the component.
 #### Defined in
 
 [packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:42](https://github.com/selfcommunity/community-ui/blob/6b6e2bd/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L42)
+
+___
+
+ 
+### p
+
+
+• `Optional` **p**: `string`
+
+
+Other props
+
+
+**`default`** 'null'
