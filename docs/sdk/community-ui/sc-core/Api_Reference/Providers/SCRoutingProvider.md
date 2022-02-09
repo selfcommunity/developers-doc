@@ -11,7 +11,14 @@ This component provides routing context.
 
 ## API
 
-### SCRoutingContext.Provider
+`SCRoutingProvider(children) => Provider`
+### Arguments
+
+| Name | Type |
+| :------ | :------ |
+| children | ReactNode |
+
+### Returns
 
 ```JSX
 <SCRoutingContext.Provider value={contextValue}>{children}</SCRoutingContext.Provider>

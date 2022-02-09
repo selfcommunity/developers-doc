@@ -22,7 +22,7 @@ This custom hook is used to fetch a category object.
 
 ### Returns
 
-`{scCategory, setSCCategory}`: 
+`{scCategory, setSCCategory}`: Hook to manage Category obj state and update.
 
 ### Examples
 

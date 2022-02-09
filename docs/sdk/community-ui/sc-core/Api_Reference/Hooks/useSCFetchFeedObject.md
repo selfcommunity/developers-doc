@@ -21,7 +21,7 @@ This custom hooks is used to fetch a feed object.
 
 ### Returns
 
-`{obj, setObj}`:
+`{obj, setObj}`: Hook to manage Feed obj state and update.
 
 ### Examples
 

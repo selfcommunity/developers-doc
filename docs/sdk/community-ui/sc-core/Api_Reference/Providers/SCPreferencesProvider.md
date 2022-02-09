@@ -11,7 +11,14 @@ This component imports all preferences and features enabled.
 
 ## API
 
-### SCPreferencesContext.Provider
+`SCPreferencesProvider(children) => Provider`
+### Arguments
+
+| Name | Type |
+| :------ | :------ |
+| children | ReactNode |
+
+### Returns
 
 ```JSX
 <SCPreferencesContext.Provider value={{preferences, features}}>{!loading && children}</SCPreferencesContext.Provider>

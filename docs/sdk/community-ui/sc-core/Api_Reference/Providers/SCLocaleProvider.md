@@ -10,8 +10,14 @@ This component makes the `intl` available down the React tree.
 
 
 ## API
+`SCLocaleProvider(children) => Provider`
+### Arguments
 
-### SCLocaleContext.Provider
+| Name | Type |
+| :------ | :------ |
+| children | ReactNode |
+
+### Returns
 
 ```JSX
 <SCLocaleContext.Provider value={{locale, messages, selectLocale}}>

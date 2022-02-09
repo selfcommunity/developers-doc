@@ -26,7 +26,7 @@ This custom hook manages cached data and the loading state.
 ### Examples
 
 ```jsx
-import useSCCachingManager from './useSCCachingManager';
+import useSCCachingManager from '@selfcommunity/core';
 
 
 export default function useSCFollowedManager(user?: SCUserType) {

@@ -9,8 +9,15 @@ This component makes the notification context available down the React tree.
 :::
 
 ## API
+`SCNotificationProvider(children) => Provider`
+### Arguments
 
-### SCNotificationContext.Provider
+
+| Name | Type |
+| :------ | :------ |
+| children | ReactNode |
+
+### Returns
 
 ```JSX
 <SCNotificationContext.Provider value={{wsInstance}}>{children}</SCNotificationContext.Provider>

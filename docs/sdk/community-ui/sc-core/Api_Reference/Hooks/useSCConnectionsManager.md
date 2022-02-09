@@ -24,10 +24,11 @@ Follow these steps:
 
 ### Arguments
 
-`user `: ([SCUserType](../Types/user))
+`user `([SCUserType](../Types/user)): The logged in user (if any).
 
 
 ### Returns
+
 1. `data`: Connections data.
 2. `loading`: Loading status.
 3. `isLoading`: Returns `true` if the manager is loading the obj.
@@ -36,10 +37,14 @@ Follow these steps:
 6. `acceptConnection`: Memoized Accept Request connection.
 7. `refresh`: It makes a single request to the server and retrieves all the users connected to the authenticated user in a single solution.It might be useful for multi-tab sync.
 
+:::warningImportant:
+In case of **anonymous** session, or if **connection** option is **disabled** in SC Preferences, only `data`, `loading` and `isLoading` are returned.
+:::
+
 ### Examples 
 
 ```jsx
-import useSCConnectionsManager from '../../../hooks/useSCConnectionsManager';
+import useSCConnectionsManager from '@selfcommunity/core';
 
 export default function SCUserProvider({children}: {children: React.ReactNode}): JSX.Element {
     const connectionsManager: SCConnectionsManagerType = useSCConnectionsManager(user);

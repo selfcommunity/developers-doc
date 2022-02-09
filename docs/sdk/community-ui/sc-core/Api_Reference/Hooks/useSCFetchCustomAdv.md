@@ -17,7 +17,7 @@ This custom hooks is used to fetch a custom adv object.
 2. `categoryId`(number): The Id of the category.
 ### Returns
 
-`{scCustomAdv, setSCCustomAdv}`:
+`{scCustomAdv, setSCCustomAdv}`: Hook to manage Custom Adv obj state and update.
 
 ### Examples
 

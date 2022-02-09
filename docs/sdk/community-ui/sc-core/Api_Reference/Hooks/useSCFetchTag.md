@@ -21,5 +21,5 @@ This custom hook is used to fetch a tag object.
 
 ### Returns 
 
-`{scTag, setSCTag}`:
+`{scTag, setSCTag}`: Hook to manage Tag obj state and update.
 

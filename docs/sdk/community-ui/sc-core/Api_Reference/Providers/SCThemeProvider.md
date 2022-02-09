@@ -13,7 +13,14 @@ See: https://mui.com/system/styled/
 
 ## API
 
-### SCThemeContext.Provider
+`SCThemeProvider(children) => Provider`
+### Arguments
+
+| Name | Type |
+| :------ | :------ |
+| children | ReactNode |
+
+### Returns
 
 ```JSX
       <SCThemeContext.Provider value={{theme, setTheme: setCustomTheme}}>

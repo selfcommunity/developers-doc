@@ -15,17 +15,20 @@ This custom hook is used to manage user session and other actions.
 
 ### Arguments
 
-`initialSession` ([SCSessionType](../Types/context/#scsessiontype))
+`initialSession` ([SCSessionType](../Types/context/#scsessiontype)): The initial session.
 
 
 ### Returns
 
-`{state, dispatch}`
+1. `{state, dispatch}`: Reducer for state and actions handling.
+2. `helpers: {refreshSession}`: Memoized helper function that refreshes session.
 
 
 ### Examples
 
 ```tsx
+import useSCAuth from '@selfcommunity/core';
+
 export default function SCUserProvider(): JSX.Element {
   const {state, dispatch} = useSCAuth(initialSession);
 }

@@ -19,12 +19,12 @@ This custom hooks is used to fetch a comment.
 
 ### Returns
 
-`{obj, setObj}`:
+`{obj, setObj}`: Hook to manage Comment obj state and update.
 
 ### Examples
 
 ```jsx
-import useSCFetchCommentObject from './hooks/useSCFetchCommentObject';
+import useSCFetchCommentObject from '@selfcommunity/core';
 
 export default function CommentObject(props: CommentObjectProps): JSX.Element {
 

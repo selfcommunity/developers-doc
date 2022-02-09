@@ -12,7 +12,14 @@ Export the provider as we need to wrap the entire app with it.
 
 ## API
 
-### SCUserContext.Provider
+`SCUserProvider(children) => Provider`
+### Arguments
+
+| Name | Type |
+| :------ | :------ |
+| children | ReactNode |
+
+### Returns
 
 ```JSX
 <SCUserContext.Provider value={contextValue}>{!state.loading && children}</SCUserContext.Provider>

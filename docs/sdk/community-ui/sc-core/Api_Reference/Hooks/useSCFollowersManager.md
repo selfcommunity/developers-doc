@@ -26,7 +26,7 @@ Follow these steps:
 
 ### Arguments
 
-`user `: ([SCUserType](../Types/user))
+`user `([SCUserType](../Types/user)): The logged in user (if any).
 
 
 ### Returns
@@ -39,11 +39,15 @@ Follow these steps:
 6. `refresh`: It makes a single request to the server and retrieves all the users followed by the authenticated user in a single solution.It might be useful for multi-tab sync.
 7. `emptyCache`: Empties cache.
 
+:::warningImportant:
+In case of **anonymous** session, or if **follow** option is **disabled** in SC Preferences, only `data`, `loading` and `isLoading` are returned.
+:::
+
 
 ### Examples
 
 ```jsx
-import useSCFollowedManager from '../../../hooks/useSCFollowersManager';
+import useSCFollowedManager from '@selfcommunity/core';
 
 export default function SCUserProvider({children}: {children: React.ReactNode}): JSX.Element {
   const followedManager: SCFollowedManagerType = useSCFollowedManager(state.user);

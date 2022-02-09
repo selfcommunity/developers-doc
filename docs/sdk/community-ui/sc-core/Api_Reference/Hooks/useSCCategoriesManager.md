@@ -24,7 +24,7 @@ Follow these steps:
 
 ### Arguments
 
-`user `: ([SCUserType](../Types/user))
+`user `([SCUserType](../Types/user)): The logged in user (if any).
 
 
 ### Returns
@@ -37,11 +37,15 @@ Follow these steps:
 6. `refresh`: Memoized refresh all categories. It makes a single request to the server and retrieves all the categories followed by the user in a single solution. It might be useful for multi-tab sync.
 7. `emptyCache`: Empties cache.
 
+:::warningImportant:
+In case of **anonymous** session, only `data`, `loading` and `isLoading` are returned.
+:::
+
 
 ### Examples
 
 ```jsx
-import useSCCategoriesManager from '../../../hooks/useSCCategoriesManager';
+import useSCCategoriesManager from '@selfcommunity/core';
 
 export default function SCUserProvider({children}: {children: React.ReactNode}): JSX.Element {
 const categoriesManager: SCCategoriesManagerType = useSCCategoriesManager(user);

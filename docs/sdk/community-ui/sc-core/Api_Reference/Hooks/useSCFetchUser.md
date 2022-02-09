@@ -22,7 +22,7 @@ This custom hook is used to fetch a user object.
 
 ### Returns
 
-`{scUser, setSCUser}`:
+`{scUser, setSCUser}`: Hook to manage User obj state and update.
 
 ### Examples
 

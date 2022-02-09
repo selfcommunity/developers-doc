@@ -10,7 +10,18 @@ This component imports all providers.
 
 
 ## API
-### SCContext.Provider
+
+`SCContextProvider(conf,children) => Provider`
+### Arguments
+
+- **Type:** [SCContextProviderType](../Types/context/#sccontextprovidertype)
+
+| Name | Type |
+| :------ | :------ |
+| conf | [SCSettingsType](../Types/context/#scsettingstype) |
+| children | ReactNode |
+
+### Returns
 
 ```jsx
 <SCContext.Provider value={{settings}}>

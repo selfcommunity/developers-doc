@@ -12,7 +12,15 @@ This component makes the `intl` available down the React tree.
 
 ## API
 
-### SCAlertMessagesContext.Provider
+`SCAlertMessagesProvider(children) => Provider`
+
+### Arguments
+
+| Name | Type |
+| :------ | :------ |
+| children | ReactNode |
+
+### Returns
 
 ```jsx
 <SCAlertMessagesContext.Provider value={{options}}>
