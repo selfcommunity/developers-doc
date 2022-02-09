@@ -10,7 +10,7 @@ title: Categories Popular API
 ### Import 
 
 ```jsx
-import CategoriesPopular from '@selfcommunity/sc-ui/src/components/CategoriesPopular';
+import CategoriesPopular from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -19,6 +19,8 @@ The name `SCCategoriesPopular` can be used when providing style overrides in the
 
 
 ### Props
+
+[CategoriesListProps](../Interfaces/CategoriesListProps)
 
 See [CategoriesListProps](../Component_API/categoriessuggestion/#categorieslist-props)
 

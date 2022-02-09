@@ -8,7 +8,7 @@ title: User API
 ### Import 
 
 ```jsx
-import User from '@selfcommunity/sc-ui/src/components/User';
+import User from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -18,19 +18,7 @@ The name `SCUser` can be used when providing style overrides in the theme.
 
 ### Props
 
-#### User Props
-
-|Name|Type|Default|Description|
-|---|---|---|---|
-|id|integer|null|Id of user object.|
-|user|[User](../../sc-core/Api_Reference/Types/user#properties)|null|User Object.|
-|autoHide|bool|false|If true, hides the component.|
-|className|string|null|Overrides or extends the styles applied to the component.|
-|[p: string]|any|null|Other props.|
-|handleIgnoreAction|func|null|Handles actions ignore.|
-|onFollowProps|func|null|Callback function on follow action.|
-
-
+[UserProps](../Interfaces/userprops)
 
 
 ### CSS
@@ -38,6 +26,8 @@ The name `SCUser` can be used when providing style overrides in the theme.
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCUser-root|Styles applied to the root element.|
+|avatar|.SCUser-avatar|Styles applied to the avatar element.|
+|actions|.SCUser-actions|Styles applied to actions section.|
 
 ### Demos
 

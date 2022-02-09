@@ -9,7 +9,7 @@ title: Category Header API
 ### Import 
 
 ```jsx
-import CategoryHeader from '@selfcommunity/sc-ui/src/components/CategoryHeader';
+import CategoryHeader from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -18,6 +18,8 @@ The name `SCCategoryHeader` can be used when providing style overrides in the th
 
 
 ### Props
+
+[CategoryHeaderProps](../Interfaces/CategoryHeaderProps)
 
 |Name|Type|Default|Description|
 |---|---|---|---|

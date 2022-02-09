@@ -9,7 +9,7 @@ title: Related Discussion API
 ### Import 
 
 ```jsx
-import Related Discussion from '@selfcommunity/sc-ui/src/components/RelatedDiscussion';
+import Related Discussion from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -19,15 +19,7 @@ The name `SCRelatedDiscussion` can be used when providing style overrides in the
 
 ### Props
 
-|Name|Type|Default|Description|
-|---|---|---|---|
-|feedObjectId|integer|null|Id of the feed object|
-|feedObjectType|[SCFeedObjectTypologyType](../../sc-core/Api_Reference/Types/feed/#scfeedobjecttypologytype)|'discussion'|Type of  feed object|
-|template|[FeedObjectTemplateType](../Types/feed/#feedobjecttemplatetype)|'snippet'|Feed Object template type|
-|FeedObjectProps|[FeedObjectProps](#)|empty|Props to spread to single feed object|
-|autoHide|bool|false|If true, hides the component.|
-|className|string|null|Overrides or extends the styles applied to the component.|
-|[p: string]|any|null|Other props.|
+[RelatedDiscussionProps](../Interfaces/relateddiscussionprops)
 
 
 

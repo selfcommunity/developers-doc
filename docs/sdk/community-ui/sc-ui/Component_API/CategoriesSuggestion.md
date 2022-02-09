@@ -9,7 +9,7 @@ title: Categories Suggestion API
 ### Import 
 
 ```jsx
-import CategoriesSuggestion from '@selfcommunity/sc-ui/src/components/CategoriesSuggestion';
+import CategoriesSuggestion from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -20,6 +20,8 @@ The name `SCCategoriesSuggestion` can be used when providing style overrides in 
 ### Props
 
 #### CategoriesList Props
+
+[CategoriesListProps](../Interfaces/CategoriesListProps)
 
 |Name|Type|Default|Description|
 |---|---|---|---|

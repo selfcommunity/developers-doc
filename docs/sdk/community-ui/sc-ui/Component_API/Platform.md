@@ -9,7 +9,7 @@ title: Platform API
 ### Import 
 
 ```jsx
-import Platform from '@selfcommunity/sc-ui/src/components/Platform';
+import Platform from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -18,6 +18,8 @@ The name `SCPlatform` can be used when providing style overrides in the theme.
 
 
 ### Props
+
+[PlatformProps](../Interfaces/PlatformProps)
 
 |Name|Type|Default|Description|
 |---|---|---|---|

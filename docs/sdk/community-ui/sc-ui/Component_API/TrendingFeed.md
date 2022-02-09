@@ -9,7 +9,7 @@ title: Trending Feed API
 ### Import 
 
 ```jsx
-import TrendingFeedObject from '@selfcommunity/sc-ui/src/components/TrendingFeed';
+import TrendingFeedObject from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -20,6 +20,8 @@ The name `SCTrendingFeed` can be used when providing style overrides in the them
 ### Props
 
 #### Feed Props
+
+[TrendingFeedProps](../Interfaces/TrendingFeedProps)
 
 |Name|Type|Default|Description|
 |---|---|---|---|

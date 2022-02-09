@@ -9,7 +9,7 @@ title: Categories Followed API
 ### Import 
 
 ```jsx
-import CategoriesFollowed from '@selfcommunity/sc-ui/src/components/CategoriesFollowed';
+import CategoriesFollowed from '@selfcommunity/ui';
 ```
 
 ### Component Name
@@ -18,6 +18,8 @@ The name `SCCategoriesFollowed` can be used when providing style overrides in th
 
 
 ### Props
+
+[CategoriesListProps](../Interfaces/CategoriesListProps)
 
 See [CategoriesListProps](../Component_API/categoriessuggestion/#categorieslist-props)
 
