@@ -37,6 +37,36 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id:'sc-core',
+        entryPoints: ['../../WebstormProjects/community-ui/packages/sc-core/src/index.ts'],
+        tsconfig: '../../WebstormProjects/community-ui/packages/sc-core/tsconfig.json',
+        out: 'sdk/sc-core',
+        sidebar: {
+          categoryLabel: 'SC-Core',
+          position: 0,
+          fullNames: true
+        },
+      },
+    ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id:'sc-ui',
+        entryPoints: ['../../WebstormProjects/community-ui/packages/sc-ui/src/index.ts'],
+        tsconfig: '../../WebstormProjects/community-ui/packages/sc-ui/tsconfig.json',
+        out: 'sdk/sc-ui',
+        sidebar: {
+          categoryLabel: 'SC-UI',
+          position: 0,
+          fullNames: true
+        },
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
