@@ -100,6 +100,8 @@ curl -X GET /api/v2/user/me/ \
   "discussions_counter": 4,
   "statuses_counter": 1,
   "polls_counter": 6,
+  "unseen_interactions_counter": 0,
+  "unseen_notification_banners_counter": 1,
   "permission": {
     "upload_video": false,
     "create_contribute": true,
