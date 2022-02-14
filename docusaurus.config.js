@@ -44,11 +44,16 @@ const config = {
         id:'sc-core',
         entryPoints: ['../../WebstormProjects/community-ui/packages/sc-core/src/index.ts'],
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-core/tsconfig.json',
-        out: 'sdk/sc-core',
+        out: 'sdk/community-ui/sc-core/API Reference',
+        readme: 'none',
+        excludeExternals: true,
         sidebar: {
-          categoryLabel: 'SC-Core',
+          categoryLabel: 'API Reference',
           position: 0,
-          fullNames: true
+          fullNames: true,
+        },
+        validation: {
+          "notExported": true
         },
       },
     ],
@@ -58,11 +63,35 @@ const config = {
         id:'sc-ui',
         entryPoints: ['../../WebstormProjects/community-ui/packages/sc-ui/src/index.ts'],
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-ui/tsconfig.json',
-        out: 'sdk/sc-ui',
+        out: 'sdk/community-ui/sc-ui/component_API',
+        readme: 'none',
+        excludeExternals: true,
         sidebar: {
-          categoryLabel: 'SC-UI',
+          categoryLabel: 'Component API',
           position: 0,
-          fullNames: true
+          fullNames: true,
+        },
+        validation: {
+          "notExported": true
+        },
+      },
+    ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id:'sc-templates',
+        entryPoints: ['../../WebstormProjects/community-ui/packages/sc-templates/src/index.ts'],
+        tsconfig: '../../WebstormProjects/community-ui/packages/sc-templates/tsconfig.json',
+        out: 'sdk/community-ui/sc-templates/Component API',
+        readme: 'none',
+        excludeExternals: true,
+        sidebar: {
+          categoryLabel: 'API Reference',
+          position: 0,
+          fullNames: true,
+        },
+        validation: {
+          "notExported": true
         },
       },
     ],
