@@ -1,11 +1,11 @@
 ---
-sidebar_label: List User's Banner
+sidebar_label: List Broadcast Messages
 sidebar_position: 5
-title: List User's Banner
+title: List Broadcast Messages
 ---
 
-This endpoint lists all top notification banners.
-Notification banners are notifications that have a high priority and for this reason they are placed at the top of the list in the notification page.
+This endpoint lists all broadcast messages.
+Broadcast Messages are notifications that have a high priority and for this reason they are placed at the top of the list in the notification page.
 
 They belong to their own list. For some reasons they behave differently from the notification.
 They are initially shown and can be removed.

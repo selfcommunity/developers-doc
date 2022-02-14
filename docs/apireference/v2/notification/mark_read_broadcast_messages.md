@@ -1,10 +1,10 @@
 ---
-sidebar_label: Mark Read User's Banner
+sidebar_label: Mark Read Broadcast Messages
 sidebar_position: 8
-title: Mark Read User's Banner
+title: Mark Read Broadcast Messages
 ---
 
-This endpoint marks as viewed/read a notiifcation banner for a user.
+This endpoint marks as viewed/read a broadcast message for a user.
 
 :::info
 

@@ -1,14 +1,14 @@
 ---
-sidebar_label: Dispose User's Banner
+sidebar_label: Dispose Broadcast Messages
 sidebar_position: 9
-title: Dispose User's Banner
+title: Dispose Broadcast Messages
 ---
 
-This endpoint disposes a notification banner for a user.
+This endpoint disposes a broadcast message for a user.
 
 :::info
 
-The banner will disappear and will no longer appear in the notification banner list, see [List User's Banner](#opIdbannerNotification). 
+The broadcast message will disappear and will no longer appear in the broadcast messages list, see [List Broadcast Messages](list_broadcast_messages). 
 
 :::
 
