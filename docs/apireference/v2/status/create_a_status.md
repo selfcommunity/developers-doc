@@ -23,7 +23,7 @@ This operation requires authentication.
 | » action     | body | string¦null   | true     | The action of the status                                                                             |
 | » text       | body | string        | false    | The content of the status in html format, it can contain some [mentions](../mention/mention) |
 | » categories | body | list(integer) | true     | List of id of [Category](../schemas/category)                                                            |
-| » medias     | body | list(integer) | false    | List of id of [Media](../schemas/media)                                                                  |
+| » medias     | body | list(integer) | false    | List of id of [Media](../schemas/media) (only one media of type share is allowed)                                                                 |
 | » location   | body | object¦null   | false    | The Location object to associate with the status                                                     |
 | »» location  | body | string¦null   | true     | none                                                                                                 |
 | »» lat       | body | number¦null   | true     | none                                                                                                 |

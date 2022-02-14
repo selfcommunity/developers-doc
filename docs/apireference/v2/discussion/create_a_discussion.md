@@ -23,7 +23,7 @@ This operation requires authentication
 |» title|body|string¦null|true|The title of the discussion|
 |» text|body|string|false|The content of the discussion in html format, it can contain some [mentions](../mention/mention)|
 |» categories|body|list(integer)|true|List of id of [Category](../schemas/category)|
-|» medias|body|list(integer)|false|List of id of [Media](../schemas/media)|
+|» medias|body|list(integer)|false|List of id of [Media](../schemas/media) (only one media of type share is allowed)|
 |» location|body|object¦null|false|The Location object to associate at the discussion|
 |»» location|body|string¦null|true|none|
 |»» lat|body|number¦null|true|none|
