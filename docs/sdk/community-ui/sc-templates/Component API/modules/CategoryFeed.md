@@ -1,0 +1,45 @@
+---
+id: "CategoryFeed"
+title: "Module: CategoryFeed"
+sidebar_label: "CategoryFeed"
+sidebar_position: 0
+custom_edit_url: null
+---
+
+## Interfaces
+
+- [CategoryFeedProps](../interfaces/CategoryFeed.CategoryFeedProps)
+
+## Functions
+
+### CategoryFeedSkeleton
+
+▸ **CategoryFeedSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[CategoryFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/CategoryFeed/Skeleton.tsx#L13)
+
+___
+
+### default
+
+▸ **default**(`props`): `JSX.Element`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`CategoryFeedProps`](../interfaces/CategoryFeed.CategoryFeedProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[CategoryFeed/CategoryFeed.tsx:97](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L97)

@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const glob = require('glob');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -42,7 +43,7 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-core',
-        entryPoints: ['../../WebstormProjects/community-ui/packages/sc-core/src/index.ts'],
+        entryPoints: glob.sync('../../WebstormProjects/community-ui/packages/sc-core/src/components/**/index.tsx'),
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-core/tsconfig.json',
         out: 'sdk/community-ui/sc-core/API Reference',
         readme: 'none',
@@ -50,7 +51,7 @@ const config = {
         sidebar: {
           categoryLabel: 'API Reference',
           position: 0,
-          fullNames: true,
+          indexLabel: 'Introduction'
         },
         validation: {
           "notExported": true
@@ -61,7 +62,8 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-ui',
-        entryPoints: ['../../WebstormProjects/community-ui/packages/sc-ui/src/index.ts'],
+        entryPoints: glob.sync('../../WebstormProjects/community-ui/packages/sc-ui/src/components/*/index.tsx'),
+        exclude: ['../../WebstormProjects/community-ui/packages/sc-ui/src/components/FollowCategoryButton/*/index.tsx', '../../WebstormProjects/community-ui/packages/sc-ui/src/components/FollowUserButton/*/index.tsx', '../../WebstormProjects/community-ui/packages/sc-ui/src/components/ConnectionUserButton/*/index.tsx'],
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-ui/tsconfig.json',
         out: 'sdk/community-ui/sc-ui/component_API',
         readme: 'none',
@@ -69,7 +71,7 @@ const config = {
         sidebar: {
           categoryLabel: 'Component API',
           position: 0,
-          fullNames: true,
+          indexLabel: 'Introduction'
         },
         validation: {
           "notExported": true
@@ -80,7 +82,7 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-templates',
-        entryPoints: ['../../WebstormProjects/community-ui/packages/sc-templates/src/index.ts'],
+        entryPoints:  glob.sync('../../WebstormProjects/community-ui/packages/sc-templates/src/components/*/index.tsx'),
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-templates/tsconfig.json',
         out: 'sdk/community-ui/sc-templates/Component API',
         readme: 'none',
@@ -88,7 +90,7 @@ const config = {
         sidebar: {
           categoryLabel: 'API Reference',
           position: 0,
-          fullNames: true,
+          indexLabel: 'Introduction'
         },
         validation: {
           "notExported": true
