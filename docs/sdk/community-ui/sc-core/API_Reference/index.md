@@ -1,0 +1,52 @@
+---
+id: "index"
+title: "@selfcommunity/core"
+slug: "/sdk/community-ui/sc-core/API_Reference/"
+sidebar_label: "Introduction"
+sidebar_position: 0.5
+hide_table_of_contents: true
+custom_edit_url: null
+---
+
+## Modules
+
+- [components/provider/SCAlertMessagesProvider](modules/components_provider_SCAlertMessagesProvider)
+- [components/provider/SCContextProvider](modules/components_provider_SCContextProvider)
+- [components/provider/SCLocaleProvider](modules/components_provider_SCLocaleProvider)
+- [components/provider/SCNotificationProvider](modules/components_provider_SCNotificationProvider)
+- [components/provider/SCPreferencesProvider](modules/components_provider_SCPreferencesProvider)
+- [components/provider/SCRoutingProvider](modules/components_provider_SCRoutingProvider)
+- [components/provider/SCThemeProvider](modules/components_provider_SCThemeProvider)
+- [components/provider/SCUserProvider](modules/components_provider_SCUserProvider)
+- [components/router](modules/components_router)
+- [hooks/useSCAuth](modules/hooks_useSCAuth)
+- [hooks/useSCCachingManager](modules/hooks_useSCCachingManager)
+- [hooks/useSCCategoriesManager](modules/hooks_useSCCategoriesManager)
+- [hooks/useSCConnectionsManager](modules/hooks_useSCConnectionsManager)
+- [hooks/useSCFetchCategory](modules/hooks_useSCFetchCategory)
+- [hooks/useSCFetchCommentObject](modules/hooks_useSCFetchCommentObject)
+- [hooks/useSCFetchCustomAdv](modules/hooks_useSCFetchCustomAdv)
+- [hooks/useSCFetchFeedObject](modules/hooks_useSCFetchFeedObject)
+- [hooks/useSCFetchTag](modules/hooks_useSCFetchTag)
+- [hooks/useSCFetchUser](modules/hooks_useSCFetchUser)
+- [hooks/useSCFollowersManager](modules/hooks_useSCFollowersManager)
+- [hooks/useSCWebPushMessaging](modules/hooks_useSCWebPushMessaging)
+- [hooks/useSCWebSocket](modules/hooks_useSCWebSocket)
+- [types](modules/types)
+- [types/broadcastMessage](modules/types_broadcastMessage)
+- [types/category](modules/types_category)
+- [types/comment](modules/types_comment)
+- [types/context](modules/types_context)
+- [types/customAdv](modules/types_customAdv)
+- [types/customNotification](modules/types_customNotification)
+- [types/embed](modules/types_embed)
+- [types/feed](modules/types_feed)
+- [types/incubator](modules/types_incubator)
+- [types/location](modules/types_location)
+- [types/media](modules/types_media)
+- [types/notification](modules/types_notification)
+- [types/poll](modules/types_poll)
+- [types/privateMessage](modules/types_privateMessage)
+- [types/prize](modules/types_prize)
+- [types/tag](modules/types_tag)
+- [types/user](modules/types_user)

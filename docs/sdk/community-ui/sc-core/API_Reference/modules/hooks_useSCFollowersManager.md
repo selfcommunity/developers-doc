@@ -1,0 +1,33 @@
+---
+id: "hooks_useSCFollowersManager"
+title: "Module: hooks/useSCFollowersManager"
+sidebar_label: "hooks/useSCFollowersManager"
+sidebar_position: 0
+custom_edit_url: null
+---
+
+## Functions
+
+### default
+
+▸ **default**(`user?`): { `emptyCache`: `undefined` ; `follow`: `undefined` ; `followed`: `any`[] = data; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `emptyCache`: () => `void` ; `follow`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `followed`: `any`[] = data; `isFollowed`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
+
+Custom hook 'useSCFollowedManager'
+Use this hook to manage followed users:
+1. const scUserContext: SCUserContextType = useSCUser();
+2. const scFollowedManager: SCFollowedManagerType = scUserContext.manager.followed;
+3. scFollowedManager.isFollowed(user)
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `user?` | [`SCUserType`](../interfaces/types_user.SCUserType) |
+
+#### Returns
+
+{ `emptyCache`: `undefined` ; `follow`: `undefined` ; `followed`: `any`[] = data; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `emptyCache`: () => `void` ; `follow`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `followed`: `any`[] = data; `isFollowed`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
+
+#### Defined in
+
+[hooks/useSCFollowersManager.ts:28](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCFollowersManager.ts#L28)

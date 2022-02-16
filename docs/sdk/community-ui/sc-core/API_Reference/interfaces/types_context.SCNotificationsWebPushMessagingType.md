@@ -1,0 +1,34 @@
+---
+id: "types_context.SCNotificationsWebPushMessagingType"
+title: "Interface: SCNotificationsWebPushMessagingType"
+sidebar_label: "SCNotificationsWebPushMessagingType"
+custom_edit_url: null
+---
+
+[types/context](../modules/types_context).SCNotificationsWebPushMessagingType
+
+Interface SCNotificationsWebPushMessagingType
+
+## Properties
+
+### applicationServerKey
+
+• `Optional` **applicationServerKey**: `boolean`
+
+applicationServerKey - Public key
+
+#### Defined in
+
+[types/context.ts:423](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L423)
+
+___
+
+### disableToastMessage
+
+• `Optional` **disableToastMessage**: `boolean`
+
+Disable toast message
+
+#### Defined in
+
+[types/context.ts:418](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L418)

@@ -4,6 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const glob = require('glob');
+const globs = require('glob-all');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,9 +44,9 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-core',
-        entryPoints: glob.sync('../../WebstormProjects/community-ui/packages/sc-core/src/components/**/index.tsx'),
+        entryPoints: globs.sync(['../../WebstormProjects/community-ui/packages/sc-core/src/components/*/*.tsx', '../../WebstormProjects/community-ui/packages/sc-core/src/hooks/*.ts', '../../WebstormProjects/community-ui/packages/sc-core/src/types/*.ts']),
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-core/tsconfig.json',
-        out: 'sdk/community-ui/sc-core/API Reference',
+        out: 'sdk/community-ui/sc-core/API_Reference',
         readme: 'none',
         excludeExternals: true,
         sidebar: {
