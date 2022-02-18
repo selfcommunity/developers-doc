@@ -12,23 +12,27 @@ custom_edit_url: null
 
 ## Functions
 
-### TrendingPeopleSkeleton
+### TrendingPeople
 
-▸ **TrendingPeopleSkeleton**(): `JSX.Element`
+▸ **TrendingPeople**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI Trending People component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import Trending People from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx:24](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx#L24)
+#### Component Name
 
-___
+The name `SCTrendingPeople` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCTrendingPeople-root|Styles applied to the root element.|
 
 #### Parameters
 
@@ -42,4 +46,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:55](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L55)
+[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:82](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L82)
+
+___
+
+### TrendingPeopleSkeleton
+
+▸ **TrendingPeopleSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx#L25)

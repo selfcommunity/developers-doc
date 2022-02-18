@@ -8,12 +8,13 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCFetchTag
 
-▸ **default**(`__namedParameters`): `Object`
+▸ **useSCFetchTag**(`__namedParameters`): `Object`
 
-Custom hook 'useSCFetchTag'
-Use this hook to fetch a tag object
+:::info
+This custom hook is used to fetch a tag object.
+:::
 
 #### Parameters
 
@@ -34,4 +35,4 @@ Use this hook to fetch a tag object
 
 #### Defined in
 
-[hooks/useSCFetchTag.ts:15](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCFetchTag.ts#L15)
+[hooks/useSCFetchTag.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchTag.ts#L17)

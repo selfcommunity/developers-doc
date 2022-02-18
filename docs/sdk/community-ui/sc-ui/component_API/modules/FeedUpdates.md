@@ -12,6 +12,46 @@ custom_edit_url: null
 
 ## Functions
 
+### FeedUpdates
+
+▸ **FeedUpdates**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI FeedUpdates component. Learn about the available props and the CSS API.
+This Component subscribe to updates from PubSub channel (eg. websocket) and tell the feed to updates if necessary.
+
+#### Import
+
+```jsx
+import FeedUpdates from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCFeedUpdates` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCFeedUpdates-root|Styles applied to the root element.|
+|image|.SCFeedUpdates-image|Styles applied to the image element.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`FeedUpdatesProps`](../interfaces/FeedUpdates.FeedUpdatesProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:89](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L89)
+
+___
+
 ### FeedUpdatesSkeleton
 
 ▸ **FeedUpdatesSkeleton**(`props`): `JSX.Element`
@@ -28,26 +68,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx#L19)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-This Component subscribe to updates from PubSub channel (eg. websocket) and tell the feed to updates if necessary
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`FeedUpdatesProps`](../interfaces/FeedUpdates.FeedUpdatesProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:66](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L66)
+[packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx:14](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx#L14)

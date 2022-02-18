@@ -25,7 +25,7 @@ Props to spread to single user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:47](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L47)
+[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:52](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L52)
 
 ___
 
@@ -39,7 +39,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:35](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L35)
+[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:40](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L40)
 
 ___
 
@@ -53,7 +53,7 @@ Category id
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:29](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L29)
+[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:34](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L34)
 
 ___
 
@@ -67,4 +67,4 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:41](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L41)
+[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:46](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L46)

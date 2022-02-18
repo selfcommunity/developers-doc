@@ -13,6 +13,48 @@ custom_edit_url: null
 
 ## Functions
 
+### Feed
+
+▸ **Feed**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI Feed component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import Feed from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCFeed` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCFeed-root|Styles applied to the root element.|
+|left|.SCFeed-left|Styles applied to the left element.|
+|right|.SCFeed-right|Styles applied to the right element.|
+|end|.SCFeed-end|Styles applied to the end element.|
+|refresh|.SCFeed-refresh|Styles applied to the refresh section.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`FeedProps`](../interfaces/Feed.FeedProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/Feed/Feed.tsx:159](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Feed/Feed.tsx#L159)
+
+___
+
 ### FeedSkeleton
 
 ▸ **FeedSkeleton**(`props`): `JSX.Element`
@@ -29,24 +71,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Skeleton.tsx:34](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Feed/Skeleton.tsx#L34)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`FeedProps`](../interfaces/Feed.FeedProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/Feed/Feed.tsx:134](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Feed/Feed.tsx#L134)
+[packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)

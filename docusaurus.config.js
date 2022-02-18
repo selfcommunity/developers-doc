@@ -44,11 +44,10 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-core',
-        entryPoints: globs.sync(['../../WebstormProjects/community-ui/packages/sc-core/src/components/*/*.tsx', '../../WebstormProjects/community-ui/packages/sc-core/src/hooks/*.ts', '../../WebstormProjects/community-ui/packages/sc-core/src/types/*.ts']),
+        entryPoints: globs.sync(['../../WebstormProjects/community-ui/packages/sc-core/src/components/provider/**/index.tsx','../../WebstormProjects/community-ui/packages/sc-core/src/components/router/*.tsx', '../../WebstormProjects/community-ui/packages/sc-core/src/hooks/*.ts', '../../WebstormProjects/community-ui/packages/sc-core/src/types/*.ts']),
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-core/tsconfig.json',
         out: 'sdk/community-ui/sc-core/API_Reference',
         readme: 'none',
-        excludeExternals: true,
         sidebar: {
           categoryLabel: 'API Reference',
           position: 0,
@@ -57,6 +56,7 @@ const config = {
         validation: {
           "notExported": true
         },
+        plugin:['typedoc-plugin-rename-defaults'],
       },
     ],
     [
@@ -64,7 +64,7 @@ const config = {
       {
         id:'sc-ui',
         entryPoints: glob.sync('../../WebstormProjects/community-ui/packages/sc-ui/src/components/*/index.tsx'),
-        exclude: ['../../WebstormProjects/community-ui/packages/sc-ui/src/components/FollowCategoryButton/*/index.tsx', '../../WebstormProjects/community-ui/packages/sc-ui/src/components/FollowUserButton/*/index.tsx', '../../WebstormProjects/community-ui/packages/sc-ui/src/components/ConnectionUserButton/*/index.tsx'],
+        exclude: ['../../WebstormProjects/community-ui/packages/sc-ui/src/components/FollowCategoryButton/*/index.tsx', '../../WebstormProjects/community-ui/packages/sc-ui/src/components/FollowUserButton/*/index.tsx', '../../WebstormProjects/community-ui/packages/sc-ui/src/components/ConnectionUserButton/*/index.tsx','../../WebstormProjects/community-ui/packages/sc-ui/src/components/FriendshipUserButton/*/index.tsx'],
         tsconfig: '../../WebstormProjects/community-ui/packages/sc-ui/tsconfig.json',
         out: 'sdk/community-ui/sc-ui/component_API',
         readme: 'none',
@@ -77,6 +77,7 @@ const config = {
         validation: {
           "notExported": true
         },
+        plugin:['typedoc-plugin-rename-defaults'],
       },
     ],
     [
@@ -96,6 +97,7 @@ const config = {
         validation: {
           "notExported": true
         },
+        plugin:['typedoc-plugin-rename-defaults'],
       },
     ],
   ],

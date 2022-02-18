@@ -8,15 +8,23 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCConnectionsManager
 
-▸ **default**(`user?`): { `acceptConnection`: `undefined` ; `connections`: `any`[] = data; `emptyCache`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined` ; `requestConnection`: `undefined` ; `status`: `undefined`  } \| { `acceptConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `connections`: `any`[] = data; `emptyCache`: () => `void` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void` ; `requestConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `status`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `string`  }
+▸ **useSCConnectionsManager**(`user?`): { `acceptConnection`: `undefined` ; `connections`: `any`[] = data; `emptyCache`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined` ; `requestConnection`: `undefined` ; `status`: `undefined`  } \| { `acceptConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `connections`: `any`[] = data; `emptyCache`: () => `void` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void` ; `requestConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `status`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `string`  }
 
-Custom hook 'useSCConnectionsManager'
-Use this hook to manage friends:
+:::info
+This custom hook is used to manage to manage friends.
+:::
+
+:::tipHow to use it:
+
+Follow these steps:
+```jsx
 1. const scUserContext: SCUserContextType = useSCUser();
 2. const scConnectionsManager: SCConnectionsManagerType = scUserContext.manager.connections;
 3. scConnectionsManager.status(user)
+```
+:::
 
 #### Parameters
 
@@ -30,4 +38,4 @@ Use this hook to manage friends:
 
 #### Defined in
 
-[hooks/useSCConnectionsManager.ts:31](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCConnectionsManager.ts#L31)
+[hooks/useSCConnectionsManager.ts:41](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCConnectionsManager.ts#L41)

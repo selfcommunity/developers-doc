@@ -12,6 +12,7 @@ custom_edit_url: null
 
 • **SCThemeContext**: `Context`<[`SCThemeContextType`](../interfaces/types_context.SCThemeContextType)\>
 
+ * @hidden
 Create Global Context
 Consuming this context in one of the following ways:
  1. `<SCThemeContext.Consumer>
@@ -22,13 +23,13 @@ Consuming this context in one of the following ways:
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:19](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L19)
+[components/provider/SCThemeProvider/index.tsx:20](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L20)
 
 ## Functions
 
-### default
+### SCThemeProvider
 
-▸ **default**(`__namedParameters`): `JSX.Element`
+▸ **SCThemeProvider**(`__namedParameters`): `JSX.Element`
 
 This component makes the `theme` available down the React tree.
 It should preferably be used at **the root of your component tree**.
@@ -47,7 +48,7 @@ See: https://mui.com/system/styled/
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:26](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L26)
+[components/provider/SCThemeProvider/index.tsx:27](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L27)
 
 ___
 
@@ -55,6 +56,7 @@ ___
 
 ▸ **useSCTheme**(): [`SCThemeContextType`](../interfaces/types_context.SCThemeContextType)
 
+ * @hidden
 Let's only export the `useSCTheme` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -64,7 +66,7 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:61](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L61)
+[components/provider/SCThemeProvider/index.tsx:63](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L63)
 
 ___
 
@@ -98,4 +100,4 @@ Export hoc to inject the base theme to components
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:48](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L48)
+[components/provider/SCThemeProvider/index.tsx:49](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L49)

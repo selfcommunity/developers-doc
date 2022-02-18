@@ -23,7 +23,7 @@ SCPreferencesProvider,
 
 #### Defined in
 
-[types/context.ts:52](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L52)
+[types/context.ts:52](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L52)
 
 ___
 
@@ -35,7 +35,7 @@ i18n. Locale: it, en, etc...
 
 #### Defined in
 
-[types/context.ts:17](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L17)
+[types/context.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L17)
 
 ___
 
@@ -47,7 +47,7 @@ Object conf of notification.
 
 #### Defined in
 
-[types/context.ts:37](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L37)
+[types/context.ts:37](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L37)
 
 ___
 
@@ -59,7 +59,7 @@ Portal.
 
 #### Defined in
 
-[types/context.ts:12](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L12)
+[types/context.ts:12](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L12)
 
 ___
 
@@ -71,7 +71,7 @@ Object conf of router.
 
 #### Defined in
 
-[types/context.ts:32](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L32)
+[types/context.ts:32](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L32)
 
 ___
 
@@ -83,7 +83,7 @@ Object conf of session.
 
 #### Defined in
 
-[types/context.ts:22](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L22)
+[types/context.ts:22](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L22)
 
 ___
 
@@ -95,7 +95,7 @@ Object conf of session.
 
 #### Defined in
 
-[types/context.ts:27](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L27)
+[types/context.ts:27](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L27)
 
 ## Methods
 
@@ -112,4 +112,4 @@ Ex. an anonymous user attempt to post a comment
 
 #### Defined in
 
-[types/context.ts:43](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L43)
+[types/context.ts:43](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L43)

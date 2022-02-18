@@ -12,6 +12,44 @@ custom_edit_url: null
 
 ## Functions
 
+### TrendingFeed
+
+▸ **TrendingFeed**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI Trending Feed component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import TrendingFeedObject from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCTrendingFeed` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCTrendingFeed-root|Styles applied to the root element.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`TrendingFeedProps`](../interfaces/TrendingFeed.TrendingFeedProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:79](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L79)
+
+___
+
 ### TrendingFeedSkeleton
 
 ▸ **TrendingFeedSkeleton**(`props`): `JSX.Element`
@@ -28,24 +66,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx:24](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx#L24)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`TrendingFeedProps`](../interfaces/TrendingFeed.TrendingFeedProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:51](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L51)
+[packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx#L25)

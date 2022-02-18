@@ -31,7 +31,7 @@ Hides user component
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:65](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/User/User.tsx#L65)
+[packages/sc-ui/src/components/User/User.tsx:54](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/User/User.tsx#L54)
 
 ___
 
@@ -49,35 +49,21 @@ Pick.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:55](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/User/User.tsx#L55)
+[packages/sc-ui/src/components/User/User.tsx:44](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/User/User.tsx#L44)
 
 ___
 
-### connectUserButtonProps
+### followConnectUserButtonProps
 
-• `Optional` **connectUserButtonProps**: `ConnectionButtonProps`
+• `Optional` **followConnectUserButtonProps**: [`FollowUserButtonProps`](FollowUserButton.FollowUserButtonProps) \| [`FriendshipButtonProps`](FriendshipUserButton.FriendshipButtonProps)
 
-Props to spread to connection button
+Props to spread to follow/friendship button
 
 **`default`** {}
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:82](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/User/User.tsx#L82)
-
-___
-
-### followUserButtonProps
-
-• `Optional` **followUserButtonProps**: [`FollowUserButtonProps`](FollowUserButton.FollowUserButtonProps)
-
-Props to spread to follow button
-
-**`default`** {}
-
-#### Defined in
-
-[packages/sc-ui/src/components/User/User.tsx:76](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/User/User.tsx#L76)
+[packages/sc-ui/src/components/User/User.tsx:65](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/User/User.tsx#L65)
 
 ___
 
@@ -91,7 +77,7 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:50](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/User/User.tsx#L50)
+[packages/sc-ui/src/components/User/User.tsx:39](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/User/User.tsx#L39)
 
 ___
 
@@ -105,7 +91,7 @@ User Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:60](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/User/User.tsx#L60)
+[packages/sc-ui/src/components/User/User.tsx:49](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/User/User.tsx#L49)
 
 ## Methods
 
@@ -129,4 +115,4 @@ Handles actions ignore
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:70](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/User/User.tsx#L70)
+[packages/sc-ui/src/components/User/User.tsx:59](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/User/User.tsx#L59)

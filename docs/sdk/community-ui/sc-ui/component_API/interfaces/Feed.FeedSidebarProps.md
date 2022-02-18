@@ -15,7 +15,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:54](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Feed/Feed.tsx#L54)
+[packages/sc-ui/src/components/Feed/Feed.tsx:55](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Feed/Feed.tsx#L55)
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:53](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Feed/Feed.tsx#L53)
+[packages/sc-ui/src/components/Feed/Feed.tsx:54](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Feed/Feed.tsx#L54)

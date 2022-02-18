@@ -12,23 +12,25 @@ custom_edit_url: null
 
 ## Functions
 
-### CustomAdvSkeleton
+### CustomAdv
 
-▸ **CustomAdvSkeleton**(): `JSX.Element`
+▸ **CustomAdv**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI CustomAdv component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
+```jsx
+import CustomAdv from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCCustomAdv` can be used when providing style overrides in the theme.
 
-#### Defined in
+#### CSS
 
-[packages/sc-ui/src/components/CustomAdv/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CustomAdv/Skeleton.tsx#L4)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCCustomAdv-root|Styles applied to the root element.|
+|image|.SCCustomAdv-image|Styles applied to the image element.|
 
 #### Parameters
 
@@ -42,4 +44,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:47](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L47)
+[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:67](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L67)
+
+___
+
+### CustomAdvSkeleton
+
+▸ **CustomAdvSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/CustomAdv/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CustomAdv/Skeleton.tsx#L4)

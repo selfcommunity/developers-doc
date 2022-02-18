@@ -12,9 +12,27 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### FollowCategoryButton
 
-▸ **default**(`props`): `JSX.Element`
+▸ **FollowCategoryButton**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI FollowCategoryButton component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import FollowCategoryButton from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCFollowCategoryButton` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCFollowCategoryButton-root|Styles applied to the root element.|
 
 #### Parameters
 
@@ -28,4 +46,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:48](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L48)
+[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:74](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L74)

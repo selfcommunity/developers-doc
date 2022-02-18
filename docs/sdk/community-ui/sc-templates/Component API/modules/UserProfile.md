@@ -12,23 +12,9 @@ custom_edit_url: null
 
 ## Functions
 
-### UserProfileSkeleton
+### UserProfile
 
-▸ **UserProfileSkeleton**(): `JSX.Element`
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[UserProfile/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/UserProfile/Skeleton.tsx#L17)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+▸ **UserProfile**(`props`): `JSX.Element`
 
 #### Parameters
 
@@ -42,4 +28,18 @@ ___
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:63](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L63)
+[UserProfile/UserProfile.tsx:153](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L153)
+
+___
+
+### UserProfileSkeleton
+
+▸ **UserProfileSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[UserProfile/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/UserProfile/Skeleton.tsx#L17)

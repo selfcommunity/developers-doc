@@ -12,6 +12,7 @@ custom_edit_url: null
 
 • **SCRoutingContext**: `Context`<[`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType)\>
 
+ * @hidden
 Create Global Context
 Consuming this context in one of the following ways:
  1. `<SCRoutingContext.Consumer>
@@ -22,13 +23,13 @@ Consuming this context in one of the following ways:
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:31](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L31)
+[components/provider/SCRoutingProvider/index.tsx:32](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L32)
 
 ## Functions
 
-### default
+### SCRoutingProvider
 
-▸ **default**(`__namedParameters`): `JSX.Element`
+▸ **SCRoutingProvider**(`__namedParameters`): `JSX.Element`
 
 #### Parameters
 
@@ -43,7 +44,7 @@ Consuming this context in one of the following ways:
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:33](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L33)
+[components/provider/SCRoutingProvider/index.tsx:34](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L34)
 
 ___
 
@@ -51,6 +52,7 @@ ___
 
 ▸ **useSCRouting**(): [`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType)
 
+ * @hidden
 Let's only export the `useSCTheme` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -60,4 +62,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:119](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L119)
+[components/provider/SCRoutingProvider/index.tsx:121](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L121)

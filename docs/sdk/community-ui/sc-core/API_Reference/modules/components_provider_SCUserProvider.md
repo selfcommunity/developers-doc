@@ -12,6 +12,7 @@ custom_edit_url: null
 
 • **SCUserContext**: `Context`<[`SCUserContextType`](../interfaces/types_context.SCUserContextType)\>
 
+ * @hidden
 SCUserContext (Authentication Context)
 Consuming this context in one of the following ways:
  1. `<SCUserContext.Consumer>
@@ -22,13 +23,13 @@ Consuming this context in one of the following ways:
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:29](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L29)
+[components/provider/SCUserProvider/index.tsx:30](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L30)
 
 ## Functions
 
-### default
+### SCUserProvider
 
-▸ **default**(`__namedParameters`): `JSX.Element`
+▸ **SCUserProvider**(`__namedParameters`): `JSX.Element`
 
 Export the provider as we need to wrap the entire app with it
 This provider keeps current user logged and session
@@ -46,7 +47,7 @@ This provider keeps current user logged and session
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:35](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L35)
+[components/provider/SCUserProvider/index.tsx:36](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L36)
 
 ___
 
@@ -54,6 +55,7 @@ ___
 
 ▸ **useSCUser**(): [`SCUserContextType`](../interfaces/types_context.SCUserContextType)
 
+ * @hidden
 Let's only export the `useSCUser` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -63,4 +65,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:190](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L190)
+[components/provider/SCUserProvider/index.tsx:184](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L184)

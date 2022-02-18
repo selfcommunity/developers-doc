@@ -8,6 +8,41 @@ custom_edit_url: null
 
 ## Functions
 
+### CategoriesFollowed
+
+▸ **CategoriesFollowed**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI Categories Followed component. Learn about the available props and the CSS API.
+
+#### Import
+```jsx
+import CategoriesFollowed from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCCategoriesFollowed` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCCategoryFollowed-root|Styles applied to the root element.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:60](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L60)
+
+___
+
 ### CategoriesFollowedSkeleton
 
 ▸ **CategoriesFollowedSkeleton**(`props`): `JSX.Element`
@@ -24,24 +59,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:38](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L38)
+[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)

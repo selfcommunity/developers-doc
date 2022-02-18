@@ -12,23 +12,27 @@ custom_edit_url: null
 
 ## Functions
 
-### UserFollowersSkeleton
+### UserFollowers
 
-▸ **UserFollowersSkeleton**(): `JSX.Element`
+▸ **UserFollowers**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI User Followers component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import UserFollowers from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/UserFollowers/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/UserFollowers/Skeleton.tsx#L4)
+#### Component Name
 
-___
+The name `SCUserFollowers` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCUserFollowers-root|Styles applied to the root element.|
 
 #### Parameters
 
@@ -42,4 +46,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:53](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L53)
+[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:86](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L86)
+
+___
+
+### UserFollowersSkeleton
+
+▸ **UserFollowersSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/UserFollowers/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserFollowers/Skeleton.tsx#L4)

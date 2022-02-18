@@ -12,23 +12,9 @@ custom_edit_url: null
 
 ## Functions
 
-### FeedObjectDetailSkeleton
+### FeedObjectDetail
 
-▸ **FeedObjectDetailSkeleton**(): `JSX.Element`
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[FeedObjectDetail/Skeleton.tsx:16](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/FeedObjectDetail/Skeleton.tsx#L16)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+▸ **FeedObjectDetail**(`props`): `JSX.Element`
 
 #### Parameters
 
@@ -42,4 +28,18 @@ ___
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:69](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L69)
+[FeedObjectDetail/FeedObjectDetail.tsx:69](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L69)
+
+___
+
+### FeedObjectDetailSkeleton
+
+▸ **FeedObjectDetailSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[FeedObjectDetail/Skeleton.tsx:16](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/FeedObjectDetail/Skeleton.tsx#L16)

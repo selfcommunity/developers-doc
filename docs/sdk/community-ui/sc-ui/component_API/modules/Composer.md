@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:298](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Composer/Composer.tsx#L298)
+[packages/sc-ui/src/components/Composer/Composer.tsx:299](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Composer/Composer.tsx#L299)
 
 ## Variables
 
@@ -31,7 +31,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:300](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Composer/Composer.tsx#L300)
+[packages/sc-ui/src/components/Composer/Composer.tsx:301](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Composer/Composer.tsx#L301)
 
 ___
 
@@ -41,27 +41,48 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:302](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Composer/Composer.tsx#L302)
+[packages/sc-ui/src/components/Composer/Composer.tsx:303](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Composer/Composer.tsx#L303)
 
 ## Functions
 
-### ComposerSkeleton
+### Composer
 
-▸ **ComposerSkeleton**(): `JSX.Element`
+▸ **Composer**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI Composer component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
+```jsx
+import Composer from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCComposer` can be used when providing style overrides in the theme.
 
-#### Defined in
+#### CSS
 
-[packages/sc-ui/src/components/Composer/Skeleton.tsx:66](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Composer/Skeleton.tsx#L66)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCComposer-root|Styles applied to the root element.|
+|title|.SCComposer-title|Styles applied to the title element.|
+|types|.SCComposer-types|Styles applied to the types element.|
+|avatar|.SCComposer-avatar|Styles applied to the avatar element.|
+|content|.SCComposer-content|Styles applied to the content.|
+|mediaContent|.SCComposer-mediaContent|Styles applied to the media content.|
+|audienceContent|.SCComposer-audienceContent|Styles applied to the audience content.|
+|locationContent|.SCComposer-locationContent|Styles applied to the location content.|
+|block|.SCComposer-block|Styles applied to the block element.|
+|editor|.SCComposer-editor|Styles applied to the editor element.|
+|divider|.SCComposer-divider|Styles applied to the divider element.|
+|medias|.SCComposer-medias|Styles applied to the medias.|
+|location|.SCComposer-location|Styles applied to the location element.|
+|audience|.SCComposer-audience|Styles applied to the audience element.|
+|mediasActions|.SCComposer-mediasActions|Styles applied to the medias actions section.|
+|sortableMedia|.SCComposer-sortableMedia|Styles applied to the sortable media element.|
+|sortableMediaCover|.SCComposer-sortableMediaCover|Styles applied to the sortable media cover element.|
+|links|.SCComposer-links|Styles applied to the links element.|
+|actions|.SCComposer-actions|Styles applied to the actions section.|
+|actionInput|.SCComposer-actionInput|Styles applied to the action input element.|
+|badgeError|.SCComposer-badgeError|Styles applied to the badge error element.|
 
 #### Parameters
 
@@ -75,4 +96,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:344](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Composer/Composer.tsx#L344)
+[packages/sc-ui/src/components/Composer/Composer.tsx:383](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Composer/Composer.tsx#L383)
+
+___
+
+### ComposerSkeleton
+
+▸ **ComposerSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/Composer/Skeleton.tsx:67](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Composer/Skeleton.tsx#L67)

@@ -12,23 +12,25 @@ custom_edit_url: null
 
 ## Functions
 
-### CategoryHeaderSkeleton
+### CategoryHeader
 
-▸ **CategoryHeaderSkeleton**(): `JSX.Element`
+▸ **CategoryHeader**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI Category Header component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
+```jsx
+import CategoryHeader from '@selfcommunity/ui';
+```
+#### Component Name
 
-#### Defined in
+The name `SCCategoryHeader` can be used when providing style overrides in the theme.
 
-[packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx:34](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx#L34)
+#### CSS
 
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCCategoryHeader-root|Styles applied to the root element.|
 
 #### Parameters
 
@@ -42,4 +44,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:104](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L104)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:126](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L126)
+
+___
+
+### CategoryHeaderSkeleton
+
+▸ **CategoryHeaderSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx#L35)

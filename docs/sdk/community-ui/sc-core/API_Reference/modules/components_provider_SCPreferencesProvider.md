@@ -12,6 +12,7 @@ custom_edit_url: null
 
 • **SCPreferencesContext**: `Context`<[`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType)\>
 
+ * @hidden
 Create Preferences/Features Context
 Consuming this context in one of the following ways:
  1. `<SCPreferencesContext.Consumer>
@@ -22,13 +23,13 @@ Consuming this context in one of the following ways:
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:17](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L17)
+[components/provider/SCPreferencesProvider/index.tsx:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L18)
 
 ## Functions
 
-### default
+### SCPreferencesProvider
 
-▸ **default**(`__namedParameters`): `JSX.Element`
+▸ **SCPreferencesProvider**(`__namedParameters`): `JSX.Element`
 
 SCPreferencesProvider
 This import all preferences and features enabled
@@ -46,7 +47,7 @@ This import all preferences and features enabled
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:23](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L23)
+[components/provider/SCPreferencesProvider/index.tsx:24](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L24)
 
 ___
 
@@ -54,6 +55,7 @@ ___
 
 ▸ **useSCPreferences**(): [`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType)
 
+ * @hidden
 Let's only export the `useSCPreferences` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -63,4 +65,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:57](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L57)
+[components/provider/SCPreferencesProvider/index.tsx:59](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L59)

@@ -19,7 +19,7 @@ Theme
 
 #### Defined in
 
-[types/context.ts:353](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L353)
+[types/context.ts:348](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L348)
 
 ## Methods
 
@@ -41,4 +41,4 @@ Change theme
 
 #### Defined in
 
-[types/context.ts:359](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/types/context.ts#L359)
+[types/context.ts:354](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L354)

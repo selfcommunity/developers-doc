@@ -8,12 +8,13 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCWebSocket
 
-▸ **default**(): `Object`
+▸ **useSCWebSocket**(): `Object`
 
-Custom hook 'useSCWebSocket'
-Use this hook to init web socket
+:::info
+This custom hook is used to to init web socket.
+:::
 
 #### Returns
 
@@ -26,4 +27,4 @@ Use this hook to init web socket
 
 #### Defined in
 
-[hooks/useSCWebSocket.ts:15](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCWebSocket.ts#L15)
+[hooks/useSCWebSocket.ts:16](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCWebSocket.ts#L16)

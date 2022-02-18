@@ -12,23 +12,32 @@ custom_edit_url: null
 
 ## Functions
 
-### LoyaltyProgramSkeleton
+### LoyaltyProgram
 
-▸ **LoyaltyProgramSkeleton**(): `JSX.Element`
+▸ **LoyaltyProgram**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI LoyaltyProgram component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import LoyaltyProgram from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx#L4)
+#### Component Name
 
-___
+The name `SCLoyaltyProgram` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCLoyaltyProgram-root|Styles applied to the root element.|
+|cardHeader|.SCLoyaltyProgram-card-header|Styles applied to the card header element.|
+|pointsIcon|.SCLoyaltyProgram-pointsIcon|Styles applied to the points icon element.|
+|actions|.SCLoyaltyProgram-actions|Styles applied to the actions section.|
+|points|.SCLoyaltyProgram-points|Styles applied to the points section.|
+|pointsBox|.SCLoyaltyProgram-points-box|Styles applied to the points box element.|
 
 #### Parameters
 
@@ -42,4 +51,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:84](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L84)
+[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:112](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L112)
+
+___
+
+### LoyaltyProgramSkeleton
+
+▸ **LoyaltyProgramSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx#L4)

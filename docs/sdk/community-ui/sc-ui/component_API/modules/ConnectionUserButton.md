@@ -8,15 +8,30 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### ConnectionUserButton
 
-▸ **default**(`__namedParameters`): `JSX.Element`
+▸ **ConnectionUserButton**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI ConnectionUserButton component. Learn about the available props and the CSS API.
+
+#### Import
+```jsx
+import ConnectionUserButton from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCConnectionUserButton` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCConnectionUserButton-root|Styles applied to the root element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `ConnectionButtonProps` |
+| `props` | `ConnectionUserButtonProps` |
 
 #### Returns
 
@@ -24,4 +39,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx:51](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx#L51)
+[packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx:56](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx#L56)

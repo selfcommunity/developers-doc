@@ -12,9 +12,27 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### FollowUserButton
 
-▸ **default**(`props`): `JSX.Element`
+▸ **FollowUserButton**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI FollowUserButton component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import FollowUserButton from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCFollowUserButton` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCFollowUserButton-root|Styles applied to the root element.|
 
 #### Parameters
 
@@ -28,4 +46,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:42](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L42)
+[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:83](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L83)

@@ -12,23 +12,27 @@ custom_edit_url: null
 
 ## Functions
 
-### RelatedDiscussionSkeleton
+### RelatedDiscussion
 
-▸ **RelatedDiscussionSkeleton**(): `JSX.Element`
+▸ **RelatedDiscussion**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI Related Discussion component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import RelatedDiscussion from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)
+#### Component Name
 
-___
+The name `SCRelatedDiscussion` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCRelatedDiscussion-root|Styles applied to the root element.|
 
 #### Parameters
 
@@ -42,4 +46,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:79](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L79)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:104](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L104)
+
+___
+
+### RelatedDiscussionSkeleton
+
+▸ **RelatedDiscussionSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)

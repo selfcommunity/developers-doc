@@ -12,23 +12,27 @@ custom_edit_url: null
 
 ## Functions
 
-### PlatformSkeleton
+### Platform
 
-▸ **PlatformSkeleton**(): `JSX.Element`
+▸ **Platform**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI Platform component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import Platform from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/Platform/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Platform/Skeleton.tsx#L4)
+#### Component Name
 
-___
+The name `SCPlatform` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCPlatform-root|Styles applied to the root element.|
 
 #### Parameters
 
@@ -42,4 +46,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Platform/Platform.tsx:40](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Platform/Platform.tsx#L40)
+[packages/sc-ui/src/components/Platform/Platform.tsx:67](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Platform/Platform.tsx#L67)
+
+___
+
+### PlatformSkeleton
+
+▸ **PlatformSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/Platform/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Platform/Skeleton.tsx#L4)

@@ -28,13 +28,34 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Skeleton.tsx:14](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Notification/Skeleton.tsx#L14)
+[packages/sc-ui/src/components/Notification/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Skeleton.tsx#L18)
 
 ___
 
-### default
+### UserNotification
 
-▸ **default**(`props`): `JSX.Element`
+▸ **UserNotification**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI UserNotification component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import UserNotification from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCUserNotification` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCUserNotification-root|Styles applied to the root element.|
+|title|.SCUserNotification-title|Styles applied to the title element.|
+|stopNotificationButton|.SCUserNotification-stop-notification-button|Styles applied to the stop notification button.|
+|showOtherAggregated|.SCUserNotification-show-other-aggregated|Styles applied to the show other aggregated element.|
 
 #### Parameters
 
@@ -48,4 +69,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:131](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Notification/Notification.tsx#L131)
+[packages/sc-ui/src/components/Notification/Notification.tsx:159](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L159)

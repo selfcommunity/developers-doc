@@ -12,23 +12,9 @@ custom_edit_url: null
 
 ## Functions
 
-### CategorySkeleton
+### Category
 
-▸ **CategorySkeleton**(): `JSX.Element`
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[Category/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/Category/Skeleton.tsx#L17)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+▸ **Category**(`props`): `JSX.Element`
 
 #### Parameters
 
@@ -42,4 +28,18 @@ ___
 
 #### Defined in
 
-[Category/Category.tsx:63](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/Category/Category.tsx#L63)
+[Category/Category.tsx:63](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/Category/Category.tsx#L63)
+
+___
+
+### CategorySkeleton
+
+▸ **CategorySkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[Category/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/Category/Skeleton.tsx#L17)

@@ -12,6 +12,41 @@ custom_edit_url: null
 
 ## Functions
 
+### BroadcastMessages
+
+▸ **BroadcastMessages**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI BroadcastMessages component. Learn about the available props and the CSS API.
+
+#### Import
+```jsx
+import BroadcastMessages from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCBroadcastMessages` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCBroadcastMessages-root|Styles applied to the root element.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`BroadcastMessagesProps`](../interfaces/BroadcastMessages.BroadcastMessagesProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:64](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L64)
+
+___
+
 ### BroadcastMessagesSkeleton
 
 ▸ **BroadcastMessagesSkeleton**(`props`): `JSX.Element`
@@ -28,24 +63,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx:55](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx#L55)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`BroadcastMessagesProps`](../interfaces/BroadcastMessages.BroadcastMessagesProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:42](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L42)
+[packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx:61](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx#L61)

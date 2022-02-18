@@ -12,23 +12,29 @@ custom_edit_url: null
 
 ## Functions
 
-### EditorSkeleton
+### Editor
 
-▸ **EditorSkeleton**(): `JSX.Element`
+▸ **Editor**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI Editor component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import Editor from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/Editor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Editor/Skeleton.tsx#L4)
+#### Component Name
 
-___
+The name `SCEditor` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCEditor-root|Styles applied to the root element.|
+|drop|.SCEditor-drop|Styles applied to the drop element.|
+|actions|.SCEditor-actions|Styles applied to the actions section.|
 
 #### Parameters
 
@@ -42,4 +48,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:142](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Editor/Editor.tsx#L142)
+[packages/sc-ui/src/components/Editor/Editor.tsx:167](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Editor/Editor.tsx#L167)
+
+___
+
+### EditorSkeleton
+
+▸ **EditorSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/Editor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Editor/Skeleton.tsx#L4)

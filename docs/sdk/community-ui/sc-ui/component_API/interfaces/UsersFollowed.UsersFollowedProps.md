@@ -19,7 +19,7 @@ Props to spread to single user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:50](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L50)
+[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:61](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L61)
 
 ___
 
@@ -33,7 +33,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:40](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L40)
+[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:51](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L51)
 
 ___
 
@@ -47,4 +47,18 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:45](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L45)
+[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:56](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L56)
+
+___
+
+### userId
+
+• `Optional` **userId**: `number`
+
+The user id
+
+**`default`** null
+
+#### Defined in
+
+[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:46](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L46)

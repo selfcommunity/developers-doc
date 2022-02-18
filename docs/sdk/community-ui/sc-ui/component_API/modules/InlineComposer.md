@@ -21,27 +21,31 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:82](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L82)
+[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:86](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L86)
 
 ## Functions
 
-### InlineComposerSkeleton
+### InlineComposer
 
-▸ **InlineComposerSkeleton**(): `JSX.Element`
+▸ **InlineComposer**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI InlineComposer component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
+```jsx
+import InlineComposer from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCInlineComposer` can be used when providing style overrides in the theme.
 
-#### Defined in
+#### CSS
 
-[packages/sc-ui/src/components/InlineComposer/Skeleton.tsx:33](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/InlineComposer/Skeleton.tsx#L33)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCInlineComposer-root|Styles applied to the root element.|
+|input|.SCInlineComposer-input|Styles applied to the input element.|
+|actions|.SCInlineComposer-actions|Styles applied to the actions section.|
+|avatar|.SCInlineComposer-avatar|Styles applied to the avatar element.|
 
 #### Parameters
 
@@ -55,4 +59,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:100](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L100)
+[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:125](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L125)
+
+___
+
+### InlineComposerSkeleton
+
+▸ **InlineComposerSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/InlineComposer/Skeleton.tsx:34](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/InlineComposer/Skeleton.tsx#L34)

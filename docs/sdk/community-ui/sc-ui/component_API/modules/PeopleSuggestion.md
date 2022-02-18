@@ -12,6 +12,44 @@ custom_edit_url: null
 
 ## Functions
 
+### PeopleSuggestion
+
+▸ **PeopleSuggestion**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI People Suggestion component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import PeopleSuggestion from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCPeopleSuggestion` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCPeopleSuggestion-root|Styles applied to the root element.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`PeopleSuggestionProps`](../interfaces/PeopleSuggestion.PeopleSuggestionProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:83](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L83)
+
+___
+
 ### PeopleSuggestionSkeleton
 
 ▸ **PeopleSuggestionSkeleton**(`props`): `JSX.Element`
@@ -28,24 +66,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx:22](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx#L22)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`PeopleSuggestionProps`](../interfaces/PeopleSuggestion.PeopleSuggestionProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:55](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L55)
+[packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx#L23)

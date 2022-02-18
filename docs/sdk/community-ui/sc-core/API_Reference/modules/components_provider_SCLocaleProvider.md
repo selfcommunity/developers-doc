@@ -12,6 +12,7 @@ custom_edit_url: null
 
 • **SCLocaleContext**: `Context`<[`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType)\>
 
+ * @hidden
 Create Global Context
 Consuming this context in one of the following ways:
  1. `<SCLocaleContext.Consumer>
@@ -22,13 +23,13 @@ Consuming this context in one of the following ways:
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:20](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L20)
+[components/provider/SCLocaleProvider/index.tsx:21](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L21)
 
 ## Functions
 
-### default
+### SCLocaleProvider
 
-▸ **default**(`__namedParameters`): `JSX.Element`
+▸ **SCLocaleProvider**(`__namedParameters`): `JSX.Element`
 
 This component makes the `intl` available down the React tree.
 
@@ -45,7 +46,7 @@ This component makes the `intl` available down the React tree.
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:25](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L25)
+[components/provider/SCLocaleProvider/index.tsx:26](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L26)
 
 ___
 
@@ -53,6 +54,7 @@ ___
 
 ▸ **useSCLocale**(): [`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType)
 
+ * @hidden
 Let's only export the `useSCLocale` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -62,38 +64,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:83](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L83)
-
-___
-
-### withSCLocale
-
-▸ `Const` **withSCLocale**(`Component`): (`props`: `any`) => `Element`
-
-Export hoc to inject the base theme to components
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `Component` | `any` |
-
-#### Returns
-
-`fn`
-
-▸ (`props`): `Element`
-
-##### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | `any` |
-
-##### Returns
-
-`Element`
-
-#### Defined in
-
-[components/provider/SCLocaleProvider/index.tsx:70](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L70)
+[components/provider/SCLocaleProvider/index.tsx:86](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L86)

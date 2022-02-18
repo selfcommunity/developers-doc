@@ -12,23 +12,9 @@ custom_edit_url: null
 
 ## Functions
 
-### NotificationFeedSkeleton
+### NotificationFeed
 
-▸ **NotificationFeedSkeleton**(): `JSX.Element`
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[NotificationFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/NotificationFeed/Skeleton.tsx#L13)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+▸ **NotificationFeed**(`props`): `JSX.Element`
 
 #### Parameters
 
@@ -42,4 +28,18 @@ ___
 
 #### Defined in
 
-[NotificationFeed/NotificationFeed.tsx:110](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L110)
+[NotificationFeed/NotificationFeed.tsx:110](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L110)
+
+___
+
+### NotificationFeedSkeleton
+
+▸ **NotificationFeedSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[NotificationFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/NotificationFeed/Skeleton.tsx#L13)

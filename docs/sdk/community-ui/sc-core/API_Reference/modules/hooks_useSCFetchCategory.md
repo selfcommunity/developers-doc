@@ -8,12 +8,13 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCFetchCategory
 
-▸ **default**(`__namedParameters`): `Object`
+▸ **useSCFetchCategory**(`__namedParameters`): `Object`
 
-Custom hook 'useSCFetchCategory'
-Use this hook to fetch a category object
+:::info
+This custom hook is used to fetch a category object.
+:::
 
 #### Parameters
 
@@ -34,4 +35,4 @@ Use this hook to fetch a category object
 
 #### Defined in
 
-[hooks/useSCFetchCategory.ts:15](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCFetchCategory.ts#L15)
+[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)

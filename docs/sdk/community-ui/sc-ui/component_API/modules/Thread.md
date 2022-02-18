@@ -12,23 +12,31 @@ custom_edit_url: null
 
 ## Functions
 
-### ThreadSkeleton
+### Thread
 
-▸ **ThreadSkeleton**(): `JSX.Element`
+▸ **Thread**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI Thread component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import Thread from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/Thread/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Thread/Skeleton.tsx#L4)
+#### Component Name
 
-___
+The name `SCThread` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCThread-root|Styles applied to the root element.|
+|emptyBox|.SCThread-emptyBox|Styles applied to the empty box element.|
+|sender|.SCThread-sender|Styles applied to the sender element.|
+|receiver|.SCThread-receiver|Styles applied to the receiver element.|
+|center|.SCThread-center|Styles applied to the center section.|
 
 #### Parameters
 
@@ -42,4 +50,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:97](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Thread/Thread.tsx#L97)
+[packages/sc-ui/src/components/Thread/Thread.tsx:126](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Thread/Thread.tsx#L126)
+
+___
+
+### ThreadSkeleton
+
+▸ **ThreadSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/Thread/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Thread/Skeleton.tsx#L4)

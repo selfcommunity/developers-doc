@@ -12,6 +12,47 @@ custom_edit_url: null
 
 ## Functions
 
+### CommentsObject
+
+▸ **CommentsObject**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI Comments Object component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import CommentsObject from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCCommentsObject` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCCommentsObject-root|Styles applied to the root element.|
+|fixedPrimaryReply|.SCCommentsObject-fixed-primary-reply|Styles applied to the comment primary reply element.|
+|fixedTopPrimaryReply|.SCCommentsObject-fixed-top-primary-reply|Styles applied to the comment top primary reply element.|
+|fixedBottomPrimaryReply|.SCCommentsObject-fixed-bottom-primary-reply|Styles applied to the comment bottom primary reply  element.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`CommentsObjectProps`](../interfaces/CommentsObject.CommentsObjectProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:246](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L246)
+
+___
+
 ### CommentsObjectSkeleton
 
 ▸ **CommentsObjectSkeleton**(`props`): `JSX.Element`
@@ -28,24 +69,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:22](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L22)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`CommentsObjectProps`](../interfaces/CommentsObject.CommentsObjectProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:224](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L224)
+[packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L23)

@@ -8,12 +8,13 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCFetchCustomAdv
 
-▸ **default**(`__namedParameters`): `Object`
+▸ **useSCFetchCustomAdv**(`__namedParameters`): `Object`
 
-Custom hook 'useSCFetchCustomAdv'
-Use this hook to fetch a custom adv object
+:::info
+This custom hook is used to fetch a custom adv object.
+:::
 
 #### Parameters
 
@@ -34,4 +35,4 @@ Use this hook to fetch a custom adv object
 
 #### Defined in
 
-[hooks/useSCFetchCustomAdv.ts:15](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L15)
+[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)

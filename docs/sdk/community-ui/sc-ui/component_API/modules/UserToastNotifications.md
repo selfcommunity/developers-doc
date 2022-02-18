@@ -12,23 +12,30 @@ custom_edit_url: null
 
 ## Functions
 
-### UserToastNotificationsSkeleton
+### UserToastNotifications
 
-▸ **UserToastNotificationsSkeleton**(): `JSX.Element`
+▸ **UserToastNotifications**(`props`): `JSX.Element`
 
-#### Returns
+> API documentation for the Community-UI UserToastNotifications component. Learn about the available props and the CSS API.
 
-`JSX.Element`
+#### Import
 
-#### Defined in
+```jsx
+import UserToastNotifications from '@selfcommunity/ui';
+```
 
-[packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx#L4)
+#### Component Name
 
-___
+The name `SCUserToastNotifications` can be used when providing style overrides in the theme.
 
-### default
+#### CSS
 
-▸ **default**(`props`): `JSX.Element`
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCUserToastNotifications-root|Styles applied to the root element.|
+|toastMessage|.SCUserToastNotifications-toast-message|Styles applied to the toast message element.|
+|toastContent|.SCUserToastNotifications-toast-content|Styles applied to the toast content element.|
+|toastActions|.SCUserToastNotifications-toast-actions|Styles applied to the toast actions section.|
 
 #### Parameters
 
@@ -42,4 +49,18 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx:69](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx#L69)
+[packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx:95](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx#L95)
+
+___
+
+### UserToastNotificationsSkeleton
+
+▸ **UserToastNotificationsSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx#L4)

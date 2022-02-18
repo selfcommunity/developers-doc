@@ -12,36 +12,17 @@ custom_edit_url: null
 
 ## Functions
 
-### CategorySkeleton
+### Category
 
-▸ **CategorySkeleton**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | `any` |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/Category/Skeleton.tsx:24](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Category/Skeleton.tsx#L24)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+▸ **Category**(`props`): `JSX.Element`
 
 > API documentation for the Community-UI Category component. Learn about the available props and the CSS API.
-### Import
+
+#### Import
 ```jsx
 import Category from '@selfcommunity/ui';
 ```
-### Component Name
+#### Component Name
 The name `SCCategory` can be used when providing style overrides in the theme.
 
 #### CSS
@@ -65,4 +46,24 @@ The name `SCCategory` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:93](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/Category/Category.tsx#L93)
+[packages/sc-ui/src/components/Category/Category.tsx:95](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Category/Category.tsx#L95)
+
+___
+
+### CategorySkeleton
+
+▸ **CategorySkeleton**(`props`): `JSX.Element`
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | `any` |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/Category/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Category/Skeleton.tsx#L25)

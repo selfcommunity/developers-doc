@@ -8,12 +8,13 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCWebPushMessaging
 
-▸ **default**(): `Object`
+▸ **useSCWebPushMessaging**(): `Object`
 
-Custom hook 'useSCWebPushMessaging'
-Use this hook to init web push messaging
+:::info
+This custom hook is used to to init web push messaging.
+:::
 
 #### Returns
 
@@ -25,4 +26,4 @@ Use this hook to init web push messaging
 
 #### Defined in
 
-[hooks/useSCWebPushMessaging.ts:21](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCWebPushMessaging.ts#L21)
+[hooks/useSCWebPushMessaging.ts:20](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCWebPushMessaging.ts#L20)

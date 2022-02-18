@@ -12,23 +12,9 @@ custom_edit_url: null
 
 ## Functions
 
-### ExploreFeedSkeleton
+### ExploreFeed
 
-▸ **ExploreFeedSkeleton**(): `JSX.Element`
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[ExploreFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/ExploreFeed/Skeleton.tsx#L13)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+▸ **ExploreFeed**(`props`): `JSX.Element`
 
 #### Parameters
 
@@ -42,4 +28,18 @@ ___
 
 #### Defined in
 
-[ExploreFeed/ExploreFeed.tsx:100](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L100)
+[ExploreFeed/ExploreFeed.tsx:100](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L100)
+
+___
+
+### ExploreFeedSkeleton
+
+▸ **ExploreFeedSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[ExploreFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/ExploreFeed/Skeleton.tsx#L13)

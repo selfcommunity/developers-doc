@@ -404,6 +404,18 @@ Re-exports [SCUserContextType](../interfaces/types_context.SCUserContextType)
 
 ___
 
+### SCUserFields
+
+Re-exports [SCUserFields](../enums/types_user.SCUserFields)
+
+___
+
+### SCUserSettingsType
+
+Re-exports [SCUserSettingsType](../interfaces/types_user.SCUserSettingsType)
+
+___
+
 ### SCUserType
 
 Re-exports [SCUserType](../interfaces/types_user.SCUserType)

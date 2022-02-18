@@ -25,7 +25,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:32](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L32)
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:34](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L34)
 
 ___
 
@@ -39,7 +39,7 @@ Id of the feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:26](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L26)
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:28](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L28)
 
 ___
 
@@ -53,7 +53,7 @@ Update message, rendered when no more feed item can be displayed
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:38](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L38)
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:40](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L40)
 
 ___
 
@@ -65,7 +65,7 @@ Publish channel for refresh notification
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:55](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L55)
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:57](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L57)
 
 ___
 
@@ -77,7 +77,7 @@ Subscription channel for updates notification
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:43](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L43)
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:45](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L45)
 
 ## Methods
 
@@ -104,4 +104,4 @@ boolean
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:50](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L50)
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:52](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L52)

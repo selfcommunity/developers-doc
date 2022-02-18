@@ -8,12 +8,13 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCFetchCommentObject
 
-▸ **default**(`__namedParameters`): `Object`
+▸ **useSCFetchCommentObject**(`__namedParameters`): `Object`
 
-Custom hook 'useSCFetchCommentObject'
-Use this hook to fetch a comment
+:::info
+This custom hooks is used to fetch a comment.
+:::
 
 #### Parameters
 
@@ -34,4 +35,4 @@ Use this hook to fetch a comment
 
 #### Defined in
 
-[hooks/useSCFetchCommentObject.ts:15](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L15)
+[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)

@@ -8,6 +8,42 @@ custom_edit_url: null
 
 ## Functions
 
+### CategoriesPopular
+
+▸ **CategoriesPopular**(`props`): `JSX.Element`
+
+> API documentation for the Community-UI Categories Popular component. Learn about the available props and the CSS API.
+
+#### Import
+```jsx
+import CategoriesPopular from '@selfcommunity/ui';
+```
+
+#### Component Name
+The name `SCCategoriesPopular` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCCategoriesPopular-root|Styles applied to the root element.|
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps) |
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:50](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L50)
+
+___
+
 ### CategoriesPopularSkeleton
 
 ▸ **CategoriesPopularSkeleton**(`props`): `JSX.Element`
@@ -24,24 +60,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps) |
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:26](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L26)
+[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)

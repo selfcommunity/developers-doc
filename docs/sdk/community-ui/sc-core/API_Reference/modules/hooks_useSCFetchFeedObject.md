@@ -8,12 +8,13 @@ custom_edit_url: null
 
 ## Functions
 
-### default
+### useSCFetchFeedObject
 
-▸ **default**(`__namedParameters`): `Object`
+▸ **useSCFetchFeedObject**(`__namedParameters`): `Object`
 
-Custom hook 'useFetchFeedObject'
-Use this hook to fetch a feed object
+:::info
+This custom hook is used to fetch a feed object.
+:::
 
 #### Parameters
 
@@ -35,4 +36,4 @@ Use this hook to fetch a feed object
 
 #### Defined in
 
-[hooks/useSCFetchFeedObject.ts:16](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L16)
+[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)

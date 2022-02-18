@@ -12,23 +12,9 @@ custom_edit_url: null
 
 ## Functions
 
-### CategoryFeedSkeleton
+### CategoryFeed
 
-▸ **CategoryFeedSkeleton**(): `JSX.Element`
-
-#### Returns
-
-`JSX.Element`
-
-#### Defined in
-
-[CategoryFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/CategoryFeed/Skeleton.tsx#L13)
-
-___
-
-### default
-
-▸ **default**(`props`): `JSX.Element`
+▸ **CategoryFeed**(`props`): `JSX.Element`
 
 #### Parameters
 
@@ -42,4 +28,18 @@ ___
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:97](https://github.com/selfcommunity/community-ui/blob/7f26f69/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L97)
+[CategoryFeed/CategoryFeed.tsx:97](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L97)
+
+___
+
+### CategoryFeedSkeleton
+
+▸ **CategoryFeedSkeleton**(): `JSX.Element`
+
+#### Returns
+
+`JSX.Element`
+
+#### Defined in
+
+[CategoryFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/CategoryFeed/Skeleton.tsx#L13)
