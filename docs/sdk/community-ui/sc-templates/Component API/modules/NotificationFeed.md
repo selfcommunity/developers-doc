@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[NotificationFeed/NotificationFeed.tsx:110](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L110)
+[NotificationFeed/NotificationFeed.tsx:110](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L110)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[NotificationFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/NotificationFeed/Skeleton.tsx#L13)
+[NotificationFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-templates/src/components/NotificationFeed/Skeleton.tsx#L13)

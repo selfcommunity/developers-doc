@@ -35,7 +35,7 @@ CardProps.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:102](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L102)
+[packages/sc-ui/src/components/Notification/Notification.tsx:109](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Notification.tsx#L109)
 
 ___
 
@@ -53,7 +53,7 @@ CardProps.id
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:96](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L96)
+[packages/sc-ui/src/components/Notification/Notification.tsx:103](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Notification.tsx#L103)
 
 ___
 
@@ -69,7 +69,7 @@ CardProps.key
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:125](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L125)
+[packages/sc-ui/src/components/Notification/Notification.tsx:132](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Notification.tsx#L132)
 
 ___
 
@@ -83,7 +83,7 @@ Notification obj
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:108](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L108)
+[packages/sc-ui/src/components/Notification/Notification.tsx:115](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Notification.tsx#L115)
 
 ___
 
@@ -91,13 +91,13 @@ ___
 
 • `Optional` **showMaxAggregated**: `number`
 
-The max n of results shown
+The max n of results uncollapsed shown
 
 **`default`** 2
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:120](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L120)
+[packages/sc-ui/src/components/Notification/Notification.tsx:127](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Notification.tsx#L127)
 
 ## Methods
 
@@ -119,4 +119,4 @@ Handle custom notification
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:114](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L114)
+[packages/sc-ui/src/components/Notification/Notification.tsx:121](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Notification.tsx#L121)

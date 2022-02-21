@@ -16,12 +16,12 @@ custom_edit_url: null
 
 ▸ **UserProfileHeader**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI User Profile Header component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import UserProfileHeader from '@selfcommunity/ui';
+import {UserProfileHeader} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -52,7 +52,7 @@ The name `SCUserProfileHeader` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:139](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L139)
+[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:139](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L139)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx#L35)
+[packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx#L35)

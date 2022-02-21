@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[MainFeed/MainFeed.tsx:100](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L100)
+[MainFeed/MainFeed.tsx:100](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L100)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[MainFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/MainFeed/Skeleton.tsx#L13)
+[MainFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-templates/src/components/MainFeed/Skeleton.tsx#L13)

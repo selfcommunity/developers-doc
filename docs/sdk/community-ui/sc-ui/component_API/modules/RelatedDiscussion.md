@@ -21,7 +21,7 @@ custom_edit_url: null
 #### Import
 
 ```jsx
-import RelatedDiscussion from '@selfcommunity/ui';
+import {RelatedDiscussion} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -46,7 +46,7 @@ The name `SCRelatedDiscussion` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:104](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L104)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:105](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L105)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)

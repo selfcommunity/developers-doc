@@ -21,7 +21,7 @@ custom_edit_url: null
 #### Import
 
 ```jsx
-import Platform from '@selfcommunity/ui';
+import {Platform} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -46,7 +46,7 @@ The name `SCPlatform` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Platform/Platform.tsx:67](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Platform/Platform.tsx#L67)
+[packages/sc-ui/src/components/Platform/Platform.tsx:67](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Platform/Platform.tsx#L67)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Platform/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Platform/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/Platform/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Platform/Skeleton.tsx#L4)

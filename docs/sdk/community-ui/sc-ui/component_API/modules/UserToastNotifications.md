@@ -16,12 +16,12 @@ custom_edit_url: null
 
 ▸ **UserToastNotifications**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI UserToastNotifications component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI User Toast Notifications component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import UserToastNotifications from '@selfcommunity/ui';
+import {UserToastNotifications} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -49,7 +49,7 @@ The name `SCUserToastNotifications` can be used when providing style overrides i
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx:95](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx#L95)
+[packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx:95](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx#L95)
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx#L4)

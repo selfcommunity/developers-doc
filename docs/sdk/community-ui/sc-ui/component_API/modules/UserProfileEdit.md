@@ -18,12 +18,12 @@ custom_edit_url: null
 
 ▸ **UserProfileEdit**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI UserProfileEdit component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI User Profile Edit component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import UserProfileEdit from '@selfcommunity/ui';
+import {UserProfileEdit} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -49,7 +49,7 @@ The name `SCUserProfileEdit` can be used when providing style overrides in the t
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:123](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L123)
+[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:123](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L123)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:106](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L106)
+[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:106](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L106)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:49](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L49)
+[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:49](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L49)
 
 ___
 
@@ -103,4 +103,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx#L18)
+[packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx#L18)

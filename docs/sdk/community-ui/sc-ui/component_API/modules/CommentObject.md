@@ -21,7 +21,7 @@ custom_edit_url: null
 #### Import
 
 ```jsx
-import CommentObject from '@selfcommunity/ui';
+import {CommentObject} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -59,7 +59,7 @@ The name `SCCommentObject` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:262](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L262)
+[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:264](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L264)
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CommentObject/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/CommentObject/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CommentObject/Skeleton.tsx#L25)

@@ -18,7 +18,6 @@ custom_edit_url: null
 - [components/provider/SCRoutingProvider](modules/components_provider_SCRoutingProvider)
 - [components/provider/SCThemeProvider](modules/components_provider_SCThemeProvider)
 - [components/provider/SCUserProvider](modules/components_provider_SCUserProvider)
-- [components/router](modules/components_router)
 - [hooks/useSCAuth](modules/hooks_useSCAuth)
 - [hooks/useSCCachingManager](modules/hooks_useSCCachingManager)
 - [hooks/useSCCategoriesManager](modules/hooks_useSCCategoriesManager)

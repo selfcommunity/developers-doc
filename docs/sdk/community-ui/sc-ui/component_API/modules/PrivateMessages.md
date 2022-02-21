@@ -16,12 +16,12 @@ custom_edit_url: null
 
 ▸ **PrivateMessages**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI PrivateMessages component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI Private Messages component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import PrivateMessages from '@selfcommunity/ui';
+import {PrivateMessages} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -48,7 +48,7 @@ The name `SCPrivateMessages` can be used when providing style overrides in the t
 
 #### Defined in
 
-[packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx:86](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx#L86)
+[packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx:86](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx#L86)
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/PrivateMessages/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/PrivateMessages/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/PrivateMessages/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/PrivateMessages/Skeleton.tsx#L4)

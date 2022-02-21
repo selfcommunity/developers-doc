@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCFetchCategory
 
-▸ **useSCFetchCategory**(`__namedParameters`): `Object`
+▸ **useSCFetchCategory**(`object`): `Object`
 
 :::info
 This custom hook is used to fetch a category object.
@@ -20,9 +20,9 @@ This custom hook is used to fetch a category object.
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.category?` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType) |
-| `__namedParameters.id?` | `number` |
+| `object` | `Object` |
+| `object.category?` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType) |
+| `object.id?` | `number` |
 
 #### Returns
 
@@ -35,4 +35,4 @@ This custom hook is used to fetch a category object.
 
 #### Defined in
 
-[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)
+[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)

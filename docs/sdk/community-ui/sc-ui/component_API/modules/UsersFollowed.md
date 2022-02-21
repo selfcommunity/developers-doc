@@ -21,7 +21,7 @@ custom_edit_url: null
 #### Import
 
 ```jsx
-import UsersFollowed from '@selfcommunity/ui';
+import {UsersFollowed} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -46,7 +46,7 @@ The name `SCUsersFollowed` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:86](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L86)
+[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:86](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L86)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx#L4)

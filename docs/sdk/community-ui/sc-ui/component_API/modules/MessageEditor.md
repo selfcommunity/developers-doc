@@ -16,12 +16,12 @@ custom_edit_url: null
 
 ▸ **MessageEditor**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI MessageEditor component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI Message Editor component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import MessageEditor from '@selfcommunity/ui';
+import {MessageEditor} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -47,7 +47,7 @@ The name `SCMessageEditor` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:86](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L86)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:86](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L86)
 
 ___
 
@@ -61,4 +61,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/MessageEditor/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/MessageEditor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/MessageEditor/Skeleton.tsx#L4)

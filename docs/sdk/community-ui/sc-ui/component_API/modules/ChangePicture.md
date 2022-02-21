@@ -21,7 +21,7 @@ custom_edit_url: null
 #### Import
 
 ```jsx
-import ChangePicture from '@selfcommunity/ui';
+import {ChangePicture} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -46,4 +46,4 @@ The name `SCChangePictureButton` can be used when providing style overrides in t
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:70](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L70)
+[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:70](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L70)

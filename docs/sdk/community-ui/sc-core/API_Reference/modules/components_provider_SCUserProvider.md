@@ -12,42 +12,52 @@ custom_edit_url: null
 
 • **SCUserContext**: `Context`<[`SCUserContextType`](../interfaces/types_context.SCUserContextType)\>
 
- * @hidden
 SCUserContext (Authentication Context)
-Consuming this context in one of the following ways:
- 1. `<SCUserContext.Consumer>
-      {(user, session, error, loading, logout, ...) => (...)}
-    </SCUserContext.Consumer>`
- 2. const scUserContext: SCUserContextType = useContext(SCUserContext);
- 3. const scUserContext: SCUserContextType = useSCUser();
+
+:::tipContext can be consumed in one of the following ways:
+
+```jsx
+1. <SCUserContext.Consumer>{(user, session, error, loading, logout) => (...)}</SCUserContext.Consumer>
+```
+```jsx
+2. const scUserContext: SCUserContextType = useContext(SCUserContext);
+```
+```jsx
+3. const scUserContext: SCUserContextType = useSCUser();
+````
+:::
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:30](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L30)
+[components/provider/SCUserProvider/index.tsx:37](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L37)
 
 ## Functions
 
 ### SCUserProvider
 
-▸ **SCUserProvider**(`__namedParameters`): `JSX.Element`
+▸ **SCUserProvider**(`children`): `JSX.Element`
 
-Export the provider as we need to wrap the entire app with it
-This provider keeps current user logged and session
+#### Description:
+This component keeps current user logged and session; it is exported as we need to wrap the entire app with it
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.children` | `ReactNode` |
+| `children` | `Object` |
+| `children.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
+```jsx
+<SCUserContext.Provider value={contextValue}>{!state.loading && children}</SCUserContext.Provider>
+```
+
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:36](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L36)
+[components/provider/SCUserProvider/index.tsx:48](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L48)
 
 ___
 
@@ -55,7 +65,6 @@ ___
 
 ▸ **useSCUser**(): [`SCUserContextType`](../interfaces/types_context.SCUserContextType)
 
- * @hidden
 Let's only export the `useSCUser` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -65,4 +74,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:184](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L184)
+[components/provider/SCUserProvider/index.tsx:195](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L195)

@@ -16,12 +16,12 @@ custom_edit_url: null
 
 ▸ **UserProfileInfo**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI UserProfileInfo component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI User Profile Info component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import UserProfileInfo from '@selfcommunity/ui';
+import {UserProfileInfo} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -47,7 +47,7 @@ The name `SCUserProfileInfo` can be used when providing style overrides in the t
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:111](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L111)
+[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:111](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L111)
 
 ___
 
@@ -61,4 +61,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx#L18)
+[packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx#L18)

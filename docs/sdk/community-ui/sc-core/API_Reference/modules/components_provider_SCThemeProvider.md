@@ -12,25 +12,33 @@ custom_edit_url: null
 
 • **SCThemeContext**: `Context`<[`SCThemeContextType`](../interfaces/types_context.SCThemeContextType)\>
 
- * @hidden
-Create Global Context
-Consuming this context in one of the following ways:
- 1. `<SCThemeContext.Consumer>
-      {(theme,) => (...)}
-    </SCThemeContext.Consumer>`
- 2. const scThemeContext: SCThemeContextType = useContext(SCThemeContext);
- 3. const scThemeContext: SCThemeContextType = useSCTheme();
+Creates Global Context
+
+:::tipContext can be consumed in one of the following ways:
+
+```jsx
+1. <SCThemeContext.Consumer>{(theme,) => (...)}</SCThemeContext.Consumer>
+```
+```jsx
+2. const scThemeContext: SCThemeContextType = useContext(SCThemeContext);
+```
+```jsx
+3. const scThemeContext: SCThemeContextType = useSCTheme();
+````
+
+:::
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:20](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L20)
+[components/provider/SCThemeProvider/index.tsx:28](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L28)
 
 ## Functions
 
 ### SCThemeProvider
 
-▸ **SCThemeProvider**(`__namedParameters`): `JSX.Element`
+▸ **SCThemeProvider**(`children`): `JSX.Element`
 
+#### Description:
 This component makes the `theme` available down the React tree.
 It should preferably be used at **the root of your component tree**.
 See: https://mui.com/system/styled/
@@ -39,16 +47,22 @@ See: https://mui.com/system/styled/
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.children` | `ReactNode` |
+| `children` | `Object` |
+| `children.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
+```jsx
+<SCThemeContext.Provider value={{theme, setTheme: setCustomTheme}}>
+<ThemeProvider theme={theme}>{children}</ThemeProvider>
+</SCThemeContext.Provider>
+```
+
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:27](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L27)
+[components/provider/SCThemeProvider/index.tsx:44](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L44)
 
 ___
 
@@ -56,7 +70,6 @@ ___
 
 ▸ **useSCTheme**(): [`SCThemeContextType`](../interfaces/types_context.SCThemeContextType)
 
- * @hidden
 Let's only export the `useSCTheme` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -66,7 +79,7 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:63](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L63)
+[components/provider/SCThemeProvider/index.tsx:79](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L79)
 
 ___
 
@@ -100,4 +113,4 @@ Export hoc to inject the base theme to components
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:49](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L49)
+[components/provider/SCThemeProvider/index.tsx:66](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L66)

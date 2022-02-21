@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCFetchUser
 
-▸ **useSCFetchUser**(`__namedParameters`): `Object`
+▸ **useSCFetchUser**(`object`): `Object`
 
 :::info
 This custom hook is used to fetch a user object.
@@ -20,9 +20,9 @@ This custom hook is used to fetch a user object.
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.id?` | `number` |
-| `__namedParameters.user?` | [`SCUserType`](../interfaces/types_user.SCUserType) |
+| `object` | `Object` |
+| `object.id?` | `number` |
+| `object.user?` | [`SCUserType`](../interfaces/types_user.SCUserType) |
 
 #### Returns
 
@@ -35,4 +35,4 @@ This custom hook is used to fetch a user object.
 
 #### Defined in
 
-[hooks/useSCFetchUser.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchUser.ts#L17)
+[hooks/useSCFetchUser.ts:17](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCFetchUser.ts#L17)

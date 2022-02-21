@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCFetchCommentObject
 
-▸ **useSCFetchCommentObject**(`__namedParameters`): `Object`
+▸ **useSCFetchCommentObject**(`object`): `Object`
 
 :::info
 This custom hooks is used to fetch a comment.
@@ -20,9 +20,9 @@ This custom hooks is used to fetch a comment.
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.commentObject?` | [`SCCommentType`](../interfaces/types_comment.SCCommentType) |
-| `__namedParameters.id?` | `number` |
+| `object` | `Object` |
+| `object.commentObject?` | [`SCCommentType`](../interfaces/types_comment.SCCommentType) |
+| `object.id?` | `number` |
 
 #### Returns
 
@@ -35,4 +35,4 @@ This custom hooks is used to fetch a comment.
 
 #### Defined in
 
-[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)
+[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)

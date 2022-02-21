@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/notification.ts#L134)
+[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L134)
 
 ___
 
@@ -42,7 +42,7 @@ Follower
 
 #### Defined in
 
-[types/notification.ts:461](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/notification.ts#L461)
+[types/notification.ts:461](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L461)
 
 ___
 
@@ -58,7 +58,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/notification.ts#L119)
+[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L119)
 
 ___
 
@@ -74,7 +74,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/notification.ts#L124)
+[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L124)
 
 ___
 
@@ -90,4 +90,4 @@ Type User Follow
 
 #### Defined in
 
-[types/notification.ts:456](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/notification.ts#L456)
+[types/notification.ts:456](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L456)

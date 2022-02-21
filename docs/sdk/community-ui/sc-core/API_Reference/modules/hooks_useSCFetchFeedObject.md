@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCFetchFeedObject
 
-▸ **useSCFetchFeedObject**(`__namedParameters`): `Object`
+▸ **useSCFetchFeedObject**(`object`): `Object`
 
 :::info
 This custom hook is used to fetch a feed object.
@@ -20,10 +20,10 @@ This custom hook is used to fetch a feed object.
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.feedObject?` | [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType) |
-| `__namedParameters.feedObjectType` | [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType) |
-| `__namedParameters.id?` | `number` |
+| `object` | `Object` |
+| `object.feedObject?` | [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType) |
+| `object.feedObjectType` | [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType) |
+| `object.id?` | `number` |
 
 #### Returns
 
@@ -36,4 +36,4 @@ This custom hook is used to fetch a feed object.
 
 #### Defined in
 
-[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)
+[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)

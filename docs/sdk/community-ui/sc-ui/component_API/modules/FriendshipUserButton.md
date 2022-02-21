@@ -16,12 +16,12 @@ custom_edit_url: null
 
 ▸ **FriendshipUserButton**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI FriendshipUserButton component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI Friendship User Button component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import FriendshipUserButton from '@selfcommunity/ui';
+import {FriendshipUserButton} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -46,4 +46,4 @@ The name `SCFriendshipUserButton` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:83](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L83)
+[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:83](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L83)

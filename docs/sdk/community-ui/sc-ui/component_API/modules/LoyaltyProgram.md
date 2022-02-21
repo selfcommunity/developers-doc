@@ -16,12 +16,12 @@ custom_edit_url: null
 
 ▸ **LoyaltyProgram**(`props`): `JSX.Element`
 
-> API documentation for the Community-UI LoyaltyProgram component. Learn about the available props and the CSS API.
+> API documentation for the Community-UI Loyalty Program component. Learn about the available props and the CSS API.
 
 #### Import
 
 ```jsx
-import LoyaltyProgram from '@selfcommunity/ui';
+import {LoyaltyProgram} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -51,7 +51,7 @@ The name `SCLoyaltyProgram` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:112](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L112)
+[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:112](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L112)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx#L4)

@@ -12,42 +12,52 @@ custom_edit_url: null
 
 • **SCPreferencesContext**: `Context`<[`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType)\>
 
- * @hidden
-Create Preferences/Features Context
-Consuming this context in one of the following ways:
- 1. `<SCPreferencesContext.Consumer>
-      {(preferences) => (...)}
-    </SCPreferencesContext.Consumer>`
- 2. const scPreferences: SCPreferencesType = usePreferencesContext(SCPreferencesContext);
- 3. const scPreferences: SCPreferencesType = useSCPreferences();
+Creates Preferences/Features Context
+
+:::tipContext can be consumed in one of the following ways:
+
+```jsx
+1. <SCPreferencesContext.Consumer>{(preferences) => (...)}</SCPreferencesContext.Consumer>
+```
+```jsx
+2. const scPreferences: SCPreferencesType = usePreferencesContext(SCPreferencesContext);
+```
+```jsx
+3. const scPreferences: SCPreferencesType = useSCPreferences();
+````
+:::
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L18)
+[components/provider/SCPreferencesProvider/index.tsx:25](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L25)
 
 ## Functions
 
 ### SCPreferencesProvider
 
-▸ **SCPreferencesProvider**(`__namedParameters`): `JSX.Element`
+▸ **SCPreferencesProvider**(`children`): `JSX.Element`
 
-SCPreferencesProvider
-This import all preferences and features enabled
+#### Description:
+This component imports all preferences and features enabled.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.children` | `ReactNode` |
+| `children` | `Object` |
+| `children.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
+ ```jsx
+ <SCPreferencesContext.Provider value={{preferences, features}}>{!loading && children}</SCPreferencesContext.Provider>
+ ```
+
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:24](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L24)
+[components/provider/SCPreferencesProvider/index.tsx:36](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L36)
 
 ___
 
@@ -55,7 +65,6 @@ ___
 
 ▸ **useSCPreferences**(): [`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType)
 
- * @hidden
 Let's only export the `useSCPreferences` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
@@ -65,4 +74,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:59](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L59)
+[components/provider/SCPreferencesProvider/index.tsx:70](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L70)

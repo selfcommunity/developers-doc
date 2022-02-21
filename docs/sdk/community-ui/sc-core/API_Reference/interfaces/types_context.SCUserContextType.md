@@ -19,7 +19,7 @@ Error that occurred during authentication.
 
 #### Defined in
 
-[types/context.ts:92](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L92)
+[types/context.ts:92](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L92)
 
 ___
 
@@ -31,7 +31,7 @@ Authentication is loading.
 
 #### Defined in
 
-[types/context.ts:87](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L87)
+[types/context.ts:87](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L87)
 
 ___
 
@@ -51,7 +51,7 @@ Managers: followed, connections, categories, etc...
 
 #### Defined in
 
-[types/context.ts:122](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L122)
+[types/context.ts:122](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L122)
 
 ___
 
@@ -63,7 +63,7 @@ Current Session.
 
 #### Defined in
 
-[types/context.ts:82](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L82)
+[types/context.ts:82](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L82)
 
 ___
 
@@ -75,7 +75,7 @@ Authenticated User.
 
 #### Defined in
 
-[types/context.ts:77](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L77)
+[types/context.ts:77](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L77)
 
 ## Methods
 
@@ -91,7 +91,7 @@ Triggered when logout is performed.
 
 #### Defined in
 
-[types/context.ts:97](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L97)
+[types/context.ts:97](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L97)
 
 ___
 
@@ -107,7 +107,7 @@ Triggered when call a refresh session.
 
 #### Defined in
 
-[types/context.ts:102](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L102)
+[types/context.ts:102](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L102)
 
 ___
 
@@ -129,7 +129,7 @@ Handle change unseen interactions counter
 
 #### Defined in
 
-[types/context.ts:112](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L112)
+[types/context.ts:112](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L112)
 
 ___
 
@@ -151,7 +151,7 @@ Handle change unseen notification banner counter
 
 #### Defined in
 
-[types/context.ts:117](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L117)
+[types/context.ts:117](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L117)
 
 ___
 
@@ -173,4 +173,4 @@ Handle change user info
 
 #### Defined in
 
-[types/context.ts:107](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/context.ts#L107)
+[types/context.ts:107](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/context.ts#L107)

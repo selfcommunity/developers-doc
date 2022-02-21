@@ -22,7 +22,7 @@ custom_edit_url: null
 #### Import
 
 ```jsx
-import Feed from '@selfcommunity/ui';
+import {Feed} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -51,7 +51,7 @@ The name `SCFeed` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:159](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Feed/Feed.tsx#L159)
+[packages/sc-ui/src/components/Feed/Feed.tsx:159](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Feed/Feed.tsx#L159)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)
+[packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)

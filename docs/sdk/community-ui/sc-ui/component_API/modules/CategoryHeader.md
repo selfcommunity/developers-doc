@@ -20,7 +20,7 @@ custom_edit_url: null
 
 #### Import
 ```jsx
-import CategoryHeader from '@selfcommunity/ui';
+import {CategoryHeader} from '@selfcommunity/ui';
 ```
 #### Component Name
 
@@ -44,7 +44,7 @@ The name `SCCategoryHeader` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:126](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L126)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:126](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L126)
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx#L35)
+[packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx#L35)

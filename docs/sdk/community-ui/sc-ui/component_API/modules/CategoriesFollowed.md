@@ -16,7 +16,7 @@ custom_edit_url: null
 
 #### Import
 ```jsx
-import CategoriesFollowed from '@selfcommunity/ui';
+import {CategoriesFollowed} from '@selfcommunity/ui';
 ```
 #### Component Name
 The name `SCCategoriesFollowed` can be used when providing style overrides in the theme.
@@ -39,7 +39,7 @@ The name `SCCategoriesFollowed` can be used when providing style overrides in th
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:60](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L60)
+[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:60](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L60)
 
 ___
 
@@ -59,4 +59,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)

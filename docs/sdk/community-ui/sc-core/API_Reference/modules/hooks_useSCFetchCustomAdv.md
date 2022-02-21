@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCFetchCustomAdv
 
-▸ **useSCFetchCustomAdv**(`__namedParameters`): `Object`
+▸ **useSCFetchCustomAdv**(`object`): `Object`
 
 :::info
 This custom hook is used to fetch a custom adv object.
@@ -20,9 +20,9 @@ This custom hook is used to fetch a custom adv object.
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.categoryId?` | `number` |
-| `__namedParameters.position` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition) |
+| `object` | `Object` |
+| `object.categoriesId?` | `number`[] |
+| `object.position` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition) |
 
 #### Returns
 
@@ -35,4 +35,4 @@ This custom hook is used to fetch a custom adv object.
 
 #### Defined in
 
-[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)
+[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)

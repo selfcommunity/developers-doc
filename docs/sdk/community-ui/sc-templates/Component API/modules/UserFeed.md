@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:97](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L97)
+[UserFeed/UserFeed.tsx:97](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L97)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[UserFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-templates/src/components/UserFeed/Skeleton.tsx#L13)
+[UserFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-templates/src/components/UserFeed/Skeleton.tsx#L13)

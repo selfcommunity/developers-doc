@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Skeleton.tsx#L18)
+[packages/sc-ui/src/components/Notification/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Skeleton.tsx#L18)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 #### Import
 
 ```jsx
-import UserNotification from '@selfcommunity/ui';
+import {UserNotification} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -53,6 +53,10 @@ The name `SCUserNotification` can be used when providing style overrides in the 
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCUserNotification-root|Styles applied to the root element.|
+|notificationWrap|.SCUserNotification-notification-wrap|Styles applied to the element wrap.|
+|notificationHeader|.SCUserNotification-notification-wrap|Styles applied to the notification header.|
+|notificationUnCollapsed|.SCUserNotification-notification-wrap|Styles applied to the uncollapsed elements.|
+|notificationUnCollapsed|.SCUserNotification-notification-wrap|Styles applied to the collapsed elements.|
 |title|.SCUserNotification-title|Styles applied to the title element.|
 |stopNotificationButton|.SCUserNotification-stop-notification-button|Styles applied to the stop notification button.|
 |showOtherAggregated|.SCUserNotification-show-other-aggregated|Styles applied to the show other aggregated element.|
@@ -69,4 +73,4 @@ The name `SCUserNotification` can be used when providing style overrides in the 
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:159](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Notification/Notification.tsx#L159)
+[packages/sc-ui/src/components/Notification/Notification.tsx:170](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Notification/Notification.tsx#L170)

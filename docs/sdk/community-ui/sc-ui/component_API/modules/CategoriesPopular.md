@@ -16,7 +16,7 @@ custom_edit_url: null
 
 #### Import
 ```jsx
-import CategoriesPopular from '@selfcommunity/ui';
+import {CategoriesPopular} from '@selfcommunity/ui';
 ```
 
 #### Component Name
@@ -40,7 +40,7 @@ The name `SCCategoriesPopular` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:50](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L50)
+[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:50](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L50)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)

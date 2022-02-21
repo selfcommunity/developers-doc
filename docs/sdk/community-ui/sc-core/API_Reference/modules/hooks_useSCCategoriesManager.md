@@ -17,7 +17,6 @@ This custom hook is used to manage the categories followed.
 :::
 
 :::tipHow to use it:
-
 Follow these steps:
 ```jsx
 1. const scUserContext: SCUserContextType = useSCUser();
@@ -36,6 +35,8 @@ Follow these steps:
 
 { `categories`: `any`[] = data; `emptyCache`: `undefined` ; `follow`: `undefined` ; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `categories`: `any`[] = data; `emptyCache`: () => `void` ; `follow`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType)) => `Promise`<`any`\> ; `isFollowed`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
 
+categories
+
 #### Defined in
 
-[hooks/useSCCategoriesManager.ts:27](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCCategoriesManager.ts#L27)
+[hooks/useSCCategoriesManager.ts:32](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCCategoriesManager.ts#L32)

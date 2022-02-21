@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCFetchTag
 
-▸ **useSCFetchTag**(`__namedParameters`): `Object`
+▸ **useSCFetchTag**(`object`): `Object`
 
 :::info
 This custom hook is used to fetch a tag object.
@@ -20,9 +20,9 @@ This custom hook is used to fetch a tag object.
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.id?` | `number` |
-| `__namedParameters.tag?` | [`SCTagType`](../interfaces/types_tag.SCTagType) |
+| `object` | `Object` |
+| `object.id?` | `number` |
+| `object.tag?` | [`SCTagType`](../interfaces/types_tag.SCTagType) |
 
 #### Returns
 
@@ -35,4 +35,4 @@ This custom hook is used to fetch a tag object.
 
 #### Defined in
 
-[hooks/useSCFetchTag.ts:17](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFetchTag.ts#L17)
+[hooks/useSCFetchTag.ts:17](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCFetchTag.ts#L17)

@@ -20,7 +20,7 @@ Latitude
 
 #### Defined in
 
-[types/location.ts:14](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/location.ts#L14)
+[types/location.ts:14](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/location.ts#L14)
 
 ___
 
@@ -32,7 +32,7 @@ location
 
 #### Defined in
 
-[types/location.ts:9](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/location.ts#L9)
+[types/location.ts:9](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/location.ts#L9)
 
 ___
 
@@ -44,4 +44,4 @@ Longitude
 
 #### Defined in
 
-[types/location.ts:19](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/types/location.ts#L19)
+[types/location.ts:19](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/location.ts#L19)

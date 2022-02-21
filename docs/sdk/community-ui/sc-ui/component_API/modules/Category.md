@@ -20,7 +20,7 @@ custom_edit_url: null
 
 #### Import
 ```jsx
-import Category from '@selfcommunity/ui';
+import {Category} from '@selfcommunity/ui';
 ```
 #### Component Name
 The name `SCCategory` can be used when providing style overrides in the theme.
@@ -46,7 +46,7 @@ The name `SCCategory` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:95](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Category/Category.tsx#L95)
+[packages/sc-ui/src/components/Category/Category.tsx:95](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Category/Category.tsx#L95)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-ui/src/components/Category/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/Category/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Category/Skeleton.tsx#L25)

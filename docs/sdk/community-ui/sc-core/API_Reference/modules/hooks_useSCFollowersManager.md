@@ -37,4 +37,4 @@ Follow these steps:
 
 #### Defined in
 
-[hooks/useSCFollowersManager.ts:37](https://github.com/selfcommunity/community-ui/blob/7897031/packages/sc-core/src/hooks/useSCFollowersManager.ts#L37)
+[hooks/useSCFollowersManager.ts:35](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/hooks/useSCFollowersManager.ts#L35)
