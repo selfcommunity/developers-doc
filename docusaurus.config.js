@@ -134,10 +134,16 @@ const config = {
             label: 'Webhook',
           },
           {
-            type: 'doc',
-            docId: 'sdk/community-ui/intro',
-            position: 'right',
+            type: 'dropdown',
             label: 'SDK',
+            position: 'right',
+            items: [
+              {
+                type: 'doc',
+                label: 'Community UI',
+                docId: 'sdk/community-ui/intro',
+              }
+            ],
           },
           {
             href: 'https://github.com/selfcommunity',
