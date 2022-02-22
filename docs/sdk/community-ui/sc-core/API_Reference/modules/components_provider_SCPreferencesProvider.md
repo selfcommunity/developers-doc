@@ -29,7 +29,7 @@ Creates Preferences/Features Context
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:25](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L25)
+[components/provider/SCPreferencesProvider/index.tsx:25](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L25)
 
 ## Functions
 
@@ -57,7 +57,7 @@ This component imports all preferences and features enabled.
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:36](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L36)
+[components/provider/SCPreferencesProvider/index.tsx:36](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L36)
 
 ___
 
@@ -74,4 +74,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:70](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L70)
+[components/provider/SCPreferencesProvider/index.tsx:70](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L70)

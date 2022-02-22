@@ -43,7 +43,7 @@ The name `SCCategoriesSuggestion` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:74](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L74)
+[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:74](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L74)
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx#L23)
+[packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx#L23)

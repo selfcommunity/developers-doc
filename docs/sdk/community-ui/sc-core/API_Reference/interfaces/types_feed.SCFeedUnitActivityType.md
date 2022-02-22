@@ -20,7 +20,7 @@ Time of activity
 
 #### Defined in
 
-[types/feed.ts:96](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L96)
+[types/feed.ts:96](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L96)
 
 ___
 
@@ -32,7 +32,7 @@ The user involved.
 
 #### Defined in
 
-[types/feed.ts:91](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L91)
+[types/feed.ts:91](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L91)
 
 ___
 
@@ -44,7 +44,7 @@ The comment if type ==  SCFeedUnitActivityTypologyType.COMMENT.
 
 #### Defined in
 
-[types/feed.ts:86](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L86)
+[types/feed.ts:86](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L86)
 
 ___
 
@@ -56,7 +56,7 @@ Id of Users that have seen this activity
 
 #### Defined in
 
-[types/feed.ts:101](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L101)
+[types/feed.ts:101](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L101)
 
 ___
 
@@ -68,4 +68,4 @@ The type of the activity.
 
 #### Defined in
 
-[types/feed.ts:81](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L81)
+[types/feed.ts:81](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L81)

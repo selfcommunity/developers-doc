@@ -39,6 +39,8 @@ custom_edit_url: null
 - [Platform](modules/Platform)
 - [PrivateMessages](modules/PrivateMessages)
 - [RelatedDiscussion](modules/RelatedDiscussion)
+- [SignIn](modules/SignIn)
+- [SignUp](modules/SignUp)
 - [Skeleton](modules/Skeleton)
 - [Snippets](modules/Snippets)
 - [Thread](modules/Thread)

@@ -51,7 +51,7 @@ The name `SCLoyaltyProgram` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:112](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L112)
+[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:112](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L112)
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/LoyaltyProgram/Skeleton.tsx#L4)

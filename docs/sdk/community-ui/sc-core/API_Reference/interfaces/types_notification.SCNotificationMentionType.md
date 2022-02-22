@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L134)
+[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L134)
 
 ___
 
@@ -42,7 +42,7 @@ If user is mentioned in a comment
 
 #### Defined in
 
-[types/notification.ts:181](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L181)
+[types/notification.ts:181](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L181)
 
 ___
 
@@ -54,7 +54,7 @@ If user is mentioned in a discussion
 
 #### Defined in
 
-[types/notification.ts:166](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L166)
+[types/notification.ts:166](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L166)
 
 ___
 
@@ -70,7 +70,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L119)
+[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L119)
 
 ___
 
@@ -82,7 +82,7 @@ If the user is mentioned in a post
 
 #### Defined in
 
-[types/notification.ts:171](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L171)
+[types/notification.ts:171](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L171)
 
 ___
 
@@ -98,7 +98,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L124)
+[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L124)
 
 ___
 
@@ -110,7 +110,7 @@ If user is mentioned in a status
 
 #### Defined in
 
-[types/notification.ts:176](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L176)
+[types/notification.ts:176](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L176)
 
 ___
 
@@ -126,4 +126,4 @@ Type Mention
 
 #### Defined in
 
-[types/notification.ts:161](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/notification.ts#L161)
+[types/notification.ts:161](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L161)

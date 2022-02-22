@@ -25,7 +25,7 @@ Props to forward to Message component
 
 #### Defined in
 
-[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:39](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L39)
+[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:39](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L39)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:33](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L33)
+[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:33](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L33)
 
 ___
 
@@ -53,4 +53,4 @@ Id of the BroadcastMessages
 
 #### Defined in
 
-[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:27](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L27)
+[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:27](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L27)

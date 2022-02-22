@@ -15,7 +15,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[types/feed.ts:67](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L67)
+[types/feed.ts:67](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L67)
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 #### Defined in
 
-[types/feed.ts:70](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L70)
+[types/feed.ts:70](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L70)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[types/feed.ts:69](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L69)
+[types/feed.ts:69](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L69)
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 #### Defined in
 
-[types/feed.ts:68](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-core/src/types/feed.ts#L68)
+[types/feed.ts:68](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L68)

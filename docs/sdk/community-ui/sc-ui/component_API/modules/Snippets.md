@@ -47,7 +47,7 @@ The name `SCSnippets` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:77](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Snippets/Snippets.tsx#L77)
+[packages/sc-ui/src/components/Snippets/Snippets.tsx:77](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Snippets/Snippets.tsx#L77)
 
 ___
 
@@ -67,4 +67,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Snippets/Skeleton.tsx#L23)
+[packages/sc-ui/src/components/Snippets/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Snippets/Skeleton.tsx#L23)

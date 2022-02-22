@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:88](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Thread/Thread.tsx#L88)
+[packages/sc-ui/src/components/Thread/Thread.tsx:88](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Thread/Thread.tsx#L88)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:83](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Thread/Thread.tsx#L83)
+[packages/sc-ui/src/components/Thread/Thread.tsx:83](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Thread/Thread.tsx#L83)
 
 ___
 
@@ -53,7 +53,7 @@ Thread id
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:73](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Thread/Thread.tsx#L73)
+[packages/sc-ui/src/components/Thread/Thread.tsx:73](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Thread/Thread.tsx#L73)
 
 ___
 
@@ -67,7 +67,7 @@ Opens new message screen
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:97](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Thread/Thread.tsx#L97)
+[packages/sc-ui/src/components/Thread/Thread.tsx:97](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Thread/Thread.tsx#L97)
 
 ___
 
@@ -81,4 +81,4 @@ Message receiver id
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:78](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Thread/Thread.tsx#L78)
+[packages/sc-ui/src/components/Thread/Thread.tsx:78](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Thread/Thread.tsx#L78)

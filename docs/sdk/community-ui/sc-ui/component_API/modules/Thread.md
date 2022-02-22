@@ -50,7 +50,7 @@ The name `SCThread` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:126](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Thread/Thread.tsx#L126)
+[packages/sc-ui/src/components/Thread/Thread.tsx:126](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Thread/Thread.tsx#L126)
 
 ___
 
@@ -64,4 +64,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/Thread/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/Thread/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Thread/Skeleton.tsx#L4)

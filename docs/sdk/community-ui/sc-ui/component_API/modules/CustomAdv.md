@@ -44,7 +44,7 @@ The name `SCCustomAdv` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:67](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L67)
+[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:67](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L67)
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/CustomAdv/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/CustomAdv/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/CustomAdv/Skeleton.tsx#L4)

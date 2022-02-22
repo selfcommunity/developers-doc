@@ -46,7 +46,7 @@ The name `SCTrendingPeople` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:82](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L82)
+[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:82](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L82)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx#L25)

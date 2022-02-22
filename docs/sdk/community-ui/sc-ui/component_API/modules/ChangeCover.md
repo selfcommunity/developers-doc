@@ -46,4 +46,4 @@ The name `SCChangeCoverButton` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:74](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L74)
+[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:74](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L74)

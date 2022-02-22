@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:86](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L86)
+[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:86](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L86)
 
 ## Functions
 
@@ -59,7 +59,7 @@ The name `SCInlineComposer` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:125](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L125)
+[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:125](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L125)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/Skeleton.tsx:34](https://github.com/selfcommunity/community-ui/blob/009afd8/packages/sc-ui/src/components/InlineComposer/Skeleton.tsx#L34)
+[packages/sc-ui/src/components/InlineComposer/Skeleton.tsx:34](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/InlineComposer/Skeleton.tsx#L34)
