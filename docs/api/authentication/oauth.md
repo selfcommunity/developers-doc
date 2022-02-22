@@ -95,7 +95,7 @@ After you provide the information mentioned above, app credentials (Client ID/Se
 
 ## Testing OAuth 2.0 App
 
-###Getting an Access Token
+### Getting an Access Token
 
 Depending on the type of client type for there are different ways to get a token.
 
@@ -108,17 +108,13 @@ For the following examples let's assume we have created an app with the followin
 
 
 
-###Authorization Code
+### Authorization Code
 
 To start the Authorization code flow got to this URL with is the same as show bellow:
 
 ```
 https://<community_hostname>/oauth/authorize/?response_type=code&client_id=vW1RcAl7Mb0d5gyHNQIAcH110lWoOW2BmWJIero8&redirect_uri=https://127.0.0.1:8000/callback
 ```
-
-`
-https://<community_hostname>/oauth/authorize/?response_type=code&client_id=vW1RcAl7Mb0d5gyHNQIAcH110lWoOW2BmWJIero8&redirect_uri=https://127.0.0.1:8000/callback
-`
 
 Note the parameters we pass:
 
@@ -130,13 +126,15 @@ This identifies the application, the user is asked to authorize your application
 
 ![Oauth Authorize](/img/authentication/oauth/authorize.png)
 
-Remenber we used https://127.0.0.1:8000/callback as redirect_uri you will get a Page not found (404) but it worked if you get a url like:
+Remember we used https://127.0.0.1:8000/callback as redirect_uri you will get a Page not found (404) but it worked if you get a url like:
 
 `
 https://127.0.0.1:8000/callback?code=uVqLxiHDKIirldDZQfSnDsmYW1Abj2
 `
 
 This is the OAuth2 provider trying to give you a code, in this case uVqLxiHDKIirldDZQfSnDsmYW1Abj2.
+
+Now that you have the user authorization is time to get an access token:
 
 ```
 curl -X POST
@@ -150,24 +148,9 @@ curl -X POST
     -d "grant_type=authorization_code"
 ```
 
-Now that you have the user authorization is time to get an access token:
-
-`
-curl -X POST -H "Cache-Control: no-cache" -H "Content-Type: application/x-www-form-urlencoded" "https://<community_hostname>/oauth/token/" -d "client_id=${ID}" -d "client_secret=${SECRET}" -d "code=${CODE}" -d "redirect_uri=https://127.0.0.1:8000/callback" -d "grant_type=authorization_code"
-`
-
 The OAuth2 provider will return the follow response:
 
 ```json
-{
-  "access_token": "jooqrnOrNa0BrNWlg68u9sl6SkdFZg",
-  "expires_in": 36000,
-  "token_type": "Bearer",
-  "scope": "read write",
-  "refresh_token": "HNvDQjjsnvDySaK0miwG4lttJEl9yD"
-}
-```
-```
 {
   "access_token": "jooqrnOrNa0BrNWlg68u9sl6SkdFZg",
   "expires_in": 36000,
@@ -188,17 +171,14 @@ curl -H "Authorization: Bearer jooqrnOrNa0BrNWlg68u9sl6SkdFZg"
 
 
 
-###Implicit
-
-```
-https://<community_hostname>/oauth/authorize?client_id=vW1RcAl7Mb0d5gyHNQIAcH110lWoOW2BmWJIero8&redirect_uri=https://127.0.0.1:8000/callback&response_type=token
-```
+### Implicit
 
 To start the Implicit flow got to this URL with is the same as show below:
 
-`
+```
 https://<community_hostname>/oauth/authorize?client_id=vW1RcAl7Mb0d5gyHNQIAcH110lWoOW2BmWJIero8&redirect_uri=https://127.0.0.1:8000/callback&response_type=token
-`
+```
+
 
 This identifies the application, the user is asked to authorize your application to access its resources as in the authorize-code flow.
 After the user has granted the authorization, the server responds with a redirect to redirect_uri.
@@ -216,9 +196,6 @@ token_type=Bearer
 scope=read+write
 ```
 
-`
-https://127.0.0.1:8000/callback#access_token=uPYzDyan1nJfqRulCG6pMuCT6pwbpN&expires_in=36000&token_type=Bearer&scope=read+write&state=
-`
 
 In this case, a refresh token will not be issued.
 This flow is ideal for accessing the community APIs from a client.
@@ -227,7 +204,7 @@ This flow is ideal for accessing the community APIs from a client.
 
 
 
-###Password
+### Password
 
 The Password grant is one of the simplest OAuth grants and involves only one step: the application presents a traditional username and password login form to collect the user’s credentials and makes a POST request to the server to exchange the password for an access token.
 The POST request that the application makes looks like the example below.
@@ -268,7 +245,7 @@ The server replies with an access token in the same format as the other grant ty
 }
 ```
 
-###Using an Access Token
+### Using an Access Token
 
 Regardless of which grant type you used, if you have an OAuth 2.0 Bearer Token you can use with the authenticated API.
 Set the HTTP Authorization header as Bearer `<TOKEN>` to access the protected resources as in the example below:
@@ -278,13 +255,9 @@ curl -H "Authorization: Bearer jooqrnOrNa0BrNWlg68u9sl6SkdFZg"
     -X GET https://<community_hostname>/api/v2/<resource>
 ```
 
-```
-curl -H "Authorization: Bearer jooqrnOrNa0BrNWlg68u9sl6SkdFZg" -X GET https://<community_hostname>/api/v2/<resource>
-```
+### Refreshing an Access Token
 
-###Refreshing an Access Token
-
-A revoke request from a public client would omit that secret, and take the form:
+A refresh request from a public client would omit that secret, and take the form:
 
 ```
 curl -X POST
@@ -296,21 +269,10 @@ curl -X POST
     -d "grant_type=refresh_token"
 ```
 
-`
-curl -X POST
-    -H "Cache-Control: no-cache"
-    -H "Content-Type: application/x-www-form-urlencoded"
-    "https://<community_hostname>/oauth/token/"
-    -d "client_id=${ID}"
-    -d "refresh_token=${REFRESH_TOKEN}"
-    -d "grant_type=refresh_token"
-`
+The server will respond wih a 200 status code on successful refresh.
 
 
-The server will respond wih a 200 status code on successful revocation.
-
-
-**Revoking an Access Token**
+### Revoking an Access Token
 
 A revoke request from a public client would omit that secret, and take the form:
 
@@ -322,15 +284,5 @@ curl -X POST
     -d "client_id=${ID}"
     -d "token=${TOKEN}"
 ```
-
-`
-curl -X POST
-    -H "Cache-Control: no-cache"
-    -H "Content-Type: application/x-www-form-urlencoded"
-    "https://<community_hostname>/oauth/revoke_token/"
-    -d "client_id=${ID}"
-    -d "token=${TOKEN}"
-`
-
 
 The server will respond wih a 200 status code on successful revocation.

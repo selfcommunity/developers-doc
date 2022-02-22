@@ -1,10 +1,10 @@
 ---
-sidebar_label: User's Banner Unseen Count
+sidebar_label: Broadcast Messages Unseen Count
 sidebar_position: 6
-title: User's Banner Unseen Count
+title: Broadcast Messages Unseen Count
 ---
 
-This endpoint retrieves the total number of notification banners not yet seen by the user.
+This endpoint retrieves the total number of broadcast messages not yet seen by the user.
 
 :::info
 

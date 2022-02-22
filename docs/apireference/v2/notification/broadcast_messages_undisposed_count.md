@@ -1,10 +1,10 @@
 ---
-sidebar_label: User's Banner Undisposed Count
+sidebar_label: Broadcast Messages Undisposed Count
 sidebar_position: 7
-title: User's Banner Undisposed Count
+title: Broadcast Messages Undisposed Count
 ---
 
-This endpoint retrieves the total number of notiifcation banners not yet disposed by the user.
+This endpoint retrieves the total number of broadcast messages not yet disposed by the user.
 
 :::info
 
