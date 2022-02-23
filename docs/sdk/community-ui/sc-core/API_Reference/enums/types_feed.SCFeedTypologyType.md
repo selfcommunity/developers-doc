@@ -17,7 +17,7 @@ Typology of feed
 
 #### Defined in
 
-[types/feed.ts:13](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L13)
+[types/feed.ts:13](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/feed.ts#L13)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types/feed.ts:12](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/feed.ts#L12)
+[types/feed.ts:12](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/feed.ts#L12)

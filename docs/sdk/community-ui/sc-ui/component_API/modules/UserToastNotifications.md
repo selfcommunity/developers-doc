@@ -49,7 +49,7 @@ The name `SCUserToastNotifications` can be used when providing style overrides i
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx:95](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx#L95)
+[packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx:95](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/UserToastNotifications/UserToastNotifications.tsx#L95)
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/UserToastNotifications/Skeleton.tsx#L4)

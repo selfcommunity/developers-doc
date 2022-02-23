@@ -4,11 +4,13 @@ sidebar_position: 1
 title: Categories Suggestion
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {CategoriesSuggestion} from '@selfcommunity/ui';
-
-
 > The Categories Suggestion component renders a list of suggested categories.
 
-<SCContextProvider conf={config}><CategoriesSuggestion/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./categoriesSuggestion.js';
+import App from './categoriesSuggestion.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

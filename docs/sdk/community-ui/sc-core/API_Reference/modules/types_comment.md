@@ -20,4 +20,4 @@ Typology Comment
 
 #### Defined in
 
-[types/comment.ts:6](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L6)
+[types/comment.ts:6](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L6)

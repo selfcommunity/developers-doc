@@ -4,11 +4,13 @@ sidebar_position: 1
 title: Feed
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {Feed} from '@selfcommunity/ui';
-
-
 > The Feed component renders a feed.
 
-<SCContextProvider conf={config}><Feed/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./feed.js';
+import App from './feed.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

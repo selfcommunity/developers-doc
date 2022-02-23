@@ -4,11 +4,14 @@ sidebar_position: 1
 title: Trending People
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {TrendingPeople} from '@selfcommunity/ui';
-
-
 > The Trending People component renders a list of trending people.
 
-<SCContextProvider conf={config}><TrendingPeople categoryId={1}/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./trendingPeople.js';
+import App from './trendingPeople.js';
+
+<br/>
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

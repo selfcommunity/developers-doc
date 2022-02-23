@@ -4,11 +4,13 @@ sidebar_position: 1
 title: Change Cover
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {ChangeCover} from '@selfcommunity/ui';
-
-
 > The Change Cover component  renders the button used for change user profile cover.
 
-<SCContextProvider conf={config}><ChangeCover/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./changeCover.js';
+import App from './changeCover.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

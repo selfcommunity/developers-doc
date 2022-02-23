@@ -50,4 +50,4 @@ The name `SCSignUp` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/SignUp/SignUp.tsx:102](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/SignUp/SignUp.tsx#L102)
+[packages/sc-ui/src/components/SignUp/SignUp.tsx:102](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/SignUp/SignUp.tsx#L102)

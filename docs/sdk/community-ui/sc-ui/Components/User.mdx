@@ -4,11 +4,13 @@ sidebar_position: 1
 title: User
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {User} from '@selfcommunity/ui';
-
-
 > The User component renders a user.
 
-<SCContextProvider conf={config}><User/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./user.js';
+import App from './user.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

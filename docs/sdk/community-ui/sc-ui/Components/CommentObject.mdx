@@ -4,11 +4,13 @@ sidebar_position: 1
 title: Comment Object
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {CommentObject} from '@selfcommunity/ui';
-
-
 > The Comment Object component renders a comment.
 
-<SCContextProvider conf={config}><CommentObject/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./commentObject.js';
+import App from './commentObject.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

@@ -4,11 +4,13 @@ sidebar_position: 1
 title: User Profile Header
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {UserProfileHeader} from '@selfcommunity/ui';
-
-
 > The User Profile Header component renders the user profile header.
 
-<SCContextProvider conf={config}><UserProfileHeader/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./userProfileHeader.js';
+import App from './userProfileHeader.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

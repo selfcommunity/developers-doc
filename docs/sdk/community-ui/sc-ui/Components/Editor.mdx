@@ -4,11 +4,13 @@ sidebar_position: 1
 title: Editor
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {Editor} from '@selfcommunity/ui';
-
-
 > The Editor component renders an editor.
 
-<SCContextProvider conf={config}><Editor/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./editor.js';
+import App from './editor.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

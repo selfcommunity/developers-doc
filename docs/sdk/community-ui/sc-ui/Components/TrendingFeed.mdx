@@ -3,11 +3,14 @@ sidebar_label: Trending Feed
 sidebar_position: 1
 title: Trending Feed
 ---
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {TrendingFeed} from '@selfcommunity/ui';
-
 
 > The Trending Feed component renders a list of trending posts, discussions, statuses.
 
-<SCContextProvider conf={config}><TrendingFeed/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./trendingFeed.js';
+import App from './trendingFeed.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

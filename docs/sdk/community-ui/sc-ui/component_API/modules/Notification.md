@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Notification/Skeleton.tsx#L18)
+[packages/sc-ui/src/components/Notification/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/Notification/Skeleton.tsx#L18)
 
 ___
 
@@ -73,4 +73,4 @@ The name `SCUserNotification` can be used when providing style overrides in the 
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:170](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Notification/Notification.tsx#L170)
+[packages/sc-ui/src/components/Notification/Notification.tsx:170](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/Notification/Notification.tsx#L170)

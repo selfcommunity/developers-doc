@@ -50,4 +50,4 @@ The name `SCSignIn` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/SignIn/SignIn.tsx:91](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/SignIn/SignIn.tsx#L91)
+[packages/sc-ui/src/components/SignIn/SignIn.tsx:91](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/SignIn/SignIn.tsx#L91)

@@ -57,4 +57,4 @@ const scRoutingContext: SCRoutingContextType = useSCRouting();
 
 #### Defined in
 
-[hooks/useSCAuth.ts:126](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/hooks/useSCAuth.ts#L126)
+[hooks/useSCAuth.ts:126](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/hooks/useSCAuth.ts#L126)

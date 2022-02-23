@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L134)
+[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L134)
 
 ___
 
@@ -46,7 +46,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L119)
+[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L119)
 
 ___
 
@@ -58,7 +58,7 @@ User request the connection
 
 #### Defined in
 
-[types/notification.ts:197](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L197)
+[types/notification.ts:197](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L197)
 
 ___
 
@@ -74,7 +74,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L124)
+[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L124)
 
 ___
 
@@ -90,4 +90,4 @@ Type Connection request
 
 #### Defined in
 
-[types/notification.ts:192](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L192)
+[types/notification.ts:192](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L192)

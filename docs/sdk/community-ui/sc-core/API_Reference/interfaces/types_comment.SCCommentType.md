@@ -20,7 +20,7 @@ Added at
 
 #### Defined in
 
-[types/comment.ts:41](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L41)
+[types/comment.ts:41](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L41)
 
 ___
 
@@ -32,7 +32,7 @@ User who commented
 
 #### Defined in
 
-[types/comment.ts:36](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L36)
+[types/comment.ts:36](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L36)
 
 ___
 
@@ -44,7 +44,7 @@ If the comments is hidden
 
 #### Defined in
 
-[types/comment.ts:61](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L61)
+[types/comment.ts:61](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L61)
 
 ___
 
@@ -56,7 +56,7 @@ Number of comments
 
 #### Defined in
 
-[types/comment.ts:91](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L91)
+[types/comment.ts:91](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L91)
 
 ___
 
@@ -68,7 +68,7 @@ If the comments is deleted
 
 #### Defined in
 
-[types/comment.ts:56](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L56)
+[types/comment.ts:56](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L56)
 
 ___
 
@@ -80,7 +80,7 @@ Id of the Discussion object
 
 #### Defined in
 
-[types/comment.ts:21](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L21)
+[types/comment.ts:21](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L21)
 
 ___
 
@@ -92,7 +92,7 @@ Number of flags
 
 #### Defined in
 
-[types/comment.ts:86](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L86)
+[types/comment.ts:86](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L86)
 
 ___
 
@@ -104,7 +104,7 @@ Html of the comment
 
 #### Defined in
 
-[types/comment.ts:46](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L46)
+[types/comment.ts:46](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L46)
 
 ___
 
@@ -116,7 +116,7 @@ Id of the comment
 
 #### Defined in
 
-[types/comment.ts:16](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L16)
+[types/comment.ts:16](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L16)
 
 ___
 
@@ -128,7 +128,7 @@ Id of the reply Comment, it must have the same parent
 
 #### Defined in
 
-[types/comment.ts:71](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L71)
+[types/comment.ts:71](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L71)
 
 ___
 
@@ -140,7 +140,7 @@ Comments childs
 
 #### Defined in
 
-[types/comment.ts:101](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L101)
+[types/comment.ts:101](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L101)
 
 ___
 
@@ -152,7 +152,7 @@ Id of the parent
 
 #### Defined in
 
-[types/comment.ts:66](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L66)
+[types/comment.ts:66](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L66)
 
 ___
 
@@ -164,7 +164,7 @@ Id of the Post object
 
 #### Defined in
 
-[types/comment.ts:26](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L26)
+[types/comment.ts:26](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L26)
 
 ___
 
@@ -176,7 +176,7 @@ Id of the Status object
 
 #### Defined in
 
-[types/comment.ts:31](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L31)
+[types/comment.ts:31](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L31)
 
 ___
 
@@ -188,7 +188,7 @@ Summary
 
 #### Defined in
 
-[types/comment.ts:51](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L51)
+[types/comment.ts:51](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L51)
 
 ___
 
@@ -200,7 +200,7 @@ Text of the comment
 
 #### Defined in
 
-[types/comment.ts:96](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L96)
+[types/comment.ts:96](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L96)
 
 ___
 
@@ -212,7 +212,7 @@ Number of votes
 
 #### Defined in
 
-[types/comment.ts:76](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L76)
+[types/comment.ts:76](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L76)
 
 ___
 
@@ -224,4 +224,4 @@ True if the logged user has already voted the comment
 
 #### Defined in
 
-[types/comment.ts:81](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/comment.ts#L81)
+[types/comment.ts:81](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/comment.ts#L81)

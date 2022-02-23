@@ -30,7 +30,7 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:28](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L28)
+[components/provider/SCThemeProvider/index.tsx:28](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L28)
 
 ## Functions
 
@@ -62,7 +62,7 @@ See: https://mui.com/system/styled/
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:44](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L44)
+[components/provider/SCThemeProvider/index.tsx:44](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L44)
 
 ___
 
@@ -79,7 +79,7 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:79](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L79)
+[components/provider/SCThemeProvider/index.tsx:79](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L79)
 
 ___
 
@@ -113,4 +113,4 @@ Export hoc to inject the base theme to components
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:66](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L66)
+[components/provider/SCThemeProvider/index.tsx:66](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L66)

@@ -4,11 +4,13 @@ sidebar_position: 1
 title: Change Picture
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {ChangePicture} from '@selfcommunity/ui';
-
-
 > The Change Picture component  renders the button used for change user profile picture.
 
-<SCContextProvider conf={config}><ChangePicture/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./changePicture.js';
+import App from './changePicture.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

@@ -51,7 +51,7 @@ The name `SCFeed` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:156](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Feed/Feed.tsx#L156)
+[packages/sc-ui/src/components/Feed/Feed.tsx:156](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/Feed/Feed.tsx#L156)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)
+[packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)

@@ -25,7 +25,7 @@ Default props to submit button Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/SignIn/SignIn.tsx:56](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/SignIn/SignIn.tsx#L56)
+[packages/sc-ui/src/components/SignIn/SignIn.tsx:56](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/SignIn/SignIn.tsx#L56)
 
 ___
 
@@ -39,7 +39,7 @@ Default props to TextField Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/SignIn/SignIn.tsx:50](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/SignIn/SignIn.tsx#L50)
+[packages/sc-ui/src/components/SignIn/SignIn.tsx:50](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/SignIn/SignIn.tsx#L50)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/SignIn/SignIn.tsx:38](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/SignIn/SignIn.tsx#L38)
+[packages/sc-ui/src/components/SignIn/SignIn.tsx:38](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/SignIn/SignIn.tsx#L38)
 
 ## Methods
 
@@ -77,4 +77,4 @@ Callback triggered on success sign in
 
 #### Defined in
 
-[packages/sc-ui/src/components/SignIn/SignIn.tsx:44](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-ui/src/components/SignIn/SignIn.tsx#L44)
+[packages/sc-ui/src/components/SignIn/SignIn.tsx:44](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/SignIn/SignIn.tsx#L44)

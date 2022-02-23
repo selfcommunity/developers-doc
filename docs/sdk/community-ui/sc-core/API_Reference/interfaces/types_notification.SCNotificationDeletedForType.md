@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L134)
+[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L134)
 
 ___
 
@@ -42,7 +42,7 @@ If a status is deleted
 
 #### Defined in
 
-[types/notification.ts:414](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L414)
+[types/notification.ts:414](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L414)
 
 ___
 
@@ -54,7 +54,7 @@ If a discussion is deleted
 
 #### Defined in
 
-[types/notification.ts:399](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L399)
+[types/notification.ts:399](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L399)
 
 ___
 
@@ -70,7 +70,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L119)
+[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L119)
 
 ___
 
@@ -82,7 +82,7 @@ If a post is deleted
 
 #### Defined in
 
-[types/notification.ts:404](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L404)
+[types/notification.ts:404](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L404)
 
 ___
 
@@ -98,7 +98,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L124)
+[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L124)
 
 ___
 
@@ -110,7 +110,7 @@ If a comment is deleted
 
 #### Defined in
 
-[types/notification.ts:409](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L409)
+[types/notification.ts:409](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L409)
 
 ___
 
@@ -126,4 +126,4 @@ Type Deleted for
 
 #### Defined in
 
-[types/notification.ts:389](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/notification.ts#L389)
+[types/notification.ts:389](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/notification.ts#L389)

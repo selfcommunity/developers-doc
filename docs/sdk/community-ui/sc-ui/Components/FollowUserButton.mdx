@@ -4,11 +4,14 @@ sidebar_position: 1
 title: Follow User Button
 ---
 
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {FollowUserButton} from '@selfcommunity/ui';
-
-
 > The Follow User Button component renders a button for user following.
 
-<SCContextProvider conf={config}><FollowUserButton/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./followUserButton.js';
+import App from './followUserButton.js';
+
+<br/>
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

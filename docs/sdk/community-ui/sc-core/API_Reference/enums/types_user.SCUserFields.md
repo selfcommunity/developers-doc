@@ -17,7 +17,7 @@ User Fields
 
 #### Defined in
 
-[types/user.ts:13](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L13)
+[types/user.ts:13](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L13)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:12](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L12)
+[types/user.ts:12](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L12)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:15](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L15)
+[types/user.ts:15](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L15)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:16](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L16)
+[types/user.ts:16](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L16)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:17](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L17)
+[types/user.ts:17](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L17)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:14](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L14)
+[types/user.ts:14](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L14)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:11](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L11)
+[types/user.ts:11](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L11)
 
 ___
 
@@ -87,4 +87,4 @@ ___
 
 #### Defined in
 
-[types/user.ts:18](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L18)
+[types/user.ts:18](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L18)

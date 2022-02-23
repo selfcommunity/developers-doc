@@ -38,4 +38,4 @@ Follow these steps:
 
 #### Defined in
 
-[hooks/useSCConnectionsManager.ts:39](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/hooks/useSCConnectionsManager.ts#L39)
+[hooks/useSCConnectionsManager.ts:39](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/hooks/useSCConnectionsManager.ts#L39)

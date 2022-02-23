@@ -3,11 +3,14 @@ sidebar_label: User Followers
 sidebar_position: 1
 title: User Followers
 ---
-import config from './conf.js';
-import {SCContextProvider} from '@selfcommunity/core';
-import {UserFollowers} from '@selfcommunity/ui';
-
 
 > The User Followers component renders the list of  user followers.
 
-<SCContextProvider conf={config}><UserFollowers/></SCContextProvider>
+import CodeBlock from '@theme/CodeBlock';
+import Component  from '!!raw-loader!./userFollowers.js';
+import App from './userFollowers.js';
+
+<App/>
+
+#### Usage
+ <CodeBlock className="language-jsx">{Component}</CodeBlock>

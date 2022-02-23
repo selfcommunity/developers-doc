@@ -17,7 +17,7 @@ Avatar of the user.
 
 #### Defined in
 
-[types/user.ts:100](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L100)
+[types/user.ts:100](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L100)
 
 ___
 
@@ -29,7 +29,7 @@ User biography.
 
 #### Defined in
 
-[types/user.ts:55](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L55)
+[types/user.ts:55](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L55)
 
 ___
 
@@ -41,7 +41,7 @@ Number of connection requests received by the user.
 
 #### Defined in
 
-[types/user.ts:140](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L140)
+[types/user.ts:140](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L140)
 
 ___
 
@@ -53,7 +53,7 @@ Number of connection requests sent by the user.
 
 #### Defined in
 
-[types/user.ts:135](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L135)
+[types/user.ts:135](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L135)
 
 ___
 
@@ -65,7 +65,7 @@ The connection status between the request user and this user.
 
 #### Defined in
 
-[types/user.ts:130](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L130)
+[types/user.ts:130](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L130)
 
 ___
 
@@ -77,7 +77,7 @@ Number of connections of the user.
 
 #### Defined in
 
-[types/user.ts:145](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L145)
+[types/user.ts:145](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L145)
 
 ___
 
@@ -89,7 +89,7 @@ Image Cover of the user.
 
 #### Defined in
 
-[types/user.ts:105](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L105)
+[types/user.ts:105](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L105)
 
 ___
 
@@ -101,7 +101,7 @@ Date joined to the community.
 
 #### Defined in
 
-[types/user.ts:50](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L50)
+[types/user.ts:50](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L50)
 
 ___
 
@@ -113,7 +113,7 @@ Date of birth. Format: YYYY-MM-DD (ISO 8601).
 
 #### Defined in
 
-[types/user.ts:75](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L75)
+[types/user.ts:75](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L75)
 
 ___
 
@@ -125,7 +125,7 @@ User description.
 
 #### Defined in
 
-[types/user.ts:80](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L80)
+[types/user.ts:80](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L80)
 
 ___
 
@@ -137,7 +137,7 @@ Number of discussions created by the user.
 
 #### Defined in
 
-[types/user.ts:165](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L165)
+[types/user.ts:165](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L165)
 
 ___
 
@@ -149,7 +149,7 @@ Email of the user.
 
 #### Defined in
 
-[types/user.ts:40](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L40)
+[types/user.ts:40](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L40)
 
 ___
 
@@ -161,7 +161,7 @@ Email is valid. Default: False.
 
 #### Defined in
 
-[types/user.ts:45](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L45)
+[types/user.ts:45](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L45)
 
 ___
 
@@ -173,7 +173,7 @@ The external ID of the user. It is assigned only during signup if necessary.
 
 #### Defined in
 
-[types/user.ts:110](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L110)
+[types/user.ts:110](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L110)
 
 ___
 
@@ -185,7 +185,7 @@ Number of followers of the user
 
 #### Defined in
 
-[types/user.ts:155](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L155)
+[types/user.ts:155](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L155)
 
 ___
 
@@ -197,7 +197,7 @@ Number of followings of the user
 
 #### Defined in
 
-[types/user.ts:150](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L150)
+[types/user.ts:150](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L150)
 
 ___
 
@@ -209,7 +209,7 @@ Gender of the user. Values: Male, Female, Unspecified. Default: Unspecified.
 
 #### Defined in
 
-[types/user.ts:85](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L85)
+[types/user.ts:85](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L85)
 
 ___
 
@@ -221,7 +221,7 @@ The ID of the user.
 
 #### Defined in
 
-[types/user.ts:25](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L25)
+[types/user.ts:25](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L25)
 
 ___
 
@@ -233,7 +233,7 @@ Location
 
 #### Defined in
 
-[types/user.ts:60](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L60)
+[types/user.ts:60](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L60)
 
 ___
 
@@ -245,7 +245,7 @@ Location in coordinates. Format: lat,lng.
 
 #### Defined in
 
-[types/user.ts:65](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L65)
+[types/user.ts:65](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L65)
 
 ___
 
@@ -257,7 +257,7 @@ List of user permission. Only for the resource /user/me/.
 
 #### Defined in
 
-[types/user.ts:125](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L125)
+[types/user.ts:125](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L125)
 
 ___
 
@@ -269,7 +269,7 @@ Number of polls created by the user.
 
 #### Defined in
 
-[types/user.ts:175](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L175)
+[types/user.ts:175](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L175)
 
 ___
 
@@ -281,7 +281,7 @@ User current position. Format: lat,lng.
 
 #### Defined in
 
-[types/user.ts:70](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L70)
+[types/user.ts:70](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L70)
 
 ___
 
@@ -293,7 +293,7 @@ Number of posts created by the user.
 
 #### Defined in
 
-[types/user.ts:160](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L160)
+[types/user.ts:160](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L160)
 
 ___
 
@@ -305,7 +305,7 @@ Real name of the user.
 
 #### Defined in
 
-[types/user.ts:35](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L35)
+[types/user.ts:35](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L35)
 
 ___
 
@@ -317,7 +317,7 @@ User reputation.
 
 #### Defined in
 
-[types/user.ts:120](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L120)
+[types/user.ts:120](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L120)
 
 ___
 
@@ -329,7 +329,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:180](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L180)
+[types/user.ts:180](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L180)
 
 ___
 
@@ -341,7 +341,7 @@ User status. Values: a (approved), b (blocked), d (deleted; soft deleted), u (un
 
 #### Defined in
 
-[types/user.ts:90](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L90)
+[types/user.ts:90](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L90)
 
 ___
 
@@ -353,7 +353,7 @@ Number of statuses created by the user.
 
 #### Defined in
 
-[types/user.ts:170](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L170)
+[types/user.ts:170](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L170)
 
 ___
 
@@ -365,7 +365,7 @@ User's tag list. List of Tag.
 
 #### Defined in
 
-[types/user.ts:115](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L115)
+[types/user.ts:115](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L115)
 
 ___
 
@@ -377,7 +377,7 @@ interactions counter
 
 #### Defined in
 
-[types/user.ts:185](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L185)
+[types/user.ts:185](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L185)
 
 ___
 
@@ -389,7 +389,7 @@ notification banner counter
 
 #### Defined in
 
-[types/user.ts:190](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L190)
+[types/user.ts:190](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L190)
 
 ___
 
@@ -401,7 +401,7 @@ The username of the user.
 
 #### Defined in
 
-[types/user.ts:30](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L30)
+[types/user.ts:30](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L30)
 
 ___
 
@@ -413,4 +413,4 @@ User website.
 
 #### Defined in
 
-[types/user.ts:95](https://github.com/selfcommunity/community-ui/blob/0c5b0c7/packages/sc-core/src/types/user.ts#L95)
+[types/user.ts:95](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/user.ts#L95)
