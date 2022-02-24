@@ -20,7 +20,7 @@ The active status of the prize.
 
 #### Defined in
 
-[types/prize.ts:16](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L16)
+[types/prize.ts:16](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L16)
 
 ___
 
@@ -32,7 +32,7 @@ Date of prize creation.
 
 #### Defined in
 
-[types/prize.ts:35](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L35)
+[types/prize.ts:35](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L35)
 
 ___
 
@@ -44,7 +44,7 @@ The prize creator.
 
 #### Defined in
 
-[types/prize.ts:43](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L43)
+[types/prize.ts:43](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L43)
 
 ___
 
@@ -56,7 +56,7 @@ The prize description.
 
 #### Defined in
 
-[types/prize.ts:26](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L26)
+[types/prize.ts:26](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L26)
 
 ___
 
@@ -68,7 +68,7 @@ The ID of the prize.
 
 #### Defined in
 
-[types/prize.ts:11](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L11)
+[types/prize.ts:11](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L11)
 
 ___
 
@@ -80,7 +80,7 @@ The prize image.
 
 #### Defined in
 
-[types/prize.ts:48](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L48)
+[types/prize.ts:48](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L48)
 
 ___
 
@@ -92,7 +92,7 @@ Date of last modify.
 
 #### Defined in
 
-[types/prize.ts:39](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L39)
+[types/prize.ts:39](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L39)
 
 ___
 
@@ -104,7 +104,7 @@ Link to a web resource for the prize.
 
 #### Defined in
 
-[types/prize.ts:52](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L52)
+[types/prize.ts:52](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L52)
 
 ___
 
@@ -116,7 +116,7 @@ Points to request the prize.
 
 #### Defined in
 
-[types/prize.ts:30](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L30)
+[types/prize.ts:30](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L30)
 
 ___
 
@@ -128,4 +128,4 @@ The title of the prize.
 
 #### Defined in
 
-[types/prize.ts:21](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/prize.ts#L21)
+[types/prize.ts:21](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/prize.ts#L21)

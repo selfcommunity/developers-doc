@@ -1,12 +1,12 @@
 import React from 'react';
 import config from '../../conf';
 import {SCContextProvider} from '@selfcommunity/core';
-import {SignUp}  from '@selfcommunity/ui';
+import {AccountSignIn} from '@selfcommunity/ui';
 
 
 export default function App () {
     return (
-        <SCContextProvider conf={config}><SignUp/></SCContextProvider>
+        <SCContextProvider conf={config}><AccountSignIn/></SCContextProvider>
     );
 }
 

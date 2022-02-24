@@ -46,4 +46,4 @@ The name `SCFollowUserButton` can be used when providing style overrides in the 
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:83](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L83)
+[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:83](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L83)

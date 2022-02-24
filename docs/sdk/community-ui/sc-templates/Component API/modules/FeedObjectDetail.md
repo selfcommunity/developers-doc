@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:69](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L69)
+[FeedObjectDetail/FeedObjectDetail.tsx:69](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L69)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[FeedObjectDetail/Skeleton.tsx:16](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/FeedObjectDetail/Skeleton.tsx#L16)
+[FeedObjectDetail/Skeleton.tsx:16](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/FeedObjectDetail/Skeleton.tsx#L16)

@@ -40,7 +40,7 @@ The name `SCCategoriesPopular` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:50](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L50)
+[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:50](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L50)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)

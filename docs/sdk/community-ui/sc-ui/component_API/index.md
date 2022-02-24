@@ -10,6 +10,9 @@ custom_edit_url: null
 
 ## Modules
 
+- [AccountRecover](modules/AccountRecover)
+- [AccountSignIn](modules/AccountSignIn)
+- [AccountSignUp](modules/AccountSignUp)
 - [BroadcastMessages](modules/BroadcastMessages)
 - [CategoriesFollowed](modules/CategoriesFollowed)
 - [CategoriesPopular](modules/CategoriesPopular)
@@ -39,11 +42,11 @@ custom_edit_url: null
 - [Platform](modules/Platform)
 - [PrivateMessages](modules/PrivateMessages)
 - [RelatedDiscussion](modules/RelatedDiscussion)
-- [SignIn](modules/SignIn)
-- [SignUp](modules/SignUp)
 - [Skeleton](modules/Skeleton)
+- [SnippetNotifications](modules/SnippetNotifications)
 - [Snippets](modules/Snippets)
 - [Thread](modules/Thread)
+- [ToastNotifications](modules/ToastNotifications)
 - [TrendingFeed](modules/TrendingFeed)
 - [TrendingPeople](modules/TrendingPeople)
 - [User](modules/User)
@@ -51,5 +54,4 @@ custom_edit_url: null
 - [UserProfileEdit](modules/UserProfileEdit)
 - [UserProfileHeader](modules/UserProfileHeader)
 - [UserProfileInfo](modules/UserProfileInfo)
-- [UserToastNotifications](modules/UserToastNotifications)
 - [UsersFollowed](modules/UsersFollowed)

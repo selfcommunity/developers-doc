@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:63](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L63)
+[CategoryFeed/CategoryFeed.tsx:63](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L63)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:69](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L69)
+[CategoryFeed/CategoryFeed.tsx:69](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L69)
 
 ___
 
@@ -47,7 +47,7 @@ Category Object
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:45](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L45)
+[CategoryFeed/CategoryFeed.tsx:45](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L45)
 
 ___
 
@@ -61,7 +61,7 @@ Id of the category for filter the feed
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:51](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L51)
+[CategoryFeed/CategoryFeed.tsx:51](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L51)
 
 ___
 
@@ -75,7 +75,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:39](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L39)
+[CategoryFeed/CategoryFeed.tsx:39](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L39)
 
 ___
 
@@ -89,7 +89,7 @@ Id of the feed object
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:33](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L33)
+[CategoryFeed/CategoryFeed.tsx:33](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L33)
 
 ___
 
@@ -103,4 +103,4 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:57](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L57)
+[CategoryFeed/CategoryFeed.tsx:57](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L57)

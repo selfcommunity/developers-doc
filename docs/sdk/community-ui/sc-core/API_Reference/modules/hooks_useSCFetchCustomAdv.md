@@ -22,7 +22,7 @@ This custom hook is used to fetch a custom adv object.
 | :------ | :------ |
 | `object` | `Object` |
 | `object.categoriesId?` | `number`[] |
-| `object.position` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition) |
+| `object.position?` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition) |
 
 #### Returns
 
@@ -35,4 +35,4 @@ This custom hook is used to fetch a custom adv object.
 
 #### Defined in
 
-[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)
+[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)

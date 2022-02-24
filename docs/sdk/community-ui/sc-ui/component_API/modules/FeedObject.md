@@ -57,7 +57,7 @@ The name `SCFeedObject` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:278](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L278)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:278](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L278)
 
 ___
 
@@ -78,4 +78,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/Skeleton.tsx:29](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/FeedObject/Skeleton.tsx#L29)
+[packages/sc-ui/src/components/FeedObject/Skeleton.tsx:29](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FeedObject/Skeleton.tsx#L29)

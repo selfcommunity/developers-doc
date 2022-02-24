@@ -18,7 +18,7 @@ created, deleted or hidden message
 
 #### Defined in
 
-[types/privateMessage.ts:68](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/privateMessage.ts#L68)
+[types/privateMessage.ts:68](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/privateMessage.ts#L68)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[types/privateMessage.ts:69](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/privateMessage.ts#L69)
+[types/privateMessage.ts:69](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/privateMessage.ts#L69)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[types/privateMessage.ts:70](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/privateMessage.ts#L70)
+[types/privateMessage.ts:70](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/privateMessage.ts#L70)
 
 ___
 
@@ -48,4 +48,4 @@ ___
 
 #### Defined in
 
-[types/privateMessage.ts:71](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/types/privateMessage.ts#L71)
+[types/privateMessage.ts:71](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/privateMessage.ts#L71)

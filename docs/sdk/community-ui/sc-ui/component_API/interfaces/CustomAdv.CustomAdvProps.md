@@ -17,7 +17,7 @@ Category ids if the adv must be related to specific categories
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:46](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L46)
+[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:46](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L46)
 
 ___
 
@@ -31,7 +31,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:36](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L36)
+[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:36](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L36)
 
 ___
 
@@ -45,7 +45,7 @@ Id of the feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:30](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L30)
+[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:30](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L30)
 
 ___
 
@@ -57,4 +57,4 @@ Position of the ADV
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:41](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L41)
+[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:41](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L41)

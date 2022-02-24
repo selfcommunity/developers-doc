@@ -29,7 +29,7 @@ SCUserContext (Authentication Context)
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:37](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L37)
+[components/provider/SCUserProvider/index.tsx:37](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L37)
 
 ## Functions
 
@@ -57,7 +57,7 @@ This component keeps current user logged and session; it is exported as we need 
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:48](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L48)
+[components/provider/SCUserProvider/index.tsx:48](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L48)
 
 ___
 
@@ -74,4 +74,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:195](https://github.com/selfcommunity/community-ui/blob/3d68cce/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L195)
+[components/provider/SCUserProvider/index.tsx:195](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L195)
