@@ -48,7 +48,7 @@ The name `SCPrivateMessages` can be used when providing style overrides in the t
 
 #### Defined in
 
-[packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx:86](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx#L86)
+[PrivateMessages/PrivateMessages.tsx:86](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/PrivateMessages/PrivateMessages.tsx#L86)
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/PrivateMessages/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/PrivateMessages/Skeleton.tsx#L4)
+[PrivateMessages/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/PrivateMessages/Skeleton.tsx#L4)

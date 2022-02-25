@@ -25,7 +25,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:35](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L35)
+[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:35](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L35)
 
 ___
 
@@ -39,7 +39,7 @@ User
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:46](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L46)
+[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:46](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L46)
 
 ___
 
@@ -53,7 +53,7 @@ Id of the user
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:40](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L40)
+[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:40](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L40)
 
 ## Methods
 
@@ -76,4 +76,4 @@ onFollow callback
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:53](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L53)
+[packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx:53](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/FollowUserButton/FollowUserButton.tsx#L53)

@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[Category/Category.tsx:54](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L54)
+[Category/Category.tsx:54](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L54)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[Category/Category.tsx:60](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L60)
+[Category/Category.tsx:60](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L60)
 
 ___
 
@@ -47,7 +47,7 @@ Category Object
 
 #### Defined in
 
-[Category/Category.tsx:36](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L36)
+[Category/Category.tsx:36](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L36)
 
 ___
 
@@ -61,7 +61,7 @@ Id of the category for filter the feed
 
 #### Defined in
 
-[Category/Category.tsx:42](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L42)
+[Category/Category.tsx:42](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L42)
 
 ___
 
@@ -75,7 +75,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[Category/Category.tsx:30](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L30)
+[Category/Category.tsx:30](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L30)
 
 ___
 
@@ -89,7 +89,7 @@ Id of the feed object
 
 #### Defined in
 
-[Category/Category.tsx:24](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L24)
+[Category/Category.tsx:24](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L24)
 
 ___
 
@@ -103,4 +103,4 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[Category/Category.tsx:48](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L48)
+[Category/Category.tsx:48](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L48)

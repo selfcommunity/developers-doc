@@ -48,7 +48,7 @@ The name `SCFeedUpdates` can be used when providing style overrides in the theme
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:89](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L89)
+[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:89](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L89)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx:14](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx#L14)
+[packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx:14](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx#L14)

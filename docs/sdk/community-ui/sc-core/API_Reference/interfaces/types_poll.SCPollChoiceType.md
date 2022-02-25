@@ -20,7 +20,7 @@ Added at
 
 #### Defined in
 
-[types/poll.ts:75](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/poll.ts#L75)
+[types/poll.ts:75](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/poll.ts#L75)
 
 ___
 
@@ -32,7 +32,7 @@ Title of the poll
 
 #### Defined in
 
-[types/poll.ts:65](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/poll.ts#L65)
+[types/poll.ts:65](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/poll.ts#L65)
 
 ___
 
@@ -44,7 +44,7 @@ True if the poll is deleted
 
 #### Defined in
 
-[types/poll.ts:80](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/poll.ts#L80)
+[types/poll.ts:80](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/poll.ts#L80)
 
 ___
 
@@ -56,7 +56,7 @@ Id of the poll choice
 
 #### Defined in
 
-[types/poll.ts:60](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/poll.ts#L60)
+[types/poll.ts:60](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/poll.ts#L60)
 
 ___
 
@@ -68,7 +68,7 @@ Order in the list of choices
 
 #### Defined in
 
-[types/poll.ts:70](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/poll.ts#L70)
+[types/poll.ts:70](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/poll.ts#L70)
 
 ___
 
@@ -80,7 +80,7 @@ Number of votes
 
 #### Defined in
 
-[types/poll.ts:85](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/poll.ts#L85)
+[types/poll.ts:85](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/poll.ts#L85)
 
 ___
 
@@ -92,4 +92,4 @@ True if the logged user has already voted the choice
 
 #### Defined in
 
-[types/poll.ts:90](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/poll.ts#L90)
+[types/poll.ts:90](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/poll.ts#L90)

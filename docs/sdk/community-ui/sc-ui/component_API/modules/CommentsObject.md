@@ -49,7 +49,7 @@ The name `SCCommentsObject` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:250](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L250)
+[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:250](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L250)
 
 ___
 
@@ -69,4 +69,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L23)
+[packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L23)

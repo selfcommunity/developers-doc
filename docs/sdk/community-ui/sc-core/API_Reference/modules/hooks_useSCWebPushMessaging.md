@@ -26,4 +26,4 @@ This custom hook is used to to init web push messaging.
 
 #### Defined in
 
-[hooks/useSCWebPushMessaging.ts:20](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/hooks/useSCWebPushMessaging.ts#L20)
+[hooks/useSCWebPushMessaging.ts:20](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/hooks/useSCWebPushMessaging.ts#L20)

@@ -22,7 +22,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/ToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/ToastNotifications/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/ToastNotifications/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/ToastNotifications/Skeleton.tsx#L4)
 
 ___
 
@@ -63,4 +63,4 @@ The name `SCToastNotifications` can be used when providing style overrides in th
 
 #### Defined in
 
-[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:96](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L96)
+[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:81](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L81)

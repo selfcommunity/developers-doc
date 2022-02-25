@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[Category/Category.tsx:63](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Category.tsx#L63)
+[Category/Category.tsx:63](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Category.tsx#L63)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[Category/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-templates/src/components/Category/Skeleton.tsx#L17)
+[Category/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-templates/src/components/Category/Skeleton.tsx#L17)

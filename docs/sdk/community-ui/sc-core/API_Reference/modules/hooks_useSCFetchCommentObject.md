@@ -35,4 +35,4 @@ This custom hooks is used to fetch a comment.
 
 #### Defined in
 
-[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)
+[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)

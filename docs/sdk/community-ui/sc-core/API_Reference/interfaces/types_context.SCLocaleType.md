@@ -19,7 +19,7 @@ Default locale.
 
 #### Defined in
 
-[types/context.ts:62](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/context.ts#L62)
+[types/context.ts:62](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/context.ts#L62)
 
 ___
 
@@ -31,4 +31,4 @@ Overrides default messages.
 
 #### Defined in
 
-[types/context.ts:67](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/context.ts#L67)
+[types/context.ts:67](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/context.ts#L67)

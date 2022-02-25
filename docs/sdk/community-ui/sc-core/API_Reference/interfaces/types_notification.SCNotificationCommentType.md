@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/notification.ts#L134)
+[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L134)
 
 ___
 
@@ -42,7 +42,7 @@ Comment of first/second level
 
 #### Defined in
 
-[types/notification.ts:145](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/notification.ts#L145)
+[types/notification.ts:145](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L145)
 
 ___
 
@@ -58,7 +58,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/notification.ts#L119)
+[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L119)
 
 ___
 
@@ -74,7 +74,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/notification.ts#L124)
+[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L124)
 
 ___
 
@@ -90,4 +90,4 @@ Type Comment or Nested_comment
 
 #### Defined in
 
-[types/notification.ts:150](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-core/src/types/notification.ts#L150)
+[types/notification.ts:150](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L150)

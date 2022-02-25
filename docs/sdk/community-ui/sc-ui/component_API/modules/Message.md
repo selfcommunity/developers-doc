@@ -54,7 +54,7 @@ The name `SCMessage` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:150](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/Message/Message.tsx#L150)
+[packages/sc-ui/src/components/Message/Message.tsx:150](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/Message/Message.tsx#L150)
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/Message/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/Message/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/Message/Skeleton.tsx#L25)

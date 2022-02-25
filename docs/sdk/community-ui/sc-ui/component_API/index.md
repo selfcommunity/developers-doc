@@ -40,7 +40,6 @@ custom_edit_url: null
 - [Notification](modules/Notification)
 - [PeopleSuggestion](modules/PeopleSuggestion)
 - [Platform](modules/Platform)
-- [PrivateMessages](modules/PrivateMessages)
 - [RelatedDiscussion](modules/RelatedDiscussion)
 - [Skeleton](modules/Skeleton)
 - [SnippetNotifications](modules/SnippetNotifications)

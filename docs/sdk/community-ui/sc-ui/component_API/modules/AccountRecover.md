@@ -47,4 +47,4 @@ The name `SCAccountRecover` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:85](https://github.com/selfcommunity/community-ui/blob/80e4c04/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L85)
+[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:85](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L85)
