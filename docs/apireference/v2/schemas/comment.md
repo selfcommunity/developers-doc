@@ -7,7 +7,10 @@ title: Comment
 ```json
 {
   "id": 0,
-  "discussion": 0,
+  "discussion": {
+    "id": 0,
+    "slug": "string"
+  },
   "author": {
     "id": 0,
     "username": "string",
@@ -37,7 +40,7 @@ title: Comment
         "created_at": "2019-08-24T14:15:22Z"
       }
     ],
-    "reputation":111
+    "reputation": 111
   },
   "added_at": "2019-08-24T14:15:22Z",
   "html": "string",
@@ -84,7 +87,7 @@ title: Comment
             "created_at": "2019-08-24T14:15:22Z"
           }
         ],
-        "reputation":111
+        "reputation": 111
       },
       "added_at": "2019-08-24T14:15:22Z",
       "html": "string",
@@ -109,7 +112,7 @@ title: Comment
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|none|
-|discussion|integer¦null|false|none|Id of the [Discussion](../schemas/discussion)|
+|discussion|dictionary|false|none|Id and slug of the [Discussion](../schemas/discussion)|
 |post|integer¦null|false|none|Id of the [Post](../schemas/post)|
 |status|integer¦null|false|none|Id of the [Status](../schemas/status)|
 |author|[User](../schemas/user)|true|read-only|none|
