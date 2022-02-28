@@ -82,7 +82,10 @@ curl -X GET /api/v2/comment/{id}/ \
 ```json
 {
   "id": 0,
-  "discussion": 0,
+  "discussion": {
+    "id": 0,
+    "slug": "string"
+    },    
   "author": {
     "id": 0,
     "username": "string",
