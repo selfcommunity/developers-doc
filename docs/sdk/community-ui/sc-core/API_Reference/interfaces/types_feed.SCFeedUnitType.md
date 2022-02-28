@@ -20,7 +20,7 @@ List of feed activities. This field is returned only for relevance feed
 
 #### Defined in
 
-[types/feed.ts:63](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/feed.ts#L63)
+[types/feed.ts:63](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/feed.ts#L63)
 
 ___
 
@@ -32,7 +32,7 @@ Discussion object
 
 #### Defined in
 
-[types/feed.ts:38](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/feed.ts#L38)
+[types/feed.ts:38](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/feed.ts#L38)
 
 ___
 
@@ -44,7 +44,7 @@ True if this object has the visibility boost
 
 #### Defined in
 
-[types/feed.ts:58](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/feed.ts#L58)
+[types/feed.ts:58](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/feed.ts#L58)
 
 ___
 
@@ -56,7 +56,7 @@ Post object
 
 #### Defined in
 
-[types/feed.ts:43](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/feed.ts#L43)
+[types/feed.ts:43](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/feed.ts#L43)
 
 ___
 
@@ -68,7 +68,7 @@ Id of User that have seen this object
 
 #### Defined in
 
-[types/feed.ts:53](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/feed.ts#L53)
+[types/feed.ts:53](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/feed.ts#L53)
 
 ___
 
@@ -80,7 +80,7 @@ Status object
 
 #### Defined in
 
-[types/feed.ts:48](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/feed.ts#L48)
+[types/feed.ts:48](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/feed.ts#L48)
 
 ___
 
@@ -92,4 +92,4 @@ The type of the object, can be discussion, post or status
 
 #### Defined in
 
-[types/feed.ts:33](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/feed.ts#L33)
+[types/feed.ts:33](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/feed.ts#L33)

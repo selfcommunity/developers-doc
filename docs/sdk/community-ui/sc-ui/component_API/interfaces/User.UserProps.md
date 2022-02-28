@@ -31,7 +31,7 @@ Hides user component
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:54](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/User/User.tsx#L54)
+[packages/sc-ui/src/components/User/User.tsx:54](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/User/User.tsx#L54)
 
 ___
 
@@ -49,7 +49,7 @@ Pick.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:44](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/User/User.tsx#L44)
+[packages/sc-ui/src/components/User/User.tsx:44](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/User/User.tsx#L44)
 
 ___
 
@@ -63,7 +63,7 @@ Props to spread to follow/friendship button
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:65](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/User/User.tsx#L65)
+[packages/sc-ui/src/components/User/User.tsx:65](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/User/User.tsx#L65)
 
 ___
 
@@ -77,7 +77,7 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:39](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/User/User.tsx#L39)
+[packages/sc-ui/src/components/User/User.tsx:39](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/User/User.tsx#L39)
 
 ___
 
@@ -91,7 +91,7 @@ User Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:49](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/User/User.tsx#L49)
+[packages/sc-ui/src/components/User/User.tsx:49](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/User/User.tsx#L49)
 
 ## Methods
 
@@ -115,4 +115,4 @@ Handles actions ignore
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:59](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/User/User.tsx#L59)
+[packages/sc-ui/src/components/User/User.tsx:59](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/User/User.tsx#L59)

@@ -46,4 +46,4 @@ The name `SCChangePictureButton` can be used when providing style overrides in t
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:70](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L70)
+[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:70](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L70)

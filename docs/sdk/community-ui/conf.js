@@ -1,10 +1,13 @@
+import {sessionData} from "./sc-ui/sessionData";
+import {authToken, refreshToken} from "./helpers";
+
 const config = {
-    portal: 'https://fashionista.quentrix.com',
+    portal: sessionData.portal,
     session: {
         type: 'OAuth',
-        clientId: '8HXeelXaQldhQmiSJDMhqNboELvDH402WIQIORFF',
-        //authToken: `<community-token>`,
-        handleRefreshToken: null,
+        clientId: sessionData.user.client_id,
+        authToken: authToken,
+        handleRefreshToken: refreshToken(),
     },
 };
 

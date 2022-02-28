@@ -29,7 +29,7 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:27](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L27)
+[components/provider/SCLocaleProvider/index.tsx:27](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L27)
 
 ## Functions
 
@@ -57,7 +57,7 @@ This component makes the `intl` available down the React tree.
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:38](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L38)
+[components/provider/SCLocaleProvider/index.tsx:38](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L38)
 
 ___
 
@@ -74,7 +74,7 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:96](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L96)
+[components/provider/SCLocaleProvider/index.tsx:96](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L96)
 
 ___
 
@@ -108,4 +108,4 @@ Export hoc to inject the base theme to components
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:83](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L83)
+[components/provider/SCLocaleProvider/index.tsx:83](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L83)

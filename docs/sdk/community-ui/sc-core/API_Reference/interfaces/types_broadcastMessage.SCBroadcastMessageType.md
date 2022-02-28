@@ -20,7 +20,7 @@ The date the BroadcastMessage was added
 
 #### Defined in
 
-[types/broadcastMessage.ts:71](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/broadcastMessage.ts#L71)
+[types/broadcastMessage.ts:71](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L71)
 
 ___
 
@@ -32,7 +32,7 @@ The Banner associated to the Broadcast messages
 
 #### Defined in
 
-[types/broadcastMessage.ts:66](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/broadcastMessage.ts#L66)
+[types/broadcastMessage.ts:66](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L66)
 
 ___
 
@@ -44,7 +44,7 @@ The date the BroadcastMessage was disposed
 
 #### Defined in
 
-[types/broadcastMessage.ts:76](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/broadcastMessage.ts#L76)
+[types/broadcastMessage.ts:76](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L76)
 
 ___
 
@@ -56,7 +56,7 @@ The ID of the category.
 
 #### Defined in
 
-[types/broadcastMessage.ts:61](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/broadcastMessage.ts#L61)
+[types/broadcastMessage.ts:61](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L61)
 
 ___
 
@@ -68,4 +68,4 @@ The date the BroadcastMessage was viewed the first time
 
 #### Defined in
 
-[types/broadcastMessage.ts:81](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/broadcastMessage.ts#L81)
+[types/broadcastMessage.ts:81](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L81)

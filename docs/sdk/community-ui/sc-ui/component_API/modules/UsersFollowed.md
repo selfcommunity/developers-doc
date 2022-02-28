@@ -46,7 +46,7 @@ The name `SCUsersFollowed` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:89](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L89)
+[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:89](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L89)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx#L4)

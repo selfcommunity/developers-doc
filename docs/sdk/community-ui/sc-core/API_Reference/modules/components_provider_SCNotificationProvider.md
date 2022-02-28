@@ -29,7 +29,7 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCNotificationProvider/index.tsx:22](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L22)
+[components/provider/SCNotificationProvider/index.tsx:22](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L22)
 
 ## Functions
 
@@ -57,7 +57,7 @@ This component makes the notification context available down the React tree.
 
 #### Defined in
 
-[components/provider/SCNotificationProvider/index.tsx:33](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L33)
+[components/provider/SCNotificationProvider/index.tsx:33](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L33)
 
 ___
 
@@ -74,4 +74,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCNotificationProvider/index.tsx:44](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L44)
+[components/provider/SCNotificationProvider/index.tsx:44](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L44)

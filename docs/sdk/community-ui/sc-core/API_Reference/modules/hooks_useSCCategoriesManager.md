@@ -37,4 +37,4 @@ Follow these steps:
 
 #### Defined in
 
-[hooks/useSCCategoriesManager.ts:24](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/hooks/useSCCategoriesManager.ts#L24)
+[hooks/useSCCategoriesManager.ts:24](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/hooks/useSCCategoriesManager.ts#L24)

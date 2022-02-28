@@ -15,7 +15,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[types/customAdv.ts:4](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L4)
+[types/customAdv.ts:4](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L4)
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 #### Defined in
 
-[types/customAdv.ts:3](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L3)
+[types/customAdv.ts:3](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L3)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[types/customAdv.ts:2](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L2)
+[types/customAdv.ts:2](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L2)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[types/customAdv.ts:9](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L9)
+[types/customAdv.ts:9](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L9)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[types/customAdv.ts:8](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L8)
+[types/customAdv.ts:8](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L8)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[types/customAdv.ts:5](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L5)
+[types/customAdv.ts:5](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L5)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[types/customAdv.ts:6](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L6)
+[types/customAdv.ts:6](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L6)
 
 ___
 
@@ -85,4 +85,4 @@ ___
 
 #### Defined in
 
-[types/customAdv.ts:7](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/customAdv.ts#L7)
+[types/customAdv.ts:7](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L7)

@@ -17,7 +17,7 @@ Notification types
 
 #### Defined in
 
-[types/notification.ts:50](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L50)
+[types/notification.ts:50](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L50)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:37](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L37)
+[types/notification.ts:37](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L37)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:38](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L38)
+[types/notification.ts:38](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L38)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:41](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L41)
+[types/notification.ts:41](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L41)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:40](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L40)
+[types/notification.ts:40](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L40)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:39](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L39)
+[types/notification.ts:39](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L39)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:18](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L18)
+[types/notification.ts:18](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L18)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:21](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L21)
+[types/notification.ts:21](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L21)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:24](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L24)
+[types/notification.ts:24](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L24)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:25](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L25)
+[types/notification.ts:25](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L25)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:23](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L23)
+[types/notification.ts:23](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L23)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:22](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L22)
+[types/notification.ts:22](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L22)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:20](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L20)
+[types/notification.ts:20](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L20)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:53](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L53)
+[types/notification.ts:53](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L53)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:31](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L31)
+[types/notification.ts:31](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L31)
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:32](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L32)
+[types/notification.ts:32](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L32)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:35](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L35)
+[types/notification.ts:35](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L35)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:34](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L34)
+[types/notification.ts:34](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L34)
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:33](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L33)
+[types/notification.ts:33](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L33)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:30](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L30)
+[types/notification.ts:30](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L30)
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:28](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L28)
+[types/notification.ts:28](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L28)
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:52](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L52)
+[types/notification.ts:52](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L52)
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:44](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L44)
+[types/notification.ts:44](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L44)
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:45](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L45)
+[types/notification.ts:45](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L45)
 
 ___
 
@@ -257,7 +257,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:49](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L49)
+[types/notification.ts:49](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L49)
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:48](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L48)
+[types/notification.ts:48](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L48)
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:47](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L47)
+[types/notification.ts:47](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L47)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:46](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L46)
+[types/notification.ts:46](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L46)
 
 ___
 
@@ -297,7 +297,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:26](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L26)
+[types/notification.ts:26](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L26)
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:19](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L19)
+[types/notification.ts:19](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L19)
 
 ___
 
@@ -317,7 +317,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:29](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L29)
+[types/notification.ts:29](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L29)
 
 ___
 
@@ -327,7 +327,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:51](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L51)
+[types/notification.ts:51](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L51)
 
 ___
 
@@ -337,7 +337,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:36](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L36)
+[types/notification.ts:36](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L36)
 
 ___
 
@@ -347,7 +347,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:42](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L42)
+[types/notification.ts:42](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L42)
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 #### Defined in
 
-[types/notification.ts:43](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L43)
+[types/notification.ts:43](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L43)
 
 ___
 
@@ -367,4 +367,4 @@ ___
 
 #### Defined in
 
-[types/notification.ts:27](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L27)
+[types/notification.ts:27](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L27)

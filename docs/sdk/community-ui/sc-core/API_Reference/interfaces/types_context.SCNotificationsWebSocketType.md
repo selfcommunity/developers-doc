@@ -19,4 +19,4 @@ Disable toast message
 
 #### Defined in
 
-[types/context.ts:403](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/context.ts#L403)
+[types/context.ts:403](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/context.ts#L403)

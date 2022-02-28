@@ -19,7 +19,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:73](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L73)
+[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:73](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L73)
 
 ___
 
@@ -33,7 +33,7 @@ Sets the type card for the component
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:83](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L83)
+[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:83](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L83)
 
 ___
 
@@ -47,4 +47,4 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:78](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L78)
+[packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx:78](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/LoyaltyProgram/LoyaltyProgram.tsx#L78)

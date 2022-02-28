@@ -26,7 +26,7 @@ User accepted the connection request
 
 #### Defined in
 
-[types/notification.ts:213](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L213)
+[types/notification.ts:213](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L213)
 
 ___
 
@@ -42,7 +42,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L134)
+[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L134)
 
 ___
 
@@ -58,7 +58,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L119)
+[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L119)
 
 ___
 
@@ -74,7 +74,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L124)
+[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L124)
 
 ___
 
@@ -90,4 +90,4 @@ Type Connection accept
 
 #### Defined in
 
-[types/notification.ts:208](https://github.com/selfcommunity/community-ui/blob/487fa8c/packages/sc-core/src/types/notification.ts#L208)
+[types/notification.ts:208](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/notification.ts#L208)
