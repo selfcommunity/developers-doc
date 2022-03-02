@@ -8,9 +8,10 @@ title: Main Feed
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./mainFeed.js';
-import App from './mainFeed.js';
+import {MainFeed} from '@selfcommunity/templates';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><MainFeed/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

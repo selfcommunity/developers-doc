@@ -8,9 +8,10 @@ title: Custom Adv
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./customAdv.js';
-import App from './customAdv.js';
+import {CustomAdv} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><CustomAdv/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

@@ -8,9 +8,10 @@ title: Category Header
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./categoryHeader.js';
-import App from './categoryHeader.js';
+import {CategoryHeader} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><CategoryHeader categoryId={10}/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

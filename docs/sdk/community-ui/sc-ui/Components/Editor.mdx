@@ -8,9 +8,10 @@ title: Editor
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./editor.js';
-import App from './editor.js';
+import {Editor} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><Editor/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

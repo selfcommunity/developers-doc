@@ -8,10 +8,11 @@ title: Message Editor
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./messageEditor.js';
-import App from './messageEditor.js';
+import {MessageEditor} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
 <br/>
-<App/>
+<Logged><MessageEditor/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

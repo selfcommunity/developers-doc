@@ -17,7 +17,7 @@ A flag to activate or deactivate this adv
 
 #### Defined in
 
-[types/customAdv.ts:46](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L46)
+[types/customAdv.ts:46](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L46)
 
 ___
 
@@ -29,7 +29,7 @@ The id of the category connected to this adv
 
 #### Defined in
 
-[types/customAdv.ts:61](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L61)
+[types/customAdv.ts:61](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L61)
 
 ___
 
@@ -41,7 +41,7 @@ datetime of creation
 
 #### Defined in
 
-[types/customAdv.ts:51](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L51)
+[types/customAdv.ts:51](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L51)
 
 ___
 
@@ -53,7 +53,7 @@ Html/js embeddable code
 
 #### Defined in
 
-[types/customAdv.ts:41](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L41)
+[types/customAdv.ts:41](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L41)
 
 ___
 
@@ -65,7 +65,7 @@ Unique integer value identifying this adv
 
 #### Defined in
 
-[types/customAdv.ts:16](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L16)
+[types/customAdv.ts:16](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L16)
 
 ___
 
@@ -77,7 +77,7 @@ An image banner for the adv
 
 #### Defined in
 
-[types/customAdv.ts:36](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L36)
+[types/customAdv.ts:36](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L36)
 
 ___
 
@@ -89,7 +89,7 @@ last modify datetime
 
 #### Defined in
 
-[types/customAdv.ts:56](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L56)
+[types/customAdv.ts:56](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L56)
 
 ___
 
@@ -101,7 +101,7 @@ The link/url of the adv
 
 #### Defined in
 
-[types/customAdv.ts:31](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L31)
+[types/customAdv.ts:31](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L31)
 
 ___
 
@@ -113,7 +113,7 @@ A string code representing the display position of the adv
 
 #### Defined in
 
-[types/customAdv.ts:21](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L21)
+[types/customAdv.ts:21](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L21)
 
 ___
 
@@ -125,4 +125,4 @@ The title of the adv
 
 #### Defined in
 
-[types/customAdv.ts:26](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/customAdv.ts#L26)
+[types/customAdv.ts:26](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/customAdv.ts#L26)

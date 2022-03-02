@@ -24,7 +24,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Skeleton/AvatarGroupSkeleton.tsx:28](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Skeleton/AvatarGroupSkeleton.tsx#L28)
+[packages/sc-ui/src/components/Skeleton/AvatarGroupSkeleton.tsx:28](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Skeleton/AvatarGroupSkeleton.tsx#L28)
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Skeleton/GenericSkeleton.tsx:22](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Skeleton/GenericSkeleton.tsx#L22)
+[packages/sc-ui/src/components/Skeleton/GenericSkeleton.tsx:22](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Skeleton/GenericSkeleton.tsx#L22)

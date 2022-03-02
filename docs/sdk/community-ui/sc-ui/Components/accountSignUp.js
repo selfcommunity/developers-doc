@@ -1,12 +1,10 @@
 import React from 'react';
-import config from '../../conf';
-import {SCContextProvider} from '@selfcommunity/core';
-import {AccountSignUp}  from '@selfcommunity/ui';
+import {AccountSignUp} from '@selfcommunity/ui';
 
 
-export default function App () {
+export default function App() {
     return (
-        <SCContextProvider conf={config}><AccountSignUp/></SCContextProvider>
+        <AccountSignUp/>
     );
 }
 

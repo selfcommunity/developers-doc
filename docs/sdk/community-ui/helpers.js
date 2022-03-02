@@ -4,7 +4,7 @@
  * @param data
  * @returns {Promise<Response>}
  */
-import {sessionData} from "./sc-ui/sessionData";
+import {sessionData} from "./sessionData";
 
 function postData(url = '', data = {}) {
     const formBody = Object.keys(data).map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
@@ -36,20 +36,13 @@ export function getOAuthSession() {
         });
 }
 
-export const authToken = {
-        "access_token": "tYp2MsqA1Rwj4dMQCp19yKppnhSEDS",
-        "expires_in": 604800,
-        "token_type": "Bearer",
-        "scope": "configurator editor moderator community_badge contents_boost disable_system_notifications",
-        "refresh_token": "0aJGUkfvDUPrMNgl9Yt2FuLT3mHz8p"
-    };
-
 /**
  * Helper refreshToken
  */
 export function refreshToken() {
+    const stored = JSON.parse(window.localStorage.getItem("token"));
     const data = {
-        'refresh_token': authToken.refresh_token,
+        'refresh_token': stored.refresh_token,
         'client_id': sessionData.user.client_id,
         'grant_type': 'refresh_token',
     };
@@ -65,5 +58,4 @@ export function refreshToken() {
         }).catch((error) => {
             return Promise.reject(error);
         });
-
 }

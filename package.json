@@ -23,17 +23,17 @@
     "@mui/icons-material": "^5.4.2",
     "@mui/material": "^5.4.3",
     "@mui/styles": "^5.4.2",
-    "@selfcommunity/core": "^0.1.0-alpha.17",
-    "@selfcommunity/i18n": "^0.1.0-alpha.17",
-    "@selfcommunity/templates": "^0.0.1-alpha.17",
-    "@selfcommunity/ui": "^0.1.0-alpha.17",
+    "@selfcommunity/core": "^0.1.0-alpha.24",
+    "@selfcommunity/i18n": "^0.1.0-alpha.24",
+    "@selfcommunity/templates": "^0.0.1-alpha.24",
+    "@selfcommunity/ui": "^0.1.0-alpha.24",
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
     "file-loader": "^6.2.0",
     "prism-react-renderer": "^1.2.1",
     "raw-loader": "^4.0.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-intl": "^5.24.6",
     "url-loader": "^4.1.1"
   },
@@ -48,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "axios": "^0.26.0"
   }
 }

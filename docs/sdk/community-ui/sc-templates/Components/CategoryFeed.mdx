@@ -4,13 +4,14 @@ sidebar_position: 1
 title: Category Feed
 ---
 
-> The Category Feed template renders category feed.
+> The Category Feed template renders the category feed.
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./categoryFeed.js';
-import App from './categoryFeed.js';
+import {CategoryFeed} from '@selfcommunity/templates';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><CategoryFeed categoryId={3}/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

@@ -49,4 +49,4 @@ The name `SCAccountSignIn` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:96](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L96)
+[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:96](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L96)

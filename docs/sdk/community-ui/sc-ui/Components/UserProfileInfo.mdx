@@ -8,9 +8,11 @@ title: User Profile Info
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./userProfileInfo.js';
-import App from './userProfileInfo.js';
+import {UserProfileInfo} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><UserProfileInfo userId={18}/></Logged>
+
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

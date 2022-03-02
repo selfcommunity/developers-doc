@@ -31,7 +31,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:57](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Category/Category.tsx#L57)
+[packages/sc-ui/src/components/Category/Category.tsx:57](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Category/Category.tsx#L57)
 
 ___
 
@@ -45,7 +45,7 @@ Category Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:52](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Category/Category.tsx#L52)
+[packages/sc-ui/src/components/Category/Category.tsx:52](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Category/Category.tsx#L52)
 
 ___
 
@@ -63,7 +63,7 @@ Pick.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:47](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Category/Category.tsx#L47)
+[packages/sc-ui/src/components/Category/Category.tsx:47](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Category/Category.tsx#L47)
 
 ___
 
@@ -77,7 +77,7 @@ Props to spread to follow button
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:67](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Category/Category.tsx#L67)
+[packages/sc-ui/src/components/Category/Category.tsx:67](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Category/Category.tsx#L67)
 
 ___
 
@@ -91,7 +91,7 @@ Id of category object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:42](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Category/Category.tsx#L42)
+[packages/sc-ui/src/components/Category/Category.tsx:42](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Category/Category.tsx#L42)
 
 ___
 
@@ -105,4 +105,4 @@ Renders different section for popular categories list
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:62](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/Category/Category.tsx#L62)
+[packages/sc-ui/src/components/Category/Category.tsx:62](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Category/Category.tsx#L62)

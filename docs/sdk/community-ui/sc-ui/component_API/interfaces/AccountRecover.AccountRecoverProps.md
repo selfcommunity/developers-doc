@@ -25,7 +25,7 @@ Default props to submit button Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:53](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L53)
+[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:53](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L53)
 
 ___
 
@@ -39,7 +39,7 @@ Default props to TextField Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:47](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L47)
+[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:47](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L47)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:35](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L35)
+[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:35](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L35)
 
 ## Methods
 
@@ -77,4 +77,4 @@ Callback triggered on success sign in
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:41](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L41)
+[packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx:41](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/AccountRecover/AccountRecover.tsx#L41)

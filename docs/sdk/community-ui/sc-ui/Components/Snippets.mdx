@@ -8,9 +8,10 @@ title: Snippets
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./snippets.js';
-import App from './snippets.js';
+import {Snippets} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><Snippets/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

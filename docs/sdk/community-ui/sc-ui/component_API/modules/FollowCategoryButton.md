@@ -46,4 +46,4 @@ The name `SCFollowCategoryButton` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:74](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L74)
+[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:74](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L74)

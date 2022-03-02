@@ -8,9 +8,10 @@ title: Feed Updates
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./feedUpdates.js';
-import App from './feedUpdates.js';
+import {FeedUpdates} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><FeedUpdates/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

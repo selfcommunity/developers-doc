@@ -17,7 +17,7 @@ Define the various types of banners
 
 #### Defined in
 
-[types/broadcastMessage.ts:5](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L5)
+[types/broadcastMessage.ts:5](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L5)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types/broadcastMessage.ts:6](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L6)
+[types/broadcastMessage.ts:6](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L6)

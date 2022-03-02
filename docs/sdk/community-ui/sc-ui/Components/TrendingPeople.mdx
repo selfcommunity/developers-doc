@@ -8,10 +8,11 @@ title: Trending People
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./trendingPeople.js';
-import App from './trendingPeople.js';
+import {TrendingPeople} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
 <br/>
-<App/>
+<Logged><TrendingPeople/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

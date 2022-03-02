@@ -8,9 +8,10 @@ title: Composer
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./composer.js';
-import App from './composer.js';
+import {Composer} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><Composer/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

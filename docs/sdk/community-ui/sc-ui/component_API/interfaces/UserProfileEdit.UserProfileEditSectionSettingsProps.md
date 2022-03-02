@@ -25,7 +25,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:42](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L42)
+[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:42](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L42)
 
 ___
 
@@ -39,4 +39,4 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:37](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L37)
+[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:37](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L37)

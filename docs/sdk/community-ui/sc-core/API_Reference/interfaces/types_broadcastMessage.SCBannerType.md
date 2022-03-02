@@ -17,7 +17,7 @@ The date the Banner was created
 
 #### Defined in
 
-[types/broadcastMessage.ts:46](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L46)
+[types/broadcastMessage.ts:46](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L46)
 
 ___
 
@@ -29,7 +29,7 @@ The text of the banner
 
 #### Defined in
 
-[types/broadcastMessage.ts:29](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L29)
+[types/broadcastMessage.ts:29](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L29)
 
 ___
 
@@ -42,7 +42,7 @@ This field is used when type_banner is html_banner
 
 #### Defined in
 
-[types/broadcastMessage.ts:19](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L19)
+[types/broadcastMessage.ts:19](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L19)
 
 ___
 
@@ -54,7 +54,7 @@ The image url to insert into the banner
 
 #### Defined in
 
-[types/broadcastMessage.ts:42](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L42)
+[types/broadcastMessage.ts:42](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L42)
 
 ___
 
@@ -66,7 +66,7 @@ The action link of the banner
 
 #### Defined in
 
-[types/broadcastMessage.ts:38](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L38)
+[types/broadcastMessage.ts:38](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L38)
 
 ___
 
@@ -78,7 +78,7 @@ The text of the link associated to the banner
 
 #### Defined in
 
-[types/broadcastMessage.ts:34](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L34)
+[types/broadcastMessage.ts:34](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L34)
 
 ___
 
@@ -90,7 +90,7 @@ If true tell to open the banner in new tab
 
 #### Defined in
 
-[types/broadcastMessage.ts:50](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L50)
+[types/broadcastMessage.ts:50](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L50)
 
 ___
 
@@ -102,7 +102,7 @@ The title of the banner
 
 #### Defined in
 
-[types/broadcastMessage.ts:24](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L24)
+[types/broadcastMessage.ts:24](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L24)
 
 ___
 
@@ -114,4 +114,4 @@ The type of the banner, based on it the behaviour of the render component must b
 
 #### Defined in
 
-[types/broadcastMessage.ts:13](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/broadcastMessage.ts#L13)
+[types/broadcastMessage.ts:13](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/broadcastMessage.ts#L13)

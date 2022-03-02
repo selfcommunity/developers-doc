@@ -52,7 +52,7 @@ The name `SCUserProfileHeader` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:139](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L139)
+[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:139](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L139)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx#L35)
+[packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx#L35)

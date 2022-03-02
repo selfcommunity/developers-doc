@@ -8,9 +8,10 @@ title: User Feed
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./userFeed.js';
-import App from './userFeed.js';
+import {UserFeed} from '@selfcommunity/templates';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><UserFeed userId={1}/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

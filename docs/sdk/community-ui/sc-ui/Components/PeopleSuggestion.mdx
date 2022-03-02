@@ -8,9 +8,10 @@ title: People Suggestion
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./peopleSuggestion.js';
-import App from './peopleSuggestion.js';
+import {PeopleSuggestion} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><PeopleSuggestion/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

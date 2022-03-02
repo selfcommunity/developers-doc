@@ -8,9 +8,11 @@ title: User Profile Header
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./userProfileHeader.js';
-import App from './userProfileHeader.js';
+import {UserProfileHeader} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><UserProfileHeader userId={7}/></Logged>
+
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

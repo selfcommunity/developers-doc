@@ -35,4 +35,4 @@ This custom hook is used to fetch a category object.
 
 #### Defined in
 
-[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)
+[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)

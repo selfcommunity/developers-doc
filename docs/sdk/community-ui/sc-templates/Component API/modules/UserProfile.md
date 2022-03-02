@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:153](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L153)
+[UserProfile/UserProfile.tsx:153](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L153)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[UserProfile/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-templates/src/components/UserProfile/Skeleton.tsx#L17)
+[UserProfile/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-templates/src/components/UserProfile/Skeleton.tsx#L17)

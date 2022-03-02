@@ -8,9 +8,11 @@ title: Category
 
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./category.js';
-import App from './category.js';
+import {Category} from '@selfcommunity/ui';
+import Logged from "../../Logged";
 
-<App/>
+<Logged><Category id={10}/></Logged>
+
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

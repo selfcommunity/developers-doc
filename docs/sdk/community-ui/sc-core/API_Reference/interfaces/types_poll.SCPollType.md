@@ -20,7 +20,7 @@ Added at
 
 #### Defined in
 
-[types/poll.ts:24](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L24)
+[types/poll.ts:24](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L24)
 
 ___
 
@@ -32,7 +32,7 @@ Choice
 
 #### Defined in
 
-[types/poll.ts:49](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L49)
+[types/poll.ts:49](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L49)
 
 ___
 
@@ -44,7 +44,7 @@ Poll is closed or not
 
 #### Defined in
 
-[types/poll.ts:34](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L34)
+[types/poll.ts:34](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L34)
 
 ___
 
@@ -56,7 +56,7 @@ Expiration at
 
 #### Defined in
 
-[types/poll.ts:39](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L39)
+[types/poll.ts:39](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L39)
 
 ___
 
@@ -68,7 +68,7 @@ Expiration at
 
 #### Defined in
 
-[types/poll.ts:44](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L44)
+[types/poll.ts:44](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L44)
 
 ___
 
@@ -80,7 +80,7 @@ Id of the poll
 
 #### Defined in
 
-[types/poll.ts:9](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L9)
+[types/poll.ts:9](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L9)
 
 ___
 
@@ -92,7 +92,7 @@ Modified at
 
 #### Defined in
 
-[types/poll.ts:29](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L29)
+[types/poll.ts:29](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L29)
 
 ___
 
@@ -104,7 +104,7 @@ Poll is multiple choices or not
 
 #### Defined in
 
-[types/poll.ts:19](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L19)
+[types/poll.ts:19](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L19)
 
 ___
 
@@ -116,4 +116,4 @@ Title of the poll
 
 #### Defined in
 
-[types/poll.ts:14](https://github.com/selfcommunity/community-ui/blob/9148e4e/packages/sc-core/src/types/poll.ts#L14)
+[types/poll.ts:14](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/poll.ts#L14)
