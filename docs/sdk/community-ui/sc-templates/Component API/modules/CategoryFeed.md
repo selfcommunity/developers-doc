@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[CategoryFeed/CategoryFeed.tsx:97](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L97)
+[CategoryFeed/CategoryFeed.tsx:97](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-templates/src/components/CategoryFeed/CategoryFeed.tsx#L97)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[CategoryFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-templates/src/components/CategoryFeed/Skeleton.tsx#L13)
+[CategoryFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-templates/src/components/CategoryFeed/Skeleton.tsx#L13)

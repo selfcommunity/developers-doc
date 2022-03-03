@@ -11,7 +11,7 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
@@ -29,7 +29,9 @@ jobs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
@@ -43,6 +45,7 @@ jobs:
         run: |
           git config --global user.email "fede.torre@gmail.com"
           git config --global user.name "gh-actions"
+          yarn --cwd "sdk/community-ui" bootstrap
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then

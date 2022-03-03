@@ -26,7 +26,7 @@ NotificationTypeDeletedFor, NotificationTypeCustomNotification
 
 #### Defined in
 
-[types/notification.ts:108](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/notification.ts#L108)
+[types/notification.ts:108](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/notification.ts#L108)
 
 ___
 
@@ -39,7 +39,7 @@ if it is a discusssion. For some types of notifications it will not be present.
 
 #### Defined in
 
-[types/notification.ts:85](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/notification.ts#L85)
+[types/notification.ts:85](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/notification.ts#L85)
 
 ___
 
@@ -52,7 +52,7 @@ notification not yet seen by the user making the request
 
 #### Defined in
 
-[types/notification.ts:79](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/notification.ts#L79)
+[types/notification.ts:79](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/notification.ts#L79)
 
 ___
 
@@ -65,7 +65,7 @@ if it is a post. For some types of notifications it will not be present.
 
 #### Defined in
 
-[types/notification.ts:91](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/notification.ts#L91)
+[types/notification.ts:91](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/notification.ts#L91)
 
 ___
 
@@ -77,7 +77,7 @@ Serialization id of the macro notification aggregate block
 
 #### Defined in
 
-[types/notification.ts:73](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/notification.ts#L73)
+[types/notification.ts:73](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/notification.ts#L73)
 
 ___
 
@@ -90,4 +90,4 @@ if it is a status. For some types of notifications it will not be present.
 
 #### Defined in
 
-[types/notification.ts:97](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/notification.ts#L97)
+[types/notification.ts:97](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/notification.ts#L97)

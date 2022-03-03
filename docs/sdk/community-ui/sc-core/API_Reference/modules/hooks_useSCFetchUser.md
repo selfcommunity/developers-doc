@@ -35,4 +35,4 @@ This custom hook is used to fetch a user object.
 
 #### Defined in
 
-[hooks/useSCFetchUser.ts:17](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/hooks/useSCFetchUser.ts#L17)
+[hooks/useSCFetchUser.ts:17](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/hooks/useSCFetchUser.ts#L17)

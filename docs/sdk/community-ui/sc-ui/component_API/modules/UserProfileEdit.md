@@ -49,7 +49,7 @@ The name `SCUserProfileEdit` can be used when providing style overrides in the t
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:123](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L123)
+[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:123](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L123)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:111](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L111)
+[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:111](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L111)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:49](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L49)
+[packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx:49](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/UserProfileEdit/Section/Settings.tsx#L49)
 
 ___
 
@@ -103,4 +103,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx#L18)
+[packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/UserProfileEdit/Skeleton.tsx#L18)

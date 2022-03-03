@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:32](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L32)
+[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:32](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L32)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:37](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L37)
+[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:37](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L37)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:42](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L42)
+[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:42](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L42)
 
 ## Methods
 
@@ -77,4 +77,4 @@ On change function.
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:27](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L27)
+[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:27](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L27)

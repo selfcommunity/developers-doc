@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:84](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L84)
+[packages/sc-ui/src/components/Message/Message.tsx:84](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L84)
 
 ___
 
@@ -43,7 +43,7 @@ Pick.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:74](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L74)
+[packages/sc-ui/src/components/Message/Message.tsx:74](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L74)
 
 ___
 
@@ -57,7 +57,7 @@ Id of message object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:69](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L69)
+[packages/sc-ui/src/components/Message/Message.tsx:69](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L69)
 
 ___
 
@@ -71,7 +71,7 @@ Id of the logged user
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:114](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L114)
+[packages/sc-ui/src/components/Message/Message.tsx:114](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L114)
 
 ___
 
@@ -85,7 +85,7 @@ Message Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:79](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L79)
+[packages/sc-ui/src/components/Message/Message.tsx:79](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L79)
 
 ___
 
@@ -99,7 +99,7 @@ The message type. If true, it shows snippet type structure, otherwise it shows t
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:89](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L89)
+[packages/sc-ui/src/components/Message/Message.tsx:89](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L89)
 
 ___
 
@@ -113,7 +113,7 @@ The message status. If true, shows a dot next to message headline.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:94](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L94)
+[packages/sc-ui/src/components/Message/Message.tsx:94](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L94)
 
 ## Methods
 
@@ -131,7 +131,7 @@ Gets mouse hovering status
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:109](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L109)
+[packages/sc-ui/src/components/Message/Message.tsx:109](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L109)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:115](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L115)
+[packages/sc-ui/src/components/Message/Message.tsx:115](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L115)
 
 ___
 
@@ -167,7 +167,7 @@ Pick.onMouseEnter
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:99](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L99)
+[packages/sc-ui/src/components/Message/Message.tsx:99](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L99)
 
 ___
 
@@ -189,4 +189,4 @@ Pick.onMouseLeave
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:104](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Message/Message.tsx#L104)
+[packages/sc-ui/src/components/Message/Message.tsx:104](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Message/Message.tsx#L104)

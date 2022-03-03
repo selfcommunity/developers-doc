@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:299](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Composer/Composer.tsx#L299)
+[packages/sc-ui/src/components/Composer/Composer.tsx:299](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L299)
 
 ## Variables
 
@@ -31,7 +31,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:301](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Composer/Composer.tsx#L301)
+[packages/sc-ui/src/components/Composer/Composer.tsx:301](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L301)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:303](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Composer/Composer.tsx#L303)
+[packages/sc-ui/src/components/Composer/Composer.tsx:303](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L303)
 
 ## Functions
 
@@ -96,7 +96,7 @@ The name `SCComposer` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:383](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Composer/Composer.tsx#L383)
+[packages/sc-ui/src/components/Composer/Composer.tsx:383](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L383)
 
 ___
 
@@ -110,4 +110,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Skeleton.tsx:67](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/Composer/Skeleton.tsx#L67)
+[packages/sc-ui/src/components/Composer/Skeleton.tsx:67](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Skeleton.tsx#L67)

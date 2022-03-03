@@ -19,7 +19,7 @@ Access token.
 
 #### Defined in
 
-[types/context.ts:273](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/context.ts#L273)
+[types/context.ts:273](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L273)
 
 ___
 
@@ -31,7 +31,7 @@ Expire in.
 
 #### Defined in
 
-[types/context.ts:288](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/context.ts#L288)
+[types/context.ts:288](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L288)
 
 ___
 
@@ -43,7 +43,7 @@ Refresh token.
 
 #### Defined in
 
-[types/context.ts:278](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/context.ts#L278)
+[types/context.ts:278](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L278)
 
 ___
 
@@ -55,7 +55,7 @@ Token scopes;
 
 #### Defined in
 
-[types/context.ts:293](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/context.ts#L293)
+[types/context.ts:293](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L293)
 
 ___
 
@@ -67,4 +67,4 @@ Token Type.
 
 #### Defined in
 
-[types/context.ts:283](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/context.ts#L283)
+[types/context.ts:283](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L283)

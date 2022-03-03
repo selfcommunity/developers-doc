@@ -1,0 +1,7 @@
+[submodule "sdk/-b"]
+	path = sdk/-b
+	url = https://github.com/selfcommunity/community-ui.git
+[submodule "sdk/community-ui"]
+	path = sdk/community-ui
+	url = https://github.com/selfcommunity/community-ui.git
+	branch = prerelease

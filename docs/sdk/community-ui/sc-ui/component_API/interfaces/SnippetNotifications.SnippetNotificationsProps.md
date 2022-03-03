@@ -35,7 +35,7 @@ CardProps.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:93](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L93)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:93](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L93)
 
 ___
 
@@ -53,7 +53,7 @@ CardProps.id
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:87](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L87)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:87](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L87)
 
 ___
 
@@ -69,7 +69,7 @@ CardProps.key
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:110](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L110)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:110](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L110)
 
 ___
 
@@ -83,7 +83,7 @@ The max n of results shown
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:105](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L105)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:105](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L105)
 
 ## Methods
 
@@ -105,4 +105,4 @@ Handle custom notification
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:99](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L99)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:99](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L99)

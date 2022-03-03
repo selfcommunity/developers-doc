@@ -30,7 +30,7 @@ Added at
 
 #### Defined in
 
-[types/feed.ts:143](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L143)
+[types/feed.ts:143](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L143)
 
 ___
 
@@ -46,7 +46,7 @@ Tags adderssing
 
 #### Defined in
 
-[types/feed.ts:203](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L203)
+[types/feed.ts:203](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L203)
 
 ___
 
@@ -62,7 +62,7 @@ Author of the contribute
 
 #### Defined in
 
-[types/feed.ts:133](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L133)
+[types/feed.ts:133](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L133)
 
 ___
 
@@ -78,7 +78,7 @@ List of categories.
 
 #### Defined in
 
-[types/feed.ts:118](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L118)
+[types/feed.ts:118](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L118)
 
 ___
 
@@ -94,7 +94,7 @@ True if the object is hidden
 
 #### Defined in
 
-[types/feed.ts:168](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L168)
+[types/feed.ts:168](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L168)
 
 ___
 
@@ -110,7 +110,7 @@ Number of comment
 
 #### Defined in
 
-[types/feed.ts:173](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L173)
+[types/feed.ts:173](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L173)
 
 ___
 
@@ -126,7 +126,7 @@ True if the object is deleted
 
 #### Defined in
 
-[types/feed.ts:163](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L163)
+[types/feed.ts:163](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L163)
 
 ___
 
@@ -142,7 +142,7 @@ Number of flags
 
 #### Defined in
 
-[types/feed.ts:198](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L198)
+[types/feed.ts:198](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L198)
 
 ___
 
@@ -158,7 +158,7 @@ True if the logged user follow this object
 
 #### Defined in
 
-[types/feed.ts:183](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L183)
+[types/feed.ts:183](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L183)
 
 ___
 
@@ -174,7 +174,7 @@ Html
 
 #### Defined in
 
-[types/feed.ts:153](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L153)
+[types/feed.ts:153](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L153)
 
 ___
 
@@ -190,7 +190,7 @@ The ID of the post.
 
 #### Defined in
 
-[types/feed.ts:113](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L113)
+[types/feed.ts:113](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L113)
 
 ___
 
@@ -206,7 +206,7 @@ Last activity at
 
 #### Defined in
 
-[types/feed.ts:138](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L138)
+[types/feed.ts:138](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L138)
 
 ___
 
@@ -222,7 +222,7 @@ Location (contribution geolocation)
 
 #### Defined in
 
-[types/feed.ts:128](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L128)
+[types/feed.ts:128](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L128)
 
 ___
 
@@ -238,7 +238,7 @@ List of medias
 
 #### Defined in
 
-[types/feed.ts:123](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L123)
+[types/feed.ts:123](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L123)
 
 ___
 
@@ -250,7 +250,7 @@ Poll
 
 #### Defined in
 
-[types/feed.ts:229](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L229)
+[types/feed.ts:229](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L229)
 
 ___
 
@@ -266,7 +266,7 @@ Number of internal share
 
 #### Defined in
 
-[types/feed.ts:178](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L178)
+[types/feed.ts:178](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L178)
 
 ___
 
@@ -282,7 +282,7 @@ Slug
 
 #### Defined in
 
-[types/feed.ts:148](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L148)
+[types/feed.ts:148](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L148)
 
 ___
 
@@ -298,7 +298,7 @@ Summary
 
 #### Defined in
 
-[types/feed.ts:158](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L158)
+[types/feed.ts:158](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L158)
 
 ___
 
@@ -314,7 +314,7 @@ Suspended notification
 
 #### Defined in
 
-[types/feed.ts:213](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L213)
+[types/feed.ts:213](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L213)
 
 ___
 
@@ -326,7 +326,7 @@ Title of the discussion
 
 #### Defined in
 
-[types/feed.ts:224](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L224)
+[types/feed.ts:224](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L224)
 
 ___
 
@@ -342,7 +342,7 @@ Type: discussion, post, status
 
 #### Defined in
 
-[types/feed.ts:208](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L208)
+[types/feed.ts:208](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L208)
 
 ___
 
@@ -358,7 +358,7 @@ Number of votes
 
 #### Defined in
 
-[types/feed.ts:188](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L188)
+[types/feed.ts:188](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L188)
 
 ___
 
@@ -374,4 +374,4 @@ True if the logged user has already voted this object
 
 #### Defined in
 
-[types/feed.ts:193](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-core/src/types/feed.ts#L193)
+[types/feed.ts:193](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/feed.ts#L193)

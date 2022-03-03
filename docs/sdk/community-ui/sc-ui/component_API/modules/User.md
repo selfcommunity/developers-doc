@@ -48,7 +48,7 @@ The name `SCUser` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:97](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/User/User.tsx#L97)
+[packages/sc-ui/src/components/User/User.tsx:97](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/User/User.tsx#L97)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/Skeleton.tsx:27](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/User/Skeleton.tsx#L27)
+[packages/sc-ui/src/components/User/Skeleton.tsx:27](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/User/Skeleton.tsx#L27)

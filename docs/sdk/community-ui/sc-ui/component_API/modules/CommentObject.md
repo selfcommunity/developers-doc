@@ -59,7 +59,7 @@ The name `SCCommentObject` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:264](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L264)
+[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:264](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L264)
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/cab08cf/packages/sc-ui/src/components/CommentObject/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/CommentObject/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/CommentObject/Skeleton.tsx#L25)

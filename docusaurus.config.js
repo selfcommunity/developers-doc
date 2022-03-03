@@ -44,8 +44,8 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-core',
-        entryPoints: globs.sync(['../../WebstormProjects/community-ui/packages/sc-core/src/components/provider/*/index.tsx', '../../WebstormProjects/community-ui/packages/sc-core/src/hooks/*.ts', '../../WebstormProjects/community-ui/packages/sc-core/src/types/*.ts']),
-        tsconfig: '../../WebstormProjects/community-ui/packages/sc-core/tsconfig.json',
+        entryPoints: globs.sync(['./sdk/community-ui/packages/sc-core/src/components/provider/*/index.tsx', './sdk/community-ui/packages/sc-core/src/hooks/*.ts', './sdk/community-ui/packages/sc-core/src/types/*.ts']),
+        tsconfig: './sdk/community-ui/packages/sc-core/tsconfig.json',
         out: 'sdk/community-ui/sc-core/API_Reference',
         readme: 'none',
         excludeExternals: true,
@@ -64,8 +64,8 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-ui',
-        entryPoints: glob.sync('../../WebstormProjects/community-ui/packages/sc-ui/src/components/*/index.tsx'),
-        tsconfig: '../../WebstormProjects/community-ui/packages/sc-ui/tsconfig.json',
+        entryPoints: glob.sync('./sdk/community-ui/packages/sc-ui/src/components/*/index.tsx'),
+        tsconfig: './sdk/community-ui/packages/sc-ui/tsconfig.json',
         out: 'sdk/community-ui/sc-ui/component_API',
         readme: 'none',
         excludeExternals: true,
@@ -84,8 +84,8 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'sc-templates',
-        entryPoints:  glob.sync('../../WebstormProjects/community-ui/packages/sc-templates/src/components/*/index.tsx'),
-        tsconfig: '../../WebstormProjects/community-ui/packages/sc-templates/tsconfig.json',
+        entryPoints:  glob.sync('./sdk/community-ui/packages/sc-templates/src/components/*/index.tsx'),
+        tsconfig: './sdk/community-ui/packages/sc-templates/tsconfig.json',
         out: 'sdk/community-ui/sc-templates/Component API',
         readme: 'none',
         excludeExternals: true,
