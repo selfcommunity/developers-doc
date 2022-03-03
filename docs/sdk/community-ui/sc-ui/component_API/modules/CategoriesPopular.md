@@ -32,7 +32,7 @@ The name `SCCategoriesPopular` can be used when providing style overrides in the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps) |
+| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps.md) |
 
 #### Returns
 

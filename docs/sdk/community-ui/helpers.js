@@ -40,22 +40,24 @@ export function getOAuthSession() {
  * Helper refreshToken
  */
 export function refreshToken() {
-    const stored = JSON.parse(window.localStorage.getItem("token"));
-    const data = {
-        'refresh_token': stored.refresh_token,
-        'client_id': sessionData.user.client_id,
-        'grant_type': 'refresh_token',
-    };
-    return postData(`${sessionData.portal}/oauth/token/`, data)
-        .then(res => res.json())
-        .then(res => {
-            return {
-                'accessToken': res.access_token,
-                'refreshToken': res.refresh_token,
-                'tokenType': res.token_type,
-                'expiresIn': res.expires_in
-            };
-        }).catch((error) => {
-            return Promise.reject(error);
-        });
+    if (typeof window !== 'undefined') {
+        const stored = JSON.parse(window.localStorage.getItem("token"));
+        const data = {
+            'refresh_token': stored.refresh_token,
+            'client_id': sessionData.user.client_id,
+            'grant_type': 'refresh_token',
+        };
+        return postData(`${sessionData.portal}/oauth/token/`, data)
+            .then(res => res.json())
+            .then(res => {
+                return {
+                    'accessToken': res.access_token,
+                    'refreshToken': res.refresh_token,
+                    'tokenType': res.token_type,
+                    'expiresIn': res.expires_in
+                };
+            }).catch((error) => {
+                return Promise.reject(error);
+            });
+    }
 }

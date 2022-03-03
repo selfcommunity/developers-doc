@@ -5,7 +5,7 @@ sidebar_label: "SCPreferencesContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCPreferencesContextType
+[types/context](../modules/types_context.md).SCPreferencesContextType
 
 Interface SCPreferencesType
 

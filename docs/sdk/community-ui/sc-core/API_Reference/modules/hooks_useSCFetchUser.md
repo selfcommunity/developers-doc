@@ -22,7 +22,7 @@ This custom hook is used to fetch a user object.
 | :------ | :------ |
 | `object` | `Object` |
 | `object.id?` | `number` |
-| `object.user?` | [`SCUserType`](../interfaces/types_user.SCUserType) |
+| `object.user?` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
 
 #### Returns
 
@@ -30,8 +30,8 @@ This custom hook is used to fetch a user object.
 
 | Name | Type |
 | :------ | :------ |
-| `scUser` | [`SCUserType`](../interfaces/types_user.SCUserType) |
-| `setSCUser` | `Dispatch`<`SetStateAction`<[`SCUserType`](../interfaces/types_user.SCUserType)\>\> |
+| `scUser` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
+| `setSCUser` | `Dispatch`<`SetStateAction`<[`SCUserType`](../interfaces/types_user.SCUserType.md)\>\> |
 
 #### Defined in
 

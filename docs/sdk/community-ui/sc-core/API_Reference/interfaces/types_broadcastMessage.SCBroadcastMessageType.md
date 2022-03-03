@@ -5,7 +5,7 @@ sidebar_label: "SCBroadcastMessageType"
 custom_edit_url: null
 ---
 
-[types/broadcastMessage](../modules/types_broadcastMessage).SCBroadcastMessageType
+[types/broadcastMessage](../modules/types_broadcastMessage.md).SCBroadcastMessageType
 
 Interface SCBroadcastMessageType.
 Broadcast Message object
@@ -26,7 +26,7 @@ ___
 
 ### banner
 
-• **banner**: [`SCBannerType`](types_broadcastMessage.SCBannerType)
+• **banner**: [`SCBannerType`](types_broadcastMessage.SCBannerType.md)
 
 The Banner associated to the Broadcast messages
 

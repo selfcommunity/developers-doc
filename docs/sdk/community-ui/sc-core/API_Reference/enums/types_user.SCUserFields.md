@@ -5,7 +5,7 @@ sidebar_label: "SCUserFields"
 custom_edit_url: null
 ---
 
-[types/user](../modules/types_user).SCUserFields
+[types/user](../modules/types_user.md).SCUserFields
 
 User Fields
 

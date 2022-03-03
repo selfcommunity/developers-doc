@@ -5,14 +5,14 @@ sidebar_label: "SCFeedPostType"
 custom_edit_url: null
 ---
 
-[types/feed](../modules/types_feed).SCFeedPostType
+[types/feed](../modules/types_feed.md).SCFeedPostType
 
 Interface SCFeedPostType.
 Post Schema.
 
 ## Hierarchy
 
-- [`SCFeedObjectType`](types_feed.SCFeedObjectType)
+- [`SCFeedObjectType`](types_feed.SCFeedObjectType.md)
 
   ↳ **`SCFeedPostType`**
 
@@ -26,7 +26,7 @@ Added at
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[added_at](types_feed.SCFeedObjectType#added_at)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[added_at](types_feed.SCFeedObjectType.md#added_at)
 
 #### Defined in
 
@@ -36,13 +36,13 @@ ___
 
 ### addressing
 
-• **addressing**: [`SCTagType`](types_tag.SCTagType)[]
+• **addressing**: [`SCTagType`](types_tag.SCTagType.md)[]
 
 Tags adderssing
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[addressing](types_feed.SCFeedObjectType#addressing)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[addressing](types_feed.SCFeedObjectType.md#addressing)
 
 #### Defined in
 
@@ -52,13 +52,13 @@ ___
 
 ### author
 
-• `Optional` **author**: [`SCUserType`](types_user.SCUserType)
+• `Optional` **author**: [`SCUserType`](types_user.SCUserType.md)
 
 Author of the contribute
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[author](types_feed.SCFeedObjectType#author)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[author](types_feed.SCFeedObjectType.md#author)
 
 #### Defined in
 
@@ -68,13 +68,13 @@ ___
 
 ### categories
 
-• `Optional` **categories**: [`SCCategoryType`](types_category.SCCategoryType)[]
+• `Optional` **categories**: [`SCCategoryType`](types_category.SCCategoryType.md)[]
 
 List of categories.
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[categories](types_feed.SCFeedObjectType#categories)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[categories](types_feed.SCFeedObjectType.md#categories)
 
 #### Defined in
 
@@ -90,7 +90,7 @@ True if the object is hidden
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[collapsed](types_feed.SCFeedObjectType#collapsed)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[collapsed](types_feed.SCFeedObjectType.md#collapsed)
 
 #### Defined in
 
@@ -106,7 +106,7 @@ Number of comment
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[comment_count](types_feed.SCFeedObjectType#comment_count)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[comment_count](types_feed.SCFeedObjectType.md#comment_count)
 
 #### Defined in
 
@@ -122,7 +122,7 @@ True if the object is deleted
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[deleted](types_feed.SCFeedObjectType#deleted)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[deleted](types_feed.SCFeedObjectType.md#deleted)
 
 #### Defined in
 
@@ -138,7 +138,7 @@ Number of flags
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[flag_count](types_feed.SCFeedObjectType#flag_count)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[flag_count](types_feed.SCFeedObjectType.md#flag_count)
 
 #### Defined in
 
@@ -154,7 +154,7 @@ True if the logged user follow this object
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[followed](types_feed.SCFeedObjectType#followed)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[followed](types_feed.SCFeedObjectType.md#followed)
 
 #### Defined in
 
@@ -170,7 +170,7 @@ Html
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[html](types_feed.SCFeedObjectType#html)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[html](types_feed.SCFeedObjectType.md#html)
 
 #### Defined in
 
@@ -186,7 +186,7 @@ The ID of the post.
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[id](types_feed.SCFeedObjectType#id)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[id](types_feed.SCFeedObjectType.md#id)
 
 #### Defined in
 
@@ -202,7 +202,7 @@ Last activity at
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[last_activity_at](types_feed.SCFeedObjectType#last_activity_at)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[last_activity_at](types_feed.SCFeedObjectType.md#last_activity_at)
 
 #### Defined in
 
@@ -212,13 +212,13 @@ ___
 
 ### location
 
-• `Optional` **location**: [`SCContributionLocation`](types_location.SCContributionLocation)
+• `Optional` **location**: [`SCContributionLocation`](types_location.SCContributionLocation.md)
 
 Location (contribution geolocation)
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[location](types_feed.SCFeedObjectType#location)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[location](types_feed.SCFeedObjectType.md#location)
 
 #### Defined in
 
@@ -228,13 +228,13 @@ ___
 
 ### medias
 
-• `Optional` **medias**: [`SCMediaType`](types_media.SCMediaType)[]
+• `Optional` **medias**: [`SCMediaType`](types_media.SCMediaType.md)[]
 
 List of medias
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[medias](types_feed.SCFeedObjectType#medias)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[medias](types_feed.SCFeedObjectType.md#medias)
 
 #### Defined in
 
@@ -244,7 +244,7 @@ ___
 
 ### poll
 
-• `Optional` **poll**: [`SCPollType`](types_poll.SCPollType)
+• `Optional` **poll**: [`SCPollType`](types_poll.SCPollType.md)
 
 Poll
 
@@ -262,7 +262,7 @@ Number of internal share
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[share_count](types_feed.SCFeedObjectType#share_count)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[share_count](types_feed.SCFeedObjectType.md#share_count)
 
 #### Defined in
 
@@ -278,7 +278,7 @@ Slug
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[slug](types_feed.SCFeedObjectType#slug)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[slug](types_feed.SCFeedObjectType.md#slug)
 
 #### Defined in
 
@@ -294,7 +294,7 @@ Summary
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[summary](types_feed.SCFeedObjectType#summary)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[summary](types_feed.SCFeedObjectType.md#summary)
 
 #### Defined in
 
@@ -310,7 +310,7 @@ Suspended notification
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[suspended](types_feed.SCFeedObjectType#suspended)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[suspended](types_feed.SCFeedObjectType.md#suspended)
 
 #### Defined in
 
@@ -320,13 +320,13 @@ ___
 
 ### type
 
-• **type**: [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType)
+• **type**: [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType.md)
 
 Type: discussion, post, status
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[type](types_feed.SCFeedObjectType#type)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[type](types_feed.SCFeedObjectType.md#type)
 
 #### Defined in
 
@@ -342,7 +342,7 @@ Number of votes
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[vote_count](types_feed.SCFeedObjectType#vote_count)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[vote_count](types_feed.SCFeedObjectType.md#vote_count)
 
 #### Defined in
 
@@ -358,7 +358,7 @@ True if the logged user has already voted this object
 
 #### Inherited from
 
-[SCFeedObjectType](types_feed.SCFeedObjectType).[voted](types_feed.SCFeedObjectType#voted)
+[SCFeedObjectType](types_feed.SCFeedObjectType.md).[voted](types_feed.SCFeedObjectType.md#voted)
 
 #### Defined in
 

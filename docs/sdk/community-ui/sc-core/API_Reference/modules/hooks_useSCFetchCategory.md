@@ -21,7 +21,7 @@ This custom hook is used to fetch a category object.
 | Name | Type |
 | :------ | :------ |
 | `object` | `Object` |
-| `object.category?` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType) |
+| `object.category?` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md) |
 | `object.id?` | `number` |
 
 #### Returns
@@ -30,8 +30,8 @@ This custom hook is used to fetch a category object.
 
 | Name | Type |
 | :------ | :------ |
-| `scCategory` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType) |
-| `setSCCategory` | `Dispatch`<`SetStateAction`<[`SCCategoryType`](../interfaces/types_category.SCCategoryType)\>\> |
+| `scCategory` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md) |
+| `setSCCategory` | `Dispatch`<`SetStateAction`<[`SCCategoryType`](../interfaces/types_category.SCCategoryType.md)\>\> |
 
 #### Defined in
 

@@ -5,7 +5,7 @@ sidebar_label: "MainFeedProps"
 custom_edit_url: null
 ---
 
-[MainFeed](../modules/MainFeed).MainFeedProps
+[MainFeed](../modules/MainFeed.md).MainFeedProps
 
 ## Properties
 

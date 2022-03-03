@@ -5,7 +5,7 @@ sidebar_label: "EditorProps"
 custom_edit_url: null
 ---
 
-[Editor](../modules/Editor).EditorProps
+[Editor](../modules/Editor.md).EditorProps
 
 ## Properties
 

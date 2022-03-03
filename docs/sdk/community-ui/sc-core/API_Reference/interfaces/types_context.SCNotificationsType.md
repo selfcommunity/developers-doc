@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationsType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCNotificationsType
+[types/context](../modules/types_context.md).SCNotificationsType
 
 Interface SCNotificationsType
 
@@ -13,7 +13,7 @@ Interface SCNotificationsType
 
 ### webPushMessaging
 
-• `Optional` **webPushMessaging**: [`SCNotificationsWebPushMessagingType`](types_context.SCNotificationsWebPushMessagingType)
+• `Optional` **webPushMessaging**: [`SCNotificationsWebPushMessagingType`](types_context.SCNotificationsWebPushMessagingType.md)
 
 Web push messaging notification
 
@@ -25,7 +25,7 @@ ___
 
 ### webSocket
 
-• `Optional` **webSocket**: [`SCNotificationsWebSocketType`](types_context.SCNotificationsWebSocketType)
+• `Optional` **webSocket**: [`SCNotificationsWebSocketType`](types_context.SCNotificationsWebSocketType.md)
 
 Web socket notification
 

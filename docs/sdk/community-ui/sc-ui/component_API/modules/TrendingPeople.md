@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [TrendingPeopleProps](../interfaces/TrendingPeople.TrendingPeopleProps)
+- [TrendingPeopleProps](../interfaces/TrendingPeople.TrendingPeopleProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCTrendingPeople` can be used when providing style overrides in the th
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`TrendingPeopleProps`](../interfaces/TrendingPeople.TrendingPeopleProps) |
+| `props` | [`TrendingPeopleProps`](../interfaces/TrendingPeople.TrendingPeopleProps.md) |
 
 #### Returns
 

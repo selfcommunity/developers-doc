@@ -8,13 +8,13 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCCommentType](../interfaces/types_comment.SCCommentType)
+- [SCCommentType](../interfaces/types_comment.SCCommentType.md)
 
 ## Variables
 
 ### SCCommentTypologyType
 
-• **SCCommentTypologyType**: ``"comment"``
+• `Const` **SCCommentTypologyType**: ``"comment"``
 
 Typology Comment
 

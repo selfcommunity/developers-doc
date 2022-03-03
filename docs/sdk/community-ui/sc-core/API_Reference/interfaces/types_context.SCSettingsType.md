@@ -5,7 +5,7 @@ sidebar_label: "SCSettingsType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCSettingsType
+[types/context](../modules/types_context.md).SCSettingsType
 
 Interface SCSettingsType
 
@@ -29,7 +29,7 @@ ___
 
 ### locale
 
-• `Optional` **locale**: [`SCLocaleType`](types_context.SCLocaleType)
+• `Optional` **locale**: [`SCLocaleType`](types_context.SCLocaleType.md)
 
 i18n. Locale: it, en, etc...
 
@@ -41,7 +41,7 @@ ___
 
 ### notifications
 
-• `Optional` **notifications**: [`SCNotificationsType`](types_context.SCNotificationsType)
+• `Optional` **notifications**: [`SCNotificationsType`](types_context.SCNotificationsType.md)
 
 Object conf of notification.
 
@@ -65,7 +65,7 @@ ___
 
 ### router
 
-• `Optional` **router**: [`SCRoutingType`](types_context.SCRoutingType)
+• `Optional` **router**: [`SCRoutingType`](types_context.SCRoutingType.md)
 
 Object conf of router.
 
@@ -77,7 +77,7 @@ ___
 
 ### session
 
-• **session**: [`SCSessionType`](types_context.SCSessionType)
+• **session**: [`SCSessionType`](types_context.SCSessionType.md)
 
 Object conf of session.
 

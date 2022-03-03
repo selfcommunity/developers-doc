@@ -5,7 +5,7 @@ sidebar_label: "CustomAdvProps"
 custom_edit_url: null
 ---
 
-[CustomAdv](../modules/CustomAdv).CustomAdvProps
+[CustomAdv](../modules/CustomAdv.md).CustomAdvProps
 
 ## Properties
 

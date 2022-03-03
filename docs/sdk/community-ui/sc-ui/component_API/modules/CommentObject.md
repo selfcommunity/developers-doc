@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CommentObjectProps](../interfaces/CommentObject.CommentObjectProps)
+- [CommentObjectProps](../interfaces/CommentObject.CommentObjectProps.md)
 
 ## Functions
 
@@ -51,7 +51,7 @@ The name `SCCommentObject` can be used when providing style overrides in the the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CommentObjectProps`](../interfaces/CommentObject.CommentObjectProps) |
+| `props` | [`CommentObjectProps`](../interfaces/CommentObject.CommentObjectProps.md) |
 
 #### Returns
 

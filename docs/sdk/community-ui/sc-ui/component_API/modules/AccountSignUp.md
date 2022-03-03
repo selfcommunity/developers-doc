@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [AccountSignUpProps](../interfaces/AccountSignUp.AccountSignUpProps)
+- [AccountSignUpProps](../interfaces/AccountSignUp.AccountSignUpProps.md)
 
 ## Functions
 
@@ -41,7 +41,7 @@ The name `SCAccountSignUp` can be used when providing style overrides in the the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`AccountSignUpProps`](../interfaces/AccountSignUp.AccountSignUpProps) |
+| `props` | [`AccountSignUpProps`](../interfaces/AccountSignUp.AccountSignUpProps.md) |
 
 #### Returns
 

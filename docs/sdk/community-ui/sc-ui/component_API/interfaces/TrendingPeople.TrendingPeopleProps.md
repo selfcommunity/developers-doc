@@ -5,7 +5,7 @@ sidebar_label: "TrendingPeopleProps"
 custom_edit_url: null
 ---
 
-[TrendingPeople](../modules/TrendingPeople).TrendingPeopleProps
+[TrendingPeople](../modules/TrendingPeople.md).TrendingPeopleProps
 
 ## Indexable
 
@@ -17,7 +17,7 @@ Other props
 
 ### UserProps
 
-• `Optional` **UserProps**: [`UserProps`](User.UserProps)
+• `Optional` **UserProps**: [`UserProps`](User.UserProps.md)
 
 Props to spread to single user object
 

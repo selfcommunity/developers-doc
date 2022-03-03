@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [FeedObjectDetailProps](../interfaces/FeedObjectDetail.FeedObjectDetailProps)
+- [FeedObjectDetailProps](../interfaces/FeedObjectDetail.FeedObjectDetailProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedObjectDetailProps`](../interfaces/FeedObjectDetail.FeedObjectDetailProps) |
+| `props` | [`FeedObjectDetailProps`](../interfaces/FeedObjectDetail.FeedObjectDetailProps.md) |
 
 #### Returns
 

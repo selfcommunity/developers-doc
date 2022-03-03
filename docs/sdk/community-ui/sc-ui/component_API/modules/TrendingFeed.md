@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [TrendingFeedProps](../interfaces/TrendingFeed.TrendingFeedProps)
+- [TrendingFeedProps](../interfaces/TrendingFeed.TrendingFeedProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCTrendingFeed` can be used when providing style overrides in the them
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`TrendingFeedProps`](../interfaces/TrendingFeed.TrendingFeedProps) |
+| `props` | [`TrendingFeedProps`](../interfaces/TrendingFeed.TrendingFeedProps.md) |
 
 #### Returns
 

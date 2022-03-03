@@ -5,14 +5,14 @@ sidebar_label: "SCNotificationConnectionAcceptType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationConnectionAcceptType
+[types/notification](../modules/types_notification.md).SCNotificationConnectionAcceptType
 
 Interface SCNotificationConnectionAcceptType.
 Connection Accept Notification Schema.
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationConnectionAcceptType`**
 
@@ -20,7 +20,7 @@ Connection Accept Notification Schema.
 
 ### accept\_user
 
-• **accept\_user**: [`SCUserType`](types_user.SCUserType)
+• **accept\_user**: [`SCUserType`](types_user.SCUserType.md)
 
 User accepted the connection request
 
@@ -38,7 +38,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -54,7 +54,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -70,7 +70,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -80,13 +80,13 @@ ___
 
 ### type
 
-• **type**: [`CONNECTION_ACCEPT`](../enums/types_notification.SCNotificationTypologyType#connection_accept)
+• **type**: [`CONNECTION_ACCEPT`](../enums/types_notification.SCNotificationTypologyType.md#connection_accept)
 
 Type Connection accept
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 

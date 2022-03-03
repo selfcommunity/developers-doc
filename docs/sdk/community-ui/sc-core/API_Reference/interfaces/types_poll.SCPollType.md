@@ -5,7 +5,7 @@ sidebar_label: "SCPollType"
 custom_edit_url: null
 ---
 
-[types/poll](../modules/types_poll).SCPollType
+[types/poll](../modules/types_poll.md).SCPollType
 
 Interface SCPoll.
 Poll Schema.
@@ -26,7 +26,7 @@ ___
 
 ### choices
 
-• **choices**: [`SCPollChoiceType`](types_poll.SCPollChoiceType)[]
+• **choices**: [`SCPollChoiceType`](types_poll.SCPollChoiceType.md)[]
 
 Choice
 

@@ -5,7 +5,7 @@ sidebar_label: "SCFollowedManagerType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCFollowedManagerType
+[types/context](../modules/types_context.md).SCFollowedManagerType
 
 ## Properties
 
@@ -59,7 +59,7 @@ Handle user follow/unfollow user
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`SCUserType`](types_user.SCUserType) |
+| `user` | [`SCUserType`](types_user.SCUserType.md) |
 
 #### Returns
 
@@ -81,7 +81,7 @@ Handle check if a user follow a user, caching data
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`SCUserType`](types_user.SCUserType) |
+| `user` | [`SCUserType`](types_user.SCUserType.md) |
 
 #### Returns
 
@@ -103,7 +103,7 @@ List of current users in loading state
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`SCUserType`](types_user.SCUserType) |
+| `user` | [`SCUserType`](types_user.SCUserType.md) |
 
 #### Returns
 

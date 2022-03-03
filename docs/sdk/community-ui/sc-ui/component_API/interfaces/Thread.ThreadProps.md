@@ -5,7 +5,7 @@ sidebar_label: "ThreadProps"
 custom_edit_url: null
 ---
 
-[Thread](../modules/Thread).ThreadProps
+[Thread](../modules/Thread.md).ThreadProps
 
 ## Indexable
 

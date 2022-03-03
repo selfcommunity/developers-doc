@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCCategoriesManager
 
-▸ **useSCCategoriesManager**(`user?`): { `categories`: `any`[] = data; `emptyCache`: `undefined` ; `follow`: `undefined` ; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `categories`: `any`[] = data; `emptyCache`: () => `void` ; `follow`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType)) => `Promise`<`any`\> ; `isFollowed`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
+▸ **useSCCategoriesManager**(`user?`): { `categories`: `any`[] = data; `emptyCache`: `undefined` ; `follow`: `undefined` ; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `categories`: `any`[] = data; `emptyCache`: () => `void` ; `follow`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md)) => `Promise`<`any`\> ; `isFollowed`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
 
 :::info
 This custom hook is used to manage the categories followed.
@@ -29,11 +29,11 @@ Follow these steps:
 
 | Name | Type |
 | :------ | :------ |
-| `user?` | [`SCUserType`](../interfaces/types_user.SCUserType) |
+| `user?` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
 
 #### Returns
 
-{ `categories`: `any`[] = data; `emptyCache`: `undefined` ; `follow`: `undefined` ; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `categories`: `any`[] = data; `emptyCache`: () => `void` ; `follow`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType)) => `Promise`<`any`\> ; `isFollowed`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
+{ `categories`: `any`[] = data; `emptyCache`: `undefined` ; `follow`: `undefined` ; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `categories`: `any`[] = data; `emptyCache`: () => `void` ; `follow`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md)) => `Promise`<`any`\> ; `isFollowed`: (`category`: [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
 
 #### Defined in
 

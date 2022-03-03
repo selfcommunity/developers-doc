@@ -21,7 +21,7 @@ This custom hooks is used to fetch a comment.
 | Name | Type |
 | :------ | :------ |
 | `object` | `Object` |
-| `object.commentObject?` | [`SCCommentType`](../interfaces/types_comment.SCCommentType) |
+| `object.commentObject?` | [`SCCommentType`](../interfaces/types_comment.SCCommentType.md) |
 | `object.id?` | `number` |
 
 #### Returns
@@ -30,8 +30,8 @@ This custom hooks is used to fetch a comment.
 
 | Name | Type |
 | :------ | :------ |
-| `obj` | [`SCCommentType`](../interfaces/types_comment.SCCommentType) |
-| `setObj` | `Dispatch`<`SetStateAction`<[`SCCommentType`](../interfaces/types_comment.SCCommentType)\>\> |
+| `obj` | [`SCCommentType`](../interfaces/types_comment.SCCommentType.md) |
+| `setObj` | `Dispatch`<`SetStateAction`<[`SCCommentType`](../interfaces/types_comment.SCCommentType.md)\>\> |
 
 #### Defined in
 

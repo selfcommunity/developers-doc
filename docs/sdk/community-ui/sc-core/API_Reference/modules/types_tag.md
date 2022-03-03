@@ -8,4 +8,4 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCTagType](../interfaces/types_tag.SCTagType)
+- [SCTagType](../interfaces/types_tag.SCTagType.md)

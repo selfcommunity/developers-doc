@@ -5,14 +5,14 @@ sidebar_label: "SCNotificationIncubatorType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationIncubatorType
+[types/notification](../modules/types_notification.md).SCNotificationIncubatorType
 
 Interface SCNotificationIncubatorType.
 The incubator proposed by the user has been approved
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationIncubatorType`**
 
@@ -26,7 +26,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -36,7 +36,7 @@ ___
 
 ### incubator
 
-• **incubator**: [`SCIncubatorType`](types_incubator.SCIncubatorType)
+• **incubator**: [`SCIncubatorType`](types_incubator.SCIncubatorType.md)
 
 Incubator
 
@@ -54,7 +54,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -70,7 +70,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -80,13 +80,13 @@ ___
 
 ### type
 
-• **type**: [`INCUBATOR_APPROVED`](../enums/types_notification.SCNotificationTypologyType#incubator_approved)
+• **type**: [`INCUBATOR_APPROVED`](../enums/types_notification.SCNotificationTypologyType.md#incubator_approved)
 
 Type Incubator Approved
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 

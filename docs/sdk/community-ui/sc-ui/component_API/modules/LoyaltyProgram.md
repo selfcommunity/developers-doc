@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [LoyaltyProgramProps](../interfaces/LoyaltyProgram.LoyaltyProgramProps)
+- [LoyaltyProgramProps](../interfaces/LoyaltyProgram.LoyaltyProgramProps.md)
 
 ## Functions
 
@@ -43,7 +43,7 @@ The name `SCLoyaltyProgram` can be used when providing style overrides in the th
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`LoyaltyProgramProps`](../interfaces/LoyaltyProgram.LoyaltyProgramProps) |
+| `props` | [`LoyaltyProgramProps`](../interfaces/LoyaltyProgram.LoyaltyProgramProps.md) |
 
 #### Returns
 

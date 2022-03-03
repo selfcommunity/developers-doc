@@ -5,7 +5,7 @@ sidebar_label: "ChangePictureProps"
 custom_edit_url: null
 ---
 
-[ChangePicture](../modules/ChangePicture).ChangePictureProps
+[ChangePicture](../modules/ChangePicture.md).ChangePictureProps
 
 ## Indexable
 

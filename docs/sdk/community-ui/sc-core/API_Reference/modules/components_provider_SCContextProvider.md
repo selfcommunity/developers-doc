@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCContext
 
-• **SCContext**: `Context`<[`SCContextType`](../interfaces/types_context.SCContextType)\>
+• `Const` **SCContext**: `Context`<[`SCContextType`](../interfaces/types_context.SCContextType.md)\>
 
 Creates Global Context
 
@@ -42,7 +42,7 @@ This component imports all providers
 
 | Name | Type |
 | :------ | :------ |
-| `object` | [`SCContextProviderType`](../interfaces/types_context.SCContextProviderType) |
+| `object` | [`SCContextProviderType`](../interfaces/types_context.SCContextProviderType.md) |
 
 #### Returns
 
@@ -60,14 +60,14 @@ ___
 
 ### useSCContext
 
-▸ **useSCContext**(): [`SCContextType`](../interfaces/types_context.SCContextType)
+▸ **useSCContext**(): [`SCContextType`](../interfaces/types_context.SCContextType.md)
 
 Let's only export the `useSCContext` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCContextType`](../interfaces/types_context.SCContextType)
+[`SCContextType`](../interfaces/types_context.SCContextType.md)
 
 #### Defined in
 

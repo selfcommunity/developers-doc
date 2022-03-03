@@ -31,7 +31,7 @@ The name `SCCategoriesFollowed` can be used when providing style overrides in th
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps) |
+| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps.md) |
 
 #### Returns
 

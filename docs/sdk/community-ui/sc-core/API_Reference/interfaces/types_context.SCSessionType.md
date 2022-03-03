@@ -5,7 +5,7 @@ sidebar_label: "SCSessionType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCSessionType
+[types/context](../modules/types_context.md).SCSessionType
 
 Interface SCSessionType
 
@@ -13,7 +13,7 @@ Interface SCSessionType
 
 ### authToken
 
-• `Optional` **authToken**: [`SCAuthTokenType`](types_context.SCAuthTokenType)
+• `Optional` **authToken**: [`SCAuthTokenType`](types_context.SCAuthTokenType.md)
 
 Access Token.
 
@@ -49,7 +49,7 @@ Session types: OAuth, JWT, Cookies.
 
 ### handleRefreshToken
 
-▸ `Optional` **handleRefreshToken**(`currentSession`): `Promise`<[`SCAuthTokenType`](types_context.SCAuthTokenType)\>
+▸ `Optional` **handleRefreshToken**(`currentSession`): `Promise`<[`SCAuthTokenType`](types_context.SCAuthTokenType.md)\>
 
 Callback to refresh the token.
 
@@ -61,7 +61,7 @@ Callback to refresh the token.
 
 #### Returns
 
-`Promise`<[`SCAuthTokenType`](types_context.SCAuthTokenType)\>
+`Promise`<[`SCAuthTokenType`](types_context.SCAuthTokenType.md)\>
 
 #### Defined in
 

@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationTypologyType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationTypologyType
+[types/notification](../modules/types_notification.md).SCNotificationTypologyType
 
 Notification types
 

@@ -27,7 +27,7 @@ custom_edit_url: null
 
 ### MAIN\_VIEW
 
-• **MAIN\_VIEW**: ``"main"``
+• `Const` **MAIN\_VIEW**: ``"main"``
 
 #### Defined in
 
@@ -37,7 +37,7 @@ ___
 
 ### POLL\_VIEW
 
-• **POLL\_VIEW**: ``"poll"``
+• `Const` **POLL\_VIEW**: ``"poll"``
 
 #### Defined in
 

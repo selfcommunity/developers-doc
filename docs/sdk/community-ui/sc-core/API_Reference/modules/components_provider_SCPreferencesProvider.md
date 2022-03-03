@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCPreferencesContext
 
-• **SCPreferencesContext**: `Context`<[`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType)\>
+• `Const` **SCPreferencesContext**: `Context`<[`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType.md)\>
 
 Creates Preferences/Features Context
 
@@ -63,14 +63,14 @@ ___
 
 ### useSCPreferences
 
-▸ **useSCPreferences**(): [`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType)
+▸ **useSCPreferences**(): [`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType.md)
 
 Let's only export the `useSCPreferences` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType)
+[`SCPreferencesContextType`](../interfaces/types_context.SCPreferencesContextType.md)
 
 #### Defined in
 

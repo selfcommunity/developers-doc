@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SnippetNotificationsProps](../interfaces/SnippetNotifications.SnippetNotificationsProps)
+- [SnippetNotificationsProps](../interfaces/SnippetNotifications.SnippetNotificationsProps.md)
 
 ## Functions
 
@@ -42,7 +42,7 @@ The name `SCSnippetNotifications` can be used when providing style overrides in 
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`SnippetNotificationsProps`](../interfaces/SnippetNotifications.SnippetNotificationsProps) |
+| `props` | [`SnippetNotificationsProps`](../interfaces/SnippetNotifications.SnippetNotificationsProps.md) |
 
 #### Returns
 

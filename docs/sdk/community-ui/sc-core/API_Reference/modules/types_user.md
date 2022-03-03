@@ -8,10 +8,10 @@ custom_edit_url: null
 
 ## Enumerations
 
-- [SCUserFields](../enums/types_user.SCUserFields)
+- [SCUserFields](../enums/types_user.SCUserFields.md)
 
 ## Interfaces
 
-- [SCUserBlockedSettingsType](../interfaces/types_user.SCUserBlockedSettingsType)
-- [SCUserSettingsType](../interfaces/types_user.SCUserSettingsType)
-- [SCUserType](../interfaces/types_user.SCUserType)
+- [SCUserBlockedSettingsType](../interfaces/types_user.SCUserBlockedSettingsType.md)
+- [SCUserSettingsType](../interfaces/types_user.SCUserSettingsType.md)
+- [SCUserType](../interfaces/types_user.SCUserType.md)

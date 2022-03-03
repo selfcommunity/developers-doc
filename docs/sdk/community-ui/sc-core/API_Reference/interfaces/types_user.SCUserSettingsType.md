@@ -5,7 +5,7 @@ sidebar_label: "SCUserSettingsType"
 custom_edit_url: null
 ---
 
-[types/user](../modules/types_user).SCUserSettingsType
+[types/user](../modules/types_user.md).SCUserSettingsType
 
 User Settings
 

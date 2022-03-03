@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationType
+[types/notification](../modules/types_notification.md).SCNotificationType
 
 Interface SCNotificationType.
 Notification Schema.
@@ -14,37 +14,37 @@ Notification Schema.
 
 - **`SCNotificationType`**
 
-  ↳ [`SCNotificationCommentType`](types_notification.SCNotificationCommentType)
+  ↳ [`SCNotificationCommentType`](types_notification.SCNotificationCommentType.md)
 
-  ↳ [`SCNotificationMentionType`](types_notification.SCNotificationMentionType)
+  ↳ [`SCNotificationMentionType`](types_notification.SCNotificationMentionType.md)
 
-  ↳ [`SCNotificationConnectionRequestType`](types_notification.SCNotificationConnectionRequestType)
+  ↳ [`SCNotificationConnectionRequestType`](types_notification.SCNotificationConnectionRequestType.md)
 
-  ↳ [`SCNotificationConnectionAcceptType`](types_notification.SCNotificationConnectionAcceptType)
+  ↳ [`SCNotificationConnectionAcceptType`](types_notification.SCNotificationConnectionAcceptType.md)
 
-  ↳ [`SCNotificationPrivateMessageType`](types_notification.SCNotificationPrivateMessageType)
+  ↳ [`SCNotificationPrivateMessageType`](types_notification.SCNotificationPrivateMessageType.md)
 
-  ↳ [`SCNotificationFollowType`](types_notification.SCNotificationFollowType)
+  ↳ [`SCNotificationFollowType`](types_notification.SCNotificationFollowType.md)
 
-  ↳ [`SCNotificationVoteUpType`](types_notification.SCNotificationVoteUpType)
+  ↳ [`SCNotificationVoteUpType`](types_notification.SCNotificationVoteUpType.md)
 
-  ↳ [`SCNotificationBlockedUserType`](types_notification.SCNotificationBlockedUserType)
+  ↳ [`SCNotificationBlockedUserType`](types_notification.SCNotificationBlockedUserType.md)
 
-  ↳ [`SCNotificationUnBlockedUserType`](types_notification.SCNotificationUnBlockedUserType)
+  ↳ [`SCNotificationUnBlockedUserType`](types_notification.SCNotificationUnBlockedUserType.md)
 
-  ↳ [`SCNotificationKindlyNoticeType`](types_notification.SCNotificationKindlyNoticeType)
+  ↳ [`SCNotificationKindlyNoticeType`](types_notification.SCNotificationKindlyNoticeType.md)
 
-  ↳ [`SCNotificationCollapsedForType`](types_notification.SCNotificationCollapsedForType)
+  ↳ [`SCNotificationCollapsedForType`](types_notification.SCNotificationCollapsedForType.md)
 
-  ↳ [`SCNotificationDeletedForType`](types_notification.SCNotificationDeletedForType)
+  ↳ [`SCNotificationDeletedForType`](types_notification.SCNotificationDeletedForType.md)
 
-  ↳ [`SCNotificationUnDeletedForType`](types_notification.SCNotificationUnDeletedForType)
+  ↳ [`SCNotificationUnDeletedForType`](types_notification.SCNotificationUnDeletedForType.md)
 
-  ↳ [`SCNotificationUserFollowType`](types_notification.SCNotificationUserFollowType)
+  ↳ [`SCNotificationUserFollowType`](types_notification.SCNotificationUserFollowType.md)
 
-  ↳ [`SCNotificationIncubatorType`](types_notification.SCNotificationIncubatorType)
+  ↳ [`SCNotificationIncubatorType`](types_notification.SCNotificationIncubatorType.md)
 
-  ↳ [`SCNotificationCustomNotificationType`](types_notification.SCNotificationCustomNotificationType)
+  ↳ [`SCNotificationCustomNotificationType`](types_notification.SCNotificationCustomNotificationType.md)
 
 ## Properties
 
@@ -86,7 +86,7 @@ ___
 
 ### type
 
-• **type**: [`SCNotificationTypologyType`](../enums/types_notification.SCNotificationTypologyType)
+• **type**: [`SCNotificationTypologyType`](../enums/types_notification.SCNotificationTypologyType.md)
 
 Type of the notification
 

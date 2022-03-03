@@ -5,7 +5,7 @@ sidebar_label: "CommentObjectProps"
 custom_edit_url: null
 ---
 
-[CommentObject](../modules/CommentObject).CommentObjectProps
+[CommentObject](../modules/CommentObject.md).CommentObjectProps
 
 ## Indexable
 

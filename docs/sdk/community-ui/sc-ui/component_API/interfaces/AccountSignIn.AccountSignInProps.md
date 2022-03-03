@@ -5,7 +5,7 @@ sidebar_label: "AccountSignInProps"
 custom_edit_url: null
 ---
 
-[AccountSignIn](../modules/AccountSignIn).AccountSignInProps
+[AccountSignIn](../modules/AccountSignIn.md).AccountSignInProps
 
 ## Indexable
 

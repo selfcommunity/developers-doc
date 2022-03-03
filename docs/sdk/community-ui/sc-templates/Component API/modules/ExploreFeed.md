@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [ExploreFeedProps](../interfaces/ExploreFeed.ExploreFeedProps)
+- [ExploreFeedProps](../interfaces/ExploreFeed.ExploreFeedProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`ExploreFeedProps`](../interfaces/ExploreFeed.ExploreFeedProps) |
+| `props` | [`ExploreFeedProps`](../interfaces/ExploreFeed.ExploreFeedProps.md) |
 
 #### Returns
 

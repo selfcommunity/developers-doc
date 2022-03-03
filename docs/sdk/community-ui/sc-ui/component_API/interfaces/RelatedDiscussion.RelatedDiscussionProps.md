@@ -5,7 +5,7 @@ sidebar_label: "RelatedDiscussionProps"
 custom_edit_url: null
 ---
 
-[RelatedDiscussion](../modules/RelatedDiscussion).RelatedDiscussionProps
+[RelatedDiscussion](../modules/RelatedDiscussion.md).RelatedDiscussionProps
 
 ## Indexable
 
@@ -17,7 +17,7 @@ Other props
 
 ### FeedObjectProps
 
-• `Optional` **FeedObjectProps**: [`FeedObjectProps`](FeedObject.FeedObjectProps)
+• `Optional` **FeedObjectProps**: [`FeedObjectProps`](FeedObject.FeedObjectProps.md)
 
 Props to spread to single feed object
 

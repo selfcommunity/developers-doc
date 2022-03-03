@@ -5,7 +5,7 @@ sidebar_label: "SCBroadcastMessageBannerType"
 custom_edit_url: null
 ---
 
-[types/broadcastMessage](../modules/types_broadcastMessage).SCBroadcastMessageBannerType
+[types/broadcastMessage](../modules/types_broadcastMessage.md).SCBroadcastMessageBannerType
 
 Define the various types of banners
 

@@ -5,7 +5,7 @@ sidebar_label: "SCEmbedType"
 custom_edit_url: null
 ---
 
-[types/embed](../modules/types_embed).SCEmbedType
+[types/embed](../modules/types_embed.md).SCEmbedType
 
 Interface SCEmbedType.
 Embed Schema.

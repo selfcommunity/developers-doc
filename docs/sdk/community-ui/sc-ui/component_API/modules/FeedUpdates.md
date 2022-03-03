@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [FeedUpdatesProps](../interfaces/FeedUpdates.FeedUpdatesProps)
+- [FeedUpdatesProps](../interfaces/FeedUpdates.FeedUpdatesProps.md)
 
 ## Functions
 
@@ -40,7 +40,7 @@ The name `SCFeedUpdates` can be used when providing style overrides in the theme
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedUpdatesProps`](../interfaces/FeedUpdates.FeedUpdatesProps) |
+| `props` | [`FeedUpdatesProps`](../interfaces/FeedUpdates.FeedUpdatesProps.md) |
 
 #### Returns
 

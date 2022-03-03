@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [FeedObjectProps](../interfaces/FeedObject.FeedObjectProps)
+- [FeedObjectProps](../interfaces/FeedObject.FeedObjectProps.md)
 
 ## Functions
 
@@ -49,7 +49,7 @@ The name `SCFeedObject` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedObjectProps`](../interfaces/FeedObject.FeedObjectProps) |
+| `props` | [`FeedObjectProps`](../interfaces/FeedObject.FeedObjectProps.md) |
 
 #### Returns
 

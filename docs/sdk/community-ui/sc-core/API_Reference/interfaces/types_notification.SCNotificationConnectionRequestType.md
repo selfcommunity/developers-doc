@@ -5,14 +5,14 @@ sidebar_label: "SCNotificationConnectionRequestType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationConnectionRequestType
+[types/notification](../modules/types_notification.md).SCNotificationConnectionRequestType
 
 Interface SCNotificationConnectionRequestType.
 Connection Request Notification Schema.
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationConnectionRequestType`**
 
@@ -26,7 +26,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -42,7 +42,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -52,7 +52,7 @@ ___
 
 ### request\_user
 
-• **request\_user**: [`SCUserType`](types_user.SCUserType)
+• **request\_user**: [`SCUserType`](types_user.SCUserType.md)
 
 User request the connection
 
@@ -70,7 +70,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -80,13 +80,13 @@ ___
 
 ### type
 
-• **type**: [`CONNECTION_REQUEST`](../enums/types_notification.SCNotificationTypologyType#connection_request)
+• **type**: [`CONNECTION_REQUEST`](../enums/types_notification.SCNotificationTypologyType.md#connection_request)
 
 Type Connection request
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 

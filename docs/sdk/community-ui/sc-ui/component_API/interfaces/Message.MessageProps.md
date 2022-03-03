@@ -5,7 +5,7 @@ sidebar_label: "MessageProps"
 custom_edit_url: null
 ---
 
-[Message](../modules/Message).MessageProps
+[Message](../modules/Message.md).MessageProps
 
 ## Hierarchy
 

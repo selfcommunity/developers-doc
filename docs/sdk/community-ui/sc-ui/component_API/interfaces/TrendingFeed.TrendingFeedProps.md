@@ -5,7 +5,7 @@ sidebar_label: "TrendingFeedProps"
 custom_edit_url: null
 ---
 
-[TrendingFeed](../modules/TrendingFeed).TrendingFeedProps
+[TrendingFeed](../modules/TrendingFeed.md).TrendingFeedProps
 
 ## Indexable
 

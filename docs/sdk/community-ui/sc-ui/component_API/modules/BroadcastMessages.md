@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [BroadcastMessagesProps](../interfaces/BroadcastMessages.BroadcastMessagesProps)
+- [BroadcastMessagesProps](../interfaces/BroadcastMessages.BroadcastMessagesProps.md)
 
 ## Functions
 
@@ -35,7 +35,7 @@ The name `SCBroadcastMessages` can be used when providing style overrides in the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`BroadcastMessagesProps`](../interfaces/BroadcastMessages.BroadcastMessagesProps) |
+| `props` | [`BroadcastMessagesProps`](../interfaces/BroadcastMessages.BroadcastMessagesProps.md) |
 
 #### Returns
 

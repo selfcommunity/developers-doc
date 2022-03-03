@@ -10,12 +10,12 @@ custom_edit_url: null
 
 ## Modules
 
-- [Category](modules/Category)
-- [CategoryFeed](modules/CategoryFeed)
-- [ExploreFeed](modules/ExploreFeed)
-- [FeedObjectDetail](modules/FeedObjectDetail)
-- [MainFeed](modules/MainFeed)
-- [NotificationFeed](modules/NotificationFeed)
-- [PrivateMessages](modules/PrivateMessages)
-- [UserFeed](modules/UserFeed)
-- [UserProfile](modules/UserProfile)
+- [Category](modules/Category.md)
+- [CategoryFeed](modules/CategoryFeed.md)
+- [ExploreFeed](modules/ExploreFeed.md)
+- [FeedObjectDetail](modules/FeedObjectDetail.md)
+- [MainFeed](modules/MainFeed.md)
+- [NotificationFeed](modules/NotificationFeed.md)
+- [PrivateMessages](modules/PrivateMessages.md)
+- [UserFeed](modules/UserFeed.md)
+- [UserProfile](modules/UserProfile.md)

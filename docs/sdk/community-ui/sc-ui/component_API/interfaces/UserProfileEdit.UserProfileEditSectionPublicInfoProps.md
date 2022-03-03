@@ -5,7 +5,7 @@ sidebar_label: "UserProfileEditSectionPublicInfoProps"
 custom_edit_url: null
 ---
 
-[UserProfileEdit](../modules/UserProfileEdit).UserProfileEditSectionPublicInfoProps
+[UserProfileEdit](../modules/UserProfileEdit.md).UserProfileEditSectionPublicInfoProps
 
 ## Indexable
 

@@ -5,13 +5,13 @@ sidebar_label: "UsersFollowedProps"
 custom_edit_url: null
 ---
 
-[UsersFollowed](../modules/UsersFollowed).UsersFollowedProps
+[UsersFollowed](../modules/UsersFollowed.md).UsersFollowedProps
 
 ## Properties
 
 ### UserProps
 
-• `Optional` **UserProps**: [`UserProps`](User.UserProps)
+• `Optional` **UserProps**: [`UserProps`](User.UserProps.md)
 
 Props to spread to single user object
 

@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [ChangePictureProps](../interfaces/ChangePicture.ChangePictureProps)
+- [ChangePictureProps](../interfaces/ChangePicture.ChangePictureProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCChangePictureButton` can be used when providing style overrides in t
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`ChangePictureProps`](../interfaces/ChangePicture.ChangePictureProps) |
+| `props` | [`ChangePictureProps`](../interfaces/ChangePicture.ChangePictureProps.md) |
 
 #### Returns
 

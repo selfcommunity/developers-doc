@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UserFollowersProps](../interfaces/UserFollowers.UserFollowersProps)
+- [UserFollowersProps](../interfaces/UserFollowers.UserFollowersProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCUserFollowers` can be used when providing style overrides in the the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserFollowersProps`](../interfaces/UserFollowers.UserFollowersProps) |
+| `props` | [`UserFollowersProps`](../interfaces/UserFollowers.UserFollowersProps.md) |
 
 #### Returns
 

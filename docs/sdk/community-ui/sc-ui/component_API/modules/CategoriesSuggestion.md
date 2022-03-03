@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CategoriesListProps](../interfaces/CategoriesSuggestion.CategoriesListProps)
+- [CategoriesListProps](../interfaces/CategoriesSuggestion.CategoriesListProps.md)
 
 ## Functions
 
@@ -35,7 +35,7 @@ The name `SCCategoriesSuggestion` can be used when providing style overrides in 
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps) |
+| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps.md) |
 
 #### Returns
 

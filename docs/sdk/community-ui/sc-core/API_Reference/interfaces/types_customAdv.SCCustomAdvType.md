@@ -5,7 +5,7 @@ sidebar_label: "SCCustomAdvType"
 custom_edit_url: null
 ---
 
-[types/customAdv](../modules/types_customAdv).SCCustomAdvType
+[types/customAdv](../modules/types_customAdv.md).SCCustomAdvType
 
 ## Properties
 
@@ -107,7 +107,7 @@ ___
 
 ### position
 
-• **position**: [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition)
+• **position**: [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition.md)
 
 A string code representing the display position of the adv
 

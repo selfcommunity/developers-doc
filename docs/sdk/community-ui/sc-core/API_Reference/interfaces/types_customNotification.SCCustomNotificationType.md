@@ -5,7 +5,7 @@ sidebar_label: "SCCustomNotificationType"
 custom_edit_url: null
 ---
 
-[types/customNotification](../modules/types_customNotification).SCCustomNotificationType
+[types/customNotification](../modules/types_customNotification.md).SCCustomNotificationType
 
 Interface SCCustomNotificationType.
 Custom Notification Schema.
@@ -26,7 +26,7 @@ ___
 
 ### embed
 
-• `Optional` **embed**: [`SCEmbedType`](types_embed.SCEmbedType)
+• `Optional` **embed**: [`SCEmbedType`](types_embed.SCEmbedType.md)
 
 Embed object if exist
 

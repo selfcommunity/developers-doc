@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCLocaleContext
 
-• **SCLocaleContext**: `Context`<[`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType)\>
+• `Const` **SCLocaleContext**: `Context`<[`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType.md)\>
 
 Creates Global Context
 
@@ -63,14 +63,14 @@ ___
 
 ### useSCLocale
 
-▸ **useSCLocale**(): [`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType)
+▸ **useSCLocale**(): [`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType.md)
 
 Let's only export the `useSCLocale` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType)
+[`SCLocaleContextType`](../interfaces/types_context.SCLocaleContextType.md)
 
 #### Defined in
 
@@ -80,7 +80,7 @@ ___
 
 ### withSCLocale
 
-▸ `Const` **withSCLocale**(`Component`): (`props`: `any`) => `Element`
+▸ **withSCLocale**(`Component`): (`props`: `any`) => `Element`
 
 Export hoc to inject the base theme to components
 

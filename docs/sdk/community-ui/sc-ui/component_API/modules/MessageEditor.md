@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [MessageEditorProps](../interfaces/MessageEditor.MessageEditorProps)
+- [MessageEditorProps](../interfaces/MessageEditor.MessageEditorProps.md)
 
 ## Functions
 
@@ -39,7 +39,7 @@ The name `SCMessageEditor` can be used when providing style overrides in the the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`MessageEditorProps`](../interfaces/MessageEditor.MessageEditorProps) |
+| `props` | [`MessageEditorProps`](../interfaces/MessageEditor.MessageEditorProps.md) |
 
 #### Returns
 

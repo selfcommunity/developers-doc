@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [MessageProps](../interfaces/Message.MessageProps)
+- [MessageProps](../interfaces/Message.MessageProps.md)
 
 ## Functions
 
@@ -46,7 +46,7 @@ The name `SCMessage` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`MessageProps`](../interfaces/Message.MessageProps) |
+| `props` | [`MessageProps`](../interfaces/Message.MessageProps.md) |
 
 #### Returns
 

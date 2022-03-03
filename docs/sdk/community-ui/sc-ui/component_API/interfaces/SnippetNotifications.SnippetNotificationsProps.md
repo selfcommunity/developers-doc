@@ -5,7 +5,7 @@ sidebar_label: "SnippetNotificationsProps"
 custom_edit_url: null
 ---
 
-[SnippetNotifications](../modules/SnippetNotifications).SnippetNotificationsProps
+[SnippetNotifications](../modules/SnippetNotifications.md).SnippetNotificationsProps
 
 ## Hierarchy
 

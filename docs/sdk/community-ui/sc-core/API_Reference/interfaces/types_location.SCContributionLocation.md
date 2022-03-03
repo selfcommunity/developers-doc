@@ -5,7 +5,7 @@ sidebar_label: "SCContributionLocation"
 custom_edit_url: null
 ---
 
-[types/location](../modules/types_location).SCContributionLocation
+[types/location](../modules/types_location.md).SCContributionLocation
 
 Interface SCContributionLocation.
 Location Schema.

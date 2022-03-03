@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationsWebSocketType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCNotificationsWebSocketType
+[types/context](../modules/types_context.md).SCNotificationsWebSocketType
 
 Interface SCNotificationsWebSocketType
 

@@ -5,7 +5,7 @@ sidebar_label: "CategoryHeaderProps"
 custom_edit_url: null
 ---
 
-[CategoryHeader](../modules/CategoryHeader).CategoryHeaderProps
+[CategoryHeader](../modules/CategoryHeader.md).CategoryHeaderProps
 
 ## Indexable
 
@@ -17,7 +17,7 @@ Any other properties
 
 ### FollowCategoryButtonProps
 
-• `Optional` **FollowCategoryButtonProps**: [`FollowCategoryButtonProps`](FollowCategoryButton.FollowCategoryButtonProps)
+• `Optional` **FollowCategoryButtonProps**: [`FollowCategoryButtonProps`](FollowCategoryButton.FollowCategoryButtonProps.md)
 
 Props to spread category button followed
 

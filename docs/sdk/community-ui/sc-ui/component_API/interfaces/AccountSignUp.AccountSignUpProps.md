@@ -5,7 +5,7 @@ sidebar_label: "AccountSignUpProps"
 custom_edit_url: null
 ---
 
-[AccountSignUp](../modules/AccountSignUp).AccountSignUpProps
+[AccountSignUp](../modules/AccountSignUp.md).AccountSignUpProps
 
 ## Indexable
 

@@ -5,7 +5,7 @@ sidebar_label: "SCAlertMessagesContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCAlertMessagesContextType
+[types/context](../modules/types_context.md).SCAlertMessagesContextType
 
 Interface SCAlertMessagesContextType
 

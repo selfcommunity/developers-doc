@@ -5,7 +5,7 @@ sidebar_label: "SCUserType"
 custom_edit_url: null
 ---
 
-[types/user](../modules/types_user).SCUserType
+[types/user](../modules/types_user.md).SCUserType
 
 ## Properties
 
@@ -359,7 +359,7 @@ ___
 
 ### tags
 
-• **tags**: [`SCTagType`](types_tag.SCTagType)[]
+• **tags**: [`SCTagType`](types_tag.SCTagType.md)[]
 
 User's tag list. List of Tag.
 

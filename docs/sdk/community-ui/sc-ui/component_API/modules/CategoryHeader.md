@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CategoryHeaderProps](../interfaces/CategoryHeader.CategoryHeaderProps)
+- [CategoryHeaderProps](../interfaces/CategoryHeader.CategoryHeaderProps.md)
 
 ## Functions
 
@@ -36,7 +36,7 @@ The name `SCCategoryHeader` can be used when providing style overrides in the th
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoryHeaderProps`](../interfaces/CategoryHeader.CategoryHeaderProps) |
+| `props` | [`CategoryHeaderProps`](../interfaces/CategoryHeader.CategoryHeaderProps.md) |
 
 #### Returns
 

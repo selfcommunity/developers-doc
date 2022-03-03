@@ -5,7 +5,7 @@ sidebar_label: "SnippetsProps"
 custom_edit_url: null
 ---
 
-[Snippets](../modules/Snippets).SnippetsProps
+[Snippets](../modules/Snippets.md).SnippetsProps
 
 ## Indexable
 

@@ -8,4 +8,4 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCEmbedType](../interfaces/types_embed.SCEmbedType)
+- [SCEmbedType](../interfaces/types_embed.SCEmbedType.md)

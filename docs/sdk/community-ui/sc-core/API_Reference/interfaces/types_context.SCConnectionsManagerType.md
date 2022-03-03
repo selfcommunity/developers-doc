@@ -5,7 +5,7 @@ sidebar_label: "SCConnectionsManagerType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCConnectionsManagerType
+[types/context](../modules/types_context.md).SCConnectionsManagerType
 
 ## Properties
 
@@ -43,7 +43,7 @@ Handle accept connection
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`SCUserType`](types_user.SCUserType) |
+| `user` | [`SCUserType`](types_user.SCUserType.md) |
 
 #### Returns
 
@@ -81,7 +81,7 @@ List of current users in loading state
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`SCUserType`](types_user.SCUserType) |
+| `user` | [`SCUserType`](types_user.SCUserType.md) |
 
 #### Returns
 
@@ -119,7 +119,7 @@ Handle request connection
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`SCUserType`](types_user.SCUserType) |
+| `user` | [`SCUserType`](types_user.SCUserType.md) |
 
 #### Returns
 
@@ -141,7 +141,7 @@ Check user status
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`SCUserType`](types_user.SCUserType) |
+| `user` | [`SCUserType`](types_user.SCUserType.md) |
 
 #### Returns
 

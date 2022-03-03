@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [ThreadProps](../interfaces/Thread.ThreadProps)
+- [ThreadProps](../interfaces/Thread.ThreadProps.md)
 
 ## Functions
 
@@ -42,7 +42,7 @@ The name `SCThread` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`ThreadProps`](../interfaces/Thread.ThreadProps) |
+| `props` | [`ThreadProps`](../interfaces/Thread.ThreadProps.md) |
 
 #### Returns
 

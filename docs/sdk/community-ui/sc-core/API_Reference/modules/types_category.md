@@ -8,4 +8,4 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCCategoryType](../interfaces/types_category.SCCategoryType)
+- [SCCategoryType](../interfaces/types_category.SCCategoryType.md)

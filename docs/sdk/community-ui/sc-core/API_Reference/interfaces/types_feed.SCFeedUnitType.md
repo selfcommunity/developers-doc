@@ -5,7 +5,7 @@ sidebar_label: "SCFeedUnitType"
 custom_edit_url: null
 ---
 
-[types/feed](../modules/types_feed).SCFeedUnitType
+[types/feed](../modules/types_feed.md).SCFeedUnitType
 
 Interface SCFeedUnitType.
 FeedUnit Schema.
@@ -14,7 +14,7 @@ FeedUnit Schema.
 
 ### activities
 
-• `Optional` **activities**: [`SCFeedUnitActivityType`](types_feed.SCFeedUnitActivityType)[]
+• `Optional` **activities**: [`SCFeedUnitActivityType`](types_feed.SCFeedUnitActivityType.md)[]
 
 List of feed activities. This field is returned only for relevance feed
 
@@ -26,7 +26,7 @@ ___
 
 ### discussion
 
-• `Optional` **discussion**: [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType)
+• `Optional` **discussion**: [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType.md)
 
 Discussion object
 
@@ -50,7 +50,7 @@ ___
 
 ### post
 
-• `Optional` **post**: [`SCFeedPostType`](types_feed.SCFeedPostType)
+• `Optional` **post**: [`SCFeedPostType`](types_feed.SCFeedPostType.md)
 
 Post object
 
@@ -74,7 +74,7 @@ ___
 
 ### status
 
-• `Optional` **status**: [`SCFeedObjectType`](types_feed.SCFeedObjectType)
+• `Optional` **status**: [`SCFeedObjectType`](types_feed.SCFeedObjectType.md)
 
 Status object
 
@@ -86,7 +86,7 @@ ___
 
 ### type
 
-• **type**: [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType)
+• **type**: [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType.md)
 
 The type of the object, can be discussion, post or status
 

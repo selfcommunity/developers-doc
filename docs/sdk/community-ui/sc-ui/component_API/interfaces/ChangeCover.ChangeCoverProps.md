@@ -5,7 +5,7 @@ sidebar_label: "ChangeCoverProps"
 custom_edit_url: null
 ---
 
-[ChangeCover](../modules/ChangeCover).ChangeCoverProps
+[ChangeCover](../modules/ChangeCover.md).ChangeCoverProps
 
 ## Indexable
 

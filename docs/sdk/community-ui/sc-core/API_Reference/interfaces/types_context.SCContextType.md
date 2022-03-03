@@ -5,7 +5,7 @@ sidebar_label: "SCContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCContextType
+[types/context](../modules/types_context.md).SCContextType
 
 Interface SCContextType
 
@@ -13,7 +13,7 @@ Interface SCContextType
 
 ### settings
 
-• **settings**: [`SCSettingsType`](types_context.SCSettingsType)
+• **settings**: [`SCSettingsType`](types_context.SCSettingsType.md)
 
 Settings
 

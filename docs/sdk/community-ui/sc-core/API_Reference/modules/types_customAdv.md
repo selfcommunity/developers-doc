@@ -8,8 +8,8 @@ custom_edit_url: null
 
 ## Enumerations
 
-- [SCCustomAdvPosition](../enums/types_customAdv.SCCustomAdvPosition)
+- [SCCustomAdvPosition](../enums/types_customAdv.SCCustomAdvPosition.md)
 
 ## Interfaces
 
-- [SCCustomAdvType](../interfaces/types_customAdv.SCCustomAdvType)
+- [SCCustomAdvType](../interfaces/types_customAdv.SCCustomAdvType.md)

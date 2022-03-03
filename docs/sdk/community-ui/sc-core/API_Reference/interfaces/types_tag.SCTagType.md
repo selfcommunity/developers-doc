@@ -5,7 +5,7 @@ sidebar_label: "SCTagType"
 custom_edit_url: null
 ---
 
-[types/tag](../modules/types_tag).SCTagType
+[types/tag](../modules/types_tag.md).SCTagType
 
 Interface SCTagType.
 Tag Schema.

@@ -5,7 +5,7 @@ sidebar_label: "SCLocaleContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCLocaleContextType
+[types/context](../modules/types_context.md).SCLocaleContextType
 
 Interface SCLocaleContextType
 

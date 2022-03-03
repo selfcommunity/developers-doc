@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [FollowCategoryButtonProps](../interfaces/FollowCategoryButton.FollowCategoryButtonProps)
+- [FollowCategoryButtonProps](../interfaces/FollowCategoryButton.FollowCategoryButtonProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCFollowCategoryButton` can be used when providing style overrides in 
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FollowCategoryButtonProps`](../interfaces/FollowCategoryButton.FollowCategoryButtonProps) |
+| `props` | [`FollowCategoryButtonProps`](../interfaces/FollowCategoryButton.FollowCategoryButtonProps.md) |
 
 #### Returns
 

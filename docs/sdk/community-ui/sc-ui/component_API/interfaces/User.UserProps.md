@@ -5,7 +5,7 @@ sidebar_label: "UserProps"
 custom_edit_url: null
 ---
 
-[User](../modules/User).UserProps
+[User](../modules/User.md).UserProps
 
 ## Hierarchy
 
@@ -55,7 +55,7 @@ ___
 
 ### followConnectUserButtonProps
 
-• `Optional` **followConnectUserButtonProps**: [`FollowUserButtonProps`](FollowUserButton.FollowUserButtonProps) \| [`FriendshipButtonProps`](FriendshipUserButton.FriendshipButtonProps)
+• `Optional` **followConnectUserButtonProps**: [`FollowUserButtonProps`](FollowUserButton.FollowUserButtonProps.md) \| [`FriendshipButtonProps`](FriendshipUserButton.FriendshipButtonProps.md)
 
 Props to spread to follow/friendship button
 

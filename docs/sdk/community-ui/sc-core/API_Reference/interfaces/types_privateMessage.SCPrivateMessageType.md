@@ -5,7 +5,7 @@ sidebar_label: "SCPrivateMessageType"
 custom_edit_url: null
 ---
 
-[types/privateMessage](../modules/types_privateMessage).SCPrivateMessageType
+[types/privateMessage](../modules/types_privateMessage.md).SCPrivateMessageType
 
 ## Properties
 
@@ -95,7 +95,7 @@ ___
 
 ### receiver
 
-• **receiver**: [`SCUserType`](types_user.SCUserType)
+• **receiver**: [`SCUserType`](types_user.SCUserType.md)
 
 Receiver User
 
@@ -107,7 +107,7 @@ ___
 
 ### sender
 
-• **sender**: [`SCUserType`](types_user.SCUserType)
+• **sender**: [`SCUserType`](types_user.SCUserType.md)
 
 Sender User
 
@@ -143,7 +143,7 @@ ___
 
 ### thread\_status
 
-• **thread\_status**: [`SCPrivateMessageStatusType`](../enums/types_privateMessage.SCPrivateMessageStatusType)
+• **thread\_status**: [`SCPrivateMessageStatusType`](../enums/types_privateMessage.SCPrivateMessageStatusType.md)
 
 Message status: created, deleted or hidden message
 

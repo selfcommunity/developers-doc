@@ -5,7 +5,7 @@ sidebar_label: "SCLocaleType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCLocaleType
+[types/context](../modules/types_context.md).SCLocaleType
 
 Interface SCLocaleType
 

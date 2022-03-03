@@ -5,7 +5,7 @@ sidebar_label: "SCPrizeType"
 custom_edit_url: null
 ---
 
-[types/prize](../modules/types_prize).SCPrizeType
+[types/prize](../modules/types_prize.md).SCPrizeType
 
 Interface SCPrizeType.
 Prize Schema.
@@ -38,7 +38,7 @@ ___
 
 ### created\_by
 
-• `Optional` **created\_by**: [`SCUserType`](types_user.SCUserType)
+• `Optional` **created\_by**: [`SCUserType`](types_user.SCUserType.md)
 
 The prize creator.
 

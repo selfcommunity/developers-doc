@@ -5,7 +5,7 @@ sidebar_label: "SCCustomAdvPosition"
 custom_edit_url: null
 ---
 
-[types/customAdv](../modules/types_customAdv).SCCustomAdvPosition
+[types/customAdv](../modules/types_customAdv.md).SCCustomAdvPosition
 
 ## Enumeration members
 

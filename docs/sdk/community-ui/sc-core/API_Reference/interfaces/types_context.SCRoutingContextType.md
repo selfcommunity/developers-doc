@@ -5,7 +5,7 @@ sidebar_label: "SCRoutingContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCRoutingContextType
+[types/context](../modules/types_context.md).SCRoutingContextType
 
 Interface SCRoutingContextType
 

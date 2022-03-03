@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCNotificationContextType
+[types/context](../modules/types_context.md).SCNotificationContextType
 
 Interface SCNotificationContextType
 

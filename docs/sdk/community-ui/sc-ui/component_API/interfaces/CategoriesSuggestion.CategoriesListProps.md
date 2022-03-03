@@ -5,7 +5,7 @@ sidebar_label: "CategoriesListProps"
 custom_edit_url: null
 ---
 
-[CategoriesSuggestion](../modules/CategoriesSuggestion).CategoriesListProps
+[CategoriesSuggestion](../modules/CategoriesSuggestion.md).CategoriesListProps
 
 ## Indexable
 
@@ -17,7 +17,7 @@ Other props
 
 ### CategoryProps
 
-• `Optional` **CategoryProps**: [`CategoryProps`](Category.CategoryProps)
+• `Optional` **CategoryProps**: [`CategoryProps`](Category.CategoryProps.md)
 
 Props to spread to single category object
 

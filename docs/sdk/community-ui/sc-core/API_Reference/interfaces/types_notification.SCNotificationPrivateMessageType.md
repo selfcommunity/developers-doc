@@ -5,14 +5,14 @@ sidebar_label: "SCNotificationPrivateMessageType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationPrivateMessageType
+[types/notification](../modules/types_notification.md).SCNotificationPrivateMessageType
 
 Interface SCNotificationPrivateMessageType.
 Private Message Notification Schema.
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationPrivateMessageType`**
 
@@ -26,7 +26,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -42,7 +42,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -52,7 +52,7 @@ ___
 
 ### message
 
-• **message**: [`SCPrivateMessageType`](types_privateMessage.SCPrivateMessageType)
+• **message**: [`SCPrivateMessageType`](types_privateMessage.SCPrivateMessageType.md)
 
 Private message
 
@@ -70,7 +70,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -80,13 +80,13 @@ ___
 
 ### type
 
-• **type**: [`PRIVATE_MESSAGE`](../enums/types_notification.SCNotificationTypologyType#private_message)
+• **type**: [`PRIVATE_MESSAGE`](../enums/types_notification.SCNotificationTypologyType.md#private_message)
 
 Type Private message
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 

@@ -5,7 +5,7 @@ sidebar_label: "SCPrivateMessageStatusType"
 custom_edit_url: null
 ---
 
-[types/privateMessage](../modules/types_privateMessage).SCPrivateMessageStatusType
+[types/privateMessage](../modules/types_privateMessage.md).SCPrivateMessageStatusType
 
 Private Message status:
 created, deleted or hidden message

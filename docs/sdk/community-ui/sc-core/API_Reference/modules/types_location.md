@@ -8,5 +8,5 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCContributionLocation](../interfaces/types_location.SCContributionLocation)
-- [SCLocalityType](../interfaces/types_location.SCLocalityType)
+- [SCContributionLocation](../interfaces/types_location.SCContributionLocation.md)
+- [SCLocalityType](../interfaces/types_location.SCLocalityType.md)

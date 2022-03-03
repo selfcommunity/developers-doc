@@ -5,13 +5,13 @@ sidebar_label: "UserFollowersProps"
 custom_edit_url: null
 ---
 
-[UserFollowers](../modules/UserFollowers).UserFollowersProps
+[UserFollowers](../modules/UserFollowers.md).UserFollowersProps
 
 ## Properties
 
 ### UserProps
 
-• `Optional` **UserProps**: [`UserProps`](User.UserProps)
+• `Optional` **UserProps**: [`UserProps`](User.UserProps.md)
 
 Props to spread to single user object
 

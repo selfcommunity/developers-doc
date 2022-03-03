@@ -5,13 +5,13 @@ sidebar_label: "FeedProps"
 custom_edit_url: null
 ---
 
-[Feed](../modules/Feed).FeedProps
+[Feed](../modules/Feed.md).FeedProps
 
 ## Properties
 
 ### CustomAdvProps
 
-• `Optional` **CustomAdvProps**: [`CustomAdvProps`](CustomAdv.CustomAdvProps)
+• `Optional` **CustomAdvProps**: [`CustomAdvProps`](CustomAdv.CustomAdvProps.md)
 
 Props to spread to single custom adv element (this props can be used only if Custom Adv are enabled)
 
@@ -25,7 +25,7 @@ ___
 
 ### FeedSidebarProps
 
-• `Optional` **FeedSidebarProps**: [`FeedSidebarProps`](Feed.FeedSidebarProps)
+• `Optional` **FeedSidebarProps**: [`FeedSidebarProps`](Feed.FeedSidebarProps.md)
 
 Props to spread to single feed object
 

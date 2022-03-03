@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CommentsObjectProps](../interfaces/CommentsObject.CommentsObjectProps)
+- [CommentsObjectProps](../interfaces/CommentsObject.CommentsObjectProps.md)
 
 ## Functions
 
@@ -41,7 +41,7 @@ The name `SCCommentsObject` can be used when providing style overrides in the th
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CommentsObjectProps`](../interfaces/CommentsObject.CommentsObjectProps) |
+| `props` | [`CommentsObjectProps`](../interfaces/CommentsObject.CommentsObjectProps.md) |
 
 #### Returns
 

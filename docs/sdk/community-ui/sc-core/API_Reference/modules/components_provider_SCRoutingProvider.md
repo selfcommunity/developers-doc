@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCRoutingContext
 
-• **SCRoutingContext**: `Context`<[`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType)\>
+• `Const` **SCRoutingContext**: `Context`<[`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType.md)\>
 
 Creates Global Context
 
@@ -64,14 +64,14 @@ ___
 
 ### useSCRouting
 
-▸ **useSCRouting**(): [`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType)
+▸ **useSCRouting**(): [`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType.md)
 
 Let's only export the `useSCTheme` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType)
+[`SCRoutingContextType`](../interfaces/types_context.SCRoutingContextType.md)
 
 #### Defined in
 

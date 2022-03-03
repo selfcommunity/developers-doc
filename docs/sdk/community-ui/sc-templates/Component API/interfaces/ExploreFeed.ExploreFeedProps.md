@@ -5,7 +5,7 @@ sidebar_label: "ExploreFeedProps"
 custom_edit_url: null
 ---
 
-[ExploreFeed](../modules/ExploreFeed).ExploreFeedProps
+[ExploreFeed](../modules/ExploreFeed.md).ExploreFeedProps
 
 ## Properties
 

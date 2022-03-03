@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCConnectionsManager
 
-▸ **useSCConnectionsManager**(`user?`): { `acceptConnection`: `undefined` ; `connections`: `any`[] = data; `emptyCache`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined` ; `requestConnection`: `undefined` ; `status`: `undefined`  } \| { `acceptConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `connections`: `any`[] = data; `emptyCache`: () => `void` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void` ; `requestConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `status`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `string`  }
+▸ **useSCConnectionsManager**(`user?`): { `acceptConnection`: `undefined` ; `connections`: `any`[] = data; `emptyCache`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined` ; `requestConnection`: `undefined` ; `status`: `undefined`  } \| { `acceptConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `connections`: `any`[] = data; `emptyCache`: () => `void` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void` ; `requestConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `status`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `string`  }
 
 :::info
 This custom hook is used to manage to manage friends.
@@ -30,11 +30,11 @@ Follow these steps:
 
 | Name | Type |
 | :------ | :------ |
-| `user?` | [`SCUserType`](../interfaces/types_user.SCUserType) |
+| `user?` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
 
 #### Returns
 
-{ `acceptConnection`: `undefined` ; `connections`: `any`[] = data; `emptyCache`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined` ; `requestConnection`: `undefined` ; `status`: `undefined`  } \| { `acceptConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `connections`: `any`[] = data; `emptyCache`: () => `void` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void` ; `requestConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `status`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `string`  }
+{ `acceptConnection`: `undefined` ; `connections`: `any`[] = data; `emptyCache`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined` ; `requestConnection`: `undefined` ; `status`: `undefined`  } \| { `acceptConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `connections`: `any`[] = data; `emptyCache`: () => `void` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void` ; `requestConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `status`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `string`  }
 
 #### Defined in
 

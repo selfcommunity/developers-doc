@@ -5,7 +5,7 @@ sidebar_label: "SCCategoryType"
 custom_edit_url: null
 ---
 
-[types/category](../modules/types_category).SCCategoryType
+[types/category](../modules/types_category.md).SCCategoryType
 
 Interface SCCategoryType.
 Category Schema.
@@ -278,7 +278,7 @@ ___
 
 ### tags
 
-• `Optional` **tags**: [`SCTagType`](types_tag.SCTagType)[]
+• `Optional` **tags**: [`SCTagType`](types_tag.SCTagType.md)[]
 
 The category's tags.
 

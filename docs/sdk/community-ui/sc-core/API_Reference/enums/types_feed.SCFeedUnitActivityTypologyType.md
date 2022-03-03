@@ -5,7 +5,7 @@ sidebar_label: "SCFeedUnitActivityTypologyType"
 custom_edit_url: null
 ---
 
-[types/feed](../modules/types_feed).SCFeedUnitActivityTypologyType
+[types/feed](../modules/types_feed.md).SCFeedUnitActivityTypologyType
 
 ## Enumeration members
 

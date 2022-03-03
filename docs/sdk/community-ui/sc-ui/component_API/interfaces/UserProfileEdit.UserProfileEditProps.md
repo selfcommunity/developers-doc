@@ -5,7 +5,7 @@ sidebar_label: "UserProfileEditProps"
 custom_edit_url: null
 ---
 
-[UserProfileEdit](../modules/UserProfileEdit).UserProfileEditProps
+[UserProfileEdit](../modules/UserProfileEdit.md).UserProfileEditProps
 
 ## Indexable
 

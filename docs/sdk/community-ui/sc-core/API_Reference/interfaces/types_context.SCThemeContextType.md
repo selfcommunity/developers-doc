@@ -5,7 +5,7 @@ sidebar_label: "SCThemeContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCThemeContextType
+[types/context](../modules/types_context.md).SCThemeContextType
 
 Interface SCThemeContextType
 

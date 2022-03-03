@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UsersFollowedProps](../interfaces/UsersFollowed.UsersFollowedProps)
+- [UsersFollowedProps](../interfaces/UsersFollowed.UsersFollowedProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCUsersFollowed` can be used when providing style overrides in the the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UsersFollowedProps`](../interfaces/UsersFollowed.UsersFollowedProps) |
+| `props` | [`UsersFollowedProps`](../interfaces/UsersFollowed.UsersFollowedProps.md) |
 
 #### Returns
 

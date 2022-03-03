@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [EditorProps](../interfaces/Editor.EditorProps)
+- [EditorProps](../interfaces/Editor.EditorProps.md)
 
 ## Functions
 
@@ -40,7 +40,7 @@ The name `SCEditor` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`EditorProps`](../interfaces/Editor.EditorProps) |
+| `props` | [`EditorProps`](../interfaces/Editor.EditorProps.md) |
 
 #### Returns
 

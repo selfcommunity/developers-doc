@@ -5,7 +5,7 @@ sidebar_label: "UserFeedProps"
 custom_edit_url: null
 ---
 
-[UserFeed](../modules/UserFeed).UserFeedProps
+[UserFeed](../modules/UserFeed.md).UserFeedProps
 
 ## Properties
 

@@ -5,14 +5,14 @@ sidebar_label: "SCNotificationBlockedUserType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationBlockedUserType
+[types/notification](../modules/types_notification.md).SCNotificationBlockedUserType
 
 Interface SCNotificationBlockedUserType.
 Blocked User Notification Schema.
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationBlockedUserType`**
 
@@ -26,7 +26,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -36,7 +36,7 @@ ___
 
 ### blocked\_settings
 
-• **blocked\_settings**: [`SCUserBlockedSettingsType`](types_user.SCUserBlockedSettingsType)
+• **blocked\_settings**: [`SCUserBlockedSettingsType`](types_user.SCUserBlockedSettingsType.md)
 
 Data of user block
 
@@ -54,7 +54,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -70,7 +70,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -80,13 +80,13 @@ ___
 
 ### type
 
-• **type**: [`BLOCKED_USER`](../enums/types_notification.SCNotificationTypologyType#blocked_user)
+• **type**: [`BLOCKED_USER`](../enums/types_notification.SCNotificationTypologyType.md#blocked_user)
 
 Type Blocked User
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 

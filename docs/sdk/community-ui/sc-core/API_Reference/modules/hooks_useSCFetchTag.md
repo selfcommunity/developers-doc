@@ -22,7 +22,7 @@ This custom hook is used to fetch a tag object.
 | :------ | :------ |
 | `object` | `Object` |
 | `object.id?` | `number` |
-| `object.tag?` | [`SCTagType`](../interfaces/types_tag.SCTagType) |
+| `object.tag?` | [`SCTagType`](../interfaces/types_tag.SCTagType.md) |
 
 #### Returns
 
@@ -30,8 +30,8 @@ This custom hook is used to fetch a tag object.
 
 | Name | Type |
 | :------ | :------ |
-| `scTag` | [`SCTagType`](../interfaces/types_tag.SCTagType) |
-| `setSCTag` | `Dispatch`<`SetStateAction`<[`SCTagType`](../interfaces/types_tag.SCTagType)\>\> |
+| `scTag` | [`SCTagType`](../interfaces/types_tag.SCTagType.md) |
+| `setSCTag` | `Dispatch`<`SetStateAction`<[`SCTagType`](../interfaces/types_tag.SCTagType.md)\>\> |
 
 #### Defined in
 

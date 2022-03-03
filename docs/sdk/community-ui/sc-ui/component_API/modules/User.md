@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UserProps](../interfaces/User.UserProps)
+- [UserProps](../interfaces/User.UserProps.md)
 
 ## Functions
 
@@ -40,7 +40,7 @@ The name `SCUser` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProps`](../interfaces/User.UserProps) |
+| `props` | [`UserProps`](../interfaces/User.UserProps.md) |
 
 #### Returns
 

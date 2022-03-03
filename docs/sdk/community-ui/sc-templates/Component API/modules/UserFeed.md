@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UserFeedProps](../interfaces/UserFeed.UserFeedProps)
+- [UserFeedProps](../interfaces/UserFeed.UserFeedProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserFeedProps`](../interfaces/UserFeed.UserFeedProps) |
+| `props` | [`UserFeedProps`](../interfaces/UserFeed.UserFeedProps.md) |
 
 #### Returns
 

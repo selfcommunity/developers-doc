@@ -5,7 +5,7 @@ sidebar_label: "AccountRecoverProps"
 custom_edit_url: null
 ---
 
-[AccountRecover](../modules/AccountRecover).AccountRecoverProps
+[AccountRecover](../modules/AccountRecover.md).AccountRecoverProps
 
 ## Indexable
 

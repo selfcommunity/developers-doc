@@ -5,7 +5,7 @@ sidebar_label: "FeedUpdatesProps"
 custom_edit_url: null
 ---
 
-[FeedUpdates](../modules/FeedUpdates).FeedUpdatesProps
+[FeedUpdates](../modules/FeedUpdates.md).FeedUpdatesProps
 
 ## Indexable
 

@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCUserContext
 
-• **SCUserContext**: `Context`<[`SCUserContextType`](../interfaces/types_context.SCUserContextType)\>
+• `Const` **SCUserContext**: `Context`<[`SCUserContextType`](../interfaces/types_context.SCUserContextType.md)\>
 
 SCUserContext (Authentication Context)
 
@@ -63,14 +63,14 @@ ___
 
 ### useSCUser
 
-▸ **useSCUser**(): [`SCUserContextType`](../interfaces/types_context.SCUserContextType)
+▸ **useSCUser**(): [`SCUserContextType`](../interfaces/types_context.SCUserContextType.md)
 
 Let's only export the `useSCUser` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCUserContextType`](../interfaces/types_context.SCUserContextType)
+[`SCUserContextType`](../interfaces/types_context.SCUserContextType.md)
 
 #### Defined in
 

@@ -8,9 +8,9 @@ custom_edit_url: null
 
 ## Enumerations
 
-- [SCBroadcastMessageBannerType](../enums/types_broadcastMessage.SCBroadcastMessageBannerType)
+- [SCBroadcastMessageBannerType](../enums/types_broadcastMessage.SCBroadcastMessageBannerType.md)
 
 ## Interfaces
 
-- [SCBannerType](../interfaces/types_broadcastMessage.SCBannerType)
-- [SCBroadcastMessageType](../interfaces/types_broadcastMessage.SCBroadcastMessageType)
+- [SCBannerType](../interfaces/types_broadcastMessage.SCBannerType.md)
+- [SCBroadcastMessageType](../interfaces/types_broadcastMessage.SCBroadcastMessageType.md)

@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationsWebPushMessagingType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCNotificationsWebPushMessagingType
+[types/context](../modules/types_context.md).SCNotificationsWebPushMessagingType
 
 Interface SCNotificationsWebPushMessagingType
 

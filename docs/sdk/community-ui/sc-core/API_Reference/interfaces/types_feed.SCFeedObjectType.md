@@ -5,7 +5,7 @@ sidebar_label: "SCFeedObjectType"
 custom_edit_url: null
 ---
 
-[types/feed](../modules/types_feed).SCFeedObjectType
+[types/feed](../modules/types_feed.md).SCFeedObjectType
 
 Interface SCFeedObjectType.
 FeedObject Schema.
@@ -15,9 +15,9 @@ General object.
 
 - **`SCFeedObjectType`**
 
-  ↳ [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType)
+  ↳ [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType.md)
 
-  ↳ [`SCFeedPostType`](types_feed.SCFeedPostType)
+  ↳ [`SCFeedPostType`](types_feed.SCFeedPostType.md)
 
 ## Properties
 
@@ -35,7 +35,7 @@ ___
 
 ### addressing
 
-• **addressing**: [`SCTagType`](types_tag.SCTagType)[]
+• **addressing**: [`SCTagType`](types_tag.SCTagType.md)[]
 
 Tags adderssing
 
@@ -47,7 +47,7 @@ ___
 
 ### author
 
-• `Optional` **author**: [`SCUserType`](types_user.SCUserType)
+• `Optional` **author**: [`SCUserType`](types_user.SCUserType.md)
 
 Author of the contribute
 
@@ -59,7 +59,7 @@ ___
 
 ### categories
 
-• `Optional` **categories**: [`SCCategoryType`](types_category.SCCategoryType)[]
+• `Optional` **categories**: [`SCCategoryType`](types_category.SCCategoryType.md)[]
 
 List of categories.
 
@@ -167,7 +167,7 @@ ___
 
 ### location
 
-• `Optional` **location**: [`SCContributionLocation`](types_location.SCContributionLocation)
+• `Optional` **location**: [`SCContributionLocation`](types_location.SCContributionLocation.md)
 
 Location (contribution geolocation)
 
@@ -179,7 +179,7 @@ ___
 
 ### medias
 
-• `Optional` **medias**: [`SCMediaType`](types_media.SCMediaType)[]
+• `Optional` **medias**: [`SCMediaType`](types_media.SCMediaType.md)[]
 
 List of medias
 
@@ -239,7 +239,7 @@ ___
 
 ### type
 
-• **type**: [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType)
+• **type**: [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType.md)
 
 Type: discussion, post, status
 

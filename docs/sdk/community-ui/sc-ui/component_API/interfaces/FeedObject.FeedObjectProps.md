@@ -5,7 +5,7 @@ sidebar_label: "FeedObjectProps"
 custom_edit_url: null
 ---
 
-[FeedObject](../modules/FeedObject).FeedObjectProps
+[FeedObject](../modules/FeedObject.md).FeedObjectProps
 
 ## Hierarchy
 

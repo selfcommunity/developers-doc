@@ -5,7 +5,7 @@ sidebar_label: "SCAuthTokenType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCAuthTokenType
+[types/context](../modules/types_context.md).SCAuthTokenType
 
 Interface SCAuthTokenType
 

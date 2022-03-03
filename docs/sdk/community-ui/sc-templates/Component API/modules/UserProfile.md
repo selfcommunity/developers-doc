@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UserProfileProps](../interfaces/UserProfile.UserProfileProps)
+- [UserProfileProps](../interfaces/UserProfile.UserProfileProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProfileProps`](../interfaces/UserProfile.UserProfileProps) |
+| `props` | [`UserProfileProps`](../interfaces/UserProfile.UserProfileProps.md) |
 
 #### Returns
 

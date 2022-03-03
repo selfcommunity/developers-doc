@@ -22,7 +22,7 @@ This custom hook is used to fetch a custom adv object.
 | :------ | :------ |
 | `object` | `Object` |
 | `object.categoriesId?` | `number`[] |
-| `object.position?` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition) |
+| `object.position?` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition.md) |
 
 #### Returns
 
@@ -30,8 +30,8 @@ This custom hook is used to fetch a custom adv object.
 
 | Name | Type |
 | :------ | :------ |
-| `scCustomAdv` | [`SCCustomAdvType`](../interfaces/types_customAdv.SCCustomAdvType) |
-| `setSCCustomAdv` | `Dispatch`<`SetStateAction`<[`SCCustomAdvType`](../interfaces/types_customAdv.SCCustomAdvType)\>\> |
+| `scCustomAdv` | [`SCCustomAdvType`](../interfaces/types_customAdv.SCCustomAdvType.md) |
+| `setSCCustomAdv` | `Dispatch`<`SetStateAction`<[`SCCustomAdvType`](../interfaces/types_customAdv.SCCustomAdvType.md)\>\> |
 
 #### Defined in
 

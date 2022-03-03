@@ -5,7 +5,7 @@ sidebar_label: "SCFeedUnitActivityType"
 custom_edit_url: null
 ---
 
-[types/feed](../modules/types_feed).SCFeedUnitActivityType
+[types/feed](../modules/types_feed.md).SCFeedUnitActivityType
 
 Interface SCFeedUnitActivityType.
 FeedUnit Activity Schema.
@@ -26,7 +26,7 @@ ___
 
 ### author
 
-• **author**: [`SCUserType`](types_user.SCUserType)
+• **author**: [`SCUserType`](types_user.SCUserType.md)
 
 The user involved.
 
@@ -62,7 +62,7 @@ ___
 
 ### type
 
-• **type**: [`SCFeedUnitActivityTypologyType`](../enums/types_feed.SCFeedUnitActivityTypologyType)
+• **type**: [`SCFeedUnitActivityTypologyType`](../enums/types_feed.SCFeedUnitActivityTypologyType.md)
 
 The type of the activity.
 

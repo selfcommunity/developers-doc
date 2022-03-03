@@ -5,7 +5,7 @@ sidebar_label: "CommentsObjectProps"
 custom_edit_url: null
 ---
 
-[CommentsObject](../modules/CommentsObject).CommentsObjectProps
+[CommentsObject](../modules/CommentsObject.md).CommentsObjectProps
 
 ## Indexable
 
@@ -17,7 +17,7 @@ Other props
 
 ### CommentObjectProps
 
-• `Optional` **CommentObjectProps**: [`CommentObjectProps`](CommentObject.CommentObjectProps)
+• `Optional` **CommentObjectProps**: [`CommentObjectProps`](CommentObject.CommentObjectProps.md)
 
 Props to spread to single comment object
 

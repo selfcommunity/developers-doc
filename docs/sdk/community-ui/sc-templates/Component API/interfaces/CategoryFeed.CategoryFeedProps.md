@@ -5,7 +5,7 @@ sidebar_label: "CategoryFeedProps"
 custom_edit_url: null
 ---
 
-[CategoryFeed](../modules/CategoryFeed).CategoryFeedProps
+[CategoryFeed](../modules/CategoryFeed.md).CategoryFeedProps
 
 ## Properties
 

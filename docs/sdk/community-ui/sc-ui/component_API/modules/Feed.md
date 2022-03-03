@@ -8,8 +8,8 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [FeedProps](../interfaces/Feed.FeedProps)
-- [FeedSidebarProps](../interfaces/Feed.FeedSidebarProps)
+- [FeedProps](../interfaces/Feed.FeedProps.md)
+- [FeedSidebarProps](../interfaces/Feed.FeedSidebarProps.md)
 
 ## Functions
 
@@ -43,7 +43,7 @@ The name `SCFeed` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedProps`](../interfaces/Feed.FeedProps) |
+| `props` | [`FeedProps`](../interfaces/Feed.FeedProps.md) |
 
 #### Returns
 

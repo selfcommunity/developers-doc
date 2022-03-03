@@ -5,7 +5,7 @@ sidebar_label: "SCUserContextType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCUserContextType
+[types/context](../modules/types_context.md).SCUserContextType
 
 Interface SCUserContextType
 
@@ -45,9 +45,9 @@ Managers: followed, connections, categories, etc...
 
 | Name | Type |
 | :------ | :------ |
-| `categories` | [`SCCategoriesManagerType`](types_context.SCCategoriesManagerType) |
-| `connections?` | [`SCConnectionsManagerType`](types_context.SCConnectionsManagerType) |
-| `followed?` | [`SCFollowedManagerType`](types_context.SCFollowedManagerType) |
+| `categories` | [`SCCategoriesManagerType`](types_context.SCCategoriesManagerType.md) |
+| `connections?` | [`SCConnectionsManagerType`](types_context.SCConnectionsManagerType.md) |
+| `followed?` | [`SCFollowedManagerType`](types_context.SCFollowedManagerType.md) |
 
 #### Defined in
 
@@ -57,7 +57,7 @@ ___
 
 ### session
 
-• `Optional` **session**: [`SCSessionType`](types_context.SCSessionType)
+• `Optional` **session**: [`SCSessionType`](types_context.SCSessionType.md)
 
 Current Session.
 
@@ -69,7 +69,7 @@ ___
 
 ### user
 
-• `Optional` **user**: [`SCUserType`](types_user.SCUserType)
+• `Optional` **user**: [`SCUserType`](types_user.SCUserType.md)
 
 Authenticated User.
 

@@ -5,7 +5,7 @@ sidebar_label: "NotificationProps"
 custom_edit_url: null
 ---
 
-[Notification](../modules/Notification).NotificationProps
+[Notification](../modules/Notification.md).NotificationProps
 
 ## Hierarchy
 

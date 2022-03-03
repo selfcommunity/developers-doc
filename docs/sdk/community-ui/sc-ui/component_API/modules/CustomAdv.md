@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CustomAdvProps](../interfaces/CustomAdv.CustomAdvProps)
+- [CustomAdvProps](../interfaces/CustomAdv.CustomAdvProps.md)
 
 ## Functions
 
@@ -36,7 +36,7 @@ The name `SCCustomAdv` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CustomAdvProps`](../interfaces/CustomAdv.CustomAdvProps) |
+| `props` | [`CustomAdvProps`](../interfaces/CustomAdv.CustomAdvProps.md) |
 
 #### Returns
 

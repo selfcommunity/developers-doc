@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [NotificationFeedProps](../interfaces/NotificationFeed.NotificationFeedProps)
+- [NotificationFeedProps](../interfaces/NotificationFeed.NotificationFeedProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`NotificationFeedProps`](../interfaces/NotificationFeed.NotificationFeedProps) |
+| `props` | [`NotificationFeedProps`](../interfaces/NotificationFeed.NotificationFeedProps.md) |
 
 #### Returns
 

@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UserProfileHeaderProps](../interfaces/UserProfileHeader.UserProfileHeaderProps)
+- [UserProfileHeaderProps](../interfaces/UserProfileHeader.UserProfileHeaderProps.md)
 
 ## Functions
 
@@ -44,7 +44,7 @@ The name `SCUserProfileHeader` can be used when providing style overrides in the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProfileHeaderProps`](../interfaces/UserProfileHeader.UserProfileHeaderProps) |
+| `props` | [`UserProfileHeaderProps`](../interfaces/UserProfileHeader.UserProfileHeaderProps.md) |
 
 #### Returns
 

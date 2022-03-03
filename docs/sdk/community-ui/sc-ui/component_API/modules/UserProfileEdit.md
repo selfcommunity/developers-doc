@@ -8,9 +8,9 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UserProfileEditProps](../interfaces/UserProfileEdit.UserProfileEditProps)
-- [UserProfileEditSectionPublicInfoProps](../interfaces/UserProfileEdit.UserProfileEditSectionPublicInfoProps)
-- [UserProfileEditSectionSettingsProps](../interfaces/UserProfileEdit.UserProfileEditSectionSettingsProps)
+- [UserProfileEditProps](../interfaces/UserProfileEdit.UserProfileEditProps.md)
+- [UserProfileEditSectionPublicInfoProps](../interfaces/UserProfileEdit.UserProfileEditSectionPublicInfoProps.md)
+- [UserProfileEditSectionSettingsProps](../interfaces/UserProfileEdit.UserProfileEditSectionSettingsProps.md)
 
 ## Functions
 
@@ -41,7 +41,7 @@ The name `SCUserProfileEdit` can be used when providing style overrides in the t
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProfileEditProps`](../interfaces/UserProfileEdit.UserProfileEditProps) |
+| `props` | [`UserProfileEditProps`](../interfaces/UserProfileEdit.UserProfileEditProps.md) |
 
 #### Returns
 
@@ -61,7 +61,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProfileEditSectionPublicInfoProps`](../interfaces/UserProfileEdit.UserProfileEditSectionPublicInfoProps) |
+| `props` | [`UserProfileEditSectionPublicInfoProps`](../interfaces/UserProfileEdit.UserProfileEditSectionPublicInfoProps.md) |
 
 #### Returns
 
@@ -81,7 +81,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProfileEditSectionSettingsProps`](../interfaces/UserProfileEdit.UserProfileEditSectionSettingsProps) |
+| `props` | [`UserProfileEditSectionSettingsProps`](../interfaces/UserProfileEdit.UserProfileEditSectionSettingsProps.md) |
 
 #### Returns
 

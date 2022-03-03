@@ -5,7 +5,7 @@ sidebar_label: "BroadcastMessagesProps"
 custom_edit_url: null
 ---
 
-[BroadcastMessages](../modules/BroadcastMessages).BroadcastMessagesProps
+[BroadcastMessages](../modules/BroadcastMessages.md).BroadcastMessagesProps
 
 ## Indexable
 

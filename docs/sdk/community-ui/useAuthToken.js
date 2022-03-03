@@ -2,7 +2,12 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import {getOAuthSession} from "./helpers";
 
-const stored = JSON.parse(window.localStorage.getItem("token"));
+export const stored = () => {
+    if (typeof window !== 'undefined') {
+       return JSON.parse(window.localStorage.getItem("token"));
+    }
+
+}
 
 export function useAuthToken() {
     const [authToken, setAuthToken] = useState(stored);
@@ -19,7 +24,9 @@ export function useAuthToken() {
     }, []);
 
     useEffect(() => {
-        window.localStorage.setItem("token", JSON.stringify(authToken));
+        if (typeof window !== 'undefined') {
+            window.localStorage.setItem("token", JSON.stringify(authToken));
+        }
     }, [authToken]);
 
     return authToken;

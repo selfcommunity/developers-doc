@@ -5,7 +5,7 @@ sidebar_label: "SCContextProviderType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCContextProviderType
+[types/context](../modules/types_context.md).SCContextProviderType
 
 Interface SCContextProviderType
 
@@ -25,7 +25,7 @@ ___
 
 ### conf
 
-• **conf**: [`SCSettingsType`](types_context.SCSettingsType)
+• **conf**: [`SCSettingsType`](types_context.SCSettingsType.md)
 
 Settings
 

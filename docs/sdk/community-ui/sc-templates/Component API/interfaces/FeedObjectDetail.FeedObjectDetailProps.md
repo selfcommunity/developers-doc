@@ -5,7 +5,7 @@ sidebar_label: "FeedObjectDetailProps"
 custom_edit_url: null
 ---
 
-[FeedObjectDetail](../modules/FeedObjectDetail).FeedObjectDetailProps
+[FeedObjectDetail](../modules/FeedObjectDetail.md).FeedObjectDetailProps
 
 ## Properties
 

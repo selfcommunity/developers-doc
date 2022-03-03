@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationCollapsedForType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationCollapsedForType
+[types/notification](../modules/types_notification.md).SCNotificationCollapsedForType
 
 Interface SCNotificationCollapsedForType.
 Collapsed for Notification Schema.
@@ -13,7 +13,7 @@ Only for comments.
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationCollapsedForType`**
 
@@ -27,7 +27,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -37,7 +37,7 @@ ___
 
 ### comment
 
-• **comment**: [`SCCommentType`](types_comment.SCCommentType)
+• **comment**: [`SCCommentType`](types_comment.SCCommentType.md)
 
 comment collapsed
 
@@ -55,7 +55,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -71,7 +71,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -81,13 +81,13 @@ ___
 
 ### type
 
-• **type**: [`COLLAPSED_FOR_ADVERTISING`](../enums/types_notification.SCNotificationTypologyType#collapsed_for_advertising) \| [`COLLAPSED_FOR_AGGRESSIVE`](../enums/types_notification.SCNotificationTypologyType#collapsed_for_aggressive) \| [`COLLAPSED_FOR_VULGAR`](../enums/types_notification.SCNotificationTypologyType#collapsed_for_vulgar) \| [`COLLAPSED_FOR_POOR`](../enums/types_notification.SCNotificationTypologyType#collapsed_for_poor) \| [`COLLAPSED_FOR_OFFTOPIC`](../enums/types_notification.SCNotificationTypologyType#collapsed_for_offtopic)
+• **type**: [`COLLAPSED_FOR_ADVERTISING`](../enums/types_notification.SCNotificationTypologyType.md#collapsed_for_advertising) \| [`COLLAPSED_FOR_AGGRESSIVE`](../enums/types_notification.SCNotificationTypologyType.md#collapsed_for_aggressive) \| [`COLLAPSED_FOR_VULGAR`](../enums/types_notification.SCNotificationTypologyType.md#collapsed_for_vulgar) \| [`COLLAPSED_FOR_POOR`](../enums/types_notification.SCNotificationTypologyType.md#collapsed_for_poor) \| [`COLLAPSED_FOR_OFFTOPIC`](../enums/types_notification.SCNotificationTypologyType.md#collapsed_for_offtopic)
 
 Type Kindly Notice User
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 

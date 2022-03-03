@@ -8,4 +8,4 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCIncubatorType](../interfaces/types_incubator.SCIncubatorType)
+- [SCIncubatorType](../interfaces/types_incubator.SCIncubatorType.md)

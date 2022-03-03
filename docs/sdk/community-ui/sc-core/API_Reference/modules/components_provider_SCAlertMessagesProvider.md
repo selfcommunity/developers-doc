@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCAlertMessagesContext
 
-• **SCAlertMessagesContext**: `Context`<[`SCAlertMessagesContextType`](../interfaces/types_context.SCAlertMessagesContextType)\>
+• `Const` **SCAlertMessagesContext**: `Context`<[`SCAlertMessagesContextType`](../interfaces/types_context.SCAlertMessagesContextType.md)\>
 
 Creates Global Context
 
@@ -62,14 +62,14 @@ ___
 
 ### useSCAlertMessages
 
-▸ **useSCAlertMessages**(): [`SCAlertMessagesContextType`](../interfaces/types_context.SCAlertMessagesContextType)
+▸ **useSCAlertMessages**(): [`SCAlertMessagesContextType`](../interfaces/types_context.SCAlertMessagesContextType.md)
 
 Let's only export the `useSCAlertMessages` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCAlertMessagesContextType`](../interfaces/types_context.SCAlertMessagesContextType)
+[`SCAlertMessagesContextType`](../interfaces/types_context.SCAlertMessagesContextType.md)
 
 #### Defined in
 

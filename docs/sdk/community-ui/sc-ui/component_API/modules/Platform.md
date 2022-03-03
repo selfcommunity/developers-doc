@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [PlatformProps](../interfaces/Platform.PlatformProps)
+- [PlatformProps](../interfaces/Platform.PlatformProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCPlatform` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`PlatformProps`](../interfaces/Platform.PlatformProps) |
+| `props` | [`PlatformProps`](../interfaces/Platform.PlatformProps.md) |
 
 #### Returns
 

@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### useSCFollowedManager
 
-▸ **useSCFollowedManager**(`user?`): { `emptyCache`: `undefined` ; `follow`: `undefined` ; `followed`: `any`[] = data; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `emptyCache`: () => `void` ; `follow`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `followed`: `any`[] = data; `isFollowed`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
+▸ **useSCFollowedManager**(`user?`): { `emptyCache`: `undefined` ; `follow`: `undefined` ; `followed`: `any`[] = data; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `emptyCache`: () => `void` ; `follow`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `followed`: `any`[] = data; `isFollowed`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
 
 :::info
 This custom hook is used to manage to manage followed users.
@@ -29,11 +29,11 @@ Follow these steps:
 
 | Name | Type |
 | :------ | :------ |
-| `user?` | [`SCUserType`](../interfaces/types_user.SCUserType) |
+| `user?` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
 
 #### Returns
 
-{ `emptyCache`: `undefined` ; `follow`: `undefined` ; `followed`: `any`[] = data; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `emptyCache`: () => `void` ; `follow`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `Promise`<`any`\> ; `followed`: `any`[] = data; `isFollowed`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
+{ `emptyCache`: `undefined` ; `follow`: `undefined` ; `followed`: `any`[] = data; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `emptyCache`: () => `void` ; `follow`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `followed`: `any`[] = data; `isFollowed`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
 
 #### Defined in
 

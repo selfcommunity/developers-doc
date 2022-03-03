@@ -5,7 +5,7 @@ sidebar_label: "SCMediaType"
 custom_edit_url: null
 ---
 
-[types/media](../modules/types_media).SCMediaType
+[types/media](../modules/types_media.md).SCMediaType
 
 Interface SCMediaType.
 Media Schema.
@@ -38,7 +38,7 @@ ___
 
 ### embed
 
-• `Optional` **embed**: [`SCEmbedType`](types_embed.SCEmbedType)
+• `Optional` **embed**: [`SCEmbedType`](types_embed.SCEmbedType.md)
 
 Embed associated
 

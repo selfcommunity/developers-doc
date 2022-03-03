@@ -5,7 +5,7 @@ sidebar_label: "PrivateMessagesProps"
 custom_edit_url: null
 ---
 
-[PrivateMessages](../modules/PrivateMessages).PrivateMessagesProps
+[PrivateMessages](../modules/PrivateMessages.md).PrivateMessagesProps
 
 ## Indexable
 

@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CategoryProps](../interfaces/Category.CategoryProps)
+- [CategoryProps](../interfaces/Category.CategoryProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoryProps`](../interfaces/Category.CategoryProps) |
+| `props` | [`CategoryProps`](../interfaces/Category.CategoryProps.md) |
 
 #### Returns
 

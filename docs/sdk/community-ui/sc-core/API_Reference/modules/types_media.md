@@ -8,4 +8,4 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCMediaType](../interfaces/types_media.SCMediaType)
+- [SCMediaType](../interfaces/types_media.SCMediaType.md)

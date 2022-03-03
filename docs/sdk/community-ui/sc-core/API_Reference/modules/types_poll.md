@@ -8,5 +8,5 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCPollChoiceType](../interfaces/types_poll.SCPollChoiceType)
-- [SCPollType](../interfaces/types_poll.SCPollType)
+- [SCPollChoiceType](../interfaces/types_poll.SCPollChoiceType.md)
+- [SCPollType](../interfaces/types_poll.SCPollType.md)

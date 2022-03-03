@@ -5,7 +5,7 @@ sidebar_label: "SCBannerType"
 custom_edit_url: null
 ---
 
-[types/broadcastMessage](../modules/types_broadcastMessage).SCBannerType
+[types/broadcastMessage](../modules/types_broadcastMessage.md).SCBannerType
 
 ## Properties
 
@@ -108,7 +108,7 @@ ___
 
 ### type\_banner
 
-• **type\_banner**: [`SCBroadcastMessageBannerType`](../enums/types_broadcastMessage.SCBroadcastMessageBannerType)
+• **type\_banner**: [`SCBroadcastMessageBannerType`](../enums/types_broadcastMessage.SCBroadcastMessageBannerType.md)
 
 The type of the banner, based on it the behaviour of the render component must be different
 

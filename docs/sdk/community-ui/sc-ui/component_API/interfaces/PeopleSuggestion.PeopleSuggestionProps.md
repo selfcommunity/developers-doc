@@ -5,7 +5,7 @@ sidebar_label: "PeopleSuggestionProps"
 custom_edit_url: null
 ---
 
-[PeopleSuggestion](../modules/PeopleSuggestion).PeopleSuggestionProps
+[PeopleSuggestion](../modules/PeopleSuggestion.md).PeopleSuggestionProps
 
 ## Indexable
 
@@ -17,7 +17,7 @@ Other props
 
 ### UserProps
 
-• `Optional` **UserProps**: [`UserProps`](User.UserProps)
+• `Optional` **UserProps**: [`UserProps`](User.UserProps.md)
 
 Props to spread to single user object
 

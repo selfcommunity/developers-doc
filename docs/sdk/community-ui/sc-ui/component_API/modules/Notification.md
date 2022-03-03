@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [NotificationProps](../interfaces/Notification.NotificationProps)
+- [NotificationProps](../interfaces/Notification.NotificationProps.md)
 
 ## Functions
 
@@ -65,7 +65,7 @@ The name `SCUserNotification` can be used when providing style overrides in the 
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`NotificationProps`](../interfaces/Notification.NotificationProps) |
+| `props` | [`NotificationProps`](../interfaces/Notification.NotificationProps.md) |
 
 #### Returns
 

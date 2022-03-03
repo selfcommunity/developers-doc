@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCNotificationContext
 
-• **SCNotificationContext**: `Context`<[`SCNotificationContextType`](../interfaces/types_context.SCNotificationContextType)\>
+• `Const` **SCNotificationContext**: `Context`<[`SCNotificationContextType`](../interfaces/types_context.SCNotificationContextType.md)\>
 
 Creates Global Context
 
@@ -63,14 +63,14 @@ ___
 
 ### useSCNotification
 
-▸ **useSCNotification**(): [`SCNotificationContextType`](../interfaces/types_context.SCNotificationContextType)
+▸ **useSCNotification**(): [`SCNotificationContextType`](../interfaces/types_context.SCNotificationContextType.md)
 
 Let's only export the `useSCNotification` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCNotificationContextType`](../interfaces/types_context.SCNotificationContextType)
+[`SCNotificationContextType`](../interfaces/types_context.SCNotificationContextType.md)
 
 #### Defined in
 

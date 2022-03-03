@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [AccountRecoverProps](../interfaces/AccountRecover.AccountRecoverProps)
+- [AccountRecoverProps](../interfaces/AccountRecover.AccountRecoverProps.md)
 
 ## Functions
 
@@ -39,7 +39,7 @@ The name `SCAccountRecover` can be used when providing style overrides in the th
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`AccountRecoverProps`](../interfaces/AccountRecover.AccountRecoverProps) |
+| `props` | [`AccountRecoverProps`](../interfaces/AccountRecover.AccountRecoverProps.md) |
 
 #### Returns
 

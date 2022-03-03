@@ -5,7 +5,7 @@ sidebar_label: "CategoryProps"
 custom_edit_url: null
 ---
 
-[Category](../modules/Category).CategoryProps
+[Category](../modules/Category.md).CategoryProps
 
 ## Hierarchy
 
@@ -69,7 +69,7 @@ ___
 
 ### followCategoryButtonProps
 
-• `Optional` **followCategoryButtonProps**: [`FollowCategoryButtonProps`](FollowCategoryButton.FollowCategoryButtonProps)
+• `Optional` **followCategoryButtonProps**: [`FollowCategoryButtonProps`](FollowCategoryButton.FollowCategoryButtonProps.md)
 
 Props to spread to follow button
 

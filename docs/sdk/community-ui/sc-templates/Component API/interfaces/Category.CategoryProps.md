@@ -5,7 +5,7 @@ sidebar_label: "CategoryProps"
 custom_edit_url: null
 ---
 
-[Category](../modules/Category).CategoryProps
+[Category](../modules/Category.md).CategoryProps
 
 ## Properties
 

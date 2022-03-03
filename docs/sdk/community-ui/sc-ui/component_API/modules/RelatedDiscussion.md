@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [RelatedDiscussionProps](../interfaces/RelatedDiscussion.RelatedDiscussionProps)
+- [RelatedDiscussionProps](../interfaces/RelatedDiscussion.RelatedDiscussionProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCRelatedDiscussion` can be used when providing style overrides in the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`RelatedDiscussionProps`](../interfaces/RelatedDiscussion.RelatedDiscussionProps) |
+| `props` | [`RelatedDiscussionProps`](../interfaces/RelatedDiscussion.RelatedDiscussionProps.md) |
 
 #### Returns
 

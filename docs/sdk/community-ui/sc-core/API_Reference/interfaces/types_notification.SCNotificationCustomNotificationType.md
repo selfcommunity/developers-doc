@@ -5,14 +5,14 @@ sidebar_label: "SCNotificationCustomNotificationType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationCustomNotificationType
+[types/notification](../modules/types_notification.md).SCNotificationCustomNotificationType
 
 Interface SCNotificationCustomNotificationType.
 CustomNotification Notification Schema.
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationCustomNotificationType`**
 
@@ -26,7 +26,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -36,7 +36,7 @@ ___
 
 ### custom\_notification
 
-• **custom\_notification**: [`SCCustomNotificationType`](types_customNotification.SCCustomNotificationType)
+• **custom\_notification**: [`SCCustomNotificationType`](types_customNotification.SCCustomNotificationType.md)
 
 Custom notification data
 
@@ -54,7 +54,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -70,7 +70,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -80,13 +80,13 @@ ___
 
 ### type
 
-• **type**: [`CUSTOM_NOTIFICATION`](../enums/types_notification.SCNotificationTypologyType#custom_notification)
+• **type**: [`CUSTOM_NOTIFICATION`](../enums/types_notification.SCNotificationTypologyType.md#custom_notification)
 
 Type User Follow
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 
@@ -96,7 +96,7 @@ ___
 
 ### user
 
-• **user**: [`SCUserType`](types_user.SCUserType)
+• **user**: [`SCUserType`](types_user.SCUserType.md)
 
 User generate the custom notification
 

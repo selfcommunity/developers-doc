@@ -5,7 +5,7 @@ sidebar_label: "SCUserBlockedSettingsType"
 custom_edit_url: null
 ---
 
-[types/user](../modules/types_user).SCUserBlockedSettingsType
+[types/user](../modules/types_user.md).SCUserBlockedSettingsType
 
 User Blocked Settings
 

@@ -5,7 +5,7 @@ sidebar_label: "SCFeedTypologyType"
 custom_edit_url: null
 ---
 
-[types/feed](../modules/types_feed).SCFeedTypologyType
+[types/feed](../modules/types_feed.md).SCFeedTypologyType
 
 Typology of feed
 

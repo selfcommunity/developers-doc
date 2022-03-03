@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [ChangeCoverProps](../interfaces/ChangeCover.ChangeCoverProps)
+- [ChangeCoverProps](../interfaces/ChangeCover.ChangeCoverProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCChangeCoverButton` can be used when providing style overrides in the
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`ChangeCoverProps`](../interfaces/ChangeCover.ChangeCoverProps) |
+| `props` | [`ChangeCoverProps`](../interfaces/ChangeCover.ChangeCoverProps.md) |
 
 #### Returns
 

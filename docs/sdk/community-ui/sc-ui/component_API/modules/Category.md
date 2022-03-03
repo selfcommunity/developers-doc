@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CategoryProps](../interfaces/Category.CategoryProps)
+- [CategoryProps](../interfaces/Category.CategoryProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCCategory` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoryProps`](../interfaces/Category.CategoryProps) |
+| `props` | [`CategoryProps`](../interfaces/Category.CategoryProps.md) |
 
 #### Returns
 

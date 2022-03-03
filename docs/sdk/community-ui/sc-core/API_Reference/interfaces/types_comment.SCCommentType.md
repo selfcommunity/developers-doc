@@ -5,7 +5,7 @@ sidebar_label: "SCCommentType"
 custom_edit_url: null
 ---
 
-[types/comment](../modules/types_comment).SCCommentType
+[types/comment](../modules/types_comment.md).SCCommentType
 
 Interface SCCommentType.
 Comment Schema.
@@ -26,7 +26,7 @@ ___
 
 ### author
 
-• `Optional` **author**: [`SCUserType`](types_user.SCUserType)
+• `Optional` **author**: [`SCUserType`](types_user.SCUserType.md)
 
 User who commented
 
@@ -134,7 +134,7 @@ ___
 
 ### latest\_comments
 
-• `Optional` **latest\_comments**: [`SCCommentType`](types_comment.SCCommentType)[]
+• `Optional` **latest\_comments**: [`SCCommentType`](types_comment.SCCommentType.md)[]
 
 Comments childs
 

@@ -5,7 +5,7 @@ sidebar_label: "SCIncubatorType"
 custom_edit_url: null
 ---
 
-[types/incubator](../modules/types_incubator).SCIncubatorType
+[types/incubator](../modules/types_incubator.md).SCIncubatorType
 
 Interface SCIncubatorType.
 Category Schema.
@@ -26,7 +26,7 @@ ___
 
 ### approved\_category
 
-• `Optional` **approved\_category**: [`SCCategoryType`](types_category.SCCategoryType)
+• `Optional` **approved\_category**: [`SCCategoryType`](types_category.SCCategoryType.md)
 
 Approved category
 
@@ -122,7 +122,7 @@ ___
 
 ### user
 
-• **user**: [`SCUserType`](types_user.SCUserType)
+• **user**: [`SCUserType`](types_user.SCUserType.md)
 
 User who proposed the incubator
 

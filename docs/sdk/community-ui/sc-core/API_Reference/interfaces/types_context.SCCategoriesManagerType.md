@@ -5,7 +5,7 @@ sidebar_label: "SCCategoriesManagerType"
 custom_edit_url: null
 ---
 
-[types/context](../modules/types_context).SCCategoriesManagerType
+[types/context](../modules/types_context.md).SCCategoriesManagerType
 
 ## Properties
 
@@ -59,7 +59,7 @@ Handle user follow/unfollow category
 
 | Name | Type |
 | :------ | :------ |
-| `category` | [`SCCategoryType`](types_category.SCCategoryType) |
+| `category` | [`SCCategoryType`](types_category.SCCategoryType.md) |
 
 #### Returns
 
@@ -81,7 +81,7 @@ Handle check if a user follow a category, caching data
 
 | Name | Type |
 | :------ | :------ |
-| `category` | [`SCCategoryType`](types_category.SCCategoryType) |
+| `category` | [`SCCategoryType`](types_category.SCCategoryType.md) |
 
 #### Returns
 
@@ -103,7 +103,7 @@ List of current categories in loading state
 
 | Name | Type |
 | :------ | :------ |
-| `category` | [`SCCategoryType`](types_category.SCCategoryType) |
+| `category` | [`SCCategoryType`](types_category.SCCategoryType.md) |
 
 #### Returns
 

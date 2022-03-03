@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationAggregatedType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationAggregatedType
+[types/notification](../modules/types_notification.md).SCNotificationAggregatedType
 
 Interface SCNotificationAggregatedType.
 Notification aggregated Schema.
@@ -14,7 +14,7 @@ Notification aggregated Schema.
 
 ### aggregated
 
-• **aggregated**: [`SCNotificationType`](types_notification.SCNotificationType)[]
+• **aggregated**: [`SCNotificationType`](types_notification.SCNotificationType.md)[]
 
 List of aggregated notifications by type.
 Types Object: NotificationTypeComment, NotificationTypeMention,
@@ -32,7 +32,7 @@ ___
 
 ### discussion
 
-• `Optional` **discussion**: [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType)
+• `Optional` **discussion**: [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType.md)
 
 Primary object involved (object that is common to notifications group)
 if it is a discusssion. For some types of notifications it will not be present.
@@ -58,7 +58,7 @@ ___
 
 ### post
 
-• `Optional` **post**: [`SCFeedPostType`](types_feed.SCFeedPostType)
+• `Optional` **post**: [`SCFeedPostType`](types_feed.SCFeedPostType.md)
 
 Primary object involved (object that is common to notifications group)
 if it is a post. For some types of notifications it will not be present.
@@ -83,7 +83,7 @@ ___
 
 ### status
 
-• `Optional` **status**: [`SCFeedObjectType`](types_feed.SCFeedObjectType)
+• `Optional` **status**: [`SCFeedObjectType`](types_feed.SCFeedObjectType.md)
 
 Primary object involved (object that is common to notifications group)
 if it is a status. For some types of notifications it will not be present.

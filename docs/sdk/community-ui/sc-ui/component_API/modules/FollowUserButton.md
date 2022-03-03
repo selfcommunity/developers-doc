@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [FollowUserButtonProps](../interfaces/FollowUserButton.FollowUserButtonProps)
+- [FollowUserButtonProps](../interfaces/FollowUserButton.FollowUserButtonProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCFollowUserButton` can be used when providing style overrides in the 
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FollowUserButtonProps`](../interfaces/FollowUserButton.FollowUserButtonProps) |
+| `props` | [`FollowUserButtonProps`](../interfaces/FollowUserButton.FollowUserButtonProps.md) |
 
 #### Returns
 

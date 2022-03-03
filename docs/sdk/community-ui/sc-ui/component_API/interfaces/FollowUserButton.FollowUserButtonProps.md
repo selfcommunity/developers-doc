@@ -5,7 +5,7 @@ sidebar_label: "FollowUserButtonProps"
 custom_edit_url: null
 ---
 
-[FollowUserButton](../modules/FollowUserButton).FollowUserButtonProps
+[FollowUserButton](../modules/FollowUserButton.md).FollowUserButtonProps
 
 ## Indexable
 

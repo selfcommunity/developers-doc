@@ -5,7 +5,7 @@ sidebar_label: "LoyaltyProgramProps"
 custom_edit_url: null
 ---
 
-[LoyaltyProgram](../modules/LoyaltyProgram).LoyaltyProgramProps
+[LoyaltyProgram](../modules/LoyaltyProgram.md).LoyaltyProgramProps
 
 ## Properties
 

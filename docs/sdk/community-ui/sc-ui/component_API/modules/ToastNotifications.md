@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [ToastNotificationsProps](../interfaces/ToastNotifications.ToastNotificationsProps)
+- [ToastNotificationsProps](../interfaces/ToastNotifications.ToastNotificationsProps.md)
 
 ## Functions
 
@@ -55,7 +55,7 @@ The name `SCToastNotifications` can be used when providing style overrides in th
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`ToastNotificationsProps`](../interfaces/ToastNotifications.ToastNotificationsProps) |
+| `props` | [`ToastNotificationsProps`](../interfaces/ToastNotifications.ToastNotificationsProps.md) |
 
 #### Returns
 

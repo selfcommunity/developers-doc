@@ -8,4 +8,4 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCPrizeType](../interfaces/types_prize.SCPrizeType)
+- [SCPrizeType](../interfaces/types_prize.SCPrizeType.md)

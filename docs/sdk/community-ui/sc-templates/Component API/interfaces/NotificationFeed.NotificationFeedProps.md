@@ -5,7 +5,7 @@ sidebar_label: "NotificationFeedProps"
 custom_edit_url: null
 ---
 
-[NotificationFeed](../modules/NotificationFeed).NotificationFeedProps
+[NotificationFeed](../modules/NotificationFeed.md).NotificationFeedProps
 
 ## Properties
 

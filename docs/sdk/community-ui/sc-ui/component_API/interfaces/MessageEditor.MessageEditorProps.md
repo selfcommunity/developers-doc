@@ -5,7 +5,7 @@ sidebar_label: "MessageEditorProps"
 custom_edit_url: null
 ---
 
-[MessageEditor](../modules/MessageEditor).MessageEditorProps
+[MessageEditor](../modules/MessageEditor.md).MessageEditorProps
 
 ## Indexable
 

@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [UserProfileInfoProps](../interfaces/UserProfileInfo.UserProfileInfoProps)
+- [UserProfileInfoProps](../interfaces/UserProfileInfo.UserProfileInfoProps.md)
 
 ## Functions
 
@@ -39,7 +39,7 @@ The name `SCUserProfileInfo` can be used when providing style overrides in the t
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProfileInfoProps`](../interfaces/UserProfileInfo.UserProfileInfoProps) |
+| `props` | [`UserProfileInfoProps`](../interfaces/UserProfileInfo.UserProfileInfoProps.md) |
 
 #### Returns
 

@@ -8,23 +8,23 @@ custom_edit_url: null
 
 ## Enumerations
 
-- [SCFeedObjectTypologyType](../enums/types_feed.SCFeedObjectTypologyType)
-- [SCFeedTypologyType](../enums/types_feed.SCFeedTypologyType)
-- [SCFeedUnitActivityTypologyType](../enums/types_feed.SCFeedUnitActivityTypologyType)
+- [SCFeedObjectTypologyType](../enums/types_feed.SCFeedObjectTypologyType.md)
+- [SCFeedTypologyType](../enums/types_feed.SCFeedTypologyType.md)
+- [SCFeedUnitActivityTypologyType](../enums/types_feed.SCFeedUnitActivityTypologyType.md)
 
 ## Interfaces
 
-- [SCFeedDiscussionType](../interfaces/types_feed.SCFeedDiscussionType)
-- [SCFeedObjectType](../interfaces/types_feed.SCFeedObjectType)
-- [SCFeedPostType](../interfaces/types_feed.SCFeedPostType)
-- [SCFeedUnitActivityType](../interfaces/types_feed.SCFeedUnitActivityType)
-- [SCFeedUnitType](../interfaces/types_feed.SCFeedUnitType)
+- [SCFeedDiscussionType](../interfaces/types_feed.SCFeedDiscussionType.md)
+- [SCFeedObjectType](../interfaces/types_feed.SCFeedObjectType.md)
+- [SCFeedPostType](../interfaces/types_feed.SCFeedPostType.md)
+- [SCFeedUnitActivityType](../interfaces/types_feed.SCFeedUnitActivityType.md)
+- [SCFeedUnitType](../interfaces/types_feed.SCFeedUnitType.md)
 
 ## Type aliases
 
 ### SCFeedStatusType
 
-Ƭ **SCFeedStatusType**: [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType)
+Ƭ **SCFeedStatusType**: [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType.md)
 
 Interface SCFeedStatusType.
 Status Schema.

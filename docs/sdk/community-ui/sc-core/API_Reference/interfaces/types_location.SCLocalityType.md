@@ -5,7 +5,7 @@ sidebar_label: "SCLocalityType"
 custom_edit_url: null
 ---
 
-[types/location](../modules/types_location).SCLocalityType
+[types/location](../modules/types_location.md).SCLocalityType
 
 Interface SCLocalityType.
 Locality Schema.

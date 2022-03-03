@@ -5,7 +5,7 @@ sidebar_label: "SCNotificationTopicType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationTopicType
+[types/notification](../modules/types_notification.md).SCNotificationTopicType
 
 Define topic for notifications
 Usefull for websocket

@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [PrivateMessagesProps](../interfaces/PrivateMessages.PrivateMessagesProps)
+- [PrivateMessagesProps](../interfaces/PrivateMessages.PrivateMessagesProps.md)
 
 ## Functions
 
@@ -40,7 +40,7 @@ The name `SCPrivateMessages` can be used when providing style overrides in the t
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`PrivateMessagesProps`](../interfaces/PrivateMessages.PrivateMessagesProps) |
+| `props` | [`PrivateMessagesProps`](../interfaces/PrivateMessages.PrivateMessagesProps.md) |
 
 #### Returns
 

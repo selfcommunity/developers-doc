@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [FriendshipButtonProps](../interfaces/FriendshipUserButton.FriendshipButtonProps)
+- [FriendshipButtonProps](../interfaces/FriendshipUserButton.FriendshipButtonProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCFriendshipUserButton` can be used when providing style overrides in 
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FriendshipButtonProps`](../interfaces/FriendshipUserButton.FriendshipButtonProps) |
+| `props` | [`FriendshipButtonProps`](../interfaces/FriendshipUserButton.FriendshipButtonProps.md) |
 
 #### Returns
 

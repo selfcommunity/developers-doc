@@ -5,14 +5,14 @@ sidebar_label: "SCNotificationMentionType"
 custom_edit_url: null
 ---
 
-[types/notification](../modules/types_notification).SCNotificationMentionType
+[types/notification](../modules/types_notification.md).SCNotificationMentionType
 
 Interface SCNotificationMentionType.
 Mention Notification Schema.
 
 ## Hierarchy
 
-- [`SCNotificationType`](types_notification.SCNotificationType)
+- [`SCNotificationType`](types_notification.SCNotificationType.md)
 
   ↳ **`SCNotificationMentionType`**
 
@@ -26,7 +26,7 @@ Time when the notification was generated
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[active_at](types_notification.SCNotificationType#active_at)
+[SCNotificationType](types_notification.SCNotificationType.md).[active_at](types_notification.SCNotificationType.md#active_at)
 
 #### Defined in
 
@@ -36,7 +36,7 @@ ___
 
 ### comment
 
-• `Optional` **comment**: [`SCCommentType`](types_comment.SCCommentType)
+• `Optional` **comment**: [`SCCommentType`](types_comment.SCCommentType.md)
 
 If user is mentioned in a comment
 
@@ -48,7 +48,7 @@ ___
 
 ### discussion
 
-• `Optional` **discussion**: [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType)
+• `Optional` **discussion**: [`SCFeedDiscussionType`](types_feed.SCFeedDiscussionType.md)
 
 If user is mentioned in a discussion
 
@@ -66,7 +66,7 @@ True if the notification has been read, otherwise false
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[is_new](types_notification.SCNotificationType#is_new)
+[SCNotificationType](types_notification.SCNotificationType.md).[is_new](types_notification.SCNotificationType.md#is_new)
 
 #### Defined in
 
@@ -76,7 +76,7 @@ ___
 
 ### post
 
-• `Optional` **post**: [`SCFeedPostType`](types_feed.SCFeedPostType)
+• `Optional` **post**: [`SCFeedPostType`](types_feed.SCFeedPostType.md)
 
 If the user is mentioned in a post
 
@@ -94,7 +94,7 @@ Serialization id of the single notification
 
 #### Inherited from
 
-[SCNotificationType](types_notification.SCNotificationType).[sid](types_notification.SCNotificationType#sid)
+[SCNotificationType](types_notification.SCNotificationType.md).[sid](types_notification.SCNotificationType.md#sid)
 
 #### Defined in
 
@@ -104,7 +104,7 @@ ___
 
 ### status
 
-• `Optional` **status**: [`SCFeedObjectType`](types_feed.SCFeedObjectType)
+• `Optional` **status**: [`SCFeedObjectType`](types_feed.SCFeedObjectType.md)
 
 If user is mentioned in a status
 
@@ -116,13 +116,13 @@ ___
 
 ### type
 
-• **type**: [`MENTION`](../enums/types_notification.SCNotificationTypologyType#mention)
+• **type**: [`MENTION`](../enums/types_notification.SCNotificationTypologyType.md#mention)
 
 Type Mention
 
 #### Overrides
 
-[SCNotificationType](types_notification.SCNotificationType).[type](types_notification.SCNotificationType#type)
+[SCNotificationType](types_notification.SCNotificationType.md).[type](types_notification.SCNotificationType.md#type)
 
 #### Defined in
 

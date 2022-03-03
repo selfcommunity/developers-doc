@@ -8,8 +8,8 @@ custom_edit_url: null
 
 ## Enumerations
 
-- [SCPrivateMessageStatusType](../enums/types_privateMessage.SCPrivateMessageStatusType)
+- [SCPrivateMessageStatusType](../enums/types_privateMessage.SCPrivateMessageStatusType.md)
 
 ## Interfaces
 
-- [SCPrivateMessageType](../interfaces/types_privateMessage.SCPrivateMessageType)
+- [SCPrivateMessageType](../interfaces/types_privateMessage.SCPrivateMessageType.md)

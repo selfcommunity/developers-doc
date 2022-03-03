@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [CategoryFeedProps](../interfaces/CategoryFeed.CategoryFeedProps)
+- [CategoryFeedProps](../interfaces/CategoryFeed.CategoryFeedProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoryFeedProps`](../interfaces/CategoryFeed.CategoryFeedProps) |
+| `props` | [`CategoryFeedProps`](../interfaces/CategoryFeed.CategoryFeedProps.md) |
 
 #### Returns
 

@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [MainFeedProps](../interfaces/MainFeed.MainFeedProps)
+- [MainFeedProps](../interfaces/MainFeed.MainFeedProps.md)
 
 ## Functions
 
@@ -20,7 +20,7 @@ custom_edit_url: null
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`MainFeedProps`](../interfaces/MainFeed.MainFeedProps) |
+| `props` | [`MainFeedProps`](../interfaces/MainFeed.MainFeedProps.md) |
 
 #### Returns
 

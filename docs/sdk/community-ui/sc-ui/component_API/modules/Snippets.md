@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SnippetsProps](../interfaces/Snippets.SnippetsProps)
+- [SnippetsProps](../interfaces/Snippets.SnippetsProps.md)
 
 ## Functions
 
@@ -39,7 +39,7 @@ The name `SCSnippets` can be used when providing style overrides in the theme.
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`SnippetsProps`](../interfaces/Snippets.SnippetsProps) |
+| `props` | [`SnippetsProps`](../interfaces/Snippets.SnippetsProps.md) |
 
 #### Returns
 

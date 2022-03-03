@@ -5,7 +5,7 @@ sidebar_label: "PlatformProps"
 custom_edit_url: null
 ---
 
-[Platform](../modules/Platform).PlatformProps
+[Platform](../modules/Platform.md).PlatformProps
 
 ## Indexable
 

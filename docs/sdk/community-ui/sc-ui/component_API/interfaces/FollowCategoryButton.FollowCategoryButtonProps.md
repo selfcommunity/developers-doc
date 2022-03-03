@@ -5,7 +5,7 @@ sidebar_label: "FollowCategoryButtonProps"
 custom_edit_url: null
 ---
 
-[FollowCategoryButton](../modules/FollowCategoryButton).FollowCategoryButtonProps
+[FollowCategoryButton](../modules/FollowCategoryButton.md).FollowCategoryButtonProps
 
 ## Indexable
 

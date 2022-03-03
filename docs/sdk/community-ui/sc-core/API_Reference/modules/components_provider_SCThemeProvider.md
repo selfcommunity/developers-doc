@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### SCThemeContext
 
-• **SCThemeContext**: `Context`<[`SCThemeContextType`](../interfaces/types_context.SCThemeContextType)\>
+• `Const` **SCThemeContext**: `Context`<[`SCThemeContextType`](../interfaces/types_context.SCThemeContextType.md)\>
 
 Creates Global Context
 
@@ -68,14 +68,14 @@ ___
 
 ### useSCTheme
 
-▸ **useSCTheme**(): [`SCThemeContextType`](../interfaces/types_context.SCThemeContextType)
+▸ **useSCTheme**(): [`SCThemeContextType`](../interfaces/types_context.SCThemeContextType.md)
 
 Let's only export the `useSCTheme` hook instead of the context.
 We only want to use the hook directly and never the context component.
 
 #### Returns
 
-[`SCThemeContextType`](../interfaces/types_context.SCThemeContextType)
+[`SCThemeContextType`](../interfaces/types_context.SCThemeContextType.md)
 
 #### Defined in
 
@@ -85,7 +85,7 @@ ___
 
 ### withSCTheme
 
-▸ `Const` **withSCTheme**(`Component`): (`props`: `any`) => `Element`
+▸ **withSCTheme**(`Component`): (`props`: `any`) => `Element`
 
 Export hoc to inject the base theme to components
 

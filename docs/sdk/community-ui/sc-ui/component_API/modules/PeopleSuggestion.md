@@ -8,7 +8,7 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [PeopleSuggestionProps](../interfaces/PeopleSuggestion.PeopleSuggestionProps)
+- [PeopleSuggestionProps](../interfaces/PeopleSuggestion.PeopleSuggestionProps.md)
 
 ## Functions
 
@@ -38,7 +38,7 @@ The name `SCPeopleSuggestion` can be used when providing style overrides in the 
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`PeopleSuggestionProps`](../interfaces/PeopleSuggestion.PeopleSuggestionProps) |
+| `props` | [`PeopleSuggestionProps`](../interfaces/PeopleSuggestion.PeopleSuggestionProps.md) |
 
 #### Returns
 

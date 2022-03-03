@@ -5,7 +5,7 @@ sidebar_label: "UserProfileProps"
 custom_edit_url: null
 ---
 
-[UserProfile](../modules/UserProfile).UserProfileProps
+[UserProfile](../modules/UserProfile.md).UserProfileProps
 
 ## Properties
 

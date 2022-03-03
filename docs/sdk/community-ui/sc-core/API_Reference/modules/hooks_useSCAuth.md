@@ -42,7 +42,7 @@ const scRoutingContext: SCRoutingContextType = useSCRouting();
 
 | Name | Type |
 | :------ | :------ |
-| `initialSession` | [`SCSessionType`](../interfaces/types_context.SCSessionType) |
+| `initialSession` | [`SCSessionType`](../interfaces/types_context.SCSessionType.md) |
 
 #### Returns
 
@@ -51,8 +51,8 @@ const scRoutingContext: SCRoutingContextType = useSCRouting();
 | Name | Type |
 | :------ | :------ |
 | `dispatch` | `Dispatch`<`any`\> |
-| `helpers` | { `refreshSession`: () => `Promise`<[`SCAuthTokenType`](../interfaces/types_context.SCAuthTokenType)\>  } |
-| `helpers.refreshSession` | () => `Promise`<[`SCAuthTokenType`](../interfaces/types_context.SCAuthTokenType)\> |
+| `helpers` | { `refreshSession`: () => `Promise`<[`SCAuthTokenType`](../interfaces/types_context.SCAuthTokenType.md)\>  } |
+| `helpers.refreshSession` | () => `Promise`<[`SCAuthTokenType`](../interfaces/types_context.SCAuthTokenType.md)\> |
 | `state` | `any` |
 
 #### Defined in

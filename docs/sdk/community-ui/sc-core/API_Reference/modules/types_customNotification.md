@@ -8,4 +8,4 @@ custom_edit_url: null
 
 ## Interfaces
 
-- [SCCustomNotificationType](../interfaces/types_customNotification.SCCustomNotificationType)
+- [SCCustomNotificationType](../interfaces/types_customNotification.SCCustomNotificationType.md)

@@ -5,7 +5,7 @@ sidebar_label: "FriendshipButtonProps"
 custom_edit_url: null
 ---
 
-[FriendshipUserButton](../modules/FriendshipUserButton).FriendshipButtonProps
+[FriendshipUserButton](../modules/FriendshipUserButton.md).FriendshipButtonProps
 
 ## Indexable
 

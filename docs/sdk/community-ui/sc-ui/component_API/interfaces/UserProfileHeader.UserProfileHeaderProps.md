@@ -5,7 +5,7 @@ sidebar_label: "UserProfileHeaderProps"
 custom_edit_url: null
 ---
 
-[UserProfileHeader](../modules/UserProfileHeader).UserProfileHeaderProps
+[UserProfileHeader](../modules/UserProfileHeader.md).UserProfileHeaderProps
 
 ## Indexable
 
@@ -17,7 +17,7 @@ Any other properties
 
 ### ChangeCoverProps
 
-• `Optional` **ChangeCoverProps**: [`ChangeCoverProps`](ChangeCover.ChangeCoverProps)
+• `Optional` **ChangeCoverProps**: [`ChangeCoverProps`](ChangeCover.ChangeCoverProps.md)
 
 Props to spread change cover button
 
@@ -31,7 +31,7 @@ ___
 
 ### ChangePictureProps
 
-• `Optional` **ChangePictureProps**: [`ChangePictureProps`](ChangePicture.ChangePictureProps)
+• `Optional` **ChangePictureProps**: [`ChangePictureProps`](ChangePicture.ChangePictureProps.md)
 
 Props to spread change picture button
 
