@@ -6,12 +6,13 @@ title: User Feed
 
 > The User Feed template renders user feed page.
 
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./userFeed.js';
 import {UserFeed} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<Logged><UserFeed userId={1}/></Logged>
+<BrowserOnly><Logged><UserFeed userId={1}/></Logged></BrowserOnly>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

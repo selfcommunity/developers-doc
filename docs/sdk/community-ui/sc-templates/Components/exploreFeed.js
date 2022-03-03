@@ -1,10 +1,10 @@
 import React from 'react';
 import {ExploreFeed} from '@selfcommunity/templates';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <ExploreFeed/>
+        <BrowserOnly><ExploreFeed/></BrowserOnly>
     );
 }
 

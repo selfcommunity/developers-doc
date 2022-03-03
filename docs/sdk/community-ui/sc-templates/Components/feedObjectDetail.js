@@ -1,10 +1,12 @@
 import React from 'react';
 import {FeedObjectDetail} from '@selfcommunity/templates';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
-
-export default function App () {
+export default function App() {
     return (
-        <FeedObjectDetail/>
+        <BrowserOnly>
+            <FeedObjectDetail/>
+        </BrowserOnly>
     );
 }
 

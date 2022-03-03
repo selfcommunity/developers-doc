@@ -6,12 +6,13 @@ title: Private Messages
 
 > The Private Messages component renders private messages.
 
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./privateMessages.js';
 import {PrivateMessages} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<Logged><PrivateMessages/></Logged>
+<BrowserOnly><Logged><PrivateMessages/></Logged></BrowserOnly>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

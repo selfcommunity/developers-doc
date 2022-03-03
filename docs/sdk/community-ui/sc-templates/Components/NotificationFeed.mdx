@@ -6,12 +6,13 @@ title: Notification Feed
 
 > The Notification Feed tempalte renders the notification feed page.
 
+import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./notificationFeed.js';
 import {NotificationFeed} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<Logged><NotificationFeed/></Logged>
+<BrowserOnly><Logged><NotificationFeed/></Logged></BrowserOnly>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>
