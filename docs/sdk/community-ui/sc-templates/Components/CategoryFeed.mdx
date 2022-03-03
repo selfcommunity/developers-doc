@@ -6,13 +6,12 @@ title: Category Feed
 
 > The Category Feed template renders the category feed.
 
-import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./categoryFeed.js';
 import {CategoryFeed} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<BrowserOnly><Logged><CategoryFeed categoryId={3}/></Logged></BrowserOnly>
+<Logged><CategoryFeed categoryId={3}/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

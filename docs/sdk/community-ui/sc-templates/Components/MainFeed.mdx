@@ -6,13 +6,12 @@ title: Main Feed
 
 > The Main Feed tempalte renders the main feed page.
 
-import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./mainFeed.js';
 import {MainFeed} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<BrowserOnly><Logged><MainFeed/></Logged></BrowserOnly>
+<Logged><MainFeed/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

@@ -1,6 +1,7 @@
 import React from 'react';
 import {SCContextProvider} from '@selfcommunity/core';
 import {sessionData} from "./sessionData";
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function Anonymous({children}) {
 
@@ -18,8 +19,10 @@ export default function Anonymous({children}) {
     };
 
     return (
-        <SCContextProvider conf={_conf}>
-            {children}
-        </SCContextProvider>
+        <BrowserOnly>
+            {() => <SCContextProvider conf={_conf}>
+                {children}
+            </SCContextProvider>}
+        </BrowserOnly>
     );
 };

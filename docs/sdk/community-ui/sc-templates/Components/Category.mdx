@@ -6,13 +6,12 @@ title: Category
 
 > The Category template renders the category page.
 
-import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./category.js';
-import {Category} from '@selfcommunity/templates';
+import Category from './category';
 import Logged from "../../Logged";
 
-<BrowserOnly><Logged><Category categoryId={3}/></Logged></BrowserOnly>
+<Logged><Category/></Logged>
 
 
 #### Usage

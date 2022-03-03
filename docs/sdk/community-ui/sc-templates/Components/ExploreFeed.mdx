@@ -6,13 +6,12 @@ title: Explore Feed
 
 > The Explore Feed template renders the explore feed page.
 
-import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./exploreFeed.js';
 import {ExploreFeed} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<BrowserOnly><Logged><ExploreFeed/></Logged></BrowserOnly>
+<Logged><ExploreFeed/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

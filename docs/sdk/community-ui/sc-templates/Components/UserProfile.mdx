@@ -6,13 +6,12 @@ title: User Profile
 
 > The UserProfile template renders the user profile page.
 
-import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./userProfile.js';
 import {UserProfile} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<BrowserOnly><Logged><UserProfile userId={1}/></Logged> </BrowserOnly>
+<Logged><UserProfile userId={1}/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

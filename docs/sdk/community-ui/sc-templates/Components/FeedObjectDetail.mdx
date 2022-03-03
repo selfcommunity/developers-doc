@@ -6,13 +6,12 @@ title: Feed Object Detail
 
 > The Feed Object Detail tempalte renders the feed object detail page.
 
-import BrowserOnly from '@docusaurus/BrowserOnly';
 import CodeBlock from '@theme/CodeBlock';
 import Component  from '!!raw-loader!./feedObjectDetail.js';
 import {FeedObjectDetail} from '@selfcommunity/templates';
 import Logged from "../../Logged";
 
-<BrowserOnly><Logged><FeedObjectDetail/></Logged></BrowserOnly>
+<Logged><FeedObjectDetail/></Logged>
 
 #### Usage
  <CodeBlock className="language-jsx">{Component}</CodeBlock>

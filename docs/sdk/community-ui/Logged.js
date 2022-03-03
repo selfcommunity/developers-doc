@@ -3,6 +3,8 @@ import {sessionData} from "./sessionData";
 import {useAuthToken} from "./useAuthToken";
 import {SCContextProvider} from '@selfcommunity/core';
 import {refreshToken} from "./helpers";
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
 
 export default function Logged ({children}) {
     const authToken = useAuthToken();
@@ -23,8 +25,10 @@ export default function Logged ({children}) {
     };
 
     return (
-        <SCContextProvider conf={_conf}>
-            {children}
-        </SCContextProvider>
+        <BrowserOnly>
+            {() => <SCContextProvider conf={_conf}>
+                {children}
+            </SCContextProvider>}
+        </BrowserOnly>
     );
 };

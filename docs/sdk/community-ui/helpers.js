@@ -5,6 +5,7 @@
  * @returns {Promise<Response>}
  */
 import {sessionData} from "./sessionData";
+import useIsBrowser from '@docusaurus/useIsBrowser';
 
 function postData(url = '', data = {}) {
     const formBody = Object.keys(data).map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
@@ -40,7 +41,8 @@ export function getOAuthSession() {
  * Helper refreshToken
  */
 export function refreshToken() {
-    if (typeof window !== 'undefined') {
+    const isBrowser = useIsBrowser();
+    if (isBrowser) {
         const stored = JSON.parse(window.localStorage.getItem("token"));
         const data = {
             'refresh_token': stored.refresh_token,
