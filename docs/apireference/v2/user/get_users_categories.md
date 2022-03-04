@@ -21,6 +21,7 @@ This operation does not require authentication.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this user.|
+|mutual|path|integer|false|Allowed values: 0-1. Param 0 returns the list of non mutual categories. Param 1 returns only the mutual list.|
 
 ### Example Request
 
@@ -70,6 +71,9 @@ curl -X GET /api/v2/user/{id}/categories/ \
 
 ### Example responses
 
+:::info
+The results always return categories sorted by: first mutuals and then non-mutuals.
+:::
 
 ````mdx-code-block
 

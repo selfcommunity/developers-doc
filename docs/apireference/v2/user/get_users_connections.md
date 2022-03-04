@@ -28,6 +28,7 @@ This operation requires authentication only if `content_availability` community 
 |id|path|string|true|A unique integer value identifying this user.|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
+|mutual|path|integer|false|Allowed values: 0-1. Param 0 returns the list of non mutual connections. Param 1 returns only the mutual list.|
 
 ### Example Request
 
@@ -87,6 +88,9 @@ Status Code **200**
 
 ### Example responses
 
+:::info
+The results always return users sorted by: first mutuals and then non-mutuals.
+:::
 
 ````mdx-code-block
 
