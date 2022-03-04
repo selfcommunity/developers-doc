@@ -1,9 +1,14 @@
 import React from 'react';
-import {TrendingFeed} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <TrendingFeed/>
+        <BrowserOnly>
+            {() => {
+                const TrendingFeed = require('@selfcommunity/ui').TrendingFeed;
+                return <TrendingFeed categoryId={3}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

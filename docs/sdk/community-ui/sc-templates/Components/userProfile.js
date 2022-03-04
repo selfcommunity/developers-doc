@@ -1,9 +1,14 @@
 import React from 'react';
-import {UserProfile} from '@selfcommunity/templates';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App() {
     return (
-            <UserProfile/>
+        <BrowserOnly>
+            {() => {
+                const UserProfile = require('@selfcommunity/templates').UserProfile;
+                return <UserProfile userId={1}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

@@ -1,10 +1,14 @@
 import React from 'react';
-import {PeopleSuggestion} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-       <PeopleSuggestion/>
+        <BrowserOnly>
+            {() => {
+                const PeopleSuggestion = require('@selfcommunity/ui').PeopleSuggestion;
+                return <PeopleSuggestion/>;
+            }}
+        </BrowserOnly>
     );
 }
 

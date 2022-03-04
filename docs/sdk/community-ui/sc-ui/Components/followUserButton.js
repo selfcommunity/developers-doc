@@ -1,10 +1,14 @@
 import React from 'react';
-import {FollowUserButton} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <FollowUserButton/>
+        <BrowserOnly>
+            {() => {
+                const FollowUserButton = require('@selfcommunity/ui').FollowUserButton;
+                return <FollowUserButton/>;
+            }}
+        </BrowserOnly>
     );
 }
 

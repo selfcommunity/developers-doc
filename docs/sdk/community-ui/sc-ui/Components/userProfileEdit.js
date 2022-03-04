@@ -1,10 +1,14 @@
 import React from 'react';
-import {UserProfileEdit} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <UserProfileEdit/>
+        <BrowserOnly>
+            {() => {
+                const UserProfileEdit = require('@selfcommunity/ui').UserProfileEdit;
+                return <UserProfileEdit id={18}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

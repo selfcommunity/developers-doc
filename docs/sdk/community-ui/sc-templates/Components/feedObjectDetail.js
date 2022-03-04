@@ -1,9 +1,15 @@
 import React from 'react';
-import {FeedObjectDetail} from '@selfcommunity/templates';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App() {
     return (
-            <FeedObjectDetail/>
+        <BrowserOnly>
+            {() => {
+                const FeedObjectDetail = require('@selfcommunity/templates').FeedObjectDetail;
+                return <FeedObjectDetail/>;
+            }}
+        </BrowserOnly>
+
     );
 }
 

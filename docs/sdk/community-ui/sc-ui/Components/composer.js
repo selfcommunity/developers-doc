@@ -1,9 +1,14 @@
 import React from 'react';
-import {Composer} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <Composer/>
+        <BrowserOnly>
+            {() => {
+                const Composer = require('@selfcommunity/ui').Composer;
+                return <Composer/>;
+            }}
+        </BrowserOnly>
     );
 }
 

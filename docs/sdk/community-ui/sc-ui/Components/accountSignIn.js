@@ -1,10 +1,16 @@
 import React from 'react';
-import {AccountSignIn} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
 
 
 export default function App() {
     return (
-        <AccountSignIn/>
+        <BrowserOnly>
+            {() => {
+                const AccountSignIn = require('@selfcommunity/ui').AccountSignIn;
+                return <AccountSignIn/>;
+            }}
+        </BrowserOnly>
     );
 }
 

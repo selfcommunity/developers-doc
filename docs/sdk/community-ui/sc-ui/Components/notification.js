@@ -1,10 +1,14 @@
 import React from 'react';
-import {Notification} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <Notification/>
+        <BrowserOnly>
+            {() => {
+                const Notification = require('@selfcommunity/ui').Notification;
+                return <Notification/>;
+            }}
+        </BrowserOnly>
     );
 }
 

@@ -1,9 +1,14 @@
 import React from 'react';
-import {Editor} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <Editor/>
+        <BrowserOnly>
+            {() => {
+                const Editor = require('@selfcommunity/ui').Editor;
+                return <Editor/>;
+            }}
+        </BrowserOnly>
     );
 }
 

@@ -1,9 +1,15 @@
 import React from 'react';
-import {NotificationFeed} from '@selfcommunity/templates';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <NotificationFeed/>
+        <BrowserOnly>
+            {() => {
+                const NotificationFeed = require('@selfcommunity/templates').NotificationFeed;
+                return <NotificationFeed/>;
+            }}
+        </BrowserOnly>
+
     );
 }
 

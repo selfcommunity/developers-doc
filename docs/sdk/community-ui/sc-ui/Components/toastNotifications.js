@@ -1,9 +1,14 @@
 import React from 'react';
-import {ToastNotifications} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <ToastNotifications/>
+        <BrowserOnly>
+            {() => {
+                const ToastNotifications = require('@selfcommunity/ui').ToastNotifications;
+                return <ToastNotifications/>;
+            }}
+        </BrowserOnly>
     );
 }
 

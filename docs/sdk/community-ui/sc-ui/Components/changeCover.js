@@ -1,10 +1,14 @@
 import React from 'react';
-import {ChangeCover} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <ChangeCover/>
+        <BrowserOnly>
+            {() => {
+                const ChangeCover = require('@selfcommunity/ui').ChangeCover;
+                return <ChangeCover/>;
+            }}
+        </BrowserOnly>
     );
 }
 

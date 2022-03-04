@@ -1,9 +1,14 @@
 import React from 'react';
-import {CommentsObject} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <CommentsObject/>
+        <BrowserOnly>
+            {() => {
+                const CommentsObject = require('@selfcommunity/ui').CommentsObject;
+                return <CommentsObject/>;
+            }}
+        </BrowserOnly>
     );
 }
 

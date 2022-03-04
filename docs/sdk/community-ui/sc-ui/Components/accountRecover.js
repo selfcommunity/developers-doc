@@ -1,10 +1,15 @@
 import React from 'react';
-import {AccountRecover} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App() {
     return (
-        <AccountRecover/>
+        <BrowserOnly>
+            {() => {
+                const AccountRecover = require('@selfcommunity/ui').AccountRecover;
+                return <AccountRecover/>;
+            }}
+        </BrowserOnly>
     );
 }
 

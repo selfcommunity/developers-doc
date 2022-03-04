@@ -1,10 +1,14 @@
 import React from 'react';
-import {RelatedDiscussion} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <RelatedDiscussion/>
+        <BrowserOnly>
+            {() => {
+                const RelatedDiscussion = require('@selfcommunity/ui').RelatedDiscussion;
+                return <RelatedDiscussion/>;
+            }}
+        </BrowserOnly>
     );
 }
 

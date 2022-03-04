@@ -1,10 +1,15 @@
 import React from 'react';
-import {MessageEditor} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App () {
     return (
-        <MessageEditor/>
+        <BrowserOnly>
+            {() => {
+                const MessageEditor = require('@selfcommunity/ui').MessageEditor;
+                return <MessageEditor/>;
+            }}
+        </BrowserOnly>
     );
 }
 

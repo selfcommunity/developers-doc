@@ -1,10 +1,14 @@
 import React from 'react';
-import {CategoriesFollowed} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <CategoriesFollowed/>
+        <BrowserOnly>
+            {() => {
+                const CategoriesFollowed = require('@selfcommunity/ui').CategoriesFollowed;
+                return <CategoriesFollowed/>;
+            }}
+        </BrowserOnly>
     );
 }
 

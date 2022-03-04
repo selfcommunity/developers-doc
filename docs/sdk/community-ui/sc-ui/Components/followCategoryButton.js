@@ -1,9 +1,14 @@
 import React from 'react';
-import {FollowCategoryButton} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <FollowCategoryButton/>
+        <BrowserOnly>
+            {() => {
+                const FollowCategoryButton = require('@selfcommunity/ui').FollowCategoryButton;
+                return <FollowCategoryButton/>;
+            }}
+        </BrowserOnly>
     );
 }
 

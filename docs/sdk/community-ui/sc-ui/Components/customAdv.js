@@ -1,9 +1,14 @@
 import React from 'react';
-import {CustomAdv} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <CustomAdv/>
+        <BrowserOnly>
+            {() => {
+                const CustomAdv = require('@selfcommunity/ui').CustomAdv;
+                return <CustomAdv/>;
+            }}
+        </BrowserOnly>
     );
 }
 

@@ -1,9 +1,14 @@
 import React from 'react';
-import {UserFeed} from '@selfcommunity/templates';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App() {
     return (
-            <UserFeed/>
+        <BrowserOnly>
+            {() => {
+                const UserFeed = require('@selfcommunity/templates').UserFeed;
+                return <UserFeed userId={1}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

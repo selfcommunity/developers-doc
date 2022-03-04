@@ -1,10 +1,14 @@
 import React from 'react';
-import {FeedObject} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <FeedObject/>
+        <BrowserOnly>
+            {() => {
+                const FeedObject = require('@selfcommunity/ui').FeedObject;
+                return <FeedObject/>;
+            }}
+        </BrowserOnly>
     );
 }
 

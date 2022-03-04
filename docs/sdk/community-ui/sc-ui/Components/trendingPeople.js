@@ -1,10 +1,14 @@
 import React from 'react';
-import {TrendingPeople} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <TrendingPeople categoryId={2}/>
+        <BrowserOnly>
+            {() => {
+                const TrendingPeople = require('@selfcommunity/ui').TrendingPeople;
+                return <TrendingPeople categoryId={2}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

@@ -1,9 +1,14 @@
 import React from 'react';
-import {PrivateMessages} from '@selfcommunity/templates';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <PrivateMessages/>
+        <BrowserOnly>
+            {() => {
+                const PrivateMessages = require('@selfcommunity/templates').PrivateMessages;
+                return <PrivateMessages/>;
+            }}
+        </BrowserOnly>
     );
 }
 

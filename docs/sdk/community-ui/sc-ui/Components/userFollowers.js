@@ -1,10 +1,14 @@
 import React from 'react';
-import {UserFollowers} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <UserFollowers/>
+        <BrowserOnly>
+            {() => {
+                const UserFollowers = require('@selfcommunity/ui').UserFollowers;
+                return <UserFollowers id={18}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

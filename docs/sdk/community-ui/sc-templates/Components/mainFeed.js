@@ -1,9 +1,15 @@
 import React from 'react';
-import {MainFeed} from '@selfcommunity/templates';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <MainFeed/>
+        <BrowserOnly>
+            {() => {
+                const MainFeed = require('@selfcommunity/templates').MainFeed;
+                return <MainFeed/>;
+            }}
+        </BrowserOnly>
+
     );
 }
 

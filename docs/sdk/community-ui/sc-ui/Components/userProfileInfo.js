@@ -1,10 +1,14 @@
 import React from 'react';
-import {UserProfileInfo} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <UserProfileInfo/>
+        <BrowserOnly>
+            {() => {
+                const UserProfileInfo = require('@selfcommunity/ui').UserProfileInfo;
+                return <UserProfileInfo userId={18}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

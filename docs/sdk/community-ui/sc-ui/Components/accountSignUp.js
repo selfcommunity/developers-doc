@@ -1,10 +1,15 @@
 import React from 'react';
-import {AccountSignUp} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App() {
     return (
-        <AccountSignUp/>
+        <BrowserOnly>
+            {() => {
+                const AccountSignUp = require('@selfcommunity/ui').AccountSignUp;
+                return <AccountSignUp/>;
+            }}
+        </BrowserOnly>
     );
 }
 

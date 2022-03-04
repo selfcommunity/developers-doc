@@ -1,9 +1,14 @@
 import React from 'react';
-import {CategoriesSuggestion} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <CategoriesSuggestion/>
+        <BrowserOnly>
+            {() => {
+                const CategoriesSuggestion = require('@selfcommunity/ui').CategoriesSuggestion;
+                return <CategoriesSuggestion/>;
+            }}
+        </BrowserOnly>
     );
 }
 

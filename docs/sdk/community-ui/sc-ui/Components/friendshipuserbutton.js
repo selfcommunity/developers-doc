@@ -1,9 +1,14 @@
 import React from 'react';
-import {FriendshipUserButton} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <FriendshipUserButton/>
+        <BrowserOnly>
+            {() => {
+                const FriendshipUserButton = require('@selfcommunity/ui').FriendshipUserButton;
+                return <FriendshipUserButton/>;
+            }}
+        </BrowserOnly>
     );
 }
 

@@ -1,10 +1,15 @@
 import React from 'react';
-import {LoyaltyProgram} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App () {
     return (
-        <LoyaltyProgram/>
+        <BrowserOnly>
+            {() => {
+                const LoyaltyProgram = require('@selfcommunity/ui').LoyaltyProgram;
+                return <LoyaltyProgram/>;
+            }}
+        </BrowserOnly>
     );
 }
 

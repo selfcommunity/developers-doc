@@ -1,10 +1,15 @@
 import React from 'react';
-import {Message} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App () {
     return (
-        <Message/>
+        <BrowserOnly>
+            {() => {
+                const Message = require('@selfcommunity/ui').Message;
+                return <Message />;
+            }}
+        </BrowserOnly>
     );
 }
 

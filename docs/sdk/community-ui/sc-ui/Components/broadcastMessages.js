@@ -1,10 +1,15 @@
 import React from 'react';
-import {BroadcastMessages} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App() {
     return (
-        <BroadcastMessages/>
+        <BrowserOnly>
+            {() => {
+                const BroadcastMessages = require('@selfcommunity/ui').BroadcastMessages;
+                return <BroadcastMessages/>;
+            }}
+        </BrowserOnly>
     );
 }
 

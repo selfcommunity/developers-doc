@@ -1,10 +1,14 @@
 import React from 'react';
-import {Snippets} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <Snippets/>
+        <BrowserOnly>
+            {() => {
+                const Snippets = require('@selfcommunity/ui').Snippets;
+                return <Snippets/>;
+            }}
+        </BrowserOnly>
     );
 }
 

@@ -1,10 +1,15 @@
 import React from 'react';
-import {CategoryHeader} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App () {
     return (
-        <CategoryHeader/>
+        <BrowserOnly>
+            {() => {
+                const CategoryHeader = require('@selfcommunity/ui').CategoryHeader;
+                return <CategoryHeader/>;
+            }}
+        </BrowserOnly>
     );
 }
 

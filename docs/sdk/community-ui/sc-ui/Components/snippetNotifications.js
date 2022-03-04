@@ -1,10 +1,15 @@
 import React from 'react';
-import {SnippetNotifications} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
 export default function App () {
     return (
-        <SnippetNotifications/>
+        <BrowserOnly>
+            {() => {
+                const SnippetNotifications = require('@selfcommunity/ui').SnippetNotifications;
+                return <SnippetNotifications/>;
+            }}
+        </BrowserOnly>
     );
 }
 

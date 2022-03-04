@@ -1,10 +1,14 @@
 import React from 'react';
-import {Platform} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <Platform/>
+        <BrowserOnly>
+            {() => {
+                const Platform = require('@selfcommunity/ui').Platform;
+                return <Platform/>;
+            }}
+        </BrowserOnly>
     );
 }
 

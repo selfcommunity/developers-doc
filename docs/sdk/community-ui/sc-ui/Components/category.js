@@ -1,10 +1,14 @@
 import React from 'react';
-import {Category} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <Category/>
+        <BrowserOnly>
+            {() => {
+                const Category = require('@selfcommunity/ui').Category;
+                return <Category id={10}/>;
+            }}
+        </BrowserOnly>
     );
 }
 

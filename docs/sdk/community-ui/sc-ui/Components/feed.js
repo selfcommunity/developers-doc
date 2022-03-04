@@ -1,9 +1,14 @@
 import React from 'react';
-import {Feed} from '@selfcommunity/ui';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <Feed/>
+        <BrowserOnly>
+            {() => {
+                const Feed = require('@selfcommunity/ui').Feed;
+                return <Feed/>;
+            }}
+        </BrowserOnly>
     );
 }
 

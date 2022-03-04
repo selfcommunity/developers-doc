@@ -1,10 +1,14 @@
 import React from 'react';
-import {CategoriesPopular} from '@selfcommunity/ui';
-
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function App () {
     return (
-        <CategoriesPopular/>
+        <BrowserOnly>
+            {() => {
+                const CategoriesPopular = require('@selfcommunity/ui').CategoriesPopular;
+                return <CategoriesPopular/>;
+            }}
+        </BrowserOnly>
     );
 }
 
