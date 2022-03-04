@@ -6,12 +6,30 @@ title: User Followers
 
 > The User Followers component renders the list of  user followers.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./userFollowers.js';
 import UserFollowers from './userFollowers.js';
 import Logged from "../../Logged";
 
 <Logged><UserFollowers /></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {UserFollowers} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><UserFollowers /></SCContextProvider>
+   );
+ }
+```

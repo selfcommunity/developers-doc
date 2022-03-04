@@ -6,7 +6,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const UserFollowers = require('@selfcommunity/ui').UserFollowers;
-                return <UserFollowers id={18}/>;
+                return <UserFollowers id={7}/>;
             }}
         </BrowserOnly>
     );

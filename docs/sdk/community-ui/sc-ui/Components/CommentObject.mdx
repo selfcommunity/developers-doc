@@ -6,12 +6,30 @@ title: Comment Object
 
 > The Comment Object component renders a comment.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./commentObject.js';
 import CommentObject from './commentObject.js';
 import Logged from "../../Logged";
 
 <Logged><CommentObject/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {CommentObject} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><CommentObject /></SCContextProvider>
+   );
+ }
+```

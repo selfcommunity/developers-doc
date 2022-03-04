@@ -6,8 +6,6 @@ title: Trending People
 
 > The Trending People component renders a list of trending people.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./trendingPeople.js';
 import TrendingPeople from './trendingPeople.js';
 import Logged from "../../Logged";
 
@@ -15,4 +13,24 @@ import Logged from "../../Logged";
 <Logged><TrendingPeople/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {TrendingPeople} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><TrendingPeople /></SCContextProvider>
+   );
+ }
+```

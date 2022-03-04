@@ -6,13 +6,31 @@ title: Composer
 
 > The Composer component renders a composer.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./composer.js';
 import Composer from './composer.js';
 import Logged from "../../Logged";
 
 <Logged><Composer/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {Composer} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><Composer /></SCContextProvider>
+   );
+ }
+```
 

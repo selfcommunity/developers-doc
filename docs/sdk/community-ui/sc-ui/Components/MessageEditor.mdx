@@ -6,8 +6,6 @@ title: Message Editor
 
 > The Message component renders the message editor.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./messageEditor.js';
 import MessageEditor from './messageEditor.js';
 import Logged from "../../Logged";
 
@@ -15,4 +13,24 @@ import Logged from "../../Logged";
 <Logged><MessageEditor/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {MessageEditor} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><MessageEditor /></SCContextProvider>
+   );
+ }
+```

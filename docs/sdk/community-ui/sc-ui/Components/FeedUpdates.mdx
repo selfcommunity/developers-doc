@@ -6,12 +6,30 @@ title: Feed Updates
 
 > The Feed Updates component renders feed updates.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./feedUpdates.js';
 import FeedUpdates from './feedUpdates.js';
 import Logged from "../../Logged";
 
 <Logged><FeedUpdates/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {FeedUpdates} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><FeedUpdates /></SCContextProvider>
+   );
+ }
+```

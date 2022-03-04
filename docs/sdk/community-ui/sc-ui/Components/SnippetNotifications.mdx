@@ -6,12 +6,30 @@ title: Snippet Notifications
 
 > The Snippet Notifications component renders snippet notifications.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./snippetNotifications.js';
 import SnippetNotifications from './snippetNotifications.js';
 import Logged from "../../Logged";
 
 <Logged><SnippetNotifications/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {SnippetNotifications} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><SnippetNotifications /></SCContextProvider>
+   );
+ }
+```

@@ -6,13 +6,30 @@ title: Notification Feed
 
 > The Notification Feed tempalte renders the notification feed page.
 
-import BrowserOnly from '@docusaurus/BrowserOnly';
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./notificationFeed.js';
 import NotificationFeed from './notificationFeed.js';
 import Logged from "../../Logged";
 
 <Logged><NotificationFeed/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {NotificationFeed} from '@selfcommunity/templates';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><NotificationFeed/></SCContextProvider>
+   );
+ }
+ ```

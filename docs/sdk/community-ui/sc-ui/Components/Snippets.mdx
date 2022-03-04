@@ -6,12 +6,30 @@ title: Snippets
 
 > The Snippets component renders the list of messages preview.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./snippets.js';
 import Snippets from './snippets.js';
 import Logged from "../../Logged";
 
 <Logged><Snippets/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {Snippets} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><Snippets /></SCContextProvider>
+   );
+ }
+```

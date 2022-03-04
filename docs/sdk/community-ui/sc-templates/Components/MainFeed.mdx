@@ -6,12 +6,30 @@ title: Main Feed
 
 > The Main Feed tempalte renders the main feed page.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./mainFeed.js';
 import MainFeed from './mainFeed.js';
 import Logged from "../../Logged";
 
 <Logged><MainFeed/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {MainFeed} from '@selfcommunity/templates';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><MainFeed/></SCContextProvider>
+   );
+ }
+ ```

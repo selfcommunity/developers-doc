@@ -6,12 +6,30 @@ title: User
 
 > The User component renders a user.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./user.js';
 import User from './user.js';
 import Logged from "../../Logged";
 
 <Logged><User/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {User} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><User /></SCContextProvider>
+   );
+ }
+```

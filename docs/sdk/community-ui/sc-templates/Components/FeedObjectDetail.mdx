@@ -6,12 +6,30 @@ title: Feed Object Detail
 
 > The Feed Object Detail tempalte renders the feed object detail page.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./feedObjectDetail.js';
 import FeedObjectDetail from './feedObjectDetail.js';
 import Logged from "../../Logged";
 
 <Logged><FeedObjectDetail/></Logged>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {FeedObjectDetail} from '@selfcommunity/templates';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><FeedObjectDetail/></SCContextProvider>
+   );
+ }
+ ```

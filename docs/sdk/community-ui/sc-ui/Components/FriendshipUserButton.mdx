@@ -6,8 +6,6 @@ title: Friendship User Button
 
 > The Friendship User Button component renders the button for user friendship.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./friendshipuserbutton.js';
 import FriendshipUserButton from './friendshipuserbutton.js';
 import Anonymous from "../../Anonymous";
 
@@ -15,4 +13,24 @@ import Anonymous from "../../Anonymous";
 <Anonymous><FriendshipUserButton/></Anonymous>
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {FriendshipUserButton} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><FriendshipUserButton /></SCContextProvider>
+   );
+ }
+```

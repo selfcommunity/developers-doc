@@ -6,12 +6,30 @@ title: Trending Feed
 
 > The Trending Feed component renders a list of trending posts, discussions, statuses.
 
-import CodeBlock from '@theme/CodeBlock';
-import Component  from '!!raw-loader!./trendingFeed.js';
 import TrendingFeed from './trendingFeed.js';
 import Logged from "../../Logged";
 <Logged><TrendingFeed/></Logged>
 
 
 #### Usage
- <CodeBlock className="language-jsx">{Component}</CodeBlock>
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/core';
+ import {TrendingFeed} from '@selfcommunity/ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><TrendingFeed /></SCContextProvider>
+   );
+ }
+```

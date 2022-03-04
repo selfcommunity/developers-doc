@@ -7,7 +7,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const CategoryHeader = require('@selfcommunity/ui').CategoryHeader;
-                return <CategoryHeader/>;
+                return <CategoryHeader categoryId={10}/>;
             }}
         </BrowserOnly>
     );
