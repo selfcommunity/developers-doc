@@ -6,7 +6,7 @@ export default function App() {
         <BrowserOnly>
             {() => {
                 const FeedObjectDetail = require('@selfcommunity/templates').FeedObjectDetail;
-                return <FeedObjectDetail/>;
+                return <FeedObjectDetail feedObjectId={25} feedObjectType={'discussion'}/>;
             }}
         </BrowserOnly>
 

@@ -3,11 +3,11 @@ sidebar_label: Introduction
 sidebar_position: 1
 ---
 
-# Self Community SDK
+# SelfCommunity Frontend SDK
 
 :::info
-This documentation is the reference about  SelfCommunity SDK.
+This documentation is the reference for SelfCommunity frontend SDK.
 :::
-Quickly build beautiful community with SelfCommunity. A set of React components UI to use to integrate a community.
+Quickly embed beautiful community with SelfCommunity. A set of React components for integrating an empowered Social Networking Technology Community in your frontend.
 
 
