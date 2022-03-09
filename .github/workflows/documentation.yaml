@@ -22,25 +22,25 @@ jobs:
         with:
           file: package.json
           field: dependencies.@selfcommunity/i18n
-          value: "^${{ github.event.client_payload.@selfcommunity/i18n }}"
+          value: "^${{ github.event.client_payload.i18n }}"
       - name: Update package.json @selfcommunity/core dependency
         uses: jossef/action-set-json-field@v1
         with:
           file: package.json
           field: dependencies.@selfcommunity/core
-          value: "^${{ github.event.client_payload.@selfcommunity/core }}"
+          value: "^${{ github.event.client_payload.core }}"
       - name: Update package.json @selfcommunity/ui dependency
         uses: jossef/action-set-json-field@v1
         with:
           file: package.json
           field: dependencies.@selfcommunity/ui
-          value: "^${{ github.event.client_payload.@selfcommunity/ui }}"
+          value: "^${{ github.event.client_payload.ui }}"
       - name: Update package.json @selfcommunity/templates dependency
         uses: jossef/action-set-json-field@v1
         with:
           file: package.json
           field: dependencies.@selfcommunity/templates
-          value: "^${{ github.event.client_payload.@selfcommunity/templates }}"
+          value: "^${{ github.event.client_payload.templates }}"
       - name: Update community-ui submodule
         run: |
           git config --global user.email "fede.torre@gmail.com"
