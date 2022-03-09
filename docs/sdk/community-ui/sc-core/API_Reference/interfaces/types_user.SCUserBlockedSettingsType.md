@@ -19,7 +19,7 @@ Start User Block datetime
 
 #### Defined in
 
-[types/user.ts:241](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L241)
+[types/user.ts:265](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L265)
 
 ___
 
@@ -31,7 +31,7 @@ N° days of block
 
 #### Defined in
 
-[types/user.ts:231](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L231)
+[types/user.ts:255](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L255)
 
 ___
 
@@ -43,7 +43,7 @@ End User Block datetime
 
 #### Defined in
 
-[types/user.ts:246](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L246)
+[types/user.ts:270](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L270)
 
 ___
 
@@ -55,4 +55,4 @@ Reputation stolen
 
 #### Defined in
 
-[types/user.ts:236](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L236)
+[types/user.ts:260](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L260)

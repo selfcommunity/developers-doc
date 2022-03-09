@@ -25,7 +25,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:65](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L65)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:65](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L65)
 
 ___
 
@@ -39,7 +39,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:75](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L75)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:75](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L75)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:70](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L70)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:70](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L70)
 
 ___
 
@@ -67,7 +67,7 @@ Id of the feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:50](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L50)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:50](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L50)
 
 ___
 
@@ -81,7 +81,7 @@ Type of  feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:55](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L55)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:55](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L55)
 
 ___
 
@@ -95,4 +95,4 @@ Feed Object template type
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:60](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L60)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:60](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L60)

@@ -39,7 +39,7 @@ For Example:
 - **2** **Usage**:
 
 - Inclusion through props in the icon component
-- 
+ 
 ```jsx
 import Icon from '@mui/material/Icon';
 

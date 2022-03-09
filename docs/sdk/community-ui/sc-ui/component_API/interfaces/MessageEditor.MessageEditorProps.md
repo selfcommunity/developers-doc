@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:36](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L36)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:34](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L34)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:41](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L41)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:39](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L39)
 
 ## Methods
 
@@ -61,31 +61,7 @@ Callback to pass message item
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:59](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L59)
-
-___
-
-### onRef
-
-▸ `Optional` **onRef**(`ref`): `void`
-
-Handles emoji editor
-
-**`default`** null
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ref` | `RefObject`<`TMUIRichTextEditorRef`\> |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:46](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L46)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:52](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L52)
 
 ___
 
@@ -101,4 +77,4 @@ Callback to send the message
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:54](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L54)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:47](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L47)

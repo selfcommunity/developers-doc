@@ -46,7 +46,7 @@ The name `SCTrendingFeed` can be used when providing style overrides in the them
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:79](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L79)
+[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:79](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L79)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx#L25)

@@ -25,7 +25,7 @@ Default props to submit button Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:62](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L62)
+[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:62](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L62)
 
 ___
 
@@ -39,7 +39,7 @@ Default props to TextField Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:56](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L56)
+[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:56](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L56)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:35](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L35)
+[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:35](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L35)
 
 ## Methods
 
@@ -78,7 +78,7 @@ Callback triggered for handling custom signin process instead of the default one
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:43](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L43)
+[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:43](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L43)
 
 ___
 
@@ -102,4 +102,4 @@ Callback triggered on success sign in
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:50](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L50)
+[packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx:50](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/AccountSignIn/AccountSignIn.tsx#L50)

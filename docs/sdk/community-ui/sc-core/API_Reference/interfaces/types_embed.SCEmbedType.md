@@ -20,7 +20,7 @@ External id for the embed object
 
 #### Defined in
 
-[types/embed.ts:21](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/embed.ts#L21)
+[types/embed.ts:21](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/embed.ts#L21)
 
 ___
 
@@ -34,7 +34,7 @@ for embedded objects automatically created by the community
 
 #### Defined in
 
-[types/embed.ts:16](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/embed.ts#L16)
+[types/embed.ts:16](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/embed.ts#L16)
 
 ___
 
@@ -46,7 +46,7 @@ Id of the embed
 
 #### Defined in
 
-[types/embed.ts:9](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/embed.ts#L9)
+[types/embed.ts:9](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/embed.ts#L9)
 
 ___
 
@@ -62,7 +62,7 @@ that contains the id of the object shared
 
 #### Defined in
 
-[types/embed.ts:35](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/embed.ts#L35)
+[types/embed.ts:35](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/embed.ts#L35)
 
 ___
 
@@ -74,4 +74,4 @@ Url for the resource, if any
 
 #### Defined in
 
-[types/embed.ts:26](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/embed.ts#L26)
+[types/embed.ts:26](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/embed.ts#L26)

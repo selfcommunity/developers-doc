@@ -17,7 +17,7 @@ List of all categories ids followed by the authenticated user
 
 #### Defined in
 
-[types/context.ts:166](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L166)
+[types/context.ts:172](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L172)
 
 ___
 
@@ -29,7 +29,7 @@ List of all categories in loading state
 
 #### Defined in
 
-[types/context.ts:171](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L171)
+[types/context.ts:177](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L177)
 
 ## Methods
 
@@ -45,7 +45,7 @@ Empty cache to revalidate all categories
 
 #### Defined in
 
-[types/context.ts:196](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L196)
+[types/context.ts:202](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L202)
 
 ___
 
@@ -67,7 +67,7 @@ Handle user follow/unfollow category
 
 #### Defined in
 
-[types/context.ts:181](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L181)
+[types/context.ts:187](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L187)
 
 ___
 
@@ -89,7 +89,7 @@ Handle check if a user follow a category, caching data
 
 #### Defined in
 
-[types/context.ts:186](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L186)
+[types/context.ts:192](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L192)
 
 ___
 
@@ -111,7 +111,7 @@ List of current categories in loading state
 
 #### Defined in
 
-[types/context.ts:176](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L176)
+[types/context.ts:182](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L182)
 
 ___
 
@@ -127,4 +127,4 @@ Refresh categories
 
 #### Defined in
 
-[types/context.ts:191](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L191)
+[types/context.ts:197](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L197)

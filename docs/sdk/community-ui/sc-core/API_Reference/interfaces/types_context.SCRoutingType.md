@@ -19,7 +19,7 @@ Component
 
 #### Defined in
 
-[types/context.ts:364](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L364)
+[types/context.ts:370](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L370)
 
 ___
 
@@ -31,7 +31,7 @@ Routes
 
 #### Defined in
 
-[types/context.ts:369](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L369)
+[types/context.ts:375](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L375)
 
 ## Methods
 
@@ -58,4 +58,4 @@ string
 
 #### Defined in
 
-[types/context.ts:379](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L379)
+[types/context.ts:385](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L385)

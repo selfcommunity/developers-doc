@@ -10,6 +10,33 @@ custom_edit_url: null
 
 - [EditorProps](../interfaces/Editor.EditorProps.md)
 
+## Type aliases
+
+### TRichTextEditorRef
+
+Ƭ **TRichTextEditorRef**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `focus` | () => `void` |
+| `insertAtomicBlock` | (`name`: `string`, `data`: `any`) => `void` |
+| `insertAtomicBlockAsync` | (`name`: `string`, `promise`: `Promise`<`TAsyncAtomicBlockResponse`\>, `placeholder?`: `string`) => `void` |
+| `insertAtomicBlockSync` | (`name`: `string`, `data`: `any`) => `void` |
+| `insertText` | (`text`: `string`) => `void` |
+| `save` | () => `void` |
+
+#### Defined in
+
+[packages/sc-ui/src/components/Editor/RichTextEditor/RichTextEditor.tsx:66](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/RichTextEditor/RichTextEditor.tsx#L66)
+
+## Properties
+
+### RichTextEditor
+
+• **RichTextEditor**: `ForwardRefExoticComponent`<`TRichTextEditorProps` & `RefAttributes`<[`TRichTextEditorRef`](Editor.md#trichtexteditorref)\>\>
+
 ## Functions
 
 ### Editor
@@ -48,7 +75,7 @@ The name `SCEditor` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:167](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Editor/Editor.tsx#L167)
+[packages/sc-ui/src/components/Editor/Editor.tsx:167](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Editor.tsx#L167)
 
 ___
 
@@ -62,4 +89,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Editor/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/Editor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Skeleton.tsx#L4)

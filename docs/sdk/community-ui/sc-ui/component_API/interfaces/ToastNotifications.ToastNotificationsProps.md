@@ -31,7 +31,7 @@ Props for toast message
 
 #### Defined in
 
-[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:38](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L38)
+[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:39](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L39)
 
 ___
 
@@ -203,7 +203,7 @@ Disable Toast Notification
 
 #### Defined in
 
-[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:48](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L48)
+[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:49](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L49)
 
 ___
 
@@ -977,4 +977,4 @@ Handle notification
 
 #### Defined in
 
-[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:43](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L43)
+[packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx:44](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/ToastNotifications/ToastNotifications.tsx#L44)

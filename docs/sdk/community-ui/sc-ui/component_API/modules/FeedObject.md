@@ -33,17 +33,24 @@ The name `SCFeedObject` can be used when providing style overrides in the theme.
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCFeedObject-root|Styles applied to the root element.|
+|header|.SCFeedObject-header|Styles applied to the header of the card.|
+|tag|.SCFeedObject-tag|Styles applied to the tag element.|
+|title-section|.SCFeedObject-title-section|Styles applied to the title section.|
 |title|.SCFeedObject-title|Styles applied to the title element.|
 |username|.SCFeedObject-username|Styles applied to the username element.|
 |category|.SCFeedObject-category|Styles applied to the category element.|
-|content|.SCFeedObject-content|Styles applied to the content section.|
+|content|.SCFeedObject-content|Styles applied to the content section. Content section include: title-section, text-section, snippetContent, subContent, medias-section, polls-section, info-section.|
+|text-section|.SCFeedObject-text-section|Styles applied to the text section.|
 |text|.SCFeedObject-text|Styles applied to the text element.|
 |snippetContent|.SCFeedObject-snippet-content|Styles applied to snippet content element.|
-|tag|.SCFeedObject-tag|Styles applied to the tag element.|
+|medias-section|.SCFeedObject-medias-section|Styles applied to the medias section.|
+|polls-section|.SCFeedObject-polls-section|Styles applied to the polls section.|
+|info-section|.SCFeedObject-info-section|Styles applied to the info section.|
+|subContent|.SCFeedObject-sub-content|Styles applied to the sub content (container placed immediately after the content, similar to a footer). Wrap the contributors and the follow button.|
+|actions|.SCFeedObject-actions|Styles applied to the actions container.|
 |activitiesContent|.SCFeedObject-activities-content|Styles applied to the activities content element.|
-|followButton|.SCFeedObject-follow-button|Styles applied to the follow button element.|
 |activityAt|.SCFeedObject-activity-at|Styles applied to the activity at section.|
-|sharedContentFeedObject|.SCFeedObject-shared-content-feed-object|Styles applied to the feed obj shared content element.|
+|deleted|.SCFeedObject-deleted|Styles applied to the feed obj when is deleted (visible only for admin and moderator).|
 
 #### Parameters
 
@@ -57,7 +64,7 @@ The name `SCFeedObject` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:286](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L286)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:349](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L349)
 
 ___
 
@@ -78,4 +85,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/Skeleton.tsx:29](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/FeedObject/Skeleton.tsx#L29)
+[packages/sc-ui/src/components/FeedObject/Skeleton.tsx:40](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/Skeleton.tsx#L40)

@@ -12,7 +12,24 @@ export default function Anonymous({children}) {
             type: 'OAuth',
             clientId: sessionData.user.client_id
         },
-        theme: {},
+        theme: {
+            palette: {
+                primary: {
+                    main: '#7baa5d'
+                },
+                secondary: {
+                    main: '#4a8f62'
+                }
+            },
+            components: {
+                MuiIcon: {
+                    defaultProps: {
+                        // Replace the `material-icons` default value.
+                        baseClassName: 'material-icons-outlined',
+                    },
+                },
+            }
+        },
         handleAnonymousAction: () => {
             alert('Anonymous action');
         }

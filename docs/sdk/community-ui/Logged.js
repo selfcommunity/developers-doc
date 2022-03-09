@@ -6,7 +6,7 @@ import {refreshToken} from "./helpers";
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 
-export default function Logged ({children}) {
+export default function Logged({children}) {
     const authToken = useAuthToken();
 
     const _conf = {
@@ -18,7 +18,24 @@ export default function Logged ({children}) {
             authToken: authToken,
             handleRefreshToken: refreshToken,
         },
-        theme: {},
+        theme: {
+            palette: {
+                primary: {
+                    main: '#7baa5d'
+                },
+                secondary: {
+                    main: '#4a8f62'
+                }
+            },
+            components: {
+                MuiIcon: {
+                    defaultProps: {
+                        // Replace the `material-icons` default value.
+                        baseClassName: 'material-icons-outlined',
+                    },
+                },
+            }
+        },
         handleAnonymousAction: () => {
             alert('Anonymous action');
         }

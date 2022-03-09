@@ -43,7 +43,7 @@ The name `SCBroadcastMessages` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:64](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L64)
+[packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx:64](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/BroadcastMessages/BroadcastMessages.tsx#L64)
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx:61](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx#L61)
+[packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx:61](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/BroadcastMessages/Skeleton.tsx#L61)

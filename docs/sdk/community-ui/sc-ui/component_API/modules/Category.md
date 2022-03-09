@@ -46,7 +46,7 @@ The name `SCCategory` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:95](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Category/Category.tsx#L95)
+[packages/sc-ui/src/components/Category/Category.tsx:90](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Category/Category.tsx#L90)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Category/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/Category/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Category/Skeleton.tsx#L25)

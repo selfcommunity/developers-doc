@@ -19,7 +19,7 @@ Enable private messages notifications also via mail
 
 #### Defined in
 
-[types/user.ts:206](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L206)
+[types/user.ts:230](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L230)
 
 ___
 
@@ -31,7 +31,7 @@ Enable mobile app/PWA notifications
 
 #### Defined in
 
-[types/user.ts:211](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L211)
+[types/user.ts:235](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L235)
 
 ___
 
@@ -43,7 +43,7 @@ Frequency of the email notifications for all interactions (except for private me
 
 #### Defined in
 
-[types/user.ts:201](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L201)
+[types/user.ts:225](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L225)
 
 ___
 
@@ -55,7 +55,7 @@ Shows a popup when the user receive a notification
 
 #### Defined in
 
-[types/user.ts:216](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L216)
+[types/user.ts:240](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L240)
 
 ___
 
@@ -67,4 +67,4 @@ Emit a sound when the notification popup is shown. See 'show_toast_notifications
 
 #### Defined in
 
-[types/user.ts:221](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/user.ts#L221)
+[types/user.ts:245](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/user.ts#L245)

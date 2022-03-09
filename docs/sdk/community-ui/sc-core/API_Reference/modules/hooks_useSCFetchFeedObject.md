@@ -31,9 +31,10 @@ This custom hook is used to fetch a feed object.
 
 | Name | Type |
 | :------ | :------ |
+| `error` | `string` |
 | `obj` | [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType.md) \| [`SCFeedDiscussionType`](../interfaces/types_feed.SCFeedDiscussionType.md) \| [`SCFeedPostType`](../interfaces/types_feed.SCFeedPostType.md) |
 | `setObj` | `Dispatch`<`SetStateAction`<[`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType.md) \| [`SCFeedDiscussionType`](../interfaces/types_feed.SCFeedDiscussionType.md) \| [`SCFeedPostType`](../interfaces/types_feed.SCFeedPostType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)
+[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)

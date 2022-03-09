@@ -25,7 +25,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:96](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L96)
+[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:95](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L95)
 
 ___
 
@@ -39,7 +39,7 @@ User fields to display in the profile
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:101](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L101)
+[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:100](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L100)
 
 ___
 
@@ -53,4 +53,4 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:91](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L91)
+[packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx:90](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileEdit/Section/PublicInfo.tsx#L90)

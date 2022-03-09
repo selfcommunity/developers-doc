@@ -22,6 +22,12 @@ const config = {
     defaultLocale: 'en',
     locales: ['en']
   },
+  stylesheets: [
+    // Object format.
+    {
+      href: 'https://fonts.googleapis.com/icon?family=Material+Icons+Outlined',
+    },
+  ],
 
   presets: [
     [

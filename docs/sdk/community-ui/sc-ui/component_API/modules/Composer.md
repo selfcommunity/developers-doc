@@ -21,7 +21,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:299](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L299)
+[packages/sc-ui/src/components/Composer/Composer.tsx:293](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Composer/Composer.tsx#L293)
 
 ## Variables
 
@@ -31,7 +31,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:301](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L301)
+[packages/sc-ui/src/components/Composer/Composer.tsx:295](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Composer/Composer.tsx#L295)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:303](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L303)
+[packages/sc-ui/src/components/Composer/Composer.tsx:297](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Composer/Composer.tsx#L297)
 
 ## Functions
 
@@ -50,6 +50,7 @@ ___
 ▸ **Composer**(`props`): `JSX.Element`
 
 > API documentation for the Community-UI Composer component. Learn about the available props and the CSS API.
+> The Composer component contains the logic around the creation of [Post](https://developers.selfcommunity.com/docs/apireference/v2/post/create_a_post) and [Discussion](https://developers.selfcommunity.com/docs/apireference/v2/discussion/create_a_discussion) objects.
 
 #### Import
 ```jsx
@@ -96,7 +97,7 @@ The name `SCComposer` can be used when providing style overrides in the theme.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Composer.tsx:383](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Composer.tsx#L383)
+[packages/sc-ui/src/components/Composer/Composer.tsx:379](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Composer/Composer.tsx#L379)
 
 ___
 
@@ -110,4 +111,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Composer/Skeleton.tsx:67](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/Composer/Skeleton.tsx#L67)
+[packages/sc-ui/src/components/Composer/Skeleton.tsx:67](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Composer/Skeleton.tsx#L67)

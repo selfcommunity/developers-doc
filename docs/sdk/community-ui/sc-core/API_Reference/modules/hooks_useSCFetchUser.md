@@ -30,9 +30,10 @@ This custom hook is used to fetch a user object.
 
 | Name | Type |
 | :------ | :------ |
+| `error` | `string` |
 | `scUser` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
 | `setSCUser` | `Dispatch`<`SetStateAction`<[`SCUserType`](../interfaces/types_user.SCUserType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchUser.ts:17](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/hooks/useSCFetchUser.ts#L17)
+[hooks/useSCFetchUser.ts:17](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/hooks/useSCFetchUser.ts#L17)

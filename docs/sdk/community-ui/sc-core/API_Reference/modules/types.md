@@ -416,6 +416,12 @@ Re-exports [SCUserSettingsType](../interfaces/types_user.SCUserSettingsType.md)
 
 ___
 
+### SCUserStatus
+
+Re-exports [SCUserStatus](../enums/types_user.SCUserStatus.md)
+
+___
+
 ### SCUserType
 
 Re-exports [SCUserType](../interfaces/types_user.SCUserType.md)

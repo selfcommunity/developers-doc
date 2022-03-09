@@ -3820,37 +3820,37 @@
     "@rpldy/shared-ui" "^0.14.2"
     "@rpldy/uploader" "^0.14.2"
 
-"@selfcommunity/core@^0.1.0-alpha.30":
-  version "0.1.0-alpha.30"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.30.tgz#c20e76693a1983227e1bf4143fb6e0df59e58d1c"
-  integrity sha512-frxP9BurYB3hDFrZWcz+zOVNcvKSlWjUsgUEp3hlTnQWcnaRR7GC1Zv9dxc1GsFNcHE7sPrSPGENxj8zaei+HQ==
+"@selfcommunity/core@^0.1.0-alpha.32":
+  version "0.1.0-alpha.32"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.32.tgz#a8525cdc109caa50b0c098752da9db0a2735ee13"
+  integrity sha512-5iYdnUtzfWAhbI7MTAIdGOAed/ZJ8CMD62x2l1u/wEIPnGt2EqG52t/u+hRZq7hPls2/kyZpdflaWOxjEAQGlQ==
   dependencies:
-    "@selfcommunity/i18n" "^0.1.0-alpha.30"
+    "@selfcommunity/i18n" "^0.1.0-alpha.32"
     axios "^0.23.0"
     pubsub-js "^1.9.4"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.30":
-  version "0.1.0-alpha.30"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.30.tgz#e0d47aea3e97bfb32e93510404eec303b38a1d80"
-  integrity sha512-sEmY9zlPXemcedu4Xc+UuFIs5L3Jwzv4s0m6Q4pxOQ2fERek+RYFRHxfDOdZmN7mkmxbU4dDyCLxSX3xDT8Aww==
+"@selfcommunity/i18n@^0.1.0-alpha.32":
+  version "0.1.0-alpha.32"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.32.tgz#088998a3ee4b713b412ea14cab761a6a3428cb10"
+  integrity sha512-Wh+EmeBl4Frju7D1gAqKRCIsBOadJd92725JNmL16rJf7Zo9o35Hz1MGPNpIAtP9m7//ovYS0tWOr8H0YMtRyA==
 
-"@selfcommunity/templates@^0.0.1-alpha.30":
-  version "0.0.1-alpha.30"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.30.tgz#9b47b11cf697a61e337b23f1d18ed777c778f59e"
-  integrity sha512-UGY8rLg+cJBaaPqYSLzIJZr0Ejmg6C5/NMq5pUHaA8jU5ayToU9kvAh+nVNet3ZcubAx1kwmwZPeOcWpE8KtJQ==
+"@selfcommunity/templates@^0.0.1-alpha.32":
+  version "0.0.1-alpha.32"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.32.tgz#27f0d2a2e105943f0b259c666f5f746641d47a60"
+  integrity sha512-E0pEDdeExkQJCOC0cqv3/Kmn8oZnOZUZHREkvoHlW5aKERyzUlvx7juFYu3nbvUkWMsI8o53ZdLhwmcuNDqiBw==
   dependencies:
-    "@selfcommunity/core" "^0.1.0-alpha.30"
-    "@selfcommunity/i18n" "^0.1.0-alpha.30"
-    "@selfcommunity/ui" "^0.1.0-alpha.30"
+    "@selfcommunity/core" "^0.1.0-alpha.32"
+    "@selfcommunity/i18n" "^0.1.0-alpha.32"
+    "@selfcommunity/ui" "^0.1.0-alpha.32"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.30":
-  version "0.1.0-alpha.30"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.30.tgz#428c1833619c9e9176ef9c4b9b82529d4d8a4b08"
-  integrity sha512-HJhGcORedwLkwrBr9Uu0HKmEjK3FOSk4BlMLZkVonyj5LTXT+UkbYVaV6s5Lhs680h1h1AFhjfr090+6w3HCIg==
+"@selfcommunity/ui@^0.1.0-alpha.32":
+  version "0.1.0-alpha.32"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.32.tgz#efaf4f9c82109b8e6ff30e52dc11b25e99debecf"
+  integrity sha512-AUFdeDQrKllxNgIRyjAFcG/CWLSBvajpZ80ljyWKDAaaR7B1KM55CBeQGP/OysDen3TXaqG+QhR0++4l5Mw9/w==
   dependencies:
     "@mui/lab" "~5.0.0-alpha.68"
     "@rpldy/chunked-sender" "^0.14.1"
@@ -3859,8 +3859,8 @@
     "@rpldy/upload-drop-zone" "^0.14.1"
     "@rpldy/upload-preview" "^0.14.1"
     "@rpldy/uploady" "^0.14.1"
-    "@selfcommunity/core" "^0.1.0-alpha.30"
-    "@selfcommunity/i18n" "^0.1.0-alpha.30"
+    "@selfcommunity/core" "^0.1.0-alpha.32"
+    "@selfcommunity/i18n" "^0.1.0-alpha.32"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -3868,7 +3868,6 @@
     draft-js "^0.11.7"
     draftjs-to-html "^0.9.1"
     emoji-picker-react "^3.4.8"
-    mui-rte "https://github.com/fedetorre/mui-rte.git#6305cdd220f7fa4aa22e536752eba7fb81b42961"
     notistack "^2.0.3"
     prop-types "^15.7.2"
     prop-types-extra "^1.1.1"
@@ -4174,14 +4173,6 @@
   integrity sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==
   dependencies:
     "@types/node" "*"
-
-"@types/draft-js@^0.11.5":
-  version "0.11.9"
-  resolved "https://registry.yarnpkg.com/@types/draft-js/-/draft-js-0.11.9.tgz#b7535fb2511e8b8c8e33ffac2199a5f2988f4fd5"
-  integrity sha512-cQJBZjjIlGaPA1tOY+wGz2KhlPtAAZOIXpUvGPxPRw5uzZ2tcj8m6Yu1QDV9YgP36+cqE3cUvgkARBzgUiuI/Q==
-  dependencies:
-    "@types/react" "*"
-    immutable "~3.7.4"
 
 "@types/eslint-scope@^3.7.3":
   version "3.7.3"
@@ -5658,7 +5649,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@*, classnames@2.3.1, classnames@^2.0.0, classnames@^2.2.6, classnames@^2.3.1:
+classnames@*, classnames@2.3.1, classnames@^2.0.0, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -8244,11 +8235,6 @@ immer@^9.0.7:
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.12.tgz#2d33ddf3ee1d247deab9d707ca472c8c942a0f20"
   integrity sha512-lk7UNmSbAukB5B6dh9fnh5D0bJTOFKxVg2cyJWTYrWRfhLrLMBquONcUs3aFq507hNoIZEDDh8lb8UtOizSMhA==
 
-immutable@^3.8.2:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
-  integrity sha1-wkOZUUVbs5kT2vKBN28VMOEErfM=
-
 immutable@~3.7.4:
   version "3.7.6"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
@@ -9569,15 +9555,6 @@ ms@^2.1.1:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
-
-"mui-rte@https://github.com/fedetorre/mui-rte.git#6305cdd220f7fa4aa22e536752eba7fb81b42961":
-  version "2.0.1"
-  resolved "https://github.com/fedetorre/mui-rte.git#6305cdd220f7fa4aa22e536752eba7fb81b42961"
-  dependencies:
-    "@types/draft-js" "^0.11.5"
-    classnames "^2.3.1"
-    draft-js "^0.11.7"
-    immutable "^3.8.2"
 
 multicast-dns-service-types@^1.1.0:
   version "1.1.0"

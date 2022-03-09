@@ -30,9 +30,10 @@ This custom hooks is used to fetch a comment.
 
 | Name | Type |
 | :------ | :------ |
+| `error` | `string` |
 | `obj` | [`SCCommentType`](../interfaces/types_comment.SCCommentType.md) |
 | `setObj` | `Dispatch`<`SetStateAction`<[`SCCommentType`](../interfaces/types_comment.SCCommentType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)
+[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)

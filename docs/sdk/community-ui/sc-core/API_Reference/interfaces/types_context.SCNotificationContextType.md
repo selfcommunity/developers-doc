@@ -19,7 +19,7 @@ wp subscription
 
 #### Defined in
 
-[types/context.ts:453](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L453)
+[types/context.ts:459](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L459)
 
 ___
 
@@ -31,4 +31,4 @@ ws instance
 
 #### Defined in
 
-[types/context.ts:448](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L448)
+[types/context.ts:454](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L454)

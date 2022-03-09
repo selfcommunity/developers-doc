@@ -19,7 +19,7 @@ Web push messaging notification
 
 #### Defined in
 
-[types/context.ts:393](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L393)
+[types/context.ts:399](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L399)
 
 ___
 
@@ -31,4 +31,4 @@ Web socket notification
 
 #### Defined in
 
-[types/context.ts:389](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L389)
+[types/context.ts:395](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L395)

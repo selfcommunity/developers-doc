@@ -19,7 +19,7 @@ List of all community enabled features
 
 #### Defined in
 
-[types/context.ts:338](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L338)
+[types/context.ts:344](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L344)
 
 ___
 
@@ -31,4 +31,4 @@ List of all community preferences
 
 #### Defined in
 
-[types/context.ts:333](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/types/context.ts#L333)
+[types/context.ts:339](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L339)

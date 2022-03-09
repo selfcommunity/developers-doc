@@ -35,8 +35,6 @@ The name `SCSnippetNotifications` can be used when providing style overrides in 
 |root|.SCSnippetNotification-root|Styles applied to the root element.|
 |notificationsWrap|.SCUserNotification-notification-wrap|Styles applied to the notifications wrap.|
 |notificationItemWrap|.SCUserNotification-notification-item-wrap|Styles applied to the single notification.|
-|viewOthersButtonWrap|.SCUserNotification-view-others-button-wrap|Styles applied to the element button wrap.|
-|viewOthersButton|.SCUserNotification-view-others-button|Styles applied to the element button.|
 
 #### Parameters
 
@@ -50,7 +48,7 @@ The name `SCSnippetNotifications` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:145](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L145)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:130](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L130)
 
 ___
 
@@ -70,4 +68,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx#L19)
+[packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx#L19)

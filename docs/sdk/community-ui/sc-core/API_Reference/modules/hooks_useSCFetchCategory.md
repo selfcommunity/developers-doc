@@ -30,9 +30,10 @@ This custom hook is used to fetch a category object.
 
 | Name | Type |
 | :------ | :------ |
+| `error` | `string` |
 | `scCategory` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md) |
 | `setSCCategory` | `Dispatch`<`SetStateAction`<[`SCCategoryType`](../interfaces/types_category.SCCategoryType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/f8d581a/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)
+[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)
