@@ -19,7 +19,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:117](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Editor.tsx#L117)
+[packages/sc-ui/src/components/Editor/Editor.tsx:117](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Editor/Editor.tsx#L117)
 
 ___
 
@@ -33,7 +33,7 @@ Default value for the editor
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:123](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Editor.tsx#L123)
+[packages/sc-ui/src/components/Editor/Editor.tsx:123](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Editor/Editor.tsx#L123)
 
 ___
 
@@ -47,7 +47,7 @@ Id of the feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:111](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Editor.tsx#L111)
+[packages/sc-ui/src/components/Editor/Editor.tsx:111](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Editor/Editor.tsx#L111)
 
 ___
 
@@ -61,7 +61,7 @@ Is the content of the editor read only
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:129](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Editor.tsx#L129)
+[packages/sc-ui/src/components/Editor/Editor.tsx:129](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Editor/Editor.tsx#L129)
 
 ## Methods
 
@@ -85,7 +85,7 @@ Handler for change event of the editor
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:135](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Editor.tsx#L135)
+[packages/sc-ui/src/components/Editor/Editor.tsx:135](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Editor/Editor.tsx#L135)
 
 ___
 
@@ -109,4 +109,4 @@ Handler for ref forwarding of the MUIRichTextEditor
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:141](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Editor/Editor.tsx#L141)
+[packages/sc-ui/src/components/Editor/Editor.tsx:141](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Editor/Editor.tsx#L141)

@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:134](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/notification.ts#L134)
+[types/notification.ts:127](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/notification.ts#L127)
 
 ___
 
@@ -46,7 +46,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:119](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/notification.ts#L119)
+[types/notification.ts:112](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/notification.ts#L112)
 
 ___
 
@@ -62,7 +62,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:124](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/notification.ts#L124)
+[types/notification.ts:117](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/notification.ts#L117)
 
 ___
 
@@ -78,4 +78,4 @@ Type UnBlocked User
 
 #### Defined in
 
-[types/notification.ts:319](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/notification.ts#L319)
+[types/notification.ts:312](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/notification.ts#L312)

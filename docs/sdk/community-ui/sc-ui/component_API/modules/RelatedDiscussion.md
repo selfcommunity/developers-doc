@@ -46,7 +46,7 @@ The name `SCRelatedDiscussion` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:105](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L105)
+[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:110](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L110)
 
 ___
 
@@ -60,4 +60,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)

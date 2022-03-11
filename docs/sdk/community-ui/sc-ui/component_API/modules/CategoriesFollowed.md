@@ -39,7 +39,7 @@ The name `SCCategoriesFollowed` can be used when providing style overrides in th
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:63](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L63)
+[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:65](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L65)
 
 ___
 
@@ -59,4 +59,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)

@@ -35,7 +35,9 @@ The name `SCCommentsObject` can be used when providing style overrides in the th
 |root|.SCCommentsObject-root|Styles applied to the root element.|
 |fixedPrimaryReply|.SCCommentsObject-fixed-primary-reply|Styles applied to the comment primary reply element.|
 |fixedTopPrimaryReply|.SCCommentsObject-fixed-top-primary-reply|Styles applied to the comment top primary reply element.|
-|fixedBottomPrimaryReply|.SCCommentsObject-fixed-bottom-primary-reply|Styles applied to the comment bottom primary reply  element.|
+|fixedBottomPrimaryReply|.SCCommentsObject-fixed-bottom-primary-reply|Styles applied to the comment bottom primary reply element.|
+|commentNotFound|.SCCommentsObject-comment-not-found|Styles applied to the label 'Comment not found'.|
+|noOtherComments|.SCCommentsObject-no-other-comments|Styles applied to the label 'No other comments'.|
 
 #### Parameters
 
@@ -49,7 +51,7 @@ The name `SCCommentsObject` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:255](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L255)
+[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:272](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L272)
 
 ___
 
@@ -69,4 +71,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L23)
+[packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L23)

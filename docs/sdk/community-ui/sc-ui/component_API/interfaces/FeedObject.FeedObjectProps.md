@@ -31,7 +31,7 @@ Props to spread to Actions component
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:277](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L277)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:277](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L277)
 
 ___
 
@@ -45,7 +45,7 @@ Props to spread to ContributionActionsMenu component
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:283](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L283)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:283](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L283)
 
 ___
 
@@ -59,7 +59,7 @@ Props to spread to ContributorsFeedObject component
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:301](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L301)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:301](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L301)
 
 ___
 
@@ -73,7 +73,7 @@ Props to spread to ContributionActionsMenu component
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:265](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L265)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:265](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L265)
 
 ___
 
@@ -87,7 +87,7 @@ Props to spread to Follow button component
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:271](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L271)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:271](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L271)
 
 ___
 
@@ -101,7 +101,7 @@ Props to spread to MediasPreview component
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:289](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L289)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:289](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L289)
 
 ___
 
@@ -115,7 +115,7 @@ Props to spread to PollObject component
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:295](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L295)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:295](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L295)
 
 ___
 
@@ -133,7 +133,7 @@ CardProps.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:212](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L212)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:212](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L212)
 
 ___
 
@@ -147,7 +147,7 @@ Feed Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:223](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L223)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:223](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L223)
 
 ___
 
@@ -161,7 +161,7 @@ Feed Object latest activities
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:241](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L241)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:241](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L241)
 
 ___
 
@@ -175,7 +175,7 @@ Id of feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:217](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L217)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:217](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L217)
 
 ___
 
@@ -189,7 +189,7 @@ Feed Object type
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:229](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L229)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:229](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L229)
 
 ___
 
@@ -203,7 +203,7 @@ Hide follow action object
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:253](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L253)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:253](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L253)
 
 ___
 
@@ -217,7 +217,7 @@ Hide Participants preview
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:259](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L259)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:259](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L259)
 
 ___
 
@@ -235,7 +235,7 @@ CardProps.id
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:206](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L206)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:206](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L206)
 
 ___
 
@@ -249,7 +249,7 @@ Mark the FeedObject as read when enter in viewport
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:235](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L235)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:235](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L235)
 
 ___
 
@@ -263,4 +263,4 @@ Feed Object template type
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:247](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L247)
+[packages/sc-ui/src/components/FeedObject/FeedObject.tsx:247](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FeedObject/FeedObject.tsx#L247)

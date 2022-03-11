@@ -25,7 +25,7 @@ Props to apply to the accordion component
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:92](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L92)
+[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:92](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L92)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:82](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L82)
+[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:82](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L82)
 
 ___
 
@@ -53,7 +53,7 @@ User fields to display in the profile
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:87](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L87)
+[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:87](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L87)
 
 ___
 
@@ -67,4 +67,4 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:77](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L77)
+[packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx:77](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileEdit/UserProfileEdit.tsx#L77)

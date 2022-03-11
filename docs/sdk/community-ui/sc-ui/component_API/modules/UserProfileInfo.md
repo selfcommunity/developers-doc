@@ -47,7 +47,7 @@ The name `SCUserProfileInfo` can be used when providing style overrides in the t
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:111](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L111)
+[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:111](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L111)
 
 ___
 
@@ -61,4 +61,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx#L18)
+[packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileInfo/Skeleton.tsx#L18)

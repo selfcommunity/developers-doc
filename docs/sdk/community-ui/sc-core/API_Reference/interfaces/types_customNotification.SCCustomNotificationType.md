@@ -20,7 +20,7 @@ Notification description
 
 #### Defined in
 
-[types/customNotification.ts:31](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/customNotification.ts#L31)
+[types/customNotification.ts:31](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/customNotification.ts#L31)
 
 ___
 
@@ -32,7 +32,7 @@ Embed object if exist
 
 #### Defined in
 
-[types/customNotification.ts:21](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/customNotification.ts#L21)
+[types/customNotification.ts:21](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/customNotification.ts#L21)
 
 ___
 
@@ -44,7 +44,7 @@ Id of the custom notification
 
 #### Defined in
 
-[types/customNotification.ts:11](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/customNotification.ts#L11)
+[types/customNotification.ts:11](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/customNotification.ts#L11)
 
 ___
 
@@ -56,7 +56,7 @@ Notification title
 
 #### Defined in
 
-[types/customNotification.ts:26](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/customNotification.ts#L26)
+[types/customNotification.ts:26](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/customNotification.ts#L26)
 
 ___
 
@@ -68,4 +68,4 @@ Custom type notification
 
 #### Defined in
 
-[types/customNotification.ts:16](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/customNotification.ts#L16)
+[types/customNotification.ts:16](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/customNotification.ts#L16)

@@ -18,7 +18,7 @@ Usefull for websocket
 
 #### Defined in
 
-[types/notification.ts:61](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/notification.ts#L61)
+[types/notification.ts:54](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/notification.ts#L54)
 
 ___
 
@@ -28,4 +28,4 @@ ___
 
 #### Defined in
 
-[types/notification.ts:62](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/notification.ts#L62)
+[types/notification.ts:55](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/notification.ts#L55)

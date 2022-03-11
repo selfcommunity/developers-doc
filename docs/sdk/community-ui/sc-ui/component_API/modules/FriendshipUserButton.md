@@ -46,4 +46,4 @@ The name `SCFriendshipUserButton` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:83](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L83)
+[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:83](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L83)

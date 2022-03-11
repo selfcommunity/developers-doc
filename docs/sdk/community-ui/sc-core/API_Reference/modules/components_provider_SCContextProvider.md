@@ -28,7 +28,7 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCContextProvider/index.tsx:22](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L22)
+[components/provider/SCContextProvider/index.tsx:22](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L22)
 
 ## Functions
 
@@ -54,7 +54,7 @@ This component imports all providers
 
 #### Defined in
 
-[components/provider/SCContextProvider/index.tsx:34](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L34)
+[components/provider/SCContextProvider/index.tsx:34](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L34)
 
 ___
 
@@ -71,4 +71,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCContextProvider/index.tsx:91](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L91)
+[components/provider/SCContextProvider/index.tsx:91](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L91)

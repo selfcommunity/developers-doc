@@ -20,7 +20,7 @@ country
 
 #### Defined in
 
-[types/location.ts:35](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L35)
+[types/location.ts:35](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L35)
 
 ___
 
@@ -32,7 +32,7 @@ full_address
 
 #### Defined in
 
-[types/location.ts:30](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L30)
+[types/location.ts:30](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L30)
 
 ___
 
@@ -44,7 +44,7 @@ Latitude
 
 #### Defined in
 
-[types/location.ts:40](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L40)
+[types/location.ts:40](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L40)
 
 ___
 
@@ -56,7 +56,7 @@ Longitude
 
 #### Defined in
 
-[types/location.ts:45](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L45)
+[types/location.ts:45](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L45)
 
 ___
 
@@ -68,7 +68,7 @@ postal_code
 
 #### Defined in
 
-[types/location.ts:50](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L50)
+[types/location.ts:50](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L50)
 
 ___
 
@@ -80,7 +80,7 @@ province
 
 #### Defined in
 
-[types/location.ts:55](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L55)
+[types/location.ts:55](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L55)
 
 ___
 
@@ -92,7 +92,7 @@ province_short
 
 #### Defined in
 
-[types/location.ts:60](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L60)
+[types/location.ts:60](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L60)
 
 ___
 
@@ -104,7 +104,7 @@ region
 
 #### Defined in
 
-[types/location.ts:65](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L65)
+[types/location.ts:65](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L65)
 
 ___
 
@@ -116,4 +116,4 @@ town
 
 #### Defined in
 
-[types/location.ts:70](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/location.ts#L70)
+[types/location.ts:70](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/location.ts#L70)

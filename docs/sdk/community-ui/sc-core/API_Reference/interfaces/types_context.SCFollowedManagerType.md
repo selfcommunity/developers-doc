@@ -17,7 +17,7 @@ List of all user ids followed by the authenticated user
 
 #### Defined in
 
-[types/context.ts:135](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L135)
+[types/context.ts:135](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L135)
 
 ___
 
@@ -29,7 +29,7 @@ List of all users in loading state
 
 #### Defined in
 
-[types/context.ts:140](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L140)
+[types/context.ts:140](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L140)
 
 ## Methods
 
@@ -45,7 +45,7 @@ Empty cache to revalidate all followed
 
 #### Defined in
 
-[types/context.ts:165](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L165)
+[types/context.ts:165](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L165)
 
 ___
 
@@ -67,7 +67,7 @@ Handle user follow/unfollow user
 
 #### Defined in
 
-[types/context.ts:150](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L150)
+[types/context.ts:150](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L150)
 
 ___
 
@@ -89,7 +89,7 @@ Handle check if a user follow a user, caching data
 
 #### Defined in
 
-[types/context.ts:155](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L155)
+[types/context.ts:155](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L155)
 
 ___
 
@@ -111,7 +111,7 @@ List of current users in loading state
 
 #### Defined in
 
-[types/context.ts:145](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L145)
+[types/context.ts:145](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L145)
 
 ___
 
@@ -127,4 +127,4 @@ Refresh followed
 
 #### Defined in
 
-[types/context.ts:160](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L160)
+[types/context.ts:160](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L160)

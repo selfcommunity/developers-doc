@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:41](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Snippets/Snippets.tsx#L41)
+[packages/sc-ui/src/components/Snippets/Snippets.tsx:47](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Snippets/Snippets.tsx#L47)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:36](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Snippets/Snippets.tsx#L36)
+[packages/sc-ui/src/components/Snippets/Snippets.tsx:42](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Snippets/Snippets.tsx#L42)
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:51](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Snippets/Snippets.tsx#L51)
+[packages/sc-ui/src/components/Snippets/Snippets.tsx:57](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Snippets/Snippets.tsx#L57)
 
 ## Methods
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:50](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Snippets/Snippets.tsx#L50)
+[packages/sc-ui/src/components/Snippets/Snippets.tsx:56](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Snippets/Snippets.tsx#L56)

@@ -48,7 +48,7 @@ The name `SCSnippetNotifications` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:130](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L130)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:130](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L130)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx#L19)
+[packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx#L19)

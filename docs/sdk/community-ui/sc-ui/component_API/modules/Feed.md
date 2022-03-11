@@ -11,49 +11,29 @@ custom_edit_url: null
 - [FeedProps](../interfaces/Feed.FeedProps.md)
 - [FeedSidebarProps](../interfaces/Feed.FeedSidebarProps.md)
 
-## Functions
+## Type aliases
 
-### Feed
+### FeedRef
 
-▸ **Feed**(`props`): `JSX.Element`
+Ƭ **FeedRef**: `Object`
 
-> API documentation for the Community-UI Feed component. Learn about the available props and the CSS API.
-
-#### Import
-
-```jsx
-import {Feed} from '@selfcommunity/ui';
-```
-
-#### Component Name
-
-The name `SCFeed` can be used when providing style overrides in the theme.
-
-#### CSS
-
-|Rule Name|Global class|Description|
-|---|---|---|
-|root|.SCFeed-root|Styles applied to the root element.|
-|left|.SCFeed-left|Styles applied to the left element.|
-|right|.SCFeed-right|Styles applied to the right element.|
-|end|.SCFeed-end|Styles applied to the end element.|
-|refresh|.SCFeed-refresh|Styles applied to the refresh section.|
-
-#### Parameters
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedProps`](../interfaces/Feed.FeedProps.md) |
-
-#### Returns
-
-`JSX.Element`
+| `addFeedData` | (`obj`: `any`) => `void` |
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:170](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Feed/Feed.tsx#L170)
+[packages/sc-ui/src/components/Feed/Feed.tsx:69](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L69)
 
-___
+## Properties
+
+### default
+
+• **default**: `ForwardRefExoticComponent`<[`FeedProps`](../interfaces/Feed.FeedProps.md) & `RefAttributes`<[`FeedRef`](Feed.md#feedref)\>\>
+
+## Functions
 
 ### FeedSkeleton
 
@@ -71,4 +51,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)
+[packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)

@@ -33,4 +33,4 @@ This custom hook manages cached data and the loading state.
 
 #### Defined in
 
-[hooks/useSCCachingManager.ts:8](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/hooks/useSCCachingManager.ts#L8)
+[hooks/useSCCachingManager.ts:8](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/hooks/useSCCachingManager.ts#L8)

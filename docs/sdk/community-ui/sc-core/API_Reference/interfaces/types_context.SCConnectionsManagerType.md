@@ -17,7 +17,7 @@ List of all users in relations(social graph) with authenticated user
 
 #### Defined in
 
-[types/context.ts:209](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L209)
+[types/context.ts:209](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L209)
 
 ___
 
@@ -29,7 +29,7 @@ List of all users in loading state
 
 #### Defined in
 
-[types/context.ts:214](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L214)
+[types/context.ts:214](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L214)
 
 ## Methods
 
@@ -51,7 +51,7 @@ Handle accept connection
 
 #### Defined in
 
-[types/context.ts:229](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L229)
+[types/context.ts:229](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L229)
 
 ___
 
@@ -67,7 +67,7 @@ Empty cache to revalidate all categories
 
 #### Defined in
 
-[types/context.ts:244](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L244)
+[types/context.ts:244](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L244)
 
 ___
 
@@ -89,7 +89,7 @@ List of current users in loading state
 
 #### Defined in
 
-[types/context.ts:219](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L219)
+[types/context.ts:219](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L219)
 
 ___
 
@@ -105,7 +105,7 @@ Refresh connections status
 
 #### Defined in
 
-[types/context.ts:239](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L239)
+[types/context.ts:239](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L239)
 
 ___
 
@@ -127,7 +127,7 @@ Handle request connection
 
 #### Defined in
 
-[types/context.ts:224](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L224)
+[types/context.ts:224](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L224)
 
 ___
 
@@ -149,4 +149,4 @@ Check user status
 
 #### Defined in
 
-[types/context.ts:234](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-core/src/types/context.ts#L234)
+[types/context.ts:234](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/context.ts#L234)

@@ -25,7 +25,7 @@ Props to spread to single user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:52](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L52)
+[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:54](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L54)
 
 ___
 
@@ -39,7 +39,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:42](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L42)
+[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:44](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L44)
 
 ___
 
@@ -53,4 +53,4 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:47](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L47)
+[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:49](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L49)

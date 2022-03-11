@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:89](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Thread/Thread.tsx#L89)
+[packages/sc-ui/src/components/Thread/Thread.tsx:112](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L112)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:84](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Thread/Thread.tsx#L84)
+[packages/sc-ui/src/components/Thread/Thread.tsx:107](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L107)
 
 ___
 
@@ -53,7 +53,7 @@ Thread id
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:74](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Thread/Thread.tsx#L74)
+[packages/sc-ui/src/components/Thread/Thread.tsx:97](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L97)
 
 ___
 
@@ -67,7 +67,7 @@ Opens new message screen
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:98](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Thread/Thread.tsx#L98)
+[packages/sc-ui/src/components/Thread/Thread.tsx:121](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L121)
 
 ___
 
@@ -81,4 +81,28 @@ Message receiver id
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:79](https://github.com/selfcommunity/community-ui/blob/de7e3c8/packages/sc-ui/src/components/Thread/Thread.tsx#L79)
+[packages/sc-ui/src/components/Thread/Thread.tsx:102](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L102)
+
+## Methods
+
+### onNewMessageSent
+
+▸ `Optional` **onNewMessageSent**(`dispatch`): `void`
+
+Callback fired when a new message is sent
+
+**`default`** null
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `dispatch` | `any` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[packages/sc-ui/src/components/Thread/Thread.tsx:126](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L126)
