@@ -79,7 +79,7 @@ curl -X GET /api/v2/incubator/{id}/ \
 
 ```json
 {
-  "id": 0,
+      "id": 0,
       "name": "string",
       "slug": "string",
       "slogan": "string",
@@ -130,7 +130,8 @@ curl -X GET /api/v2/incubator/{id}/ \
         "ext_id": "string"
       },
       "subscribers_count": "string",
-      "subscribers_threshold": "string"
+      "subscribers_threshold": "string",
+      "subscribed": true,
 }
 ```
 

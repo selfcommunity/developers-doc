@@ -162,7 +162,8 @@ Status Code **200**
         "ext_id": "string"
       },
       "subscribers_count": "string",
-      "subscribers_threshold": "string"
+      "subscribers_threshold": "string",
+      "subscribed": true,
     }
   ]
 }
