@@ -82,6 +82,7 @@ curl -X GET /api/v2/category/{id}/ \
 {
   "id": 0,
   "tags": [],
+  "followed": false,
   "order": 123,
   "name": "string",
   "name_synonyms": "string",
@@ -92,17 +93,16 @@ curl -X GET /api/v2/category/{id}/ \
   "seo_description": "string",
   "auto_follow": "none",
   "active": true,
-  "deleted": false,
   "image_original": "string",
   "image_bigger": "string",
   "image_big": "string",
   "image_medium": "string",
   "image_small": "string",
   "emotional_image_original": "string",
-  "emotional_image_position": 123,
+  "emotional_image_position": 0,
   "lastmod_datetime": "2019-08-24T14:15:22Z",
   "stream_order_by": "recent",
-
+  "followers_counter": 13
 }
 ```
 
