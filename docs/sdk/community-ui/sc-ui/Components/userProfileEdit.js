@@ -6,7 +6,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const UserProfileEdit = require('@selfcommunity/ui').UserProfileEdit;
-                return <UserProfileEdit id={18}/>;
+                return <UserProfileEdit userId={18}/>;
             }}
         </BrowserOnly>
     );

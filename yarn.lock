@@ -3828,37 +3828,38 @@
     "@rpldy/shared-ui" "^0.14.2"
     "@rpldy/uploader" "^0.14.2"
 
-"@selfcommunity/core@^0.1.0-alpha.36":
-  version "0.1.0-alpha.36"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.36.tgz#5db1d6518a7122d66bcab52c6db58e0ff0cbc335"
-  integrity sha512-NCDifOocABrK8reTbps1CbfK+9S5uVqZugJ26/m4eIsZa+dyezBUt08sLpUkDGTo332nKRrmKinyHcjliOwrvQ==
+"@selfcommunity/core@^0.1.0-alpha.38":
+  version "0.1.0-alpha.38"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.38.tgz#962bd936a9ed96163450303e6121c4e9d7cac2e2"
+  integrity sha512-QodDSO8ldGLlD0j7XQE4qQKQoOGTBwcIW9i/rd5kBbWfTTrhhUP3kP9m5BoHpOCv+Z/N22665xmUeb4haONa6g==
   dependencies:
-    "@selfcommunity/i18n" "^0.1.0-alpha.36"
+    "@selfcommunity/i18n" "^0.1.0-alpha.38"
     axios "^0.23.0"
     pubsub-js "^1.9.4"
+    react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.36":
-  version "0.1.0-alpha.36"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.36.tgz#d735dfbbd86764db47b95879728a9f8fa993610c"
-  integrity sha512-7ERWFpvFGm58I8pDH7cx7ikq0+SBx34RrJy+82Avpe2GPfr+S+3wDdoXls2dy9ADww/UUXw80qLdE1e2rEBAIQ==
+"@selfcommunity/i18n@^0.1.0-alpha.38":
+  version "0.1.0-alpha.38"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.38.tgz#a2610ae1618d04b86fae18de363d052da144aaf4"
+  integrity sha512-uBS8KuQ4d0JPNePSSMLSaW5ka6N0Qb+T+J/dyAhLEZuLn6lOXlDcer1VBzM9RnLbLTzRIEVt91K4j1wFnpEsZA==
 
-"@selfcommunity/templates@^0.0.1-alpha.36":
-  version "0.0.1-alpha.36"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.36.tgz#39b99d5726073d4eb3e30194af73ac513e8a3378"
-  integrity sha512-TGp5Wibxyw3LUGvfpEBk9ZChPtl/IE+krYdWhup1XOJItRhfmc1LylAnKE8X2mpdtg6xIgc3xMU5+d6diD8yOQ==
+"@selfcommunity/templates@^0.0.1-alpha.38":
+  version "0.0.1-alpha.38"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.38.tgz#6a3408828de6ba520428b8b95d680774b9900410"
+  integrity sha512-JBlRNzJ0FgFPuAFSEVnLRZ+CTfjpaJxXIeeVVnOeofIA21T+r6pV6Fft5OCIaxmBueNfqjS6zhffBjTGZOimUw==
   dependencies:
-    "@selfcommunity/core" "^0.1.0-alpha.36"
-    "@selfcommunity/i18n" "^0.1.0-alpha.36"
-    "@selfcommunity/ui" "^0.1.0-alpha.36"
+    "@selfcommunity/core" "^0.1.0-alpha.38"
+    "@selfcommunity/i18n" "^0.1.0-alpha.38"
+    "@selfcommunity/ui" "^0.1.0-alpha.38"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.36":
-  version "0.1.0-alpha.36"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.36.tgz#e38dcbb5b9957a85381b0c55b542355f7bf5eec3"
-  integrity sha512-2VKRd2I5F5Icc2AY791Sk1JG0NGKt6T1svZ2YYVXUOsf/dZp8NpBTqk/hA3D3s9zM3gdBFaznaBF9K9O6Nu9fg==
+"@selfcommunity/ui@^0.1.0-alpha.38":
+  version "0.1.0-alpha.38"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.38.tgz#6ad4029a40d036106b01ea0de6f5b95d0a50c8c2"
+  integrity sha512-z49/gychbHM4nCAMq3agK6jbTSxRW4qjZdn5cY9HlUtin/INpRceYfVWZ7uO3/3ds4f//b+BaPzWju9/ds9wbA==
   dependencies:
     "@mui/lab" "~5.0.0-alpha.68"
     "@rpldy/chunked-sender" "^0.14.1"
@@ -3867,8 +3868,8 @@
     "@rpldy/upload-drop-zone" "^0.14.1"
     "@rpldy/upload-preview" "^0.14.1"
     "@rpldy/uploady" "^0.14.1"
-    "@selfcommunity/core" "^0.1.0-alpha.36"
-    "@selfcommunity/i18n" "^0.1.0-alpha.36"
+    "@selfcommunity/core" "^0.1.0-alpha.38"
+    "@selfcommunity/i18n" "^0.1.0-alpha.38"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -11241,6 +11242,11 @@ react-router@5.2.1, react-router@^5.2.0:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
+
+react-singleton-hook@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/react-singleton-hook/-/react-singleton-hook-3.2.3.tgz#1765e67b1910fd163cdcd186a840af82b60ca17e"
+  integrity sha512-DYJ70V8IVUZznygmRYYF+hxwLkGPLrCCTAD1Je7sZYXquE9HpAJqBVeEgb2XIZwxWUw97PN2ho5J/+63YwdKaA==
 
 react-sortablejs@^6.0.0:
   version "6.1.1"
