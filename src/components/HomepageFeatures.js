@@ -1,10 +1,11 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
+import Link from "@docusaurus/core/lib/client/exports/Link";
 
 const FeatureList = [
     {
-        title: 'API Documentation',
+        title: <Link to="/docs/api/intro">API Documentation</Link>,
         Svg: require('../../static/img/api.svg').default,
         description: (
             <>
@@ -13,7 +14,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'API Reference',
+        title: <Link to="/docs/apireference/v2/intro">API Reference</Link>,
         Svg: require('../../static/img/api_reference.svg').default,
         description: (
             <>
@@ -23,7 +24,7 @@ const FeatureList = [
         ),
     },
     {
-        title: 'Community-UI SDK',
+        title: <Link to="/docs/sdk/community-ui/intro">Community-UI SDK</Link>,
         Svg: require('../../static/img/api.svg').default,
         description: (
             <>

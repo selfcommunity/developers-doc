@@ -15,7 +15,8 @@ export default function App () {
                         feedObjectActivities: item.activities ? item.activities : null,
                         markRead: scUser ? !item.seen_by_id.includes(scUser.id) : false
                     });
-                return <Feed id={'feed'} endpoint={Endpoints.ExploreFeed} ItemComponent={FeedObject} itemPropsGenerator={itemPropsGenerator} ItemSkeleton={FeedObjectSkeleton}/>;
+                const itemIdGenerator = (item) => item[item.type].id;
+                return <Feed id={'feed'} endpoint={Endpoints.ExploreFeed} ItemComponent={FeedObject} itemPropsGenerator={itemPropsGenerator} ItemSkeleton={FeedObjectSkeleton} itemIdGenerator={itemIdGenerator}/>;
             }}
         </BrowserOnly>
     );

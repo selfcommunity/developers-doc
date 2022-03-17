@@ -202,7 +202,7 @@ const config = {
               },
               {
                 label: 'SDK',
-                to: '/docs/sdk/intro',
+                to: '/docs/sdk/community-ui/intro',
               },
             ],
           },
