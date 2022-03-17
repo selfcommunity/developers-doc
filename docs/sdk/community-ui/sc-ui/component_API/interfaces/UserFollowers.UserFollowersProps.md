@@ -19,7 +19,7 @@ Props to spread to single user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:76](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L76)
+[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:76](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L76)
 
 ___
 
@@ -33,7 +33,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:66](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L66)
+[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:66](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L66)
 
 ___
 
@@ -47,7 +47,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:71](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L71)
+[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:71](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L71)
 
 ___
 
@@ -61,4 +61,4 @@ The user id
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:61](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L61)
+[packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx:61](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UserFollowers/UserFollowers.tsx#L61)

@@ -17,7 +17,7 @@ User status
 
 #### Defined in
 
-[types/user.ts:26](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/user.ts#L26)
+[types/user.ts:26](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/user.ts#L26)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:27](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/user.ts#L27)
+[types/user.ts:27](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/user.ts#L27)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/user.ts:28](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/user.ts#L28)
+[types/user.ts:28](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/user.ts#L28)
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 #### Defined in
 
-[types/user.ts:29](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/user.ts#L29)
+[types/user.ts:29](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/user.ts#L29)

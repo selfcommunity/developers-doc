@@ -25,7 +25,7 @@ Props to spread to single category object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:50](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L50)
+[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:50](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L50)
 
 ___
 
@@ -39,7 +39,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:40](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L40)
+[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:40](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L40)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:45](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L45)
+[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:45](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L45)
 
 ___
 
@@ -67,4 +67,4 @@ The user id
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:35](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L35)
+[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:35](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L35)

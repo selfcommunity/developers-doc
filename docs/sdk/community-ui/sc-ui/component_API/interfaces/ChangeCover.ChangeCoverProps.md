@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:40](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L40)
+[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:41](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L41)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:45](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L45)
+[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:46](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L46)
 
 ## Methods
 
@@ -63,4 +63,4 @@ On change function.
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:35](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L35)
+[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:36](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L36)

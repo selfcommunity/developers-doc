@@ -39,4 +39,4 @@ The name `SCConnectionUserButton` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx:56](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx#L56)
+[packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx:56](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/ConnectionUserButton/ConnectionUserButton.tsx#L56)

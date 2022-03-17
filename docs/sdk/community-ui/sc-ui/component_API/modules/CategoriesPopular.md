@@ -27,6 +27,8 @@ The name `SCCategoriesPopular` can be used when providing style overrides in the
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCCategoriesPopular-root|Styles applied to the root element.|
+|title|.SCCategoriesPopular-title|Styles applied to the title element.|
+|noResults|.SCCategoriesPopular-noResults|Styles applied to noResults section.|
 
 #### Parameters
 
@@ -40,7 +42,7 @@ The name `SCCategoriesPopular` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:55](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L55)
+[packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx:57](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesPopular/CategoriesPopular.tsx#L57)
 
 ___
 
@@ -60,4 +62,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesPopular/Skeleton.tsx#L4)

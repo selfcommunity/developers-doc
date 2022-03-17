@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:34](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L34)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:34](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L34)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:39](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L39)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:39](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L39)
 
 ## Methods
 
@@ -61,7 +61,7 @@ Callback to pass message item
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:52](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L52)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:52](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L52)
 
 ___
 
@@ -77,4 +77,4 @@ Callback to send the message
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:47](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L47)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:47](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L47)

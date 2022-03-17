@@ -25,7 +25,7 @@ Props to spread category button followed
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:100](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L100)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:100](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L100)
 
 ___
 
@@ -39,7 +39,7 @@ Props to spread to followedBy dialog
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:106](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L106)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:106](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L106)
 
 ___
 
@@ -53,7 +53,7 @@ Category Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:89](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L89)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:89](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L89)
 
 ___
 
@@ -67,7 +67,7 @@ Id of category object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:94](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L94)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:94](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L94)
 
 ___
 
@@ -81,4 +81,4 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:84](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L84)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:84](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L84)

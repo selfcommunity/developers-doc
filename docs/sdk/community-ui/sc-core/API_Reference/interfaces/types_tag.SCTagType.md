@@ -20,7 +20,7 @@ Tag active or not
 
 #### Defined in
 
-[types/tag.ts:49](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L49)
+[types/tag.ts:49](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L49)
 
 ___
 
@@ -32,7 +32,7 @@ Hexadecimal format color code with prefix '#'.
 
 #### Defined in
 
-[types/tag.ts:29](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L29)
+[types/tag.ts:29](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L29)
 
 ___
 
@@ -44,7 +44,7 @@ Creation date time.
 
 #### Defined in
 
-[types/tag.ts:44](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L44)
+[types/tag.ts:44](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L44)
 
 ___
 
@@ -56,7 +56,7 @@ Tag deleted or not
 
 #### Defined in
 
-[types/tag.ts:54](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L54)
+[types/tag.ts:54](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L54)
 
 ___
 
@@ -68,7 +68,7 @@ Short description of the tag.
 
 #### Defined in
 
-[types/tag.ts:24](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L24)
+[types/tag.ts:24](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L24)
 
 ___
 
@@ -80,7 +80,7 @@ Unique integer value identifying this tag.
 
 #### Defined in
 
-[types/tag.ts:9](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L9)
+[types/tag.ts:9](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L9)
 
 ___
 
@@ -92,7 +92,7 @@ The name of the tag (unique together type).
 
 #### Defined in
 
-[types/tag.ts:19](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L19)
+[types/tag.ts:19](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L19)
 
 ___
 
@@ -104,7 +104,7 @@ The type of the tag (unique together name).
 
 #### Defined in
 
-[types/tag.ts:14](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L14)
+[types/tag.ts:14](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L14)
 
 ___
 
@@ -116,7 +116,7 @@ The tag has a visibility boost.
 
 #### Defined in
 
-[types/tag.ts:39](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L39)
+[types/tag.ts:39](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L39)
 
 ___
 
@@ -128,4 +128,4 @@ Tag publicly visible.
 
 #### Defined in
 
-[types/tag.ts:34](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/tag.ts#L34)
+[types/tag.ts:34](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/tag.ts#L34)

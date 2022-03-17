@@ -26,6 +26,8 @@ The name `SCCategoriesFollowed` can be used when providing style overrides in th
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCCategoryFollowed-root|Styles applied to the root element.|
+|title|.SCCategoryFollowed-title|Styles applied to the title element.|
+|noResults|.SCCategoryFollowed-noResults|Styles applied to noResults section.|
 
 #### Parameters
 
@@ -39,7 +41,7 @@ The name `SCCategoriesFollowed` can be used when providing style overrides in th
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:65](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L65)
+[packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx:67](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesFollowed/CategoriesFollowed.tsx#L67)
 
 ___
 
@@ -59,4 +61,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesFollowed/Skeleton.tsx#L4)

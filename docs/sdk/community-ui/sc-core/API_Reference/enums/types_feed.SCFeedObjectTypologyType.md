@@ -17,7 +17,7 @@ Typology of feedObject
 
 #### Defined in
 
-[types/feed.ts:20](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/feed.ts#L20)
+[types/feed.ts:20](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/feed.ts#L20)
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 #### Defined in
 
-[types/feed.ts:21](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/feed.ts#L21)
+[types/feed.ts:21](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/feed.ts#L21)
 
 ___
 
@@ -37,4 +37,4 @@ ___
 
 #### Defined in
 
-[types/feed.ts:22](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/types/feed.ts#L22)
+[types/feed.ts:22](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/feed.ts#L22)

@@ -44,7 +44,7 @@ The name `SCCategoryHeader` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:133](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L133)
+[packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx:133](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoryHeader/CategoryHeader.tsx#L133)
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx#L35)
+[packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoryHeader/Skeleton.tsx#L35)

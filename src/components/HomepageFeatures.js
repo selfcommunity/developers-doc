@@ -9,7 +9,7 @@ const FeatureList = [
         Svg: require('../../static/img/api.svg').default,
         description: (
             <>
-                Explore our APIs. Learn how to build apps and integrations with the SelfCommunity platform
+                Explore our APIs.<br/>Learn how to build apps and integrations with the SelfCommunity platform.
             </>
         ),
     },
@@ -18,7 +18,7 @@ const FeatureList = [
         Svg: require('../../static/img/api_reference.svg').default,
         description: (
             <>
-                Harness the power of our v2 APIs. Discover the endpoints you can use to build innovative community
+                Harness the power of our v2 APIs.<br/>Discover the endpoints you can use to build innovative community
                 solutions.
             </>
         ),
@@ -28,9 +28,8 @@ const FeatureList = [
         Svg: require('../../static/img/api.svg').default,
         description: (
             <>
-                Quickly embed beautiful community with SelfCommunity.
-                A set of React components for integrating an empowered Social Networking Technology Community in your
-                frontend.
+                Quickly embed a beautiful community within your eCommerce, Website or APP.<br/>
+                A set of React Components for integrating an empowered Social Networking TechnologyCommunity in your frontend.
             </>
         ),
     },

@@ -25,7 +25,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:34](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L34)
+[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:34](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L34)
 
 ___
 
@@ -39,7 +39,7 @@ User
 
 #### Defined in
 
-[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:45](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L45)
+[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:45](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L45)
 
 ___
 
@@ -53,7 +53,7 @@ Id of the user
 
 #### Defined in
 
-[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:39](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L39)
+[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:39](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L39)
 
 ## Methods
 
@@ -76,4 +76,4 @@ onChangeConnectionStatus callback
 
 #### Defined in
 
-[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:52](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L52)
+[packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx:52](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FriendshipUserButton/FriendshipUserButton.tsx#L52)

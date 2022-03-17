@@ -38,12 +38,6 @@ Re-exports [SCBroadcastMessageType](../interfaces/types_broadcastMessage.SCBroad
 
 ___
 
-### SCCategoriesManagerType
-
-Re-exports [SCCategoriesManagerType](../interfaces/types_context.SCCategoriesManagerType.md)
-
-___
-
 ### SCCategoryType
 
 Re-exports [SCCategoryType](../interfaces/types_category.SCCategoryType.md)
@@ -161,6 +155,12 @@ ___
 ### SCFeedUnitType
 
 Re-exports [SCFeedUnitType](../interfaces/types_feed.SCFeedUnitType.md)
+
+___
+
+### SCFollowedCategoriesManagerType
+
+Re-exports [SCFollowedCategoriesManagerType](../interfaces/types_context.SCFollowedCategoriesManagerType.md)
 
 ___
 

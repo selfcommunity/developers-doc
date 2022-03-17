@@ -32,7 +32,8 @@ The name `SCChangeCoverButton` can be used when providing style overrides in the
 |---|---|---|
 |root|.SCChangeCoverButton-root|Styles applied to the root element.|
 |helpPopover|.SCChangeCoverButton-help-popover|Styles applied to the help popover element.|
-|menuItem|.SCChangeCoverButton-menu-item|Styles applied to the menu element.|
+|addMenuItem|.SCChangeCoverButton-add-menuItem|Styles applied to the add menu element.|
+|delMenuItem|.SCChangeCoverButton-del-menuItem|Styles applied to the del menu element.|
 
 #### Parameters
 
@@ -46,4 +47,4 @@ The name `SCChangeCoverButton` can be used when providing style overrides in the
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:73](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L73)
+[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:75](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L75)

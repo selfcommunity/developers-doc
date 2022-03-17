@@ -47,7 +47,7 @@ The name `SCMessageEditor` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:79](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L79)
+[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:79](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L79)
 
 ___
 
@@ -61,4 +61,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/MessageEditor/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/MessageEditor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/MessageEditor/Skeleton.tsx#L4)

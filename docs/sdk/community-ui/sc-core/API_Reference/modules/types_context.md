@@ -10,10 +10,10 @@ custom_edit_url: null
 
 - [SCAlertMessagesContextType](../interfaces/types_context.SCAlertMessagesContextType.md)
 - [SCAuthTokenType](../interfaces/types_context.SCAuthTokenType.md)
-- [SCCategoriesManagerType](../interfaces/types_context.SCCategoriesManagerType.md)
 - [SCConnectionsManagerType](../interfaces/types_context.SCConnectionsManagerType.md)
 - [SCContextProviderType](../interfaces/types_context.SCContextProviderType.md)
 - [SCContextType](../interfaces/types_context.SCContextType.md)
+- [SCFollowedCategoriesManagerType](../interfaces/types_context.SCFollowedCategoriesManagerType.md)
 - [SCFollowedManagerType](../interfaces/types_context.SCFollowedManagerType.md)
 - [SCLocaleContextType](../interfaces/types_context.SCLocaleContextType.md)
 - [SCLocaleType](../interfaces/types_context.SCLocaleType.md)

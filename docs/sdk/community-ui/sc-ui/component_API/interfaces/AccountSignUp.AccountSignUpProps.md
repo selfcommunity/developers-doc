@@ -25,7 +25,7 @@ Default props to submit button Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:57](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L57)
+[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:57](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L57)
 
 ___
 
@@ -39,7 +39,7 @@ Default props to TextField Input
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:51](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L51)
+[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:51](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L51)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:39](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L39)
+[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:39](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L39)
 
 ## Methods
 
@@ -77,4 +77,4 @@ Callback triggered on success sign in
 
 #### Defined in
 
-[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:45](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L45)
+[packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx:45](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/AccountSignUp/AccountSignUp.tsx#L45)

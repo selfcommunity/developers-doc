@@ -33,6 +33,8 @@ The name `SCUsersFollowed` can be used when providing style overrides in the the
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCUsersFollowed-root|Styles applied to the root element.|
+|title|.SCUsersFollowed-title|Styles applied to the title element.|
+|noResults|.SCUsersFollowed-noResults|Styles applied to noResults section.|
 
 #### Parameters
 
@@ -46,7 +48,7 @@ The name `SCUsersFollowed` can be used when providing style overrides in the the
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:101](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L101)
+[packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx:103](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UsersFollowed/UsersFollowed.tsx#L103)
 
 ___
 
@@ -60,4 +62,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx#L4)
+[packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UsersFollowed/Skeleton.tsx#L4)

@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:112](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L112)
+[packages/sc-ui/src/components/Thread/Thread.tsx:112](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Thread/Thread.tsx#L112)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:107](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L107)
+[packages/sc-ui/src/components/Thread/Thread.tsx:107](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Thread/Thread.tsx#L107)
 
 ___
 
@@ -53,7 +53,7 @@ Thread id
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:97](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L97)
+[packages/sc-ui/src/components/Thread/Thread.tsx:97](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Thread/Thread.tsx#L97)
 
 ___
 
@@ -67,7 +67,7 @@ Opens new message screen
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:121](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L121)
+[packages/sc-ui/src/components/Thread/Thread.tsx:121](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Thread/Thread.tsx#L121)
 
 ___
 
@@ -81,7 +81,7 @@ Message receiver id
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:102](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L102)
+[packages/sc-ui/src/components/Thread/Thread.tsx:102](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Thread/Thread.tsx#L102)
 
 ## Methods
 
@@ -105,4 +105,4 @@ Callback fired when a new message is sent
 
 #### Defined in
 
-[packages/sc-ui/src/components/Thread/Thread.tsx:126](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Thread/Thread.tsx#L126)
+[packages/sc-ui/src/components/Thread/Thread.tsx:126](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Thread/Thread.tsx#L126)

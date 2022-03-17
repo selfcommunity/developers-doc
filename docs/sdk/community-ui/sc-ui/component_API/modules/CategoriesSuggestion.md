@@ -30,6 +30,8 @@ The name `SCCategoriesSuggestion` can be used when providing style overrides in 
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCCategoriesSuggestion-root|Styles applied to the root element.|
+|title|.SCCategoriesSuggestion-title|Styles applied to the title element.|
+|noResults|.SCCategoriesSuggestion-noResults|Styles applied to noResults section.|
 
 #### Parameters
 
@@ -43,7 +45,7 @@ The name `SCCategoriesSuggestion` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:76](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L76)
+[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:79](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L79)
 
 ___
 
@@ -63,4 +65,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx#L23)
+[packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx#L23)

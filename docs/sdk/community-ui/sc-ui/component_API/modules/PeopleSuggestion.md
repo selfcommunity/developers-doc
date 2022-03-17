@@ -46,7 +46,7 @@ The name `SCPeopleSuggestion` can be used when providing style overrides in the 
 
 #### Defined in
 
-[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:85](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L85)
+[packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx:85](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/PeopleSuggestion/PeopleSuggestion.tsx#L85)
 
 ___
 
@@ -66,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx#L23)
+[packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/PeopleSuggestion/Skeleton.tsx#L23)

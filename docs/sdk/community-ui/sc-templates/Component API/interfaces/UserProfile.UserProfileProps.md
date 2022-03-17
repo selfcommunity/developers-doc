@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:78](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L78)
+[UserProfile/UserProfile.tsx:78](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L78)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:84](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L84)
+[UserProfile/UserProfile.tsx:84](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L84)
 
 ___
 
@@ -47,7 +47,7 @@ Props to spread to UserProfileHeader component
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:90](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L90)
+[UserProfile/UserProfile.tsx:90](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L90)
 
 ___
 
@@ -61,7 +61,7 @@ Props to spread to UserProfileInfo component
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:96](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L96)
+[UserProfile/UserProfile.tsx:96](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L96)
 
 ___
 
@@ -75,7 +75,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:54](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L54)
+[UserProfile/UserProfile.tsx:54](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L54)
 
 ___
 
@@ -89,7 +89,7 @@ Id of the user profile
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:48](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L48)
+[UserProfile/UserProfile.tsx:48](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L48)
 
 ___
 
@@ -103,7 +103,7 @@ User Object
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:60](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L60)
+[UserProfile/UserProfile.tsx:60](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L60)
 
 ___
 
@@ -117,7 +117,7 @@ Id of the user for filter the feed
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:66](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L66)
+[UserProfile/UserProfile.tsx:66](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L66)
 
 ___
 
@@ -131,7 +131,7 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:72](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L72)
+[UserProfile/UserProfile.tsx:72](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L72)
 
 ## Methods
 
@@ -155,4 +155,4 @@ Click handler for edit button
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:102](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L102)
+[UserProfile/UserProfile.tsx:102](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L102)

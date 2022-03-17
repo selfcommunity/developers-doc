@@ -33,6 +33,8 @@ The name `SCTrendingPeople` can be used when providing style overrides in the th
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCTrendingPeople-root|Styles applied to the root element.|
+|title|.SCTrendingPeople-title|Styles applied to the title element.|
+|noResults|.SCTrendingPeople-noResults|Styles applied to noResults section.|
 
 #### Parameters
 
@@ -46,7 +48,7 @@ The name `SCTrendingPeople` can be used when providing style overrides in the th
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:87](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L87)
+[packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx:89](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/TrendingPeople/TrendingPeople.tsx#L89)
 
 ___
 
@@ -60,4 +62,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/TrendingPeople/Skeleton.tsx#L25)

@@ -25,7 +25,7 @@ Category Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:46](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L46)
+[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:46](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L46)
 
 ___
 
@@ -39,7 +39,7 @@ Id of the category
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:40](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L40)
+[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:40](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L40)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:35](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L35)
+[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:35](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L35)
 
 ## Methods
 
@@ -76,4 +76,4 @@ onFollow callback
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:53](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L53)
+[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:53](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L53)

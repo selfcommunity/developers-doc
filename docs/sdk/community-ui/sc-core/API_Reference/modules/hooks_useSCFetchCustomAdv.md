@@ -36,4 +36,4 @@ This custom hook is used to fetch a custom adv object.
 
 #### Defined in
 
-[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)
+[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)

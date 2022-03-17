@@ -19,7 +19,7 @@ Props to spread to single custom adv element (this props can be used only if Cus
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:156](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L156)
+[packages/sc-ui/src/components/Feed/Feed.tsx:156](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L156)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:150](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L150)
+[packages/sc-ui/src/components/Feed/Feed.tsx:150](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L150)
 
 ___
 
@@ -45,7 +45,7 @@ Component used to render single feed item retrieved by the endpoint
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:112](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L112)
+[packages/sc-ui/src/components/Feed/Feed.tsx:112](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L112)
 
 ___
 
@@ -59,7 +59,7 @@ Props to spread to single feed item
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:128](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L128)
+[packages/sc-ui/src/components/Feed/Feed.tsx:128](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L128)
 
 ___
 
@@ -71,7 +71,7 @@ Skeleton used to render loading effect during fetch
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:133](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L133)
+[packages/sc-ui/src/components/Feed/Feed.tsx:133](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L133)
 
 ___
 
@@ -85,7 +85,7 @@ Props to spread to single feed item skeleton
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:139](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L139)
+[packages/sc-ui/src/components/Feed/Feed.tsx:139](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L139)
 
 ___
 
@@ -99,7 +99,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:84](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L84)
+[packages/sc-ui/src/components/Feed/Feed.tsx:84](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L84)
 
 ___
 
@@ -113,7 +113,7 @@ End message, rendered when no more feed item can be displayed
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:95](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L95)
+[packages/sc-ui/src/components/Feed/Feed.tsx:95](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L95)
 
 ___
 
@@ -125,7 +125,7 @@ Feed API Endpoint
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:89](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L89)
+[packages/sc-ui/src/components/Feed/Feed.tsx:89](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L89)
 
 ___
 
@@ -139,7 +139,7 @@ Id of the feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:78](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L78)
+[packages/sc-ui/src/components/Feed/Feed.tsx:78](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L78)
 
 ___
 
@@ -153,7 +153,7 @@ Refresh message, rendered when no more feed item can be displayed
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:101](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L101)
+[packages/sc-ui/src/components/Feed/Feed.tsx:101](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L101)
 
 ___
 
@@ -167,7 +167,7 @@ Widgets to insert into the feed
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:107](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L107)
+[packages/sc-ui/src/components/Feed/Feed.tsx:107](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L107)
 
 ## Methods
 
@@ -189,7 +189,7 @@ Function used to generate an id from the single result returned by the Endpoint
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:122](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L122)
+[packages/sc-ui/src/components/Feed/Feed.tsx:122](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L122)
 
 ___
 
@@ -212,7 +212,7 @@ Function used to convert the single result returned by the Endpoint into the pro
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:117](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L117)
+[packages/sc-ui/src/components/Feed/Feed.tsx:117](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L117)
 
 ___
 
@@ -234,4 +234,4 @@ Callback invoked whenever data is loaded during paging
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:144](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/Feed/Feed.tsx#L144)
+[packages/sc-ui/src/components/Feed/Feed.tsx:144](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/Feed/Feed.tsx#L144)

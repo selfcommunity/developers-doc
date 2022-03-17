@@ -33,6 +33,8 @@ The name `SCTrendingFeed` can be used when providing style overrides in the them
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCTrendingFeed-root|Styles applied to the root element.|
+|title|.SCTrendingFeed-title|Styles applied to the title element.|
+|noResults|.SCTrendingFeed-noResults|Styles applied to noResults section.|
 
 #### Parameters
 
@@ -46,7 +48,7 @@ The name `SCTrendingFeed` can be used when providing style overrides in the them
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:85](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L85)
+[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:87](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L87)
 
 ___
 
@@ -66,4 +68,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx#L25)
+[packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/TrendingFeed/Skeleton.tsx#L25)

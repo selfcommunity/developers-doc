@@ -25,7 +25,7 @@ User fields to display in the profile
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:80](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L80)
+[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:80](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L80)
 
 ___
 
@@ -39,7 +39,7 @@ User Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:74](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L74)
+[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:74](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L74)
 
 ___
 
@@ -53,4 +53,4 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:68](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L68)
+[packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx:68](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/UserProfileInfo/UserProfileInfo.tsx#L68)

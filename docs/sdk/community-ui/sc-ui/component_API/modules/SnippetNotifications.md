@@ -33,8 +33,10 @@ The name `SCSnippetNotifications` can be used when providing style overrides in 
 |Rule Name|Global class|Description|
 |---|---|---|
 |root|.SCSnippetNotification-root|Styles applied to the root element.|
-|notificationsWrap|.SCUserNotification-notification-wrap|Styles applied to the notifications wrap.|
-|notificationItemWrap|.SCUserNotification-notification-item-wrap|Styles applied to the single notification.|
+|notificationsWrap|.SCSnippetNotification-notification-wrap|Styles applied to the notifications wrap.|
+|emptyBoxNotifications|.SCSnippetNotification-empty-box-notifications|Styles applied to the box indicating that there are no notifications.|
+|notificationsList|.SCSnippetNotification-notifications-list|Styles applied to the list of notifications.|
+|notificationItem|.SCSnippetNotification-notification-item|Styles applied to the single notification.|
 
 #### Parameters
 
@@ -48,7 +50,7 @@ The name `SCSnippetNotifications` can be used when providing style overrides in 
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:130](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L130)
+[packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx:135](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/SnippetNotifications/SnippetNotifications.tsx#L135)
 
 ___
 
@@ -68,4 +70,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/1eb776a/packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx#L19)
+[packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-ui/src/components/SnippetNotifications/Skeleton.tsx#L19)
