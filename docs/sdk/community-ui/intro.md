@@ -1,9 +1,8 @@
 ---
 sidebar_label: Introduction
 sidebar_position: 1
+title: Community-UI SDK
 ---
-
-# SelfCommunity Frontend SDK
 
 :::info
 This documentation is the reference for SelfCommunity frontend SDK.
