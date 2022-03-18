@@ -8,7 +8,7 @@ This endpoint retrieves a specific user's insight counters.
 
 ## HTTP Request
 
-`GET /api/v2/insight/user/counters/?user_id=$(id)`
+`GET /api/v2/insight/user/counters/`
 
 ### Parameters
 
@@ -35,7 +35,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/insight/user/counters/?user_id=$(id)',
+fetch('/api/v2/insight/user/counters/',
 {
   method: 'GET',
   headers: headers
@@ -53,7 +53,7 @@ fetch('/api/v2/insight/user/counters/?user_id=$(id)',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/insight/user/counters/?user_id=$(id) \
+curl -X GET /api/v2/insight/user/counters/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```

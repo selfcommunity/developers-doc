@@ -15,6 +15,7 @@ This endpoint retrieves the best embed insights list.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |limit|path|integer|false|Number of results to return per page.|
+|offset|path|integer|false|The initial index from which to return the results.|
 |category_id|path|integer|false|The category id.|
 |created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
 |created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
@@ -73,13 +74,13 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list|false|none|List of results|
-|embed_type|string|false|none|The embed type|
-|embed_id|string|false|none|The embed id|
-|score|integer|false|none|The embed score|
+|count|integer|false|none|Total results count|
+|next|string(uri)¦null|false|none|Next page url|
+|previous|string(uri)¦null|false|none|Previous page url|
+|results|list|false|none|List of results|
+|» embed_type|string|false|none|The embed type|
+|» embed_id|string|false|none|The embed id|
+|» score|integer|false|none|The embed score|
 
 ### Example responses
 

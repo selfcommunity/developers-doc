@@ -15,6 +15,7 @@ This endpoint retrieves the best users insights list.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |limit|path|integer|false|Number of results to return per page.|
+|offset|path|integer|false|The initial index from which to return the results.|
 |category_id|path|integer|false|The category id.|
 |created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
 |created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
@@ -71,13 +72,13 @@ curl -X GET /api/v2/insight/user/ \
 Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list|false|none|List of results|
-|user_id|integer|false|none|The user id|
-|score|integer|false|none|The user score|
+|--|---|---|---|---|
+|count|integer|false|none|Total results count|
+|next|string(uri)¦null|false|none|Next page url|
+|previous|string(uri)¦null|false|none|Previous page url|
+|results|list|false|none|List of results|
+|» user|[User](../schemas/user)|false|none|A user|
+|» score|integer|false|none|The user score|
 
 ### Example responses
 
@@ -94,16 +95,44 @@ Status Code **200**
     "previous": null,
     "results": [
         {
-            "user_id": 606,
+              "user": {
+                "id": 0,
+                "username": "string",
+                "real_name": "string",
+                "date_joined": "2019-08-24T14:15:22Z",
+                "bio": "string",
+                "location": "string",
+                "location_lat_lng": "string",
+                "position_lat_lng": "string",
+                "date_of_birth": "string",
+                "description": "string",
+                "gender": "Male",
+                "website": "https://example.com",
+                "avatar": "string",
+                "cover": "string",
+                "ext_id": "string",
+                "tags": [
+                  {
+                    "id": 0,
+                    "active": true,
+                    "type": "user",
+                    "name": "string",
+                    "description": "string",
+                    "color": "string",
+                    "visible": true,
+                    "deleted": true,
+                    "created_at": "2019-08-24T14:15:22Z"
+                  }
+                ],
+              "reputation": 111,
+              "followings_counter": 7,
+              "followers_counter": 2,
+              "posts_counter": 4,
+              "discussions_counter": 3,
+              "statuses_counter": 0,
+              "polls_counter": 1
+              },
             "score": 52902
-        },
-        {
-            "user_id": 116,
-            "score": 48445
-        },
-        {
-            "user_id": 165,
-            "score": 41951
         }
         ]
 }
