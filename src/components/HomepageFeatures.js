@@ -29,7 +29,7 @@ const FeatureList = [
         description: (
             <>
                 Quickly embed a beautiful community within your eCommerce, Website or APP.<br/>
-                A set of React Components for integrating an empowered Social Networking TechnologyCommunity in your frontend.
+                A set of React Components for integrating an empowered Social Networking Technology Community in your frontend.
             </>
         ),
     },
