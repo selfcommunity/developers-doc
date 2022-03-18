@@ -8,13 +8,12 @@ This endpoint retrieves a specific embed's insight counters.
 
 ## HTTP Request
 
-`GET /api/v2/insight/embed/counters/?embed_type=$(type)&embed_id=$(id)`
+`GET /api/v2/insight/embed/counters/`
 
 ### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|path|integer|false|Number of results to return per page.|
 |category_id|path|integer|false|The category id.|
 |created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
 |created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
@@ -36,7 +35,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/insight/embed/counters/?embed_type=$(type)&embed_id=$(id)',
+fetch('/api/v2/insight/embed/counters/',
 {
   method: 'GET',
   headers: headers
@@ -54,7 +53,7 @@ fetch('/api/v2/insight/embed/counters/?embed_type=$(type)&embed_id=$(id)',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/insight/embed/counters/?embed_type=$(type)&embed_id=$(id) \
+curl -X GET /api/v2/insight/embed/counters/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
