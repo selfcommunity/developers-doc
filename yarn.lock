@@ -3828,7 +3828,7 @@
     "@rpldy/shared-ui" "^0.14.2"
     "@rpldy/uploader" "^0.14.2"
 
-"@selfcommunity/core@^0.1.0-alpha.40":
+"@selfcommunity/core@^0.1.0-alpha.38", "@selfcommunity/core@^0.1.0-alpha.40":
   version "0.1.0-alpha.40"
   resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.40.tgz#b3c08d3abf83f88d5dab7fca1a9d6db192786efc"
   integrity sha512-TgRmckdIMdFdjAnj/n5U7IxgNkD0MpbQR63iDUkny0iKk+4wLm6x5WpyrIdiRvfn4yd9kTetu94lUZF/yELLgg==
@@ -3840,12 +3840,12 @@
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.40":
+"@selfcommunity/i18n@^0.1.0-alpha.38", "@selfcommunity/i18n@^0.1.0-alpha.40":
   version "0.1.0-alpha.40"
   resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.40.tgz#eff67961f0d64fc2105dbb1979504c6a5092007e"
   integrity sha512-c69UkG974Pgzk7Q76gvlAaUyCLBxIBkvPsfLjGPIrTcoUdyqvRuuh5+8TBzqbiGiv0FqghZiNLQvXYRqq1BqhQ==
 
-"@selfcommunity/templates@^0.0.1-alpha.40":
+"@selfcommunity/templates@^0.0.1-alpha.38":
   version "0.0.1-alpha.40"
   resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.40.tgz#89db2e44beb8cada8fcbf2b3b64d706b4045ea15"
   integrity sha512-0uB72lUgoOZfpq97VxZPXnhu8nqcI7JPWrI6qtenHsnTB1rQISfTKdq6aZj1cP+kRaTVpiEu+t8rYvYdlFjGtw==
@@ -3856,7 +3856,7 @@
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.40":
+"@selfcommunity/ui@^0.1.0-alpha.38", "@selfcommunity/ui@^0.1.0-alpha.40":
   version "0.1.0-alpha.40"
   resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.40.tgz#49751b58d48cb17eb0d19673989766cdc087183b"
   integrity sha512-Ei1SiZaZqJ/G+UaVpxr4+JcLc6pgh7kKd30O1SI45ZzqQ881pqbddWVzYhK8o9k7TD17TvQaWbKT9TMXyT1ugg==
