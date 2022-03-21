@@ -3828,38 +3828,38 @@
     "@rpldy/shared-ui" "^0.14.2"
     "@rpldy/uploader" "^0.14.2"
 
-"@selfcommunity/core@^0.1.0-alpha.38":
-  version "0.1.0-alpha.38"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.38.tgz#962bd936a9ed96163450303e6121c4e9d7cac2e2"
-  integrity sha512-QodDSO8ldGLlD0j7XQE4qQKQoOGTBwcIW9i/rd5kBbWfTTrhhUP3kP9m5BoHpOCv+Z/N22665xmUeb4haONa6g==
+"@selfcommunity/core@^0.1.0-alpha.40":
+  version "0.1.0-alpha.40"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.40.tgz#b3c08d3abf83f88d5dab7fca1a9d6db192786efc"
+  integrity sha512-TgRmckdIMdFdjAnj/n5U7IxgNkD0MpbQR63iDUkny0iKk+4wLm6x5WpyrIdiRvfn4yd9kTetu94lUZF/yELLgg==
   dependencies:
-    "@selfcommunity/i18n" "^0.1.0-alpha.38"
+    "@selfcommunity/i18n" "^0.1.0-alpha.40"
     axios "^0.23.0"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.38":
-  version "0.1.0-alpha.38"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.38.tgz#a2610ae1618d04b86fae18de363d052da144aaf4"
-  integrity sha512-uBS8KuQ4d0JPNePSSMLSaW5ka6N0Qb+T+J/dyAhLEZuLn6lOXlDcer1VBzM9RnLbLTzRIEVt91K4j1wFnpEsZA==
+"@selfcommunity/i18n@^0.1.0-alpha.40":
+  version "0.1.0-alpha.40"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.40.tgz#eff67961f0d64fc2105dbb1979504c6a5092007e"
+  integrity sha512-c69UkG974Pgzk7Q76gvlAaUyCLBxIBkvPsfLjGPIrTcoUdyqvRuuh5+8TBzqbiGiv0FqghZiNLQvXYRqq1BqhQ==
 
-"@selfcommunity/templates@^0.0.1-alpha.38":
-  version "0.0.1-alpha.38"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.38.tgz#6a3408828de6ba520428b8b95d680774b9900410"
-  integrity sha512-JBlRNzJ0FgFPuAFSEVnLRZ+CTfjpaJxXIeeVVnOeofIA21T+r6pV6Fft5OCIaxmBueNfqjS6zhffBjTGZOimUw==
+"@selfcommunity/templates@^0.0.1-alpha.40":
+  version "0.0.1-alpha.40"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.40.tgz#89db2e44beb8cada8fcbf2b3b64d706b4045ea15"
+  integrity sha512-0uB72lUgoOZfpq97VxZPXnhu8nqcI7JPWrI6qtenHsnTB1rQISfTKdq6aZj1cP+kRaTVpiEu+t8rYvYdlFjGtw==
   dependencies:
-    "@selfcommunity/core" "^0.1.0-alpha.38"
-    "@selfcommunity/i18n" "^0.1.0-alpha.38"
-    "@selfcommunity/ui" "^0.1.0-alpha.38"
+    "@selfcommunity/core" "^0.1.0-alpha.40"
+    "@selfcommunity/i18n" "^0.1.0-alpha.40"
+    "@selfcommunity/ui" "^0.1.0-alpha.40"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.38":
-  version "0.1.0-alpha.38"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.38.tgz#6ad4029a40d036106b01ea0de6f5b95d0a50c8c2"
-  integrity sha512-z49/gychbHM4nCAMq3agK6jbTSxRW4qjZdn5cY9HlUtin/INpRceYfVWZ7uO3/3ds4f//b+BaPzWju9/ds9wbA==
+"@selfcommunity/ui@^0.1.0-alpha.40":
+  version "0.1.0-alpha.40"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.40.tgz#49751b58d48cb17eb0d19673989766cdc087183b"
+  integrity sha512-Ei1SiZaZqJ/G+UaVpxr4+JcLc6pgh7kKd30O1SI45ZzqQ881pqbddWVzYhK8o9k7TD17TvQaWbKT9TMXyT1ugg==
   dependencies:
     "@mui/lab" "~5.0.0-alpha.68"
     "@rpldy/chunked-sender" "^0.14.1"
@@ -3868,8 +3868,8 @@
     "@rpldy/upload-drop-zone" "^0.14.1"
     "@rpldy/upload-preview" "^0.14.1"
     "@rpldy/uploady" "^0.14.1"
-    "@selfcommunity/core" "^0.1.0-alpha.38"
-    "@selfcommunity/i18n" "^0.1.0-alpha.38"
+    "@selfcommunity/core" "^0.1.0-alpha.40"
+    "@selfcommunity/i18n" "^0.1.0-alpha.40"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -3881,7 +3881,6 @@
     prop-types "^15.7.2"
     prop-types-extra "^1.1.1"
     pubsub-js "^1.9.4"
-    react-image-lightbox "^5.1.4"
     react-infinite-scroll-component "^6.1.0"
     react-lazyload "^3.2.0"
     react-player "^2.9.0"
@@ -7126,11 +7125,6 @@ execa@^5.0.0:
     onetime "^5.1.2"
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
-
-exenv@^1.2.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
-  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
 expand-brackets@^2.1.4:
   version "2.1.4"
@@ -11118,14 +11112,6 @@ react-helmet-async@*, react-helmet-async@^1.2.3:
     react-fast-compare "^3.2.0"
     shallowequal "^1.1.0"
 
-react-image-lightbox@^5.1.4:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/react-image-lightbox/-/react-image-lightbox-5.1.4.tgz#5b847dcb79e9efdf9d7cd5621a92e0f156d2cf30"
-  integrity sha512-kTiAODz091bgT7SlWNHab0LSMZAPJtlNWDGKv7pLlLY1krmf7FuG1zxE0wyPpeA8gPdwfr3cu6sPwZRqWsc3Eg==
-  dependencies:
-    prop-types "^15.7.2"
-    react-modal "^3.11.1"
-
 react-infinite-scroll-component@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/react-infinite-scroll-component/-/react-infinite-scroll-component-6.1.0.tgz#7e511e7aa0f728ac3e51f64a38a6079ac522407f"
@@ -11174,7 +11160,7 @@ react-lazyload@^3.2.0:
   resolved "https://registry.yarnpkg.com/react-lazyload/-/react-lazyload-3.2.0.tgz#497bd06a6dbd7015e3376e1137a67dc47d2dd021"
   integrity sha512-zJlrG8QyVZz4+xkYZH5v1w3YaP5wEFaYSUWC4CT9UXfK75IfRAIEdnyIUF+dXr3kX2MOtL1lUaZmaQZqrETwgw==
 
-react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
+react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
@@ -11185,16 +11171,6 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   integrity sha512-lq3Lyw1lGku8zUEJPDxsNm1AfYHBrO9Y1+olAYwpUJ2IGFBskM0DMKok97A6LWUpHm+o7IvQBOWu9MLenp9Z+A==
   dependencies:
     "@babel/runtime" "^7.10.3"
-
-react-modal@^3.11.1:
-  version "3.14.4"
-  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.14.4.tgz#2ca7e8e9a180955e5c9508c228b73167c1e6f6a3"
-  integrity sha512-8surmulejafYCH9wfUmFyj4UfbSJwjcgbS9gf3oOItu4Hwd6ivJyVBETI0yHRhpJKCLZMUtnhzk76wXTsNL6Qg==
-  dependencies:
-    exenv "^1.2.0"
-    prop-types "^15.7.2"
-    react-lifecycles-compat "^3.0.0"
-    warning "^4.0.3"
 
 react-player@^2.9.0:
   version "2.9.0"
@@ -13194,7 +13170,7 @@ wait-on@^6.0.1:
     minimist "^1.2.5"
     rxjs "^7.5.4"
 
-warning@^4.0.0, warning@^4.0.3:
+warning@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
   integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
