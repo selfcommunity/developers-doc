@@ -7,6 +7,7 @@ title: Custom Notification
 ```json
 {
   "id": 0,
+  "recipients_type": "string",
   "type": "string",
   "embed": {
     "id": 0,
@@ -23,10 +24,18 @@ title: Custom Notification
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|none|
-|type|string|true|none|Custom type notification|
-|embed|[Embed](../schemas/embed)|false|none|Embed object if exist|
-|title|string¦null|false|none|Notification title|
-|description|string¦null|false|none|Notification description|
+| Name            |Type| Required |Restrictions| Description                                              |
+|-----------------|---|----------|---|----------------------------------------------------------|
+| id              |integer| false    |read-only| none                                                     |
+| recipients_type |string| false    |none| Can be 'connections' or 'user' (default is 'conections')   |
+| type            |string| true     |none| An optional custom string to differentiate notifications |
+| embed           |[Embed](../schemas/embed)| false    |none| Embed object if exist                                    |
+| title           |string¦null| false    |none| Notification title                                       |
+| description     |string¦null| false    |none| Notification description                                 |
+
+#### Enumerated Values
+
+|Property|Value| Description                                                             |
+|---|---|-------------------------------------------------------------------------|
+|recipients_type|connections| The recipients of the notification will be the user's friends/followers |
+|recipients_type|user| The recipients of the notification will be the user himself             |

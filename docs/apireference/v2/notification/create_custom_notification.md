@@ -4,8 +4,9 @@ sidebar_position: 4
 title: Create Custom notification
 ---
 
-This endpoint generates a custom notification on behalf of a user (identified by the body param "user") and notifies it to all his connections/followers.
-Es. "user" added an item to the wishlist
+This endpoint generates a custom notification starting from the user.
+The recipients of the notification can be the user's friends/followers or the user himself (based on recipients_type value).
+Es. connections -> "user" added an item to the wishlist
 
 :::info
 
@@ -19,13 +20,14 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|type|body|string|true|A string that identifies a type of notification|
-|embed|body|object|false|[Embed](../schemas/embed)|
-|title|body|string¦null|true|A title for the notification|
-|description|body|string¦null|true|A description for the notification|
-|user|body|integer|true|The user who issues the notification|
+|Name|In|Type| Required |Description|
+|---|---|---|----------|---|
+|recipients_type|body|string| false| Can be 'connections' or 'user' (default is 'conections')   |
+|type|body|string| true     |An optional custom string to differentiate notifications |
+|embed|body|object| false    |[Embed](../schemas/embed)|
+|title|body|string¦null| true     |A title for the notification|
+|description|body|string¦null| true     |A description for the notification|
+|user|body|integer| true     |The user who issues the notification|
 
 #### Example Body Parameters
 
@@ -38,6 +40,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
+  "recipients_type": "string",
   "type": "string",
   "embed": {
     "embed_type": "string",
@@ -64,6 +67,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
+  "recipients_type": "string",
   "type": "string",
   "embed": {
     "embed_type": "string",
