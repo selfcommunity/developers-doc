@@ -12,16 +12,16 @@ This endpoint retrieves the best contribution insights list.
 
 ### Parameters
 
-| Name              |In|Type|Required| Description                                                                                     |
-|-------------------|---|---|---|-------------------------------------------------------------------------------------------------|
-| limit             |path|integer|false| Number of results to return per page.                                                           |
-| offset            |path|integer|false| The initial index from which to return the results.                                             |
-| category_id       |path|integer|false| The category id.                                                                                |
-| created_at__gte   |path|string(date-time)|false| datetime of creation(greater than or equal to the given value)                                  |
-| created_at__lte   |path|string(date-time)|false| datetime of creation(less than or equal to the given value)                                     |
-| contribution_type |path|string|false| The contribution type                                                                           |
-| user_id           |path|integer|false| The user id.                                                                                    |
-| ranked_by         |path|integer|false| The rank value to use: num_votes, num_comments, num_shares, num_views (default: rank function). |
+| Name              |In|Type|Required| Description                                                                                                                                                                                               |
+|-------------------|---|---|---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| limit             |path|integer|false| Number of results to return per page.                                                                                                                                                                     |
+| offset            |path|integer|false| The initial index from which to return the results.                                                                                                                                                       |
+| category_id     |path| string          |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                     |
+| created_at__gte   |path|string(date-time)|false| datetime of creation(greater than or equal to the given value)                                                                                                                                            |
+| created_at__lte   |path|string(date-time)|false| datetime of creation(less than or equal to the given value)                                                                                                                                               |
+| contribution_type |path|string|false| The contribution type (discussion, post, status)                                                                                                                                                                                  |
+| user_id           |path|integer|false| The user id.                                                                                                                                                                                              |
+| ranked_by         |path|integer|false| The rank value to use: num_votes, num_comments, num_shares, num_views (default: rank function). If a list (eg: num_comments, num_answers_received) the final rank will be the sum of the list components. |
 
 ### Example Request
 
@@ -72,24 +72,24 @@ curl -X GET /api/v2/insight/contribution/ \
 
 ### Response Schema
 
-Status Code **200**
+| Name           | Type             |Required|Restrictions| Description             |
+|----------------|------------------|---|---|-------------------------|
+| count          | integer          |false|none| Total results count     |
+| next           | string(uri)¦null |false|none| Next page url           |
+| previous       | string(uri)¦null |false|none| Previous page url       |
+| results        | list             |false|none| List of results         |
+| » contribution | object|false|none| The contribution object |
+| » score        | integer          |false|none| The score         |
 
-| Name                 | Type             |Required|Restrictions| Description             |
-|----------------------|------------------|---|---|-------------------------|
-| count                | integer          |false|none| Total results count     |
-| next                 | string(uri)¦null |false|none| Next page url           |
-| previous             | string(uri)¦null |false|none| Previous page url       |
-| results              | list             |false|none| List of results         |
-| » contribuion | object           |false|none| The contribution object |
-| » score              | integer          |false|none| The score         |
+#### Valid types for contribution
 
-### Example responses
+| Field        | Type                                | Description                        |
+|--------------|-------------------------------------|------------------------------------|
+| contribution | [Post](/docs/apireference/v2/schemas/post)             | A contribution of type post        |
+| contribution | [Discussion](/docs/apireference/v2/schemas/discussion) | A contribution of type discussion  |
+| contribution | [Status](/docs/apireference/v2/schemas/status)         | A contribution of type status |
 
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
+### Example response
 
 ```json
 {
@@ -98,24 +98,20 @@ Status Code **200**
     "previous": null,
     "results": [
         {
-            "post": {...},
+            "post": "{see Post schema}",
             "score": 856
         },
         {
-            "discussion": {...},
+            "discussion": "{see Discussion schema}",
             "score": 453
         },
         {
-            "post": {...},
+            "status": "{see Status schema}",
             "score": 260
         }
-            ]
+    ]
 }
 ```
-
-</TabItem>
-</Tabs>
-````
 
 
 

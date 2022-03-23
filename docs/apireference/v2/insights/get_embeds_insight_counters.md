@@ -14,7 +14,7 @@ This endpoint retrieves a specific embed's insight counters.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|category_id|path|integer|false|The category id.|
+| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
 |created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
 |created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
 |embed_type|path|string|false|The embed type|
@@ -69,8 +69,6 @@ curl -X GET /api/v2/insight/embed/counters/ \
 
 ### Response Schema
 
-Status Code **200**
-
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |num_contributes|integer|false|none|The number of contributes|
@@ -83,11 +81,6 @@ Status Code **200**
 ### Example responses
 
 
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
 ```json
 {
     "num_contributes": 0,
@@ -97,11 +90,6 @@ Status Code **200**
     "num_shares": 0
 }
 ```
-
-</TabItem>
-</Tabs>
-````
-
 
 
 

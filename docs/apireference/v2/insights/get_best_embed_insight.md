@@ -20,7 +20,7 @@ If you pass group_by the result will be not paginated and will contain only user
 |-----------------|---|------------------|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | limit           |path| integer          |false| Number of results to return per page.                                                                                                                                                                       |
 | offset          |path| integer          |false| The initial index from which to return the results (only if pagination is guaranteed).                                                                                                                      |
-| category_id     |path| integer          |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
+| category_id     |path| string          |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
 | created_at__gte |path| string(date-time) |false| datetime of creation(greater than or equal to the given value)                                                                                                                                              |
 | created_at__lte |path| string(date-time) |false| datetime of creation(less than or equal to the given value)                                                                                                                                                 |
 | embed_type      |path| string           |false| The embed type (custom)                                                                                                                                                                                     |
@@ -83,7 +83,7 @@ curl -X GET /api/v2/insight/embed/ \
 |next|string(uri)¦null| false                          | none                     | Next page url       |
 |previous|string(uri)¦null| false                          | none                     | Previous page url   |
 |results|list| false                          | none                     | List of results     |
-|» embed|[Embed](../schemas/embed)| false| none|The embed|
+|» embed|[Embed](/docs/apireference/v2/schemas/embed)| false| none|The embed|
 |» score|integer| false                          | none                     | The computed score  |
 
 ### Example response
@@ -106,7 +106,7 @@ curl -X GET /api/v2/insight/embed/ \
             "embed": "{see Embed schema}",
             "score": 260
         }
-            ]
+    ]
 }
 ```
 
@@ -114,7 +114,7 @@ curl -X GET /api/v2/insight/embed/ \
 
 | Name    |Type| Required                       | Restrictions             | Description         |
 |---------|---|--------------------------------|--------------------------|---------------------|
-| » embed |[Embed](../schemas/embed)|false|none|The embed|
+| » embed |[Embed](/docs/apireference/v2/schemas/embed)|false|none|The embed|
 | » score |integer|false|none|The computed score|
 
 ### Example response
@@ -154,11 +154,11 @@ curl -X GET /api/v2/insight/embed/ \
             "score": 856
         },
         {
-            "embed": "string",
+            "result": "string",
             "score": 453
         },
         {
-            "embed": "string",
+            "result": "string",
             "score": 260
         }
 ]
