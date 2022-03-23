@@ -6,8 +6,9 @@ title: Get Best Embed Insight
 
 This endpoint retrieves the best embed insights list.
 The operations of this endpoint is quite complex and returns different result structures based on the parameters passed.
-For example, pagination (and therefore the use of the offset parameter) is guaranteed only if the metadata and gropu_by parameter are not passed.
+For example, pagination (and therefore the use of the offset parameter) is guaranteed only if the metadata and group_by parameter are not passed.
 If you are passing metadata you MUST pass also group_by.
+If you pass group_by the result will be not paginated and will contain only user defined custom embeds (not among these: 'sc_vimeo', 'sc_link', 'sc_shared_object').
 
 ## HTTP Request
 
@@ -25,7 +26,7 @@ If you are passing metadata you MUST pass also group_by.
 | embed_type      |path| string           |false| The embed type (custom)                                                                                                                                                                                     |
 | ranked_by       |path| string           |false| The rank value to use: num_posts, num_comments, num_votes, num_clicks, num_shares  (default: rank function). If a list (eg: num_posts, num_comments) the final rank will be the sum of the list components. |
 | group_by        |path| string           |false| embed_id, embed_type or metadata.TERM_KEY                                                                                                                                                                   |
-| metadata        |path| json dict        |false| A json dict containing some TERM_KEYs (eg: {"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}). Only if group_by is set.                                                                           |
+| metadata        |path| json dict        |false| A json dict containing some TERM_KEYs (eg: {"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}). Usable only if group_by is set.                                                                    |
 
 ### Example Request
 
@@ -76,8 +77,6 @@ curl -X GET /api/v2/insight/embed/ \
 
 ### Response Schema with Pagination (group_by and metadata params are NOT passed)
 
-Status Code **200**
-
 |Name|Type| Required                       | Restrictions             | Description         |
 |---|---|--------------------------------|--------------------------|---------------------|
 |count|integer| false                          | none                     | Total results count |
@@ -87,13 +86,7 @@ Status Code **200**
 |» embed|[Embed](../schemas/embed)| false| none|The embed|
 |» score|integer| false                          | none                     | The computed score  |
 
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
+### Example response
 
 ```json
 {
@@ -117,27 +110,14 @@ Status Code **200**
 }
 ```
 
-</TabItem>
-</Tabs>
-````
-
-
 ### Response Schema without Pagination (group_by=embed_id passed)
 
-Status Code **200**
+| Name    |Type| Required                       | Restrictions             | Description         |
+|---------|---|--------------------------------|--------------------------|---------------------|
+| » embed |[Embed](../schemas/embed)|false|none|The embed|
+| » score |integer|false|none|The computed score|
 
-|Name| Type | Required                  | Restrictions              | Description         |
-|---|--|---------------------------|---------------------------|---------------------|
-|» embed| [Embed](../schemas/embed) | false| none|The embed|
-|» score| integer | false | none | The computed score  |
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
+### Example response
 
 ```json
 [
@@ -156,27 +136,16 @@ Status Code **200**
 ]
 ```
 
-</TabItem>
-</Tabs>
-````
-
 
 ### Response Schema without Pagination (group_by different from embed_id passed)
 
-Status Code **200**
-
-|Name| Type | Required                  | Restrictions              | Description         |
-|---|--|---------------------------|---------------------------|---------------------|
+|Name|Type| Required                       | Restrictions             | Description         |
+|---|---|--------------------------------|--------------------------|---------------------|
 |» result| string | false| none|The grouping string result|
 |» score| integer | false | none | The computed score  |
 
-### Example responses
+### Example response
 
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
 
 ```json
 [
@@ -194,9 +163,5 @@ Status Code **200**
         }
 ]
 ```
-
-</TabItem>
-</Tabs>
-````
 
 
