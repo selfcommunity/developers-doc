@@ -16,7 +16,7 @@ This endpoint retrieves a specific user's insight counters.
 |---|---|---|---|---|
 |user_id|path|integer|true|The user id.|
 |limit|path|integer|false|Number of results to return per page.|
-|category_id|path|integer|false|The category id.|
+| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
 |created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
 |created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
 
@@ -69,8 +69,6 @@ curl -X GET /api/v2/insight/user/counters/ \
 
 ### Response Schema
 
-Status Code **200**
-
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |num_contributes|integer|false|none|The number of contributes|
@@ -89,11 +87,6 @@ Status Code **200**
 ### Example responses
 
 
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
 ```json
 {
     "num_contributes": 28,
@@ -111,9 +104,6 @@ Status Code **200**
 }
 ```
 
-</TabItem>
-</Tabs>
-````
 
 
 
