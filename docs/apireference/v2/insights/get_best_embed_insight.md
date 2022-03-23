@@ -5,6 +5,9 @@ title: Get Best Embed Insight
 ---
 
 This endpoint retrieves the best embed insights list.
+The operations of this endpoint is quite complex and returns different result structures based on the parameters passed.
+For example, pagination (and therefore the use of the offset parameter) is guaranteed only if the metadata and gropu_by parameter are not passed.
+If you are passing metadata you MUST pass also group_by.
 
 ## HTTP Request
 
@@ -12,14 +15,17 @@ This endpoint retrieves the best embed insights list.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|path|integer|false|Number of results to return per page.|
-|offset|path|integer|false|The initial index from which to return the results.|
-|category_id|path|integer|false|The category id.|
-|created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
-|created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
-|embed_type|path|string|false|The embed type|
+| Name            |In| Type             |Required| Description                                                                                                                                                                                                 |
+|-----------------|---|------------------|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| limit           |path| integer          |false| Number of results to return per page.                                                                                                                                                                       |
+| offset          |path| integer          |false| The initial index from which to return the results (only if pagination is guaranteed).                                                                                                                      |
+| category_id     |path| integer          |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
+| created_at__gte |path| string(date-time) |false| datetime of creation(greater than or equal to the given value)                                                                                                                                              |
+| created_at__lte |path| string(date-time) |false| datetime of creation(less than or equal to the given value)                                                                                                                                                 |
+| embed_type      |path| string           |false| The embed type (custom)                                                                                                                                                                                     |
+| ranked_by       |path| string           |false| The rank value to use: num_posts, num_comments, num_votes, num_clicks, num_shares  (default: rank function). If a list (eg: num_posts, num_comments) the final rank will be the sum of the list components. |
+| group_by        |path| string           |false| embed_id, embed_type or metadata.TERM_KEY                                                                                                                                                                   |
+| metadata        |path| json dict        |false| A json dict containing some TERM_KEYs (eg: {"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}). Only if group_by is set.                                                                           |
 
 ### Example Request
 
@@ -68,19 +74,18 @@ curl -X GET /api/v2/insight/embed/ \
 |---|---|---|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
 
-### Response Schema
+### Response Schema with Pagination (group_by and metadata params are NOT passed)
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|count|integer|false|none|Total results count|
-|next|string(uri)¦null|false|none|Next page url|
-|previous|string(uri)¦null|false|none|Previous page url|
-|results|list|false|none|List of results|
-|» embed_type|string|false|none|The embed type|
-|» embed_id|string|false|none|The embed id|
-|» score|integer|false|none|The embed score|
+|Name|Type| Required                       | Restrictions             | Description         |
+|---|---|--------------------------------|--------------------------|---------------------|
+|count|integer| false                          | none                     | Total results count |
+|next|string(uri)¦null| false                          | none                     | Next page url       |
+|previous|string(uri)¦null| false                          | none                     | Previous page url   |
+|results|list| false                          | none                     | List of results     |
+|» embed|[Embed](../schemas/embed)| false| none|The embed|
+|» score|integer| false                          | none                     | The computed score  |
 
 ### Example responses
 
@@ -97,18 +102,15 @@ Status Code **200**
     "previous": null,
     "results": [
         {
-            "embed_type": "string",
-            "embed_id": "string",
+            "embed": "{see Embed schema}",
             "score": 856
         },
         {
-            "embed_type": "string",
-            "embed_id": "string",
+            "embed": "{see Embed schema}",
             "score": 453
         },
         {
-            "embed_type": "string",
-            "embed_id": "string",
+            "embed": "{see Embed schema}",
             "score": 260
         }
             ]
@@ -120,5 +122,81 @@ Status Code **200**
 ````
 
 
+### Response Schema without Pagination (group_by=embed_id passed)
+
+Status Code **200**
+
+|Name| Type | Required                  | Restrictions              | Description         |
+|---|--|---------------------------|---------------------------|---------------------|
+|» embed| [Embed](../schemas/embed) | false| none|The embed|
+|» score| integer | false | none | The computed score  |
+
+### Example responses
+
+
+````mdx-code-block
+
+<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
+<TabItem value="200">
+
+```json
+[
+        {
+            "embed": "{see Embed schema}",
+            "score": 856
+        },
+        {
+            "embed": "{see Embed schema}",
+            "score": 453
+        },
+        {
+            "embed": "{see Embed schema}",
+            "score": 260
+        }
+]
+```
+
+</TabItem>
+</Tabs>
+````
+
+
+### Response Schema without Pagination (group_by different from embed_id passed)
+
+Status Code **200**
+
+|Name| Type | Required                  | Restrictions              | Description         |
+|---|--|---------------------------|---------------------------|---------------------|
+|» result| string | false| none|The grouping string result|
+|» score| integer | false | none | The computed score  |
+
+### Example responses
+
+
+````mdx-code-block
+
+<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
+<TabItem value="200">
+
+```json
+[
+        {
+            "result": "string",
+            "score": 856
+        },
+        {
+            "embed": "string",
+            "score": 453
+        },
+        {
+            "embed": "string",
+            "score": 260
+        }
+]
+```
+
+</TabItem>
+</Tabs>
+````
 
 
