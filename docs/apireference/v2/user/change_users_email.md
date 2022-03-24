@@ -22,7 +22,7 @@ This operation requires authentication.
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this user.|
 |new_email|body|string(email)|true|none|
-|confirm|body|boolean|false|If confirm=1 (or true), the email is not changed directly but a validation code is generated to be used in the [confirm](opIdconfirmEmailUser) call to validate the email. |
+|confirm|body|boolean|false|If confirm=1 (or true), the email is not changed directly but a validation code is generated to be used in the [confirm](confirm_users_change_email) call to validate the email. |
 
 #### Example Body Parameters
 

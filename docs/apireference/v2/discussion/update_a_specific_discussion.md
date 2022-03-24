@@ -24,7 +24,7 @@ This operation requires authentication. The logged user must be the discussion c
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this discussion|
 |» title|body|string¦null|true|The title of the discussion|
-|» text|body|string|false|The content of the discussion in html format, it can contain some [mentions](../mention/mention)|
+|» text|body|string|false|The content of the discussion in html format, it can contain some mentions|
 |» categories|body|list(integer)|true|List of id of [Category](../schemas/category)|
 |» medias|body|list(integer)|false|List of id of [Media](../schemas/media)|
 |» location|body|object¦null|false|The Location object to associate at the discussion|
@@ -170,7 +170,7 @@ curl -X PUT /api/v2/discussion/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UpdateDiscussion](../schemas/update_discussion)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Discussion](../schemas/discussion)|
 
 ### Example responses
 

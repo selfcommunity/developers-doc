@@ -85,7 +85,7 @@ Status Code **200**
 |» count|integer|true|none|Total results count|
 |» next|string¦null|false|none|Next page url|
 |» previous|string¦null|false|none|Previous page url|
-|» results|list([PollVote](../schemas/pollvote))|true|none|List of results|
+|» results|list([PollVote](../schemas/poll_vote))|true|none|List of results|
 
 ### Example responses
 

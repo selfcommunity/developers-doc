@@ -21,9 +21,9 @@ This operation requires authentication. The logged user must be the status creat
 | Name         | In   | Type          | Required | Description                                                                                          |
 |--------------|------|---------------|----------|------------------------------------------------------------------------------------------------------|
 | » action     | body | string¦null   | true     | The action of the status                                                                             |
-| » text       | body | string        | false    | The content of the status in html format, it can contain some [mentions](../mention/mention) |
+| » text       | body | string        | false    | The content of the status in html format, it can contain some mentions |
 | » categories | body | list(integer) | true     | List of id of [Category](../schemas/category)                                                            |
-| » medias     | body | list(integer) | false    | List of id of [Media](../schemas/amedia)                                                                  |
+| » medias     | body | list(integer) | false    | List of id of [Media](../schemas/media)                                                                  |
 | » location   | body | object¦null   | false    | The Location object to associate with the status                                                     |
 | »» location  | body | string¦null   | true     | none                                                                                                 |
 | »» lat       | body | number¦null   | true     | none                                                                                                 |
@@ -128,7 +128,7 @@ curl -X PUT /api/v2/status/{id}/ \
 
 | Status | Meaning                                                 | Description | Schema                              |
 |--------|---------------------------------------------------------|-------------|-------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [UpdateStatus](../schemas/update_status) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Status](../schemas/status) |
 
 ### Example responses
 

@@ -21,7 +21,7 @@ This operation requires authentication. The logged user must be the comment crea
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this post.|
-|» text|body|string|true|text for the [Comment](../schemas/comment), html format, it can contain some [mentions](../mention/mention)|
+|» text|body|string|true|text for the [Comment](../schemas/comment), html format, it can contain some mentions|
 
 #### Example Body Parameters
 

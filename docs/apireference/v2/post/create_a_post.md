@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|» text|body|string|false|The content of the post in html format, it can contain some [mentions](../mention/mention)|
+|» text|body|string|false|The content of the post in html format, it can contain some mentions|
 |» categories|body|list(integer)|true|List of id of [Category](../schemas/category)|
 |» medias|body|list(integer)|false|List of id of [Media](../schemas/media) (only one media of type share is allowed)|
 |» location|body|object¦null|false|The Location object to associate at the post|
