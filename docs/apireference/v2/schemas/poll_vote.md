@@ -35,4 +35,4 @@ title: Poll Vote
 |---|---|---|---|---|
 |id|integer|false|read-only|none|
 |choice|integer|false|read-only|Poll Choice unique id|
-|user|[User](../schemas/user)|false|read-only|none|
+|user|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|

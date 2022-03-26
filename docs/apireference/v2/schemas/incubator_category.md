@@ -24,7 +24,7 @@ title: Incubator Category
 |name|string|true|none|Unique name of the category|
 |slug|string|true|none|Unique slug identifying this category in a URL (pass `_GENERATE_` to auto generate slug)|
 |slogan|string¦null|false|none|Short slogan to describe the category|
-|approved_category|[Category](../schemas/category)|false|none|Category created from incubator|
+|approved_category|[Category](/docs/apireference/v2/schemas/category)|false|none|Category created from incubator|
 |added_at|string(date-time)|false|read-only|Added at date time|
 |status|integer|true|none|Status incubator|
 

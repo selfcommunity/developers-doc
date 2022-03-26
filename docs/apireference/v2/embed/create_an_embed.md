@@ -106,7 +106,7 @@ curl -X POST /api/v2/embed/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Embed](../schemas/embed)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Embed](/docs/apireference/v2/schemas/embed)|
 
 ### Example responses
 

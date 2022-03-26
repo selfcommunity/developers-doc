@@ -101,7 +101,7 @@ curl -X POST /api/v2/score/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Score](../schemas/score)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Score](/docs/apireference/v2/schemas/score)|
 
 ### Example responses
 

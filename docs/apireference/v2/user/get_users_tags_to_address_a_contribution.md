@@ -62,7 +62,7 @@ curl -X GET /api/v2/user/tag/tags_to_address_a_contribution/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Tag](../schemas/tag)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Tag](/docs/apireference/v2/schemas/tag)|
 
 ### Example responses
 

@@ -22,13 +22,13 @@ This operation requires authentication. The logged user must be the status creat
 |--------------|------|---------------|----------|------------------------------------------------------------------------------------------------------|
 | » action     | body | string¦null   | true     | The action of the status                                                                             |
 | » text       | body | string        | false    | The content of the status in html format, it can contain some mentions |
-| » categories | body | list(integer) | true     | List of id of [Category](../schemas/category)                                                            |
-| » medias     | body | list(integer) | false    | List of id of [Media](../schemas/media)                                                                  |
+| » categories | body | list(integer) | true     | List of id of [Category](/docs/apireference/v2/schemas/category)                                                            |
+| » medias     | body | list(integer) | false    | List of id of [Media](/docs/apireference/v2/schemas/media)                                                                  |
 | » location   | body | object¦null   | false    | The Location object to associate with the status                                                     |
 | »» location  | body | string¦null   | true     | none                                                                                                 |
 | »» lat       | body | number¦null   | true     | none                                                                                                 |
 | »» lng       | body | number¦null   | true     | none                                                                                                 |
-| » addressing | body | list(integer) | false    | List of id of [Tag](../schemas/tag)                                                                      |
+| » addressing | body | list(integer) | false    | List of id of [Tag](/docs/apireference/v2/schemas/tag)                                                                      |
 
 #### Example Body Parameters
 
@@ -128,7 +128,7 @@ curl -X PUT /api/v2/status/{id}/ \
 
 | Status | Meaning                                                 | Description | Schema                              |
 |--------|---------------------------------------------------------|-------------|-------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Status](../schemas/status) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Status](/docs/apireference/v2/schemas/status) |
 
 ### Example responses
 

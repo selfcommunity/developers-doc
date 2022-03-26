@@ -19,7 +19,7 @@ Access Token.
 
 #### Defined in
 
-[types/context.ts:264](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/context.ts#L264)
+[types/context.ts:264](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L264)
 
 ___
 
@@ -31,7 +31,7 @@ ClientID: only for OAuth.
 
 #### Defined in
 
-[types/context.ts:259](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/context.ts#L259)
+[types/context.ts:259](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L259)
 
 ___
 
@@ -43,7 +43,7 @@ Session types: OAuth, JWT, Cookies.
 
 #### Defined in
 
-[types/context.ts:254](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/context.ts#L254)
+[types/context.ts:254](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L254)
 
 ## Methods
 
@@ -65,4 +65,4 @@ Callback to refresh the token.
 
 #### Defined in
 
-[types/context.ts:269](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/context.ts#L269)
+[types/context.ts:269](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L269)

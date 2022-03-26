@@ -38,7 +38,7 @@ title: Category
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|Unique integer value identifying this category|
-|tags|[Object]¦[]|false|none|User's tag list. List of [Tag](../schemas/tag).|
+|tags|[Object]¦[]|false|none|User's tag list. List of [Tag](/docs/apireference/v2/schemas/tag).|
 |followed|boolean|false|none|If the category is followed by the authenticated user|
 |order|integer|false|none|Manual ordering number|
 |name|string|true|none|Unique name of the category|

@@ -32,7 +32,7 @@ title: Vote
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|user|[User](../schemas/user)|false|read-only|none|
+|user|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
 |voted_at|string(date-time)|false|read-only|none|
 
 

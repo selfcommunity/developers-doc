@@ -72,7 +72,7 @@ curl -X GET /api/v2/notification/banner/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[TargetedBannerVisibility](../schemas/TargetedBannerTypes/targeted_banner_visibility)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[TargetedBannerVisibility](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_banner_visibility)|
 
 ### Response Schema
 
@@ -83,7 +83,7 @@ Status Code **200**
 |» count|integer|false|none|Total results count|
 |» next|string(uri)¦null|false|none|Next page url|
 |» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([TargetedBannerVisibility](../schemas/TargetedBannerTypes/targeted_banner_visibility))|false|none|List of results|
+|» results|list([TargetedBannerVisibility](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_banner_visibility))|false|none|List of results|
 
 ### Example responses
 

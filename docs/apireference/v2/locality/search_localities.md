@@ -80,7 +80,7 @@ Status Code **200**
 |» count|integer|false|none|Total number of results|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|list([Locality](../schemas/locality))|false|none|none|
+|» results|list([Locality](/docs/apireference/v2/schemas/locality))|false|none|none|
 
 ### Example responses
 

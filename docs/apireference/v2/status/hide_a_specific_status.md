@@ -4,7 +4,7 @@ sidebar_position: 15
 title: Hide a Specific Status
 ---
 
-This endpoint hides the [Status](../schemas/status) for the logged user. The status must be in show state
+This endpoint hides the [Status](/docs/apireference/v2/schemas/status) for the logged user. The status must be in show state
 
 :::info
 

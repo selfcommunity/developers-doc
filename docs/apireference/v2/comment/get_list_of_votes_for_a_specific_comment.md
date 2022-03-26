@@ -72,7 +72,7 @@ curl -X GET /api/v2/comment/{id}/vote/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Vote](../schemas/vote)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Vote](/docs/apireference/v2/schemas/vote)|
 
 ### Example responses
 

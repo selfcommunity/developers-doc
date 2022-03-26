@@ -23,6 +23,6 @@ title: Feed Unseen Count
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |count_by_category|list(object)|false|read-only|Total count of unread feed objects per category|
-|» id|integer|true|read-only|[Category](../schemas/category) [id]|
+|» id|integer|true|read-only|[Category](/docs/apireference/v2/schemas/category) [id]|
 |» count|integer|true|read-only|Total count of unread feed objects for this category|
 |total|integer|true|read-only|Total count of unread feed objects|

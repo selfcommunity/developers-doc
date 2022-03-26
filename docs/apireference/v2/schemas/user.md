@@ -45,7 +45,7 @@ title: User
   "statuses_counter": 1,
   "polls_counter": 6,
   "unseen_interactions_counter": 0,
-  "unseen_notification_banners_counter": 1,
+  "unseen_notification_banners_counter": 1
 }
 
 ```
@@ -72,9 +72,9 @@ title: User
 |avatar|string(binary)¦null|false|none|Avatar of the user.|
 |cover|string(binary)¦null|false|none|Cover of the user.|
 |ext_id|integer|false|read-only|The external ID of the user. It is assigned only during signup.|
-|tags|[Object]¦[]|false|none|User's tag list. List of [Tag](../schemas/tag).|
+|tags|[Object]¦[]|false|none|User's tag list. List of [Tag](/docs/apireference/v2/schemas/tag).|
 |reputation|integer|false|read-only|User reputation.|
-|permission|[UserPermission](../schemas/user_permission)|false|read-only|List of user permission. Only for the resource [/user/me/](../user/me/).|
+|permission|[UserPermission](/docs/apireference/v2/schemas/user_permission)|false|read-only|List of user permission. Only for the resource [/user/me/](../user/me/).|
 |connection_status|string¦null|false|read-only|The connection status between the request user and this user|
 |connection_requests_sent_counter|integer¦null|false|read-only|Number of connection requests sent by the user|Only if dynamic preference `configurations.follow_enabled` is `false`|
 |connection_requests_received_counter|integer¦null|false|read-only|Number of connection requests received by the user|Only if dynamic preference `configurations.follow_enabled` is `false`|

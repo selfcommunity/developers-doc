@@ -68,7 +68,7 @@ curl -X GET /api/v2/loyalty/request/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[LoyaltyPrizeUser](../schemas/loyalty_prize_user)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[LoyaltyPrizeUser](/docs/apireference/v2/schemas/loyalty_prize_user)|
 
 ### Example responses
 

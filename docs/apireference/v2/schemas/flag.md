@@ -18,7 +18,7 @@ title: Flag
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|user|object|false|read-only|[User](../schemas/user)|
+|user|object|false|read-only|[User](/docs/apireference/v2/schemas/user)|
 |added_at|string(date-time)|false|read-only|none|
 |flag_type|integer|true|none|none|
 |flag_type_description|string|false|read-only|none|

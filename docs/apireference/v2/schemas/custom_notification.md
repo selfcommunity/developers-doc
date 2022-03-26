@@ -29,7 +29,7 @@ title: Custom Notification
 | id              |integer| false    |read-only| none                                                     |
 | recipients_type |string| false    |none| Can be 'connections' or 'user' (default is 'conections')   |
 | type            |string| true     |none| An optional custom string to differentiate notifications |
-| embed           |[Embed](../schemas/embed)| false    |none| Embed object if exist                                    |
+| embed           |[Embed](/docs/apireference/v2/schemas/embed)| false    |none| Embed object if exist                                    |
 | title           |string¦null| false    |none| Notification title                                       |
 | description     |string¦null| false    |none| Notification description                                 |
 

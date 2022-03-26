@@ -84,7 +84,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|[[LoyaltyPrize](../schemas/loyalty_prize)]|false|none|none|
+|» results|[[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)]|false|none|none|
 
 ### Example responses
 

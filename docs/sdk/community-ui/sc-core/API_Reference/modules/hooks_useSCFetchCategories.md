@@ -33,4 +33,4 @@ const {categories, isLoading} = useSCFetchCategories();
 
 #### Defined in
 
-[hooks/useSCFetchCategories.ts:22](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/hooks/useSCFetchCategories.ts#L22)
+[hooks/useSCFetchCategories.ts:22](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFetchCategories.ts#L22)

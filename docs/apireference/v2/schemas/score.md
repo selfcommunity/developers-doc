@@ -29,12 +29,12 @@ title: Score
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|Unique integer value|
-|user|object|false|read-only|[User](../schemas/user)|
+|user|object|false|read-only|[User](/docs/apireference/v2/schemas/user)|
 |score|string|false|read-only|Positive or negative integer value|
 |reputation_type|integer|false|read-only|Integer code|
 |reputation_type_description|string|false|read-only|String description of the code|
 |comment|string¦null|false|none|Custom comment for this score variation|
-|created_by|object|false|read-only|The moderator [User](../schemas/user)|
+|created_by|object|false|read-only|The moderator [User](/docs/apireference/v2/schemas/user)|
 
 #### Reputation Types
 

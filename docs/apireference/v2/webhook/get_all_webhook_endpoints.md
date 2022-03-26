@@ -82,7 +82,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|[[Endpoint](../schemas/endpoint)]|false|none|List of results|
+|» results|[[Endpoint](/docs/apireference/v2/schemas/endpoint)]|false|none|List of results|
 
 ### Example responses
 

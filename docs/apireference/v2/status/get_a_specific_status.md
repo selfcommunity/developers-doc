@@ -68,7 +68,7 @@ curl -X GET /api/v2/status/{id}/ \
 
 | Status | Meaning                                                 | Description | Schema                  |
 |--------|---------------------------------------------------------|-------------|-------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Status](../schemas/status) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Status](/docs/apireference/v2/schemas/status) |
 
 ### Example responses
 

@@ -4,11 +4,11 @@ sidebar_position: 8
 title: Get Embed's Feed
 ---
 
-This endpoint retrieves the embed's feed witch contains [Feed](../schemas/feed) that has an [Embed](../schemas/embed) as associated media.
+This endpoint retrieves the embed's feed witch contains [Feed](/docs/apireference/v2/schemas/feed) that has an [Embed](/docs/apireference/v2/schemas/embed) as associated media.
 
 :::info
 
-If the tuple `embed_type` `embed_id` is passed as parameter retrieves a list of [Feed](../schemas/feed) that has [Embed](../schemas/embed) as associated media like the [Get a specific Embed's Feed API](../embed/get_a_specific_embeds_feed).
+If the tuple `embed_type` `embed_id` is passed as parameter retrieves a list of [Feed](/docs/apireference/v2/schemas/feed) that has [Embed](/docs/apireference/v2/schemas/embed) as associated media like the [Get a specific Embed's Feed API](../embed/get_a_specific_embeds_feed).
 
 :::
 
@@ -37,7 +37,7 @@ This operation requires authentication only if `content_availability` community 
 |Parameter|Value|Description|
 |---|---|---|
 |» ordering|recent|Order by recent creation datetime|
-|» ordering|last_activity|Order by last activity in the [Feed](../schemas/feed) object|
+|» ordering|last_activity|Order by last activity in the [Feed](/docs/apireference/v2/schemas/feed) object|
 
 ### Example Request
 
@@ -96,7 +96,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|list([Feed](../schemas/feed))|false|none|none|
+|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|none|
 
 ### Example responses
 

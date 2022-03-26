@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:127](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L127)
+[types/notification.ts:128](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L128)
 
 ___
 
@@ -42,7 +42,7 @@ If the contribute is a comment
 
 #### Defined in
 
-[types/notification.ts:349](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L349)
+[types/notification.ts:350](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L350)
 
 ___
 
@@ -54,7 +54,7 @@ If the contribute is a discussion
 
 #### Defined in
 
-[types/notification.ts:334](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L334)
+[types/notification.ts:335](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L335)
 
 ___
 
@@ -70,7 +70,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:112](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L112)
+[types/notification.ts:113](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L113)
 
 ___
 
@@ -82,7 +82,7 @@ If the contribute is a post
 
 #### Defined in
 
-[types/notification.ts:339](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L339)
+[types/notification.ts:340](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L340)
 
 ___
 
@@ -98,7 +98,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:117](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L117)
+[types/notification.ts:118](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L118)
 
 ___
 
@@ -110,7 +110,7 @@ If the contribute is a status
 
 #### Defined in
 
-[types/notification.ts:344](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L344)
+[types/notification.ts:345](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L345)
 
 ___
 
@@ -126,4 +126,4 @@ Type Kindly Notice User
 
 #### Defined in
 
-[types/notification.ts:323](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L323)
+[types/notification.ts:324](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L324)

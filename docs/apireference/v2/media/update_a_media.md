@@ -100,7 +100,7 @@ curl -X PUT /api/v2/media/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Media](../schemas/media)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Media](/docs/apireference/v2/schemas/media)|
 
 ### Example responses
 

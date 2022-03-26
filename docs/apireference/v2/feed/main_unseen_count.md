@@ -64,7 +64,7 @@ curl -X GET /api/v2/feed/unseen/count/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[FeedUnseenCount](../schemas/feed_unseen_count)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[FeedUnseenCount](/docs/apireference/v2/schemas/feed_unseen_count)|
 
 
 ### Response Schema

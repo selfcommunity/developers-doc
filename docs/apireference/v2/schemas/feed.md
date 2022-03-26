@@ -239,12 +239,12 @@ title: Feed
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |type|string|false|read-only|The type of the object, can be `discussion` , `post` or `status` |
-|discussion|[Discussion](../schemas/discussion)¦null|false|read-only|none|
-|post|[Post](../schemas/post)¦undefined|false|read-only|none|
-|status|[Status](../schemas/status)¦undefined|false|read-only|none|
-|seen_by_id|list(integer)¦undefined|false|read-only|Id of [User](../schemas/user) that have seen this object|
+|discussion|[Discussion](/docs/apireference/v2/schemas/discussion)¦null|false|read-only|none|
+|post|[Post](/docs/apireference/v2/schemas/post)¦undefined|false|read-only|none|
+|status|[Status](/docs/apireference/v2/schemas/status)¦undefined|false|read-only|none|
+|seen_by_id|list(integer)¦undefined|false|read-only|Id of [User](/docs/apireference/v2/schemas/user) that have seen this object|
 |has_boost|¦undefined|false|read-only|True if this object has the visibility boost|
-|activities|list([FeedActivity](../schemas/feed_activity))¦undefined|false|read-only|List of feed acitivity. This field is returned only for relevance feed|
+|activities|list([FeedActivity](/docs/apireference/v2/schemas/feed_activity))¦undefined|false|read-only|List of feed acitivity. This field is returned only for relevance feed|
 
 
 

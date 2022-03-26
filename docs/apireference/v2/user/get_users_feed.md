@@ -81,7 +81,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|list([Feed](../schemas/feed))|false|none|none|
+|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|none|
 
 ### Example responses
 

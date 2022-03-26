@@ -23,7 +23,7 @@ This operation requires authentication. The logged user must be followed by reci
 |---|---|---|---|---|
 |recipients|body|integer|true|The id(s) of the recipient(s) of the message|
 |message|body|string|false*|The content of the message. It is required when file_uuid param is missing|
-|file_uuid|body|[File](../schemas/file)|false|The private message file|
+|file_uuid|body|[File](/docs/apireference/v2/schemas/file)|false|The private message file|
 
 #### Example Body Parameters
 
@@ -89,7 +89,7 @@ curl -X POST /api/v2/pm/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Private Message](../schemas/private_message)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Private Message](/docs/apireference/v2/schemas/private_message)|
 
 ### Example responses
 

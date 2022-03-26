@@ -41,7 +41,7 @@ title: Media
 |image_width|integer|false|read-only|none|
 |image_height|integer|false|read-only|none|
 |order|integer|false|read-only|none|
-|embed|[Embed](../schemas/embed)¦null|false|none|none|
+|embed|[Embed](/docs/apireference/v2/schemas/embed)¦null|false|none|none|
 
 #### Enumerated Values
 
@@ -53,4 +53,4 @@ title: Media
 |type|image|Media of type image|
 |type|eimage|Media of type inline image, used in [Discussion](../discussion/get_all_discussions) or [Post](../post/get_all_posts)  text editor|
 |type|doc|Media of type document (pdf)|
-|type|share|Media associate to a community shared object ([Discussion](../schemas/discussion) or [Post](../schemas/post))|
+|type|share|Media associate to a community shared object ([Discussion](/docs/apireference/v2/schemas/discussion) or [Post](/docs/apireference/v2/schemas/post))|

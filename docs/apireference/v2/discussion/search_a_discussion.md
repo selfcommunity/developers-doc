@@ -72,7 +72,7 @@ Status Code **200**
 |» count|integer|true|none|Total results count|
 |» next|string¦null|false|none|Next page url|
 |» previous|string¦null|false|none|Previous page url|
-|» results|list([SearchDiscussion](../schemas/search_discussion))|true|none|List of results|
+|» results|list([SearchDiscussion](/docs/apireference/v2/schemas/search_discussion))|true|none|List of results|
 
 ### Example responses
 

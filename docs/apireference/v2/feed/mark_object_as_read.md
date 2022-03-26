@@ -4,7 +4,7 @@ sidebar_position: 4
 title: Mark a Specific Feed Object as Read
 ---
 
-This endpoint marks as read a list of objects in the feed. Usually it is called when a [Feed](../schemas/feed) object enter the viewport of the user.
+This endpoint marks as read a list of objects in the feed. Usually it is called when a [Feed](/docs/apireference/v2/schemas/feed) object enter the viewport of the user.
 
 
 :::info
@@ -22,7 +22,7 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|» object|body|list|false|List of [Feed](../schemas/feed)'s object id|
+|» object|body|list|false|List of [Feed](/docs/apireference/v2/schemas/feed)'s object id|
 
 #### Example Body Parameters
 

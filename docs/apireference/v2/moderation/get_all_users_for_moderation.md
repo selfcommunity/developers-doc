@@ -93,7 +93,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|[[ModerationUser](../schemas/moderation_user)]|false|none|none|
+|» results|[[ModerationUser](/docs/apireference/v2/schemas/moderation_user)]|false|none|none|
 
 ### Example responses
 

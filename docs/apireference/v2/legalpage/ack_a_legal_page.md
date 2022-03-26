@@ -72,7 +72,7 @@ curl -X POST /api/v2/legal_page/{id}/ack/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Legal Page Ack](../schemas/legal_page_ack)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Legal Page Ack](/docs/apireference/v2/schemas/legal_page_ack)|
 
 
 

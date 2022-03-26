@@ -83,7 +83,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|[[Score](../schemas/score)]|false|none|none|
+|» results|[[Score](/docs/apireference/v2/schemas/score)]|false|none|none|
 
 ### Example responses
 

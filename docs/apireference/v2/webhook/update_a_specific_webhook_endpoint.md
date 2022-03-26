@@ -123,7 +123,7 @@ curl -X PUT /api/v2/webhook/endpoint/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Endpoint](../schemas/endpoint)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Endpoint](/docs/apireference/v2/schemas/endpoint)|
 
 ### Example responses
 

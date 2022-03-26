@@ -37,4 +37,4 @@ This custom hook is used to fetch a feed object.
 
 #### Defined in
 
-[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)
+[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)

@@ -4,7 +4,7 @@ sidebar_position: 2
 title: Chunk Upload Media Complete
 ---
 
-This endpoint completes the chunk upload and create the [Media](../schemas/media)
+This endpoint completes the chunk upload and create the [Media](/docs/apireference/v2/schemas/media)
 
 :::info
 
@@ -106,7 +106,7 @@ curl -X POST /api/v2/media/upload/complete/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Media](../schemas/media)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Media](/docs/apireference/v2/schemas/media)|
 
 ### Example responses
 

@@ -68,7 +68,7 @@ curl -X GET /api/v2/dynamic_preference/{id}/ \
 
 | Status | Meaning                                                 | Description | Schema                                        |
 |--------|---------------------------------------------------------|-------------|-----------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [DynamicPreference](../schemas/dynamic_preference) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [DynamicPreference](/docs/apireference/v2/schemas/dynamic_preference) |
 
 ### Example responses
 

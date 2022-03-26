@@ -100,7 +100,7 @@ title: Search Discussion
     "cover": "string",
     "ext_id": "string",
     "tags": [],
-    "reputation": 111,
+    "reputation": 111
   },
   "added_at": "2019-08-24T14:15:22Z",
   "html": "string",
@@ -141,7 +141,7 @@ title: Search Discussion
         "cover": "string",
         "ext_id": "string",
         "tags": [],
-        "reputation": 111,
+        "reputation": 111
       }
     }
   ]
@@ -157,8 +157,8 @@ title: Search Discussion
 |title|string|true|none|none|
 |slug|string|false|read-only|none|
 |text|string|true|write-only|none|
-|categories|list([Category](../schemas/category))|true|none|none|
-|medias|list([Media](../schemas/media))|false|none|none|
+|categories|list([Category](/docs/apireference/v2/schemas/category))|true|none|none|
+|medias|list([Media](/docs/apireference/v2/schemas/media))|false|none|none|
 |location|object¦null|false|none|none|
 |» location|string¦null|true|none|none|
 |» lat|number¦null|true|none|none|
@@ -182,7 +182,7 @@ title: Search Discussion
 |»» voted|boolean|false|read-only|true if the logged user has already voted the choice|
 |last_activity_at|string(date-time)|false|read-only|none|
 |view_count|integer|false|read-only|none|
-|author|[User](../schemas/user)|false|read-only|none|
+|author|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
 |added_at|string(date-time)|false|read-only|none|
 |html|string|false|read-only|none|
 |summary|string|false|read-only|none|
@@ -195,4 +195,4 @@ title: Search Discussion
 |flag_count|integer|false|read-only|none|
 |addressing|[integer]|false|none|none|
 |follower_count|string|false|read-only|none|
-|matches|list([SearchMatch](../schemas/search_match))|false|read-only|none|
+|matches|list([SearchMatch](/docs/apireference/v2/schemas/search_match))|false|read-only|none|

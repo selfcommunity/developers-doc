@@ -4,7 +4,7 @@ sidebar_position: 7
 title: Get a specific Embed's Feed
 ---
 
-This endpoint retrieves the embed's feed witch contains [Feed](../schemas/feed) that has the [Embed](../schemas/embed) as associated media.
+This endpoint retrieves the embed's feed witch contains [Feed](/docs/apireference/v2/schemas/feed) that has the [Embed](/docs/apireference/v2/schemas/embed) as associated media.
 
 :::info
 
@@ -31,7 +31,7 @@ This operation requires authentication only if `content_availability` community 
 |Parameter|Value|Description|
 |---|---|---|
 |» ordering|recent|Order by recent creation datetime|
-|» ordering|last_activity|Order by last activity in the [Feed](../schemas/feed) object|
+|» ordering|last_activity|Order by last activity in the [Feed](/docs/apireference/v2/schemas/feed) object|
 
 ### Example Request
 
@@ -90,7 +90,7 @@ Status Code **200**
 |» count|integer|false|none|Total results count|
 |» next|string(uri)¦null|false|none|Next page url|
 |» previous|string(uri)¦null|false|none|Previous page url|
-|» results|[[Feed](../schemas/feed)]|false|none|List of results|
+|» results|[[Feed](/docs/apireference/v2/schemas/feed)]|false|none|List of results|
 
 ### Example responses
 

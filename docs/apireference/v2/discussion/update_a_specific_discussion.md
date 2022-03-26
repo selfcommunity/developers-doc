@@ -25,8 +25,8 @@ This operation requires authentication. The logged user must be the discussion c
 |id|path|string|true|A unique integer value identifying this discussion|
 |» title|body|string¦null|true|The title of the discussion|
 |» text|body|string|false|The content of the discussion in html format, it can contain some mentions|
-|» categories|body|list(integer)|true|List of id of [Category](../schemas/category)|
-|» medias|body|list(integer)|false|List of id of [Media](../schemas/media)|
+|» categories|body|list(integer)|true|List of id of [Category](/docs/apireference/v2/schemas/category)|
+|» medias|body|list(integer)|false|List of id of [Media](/docs/apireference/v2/schemas/media)|
 |» location|body|object¦null|false|The Location object to associate at the discussion|
 |»» location|body|string¦null|true|none|
 |»» lat|body|number¦null|true|none|
@@ -37,7 +37,7 @@ This operation requires authentication. The logged user must be the discussion c
 |»» expiration_at|body|string(date-time)|false|none|
 |»» choices|body|list(object)|true|none|
 |»»» choice|body|string|true|none|
-|» addressing|body|list(integer)|false|List of id of [Tag](../schemas/tag)|
+|» addressing|body|list(integer)|false|List of id of [Tag](/docs/apireference/v2/schemas/tag)|
 
 #### Example Body Parameters
 
@@ -170,7 +170,7 @@ curl -X PUT /api/v2/discussion/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Discussion](../schemas/discussion)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Discussion](/docs/apireference/v2/schemas/discussion)|
 
 ### Example responses
 

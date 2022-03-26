@@ -21,8 +21,8 @@ title: Loyalty Prize User
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |id|integer|false|read-only|Unique integer value|
-|user|object|false|read-only|[User](../schemas/user)|
-|prize|object|false|read-only|[LoyaltyPrize](../schemas/loyalty_prize)|
+|user|object|false|read-only|[User](/docs/apireference/v2/schemas/user)|
+|prize|object|false|read-only|[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)|
 |prize_points|integer|false|read-only|Prize points when the request was created|
 |pending_at|string(date-time)|false|read-only|Date since it was in pending status|
 |status|integer|false|none|Integer value representing the status|

@@ -30,7 +30,7 @@ For example to change `active` or `deleted` flags in an admin list/table interfa
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this Category.|
-|body|body|[Category](../schemas/category)|false|none|
+|body|body|[Category](/docs/apireference/v2/schemas/category)|false|none|
 
 #### Example Body Parameters
 
@@ -131,7 +131,7 @@ curl -X PATCH /api/v2/category/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Category](../schemas/category)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Category](/docs/apireference/v2/schemas/category)|
 
 ### Example responses
 

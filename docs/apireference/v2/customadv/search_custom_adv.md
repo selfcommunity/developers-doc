@@ -91,7 +91,7 @@ Status Code **200**
 |» count|integer|false|none|Total results count|
 |» next|string(uri)¦null|false|none|Next page url|
 |» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Custom Adv](../schemas/custom_adv))|false|none|List of results|
+|» results|list([Custom Adv](/docs/apireference/v2/schemas/custom_adv))|false|none|List of results|
 
 ### Example responses
 

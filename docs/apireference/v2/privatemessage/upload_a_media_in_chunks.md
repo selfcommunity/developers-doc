@@ -14,7 +14,7 @@ This operation requires authentication
 
 :::info
 
- The client must split the file into chunks and send to the server in series. After all the chunks have been uploaded the client must call the [Chunk Upload Done](../privatemessage/chunk_upload_done) endpoint with the given `qqfilename` parameter to finalize the upload and retrieve the [File](../schemas/file).
+ The client must split the file into chunks and send to the server in series. After all the chunks have been uploaded the client must call the [Chunk Upload Done](../privatemessage/chunk_upload_done) endpoint with the given `qqfilename` parameter to finalize the upload and retrieve the [File](/docs/apireference/v2/schemas/file).
 
 
 :::
@@ -107,7 +107,7 @@ curl -X POST /api/v2/pm/upload/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[File](../schemas/file)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[File](/docs/apireference/v2/schemas/file)|
 
 ### Example responses
 

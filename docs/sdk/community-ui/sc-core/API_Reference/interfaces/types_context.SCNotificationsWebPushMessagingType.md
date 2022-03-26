@@ -19,7 +19,7 @@ applicationServerKey - Public key
 
 #### Defined in
 
-[types/context.ts:424](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/context.ts#L424)
+[types/context.ts:424](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L424)
 
 ___
 
@@ -31,4 +31,4 @@ Disable toast message
 
 #### Defined in
 
-[types/context.ts:419](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/context.ts#L419)
+[types/context.ts:419](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L419)

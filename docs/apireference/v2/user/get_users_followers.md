@@ -68,7 +68,7 @@ curl -X GET /api/v2/user/{id}/followers/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](../schemas/user)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](/docs/apireference/v2/schemas/user)|
 
 ### Response Schema
 
@@ -79,7 +79,7 @@ Status Code **200**
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|list([User](../schemas/user))|false|none|none|
+|» results|list([User](/docs/apireference/v2/schemas/user))|false|none|none|
 
 ### Example responses
 

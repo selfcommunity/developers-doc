@@ -91,7 +91,7 @@ title: Flagged Contribution
 |last_flagged_at|string(date-time)|true|none|date time of the last flag|
 |moderation_status|string|true|none|moderation status|
 |moderation_type|integer|false|none|cause of the moderation|
-|moderation_by|[User](../schemas/user)|false|none|moderator|
+|moderation_by|[User](/docs/apireference/v2/schemas/user)|false|none|moderator|
 |moderation_at|string(date-time)|true|none|date time of the moderation|
 
 #### Enumerated Values

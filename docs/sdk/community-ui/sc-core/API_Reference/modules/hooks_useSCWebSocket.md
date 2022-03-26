@@ -27,4 +27,4 @@ This custom hook is used to to init web socket.
 
 #### Defined in
 
-[hooks/useSCWebSocket.ts:16](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/hooks/useSCWebSocket.ts#L16)
+[hooks/useSCWebSocket.ts:16](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCWebSocket.ts#L16)

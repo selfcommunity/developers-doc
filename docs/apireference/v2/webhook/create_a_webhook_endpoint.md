@@ -123,7 +123,7 @@ curl -X POST /api/v2/webhook/endpoint/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Endpoint](../schemas/endpoint)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Endpoint](/docs/apireference/v2/schemas/endpoint)|
 
 ### Example responses
 

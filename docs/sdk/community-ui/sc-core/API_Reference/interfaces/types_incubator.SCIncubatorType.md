@@ -20,7 +20,7 @@ Added at
 
 #### Defined in
 
-[types/incubator.ts:57](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L57)
+[types/incubator.ts:57](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L57)
 
 ___
 
@@ -32,7 +32,7 @@ Approved category
 
 #### Defined in
 
-[types/incubator.ts:52](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L52)
+[types/incubator.ts:52](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L52)
 
 ___
 
@@ -44,7 +44,7 @@ The ID of the category.
 
 #### Defined in
 
-[types/incubator.ts:12](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L12)
+[types/incubator.ts:12](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L12)
 
 ___
 
@@ -56,7 +56,7 @@ The name of the category.
 
 #### Defined in
 
-[types/incubator.ts:17](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L17)
+[types/incubator.ts:17](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L17)
 
 ___
 
@@ -68,7 +68,7 @@ The slogan of the category.
 
 #### Defined in
 
-[types/incubator.ts:27](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L27)
+[types/incubator.ts:27](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L27)
 
 ___
 
@@ -80,7 +80,7 @@ The slug of the category.
 
 #### Defined in
 
-[types/incubator.ts:22](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L22)
+[types/incubator.ts:22](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L22)
 
 ___
 
@@ -92,7 +92,7 @@ Incubator status
 
 #### Defined in
 
-[types/incubator.ts:32](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L32)
+[types/incubator.ts:32](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L32)
 
 ___
 
@@ -104,7 +104,7 @@ Subscribers count
 
 #### Defined in
 
-[types/incubator.ts:37](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L37)
+[types/incubator.ts:37](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L37)
 
 ___
 
@@ -116,7 +116,7 @@ Subscribers threshold
 
 #### Defined in
 
-[types/incubator.ts:42](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L42)
+[types/incubator.ts:42](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L42)
 
 ___
 
@@ -128,4 +128,4 @@ User who proposed the incubator
 
 #### Defined in
 
-[types/incubator.ts:47](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/incubator.ts#L47)
+[types/incubator.ts:47](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/incubator.ts#L47)

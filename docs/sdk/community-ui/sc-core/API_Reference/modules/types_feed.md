@@ -31,4 +31,4 @@ Status Schema.
 
 #### Defined in
 
-[types/feed.ts:247](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/feed.ts#L247)
+[types/feed.ts:247](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/feed.ts#L247)

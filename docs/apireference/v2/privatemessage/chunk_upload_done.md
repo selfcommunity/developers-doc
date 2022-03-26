@@ -4,7 +4,7 @@ sidebar_position: 8
 title: Chunk Upload Done
 ---
 
-This endpoint finalizes the chunk upload and creates the [File](../schemas/file)
+This endpoint finalizes the chunk upload and creates the [File](/docs/apireference/v2/schemas/file)
 
 :::info
 
@@ -100,7 +100,7 @@ curl -X POST /api/v2/pm/upload/?done/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[File](../schemas/file)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[File](/docs/apireference/v2/schemas/file)|
 
 ### Example responses
 

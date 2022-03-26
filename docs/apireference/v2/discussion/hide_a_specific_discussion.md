@@ -4,7 +4,7 @@ sidebar_position: 22
 title: Hide a Specific Discussion
 ---
 
-This Endpoint hides the [Discussion](../schemas/discussion) for the logged user. The discussion must be in show state.
+This Endpoint hides the [Discussion](/docs/apireference/v2/schemas/discussion) for the logged user. The discussion must be in show state.
 
 :::info
 

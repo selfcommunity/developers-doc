@@ -39,7 +39,7 @@ title: Moderation User
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-| All [User](../schemas/user) fields|--|--|--|All [User](../schemas/user) fields|
+| All [User](/docs/apireference/v2/schemas/user) fields|--|--|--|All [User](/docs/apireference/v2/schemas/user) fields|
 |reputation|integer|false|none|User reputation.|
 |followings_counter|integer|false|none|Number of followings.|
 |followers_counter|integer|false|none|Number of followers.|

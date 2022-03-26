@@ -20,7 +20,7 @@ Added at
 
 #### Defined in
 
-[types/media.ts:16](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L16)
+[types/media.ts:16](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L16)
 
 ___
 
@@ -32,7 +32,7 @@ Title
 
 #### Defined in
 
-[types/media.ts:31](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L31)
+[types/media.ts:31](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L31)
 
 ___
 
@@ -44,7 +44,7 @@ Embed associated
 
 #### Defined in
 
-[types/media.ts:61](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L61)
+[types/media.ts:61](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L61)
 
 ___
 
@@ -56,7 +56,7 @@ Id of the media
 
 #### Defined in
 
-[types/media.ts:11](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L11)
+[types/media.ts:11](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L11)
 
 ___
 
@@ -68,7 +68,7 @@ Media image
 
 #### Defined in
 
-[types/media.ts:41](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L41)
+[types/media.ts:41](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L41)
 
 ___
 
@@ -80,7 +80,7 @@ Media image height
 
 #### Defined in
 
-[types/media.ts:51](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L51)
+[types/media.ts:51](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L51)
 
 ___
 
@@ -92,7 +92,7 @@ Media image width
 
 #### Defined in
 
-[types/media.ts:46](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L46)
+[types/media.ts:46](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L46)
 
 ___
 
@@ -104,7 +104,7 @@ Order in the list of medias
 
 #### Defined in
 
-[types/media.ts:56](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L56)
+[types/media.ts:56](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L56)
 
 ___
 
@@ -116,7 +116,7 @@ Title
 
 #### Defined in
 
-[types/media.ts:26](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L26)
+[types/media.ts:26](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L26)
 
 ___
 
@@ -128,7 +128,7 @@ Media type
 
 #### Defined in
 
-[types/media.ts:21](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L21)
+[types/media.ts:21](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L21)
 
 ___
 
@@ -140,4 +140,4 @@ Media Url
 
 #### Defined in
 
-[types/media.ts:36](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/media.ts#L36)
+[types/media.ts:36](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/media.ts#L36)

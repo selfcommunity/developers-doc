@@ -68,7 +68,7 @@ curl -X GET /api/v2/post/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Post](../schemas/post)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Post](/docs/apireference/v2/schemas/post)|
 
 ### Example responses
 

@@ -30,7 +30,7 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:40](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L40)
+[components/provider/SCRoutingProvider/index.tsx:40](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L40)
 
 ## Functions
 
@@ -58,7 +58,7 @@ This component provides routing context.
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:51](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L51)
+[components/provider/SCRoutingProvider/index.tsx:51](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L51)
 
 ___
 
@@ -75,4 +75,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:137](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L137)
+[components/provider/SCRoutingProvider/index.tsx:137](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L137)

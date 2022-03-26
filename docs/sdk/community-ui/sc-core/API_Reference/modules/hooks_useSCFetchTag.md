@@ -36,4 +36,4 @@ This custom hook is used to fetch a tag object.
 
 #### Defined in
 
-[hooks/useSCFetchTag.ts:17](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/hooks/useSCFetchTag.ts#L17)
+[hooks/useSCFetchTag.ts:17](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFetchTag.ts#L17)

@@ -37,4 +37,4 @@ Follow these steps:
 
 #### Defined in
 
-[hooks/useSCFollowedCategoriesManager.ts:24](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/hooks/useSCFollowedCategoriesManager.ts#L24)
+[hooks/useSCFollowedCategoriesManager.ts:24](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFollowedCategoriesManager.ts#L24)

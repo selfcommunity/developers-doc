@@ -24,7 +24,7 @@ This operation requires authentication and admin role.
 |---|---|---|----------|---|
 |recipients_type|body|string| false| Can be 'connections' or 'user' (default is 'conections')   |
 |type|body|string| true     |An optional custom string to differentiate notifications |
-|embed|body|object| false    |[Embed](../schemas/embed)|
+|embed|body|object| false    |[Embed](/docs/apireference/v2/schemas/embed)|
 |title|body|string¦null| true     |A title for the notification|
 |description|body|string¦null| true     |A description for the notification|
 |user|body|integer| true     |The user who issues the notification|

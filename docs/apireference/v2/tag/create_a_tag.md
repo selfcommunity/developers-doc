@@ -20,7 +20,7 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|body|body|[Tag](../schemas/tag)|false|none|
+|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false|none|
 
 #### Example Body Parameters
 
@@ -106,7 +106,7 @@ curl -X POST /api/v2/tag/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Tag](../schemas/tag)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Tag](/docs/apireference/v2/schemas/tag)|
 
 ### Example responses
 

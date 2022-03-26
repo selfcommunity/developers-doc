@@ -33,7 +33,7 @@ This operation requires authentication.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |id|path|string|true|A unique integer value identifying this user.|
-|body|body|[User](../schemas/user)|false|none|
+|body|body|[User](/docs/apireference/v2/schemas/user)|false|none|
 
 #### Example Body Parameters
 
@@ -125,7 +125,7 @@ curl -X PUT /api/v2/user/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](../schemas/user)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](/docs/apireference/v2/schemas/user)|
 
 ### Example responses
 

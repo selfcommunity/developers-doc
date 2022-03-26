@@ -65,7 +65,7 @@ curl -X GET /api/v2/pm/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Private Message](../schemas/private_message)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Private Message](/docs/apireference/v2/schemas/private_message)|
 
 ### Example responses
 

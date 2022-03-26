@@ -98,7 +98,7 @@ title: Post
     "cover": "string",
     "ext_id": "string",
     "tags": [],
-    "reputation": 111,
+    "reputation": 111
   },
   "added_at": "2019-08-24T14:15:22Z",
   "html": "string",
@@ -125,8 +125,8 @@ title: Post
 |---|---|---|---|---|
 |id|integer|false|read-only|none|
 |type|string|false|read-only|none|
-|categories|list([Category](../schemas/category))|true|none|none|
-|medias|list([Media](../schemas/media))|false|none|none|
+|categories|list([Category](/docs/apireference/v2/schemas/category))|true|none|none|
+|medias|list([Media](/docs/apireference/v2/schemas/media))|false|none|none|
 |location|object¦null|false|none|none|
 |» location|string¦null|true|none|none|
 |» lat|number¦null|true|none|none|
@@ -149,7 +149,7 @@ title: Post
 |»» vote_count|integer|false|read-only|none|
 |»» voted|boolean|false|read-only|true if the logged user has already voted the choice|
 |last_activity_at|string(date-time)|false|read-only|none|
-|author|[User](../schemas/user)|false|read-only|none|
+|author|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
 |added_at|string(date-time)|false|read-only|none|
 |html|string|false|read-only|none|
 |summary|string|false|read-only|none|

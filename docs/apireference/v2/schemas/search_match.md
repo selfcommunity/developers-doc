@@ -37,17 +37,17 @@ title: Search Match
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|object|object|false|none|General reference for [Discussion](../schemas/discussion), [Post](../schemas/post) or [Comment](../schemas/comment)|
+|object|object|false|none|General reference for [Discussion](/docs/apireference/v2/schemas/discussion), [Post](/docs/apireference/v2/schemas/post) or [Comment](/docs/apireference/v2/schemas/comment)|
 |» id|integer|false|read-only|Object id|
 |» type|string|false|read-only|Type of the object|
 |» added_at|string(date-time)|false|read-only|none|
 |» html|string|false|read-only|The content of the object in html format, it contains the match of the search wrapped into `<b>` tag|
-|author|[User](../schemas/user)|false|read-only|none|
+|author|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
 
 #### Enumerated Values
 
 |Property|Value|Description|
 |---|---|---|
-|type|discussion|Identify a [Discussion](../schemas/discussion) object|
-|type|post|Identify a [Post](../schemas/post) object|
-|type|comment|Identify a [Comment](../schemas/comment) object|
+|type|discussion|Identify a [Discussion](/docs/apireference/v2/schemas/discussion) object|
+|type|post|Identify a [Post](/docs/apireference/v2/schemas/post) object|
+|type|comment|Identify a [Comment](/docs/apireference/v2/schemas/comment) object|

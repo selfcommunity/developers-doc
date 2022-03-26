@@ -52,10 +52,10 @@ title: Feed Activity
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |type|string|false|read-only|none|
-|comment|[Comment](../schemas/comment)¦null|false|read-only|none|
-|author|[User](../schemas/user)|false|read-only|none|
+|comment|[Comment](/docs/apireference/v2/schemas/comment)¦null|false|read-only|none|
+|author|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
 |active_at|string(date-time)|false|read-only|none|
-|seen_by_id|list(integer)¦null|false|read-only|Id of [User](../schemas/user) that have seen this activity|
+|seen_by_id|list(integer)¦null|false|read-only|Id of [User](/docs/apireference/v2/schemas/user) that have seen this activity|
 
 #### Enumerated Values
 
@@ -64,4 +64,4 @@ title: Feed Activity
 |type|comment|The activity involved is a comment|
 |type|vote|The activity involved is a vote|
 |type|pollvote|The activity involved is a poll vote|
-|type|follow|The activity involved is a follow. This type can be returned if the [Feed](../schemas/feed) represent a [Discussion](../schemas/discussion)|
+|type|follow|The activity involved is a follow. This type can be returned if the [Feed](/docs/apireference/v2/schemas/feed) represent a [Discussion](/docs/apireference/v2/schemas/discussion)|

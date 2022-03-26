@@ -67,7 +67,7 @@ curl -X GET /api/v2/incubator/{id}/ \
 ## Responses
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Incubator](../schemas/incubator)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Incubator](/docs/apireference/v2/schemas/incubator)|
 
 ### Example responses
 

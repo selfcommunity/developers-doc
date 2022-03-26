@@ -70,7 +70,7 @@ curl -X GET /api/v2/custom_adv/{id}/ \
 ## Responses
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Custom Adv](../schemas/custom_adv)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Custom Adv](/docs/apireference/v2/schemas/custom_adv)|
 
 ### Example responses
 

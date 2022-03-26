@@ -73,7 +73,7 @@ Status Code **200**
 | » count    | integer                                   | true     | none         | Total results count |
 | » next     | string¦null                               | false    | none         | Next page url       |
 | » previous | string¦null                               | false    | none         | Previous page url   |
-| » results  | list([SearchStatus](../schemas/search_status)) | true     | none         | List of results     |
+| » results  | list([SearchStatus](/docs/apireference/v2/schemas/search_status)) | true     | none         | List of results     |
 
 ### Example responses
 

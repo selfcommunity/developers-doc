@@ -33,5 +33,5 @@ title: Loyalty Prize
 |image|string(binary)|true|none|Image of this prize|
 |created_at|string(date-time)|false|read-only|Date of creation|
 |lastmod_datetime|string(date-time)|false|read-only|Date of last modify|
-|created_by|object|false|read-only|[User](../schemas/user)|
+|created_by|object|false|read-only|[User](/docs/apireference/v2/schemas/user)|
 

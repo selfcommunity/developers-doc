@@ -4,7 +4,7 @@ sidebar_position: 23
 title: Show a Specific Discussion
 ---
 
-This Endpoint shows the [Discussion](../schemas/discussion) for the logged user. The discussion must be in hidden state.
+This Endpoint shows the [Discussion](/docs/apireference/v2/schemas/discussion) for the logged user. The discussion must be in hidden state.
 
 :::info
 

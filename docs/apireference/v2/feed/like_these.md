@@ -4,7 +4,7 @@ sidebar_position: 5
 title: Like These feed objects
 ---
 
-This endpoint retrieves a list of [Feed](../schemas/feed) objects similar to the id of passed objects
+This endpoint retrieves a list of [Feed](/docs/apireference/v2/schemas/feed) objects similar to the id of passed objects
 
 :::info
 
@@ -24,7 +24,7 @@ This operation requires authentication
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page.|
 |offset|query|integer|false|The initial index from which to return the results.|
-|object|body|list|true|List of [Feed](../schemas/feed)'s object id|
+|object|body|list|true|List of [Feed](/docs/apireference/v2/schemas/feed)'s object id|
 
 #### Example Body Parameters
 
@@ -100,7 +100,7 @@ curl -X POST /api/v2/feed/likethis/ \
 |» count|integer|false|none|none|
 |» next|string(uri)¦null|false|none|none|
 |» previous|string(uri)¦null|false|none|none|
-|» results|list([Feed](../schemas/feed))|false|none|none|
+|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|none|
 
 ### Example responses
 

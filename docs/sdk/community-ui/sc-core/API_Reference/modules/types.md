@@ -200,6 +200,12 @@ Re-exports [SCMediaType](../interfaces/types_media.SCMediaType.md)
 
 ___
 
+### SCMessageFileType
+
+Re-exports [SCMessageFileType](../enums/types_privateMessage.SCMessageFileType.md)
+
+___
+
 ### SCNotificationAggregatedType
 
 Re-exports [SCNotificationAggregatedType](../interfaces/types_notification.SCNotificationAggregatedType.md)
@@ -341,6 +347,12 @@ ___
 ### SCPreferencesContextType
 
 Re-exports [SCPreferencesContextType](../interfaces/types_context.SCPreferencesContextType.md)
+
+___
+
+### SCPrivateMessageFileType
+
+Re-exports [SCPrivateMessageFileType](../interfaces/types_privateMessage.SCPrivateMessageFileType.md)
 
 ___
 

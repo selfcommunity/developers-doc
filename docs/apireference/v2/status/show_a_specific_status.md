@@ -4,7 +4,7 @@ sidebar_position: 16
 title: Show a Specific Status
 ---
 
-This endpoint shows the [Status](../schemas/status) for the logged user. The status must be in hidden state
+This endpoint shows the [Status](/docs/apireference/v2/schemas/status) for the logged user. The status must be in hidden state
 
 :::info
 

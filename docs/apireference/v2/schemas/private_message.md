@@ -26,4 +26,4 @@ title: Private Message
 |message|string|true|none|Text message|
 |created_at|string(date-time)|false|read-only|Send date time|
 |status|string|true|none|Message status: created, deleted or hidden message|
-|file|[File](../schemas/file)|true|none|The private message file|
+|file|[File](/docs/apireference/v2/schemas/file)|true|none|The private message file|

@@ -30,7 +30,7 @@ Time when the notification was generated
 
 #### Defined in
 
-[types/notification.ts:127](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L127)
+[types/notification.ts:128](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L128)
 
 ___
 
@@ -42,7 +42,7 @@ Custom notification data
 
 #### Defined in
 
-[types/notification.ts:491](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L491)
+[types/notification.ts:492](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L492)
 
 ___
 
@@ -58,7 +58,7 @@ True if the notification has been read, otherwise false
 
 #### Defined in
 
-[types/notification.ts:112](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L112)
+[types/notification.ts:113](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L113)
 
 ___
 
@@ -74,7 +74,7 @@ Serialization id of the single notification
 
 #### Defined in
 
-[types/notification.ts:117](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L117)
+[types/notification.ts:118](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L118)
 
 ___
 
@@ -90,7 +90,7 @@ Type User Follow
 
 #### Defined in
 
-[types/notification.ts:481](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L481)
+[types/notification.ts:482](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L482)
 
 ___
 
@@ -102,4 +102,4 @@ User generate the custom notification
 
 #### Defined in
 
-[types/notification.ts:486](https://github.com/selfcommunity/community-ui/blob/e8a635a/packages/sc-core/src/types/notification.ts#L486)
+[types/notification.ts:487](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/notification.ts#L487)
