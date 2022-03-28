@@ -30,15 +30,14 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:29](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L29)
+[components/provider/SCThemeProvider/index.tsx:28](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L28)
 
 ## Functions
 
 ### SCThemeProvider
 
-▸ **SCThemeProvider**(`children`): `JSX.Element`
+▸ **SCThemeProvider**(`__namedParameters`): `JSX.Element`
 
-#### Description:
 This component makes the `theme` available down the React tree.
 It should preferably be used at **the root of your component tree**.
 See: https://mui.com/system/styled/
@@ -47,22 +46,16 @@ See: https://mui.com/system/styled/
 
 | Name | Type |
 | :------ | :------ |
-| `children` | `Object` |
-| `children.children` | `ReactNode` |
+| `__namedParameters` | `Object` |
+| `__namedParameters.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
-```jsx
-<SCThemeContext.Provider value={{theme, setTheme: setCustomTheme}}>
-<ThemeProvider theme={theme}>{children}</ThemeProvider>
-</SCThemeContext.Provider>
-```
-
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:45](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L45)
+[components/provider/SCThemeProvider/index.tsx:35](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L35)
 
 ___
 
@@ -79,7 +72,7 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:92](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L92)
+[components/provider/SCThemeProvider/index.tsx:70](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L70)
 
 ___
 
@@ -113,4 +106,4 @@ Export hoc to inject the base theme to components
 
 #### Defined in
 
-[components/provider/SCThemeProvider/index.tsx:79](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L79)
+[components/provider/SCThemeProvider/index.tsx:57](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCThemeProvider/index.tsx#L57)

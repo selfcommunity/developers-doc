@@ -19,7 +19,7 @@ Locale: en, it, etc.
 
 #### Defined in
 
-[types/context.ts:469](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L469)
+[types/context.ts:416](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L416)
 
 ___
 
@@ -31,7 +31,7 @@ Locale messages
 
 #### Defined in
 
-[types/context.ts:474](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L474)
+[types/context.ts:421](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L421)
 
 ## Methods
 
@@ -53,4 +53,4 @@ Change locale
 
 #### Defined in
 
-[types/context.ts:479](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L479)
+[types/context.ts:426](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L426)

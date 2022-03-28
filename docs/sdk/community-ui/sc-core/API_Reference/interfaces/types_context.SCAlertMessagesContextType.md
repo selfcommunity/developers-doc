@@ -9,36 +9,8 @@ custom_edit_url: null
 
 Interface SCAlertMessagesContextType
 
-## Properties
+## Indexable
 
-### options
-
-• **options**: `Record`<`string`, `any`\>
+▪ [p: `string`]: `any`
 
 Options
-
-#### Defined in
-
-[types/context.ts:489](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L489)
-
-## Methods
-
-### setOptions
-
-▸ **setOptions**(`options`): `void`
-
-Set options
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `options` | `any` |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[types/context.ts:494](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L494)

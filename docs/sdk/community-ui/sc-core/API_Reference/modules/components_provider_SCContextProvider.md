@@ -28,33 +28,30 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCContextProvider/index.tsx:22](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L22)
+[components/provider/SCContextProvider/index.tsx:21](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L21)
 
 ## Functions
 
 ### SCContextProvider
 
-▸ **SCContextProvider**(`object`): `JSX.Element`
+▸ **SCContextProvider**(`__namedParameters`): `JSX.Element`
 
-This component imports all providers
+SCContextProvider
+This import all providers
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `object` | [`SCContextProviderType`](../interfaces/types_context.SCContextProviderType.md) |
+| `__namedParameters` | [`SCContextProviderType`](../interfaces/types_context.SCContextProviderType.md) |
 
 #### Returns
 
 `JSX.Element`
 
-```jsx
-<SCContext.Provider value={{settings}}>
-```
-
 #### Defined in
 
-[components/provider/SCContextProvider/index.tsx:34](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L34)
+[components/provider/SCContextProvider/index.tsx:27](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L27)
 
 ___
 
@@ -71,4 +68,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCContextProvider/index.tsx:91](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L91)
+[components/provider/SCContextProvider/index.tsx:84](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCContextProvider/index.tsx#L84)

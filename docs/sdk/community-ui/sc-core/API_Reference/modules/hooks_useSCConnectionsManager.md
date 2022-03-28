@@ -12,19 +12,11 @@ custom_edit_url: null
 
 ▸ **useSCConnectionsManager**(`user?`): { `acceptConnection`: `undefined` ; `connections`: `any`[] = data; `emptyCache`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined` ; `requestConnection`: `undefined` ; `status`: `undefined`  } \| { `acceptConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `connections`: `any`[] = data; `emptyCache`: () => `void` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void` ; `requestConnection`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `status`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `string`  }
 
-:::info
-This custom hook is used to manage to manage friends.
-:::
-
-:::tipHow to use it:
-
-Follow these steps:
-```jsx
+Custom hook 'useSCConnectionsManager'
+Use this hook to manage friends:
 1. const scUserContext: SCUserContextType = useSCUser();
 2. const scConnectionsManager: SCConnectionsManagerType = scUserContext.manager.connections;
 3. scConnectionsManager.status(user)
-```
-:::
 
 #### Parameters
 
@@ -38,4 +30,4 @@ Follow these steps:
 
 #### Defined in
 
-[hooks/useSCConnectionsManager.ts:39](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCConnectionsManager.ts#L39)
+[hooks/useSCConnectionsManager.ts:31](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCConnectionsManager.ts#L31)

@@ -17,19 +17,19 @@ Send date time
 
 #### Defined in
 
-[types/privateMessage.ts:38](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L38)
+[types/privateMessage.ts:38](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L38)
 
 ___
 
 ### file
 
-• `Optional` **file**: [`SCPrivateMessageFileType`](types_privateMessage.SCPrivateMessageFileType.md)
+• `Optional` **file**: `any`
 
 file
 
 #### Defined in
 
-[types/privateMessage.ts:52](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L52)
+[types/privateMessage.ts:52](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L52)
 
 ___
 
@@ -41,7 +41,7 @@ Headline
 
 #### Defined in
 
-[types/privateMessage.ts:56](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L56)
+[types/privateMessage.ts:56](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L56)
 
 ___
 
@@ -53,7 +53,7 @@ Message
 
 #### Defined in
 
-[types/privateMessage.ts:33](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L33)
+[types/privateMessage.ts:33](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L33)
 
 ___
 
@@ -65,7 +65,7 @@ Id of the message
 
 #### Defined in
 
-[types/privateMessage.ts:15](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L15)
+[types/privateMessage.ts:15](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L15)
 
 ___
 
@@ -77,7 +77,7 @@ Last interaction date time
 
 #### Defined in
 
-[types/privateMessage.ts:42](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L42)
+[types/privateMessage.ts:42](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L42)
 
 ___
 
@@ -89,7 +89,7 @@ Message content
 
 #### Defined in
 
-[types/privateMessage.ts:60](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L60)
+[types/privateMessage.ts:60](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L60)
 
 ___
 
@@ -101,7 +101,7 @@ Receiver User
 
 #### Defined in
 
-[types/privateMessage.ts:28](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L28)
+[types/privateMessage.ts:28](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L28)
 
 ___
 
@@ -113,7 +113,7 @@ Sender User
 
 #### Defined in
 
-[types/privateMessage.ts:20](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L20)
+[types/privateMessage.ts:20](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L20)
 
 ___
 
@@ -125,7 +125,7 @@ Sender id
 
 #### Defined in
 
-[types/privateMessage.ts:24](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L24)
+[types/privateMessage.ts:24](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L24)
 
 ___
 
@@ -137,7 +137,7 @@ Message status: created, deleted or hidden message
 
 #### Defined in
 
-[types/privateMessage.ts:11](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L11)
+[types/privateMessage.ts:11](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L11)
 
 ___
 
@@ -149,4 +149,4 @@ Message status: created, deleted or hidden message
 
 #### Defined in
 
-[types/privateMessage.ts:47](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/privateMessage.ts#L47)
+[types/privateMessage.ts:47](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/privateMessage.ts#L47)

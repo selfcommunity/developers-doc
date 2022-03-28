@@ -29,35 +29,30 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCNotificationProvider/index.tsx:22](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L22)
+[components/provider/SCNotificationProvider/index.tsx:27](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L27)
 
 ## Functions
 
 ### SCNotificationProvider
 
-▸ **SCNotificationProvider**(`children`): `JSX.Element`
+▸ **SCNotificationProvider**(`__namedParameters`): `JSX.Element`
 
-#### Description:
 This component makes the notification context available down the React tree.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `children` | `Object` |
-| `children.children` | `ReactNode` |
+| `__namedParameters` | `Object` |
+| `__namedParameters.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
-```jsx
-<SCNotificationContext.Provider value={{wsInstance}}>{children}</SCNotificationContext.Provider>
-```
-
 #### Defined in
 
-[components/provider/SCNotificationProvider/index.tsx:33](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L33)
+[components/provider/SCNotificationProvider/index.tsx:32](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L32)
 
 ___
 
@@ -74,4 +69,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCNotificationProvider/index.tsx:44](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L44)
+[components/provider/SCNotificationProvider/index.tsx:102](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCNotificationProvider/index.tsx#L102)

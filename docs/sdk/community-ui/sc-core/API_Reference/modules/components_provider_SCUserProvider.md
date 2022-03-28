@@ -29,35 +29,31 @@ SCUserContext (Authentication Context)
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:42](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L42)
+[components/provider/SCUserProvider/index.tsx:37](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L37)
 
 ## Functions
 
 ### SCUserProvider
 
-▸ **SCUserProvider**(`children`): `JSX.Element`
+▸ **SCUserProvider**(`__namedParameters`): `JSX.Element`
 
-#### Description:
-This component keeps current user logged and session; it is exported as we need to wrap the entire app with it
+Export the provider as we need to wrap the entire app with it
+This provider keeps current user logged and session
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `children` | `Object` |
-| `children.children` | `ReactNode` |
+| `__namedParameters` | `Object` |
+| `__namedParameters.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
-```jsx
-<SCUserContext.Provider value={contextValue}>{!state.loading && children}</SCUserContext.Provider>
-```
-
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:53](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L53)
+[components/provider/SCUserProvider/index.tsx:43](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L43)
 
 ___
 
@@ -74,4 +70,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:259](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L259)
+[components/provider/SCUserProvider/index.tsx:198](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L198)

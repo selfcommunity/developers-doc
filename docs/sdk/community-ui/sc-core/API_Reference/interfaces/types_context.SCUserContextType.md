@@ -19,7 +19,7 @@ Error that occurred during authentication.
 
 #### Defined in
 
-[types/context.ts:92](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L92)
+[types/context.ts:84](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L84)
 
 ___
 
@@ -31,7 +31,7 @@ Authentication is loading.
 
 #### Defined in
 
-[types/context.ts:87](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L87)
+[types/context.ts:79](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L79)
 
 ___
 
@@ -45,13 +45,13 @@ Managers: followed, connections, categories, etc...
 
 | Name | Type |
 | :------ | :------ |
-| `categories` | [`SCFollowedCategoriesManagerType`](types_context.SCFollowedCategoriesManagerType.md) |
+| `categories` | [`SCCategoriesManagerType`](types_context.SCCategoriesManagerType.md) |
 | `connections?` | [`SCConnectionsManagerType`](types_context.SCConnectionsManagerType.md) |
 | `followed?` | [`SCFollowedManagerType`](types_context.SCFollowedManagerType.md) |
 
 #### Defined in
 
-[types/context.ts:128](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L128)
+[types/context.ts:119](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L119)
 
 ___
 
@@ -63,7 +63,7 @@ Current Session.
 
 #### Defined in
 
-[types/context.ts:82](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L82)
+[types/context.ts:74](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L74)
 
 ___
 
@@ -75,7 +75,7 @@ Authenticated User.
 
 #### Defined in
 
-[types/context.ts:77](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L77)
+[types/context.ts:69](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L69)
 
 ## Methods
 
@@ -91,24 +91,7 @@ Triggered when logout is performed.
 
 #### Defined in
 
-[types/context.ts:97](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L97)
-
-___
-
-### refreshNotificationCounters
-
-▸ **refreshNotificationCounters**(): `Promise`<`any`\>
-
-Handle refresh user notification counters
-Interactions, BroadcastMessages
-
-#### Returns
-
-`Promise`<`any`\>
-
-#### Defined in
-
-[types/context.ts:123](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L123)
+[types/context.ts:89](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L89)
 
 ___
 
@@ -124,7 +107,51 @@ Triggered when call a refresh session.
 
 #### Defined in
 
-[types/context.ts:102](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L102)
+[types/context.ts:94](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L94)
+
+___
+
+### setAvatar
+
+▸ **setAvatar**(`avatar`): `void`
+
+Handle change avatar
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `avatar` | `string` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[types/context.ts:99](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L99)
+
+___
+
+### setCover
+
+▸ **setCover**(`cover`): `void`
+
+Handle change cover
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `cover` | `string` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[types/context.ts:104](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L104)
 
 ___
 
@@ -146,7 +173,7 @@ Handle change unseen interactions counter
 
 #### Defined in
 
-[types/context.ts:112](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L112)
+[types/context.ts:109](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L109)
 
 ___
 
@@ -168,26 +195,4 @@ Handle change unseen notification banner counter
 
 #### Defined in
 
-[types/context.ts:117](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L117)
-
-___
-
-### updateUser
-
-▸ **updateUser**(`info`): `void`
-
-Handle change user info
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `info` | `Record`<`string`, `any`\> |
-
-#### Returns
-
-`void`
-
-#### Defined in
-
-[types/context.ts:107](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L107)
+[types/context.ts:114](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L114)

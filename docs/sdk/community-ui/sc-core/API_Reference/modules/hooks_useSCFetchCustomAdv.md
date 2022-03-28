@@ -10,19 +10,18 @@ custom_edit_url: null
 
 ### useSCFetchCustomAdv
 
-▸ **useSCFetchCustomAdv**(`object`): `Object`
+▸ **useSCFetchCustomAdv**(`__namedParameters`): `Object`
 
-:::info
-This custom hook is used to fetch a custom adv object.
-:::
+Custom hook 'useSCFetchCustomAdv'
+Use this hook to fetch a custom adv object
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `object` | `Object` |
-| `object.categoriesId?` | `number`[] |
-| `object.position?` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition.md) |
+| `__namedParameters` | `Object` |
+| `__namedParameters.categoryId?` | `number` |
+| `__namedParameters.position` | [`SCCustomAdvPosition`](../enums/types_customAdv.SCCustomAdvPosition.md) |
 
 #### Returns
 
@@ -30,10 +29,9 @@ This custom hook is used to fetch a custom adv object.
 
 | Name | Type |
 | :------ | :------ |
-| `error` | `string` |
 | `scCustomAdv` | [`SCCustomAdvType`](../interfaces/types_customAdv.SCCustomAdvType.md) |
 | `setSCCustomAdv` | `Dispatch`<`SetStateAction`<[`SCCustomAdvType`](../interfaces/types_customAdv.SCCustomAdvType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchCustomAdv.ts:17](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L17)
+[hooks/useSCFetchCustomAdv.ts:15](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCFetchCustomAdv.ts#L15)

@@ -29,35 +29,30 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:28](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L28)
+[components/provider/SCLocaleProvider/index.tsx:27](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L27)
 
 ## Functions
 
 ### SCLocaleProvider
 
-▸ **SCLocaleProvider**(`children`): `JSX.Element`
+▸ **SCLocaleProvider**(`__namedParameters`): `JSX.Element`
 
-#### Description:
 This component makes the `intl` available down the React tree.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `children` | `Object` |
-| `children.children` | `ReactNode` |
+| `__namedParameters` | `Object` |
+| `__namedParameters.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
-```jsx
-<SCLocaleContext.Provider value={{locale, messages, selectLocale}}>
-```
-
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:39](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L39)
+[components/provider/SCLocaleProvider/index.tsx:32](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L32)
 
 ___
 
@@ -74,7 +69,7 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:111](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L111)
+[components/provider/SCLocaleProvider/index.tsx:90](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L90)
 
 ___
 
@@ -108,4 +103,4 @@ Export hoc to inject the base theme to components
 
 #### Defined in
 
-[components/provider/SCLocaleProvider/index.tsx:98](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L98)
+[components/provider/SCLocaleProvider/index.tsx:77](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCLocaleProvider/index.tsx#L77)

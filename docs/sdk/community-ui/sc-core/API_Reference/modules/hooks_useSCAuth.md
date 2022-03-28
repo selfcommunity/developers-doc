@@ -6,37 +6,45 @@ sidebar_position: 0
 custom_edit_url: null
 ---
 
+## Variables
+
+### userActionTypes
+
+• `Const` **userActionTypes**: `Object`
+
+We have complex state logic that involves multiple sub-values,
+so useReducer is preferable to useState.
+Define all possible auth action types label
+Use this to export actions and dispatch an action
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `CHANGE_AVATAR` | `string` |
+| `CHANGE_COVER` | `string` |
+| `CHANGE_UNSEEN_INTERACTIONS_COUNTER` | `string` |
+| `CHANGE_UNSEEN_NOTIFICATION_BANNERS_COUNTER` | `string` |
+| `LOGIN_FAILURE` | `string` |
+| `LOGIN_LOADING` | `string` |
+| `LOGIN_SUCCESS` | `string` |
+| `LOGOUT` | `string` |
+| `REFRESH_SESSION` | `string` |
+| `REFRESH_TOKEN_FAILURE` | `string` |
+| `REFRESH_TOKEN_SUCCESS` | `string` |
+
+#### Defined in
+
+[hooks/useSCAuth.ts:14](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCAuth.ts#L14)
+
 ## Functions
 
 ### useAuth
 
 ▸ **useAuth**(`initialSession`): `Object`
 
-:::info
-This component is used to navigate through the application.
-:::
-
-#### Usage
-
-In order to use router you need to import this components first:
-
-```jsx
-import {SCRoutingContextType, useSCRouting, Link, SCRoutes} from '@selfcommunity/core';
-````
-
-:::tipUsage Example:
-
-```jsx
-const scRoutingContext: SCRoutingContextType = useSCRouting();
-<Button component={Link} to={scRoutingContext.url(SCRoutes.USER_PROFILE_ROUTE_NAME, {id: user.id})>Go to profile</Button>
-````
-or
-
-```jsx
-const scRoutingContext: SCRoutingContextType = useSCRouting();
-<Link to={scRoutingContext.url('profile', {id: user.id})}>Go to profile</Link>
-````
-:::
+Custom hook 'useAuth'
+Use this hook to manage the session in AuthContextProvider
 
 #### Parameters
 
@@ -57,4 +65,4 @@ const scRoutingContext: SCRoutingContextType = useSCRouting();
 
 #### Defined in
 
-[hooks/useSCAuth.ts:122](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCAuth.ts#L122)
+[hooks/useSCAuth.ts:106](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCAuth.ts#L106)

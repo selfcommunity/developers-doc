@@ -12,18 +12,11 @@ custom_edit_url: null
 
 ▸ **useSCFollowedManager**(`user?`): { `emptyCache`: `undefined` ; `follow`: `undefined` ; `followed`: `any`[] = data; `isFollowed`: `undefined` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: `undefined`  } \| { `emptyCache`: () => `void` ; `follow`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `Promise`<`any`\> ; `followed`: `any`[] = data; `isFollowed`: (`user`: [`SCUserType`](../interfaces/types_user.SCUserType.md)) => `boolean` ; `isLoading`: (`obj`: { `id`: `number`  }) => `boolean` ; `loading`: `number`[] ; `refresh`: () => `void`  }
 
-:::info
-This custom hook is used to manage to manage followed users.
-:::
-:::tipHow to use it:
-
-Follow these steps:
-```jsx
+Custom hook 'useSCFollowedManager'
+Use this hook to manage followed users:
 1. const scUserContext: SCUserContextType = useSCUser();
 2. const scFollowedManager: SCFollowedManagerType = scUserContext.manager.followed;
 3. scFollowedManager.isFollowed(user)
-```
-:::
 
 #### Parameters
 
@@ -37,4 +30,4 @@ Follow these steps:
 
 #### Defined in
 
-[hooks/useSCFollowersManager.ts:35](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFollowersManager.ts#L35)
+[hooks/useSCFollowersManager.ts:28](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCFollowersManager.ts#L28)

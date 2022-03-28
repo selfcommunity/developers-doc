@@ -11,18 +11,6 @@ Interface SCNotificationContextType
 
 ## Properties
 
-### wpSubscription
-
-• **wpSubscription**: `any`
-
-wp subscription
-
-#### Defined in
-
-[types/context.ts:459](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L459)
-
-___
-
 ### wsInstance
 
 • **wsInstance**: `any`
@@ -31,4 +19,4 @@ ws instance
 
 #### Defined in
 
-[types/context.ts:454](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L454)
+[types/context.ts:406](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L406)

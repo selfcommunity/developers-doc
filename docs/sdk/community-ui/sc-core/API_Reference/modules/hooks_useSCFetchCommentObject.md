@@ -10,19 +10,18 @@ custom_edit_url: null
 
 ### useSCFetchCommentObject
 
-▸ **useSCFetchCommentObject**(`object`): `Object`
+▸ **useSCFetchCommentObject**(`__namedParameters`): `Object`
 
-:::info
-This custom hooks is used to fetch a comment.
-:::
+Custom hook 'useSCFetchCommentObject'
+Use this hook to fetch a comment
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `object` | `Object` |
-| `object.commentObject?` | [`SCCommentType`](../interfaces/types_comment.SCCommentType.md) |
-| `object.id?` | `number` |
+| `__namedParameters` | `Object` |
+| `__namedParameters.commentObject?` | [`SCCommentType`](../interfaces/types_comment.SCCommentType.md) |
+| `__namedParameters.id?` | `number` |
 
 #### Returns
 
@@ -30,10 +29,9 @@ This custom hooks is used to fetch a comment.
 
 | Name | Type |
 | :------ | :------ |
-| `error` | `string` |
 | `obj` | [`SCCommentType`](../interfaces/types_comment.SCCommentType.md) |
 | `setObj` | `Dispatch`<`SetStateAction`<[`SCCommentType`](../interfaces/types_comment.SCCommentType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchCommentObject.ts:17](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L17)
+[hooks/useSCFetchCommentObject.ts:15](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCFetchCommentObject.ts#L15)

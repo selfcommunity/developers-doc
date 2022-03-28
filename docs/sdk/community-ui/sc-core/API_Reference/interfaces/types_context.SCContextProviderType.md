@@ -19,7 +19,7 @@ Nested children
 
 #### Defined in
 
-[types/context.ts:329](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L329)
+[types/context.ts:320](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L320)
 
 ___
 
@@ -31,7 +31,7 @@ Settings
 
 #### Defined in
 
-[types/context.ts:319](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L319)
+[types/context.ts:310](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L310)
 
 ___
 
@@ -43,4 +43,4 @@ Providers
 
 #### Defined in
 
-[types/context.ts:324](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/types/context.ts#L324)
+[types/context.ts:315](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L315)

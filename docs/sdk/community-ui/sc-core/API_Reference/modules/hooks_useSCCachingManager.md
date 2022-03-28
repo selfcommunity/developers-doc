@@ -12,9 +12,9 @@ custom_edit_url: null
 
 ▸ **useSCCachingManager**(): `Object`
 
-:::info
-This custom hook manages cached data and the loading state.
-:::
+Custom hook 'useSCCachingManager'
+Helpers hook useful to manage cached data
+Manage cached data and the loading state
 
 #### Returns
 
@@ -33,4 +33,4 @@ This custom hook manages cached data and the loading state.
 
 #### Defined in
 
-[hooks/useSCCachingManager.ts:8](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCCachingManager.ts#L8)
+[hooks/useSCCachingManager.ts:8](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCCachingManager.ts#L8)

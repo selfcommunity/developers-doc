@@ -10,19 +10,18 @@ custom_edit_url: null
 
 ### useSCFetchCategory
 
-▸ **useSCFetchCategory**(`object`): `Object`
+▸ **useSCFetchCategory**(`__namedParameters`): `Object`
 
-:::info
-This custom hook is used to fetch a category object.
-:::
+Custom hook 'useSCFetchCategory'
+Use this hook to fetch a category object
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `object` | `Object` |
-| `object.category?` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md) |
-| `object.id?` | `number` |
+| `__namedParameters` | `Object` |
+| `__namedParameters.category?` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md) |
+| `__namedParameters.id?` | `number` |
 
 #### Returns
 
@@ -30,10 +29,9 @@ This custom hook is used to fetch a category object.
 
 | Name | Type |
 | :------ | :------ |
-| `error` | `string` |
 | `scCategory` | [`SCCategoryType`](../interfaces/types_category.SCCategoryType.md) |
 | `setSCCategory` | `Dispatch`<`SetStateAction`<[`SCCategoryType`](../interfaces/types_category.SCCategoryType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchCategory.ts:17](https://github.com/selfcommunity/community-ui/blob/c7df98e/packages/sc-core/src/hooks/useSCFetchCategory.ts#L17)
+[hooks/useSCFetchCategory.ts:15](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCFetchCategory.ts#L15)
