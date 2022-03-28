@@ -26,5 +26,5 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "user_follow"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|follower|[User](../user)|true|read-only|Follower user|
+|follower|[User](/docs/apireference/v2/schemas/user)|true|read-only|Follower user|
 

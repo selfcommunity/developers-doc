@@ -29,8 +29,8 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "mention"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|discussion|[Discussion](../discussion)|false|read-only|if user is mentioned in a discussion|
-|post|[Post](../post)|false|read-only|if the user is mentioned in a post|
-|comment|[Comment](../comment)|false|read-only|if user is mentioned in a comment|
-|status|[Status](../status)|false|read-only|if user is mentioned in a status|
+|discussion|[Discussion](/docs/apireference/v2/schemas/discussion)|false|read-only|if user is mentioned in a discussion|
+|post|[Post](/docs/apireference/v2/schemas/post)|false|read-only|if the user is mentioned in a post|
+|comment|[Comment](/docs/apireference/v2/schemas/comment)|false|read-only|if user is mentioned in a comment|
+|status|[Status](/docs/apireference/v2/schemas/status)|false|read-only|if user is mentioned in a status|
 

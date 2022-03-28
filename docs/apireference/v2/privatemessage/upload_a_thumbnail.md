@@ -14,7 +14,7 @@ This operation requires authentication.
 
 :::info
 
-This endpoint always follows [Upload a Media](../privatemessage/upload_a_media) or [Upload a Media in Chunks](../privatemessage/upload_a_media_in_chunks).
+This endpoint always follows [Upload a Media](/docs/apireference/v2/privatemessage/upload_a_media) or [Upload a Media in Chunks](/docs/apireference/v2/privatemessage/upload_a_media_in_chunks).
 
 :::
 

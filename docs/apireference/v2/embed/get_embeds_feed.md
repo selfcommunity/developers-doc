@@ -8,7 +8,7 @@ This endpoint retrieves the embed's feed witch contains [Feed](/docs/apireferenc
 
 :::info
 
-If the tuple `embed_type` `embed_id` is passed as parameter retrieves a list of [Feed](/docs/apireference/v2/schemas/feed) that has [Embed](/docs/apireference/v2/schemas/embed) as associated media like the [Get a specific Embed's Feed API](../embed/get_a_specific_embeds_feed).
+If the tuple `embed_type` `embed_id` is passed as parameter retrieves a list of [Feed](/docs/apireference/v2/schemas/feed) that has [Embed](/docs/apireference/v2/schemas/embed) as associated media like the [Get a specific Embed's Feed API](/docs/apireference/v2/embed/get_a_specific_embeds_feed).
 
 :::
 

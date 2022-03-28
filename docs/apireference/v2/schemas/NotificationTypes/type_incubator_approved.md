@@ -22,4 +22,4 @@ title: Notification Type Incubator Approved
 |sid|string|true|read-only|Serialization id of the notification block|
 |type|string|true|read-only|Type "mention"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|incubator|[IncubatorCategory](../incubator_category)|true|read-only|Incubator approved|
+|incubator|[IncubatorCategory](/docs/apireference/v2/schemas/incubator_category)|true|read-only|Incubator approved|

@@ -31,4 +31,4 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "blocker_user"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|block_settings|[BlockedSettings](../blocked_settings)|true|read-only|Data of user block|
+|block_settings|[BlockedSettings](/docs/apireference/v2/schemas/blocked_settings)|true|read-only|Data of user block|

@@ -28,10 +28,10 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Types: "kindly_notice_advertising", "kindly_notice_aggressive", "kindly_notice_vulgar", "kindly_notice_poor", "kindly_notice_offtopic", "kindly_notice_flag"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|discussion|[Discussion](../discussion)|false|read-only|if the contribute is a discussion|
-|post|[Post](../post)|false|read-only|if the contribute is a post|
-|comment|[Comment](../comment)|false|read-only|if the contribute is a comment|
-|status|[Status](../status)|false|read-only|if the contribute is a status|
+|discussion|[Discussion](/docs/apireference/v2/schemas/discussion)|false|read-only|if the contribute is a discussion|
+|post|[Post](/docs/apireference/v2/schemas/post)|false|read-only|if the contribute is a post|
+|comment|[Comment](/docs/apireference/v2/schemas/comment)|false|read-only|if the contribute is a comment|
+|status|[Status](/docs/apireference/v2/schemas/status)|false|read-only|if the contribute is a status|
 
 
 #### Enumerated Values

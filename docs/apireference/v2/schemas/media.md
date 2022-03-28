@@ -51,6 +51,6 @@ title: Media
 |type|url|Media associated to a webpage url|
 |type|embed|Media of type embed|
 |type|image|Media of type image|
-|type|eimage|Media of type inline image, used in [Discussion](../discussion/get_all_discussions) or [Post](../post/get_all_posts)  text editor|
+|type|eimage|Media of type inline image, used in [Discussion](/docs/apireference/v2/discussion/get_all_discussions) or [Post](/docs/apireference/v2/post/get_all_posts)  text editor|
 |type|doc|Media of type document (pdf)|
 |type|share|Media associate to a community shared object ([Discussion](/docs/apireference/v2/schemas/discussion) or [Post](/docs/apireference/v2/schemas/post))|

@@ -8,7 +8,7 @@ This endpoint updates a Media
 
 :::info
 
-It must be used for media of `type` *url* for set the preview image that can be choosed between the images returned by the [create](../media/create_a_media) endpoint or other images that can be retrieved by an url.
+It must be used for media of `type` *url* for set the preview image that can be choosed between the images returned by the [create](/docs/apireference/v2/media/create_a_media) endpoint or other images that can be retrieved by an url.
 
 :::
 

@@ -33,4 +33,4 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "private_message"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|message|[Message](../private_message)|true|read-only|Message received|
+|message|[Message](/docs/apireference/v2/schemas/private_message)|true|read-only|Message received|

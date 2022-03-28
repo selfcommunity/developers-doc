@@ -26,4 +26,4 @@ Example preview:
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "connection_request"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|request_user|[User](../user)|true|read-only|User request the connection|
+|request_user|[User](/docs/apireference/v2/schemas/user)|true|read-only|User request the connection|
