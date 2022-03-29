@@ -199,7 +199,7 @@ Status Code **200**
         "deleted": true,
         "collapsed": false,
         "comment_count": 0,
-        "vote_count": "string",
+        "vote_count": 0,
         "voted": false,
         "followed": false,
         "suspended": true,

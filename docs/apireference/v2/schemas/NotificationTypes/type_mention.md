@@ -10,10 +10,10 @@ title: Notification Type Mention
   "sid": 16052906326300000000007190,
   "type": "mention",
   "active_at": "2020-11-14T17:52:20.967302+01:00",
-  "discussion": {...},
-  "post": {...},
-  "comment": {...},
-  "status": {...}
+  "discussion": {},
+  "post": {},
+  "comment": {},
+  "status": {}
 }
 ```
 
@@ -27,7 +27,7 @@ Example preview:
 |---|---|---|---|---|
 |is_new|boolean|true|read-only|True if the notification has been read, otherwise false|
 |sid|string|true|read-only|Serialization id of the notification|
-|type|string|true|read-only|Type "mention"|
+|type|string|true|read-only|Type [mention](/docs/apireference/v2/mention)|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|
 |discussion|[Discussion](/docs/apireference/v2/schemas/discussion)|false|read-only|if user is mentioned in a discussion|
 |post|[Post](/docs/apireference/v2/schemas/post)|false|read-only|if the user is mentioned in a post|

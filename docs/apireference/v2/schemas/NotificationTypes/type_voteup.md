@@ -10,11 +10,11 @@ title: Notification Type Vote Up
   "sid": 16053709616960000000063090,
   "type": "vote_up",
   "active_at": "2020-11-14T17:52:20.967302+01:00",
-  "user": {...},
-  "discussion": {...},
-  "post": {...},
-  "comment": {...},
-  "status": {...}
+  "user": {},
+  "discussion": {},
+  "post": {},
+  "comment": {},
+  "status": {}
 }
 ```
 

@@ -10,7 +10,7 @@ title: Notification Type Collapsed For
   "sid": 16053813898480000000224680,
   "type": "collapsed_for_<type>",
   "active_at": "2020-11-14T20:16:29.848490+01:00",
-  "comment": {...}
+  "comment": {}
 }
 ```
 

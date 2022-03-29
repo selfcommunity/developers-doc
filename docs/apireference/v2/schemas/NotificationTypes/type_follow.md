@@ -9,10 +9,10 @@ title: Notification Type Follow
     "sid": 16053710571250000000007160,
     "type": "follow",
     "active_at": "2020-11-14T17:52:20.967302+01:00",
-    "discussion": {...},
-    "post": {...}
-    "status": {...},
-    "user": {...}
+    "discussion": {},
+    "post": {},
+    "status": {},
+    "user": {}
 }
 ```
 

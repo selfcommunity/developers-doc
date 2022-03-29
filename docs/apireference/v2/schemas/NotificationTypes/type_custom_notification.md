@@ -9,8 +9,8 @@ title: Notification Type Vote Up Custom Notification
     "sid": 16052592493610000000054990,
     "type": "custom_notification",
     "active_at": "2020-11-13T10:20:49.361022+01:00",
-    "custom_notification": {...},
-    "user": {...}
+    "custom_notification": {},
+    "user": {}
 }
 ```
 

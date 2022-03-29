@@ -10,7 +10,7 @@ title: Notification Type Comment
   "sid": 16052906326300000000007190,
   "type": "comment",
   "active_at": "2020-11-14T17:52:20.967302+01:00",
-  "comment": {...}
+  "comment": {}
 }
 ```
 

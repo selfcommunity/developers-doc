@@ -1,5 +1,5 @@
 ---
-sidebar_label: How it works
+sidebar_label: Mention
 sidebar_position: 1
 title: How it works
 ---

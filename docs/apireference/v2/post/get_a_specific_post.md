@@ -142,14 +142,14 @@ curl -X GET /api/v2/post/{id}/ \
     "modified_at": "2019-08-24T14:15:22Z",
     "closed": true,
     "expiration_at": "2019-08-24T14:15:22Z",
-    "hidden": "string",
+    "hidden": false,
     "choices": [
       {
         "id": 0,
         "choice": "string",
         "order": 0,
         "added_at": "2019-08-24T14:15:22Z",
-        "deleted": "string",
+        "deleted": false,
         "vote_count": 0,
         "voted": true
       }
