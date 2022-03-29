@@ -1,0 +1,49 @@
+name: update_documentation
+
+on:
+  repository_dispatch:
+    types: [community-ui-prerelease]
+
+jobs:
+  update_documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+      - name: Update package.json @selfcommunity/i18n dependency
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: package.json
+          field: dependencies.@selfcommunity/i18n
+          value: "^${{ github.event.client_payload.i18n }}"
+      - name: Update package.json @selfcommunity/core dependency
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: package.json
+          field: dependencies.@selfcommunity/core
+          value: "^${{ github.event.client_payload.core }}"
+      - name: Update package.json @selfcommunity/ui dependency
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: package.json
+          field: dependencies.@selfcommunity/ui
+          value: "^${{ github.event.client_payload.ui }}"
+      - name: Update package.json @selfcommunity/templates dependency
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: package.json
+          field: dependencies.@selfcommunity/templates
+          value: "^${{ github.event.client_payload.templates }}"
+      - name: Update community-ui submodule
+        run: |
+          git config --global user.email "fede.torre@gmail.com"
+          git config --global user.name "fedetorre"
+          git submodule update --remote --merge
+          git add sdk/community-ui/
+          git add package.json
+          git commit -m 'update package.json and gitlink to community-ui'
+          git push
