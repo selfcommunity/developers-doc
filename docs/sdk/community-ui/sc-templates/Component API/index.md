@@ -16,5 +16,6 @@ custom_edit_url: null
 - [FeedObjectDetail](modules/FeedObjectDetail.md)
 - [MainFeed](modules/MainFeed.md)
 - [NotificationFeed](modules/NotificationFeed.md)
+- [PrivateMessages](modules/PrivateMessages.md)
 - [UserFeed](modules/UserFeed.md)
 - [UserProfile](modules/UserProfile.md)

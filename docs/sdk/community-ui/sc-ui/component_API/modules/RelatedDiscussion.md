@@ -14,13 +14,34 @@ custom_edit_url: null
 
 ### RelatedDiscussion
 
-▸ **RelatedDiscussion**(`props`): `JSX.Element`
+▸ **RelatedDiscussion**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Related Discussion component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {RelatedDiscussion} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCRelatedDiscussion` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCRelatedDiscussion-root|Styles applied to the root element.|
+|title|.SCRelatedDiscussion-title|Styles applied to the title element.|
+|noResults|.SCRelatedDiscussion-noResults|Styles applied to noResults section.|
+|relatedItem|.SCRelatedDiscussion-related-item|Styles applied to the related item element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`RelatedDiscussionProps`](../interfaces/RelatedDiscussion.RelatedDiscussionProps.md) |
+| `inProps` | [`RelatedDiscussionProps`](../interfaces/RelatedDiscussion.RelatedDiscussionProps.md) |
 
 #### Returns
 
@@ -28,7 +49,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:79](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L79)
+[sdk/community-ui/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx:118](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/RelatedDiscussion/RelatedDiscussion.tsx#L118)
 
 ___
 
@@ -42,4 +63,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)
+[sdk/community-ui/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/RelatedDiscussion/Skeleton.tsx#L4)

@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Platform/Platform.tsx:27](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Platform/Platform.tsx#L27)
+[sdk/community-ui/packages/sc-ui/src/components/Platform/Platform.tsx:34](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Platform/Platform.tsx#L34)
 
 ___
 
@@ -39,4 +39,4 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Platform/Platform.tsx:32](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Platform/Platform.tsx#L32)
+[sdk/community-ui/packages/sc-ui/src/components/Platform/Platform.tsx:39](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Platform/Platform.tsx#L39)

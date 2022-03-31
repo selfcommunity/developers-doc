@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L34)
+[sdk/community-ui/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:42](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L42)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:39](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L39)
+[sdk/community-ui/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:47](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L47)
 
 ## Methods
 
@@ -61,23 +61,21 @@ Callback to pass message item
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:57](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L57)
+[sdk/community-ui/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:60](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L60)
 
 ___
 
-### onRef
+### getMessageFile
 
-▸ `Optional` **onRef**(`ref`): `void`
+▸ `Optional` **getMessageFile**(`file`): `void`
 
-Handles emoji editor
-
-**`default`** null
+Callback to pass message file item
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `ref` | `RefObject`<`TMUIRichTextEditorRef`\> |
+| `file` | `any` |
 
 #### Returns
 
@@ -85,7 +83,7 @@ Handles emoji editor
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:44](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L44)
+[sdk/community-ui/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:65](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L65)
 
 ___
 
@@ -101,4 +99,4 @@ Callback to send the message
 
 #### Defined in
 
-[packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:52](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L52)
+[sdk/community-ui/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx:55](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/MessageEditor/MessageEditor.tsx#L55)

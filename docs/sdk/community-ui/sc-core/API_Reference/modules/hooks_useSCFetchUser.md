@@ -10,18 +10,19 @@ custom_edit_url: null
 
 ### useSCFetchUser
 
-▸ **useSCFetchUser**(`initialSession`): `Object`
+▸ **useSCFetchUser**(`object`): `Object`
 
-Custom hook 'useSCFetchUser'
-Use this hook to fetch a user object
+:::info
+This custom hook is used to fetch a user object.
+:::
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `initialSession` | `Object` |
-| `initialSession.id?` | `number` |
-| `initialSession.user?` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
+| `object` | `Object` |
+| `object.id?` | `number` |
+| `object.user?` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
 
 #### Returns
 
@@ -29,9 +30,10 @@ Use this hook to fetch a user object
 
 | Name | Type |
 | :------ | :------ |
+| `error` | `string` |
 | `scUser` | [`SCUserType`](../interfaces/types_user.SCUserType.md) |
 | `setSCUser` | `Dispatch`<`SetStateAction`<[`SCUserType`](../interfaces/types_user.SCUserType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchUser.ts:14](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCFetchUser.ts#L14)
+[hooks/useSCFetchUser.ts:17](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/hooks/useSCFetchUser.ts#L17)

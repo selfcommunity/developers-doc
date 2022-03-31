@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:62](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L62)
+[UserFeed/UserFeed.tsx:66](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L66)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:68](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L68)
+[UserFeed/UserFeed.tsx:72](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L72)
 
 ___
 
@@ -47,7 +47,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:38](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L38)
+[UserFeed/UserFeed.tsx:42](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L42)
 
 ___
 
@@ -61,7 +61,7 @@ Id of the feed object
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:32](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L32)
+[UserFeed/UserFeed.tsx:36](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L36)
 
 ___
 
@@ -75,7 +75,7 @@ User Object
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:50](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L50)
+[UserFeed/UserFeed.tsx:54](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L54)
 
 ___
 
@@ -89,7 +89,7 @@ Id of the user for filter the feed
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:44](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L44)
+[UserFeed/UserFeed.tsx:48](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L48)
 
 ___
 
@@ -103,4 +103,4 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:56](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L56)
+[UserFeed/UserFeed.tsx:60](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L60)

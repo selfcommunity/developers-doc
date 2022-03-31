@@ -10,19 +10,20 @@ custom_edit_url: null
 
 ### useSCFetchFeedObject
 
-▸ **useSCFetchFeedObject**(`__namedParameters`): `Object`
+▸ **useSCFetchFeedObject**(`object`): `Object`
 
-Custom hook 'useFetchFeedObject'
-Use this hook to fetch a feed object
+:::info
+This custom hook is used to fetch a feed object.
+:::
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.feedObject?` | [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType.md) |
-| `__namedParameters.feedObjectType` | [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType.md) |
-| `__namedParameters.id?` | `number` |
+| `object` | `Object` |
+| `object.feedObject?` | [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType.md) |
+| `object.feedObjectType` | [`SCFeedObjectTypologyType`](../enums/types_feed.SCFeedObjectTypologyType.md) |
+| `object.id?` | `number` |
 
 #### Returns
 
@@ -30,9 +31,10 @@ Use this hook to fetch a feed object
 
 | Name | Type |
 | :------ | :------ |
+| `error` | `string` |
 | `obj` | [`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType.md) \| [`SCFeedDiscussionType`](../interfaces/types_feed.SCFeedDiscussionType.md) \| [`SCFeedPostType`](../interfaces/types_feed.SCFeedPostType.md) |
 | `setObj` | `Dispatch`<`SetStateAction`<[`SCFeedObjectType`](../interfaces/types_feed.SCFeedObjectType.md) \| [`SCFeedDiscussionType`](../interfaces/types_feed.SCFeedDiscussionType.md) \| [`SCFeedPostType`](../interfaces/types_feed.SCFeedPostType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchFeedObject.ts:16](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L16)
+[hooks/useSCFetchFeedObject.ts:18](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/hooks/useSCFetchFeedObject.ts#L18)

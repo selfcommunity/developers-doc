@@ -10,17 +10,64 @@ custom_edit_url: null
 
 - [EditorProps](../interfaces/Editor.EditorProps.md)
 
+## Type aliases
+
+### TRichTextEditorRef
+
+Ƭ **TRichTextEditorRef**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `focus` | () => `void` |
+| `insertAtomicBlock` | (`name`: `string`, `data`: `any`) => `void` |
+| `insertAtomicBlockAsync` | (`name`: `string`, `promise`: `Promise`<`TAsyncAtomicBlockResponse`\>, `placeholder?`: `string`) => `void` |
+| `insertAtomicBlockSync` | (`name`: `string`, `data`: `any`) => `void` |
+| `insertText` | (`text`: `string`) => `void` |
+| `save` | () => `void` |
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/Editor/RichTextEditor/RichTextEditor.tsx:66](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Editor/RichTextEditor/RichTextEditor.tsx#L66)
+
+## Properties
+
+### RichTextEditor
+
+• **RichTextEditor**: `ForwardRefExoticComponent`<`TRichTextEditorProps` & `RefAttributes`<[`TRichTextEditorRef`](Editor.md#trichtexteditorref)\>\>
+
 ## Functions
 
 ### Editor
 
-▸ **Editor**(`props`): `JSX.Element`
+▸ **Editor**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Editor component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {Editor} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCEditor` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCEditor-root|Styles applied to the root element.|
+|drop|.SCEditor-drop|Styles applied to the drop element.|
+|actions|.SCEditor-actions|Styles applied to the actions section.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`EditorProps`](../interfaces/Editor.EditorProps.md) |
+| `inProps` | [`EditorProps`](../interfaces/Editor.EditorProps.md) |
 
 #### Returns
 
@@ -28,7 +75,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Editor.tsx:142](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Editor/Editor.tsx#L142)
+[sdk/community-ui/packages/sc-ui/src/components/Editor/Editor.tsx:168](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Editor/Editor.tsx#L168)
 
 ___
 
@@ -42,4 +89,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Editor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Editor/Skeleton.tsx#L4)
+[sdk/community-ui/packages/sc-ui/src/components/Editor/Skeleton.tsx:4](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Editor/Skeleton.tsx#L4)

@@ -25,7 +25,7 @@ Props to spread to single category object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:38](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L38)
+[sdk/community-ui/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:50](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L50)
 
 ___
 
@@ -39,7 +39,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:28](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L28)
+[sdk/community-ui/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:40](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L40)
 
 ___
 
@@ -53,4 +53,18 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:33](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L33)
+[sdk/community-ui/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:45](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L45)
+
+___
+
+### userId
+
+• `Optional` **userId**: `number`
+
+The user id
+
+**`default`** null
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:35](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L35)

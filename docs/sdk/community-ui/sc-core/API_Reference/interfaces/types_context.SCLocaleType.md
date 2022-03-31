@@ -7,6 +7,8 @@ custom_edit_url: null
 
 [types/context](../modules/types_context.md).SCLocaleType
 
+Interface SCLocaleType
+
 ## Properties
 
 ### default
@@ -17,7 +19,7 @@ Default locale.
 
 #### Defined in
 
-[types/context.ts:54](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L54)
+[types/context.ts:62](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/context.ts#L62)
 
 ___
 
@@ -29,4 +31,4 @@ Overrides default messages.
 
 #### Defined in
 
-[types/context.ts:59](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L59)
+[types/context.ts:67](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/context.ts#L67)

@@ -14,13 +14,30 @@ custom_edit_url: null
 
 ### CategoriesSuggestion
 
-▸ **CategoriesSuggestion**(`props`): `JSX.Element`
+▸ **CategoriesSuggestion**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Categories Suggestion component. Learn about the available props and the CSS API.
+
+#### Import
+```jsx
+import {CategoriesSuggestion} from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCCategoriesSuggestion` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCCategoriesSuggestion-root|Styles applied to the root element.|
+|title|.SCCategoriesSuggestion-title|Styles applied to the title element.|
+|noResults|.SCCategoriesSuggestion-noResults|Styles applied to noResults section.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps.md) |
+| `inProps` | [`CategoriesListProps`](../interfaces/CategoriesSuggestion.CategoriesListProps.md) |
 
 #### Returns
 
@@ -28,7 +45,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:46](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L46)
+[sdk/community-ui/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx:79](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CategoriesSuggestion/CategoriesSuggestion.tsx#L79)
 
 ___
 
@@ -48,4 +65,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx:22](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx#L22)
+[sdk/community-ui/packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CategoriesSuggestion/Skeleton.tsx#L23)

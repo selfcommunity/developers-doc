@@ -9,6 +9,20 @@ custom_edit_url: null
 
 ## Properties
 
+### CustomAdvProps
+
+• `Optional` **CustomAdvProps**: [`CustomAdvProps`](CustomAdv.CustomAdvProps.md)
+
+Props to spread to single custom adv element (this props can be used only if Custom Adv are enabled)
+
+**`default`** {}
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:158](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L158)
+
+___
+
 ### FeedSidebarProps
 
 • `Optional` **FeedSidebarProps**: [`FeedSidebarProps`](Feed.FeedSidebarProps.md)
@@ -19,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:124](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L124)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:152](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L152)
 
 ___
 
@@ -31,7 +45,7 @@ Component used to render single feed item retrieved by the endpoint
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:96](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L96)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:114](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L114)
 
 ___
 
@@ -45,7 +59,7 @@ Props to spread to single feed item
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:107](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L107)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:130](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L130)
 
 ___
 
@@ -57,7 +71,7 @@ Skeleton used to render loading effect during fetch
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:112](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L112)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:135](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L135)
 
 ___
 
@@ -71,7 +85,7 @@ Props to spread to single feed item skeleton
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:118](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L118)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:141](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L141)
 
 ___
 
@@ -85,7 +99,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:68](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L68)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:86](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L86)
 
 ___
 
@@ -99,7 +113,7 @@ End message, rendered when no more feed item can be displayed
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:79](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L79)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:97](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L97)
 
 ___
 
@@ -111,7 +125,7 @@ Feed API Endpoint
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:73](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L73)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:91](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L91)
 
 ___
 
@@ -125,7 +139,7 @@ Id of the feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:62](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L62)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:80](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L80)
 
 ___
 
@@ -139,7 +153,7 @@ Refresh message, rendered when no more feed item can be displayed
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:85](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L85)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:103](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L103)
 
 ___
 
@@ -153,15 +167,15 @@ Widgets to insert into the feed
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:91](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L91)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:109](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L109)
 
 ## Methods
 
-### itemPropsGenerator
+### itemIdGenerator
 
-▸ **itemPropsGenerator**(`item`): `any`
+▸ **itemIdGenerator**(`item`): `any`
 
-Function used to convert the single result returned by the Endpoint into the props necessary to render the ItemComponent
+Function used to generate an id from the single result returned by the Endpoint
 
 #### Parameters
 
@@ -175,4 +189,49 @@ Function used to convert the single result returned by the Endpoint into the pro
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:101](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L101)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:124](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L124)
+
+___
+
+### itemPropsGenerator
+
+▸ **itemPropsGenerator**(`scUser`, `item`): `any`
+
+Function used to convert the single result returned by the Endpoint into the props necessary to render the ItemComponent
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `scUser` | `SCUserType` |
+| `item` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:119](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L119)
+
+___
+
+### onFetchData
+
+▸ `Optional` **onFetchData**(`data`): `any`
+
+Callback invoked whenever data is loaded during paging
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `data` | `any` |
+
+#### Returns
+
+`any`
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:146](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L146)

@@ -19,4 +19,4 @@ Settings
 
 #### Defined in
 
-[types/context.ts:300](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/context.ts#L300)
+[types/context.ts:309](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/context.ts#L309)

@@ -14,13 +14,31 @@ custom_edit_url: null
 
 ### FollowCategoryButton
 
-▸ **FollowCategoryButton**(`props`): `JSX.Element`
+▸ **FollowCategoryButton**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Follow Category Button component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {FollowCategoryButton} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCFollowCategoryButton` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCFollowCategoryButton-root|Styles applied to the root element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FollowCategoryButtonProps`](../interfaces/FollowCategoryButton.FollowCategoryButtonProps.md) |
+| `inProps` | [`FollowCategoryButtonProps`](../interfaces/FollowCategoryButton.FollowCategoryButtonProps.md) |
 
 #### Returns
 
@@ -28,4 +46,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:57](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L57)
+[sdk/community-ui/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:84](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L84)

@@ -29,31 +29,35 @@ SCUserContext (Authentication Context)
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:37](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L37)
+[components/provider/SCUserProvider/index.tsx:42](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L42)
 
 ## Functions
 
 ### SCUserProvider
 
-▸ **SCUserProvider**(`__namedParameters`): `JSX.Element`
+▸ **SCUserProvider**(`children`): `JSX.Element`
 
-Export the provider as we need to wrap the entire app with it
-This provider keeps current user logged and session
+#### Description:
+This component keeps current user logged and session; it is exported as we need to wrap the entire app with it
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.children` | `ReactNode` |
+| `children` | `Object` |
+| `children.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
+```jsx
+<SCUserContext.Provider value={contextValue}>{!state.loading && children}</SCUserContext.Provider>
+```
+
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:43](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L43)
+[components/provider/SCUserProvider/index.tsx:53](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L53)
 
 ___
 
@@ -70,4 +74,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCUserProvider/index.tsx:198](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L198)
+[components/provider/SCUserProvider/index.tsx:259](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCUserProvider/index.tsx#L259)

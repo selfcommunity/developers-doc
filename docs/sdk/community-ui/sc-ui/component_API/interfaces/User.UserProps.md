@@ -31,7 +31,7 @@ Hides user component
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:65](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/User/User.tsx#L65)
+[sdk/community-ui/packages/sc-ui/src/components/User/User.tsx:56](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/User/User.tsx#L56)
 
 ___
 
@@ -49,35 +49,21 @@ Pick.className
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:55](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/User/User.tsx#L55)
+[sdk/community-ui/packages/sc-ui/src/components/User/User.tsx:46](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/User/User.tsx#L46)
 
 ___
 
-### connectUserButtonProps
+### followConnectUserButtonProps
 
-• `Optional` **connectUserButtonProps**: `ConnectionButtonProps`
+• `Optional` **followConnectUserButtonProps**: [`FollowUserButtonProps`](FollowUserButton.FollowUserButtonProps.md) \| [`FriendshipButtonProps`](FriendshipUserButton.FriendshipButtonProps.md)
 
-Props to spread to connection button
+Props to spread to follow/friendship button
 
 **`default`** {}
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:82](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/User/User.tsx#L82)
-
-___
-
-### followUserButtonProps
-
-• `Optional` **followUserButtonProps**: [`FollowUserButtonProps`](FollowUserButton.FollowUserButtonProps.md)
-
-Props to spread to follow button
-
-**`default`** {}
-
-#### Defined in
-
-[packages/sc-ui/src/components/User/User.tsx:76](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/User/User.tsx#L76)
+[sdk/community-ui/packages/sc-ui/src/components/User/User.tsx:66](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/User/User.tsx#L66)
 
 ___
 
@@ -91,7 +77,21 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:50](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/User/User.tsx#L50)
+[sdk/community-ui/packages/sc-ui/src/components/User/User.tsx:41](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/User/User.tsx#L41)
+
+___
+
+### showFollowers
+
+• `Optional` **showFollowers**: `boolean`
+
+ Prop to show user followers as secondary text
+
+**`default`** false
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/User/User.tsx:71](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/User/User.tsx#L71)
 
 ___
 
@@ -105,7 +105,7 @@ User Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:60](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/User/User.tsx#L60)
+[sdk/community-ui/packages/sc-ui/src/components/User/User.tsx:51](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/User/User.tsx#L51)
 
 ## Methods
 
@@ -129,4 +129,4 @@ Handles actions ignore
 
 #### Defined in
 
-[packages/sc-ui/src/components/User/User.tsx:70](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/User/User.tsx#L70)
+[sdk/community-ui/packages/sc-ui/src/components/User/User.tsx:61](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/User/User.tsx#L61)

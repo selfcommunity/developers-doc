@@ -14,13 +14,13 @@ custom_edit_url: null
 
 ### MainFeed
 
-▸ **MainFeed**(`props`): `JSX.Element`
+▸ **MainFeed**(`inProps`): `JSX.Element`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`MainFeedProps`](../interfaces/MainFeed.MainFeedProps.md) |
+| `inProps` | [`MainFeedProps`](../interfaces/MainFeed.MainFeedProps.md) |
 
 #### Returns
 
@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[MainFeed/MainFeed.tsx:100](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L100)
+[MainFeed/MainFeed.tsx:101](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L101)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[MainFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/MainFeed/Skeleton.tsx#L13)
+[MainFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/MainFeed/Skeleton.tsx#L13)

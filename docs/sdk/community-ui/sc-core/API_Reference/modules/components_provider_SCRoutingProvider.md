@@ -30,28 +30,35 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:40](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L40)
+[components/provider/SCRoutingProvider/index.tsx:40](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L40)
 
 ## Functions
 
 ### SCRoutingProvider
 
-▸ **SCRoutingProvider**(`__namedParameters`): `JSX.Element`
+▸ **SCRoutingProvider**(`children`): `JSX.Element`
+
+#### Description:
+This component provides routing context.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.children` | `ReactNode` |
+| `children` | `Object` |
+| `children.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
+```jsx
+<SCRoutingContext.Provider value={contextValue}>{children}</SCRoutingContext.Provider>
+```
+
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:42](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L42)
+[components/provider/SCRoutingProvider/index.tsx:51](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L51)
 
 ___
 
@@ -68,4 +75,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCRoutingProvider/index.tsx:128](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L128)
+[components/provider/SCRoutingProvider/index.tsx:137](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCRoutingProvider/index.tsx#L137)

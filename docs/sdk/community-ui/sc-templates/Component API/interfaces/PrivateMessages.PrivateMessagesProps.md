@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx:52](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx#L52)
+[PrivateMessages/PrivateMessages.tsx:67](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/PrivateMessages/PrivateMessages.tsx#L67)
 
 ___
 
@@ -39,4 +39,4 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx:47](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/PrivateMessages/PrivateMessages.tsx#L47)
+[PrivateMessages/PrivateMessages.tsx:62](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/PrivateMessages/PrivateMessages.tsx#L62)

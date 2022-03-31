@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[NotificationFeed/NotificationFeed.tsx:59](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L59)
+[NotificationFeed/NotificationFeed.tsx:60](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L60)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[NotificationFeed/NotificationFeed.tsx:53](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L53)
+[NotificationFeed/NotificationFeed.tsx:54](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L54)
 
 ___
 
@@ -47,7 +47,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[NotificationFeed/NotificationFeed.tsx:41](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L41)
+[NotificationFeed/NotificationFeed.tsx:42](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L42)
 
 ___
 
@@ -61,7 +61,7 @@ Id of the feed object
 
 #### Defined in
 
-[NotificationFeed/NotificationFeed.tsx:35](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L35)
+[NotificationFeed/NotificationFeed.tsx:36](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L36)
 
 ___
 
@@ -75,4 +75,4 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[NotificationFeed/NotificationFeed.tsx:47](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L47)
+[NotificationFeed/NotificationFeed.tsx:48](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/NotificationFeed/NotificationFeed.tsx#L48)

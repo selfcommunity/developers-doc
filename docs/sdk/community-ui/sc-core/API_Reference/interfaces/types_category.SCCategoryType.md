@@ -20,7 +20,7 @@ The category status.
 
 #### Defined in
 
-[types/category.ts:61](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L61)
+[types/category.ts:61](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L61)
 
 ___
 
@@ -32,7 +32,7 @@ The category's auto follow behaviour.
 
 #### Defined in
 
-[types/category.ts:56](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L56)
+[types/category.ts:56](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L56)
 
 ___
 
@@ -44,7 +44,7 @@ The category status.
 
 #### Defined in
 
-[types/category.ts:66](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L66)
+[types/category.ts:66](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L66)
 
 ___
 
@@ -56,7 +56,7 @@ The landscape format image for category hub.
 
 #### Defined in
 
-[types/category.ts:96](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L96)
+[types/category.ts:96](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L96)
 
 ___
 
@@ -68,19 +68,19 @@ The css background-position.
 
 #### Defined in
 
-[types/category.ts:101](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L101)
+[types/category.ts:101](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L101)
 
 ___
 
-### followers\_count
+### followers\_counter
 
-• `Optional` **followers\_count**: `number`
+• `Optional` **followers\_counter**: `number`
 
 Followers counter for the category.
 
 #### Defined in
 
-[types/category.ts:120](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L120)
+[types/category.ts:120](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L120)
 
 ___
 
@@ -92,7 +92,7 @@ The category's html text.
 
 #### Defined in
 
-[types/category.ts:41](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L41)
+[types/category.ts:41](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L41)
 
 ___
 
@@ -104,7 +104,7 @@ The ID of the category.
 
 #### Defined in
 
-[types/category.ts:11](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L11)
+[types/category.ts:11](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L11)
 
 ___
 
@@ -116,7 +116,7 @@ The category's auto generated big size.
 
 #### Defined in
 
-[types/category.ts:81](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L81)
+[types/category.ts:81](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L81)
 
 ___
 
@@ -128,7 +128,7 @@ The category's auto generated bigger size.
 
 #### Defined in
 
-[types/category.ts:76](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L76)
+[types/category.ts:76](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L76)
 
 ___
 
@@ -140,7 +140,7 @@ The category's auto generated medium size.
 
 #### Defined in
 
-[types/category.ts:86](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L86)
+[types/category.ts:86](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L86)
 
 ___
 
@@ -152,7 +152,7 @@ The category's image with min size.
 
 #### Defined in
 
-[types/category.ts:71](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L71)
+[types/category.ts:71](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L71)
 
 ___
 
@@ -164,7 +164,7 @@ The category's auto generated small size.
 
 #### Defined in
 
-[types/category.ts:91](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L91)
+[types/category.ts:91](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L91)
 
 ___
 
@@ -176,7 +176,7 @@ The last modify (datetime)
 
 #### Defined in
 
-[types/category.ts:106](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L106)
+[types/category.ts:106](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L106)
 
 ___
 
@@ -188,7 +188,7 @@ The name of the category.
 
 #### Defined in
 
-[types/category.ts:21](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L21)
+[types/category.ts:21](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L21)
 
 ___
 
@@ -200,7 +200,7 @@ The synonyms/aliases of the category.
 
 #### Defined in
 
-[types/category.ts:26](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L26)
+[types/category.ts:26](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L26)
 
 ___
 
@@ -212,7 +212,7 @@ The manual ordering number of the category.
 
 #### Defined in
 
-[types/category.ts:16](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L16)
+[types/category.ts:16](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L16)
 
 ___
 
@@ -224,7 +224,7 @@ The description for category's html meta tag.
 
 #### Defined in
 
-[types/category.ts:51](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L51)
+[types/category.ts:51](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L51)
 
 ___
 
@@ -236,7 +236,7 @@ The category's html meta tag.
 
 #### Defined in
 
-[types/category.ts:46](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L46)
+[types/category.ts:46](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L46)
 
 ___
 
@@ -248,7 +248,7 @@ The slogan of the category.
 
 #### Defined in
 
-[types/category.ts:36](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L36)
+[types/category.ts:36](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L36)
 
 ___
 
@@ -260,7 +260,7 @@ The slug of the category.
 
 #### Defined in
 
-[types/category.ts:31](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L31)
+[types/category.ts:31](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L31)
 
 ___
 
@@ -272,7 +272,7 @@ The order of the category feed.
 
 #### Defined in
 
-[types/category.ts:111](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L111)
+[types/category.ts:111](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L111)
 
 ___
 
@@ -284,4 +284,4 @@ The category's tags.
 
 #### Defined in
 
-[types/category.ts:116](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/types/category.ts#L116)
+[types/category.ts:116](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/types/category.ts#L116)

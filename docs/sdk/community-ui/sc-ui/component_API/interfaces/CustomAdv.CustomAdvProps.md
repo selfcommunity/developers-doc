@@ -9,15 +9,15 @@ custom_edit_url: null
 
 ## Properties
 
-### categoryId
+### categoriesId
 
-• `Optional` **categoryId**: `number`
+• `Optional` **categoriesId**: `number`[]
 
-Category id if the adv must be related to a specific category
+Category ids if the adv must be related to specific categories
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:44](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L44)
+[sdk/community-ui/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:47](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L47)
 
 ___
 
@@ -31,7 +31,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L34)
+[sdk/community-ui/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:37](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L37)
 
 ___
 
@@ -45,7 +45,7 @@ Id of the feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:28](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L28)
+[sdk/community-ui/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:31](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L31)
 
 ___
 
@@ -57,4 +57,4 @@ Position of the ADV
 
 #### Defined in
 
-[packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:39](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L39)
+[sdk/community-ui/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx:42](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CustomAdv/CustomAdv.tsx#L42)

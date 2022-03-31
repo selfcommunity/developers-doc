@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[ExploreFeed/ExploreFeed.tsx:52](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L52)
+[ExploreFeed/ExploreFeed.tsx:54](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L54)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[ExploreFeed/ExploreFeed.tsx:58](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L58)
+[ExploreFeed/ExploreFeed.tsx:60](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L60)
 
 ___
 
@@ -47,7 +47,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[ExploreFeed/ExploreFeed.tsx:40](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L40)
+[ExploreFeed/ExploreFeed.tsx:42](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L42)
 
 ___
 
@@ -61,7 +61,7 @@ Id of the feed object
 
 #### Defined in
 
-[ExploreFeed/ExploreFeed.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L34)
+[ExploreFeed/ExploreFeed.tsx:36](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L36)
 
 ___
 
@@ -75,4 +75,4 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[ExploreFeed/ExploreFeed.tsx:46](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L46)
+[ExploreFeed/ExploreFeed.tsx:48](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/ExploreFeed/ExploreFeed.tsx#L48)

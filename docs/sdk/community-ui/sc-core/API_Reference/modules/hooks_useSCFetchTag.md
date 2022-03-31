@@ -10,18 +10,19 @@ custom_edit_url: null
 
 ### useSCFetchTag
 
-▸ **useSCFetchTag**(`__namedParameters`): `Object`
+▸ **useSCFetchTag**(`object`): `Object`
 
-Custom hook 'useSCFetchTag'
-Use this hook to fetch a tag object
+:::info
+This custom hook is used to fetch a tag object.
+:::
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.id?` | `number` |
-| `__namedParameters.tag?` | [`SCTagType`](../interfaces/types_tag.SCTagType.md) |
+| `object` | `Object` |
+| `object.id?` | `number` |
+| `object.tag?` | [`SCTagType`](../interfaces/types_tag.SCTagType.md) |
 
 #### Returns
 
@@ -29,9 +30,10 @@ Use this hook to fetch a tag object
 
 | Name | Type |
 | :------ | :------ |
+| `error` | `string` |
 | `scTag` | [`SCTagType`](../interfaces/types_tag.SCTagType.md) |
 | `setSCTag` | `Dispatch`<`SetStateAction`<[`SCTagType`](../interfaces/types_tag.SCTagType.md)\>\> |
 
 #### Defined in
 
-[hooks/useSCFetchTag.ts:15](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/hooks/useSCFetchTag.ts#L15)
+[hooks/useSCFetchTag.ts:17](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/hooks/useSCFetchTag.ts#L17)

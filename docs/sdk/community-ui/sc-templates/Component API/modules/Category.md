@@ -14,13 +14,13 @@ custom_edit_url: null
 
 ### Category
 
-▸ **Category**(`props`): `JSX.Element`
+▸ **Category**(`inProps`): `JSX.Element`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CategoryProps`](../interfaces/Category.CategoryProps.md) |
+| `inProps` | [`CategoryProps`](../interfaces/Category.CategoryProps.md) |
 
 #### Returns
 
@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[Category/Category.tsx:63](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/Category/Category.tsx#L63)
+[Category/Category.tsx:64](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/Category/Category.tsx#L64)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[Category/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/Category/Skeleton.tsx#L17)
+[Category/Skeleton.tsx:17](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/Category/Skeleton.tsx#L17)

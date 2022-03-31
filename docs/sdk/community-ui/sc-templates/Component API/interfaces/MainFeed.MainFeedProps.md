@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[MainFeed/MainFeed.tsx:52](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L52)
+[MainFeed/MainFeed.tsx:53](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L53)
 
 ___
 
@@ -33,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[MainFeed/MainFeed.tsx:58](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L58)
+[MainFeed/MainFeed.tsx:59](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L59)
 
 ___
 
@@ -47,7 +47,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[MainFeed/MainFeed.tsx:40](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L40)
+[MainFeed/MainFeed.tsx:41](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L41)
 
 ___
 
@@ -61,7 +61,7 @@ Id of the feed object
 
 #### Defined in
 
-[MainFeed/MainFeed.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L34)
+[MainFeed/MainFeed.tsx:35](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L35)
 
 ___
 
@@ -75,4 +75,4 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[MainFeed/MainFeed.tsx:46](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L46)
+[MainFeed/MainFeed.tsx:47](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/MainFeed/MainFeed.tsx#L47)

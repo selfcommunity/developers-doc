@@ -14,13 +14,40 @@ custom_edit_url: null
 
 ### Message
 
-▸ **Message**(`props`): `JSX.Element`
+▸ **Message**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Message component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {Message} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCMessage` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCMessage-root|Styles applied to the root element.|
+|selected|.SCMessage-selected|Styles applied to the selected element.|
+|info|.SCMessage-info|Styles applied to the info section.|
+|messageBox|.SCMessage-messageBox|Styles applied to the message box element.|
+|messageTime|.SCMessage-messageTime|Styles applied to the message time element.|
+|unread|.SCMessage-unread|Styles applied to the unread element.|
+|hide|.SCMessage-hide|Styles applied to the hidden element.|
+|img|.SCMessage-img|Styles applied to the img element.|
+|downloadButton|.SCMessage-downloadButton|Styles applied to the download button element.|
+|documentFile|.SCMessage-documentFile|Styles applied to the message file element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`MessageProps`](../interfaces/Message.MessageProps.md) |
+| `inProps` | [`MessageProps`](../interfaces/Message.MessageProps.md) |
 
 #### Returns
 
@@ -28,7 +55,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Message.tsx:116](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Message/Message.tsx#L116)
+[sdk/community-ui/packages/sc-ui/src/components/Message/Message.tsx:163](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Message/Message.tsx#L163)
 
 ___
 
@@ -48,4 +75,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Message/Skeleton.tsx:26](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Message/Skeleton.tsx#L26)
+[sdk/community-ui/packages/sc-ui/src/components/Message/Skeleton.tsx:25](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Message/Skeleton.tsx#L25)

@@ -29,31 +29,35 @@ Creates Preferences/Features Context
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:25](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L25)
+[components/provider/SCPreferencesProvider/index.tsx:25](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L25)
 
 ## Functions
 
 ### SCPreferencesProvider
 
-▸ **SCPreferencesProvider**(`__namedParameters`): `JSX.Element`
+▸ **SCPreferencesProvider**(`children`): `JSX.Element`
 
-SCPreferencesProvider
-This import all preferences and features enabled
+#### Description:
+This component imports all preferences and features enabled.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.children` | `ReactNode` |
+| `children` | `Object` |
+| `children.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
+ ```jsx
+ <SCPreferencesContext.Provider value={{preferences, features}}>{!loading && children}</SCPreferencesContext.Provider>
+ ```
+
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:31](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L31)
+[components/provider/SCPreferencesProvider/index.tsx:36](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L36)
 
 ___
 
@@ -70,4 +74,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCPreferencesProvider/index.tsx:65](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L65)
+[components/provider/SCPreferencesProvider/index.tsx:70](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCPreferencesProvider/index.tsx#L70)

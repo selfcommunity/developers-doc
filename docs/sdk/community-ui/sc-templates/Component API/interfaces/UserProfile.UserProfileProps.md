@@ -19,7 +19,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:54](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L54)
+[UserProfile/UserProfile.tsx:79](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L79)
 
 ___
 
@@ -33,7 +33,35 @@ Props to spread to single feed object
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:60](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L60)
+[UserProfile/UserProfile.tsx:85](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L85)
+
+___
+
+### UserProfileHeaderProps
+
+• `Optional` **UserProfileHeaderProps**: `UserProfileHeaderProps`
+
+Props to spread to UserProfileHeader component
+
+**`default`** {}
+
+#### Defined in
+
+[UserProfile/UserProfile.tsx:91](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L91)
+
+___
+
+### UserProfileInfoProps
+
+• `Optional` **UserProfileInfoProps**: `UserProfileInfoProps`
+
+Props to spread to UserProfileInfo component
+
+**`default`** {}
+
+#### Defined in
+
+[UserProfile/UserProfile.tsx:97](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L97)
 
 ___
 
@@ -47,7 +75,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:30](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L30)
+[UserProfile/UserProfile.tsx:55](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L55)
 
 ___
 
@@ -61,7 +89,7 @@ Id of the user profile
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:24](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L24)
+[UserProfile/UserProfile.tsx:49](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L49)
 
 ___
 
@@ -75,7 +103,7 @@ User Object
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:36](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L36)
+[UserProfile/UserProfile.tsx:61](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L61)
 
 ___
 
@@ -89,7 +117,7 @@ Id of the user for filter the feed
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:42](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L42)
+[UserProfile/UserProfile.tsx:67](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L67)
 
 ___
 
@@ -103,4 +131,28 @@ Widgets to be rendered into the feed
 
 #### Defined in
 
-[UserProfile/UserProfile.tsx:48](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L48)
+[UserProfile/UserProfile.tsx:73](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L73)
+
+## Methods
+
+### onEditClick
+
+▸ `Optional` **onEditClick**(`user`): `void`
+
+Click handler for edit button
+
+**`default`** null
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `user` | `SCUserType` |
+
+#### Returns
+
+`void`
+
+#### Defined in
+
+[UserProfile/UserProfile.tsx:103](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserProfile/UserProfile.tsx#L103)

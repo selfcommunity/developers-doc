@@ -14,13 +14,13 @@ custom_edit_url: null
 
 ### FeedObjectDetail
 
-▸ **FeedObjectDetail**(`props`): `JSX.Element`
+▸ **FeedObjectDetail**(`inProps`): `JSX.Element`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedObjectDetailProps`](../interfaces/FeedObjectDetail.FeedObjectDetailProps.md) |
+| `inProps` | [`FeedObjectDetailProps`](../interfaces/FeedObjectDetail.FeedObjectDetailProps.md) |
 
 #### Returns
 
@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:69](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L69)
+[FeedObjectDetail/FeedObjectDetail.tsx:85](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L85)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[FeedObjectDetail/Skeleton.tsx:16](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/Skeleton.tsx#L16)
+[FeedObjectDetail/Skeleton.tsx:16](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/Skeleton.tsx#L16)

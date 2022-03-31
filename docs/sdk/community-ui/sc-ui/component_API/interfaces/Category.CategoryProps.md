@@ -7,12 +7,6 @@ custom_edit_url: null
 
 [Category](../modules/Category.md).CategoryProps
 
-## Hierarchy
-
-- `Pick`<`CardProps`, `Exclude`<keyof `CardProps`, ``"id"``\>\>
-
-  ↳ **`CategoryProps`**
-
 ## Indexable
 
 ▪ [p: `string`]: `any`
@@ -31,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:56](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Category/Category.tsx#L56)
+[sdk/community-ui/packages/sc-ui/src/components/Category/Category.tsx:56](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Category/Category.tsx#L56)
 
 ___
 
@@ -45,7 +39,7 @@ Category Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:51](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Category/Category.tsx#L51)
+[sdk/community-ui/packages/sc-ui/src/components/Category/Category.tsx:51](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Category/Category.tsx#L51)
 
 ___
 
@@ -57,13 +51,23 @@ Overrides or extends the styles applied to the component.
 
 **`default`** null
 
-#### Overrides
+#### Defined in
 
-Pick.className
+[sdk/community-ui/packages/sc-ui/src/components/Category/Category.tsx:46](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Category/Category.tsx#L46)
+
+___
+
+### followCategoryButtonProps
+
+• `Optional` **followCategoryButtonProps**: [`FollowCategoryButtonProps`](FollowCategoryButton.FollowCategoryButtonProps.md)
+
+Props to spread to follow button
+
+**`default`** {}
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:46](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Category/Category.tsx#L46)
+[sdk/community-ui/packages/sc-ui/src/components/Category/Category.tsx:61](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Category/Category.tsx#L61)
 
 ___
 
@@ -77,36 +81,18 @@ Id of category object
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:41](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Category/Category.tsx#L41)
+[sdk/community-ui/packages/sc-ui/src/components/Category/Category.tsx:41](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Category/Category.tsx#L41)
 
 ___
 
-### popular
+### showFollowers
 
-• `Optional` **popular**: `boolean`
+• `Optional` **showFollowers**: `boolean`
 
-Renders different section for popular categories list
+Prop to show category followers as secondary text
 
-**`default`** false
-
-#### Defined in
-
-[packages/sc-ui/src/components/Category/Category.tsx:61](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Category/Category.tsx#L61)
-
-## Methods
-
-### onFollowProps
-
-▸ `Optional` **onFollowProps**(): `void`
-
-Callback function on follow action.
-
-**`default`** null
-
-#### Returns
-
-`void`
+**`default`** true
 
 #### Defined in
 
-[packages/sc-ui/src/components/Category/Category.tsx:66](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Category/Category.tsx#L66)
+[sdk/community-ui/packages/sc-ui/src/components/Category/Category.tsx:66](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Category/Category.tsx#L66)

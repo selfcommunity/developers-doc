@@ -14,13 +14,41 @@ custom_edit_url: null
 
 ### CommentsObject
 
-▸ **CommentsObject**(`props`): `JSX.Element`
+▸ **CommentsObject**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Comments Object component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {CommentsObject} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCCommentsObject` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCCommentsObject-root|Styles applied to the root element.|
+|fixedPrimaryReply|.SCCommentsObject-fixed-primary-reply|Styles applied to the comment primary reply element.|
+|fixedTopPrimaryReply|.SCCommentsObject-fixed-top-primary-reply|Styles applied to the comment top primary reply element.|
+|fixedBottomPrimaryReply|.SCCommentsObject-fixed-bottom-primary-reply|Styles applied to the comment bottom primary reply element.|
+|commentNotFound|.SCCommentsObject-comment-not-found|Styles applied to the label 'Comment not found'.|
+|noOtherComments|.SCCommentsObject-no-other-comments|Styles applied to the label 'No other comments'.|
+|loadMoreCommentsButton|.SCCommentsObject-load-more-comments-button|Styles applied to the load more button.|
+|paginationLink|.SCCommentsObject-pagination-link|Styles applied to the pagination link.|
+|paginationFooter|.SCCommentsObject-pagination-footer|Styles applied to the pagination footer.|
+|commentsCounter|.SCCommentsObject-comments-counter|Styles applied to the comments counter element.|
+|noComments|.SCCommentsObject-no-comments|Styles applied to the 'no comments' section.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`CommentsObjectProps`](../interfaces/CommentsObject.CommentsObjectProps.md) |
+| `inProps` | [`CommentsObjectProps`](../interfaces/CommentsObject.CommentsObjectProps.md) |
 
 #### Returns
 
@@ -28,7 +56,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:224](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L224)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:283](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L283)
 
 ___
 
@@ -48,4 +76,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:22](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L22)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx:23](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/Skeleton.tsx#L23)

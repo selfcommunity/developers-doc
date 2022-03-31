@@ -20,9 +20,21 @@ Re-exports [SCAuthTokenType](../interfaces/types_context.SCAuthTokenType.md)
 
 ___
 
-### SCCategoriesManagerType
+### SCBannerType
 
-Re-exports [SCCategoriesManagerType](../interfaces/types_context.SCCategoriesManagerType.md)
+Re-exports [SCBannerType](../interfaces/types_broadcastMessage.SCBannerType.md)
+
+___
+
+### SCBroadcastMessageBannerType
+
+Re-exports [SCBroadcastMessageBannerType](../enums/types_broadcastMessage.SCBroadcastMessageBannerType.md)
+
+___
+
+### SCBroadcastMessageType
+
+Re-exports [SCBroadcastMessageType](../interfaces/types_broadcastMessage.SCBroadcastMessageType.md)
 
 ___
 
@@ -146,6 +158,12 @@ Re-exports [SCFeedUnitType](../interfaces/types_feed.SCFeedUnitType.md)
 
 ___
 
+### SCFollowedCategoriesManagerType
+
+Re-exports [SCFollowedCategoriesManagerType](../interfaces/types_context.SCFollowedCategoriesManagerType.md)
+
+___
+
 ### SCFollowedManagerType
 
 Re-exports [SCFollowedManagerType](../interfaces/types_context.SCFollowedManagerType.md)
@@ -179,6 +197,12 @@ ___
 ### SCMediaType
 
 Re-exports [SCMediaType](../interfaces/types_media.SCMediaType.md)
+
+___
+
+### SCMessageFileType
+
+Re-exports [SCMessageFileType](../enums/types_privateMessage.SCMessageFileType.md)
 
 ___
 
@@ -326,6 +350,12 @@ Re-exports [SCPreferencesContextType](../interfaces/types_context.SCPreferencesC
 
 ___
 
+### SCPrivateMessageFileType
+
+Re-exports [SCPrivateMessageFileType](../interfaces/types_privateMessage.SCPrivateMessageFileType.md)
+
+___
+
 ### SCPrivateMessageStatusType
 
 Re-exports [SCPrivateMessageStatusType](../enums/types_privateMessage.SCPrivateMessageStatusType.md)
@@ -383,6 +413,24 @@ ___
 ### SCUserContextType
 
 Re-exports [SCUserContextType](../interfaces/types_context.SCUserContextType.md)
+
+___
+
+### SCUserFields
+
+Re-exports [SCUserFields](../enums/types_user.SCUserFields.md)
+
+___
+
+### SCUserSettingsType
+
+Re-exports [SCUserSettingsType](../interfaces/types_user.SCUserSettingsType.md)
+
+___
+
+### SCUserStatus
+
+Re-exports [SCUserStatus](../enums/types_user.SCUserStatus.md)
 
 ___
 

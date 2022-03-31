@@ -21,19 +21,37 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:81](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L81)
+[sdk/community-ui/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:88](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L88)
 
 ## Functions
 
 ### InlineComposer
 
-▸ **InlineComposer**(`props`): `JSX.Element`
+▸ **InlineComposer**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Inline Composer component. Learn about the available props and the CSS API.
+
+#### Import
+```jsx
+import {InlineComposer} from '@selfcommunity/ui';
+```
+#### Component Name
+The name `SCInlineComposer` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCInlineComposer-root|Styles applied to the root element.|
+|input|.SCInlineComposer-input|Styles applied to the input element.|
+|actions|.SCInlineComposer-actions|Styles applied to the actions section.|
+|avatar|.SCInlineComposer-avatar|Styles applied to the avatar element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | `OverrideProps`<`InlineComposerTypeMap`<{}, ``"div"``\>, ``"div"``\> |
+| `inProps` | `OverrideProps`<`InlineComposerTypeMap`<{}, ``"div"``\>, ``"div"``\> |
 
 #### Returns
 
@@ -41,7 +59,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:99](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L99)
+[sdk/community-ui/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx:127](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/InlineComposer/InlineComposer.tsx#L127)
 
 ___
 
@@ -55,4 +73,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/InlineComposer/Skeleton.tsx:33](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/InlineComposer/Skeleton.tsx#L33)
+[sdk/community-ui/packages/sc-ui/src/components/InlineComposer/Skeleton.tsx:36](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/InlineComposer/Skeleton.tsx#L36)

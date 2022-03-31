@@ -25,7 +25,7 @@ Category Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:42](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L42)
+[sdk/community-ui/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:47](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L47)
 
 ___
 
@@ -39,7 +39,7 @@ Id of the category
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:36](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L36)
+[sdk/community-ui/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:41](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L41)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:30](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L30)
+[sdk/community-ui/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:36](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L36)
 
 ## Methods
 
@@ -76,4 +76,4 @@ onFollow callback
 
 #### Defined in
 
-[packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:49](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L49)
+[sdk/community-ui/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx:54](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/FollowCategoryButton/FollowCategoryButton.tsx#L54)

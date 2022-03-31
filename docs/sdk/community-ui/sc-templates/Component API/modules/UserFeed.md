@@ -14,13 +14,13 @@ custom_edit_url: null
 
 ### UserFeed
 
-▸ **UserFeed**(`props`): `JSX.Element`
+▸ **UserFeed**(`inProps`): `JSX.Element`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserFeedProps`](../interfaces/UserFeed.UserFeedProps.md) |
+| `inProps` | [`UserFeedProps`](../interfaces/UserFeed.UserFeedProps.md) |
 
 #### Returns
 
@@ -28,7 +28,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[UserFeed/UserFeed.tsx:89](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L89)
+[UserFeed/UserFeed.tsx:100](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/UserFeed.tsx#L100)
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 #### Defined in
 
-[UserFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/UserFeed/Skeleton.tsx#L13)
+[UserFeed/Skeleton.tsx:13](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/UserFeed/Skeleton.tsx#L13)

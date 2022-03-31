@@ -21,11 +21,11 @@ Other props
 
 Props to spread to single comment object
 
-**`default`** {variant: 'outlined'}
+**`default`** {}
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:122](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L122)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:148](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L148)
 
 ___
 
@@ -39,7 +39,7 @@ Props to spread to single comment object skeleton
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:128](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L128)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:154](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L154)
 
 ___
 
@@ -49,11 +49,11 @@ ___
 
 Props to spread to single reply comment object
 
-**`default`** {variant: 'outlined'}
+**`default`** {}
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:134](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L134)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:160](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L160)
 
 ___
 
@@ -62,12 +62,14 @@ ___
 • `Optional` **additionalHeaderComments**: `SCCommentType`[]
 
 additional comments to show in the header
+usefull when from a feedObject publish a comment
+and this component show recent comments
 
 **`default`** []
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:201](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L201)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:229](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L229)
 
 ___
 
@@ -81,7 +83,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:86](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L86)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:112](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L112)
 
 ___
 
@@ -95,7 +97,7 @@ Comment object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:116](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L116)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:142](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L142)
 
 ___
 
@@ -109,7 +111,7 @@ Id of the comment object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:110](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L110)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:136](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L136)
 
 ___
 
@@ -123,21 +125,21 @@ number of box of skeleton loading to show during loading phase
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:195](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L195)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:221](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L221)
 
 ___
 
 ### commentsOrderBy
 
-• `Optional` **commentsOrderBy**: `CommentsOrderBy`
+• `Optional` **commentsOrderBy**: `SCCommentsOrderBy`
 
 comments orderBy
 
-**`default`** CommentsOrderBy.ADDED_AT_DESC
+**`default`** SCCommentsOrderBy.ADDED_AT_DESC
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:166](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L166)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:192](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L192)
 
 ___
 
@@ -151,7 +153,7 @@ comments per page
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:160](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L160)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:186](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L186)
 
 ___
 
@@ -165,7 +167,7 @@ Feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:98](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L98)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:124](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L124)
 
 ___
 
@@ -179,7 +181,7 @@ Id of feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:92](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L92)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:118](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L118)
 
 ___
 
@@ -193,7 +195,7 @@ Type of feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:104](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L104)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:130](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L130)
 
 ___
 
@@ -207,7 +209,7 @@ position the primary reply in the bottom of the component
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:189](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L189)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:215](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L215)
 
 ___
 
@@ -221,7 +223,7 @@ show/hide box advertising
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:214](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L214)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:242](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L242)
 
 ___
 
@@ -235,7 +237,7 @@ show/hide primary content reply box
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:183](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L183)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:209](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L209)
 
 ___
 
@@ -249,7 +251,7 @@ Id of the CommentsObject
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:80](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L80)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:106](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L106)
 
 ___
 
@@ -263,7 +265,7 @@ enable/disable infinite scrolling
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:177](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L177)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:203](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L203)
 
 ___
 
@@ -277,7 +279,7 @@ page
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:154](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L154)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:180](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L180)
 
 ___
 
@@ -289,7 +291,7 @@ show title (number of comments)
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:171](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L171)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:197](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L197)
 
 ## Methods
 
@@ -312,7 +314,7 @@ Usefull to sync location path for SEO optimization
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:208](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L208)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:236](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L236)
 
 ___
 
@@ -337,7 +339,7 @@ Usefull to override the single Comment
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:141](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L141)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:167](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L167)
 
 ___
 
@@ -356,4 +358,4 @@ invoked when no comments founds
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:148](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L148)
+[sdk/community-ui/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx:174](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentsObject/CommentsObject.tsx#L174)

@@ -14,13 +14,37 @@ custom_edit_url: null
 
 ### UserProfileHeader
 
-▸ **UserProfileHeader**(`props`): `JSX.Element`
+▸ **UserProfileHeader**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI User Profile Header component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {UserProfileHeader} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCUserProfileHeader` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCUserProfileHeader-root|Styles applied to the root element.|
+|cover|.SCUserProfileHeader-cover|Styles applied to the cover element.|
+|avatar|.SCUserProfileHeader-avatar|Styles applied to the avatar element.|
+|info|SCUserProfileHeader-info|Styles applied to the info element.|
+|username|SCUserProfileHeader-username|Styles applied to the username element.|
+|changePicture|.SCUserProfileHeader-change-picture|Styles applied to changePicture element.|
+|changeCover|.SCUserProfileHeader-change-cover`|Styles applied to changeCover element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`UserProfileHeaderProps`](../interfaces/UserProfileHeader.UserProfileHeaderProps.md) |
+| `inProps` | [`UserProfileHeaderProps`](../interfaces/UserProfileHeader.UserProfileHeaderProps.md) |
 
 #### Returns
 
@@ -28,7 +52,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:102](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L102)
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:139](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L139)
 
 ___
 
@@ -42,4 +66,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx#L34)
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/Skeleton.tsx#L35)

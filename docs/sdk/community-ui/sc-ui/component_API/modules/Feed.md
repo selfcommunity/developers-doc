@@ -11,27 +11,29 @@ custom_edit_url: null
 - [FeedProps](../interfaces/Feed.FeedProps.md)
 - [FeedSidebarProps](../interfaces/Feed.FeedSidebarProps.md)
 
-## Functions
+## Type aliases
 
-### Feed
+### FeedRef
 
-▸ **Feed**(`props`): `JSX.Element`
+Ƭ **FeedRef**: `Object`
 
-#### Parameters
+#### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedProps`](../interfaces/Feed.FeedProps.md) |
-
-#### Returns
-
-`JSX.Element`
+| `addFeedData` | (`obj`: `any`) => `void` |
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Feed.tsx:134](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Feed.tsx#L134)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Feed.tsx:71](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Feed.tsx#L71)
 
-___
+## Properties
+
+### default
+
+• **default**: `ForwardRefExoticComponent`<[`FeedProps`](../interfaces/Feed.FeedProps.md) & `RefAttributes`<[`FeedRef`](Feed.md#feedref)\>\>
+
+## Functions
 
 ### FeedSkeleton
 
@@ -49,4 +51,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Feed/Skeleton.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Feed/Skeleton.tsx#L34)
+[sdk/community-ui/packages/sc-ui/src/components/Feed/Skeleton.tsx:35](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Feed/Skeleton.tsx#L35)

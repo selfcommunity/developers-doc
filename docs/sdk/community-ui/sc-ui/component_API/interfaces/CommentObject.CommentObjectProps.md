@@ -25,7 +25,7 @@ Props to spread to single comment object skeleton
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:208](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L208)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:226](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L226)
 
 ___
 
@@ -39,7 +39,7 @@ Props to spread to single comment object ReplyCommentObject
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:214](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L214)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:232](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L232)
 
 ___
 
@@ -53,7 +53,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:135](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L135)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:153](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L153)
 
 ___
 
@@ -67,7 +67,7 @@ Comment object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:147](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L147)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:165](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L165)
 
 ___
 
@@ -81,7 +81,7 @@ Id of the comment object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:141](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L141)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:159](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L159)
 
 ___
 
@@ -90,27 +90,27 @@ ___
 • `Optional` **commentReply**: `SCCommentType`
 
 comment to reply
-Used to intial open reply box for that comment
+Used to initial open reply box for that comment
 
 **`default`** null
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:184](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L184)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:202](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L202)
 
 ___
 
 ### commentsOrderBy
 
-• `Optional` **commentsOrderBy**: `CommentsOrderBy`
+• `Optional` **commentsOrderBy**: `SCCommentsOrderBy`
 
 comments orderBy
 
-**`default`** CommentsOrderBy.ADDED_AT_DESC
+**`default`** SCCommentsOrderBy.ADDED_AT_DESC
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:177](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L177)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:195](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L195)
 
 ___
 
@@ -124,7 +124,7 @@ comments per page (latest_comments)
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:171](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L171)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:189](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L189)
 
 ___
 
@@ -138,7 +138,7 @@ Feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:159](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L159)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:177](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L177)
 
 ___
 
@@ -152,7 +152,7 @@ Id of feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:153](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L153)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:171](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L171)
 
 ___
 
@@ -166,7 +166,7 @@ Type of feed object
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:165](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L165)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:183](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L183)
 
 ## Methods
 
@@ -184,7 +184,7 @@ Callback on fecth latest comments
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:202](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L202)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:220](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L220)
 
 ___
 
@@ -208,7 +208,7 @@ Callback on open reply box
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:190](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L190)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:208](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L208)
 
 ___
 
@@ -232,4 +232,4 @@ Callback on vote the comment or a sub-comment (latest_comments)
 
 #### Defined in
 
-[packages/sc-ui/src/components/CommentObject/CommentObject.tsx:196](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L196)
+[sdk/community-ui/packages/sc-ui/src/components/CommentObject/CommentObject.tsx:214](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/CommentObject/CommentObject.tsx#L214)

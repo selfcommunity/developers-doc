@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:39](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Snippets/Snippets.tsx#L39)
+[sdk/community-ui/packages/sc-ui/src/components/Snippets/Snippets.tsx:47](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Snippets/Snippets.tsx#L47)
 
 ___
 
@@ -39,7 +39,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Snippets/Snippets.tsx#L34)
+[sdk/community-ui/packages/sc-ui/src/components/Snippets/Snippets.tsx:42](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Snippets/Snippets.tsx#L42)
 
 ___
 
@@ -47,9 +47,13 @@ ___
 
 • `Optional` **threadId**: `number`
 
+Clicked thread id
+
+**`default`** null
+
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:49](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Snippets/Snippets.tsx#L49)
+[sdk/community-ui/packages/sc-ui/src/components/Snippets/Snippets.tsx:61](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Snippets/Snippets.tsx#L61)
 
 ## Methods
 
@@ -71,4 +75,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Snippets/Snippets.tsx:48](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Snippets/Snippets.tsx#L48)
+[sdk/community-ui/packages/sc-ui/src/components/Snippets/Snippets.tsx:56](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Snippets/Snippets.tsx#L56)

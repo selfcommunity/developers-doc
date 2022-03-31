@@ -28,30 +28,35 @@ Creates Global Context
 
 #### Defined in
 
-[components/provider/SCAlertMessagesProvider/index.tsx:21](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCAlertMessagesProvider/index.tsx#L21)
+[components/provider/SCAlertMessagesProvider/index.tsx:21](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCAlertMessagesProvider/index.tsx#L21)
 
 ## Functions
 
 ### SCAlertMessagesProvider
 
-▸ **SCAlertMessagesProvider**(`__namedParameters`): `JSX.Element`
+▸ **SCAlertMessagesProvider**(`children`): `JSX.Element`
 
+#### Description:
 This component makes the `intl` available down the React tree.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `__namedParameters` | `Object` |
-| `__namedParameters.children` | `ReactNode` |
+| `children` | `Object` |
+| `children.children` | `ReactNode` |
 
 #### Returns
 
 `JSX.Element`
 
+```jsx
+<SCAlertMessagesContext.Provider value={{options}}>
+```
+
 #### Defined in
 
-[components/provider/SCAlertMessagesProvider/index.tsx:26](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCAlertMessagesProvider/index.tsx#L26)
+[components/provider/SCAlertMessagesProvider/index.tsx:32](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCAlertMessagesProvider/index.tsx#L32)
 
 ___
 
@@ -68,4 +73,4 @@ We only want to use the hook directly and never the context component.
 
 #### Defined in
 
-[components/provider/SCAlertMessagesProvider/index.tsx:40](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-core/src/components/provider/SCAlertMessagesProvider/index.tsx#L40)
+[components/provider/SCAlertMessagesProvider/index.tsx:46](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-core/src/components/provider/SCAlertMessagesProvider/index.tsx#L46)

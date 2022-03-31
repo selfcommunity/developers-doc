@@ -28,19 +28,44 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Skeleton.tsx:14](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Notification/Skeleton.tsx#L14)
+[sdk/community-ui/packages/sc-ui/src/components/Notification/Skeleton.tsx:18](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Notification/Skeleton.tsx#L18)
 
 ___
 
 ### UserNotification
 
-▸ **UserNotification**(`props`): `JSX.Element`
+▸ **UserNotification**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI UserNotification component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {UserNotification} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCUserNotification` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCUserNotification-root|Styles applied to the root element.|
+|notificationWrap|.SCUserNotification-notification-wrap|Styles applied to the element wrap.|
+|notificationHeader|.SCUserNotification-notification-wrap|Styles applied to the notification header.|
+|notificationUnCollapsed|.SCUserNotification-notification-wrap|Styles applied to the uncollapsed elements.|
+|notificationUnCollapsed|.SCUserNotification-notification-wrap|Styles applied to the collapsed elements.|
+|title|.SCUserNotification-title|Styles applied to the title element.|
+|stopNotificationButton|.SCUserNotification-stop-notification-button|Styles applied to the stop notification button.|
+|showOtherAggregated|.SCUserNotification-show-other-aggregated|Styles applied to the show other aggregated element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`NotificationProps`](../interfaces/Notification.NotificationProps.md) |
+| `inProps` | [`NotificationProps`](../interfaces/Notification.NotificationProps.md) |
 
 #### Returns
 
@@ -48,4 +73,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/Notification/Notification.tsx:131](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/Notification/Notification.tsx#L131)
+[sdk/community-ui/packages/sc-ui/src/components/Notification/Notification.tsx:170](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/Notification/Notification.tsx#L170)

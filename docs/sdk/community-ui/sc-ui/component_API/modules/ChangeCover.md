@@ -14,13 +14,32 @@ custom_edit_url: null
 
 ### ChangeCover
 
-▸ **ChangeCover**(`props`): `JSX.Element`
+▸ **ChangeCover**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Change Cover component. Learn about the available props and the CSS API.
+
+#### Import
+```jsx
+import {ChangeCover} from '@selfcommunity/ui';
+```
+
+#### Component Name
+The name `SCChangeCoverButton` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCChangeCoverButton-root|Styles applied to the root element.|
+|helpPopover|.SCChangeCoverButton-help-popover|Styles applied to the help popover element.|
+|addMenuItem|.SCChangeCoverButton-add-menuItem|Styles applied to the add menu element.|
+|delMenuItem|.SCChangeCoverButton-del-menuItem|Styles applied to the del menu element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`ChangeCoverProps`](../interfaces/ChangeCover.ChangeCoverProps.md) |
+| `inProps` | [`ChangeCoverProps`](../interfaces/ChangeCover.ChangeCoverProps.md) |
 
 #### Returns
 
@@ -28,4 +47,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:51](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L51)
+[sdk/community-ui/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx:76](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/ChangeCover/ChangeCover.tsx#L76)

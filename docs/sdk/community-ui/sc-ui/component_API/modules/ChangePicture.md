@@ -14,13 +14,31 @@ custom_edit_url: null
 
 ### ChangePicture
 
-▸ **ChangePicture**(`props`): `JSX.Element`
+▸ **ChangePicture**(`inProps`): `JSX.Element`
+
+> API documentation for the Community-UI Change Picture component. Learn about the available props and the CSS API.
+
+#### Import
+
+```jsx
+import {ChangePicture} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCChangePictureButton` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCChangePictureButton-root|Styles applied to the root element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`ChangePictureProps`](../interfaces/ChangePicture.ChangePictureProps.md) |
+| `inProps` | [`ChangePictureProps`](../interfaces/ChangePicture.ChangePictureProps.md) |
 
 #### Returns
 
@@ -28,4 +46,4 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:44](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L44)
+[sdk/community-ui/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx:71](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/ChangePicture/ChangePicture.tsx#L71)

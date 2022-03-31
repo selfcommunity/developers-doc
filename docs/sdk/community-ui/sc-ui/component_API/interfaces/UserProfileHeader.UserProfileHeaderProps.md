@@ -25,7 +25,7 @@ Props to spread change cover button
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:95](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L95)
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:103](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L103)
 
 ___
 
@@ -39,7 +39,35 @@ Props to spread change picture button
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:89](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L89)
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:97](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L97)
+
+___
+
+### className
+
+• `Optional` **className**: `string`
+
+Overrides or extends the styles applied to the component.
+
+**`default`** null
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:80](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L80)
+
+___
+
+### id
+
+• `Optional` **id**: `string`
+
+Id of user object
+
+**`default`** null
+
+#### Defined in
+
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:75](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L75)
 
 ___
 
@@ -53,7 +81,7 @@ User Object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:83](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L83)
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:91](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L91)
 
 ___
 
@@ -67,4 +95,4 @@ Id of user object
 
 #### Defined in
 
-[packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:77](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L77)
+[sdk/community-ui/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx:85](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/UserProfileHeader/UserProfileHeader.tsx#L85)

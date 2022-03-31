@@ -14,15 +14,33 @@ custom_edit_url: null
 
 ### FeedUpdates
 
-▸ **FeedUpdates**(`props`): `JSX.Element`
+▸ **FeedUpdates**(`inProps`): `JSX.Element`
 
-This Component subscribe to updates from PubSub channel (eg. websocket) and tell the feed to updates if necessary
+> API documentation for the Community-UI FeedUpdates component. Learn about the available props and the CSS API.
+This Component subscribe to updates from PubSub channel (eg. websocket) and tell the feed to updates if necessary.
+
+#### Import
+
+```jsx
+import {FeedUpdates} from '@selfcommunity/ui';
+```
+
+#### Component Name
+
+The name `SCFeedUpdates` can be used when providing style overrides in the theme.
+
+#### CSS
+
+|Rule Name|Global class|Description|
+|---|---|---|
+|root|.SCFeedUpdates-root|Styles applied to the root element.|
+|image|.SCFeedUpdates-image|Styles applied to the image element.|
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `props` | [`FeedUpdatesProps`](../interfaces/FeedUpdates.FeedUpdatesProps.md) |
+| `inProps` | [`FeedUpdatesProps`](../interfaces/FeedUpdates.FeedUpdatesProps.md) |
 
 #### Returns
 
@@ -30,7 +48,7 @@ This Component subscribe to updates from PubSub channel (eg. websocket) and tell
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:66](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L66)
+[sdk/community-ui/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx:94](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/FeedUpdates/FeedUpdates.tsx#L94)
 
 ___
 
@@ -50,4 +68,4 @@ ___
 
 #### Defined in
 
-[packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx:19](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx#L19)
+[sdk/community-ui/packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx:14](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/FeedUpdates/Skeleton.tsx#L14)

@@ -9,6 +9,20 @@ custom_edit_url: null
 
 ## Properties
 
+### CommentsObjectProps
+
+• `Optional` **CommentsObjectProps**: `CommentsObjectProps`
+
+Props to spread to CommentsObject
+
+**`default`** empty object
+
+#### Defined in
+
+[FeedObjectDetail/FeedObjectDetail.tsx:80](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L80)
+
+___
+
 ### FeedObjectProps
 
 • `Optional` **FeedObjectProps**: `FeedObjectProps`
@@ -19,7 +33,7 @@ Props to spread to single feed object
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:64](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L64)
+[FeedObjectDetail/FeedObjectDetail.tsx:74](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L74)
 
 ___
 
@@ -33,7 +47,7 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:40](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L40)
+[FeedObjectDetail/FeedObjectDetail.tsx:50](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L50)
 
 ___
 
@@ -47,7 +61,7 @@ Feed object
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:52](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L52)
+[FeedObjectDetail/FeedObjectDetail.tsx:62](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L62)
 
 ___
 
@@ -61,7 +75,7 @@ Id of feed object
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:46](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L46)
+[FeedObjectDetail/FeedObjectDetail.tsx:56](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L56)
 
 ___
 
@@ -75,7 +89,7 @@ Type of feed object
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:58](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L58)
+[FeedObjectDetail/FeedObjectDetail.tsx:68](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L68)
 
 ___
 
@@ -89,4 +103,4 @@ Id of the feed object
 
 #### Defined in
 
-[FeedObjectDetail/FeedObjectDetail.tsx:34](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L34)
+[FeedObjectDetail/FeedObjectDetail.tsx:44](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-templates/src/components/FeedObjectDetail/FeedObjectDetail.tsx#L44)

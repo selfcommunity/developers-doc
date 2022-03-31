@@ -25,7 +25,7 @@ Hides this component
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:45](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L45)
+[sdk/community-ui/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:59](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L59)
 
 ___
 
@@ -39,7 +39,7 @@ Id of category
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:35](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L35)
+[sdk/community-ui/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:49](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L49)
 
 ___
 
@@ -53,13 +53,13 @@ Overrides or extends the styles applied to the component.
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:30](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L30)
+[sdk/community-ui/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:44](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L44)
 
 ___
 
 ### template
 
-• `Optional` **template**: `FeedObjectTemplateType`
+• `Optional` **template**: `SCFeedObjectTemplateType`
 
 Feed Object template type
 
@@ -67,4 +67,4 @@ Feed Object template type
 
 #### Defined in
 
-[packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:40](https://github.com/selfcommunity/community-ui/blob/67100aa/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L40)
+[sdk/community-ui/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx:54](https://github.com/selfcommunity/community-ui/blob/a7bfc2b/packages/sc-ui/src/components/TrendingFeed/TrendingFeed.tsx#L54)
