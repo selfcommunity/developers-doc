@@ -42,7 +42,8 @@ jobs:
         run: |
           git config --global user.email "fede.torre@gmail.com"
           git config --global user.name "fedetorre"
-          git submodule update --remote --merge
+          rm -rf sdk/community-ui/
+          git submodule update
           git add sdk/community-ui/
           git add package.json
           git commit -m 'update package.json and gitlink to community-ui'
