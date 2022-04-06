@@ -21,6 +21,8 @@ This endpoint retrieves the best users insights list.
 |created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value).|
 |created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value).|
 |ranked_by|path|string|false| The rank value to use: num_posts, num_comments, num_answers_received, num_comments_received, num_votes, num_votes_received, num_connections, num_followings, num_followers, num_shares, num_posts_visits, num_embed_custom_click_received (default: rank function). If a list (eg: num_comments, num_answers_received) the final rank will be the sum of the list components.|
+|embed_id|path|string|false|The embed id (required in combo with embed_type).|
+|embed_type|path|string|false|The embed type (required in combo with embed_id).|
 
 ### Example Request
 
