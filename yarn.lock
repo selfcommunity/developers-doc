@@ -3827,38 +3827,38 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/core@^0.1.0-alpha.54":
-  version "0.1.0-alpha.54"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.54.tgz#9c6744b1eb860087fdd326646351ed1b90ba8f1c"
-  integrity sha512-GpQ4ohvOGQ7lmmj2VW6odL3Ta2vSUp5SIgyeuv30uAdq3k2AwrpheHyhmkuSIB6KvmRp1RpURly1uARdvQiErw==
+"@selfcommunity/core@^0.1.0-alpha.56":
+  version "0.1.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.56.tgz#bd0efe7a6910b94d618f937e66e47a5effd170fa"
+  integrity sha512-x1wro2ZXYyIBQyX0wwO/sI9ndZBkfF/moPuuhl+Hw/nmfpWMesHmHHcQR12fPo3OXwcIrZwV7fX5iQHxnMrGMQ==
   dependencies:
-    "@selfcommunity/i18n" "^0.1.0-alpha.54"
+    "@selfcommunity/i18n" "^0.1.0-alpha.56"
     axios "^0.23.0"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.54":
-  version "0.1.0-alpha.54"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.54.tgz#d50bb42a31b916f41c70d9a75e7309c067e2905e"
-  integrity sha512-M+pSwnSSe72JVzDBTVySwspcxL/4UBZ0WW/I5tacEj73s4SF0RHfSnOum0c+hyp6k2/nVfIlIVPPrIfRiBfiHA==
+"@selfcommunity/i18n@^0.1.0-alpha.56":
+  version "0.1.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.56.tgz#f53d3ce7b865bfa36cf054db5038f34d5df2d398"
+  integrity sha512-yJkiyWuC3arPA1LCOgJrzbJp4s7kkbdCuE2WieGtJ1U6gDuZinWcVB7MyQizUuWYJXnfZGY4RBcmCeodrAQxLA==
 
-"@selfcommunity/templates@^0.0.1-alpha.54":
-  version "0.0.1-alpha.54"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.54.tgz#cbcbad49237e5375e2466b3cb63b6b36204a8051"
-  integrity sha512-2BJayEZiNcDPlutPMYwPM8Xflzxi5rFj4urZqgRf1IjBmo4McYcJA7bpjK0gzL8tCD+CzXEgVB7VF2Ip9Qrs2A==
+"@selfcommunity/templates@^0.0.1-alpha.56":
+  version "0.0.1-alpha.56"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.56.tgz#5892da3089d22767a6c16cc60286cf28fe514ca9"
+  integrity sha512-+lqmEBhSK934F3JcmpRn9THn3Ey4s7W0dVz6L/pT2UUXqDx1R8embysFCUhmOmDACx2MSAOZrjOUyGDPeVYVuA==
   dependencies:
-    "@selfcommunity/core" "^0.1.0-alpha.54"
-    "@selfcommunity/i18n" "^0.1.0-alpha.54"
-    "@selfcommunity/ui" "^0.1.0-alpha.54"
+    "@selfcommunity/core" "^0.1.0-alpha.56"
+    "@selfcommunity/i18n" "^0.1.0-alpha.56"
+    "@selfcommunity/ui" "^0.1.0-alpha.56"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.54":
-  version "0.1.0-alpha.54"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.54.tgz#451b53682c01df2c35ca247482605f7f4e30cc6b"
-  integrity sha512-MpLtdQ0XQolCT3K9RRy0Wqv8in3mP872tvLpdRTL2t24uptnw5rbLFtXIbiMLNept4QtDzJ4e7d5UHsjIJQqmw==
+"@selfcommunity/ui@^0.1.0-alpha.56":
+  version "0.1.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.56.tgz#7efbe418486d564931a42a47a1063a213d3b759d"
+  integrity sha512-79KV5RffIEkwsq2p331J+rpWx8OQ0soMDLquXL/qNpERTFmFq3/53DNtGBU+Jk1POSiIKGSnJamU6Nn9uU7t9g==
   dependencies:
     "@mui/lab" "~5.0.0-alpha.68"
     "@rpldy/chunked-sender" "^0.18.0"
@@ -3867,8 +3867,8 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/core" "^0.1.0-alpha.54"
-    "@selfcommunity/i18n" "^0.1.0-alpha.54"
+    "@selfcommunity/core" "^0.1.0-alpha.56"
+    "@selfcommunity/i18n" "^0.1.0-alpha.56"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -3884,6 +3884,7 @@
     react-infinite-scroll-component "^6.1.0"
     react-lazyload "^3.2.0"
     react-player "^2.9.0"
+    react-share "^4.4.0"
     react-sortablejs "^6.0.0"
     react-stickynode "^4.0.0"
     react-timeago "^5.2.0"
@@ -5663,7 +5664,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@*, classnames@2.3.1, classnames@^2.0.0, classnames@^2.2.6:
+classnames@*, classnames@2.3.1, classnames@^2.0.0, classnames@^2.2.5, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -6373,7 +6374,7 @@ date-fns@^2.26.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
-debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0:
+debug@2.6.9, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
@@ -8879,6 +8880,13 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonp@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/jsonp/-/jsonp-0.2.1.tgz#a65b4fa0f10bda719a05441ea7b94c55f3e15bae"
+  integrity sha1-pltPoPEL2nGaBUQep7lMVfPhW64=
+  dependencies:
+    debug "^2.1.3"
+
 jss-plugin-camel-case@^10.8.2:
   version "10.9.0"
   resolved "https://registry.yarnpkg.com/jss-plugin-camel-case/-/jss-plugin-camel-case-10.9.0.tgz#4921b568b38d893f39736ee8c4c5f1c64670aaf7"
@@ -11237,6 +11245,14 @@ react-router@5.2.1, react-router@^5.2.0:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
+
+react-share@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/react-share/-/react-share-4.4.0.tgz#cabbf2111d7a907a888ab4d89d08410329efd5ee"
+  integrity sha512-POe8Ge/JT9Ew9iyW7CiYsCCWCb8uMJWqFl9S7W0fJ/oH5gBJNzukH0bL5vSr17KKG5h15d3GfKaoviI22BKeYA==
+  dependencies:
+    classnames "^2.2.5"
+    jsonp "^0.2.1"
 
 react-singleton-hook@^3.2.3:
   version "3.2.3"

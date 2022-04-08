@@ -6,7 +6,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const Category = require('@selfcommunity/ui').Category;
-                return <Category id={3}/>;
+                return <Category categoryId={3}/>;
             }}
         </BrowserOnly>
     );
