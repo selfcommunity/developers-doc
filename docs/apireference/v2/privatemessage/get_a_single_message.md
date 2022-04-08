@@ -78,7 +78,7 @@ curl -X GET /api/v2/pm/{id}/ \
 ```json
 {
     "id": 1,
-    "sender_id": 170,
+    "sender": "object",
     "message": "string",
     "created_at": "2021-12-27T11:10:27.729971+01:00",
     "status": "string",

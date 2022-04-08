@@ -105,21 +105,19 @@ Status Code **200**
   "results": [ 
     {
       "id": 0,
-      "headline": "string",
+      "message": "string",
       "sender": "object",
       "receiver": "object",
       "created_at": "2019-08-24T14:15:22Z",
-      "last_message_at": "2019-08-24T14:15:22Z",
-      "thread_status": "string"
+      "status": "string"
     },
     {
       "id": 0,
-      "headline": "string",
+      "message": "string",
       "sender": "object",
       "receiver": "object",
       "created_at": "2019-08-24T14:15:22Z",
-      "last_message_at": "2019-08-24T14:15:22Z",
-      "thread_status": "string"
+      "status": "string"
     }    
   ]
 }

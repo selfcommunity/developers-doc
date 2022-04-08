@@ -8,7 +8,7 @@ title: Private Message
 
 {
   "id": 0,
-  "sender_id": 0,
+  "sender": "object",
   "message": "string",
   "created_at": "2021-11-19T17:12:31.320062+01:00",
   "status": "string",
@@ -21,8 +21,8 @@ title: Private Message
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|id|integer|false|read-only|Unique integer value identifying this private message|
-|sender_id|integer|false|read-only|The id of the user who sent the message|
+|id|integer|false|read-only|Unique integer value identifying the private message|
+|sender|[User](/docs/apireference/v2/schemas/user)|false|read-only|The sender/creator of the message|
 |message|string|true|none|Text message|
 |created_at|string(date-time)|false|read-only|Send date time|
 |status|string|true|none|Message status: created, deleted or hidden message|
