@@ -7,7 +7,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const User = require('@selfcommunity/ui').User;
-                return <User userId={18}/>;
+                return <div style={{width: '400px'}}><User userId={18}/></div>;
             }}
         </BrowserOnly>
     );

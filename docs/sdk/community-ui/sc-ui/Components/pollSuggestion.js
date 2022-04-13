@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const Notification = require('@selfcommunity/ui').Notification;
-                return <Notification/>;
+                const PollSuggestion = require('@selfcommunity/ui').PollSuggestion;
+                return <PollSuggestion/>;
             }}
         </BrowserOnly>
     );

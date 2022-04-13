@@ -1,5 +1,6 @@
 import React from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import {LoyaltyProgram} from "@selfcommunity/ui";
 
 
 export default function App () {
@@ -7,7 +8,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const LoyaltyProgram = require('@selfcommunity/ui').LoyaltyProgram;
-                return <LoyaltyProgram/>;
+                return <div style={{width: '500px'}}><LoyaltyProgram/></div>;
             }}
         </BrowserOnly>
     );
