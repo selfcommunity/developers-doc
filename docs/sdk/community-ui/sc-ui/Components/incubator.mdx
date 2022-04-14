@@ -1,22 +1,24 @@
 ---
-sidebar_label: Snippet Notifications
+sidebar_label: Incubator
 sidebar_position: 1
-title: Snippet Notifications
+title: Incubator
 ---
 
-> The Snippet Notifications component renders snippet notifications.
+> The Incubator component renders an incubator item containing incubator's title, info, a subscription status bar and a subscribe button,
+that allows users to subscribe/unsubscribe to an incubator.
 
-import SnippetNotifications from './snippetNotifications.js';
+import Incubator from './incubator.js';
 import Logged from "../../Logged";
 
-<Logged><SnippetNotifications/></Logged>
+<Logged><Incubator/></Logged>
+
 
 #### Usage
 
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/core';
- import {SnippetNotifications} from '@selfcommunity/ui';
+ import {Incubator} from '@selfcommunity/ui';
 
  function App() {
    const conf = {
@@ -29,7 +31,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><SnippetNotifications /></SCContextProvider>
+     <SCContextProvider conf={conf}><Incubator /></SCContextProvider>
    );
  }
 ```

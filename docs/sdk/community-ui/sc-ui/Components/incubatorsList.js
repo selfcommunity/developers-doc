@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const RelatedDiscussion = require('@selfcommunity/ui').RelatedDiscussion;
-                return <RelatedDiscussion/>;
+                const IncubatorsList = require('@selfcommunity/ui').IncubatorsList;
+                return <IncubatorsList incubatorId={1}/>;
             }}
         </BrowserOnly>
     );

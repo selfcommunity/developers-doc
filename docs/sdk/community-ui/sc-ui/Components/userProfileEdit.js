@@ -6,7 +6,19 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const UserProfileEdit = require('@selfcommunity/ui').UserProfileEdit;
-                return <UserProfileEdit userId={18}/>;
+                const SCUserFields = require ('@selfcommunity/core').SCUserFields;
+                const fields = [
+                    SCUserFields.USERNAME,
+                    SCUserFields.REAL_NAME,
+                    SCUserFields.DATE_JOINED,
+                    SCUserFields.DATE_OF_BIRTH,
+                    SCUserFields.DESCRIPTION,
+                    SCUserFields.WEBSITE,
+                    SCUserFields.BIO,
+                    SCUserFields.LOCATION,
+                    SCUserFields.GENDER
+                ];
+                return <UserProfileEdit userId={18} fields={fields}/>;
             }}
         </BrowserOnly>
     );

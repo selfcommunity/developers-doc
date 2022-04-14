@@ -4,7 +4,10 @@ sidebar_position: 1
 title: Trending Feed
 ---
 
-> The Trending Feed component renders a list of trending posts, discussions, statuses.
+> The Trending Feed component renders a list of trending posts, discussions, statuses.<br/>
+This list is composed of feed object items containing the avatar and username of the author, the item content, the date of creation of the same
+and a "comment" button that allows users to browse to the post, discussion or status extended version.<br/>
+The feed objects are shown in an orderly manner: few items are shown in the main card while the others can be displayed in a modal card by clicking on the "show more" button.
 
 import TrendingFeed from './trendingFeed.js';
 import Logged from "../../Logged";

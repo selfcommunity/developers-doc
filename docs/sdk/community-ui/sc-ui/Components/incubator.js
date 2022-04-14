@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const ToastNotifications = require('@selfcommunity/ui').ToastNotifications;
-                return <ToastNotifications/>;
+                const Incubator = require('@selfcommunity/ui').Incubator;
+                return <Incubator incubatorId={1}/>;
             }}
         </BrowserOnly>
     );

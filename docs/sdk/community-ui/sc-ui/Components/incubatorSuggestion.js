@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const LoyaltyProgram = require('@selfcommunity/ui').LoyaltyProgram;
-                return <LoyaltyProgram />;
+                const IncubatorSuggestion = require('@selfcommunity/ui').IncubatorSuggestion;
+                return <IncubatorSuggestion/>;
             }}
         </BrowserOnly>
     );
