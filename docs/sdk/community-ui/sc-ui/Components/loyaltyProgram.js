@@ -8,7 +8,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const LoyaltyProgram = require('@selfcommunity/ui').LoyaltyProgram;
-                return <div style={{width: '500px'}}><LoyaltyProgram/></div>;
+                return <LoyaltyProgram/>;
             }}
         </BrowserOnly>
     );
