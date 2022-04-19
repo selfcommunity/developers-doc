@@ -19,9 +19,10 @@ This operation does not require authentication, if the request is made by an aut
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this media.|
+| Name | In   |Type| Required | Description                                                                            |
+|------|---|---|----------|----------------------------------------------------------------------------------------|
+| id   | path |string| true     | A unique integer value identifying this media.                                         |
+| ip   | body |string| false    | The ip of the client, if not passed it will be extracted server side from the request. |
 
 ### Example Request
 
