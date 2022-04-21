@@ -4,6 +4,7 @@ sidebar_position: 1
 title: How it works
 ---
 
+Test
 The mentions mechanism is used to allow users to mention some other users within the content they write (posts, discussions, status, comments, etc.). The presence of a mention within a contribution causes a `notification` to be sent to the mentioned user.
 
 #### When creating or editing a contribution
