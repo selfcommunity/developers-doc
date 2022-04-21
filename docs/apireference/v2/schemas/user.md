@@ -106,3 +106,10 @@ title: User
 |connection_status|connected|This user is connected (friend)|
 |connection_status|sent_connection_request|Connection (friendship) request sent to this user|
 |connection_status|received_connection_request|Connection (friendship) request received from this user|
+
+:::info
+
+It is possible to define additional custom fields for the user, which can be used in the update phase (not in the creation of a user). For further information on how these custom fields (user's metadata) work, refer to the following guide
+[User's custom fields (metadata)](/docs/apireference/v2/usermetadata/usermetadata)
+
+:::
