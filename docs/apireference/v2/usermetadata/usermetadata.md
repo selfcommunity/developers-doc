@@ -4,34 +4,68 @@ sidebar_position: 1
 title: How it works
 ---
 
-Test
-The mentions mechanism is used to allow users to mention some other users within the content they write (posts, discussions, status, comments, etc.). The presence of a mention within a contribution causes a `notification` to be sent to the mentioned user.
+It is possible to add custom fields to the predefined user's fields set. 
 
-#### When creating or editing a contribution
-To mention another user, one or more usernames preceded by the special character @ must be present in the text field when creating or updating a contribution, for example:
+This can be useful for adding data to the user and thus saving custom information that are not part of the basic information provided by Selfcommunity.
 
-`
+#### Step. 1 - Define the structure of the additional custom fields
+
+Before you can start adding custom data to the user, it is necessary to define the structure of the additional custom fields. 
+An example of a structure can be the following:
+
+````mdx-code-block
+
+```json
 {
-  "post": 20, 
-  "text": "This is a comment with some mentions to notify @username1 and @username2"
+    "company_name": {
+        "label": "Company name",
+        "mandatory": True
+    },
+    "company_website": {
+        "label": "Company website",
+        "type": "url"
+    },
+    "company_google_maps": {
+        "label": "Company Google Maps position url",
+        "type": "url"
+    },
+    "company_role": {
+        "label": "Role in the company",
+        "type": "enum",
+        "type_options": [
+            "Chief Executive Officer (CEO)",
+            "Chief Operating Officer (COO)",
+            "Chief Financial Officer (CFO) or Controller",
+            "Chief Marketing Officer (CMO)",
+            "Chief Technology Officer (CTO)",
+            "President",
+            "Vice President",
+            "Executive Assistant",
+            "Marketing manager",
+            "Product manager",
+            "Project manager",
+            "Finance manager",
+            "Human resources manager",
+            "Marketing specialist",
+            "Business analyst",
+            "Human resource personnel",
+            "Accountant",
+            "Sales representative",
+            "Customer service representative",
+            "Administrative assistant",
+            "Employee",
+            "Consultant"
+        ]
+    },
+    "phone_number": {
+        "label": "Telephone",
+        "type": "phone_number"
+    }
 }
-`
+```
 
-:::info
-Note that usernames may need to be auto-completed searchable in the contribution creation or editing interface (starting typing after the @ special character).
-:::
+</TabItem>
+</Tabs>
+````
 
-#### While reading a contribution
-Retrieving a contribution that contains a mention to one or more users you will find in the text field one or more html tags that indicate the position and details (user ids) of the mention and which must be made as links pointing to the user profiles mentioned, to example:
-
-`
-{
-    "html": "This is a comment with some mentions to notify <mention extid=\"301\" id=\"15\">@username1</mention> and <mention extid=\"302\" id=\"16\">@username2</mention>",
-    "summary": "This is a comment with some mentions to notify @username1 and @username2"
-}
-`
-
-
-:::info
-Note that the summary field also contains information about the mention.
-:::
+From the example it is possible to notice that to define the fields it is necessary to choose the type of field among those available.
