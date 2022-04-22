@@ -8,7 +8,7 @@ It is possible to add custom fields to the predefined user's fields set.
 
 This can be useful for adding data to the user and thus saving custom information that are not part of the basic information provided by Selfcommunity.
 
-#### Step. 1 - Define the structure of the additional custom fields
+#### Define the structure of the additional custom fields
 
 Before you can start adding custom data to the user, it is necessary to define the structure of the additional custom fields. 
 An example of a structure can be the following:
@@ -68,4 +68,34 @@ An example of a structure can be the following:
 </Tabs>
 ````
 
-From the example it is possible to notice that to define the fields it is necessary to choose the type of field among those available.
+Starting from this example it is possible to notice that to define the fields it is necessary to choose a field name (the key of the json dictionary)
+and the type of field among those available:
+
+#### Types available
+
+| Type         | Description                                                                                     |
+|--------------|-------------------------------------------------------------------------------------------------|
+| string       | A string (this is the default value for type and can be omitted in the metadata json definition |
+| integer      | An integer                                                                                      |
+| phone_number | A phone number (eg: +39 376349****)                                                             |
+| enum         | An enumeration, it also needs a list of available options to be defined using "type_options".   |
+| url          | An URL                                                                                          |
+| email        | An email                                                                                        | 
+
+To define custom fields it is also possible to define a field label.
+
+#### Update the user passing custom fileds
+
+After defining the custom fields for the user you can finally pass them in the user PATCH 
+
+[Patch a specific User](/docs/apireference/v2/user/patch_a_specific_user)
+
+as if they were standard user fields.
+
+#### Retrieve the user with custom fields
+
+Now retrieving a user will resturn also the custom fields  
+
+[get a specific User](/docs/apireference/v2/user/get_a_specific_user)
+
+as if they were standard user fields.
