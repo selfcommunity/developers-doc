@@ -91,6 +91,7 @@ Status Code **200**
         "id": 48343,
         "type": "post",
         "last_activity_at": "2021-03-19T16:38:53.503858+01:00",
+        "last_edited_at": null,
         "author": {
             "id": 135,
             "username": "string",

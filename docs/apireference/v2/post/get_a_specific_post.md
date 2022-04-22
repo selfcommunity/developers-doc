@@ -156,6 +156,7 @@ curl -X GET /api/v2/post/{id}/ \
     ]
   },
   "last_activity_at": "2019-08-24T14:15:22Z",
+  "last_edited_at": null,
   "author": {
     "id": 0,
     "username": "string",
@@ -181,7 +182,7 @@ curl -X GET /api/v2/post/{id}/ \
     "statuses_counter": 0,
     "polls_counter": 0
   },
-  "added_at": "2019-08-24T14:15:22Z",
+  "added_at": "2019-08-24T14:15:22Z",  
   "html": "string",
   "summary": "string",
   "deleted": true,

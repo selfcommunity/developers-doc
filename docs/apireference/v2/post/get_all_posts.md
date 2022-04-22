@@ -175,6 +175,7 @@ Status Code **200**
         ]
       },
       "last_activity_at": "2019-08-24T14:15:22Z",
+      "last_edited_at": null,
       "author": {
         "id": 0,
         "username": "string",
@@ -200,7 +201,7 @@ Status Code **200**
         "statuses_counter": 0,
         "polls_counter": 0
       },
-      "added_at": "2019-08-24T14:15:22Z",
+      "added_at": "2019-08-24T14:15:22Z",      
       "html": "string",
       "summary": "string",
       "deleted": true,

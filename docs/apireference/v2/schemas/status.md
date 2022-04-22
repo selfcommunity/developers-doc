@@ -61,6 +61,7 @@ title: Status
     "lng": 0
   },
   "last_activity_at": "2019-08-24T14:15:22Z",
+  "last_edited_at": null,
   "author": {
     "id": 0,
     "username": "string",

@@ -64,6 +64,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-05-28T02:41:00+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 92,
                 "username": "string",

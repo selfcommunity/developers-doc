@@ -72,6 +72,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-06-07T12:30:44.509122+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 1,
                 "username": "string",
@@ -179,6 +180,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-06-07T12:24:23.830573+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 1,
                 "username": "string",
@@ -319,6 +321,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-06-07T12:39:24.373244+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 1,
                 "username": "string",
@@ -392,6 +395,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-05-28T17:35:00+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 48,
                 "username": "string",
@@ -494,6 +498,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-05-28T11:05:00+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 32,
                 "username": "string",
@@ -669,6 +674,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-05-28T21:41:00+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 110,
                 "username": "string",
@@ -752,6 +758,7 @@ import TabItem from '@theme/TabItem';
             "location": [],
             "poll": [],
             "last_activity_at": "2021-05-28T11:31:00+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 32,
                 "username": "string",

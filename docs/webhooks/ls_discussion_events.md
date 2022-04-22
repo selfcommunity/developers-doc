@@ -41,6 +41,7 @@ import TabItem from '@theme/TabItem';
         "location": [],
         "poll": [],
         "last_activity_at": "2021-05-28T11:37:25.178645+02:00",
+        "last_edited_at": null,
         "author": {
             "id": 100,
             "username": "string",
@@ -141,6 +142,7 @@ import TabItem from '@theme/TabItem';
             "location": "string",
             "poll": [],
             "last_activity_at": "2021-06-07T09:44:59.016173+02:00",
+            "last_edited_at": null,
             "author": {
                 "id": 100,
                 "username": "string",
