@@ -13,13 +13,11 @@ This can be useful for adding data to the user and thus saving custom informatio
 Before you can start adding custom data to the user, it is necessary to define the structure of the additional custom fields. 
 An example of a structure can be the following:
 
-````mdx-code-block
-
 ```json
 {
     "company_name": {
         "label": "Company name",
-        "mandatory": True
+        "mandatory": true
     },
     "company_website": {
         "label": "Company website",
@@ -64,9 +62,6 @@ An example of a structure can be the following:
 }
 ```
 
-</TabItem>
-</Tabs>
-````
 
 Starting from this example it is possible to notice that to define the fields it is necessary to choose a field name (the key of the json dictionary)
 and the type of field among those available:
