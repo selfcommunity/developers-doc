@@ -3827,38 +3827,38 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/core@^0.1.0-alpha.90":
-  version "0.1.0-alpha.90"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.90.tgz#3588fb1c4676b8eab262caa1966a36ab98e51b1d"
-  integrity sha512-PzHlRdPMpdSMLGVXKRTYGU6hXFVcQurFAcQKLsikyFQq+cOUWdqXu7v8hWMghAuW9jewNoXxmUyhIKdC2PYFqg==
+"@selfcommunity/core@^0.1.0-alpha.91":
+  version "0.1.0-alpha.91"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.91.tgz#cb5da6ba07e580c09f880723c5cd260b0a884264"
+  integrity sha512-q0ZLc9chRBEvMFTm7cEczeKOYs4qUiJx/nyYTlITjl8p2PNmi9sPznvsJAWSLxfu7ceNwiNd7GrWFsXwq7EGmA==
   dependencies:
-    "@selfcommunity/i18n" "^0.1.0-alpha.90"
+    "@selfcommunity/i18n" "^0.1.0-alpha.91"
     axios "^0.23.0"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.90":
-  version "0.1.0-alpha.90"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.90.tgz#0e8bbad82f7248ec82d4c947d85fc88209c14e35"
-  integrity sha512-z6naN9mF32fiX1BCAZxULYF9fifIOYIOWCCpkUzEl83NcuQG/ITJGWxNkRXctYDc6LtB36L5fpHTkxmuUHXDrA==
+"@selfcommunity/i18n@^0.1.0-alpha.91":
+  version "0.1.0-alpha.91"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.91.tgz#2d93a3b48544c280fe4e648e31bb139ec06d7376"
+  integrity sha512-9OcJdfhN7SPHozmem8oV82+5W7R2Qn+UrtC98xQ2CzCdcYNewvABunUbfVE/Qhvmkl9Arca8irHxW0v4KSVeQQ==
 
-"@selfcommunity/templates@^0.0.1-alpha.90":
-  version "0.0.1-alpha.90"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.90.tgz#c9a6e08d7516a76e75aa4712de9e334778982c24"
-  integrity sha512-FWbkB9iB2UDBC6C2JiSfHuNn8DwP6cgP79oN4EVH07ymf704ia1P/dNW/O3LlAkPUqH5kmcbWWM5U0GRwuEWEw==
+"@selfcommunity/templates@^0.0.1-alpha.91":
+  version "0.0.1-alpha.91"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.91.tgz#2fd047876970dc9c8a34fe2ce017ab3ec1db3e40"
+  integrity sha512-IcdeCcslLC5yYHdfWqC2Bs3JWuIVGPEGRDX2DZSlVZ/qGPP6l9HAazzX2PEXeEdV08Mmj+RRjiN1fxRlZ6gxcQ==
   dependencies:
-    "@selfcommunity/core" "^0.1.0-alpha.90"
-    "@selfcommunity/i18n" "^0.1.0-alpha.90"
-    "@selfcommunity/ui" "^0.1.0-alpha.90"
+    "@selfcommunity/core" "^0.1.0-alpha.91"
+    "@selfcommunity/i18n" "^0.1.0-alpha.91"
+    "@selfcommunity/ui" "^0.1.0-alpha.91"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.90":
-  version "0.1.0-alpha.90"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.90.tgz#b2b78be13acdc75dcd61f0c31d048694bb193b54"
-  integrity sha512-1r2N7UVxnu+0hKypX52PnaHCUdekYcbWmz7PAdHgs1E1TMInk+GpoXBaohJ9wv4vqDvGyr6tHvbOpNNJpGd4Iw==
+"@selfcommunity/ui@^0.1.0-alpha.91":
+  version "0.1.0-alpha.91"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.91.tgz#51ea2985127a20e1aba7df6721ec76db6a5c1178"
+  integrity sha512-MrCUbG0T5ZRwDsRg1BNSyUBe6QGits1uMdhvLKwL6Hpt+t+GbuzrgIwlmH1T1Qkxyzl2gFldy9NP46OFYmGq1w==
   dependencies:
     "@mui/lab" "~5.0.0-alpha.68"
     "@rpldy/chunked-sender" "^0.18.0"
@@ -3867,8 +3867,8 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/core" "^0.1.0-alpha.90"
-    "@selfcommunity/i18n" "^0.1.0-alpha.90"
+    "@selfcommunity/core" "^0.1.0-alpha.91"
+    "@selfcommunity/i18n" "^0.1.0-alpha.91"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
