@@ -31,7 +31,7 @@
     "@selfcommunity/templates": "^0.0.1-alpha.95",
     "@selfcommunity/ui": "^0.1.0-alpha.95",
     "@svgr/webpack": "^5.5.0",
-    "@types/react": "^18.0.8",
+    "@types/react": "^17.0.0",
     "@types/sortablejs": "1",
     "clsx": "^1.1.1",
     "docusaurus-plugin-typedoc": "^0.17.0",
@@ -67,5 +67,8 @@
   "devDependencies": {
     "@types/react-dom": "^18.0.3",
     "axios": "^0.26.0"
+  },
+  "resolutions": {
+    "@types/react": "^16 || ^17"
   }
 }

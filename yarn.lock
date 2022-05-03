@@ -3827,38 +3827,38 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/core@^0.1.0-alpha.93":
-  version "0.1.0-alpha.93"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.93.tgz#0f33f25f8ae0a7f85698136ce6d2ee6416966253"
-  integrity sha512-PwWXu1HzrD1P3hAdnRvVG/eEn72MYLWs09ZovLn/5mtQpO7EGWmm2QxXjM7iMQgfnP6MGnz4OYqrladP/T40YQ==
+"@selfcommunity/core@^0.1.0-alpha.95":
+  version "0.1.0-alpha.95"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.95.tgz#9ac8a7cdd72a2d6cb374dd80b7e4aecde75a1bee"
+  integrity sha512-HI/t8ZKhjxMTymNncZBk+20ad51Q3aJ3ZF6h93taWidFf83pq2AAmGQZtbklFe/A/6/2ZA5y6J03SRxdE4fRiw==
   dependencies:
-    "@selfcommunity/i18n" "^0.1.0-alpha.93"
+    "@selfcommunity/i18n" "^0.1.0-alpha.95"
     axios "^0.23.0"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.93":
-  version "0.1.0-alpha.93"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.93.tgz#0f21dd5130f5b277ae91da640c78c3ed389fa56e"
-  integrity sha512-f+e4aTlSvbsyAAo28x0Mx8g+FAQI7PfVgnQbwRFLcCq2XoMQ6uxnd7xyO6cxAwgzii5rl+t1x7t0unP8nV8BPg==
+"@selfcommunity/i18n@^0.1.0-alpha.95":
+  version "0.1.0-alpha.95"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.95.tgz#a651884771ff274d50e275ea8c55084c380ee5a8"
+  integrity sha512-rfo1FtRVZIoEkaxv1jV7eCGDzpCH8ZbmP0sLdPL70fqt7rB9mxYxYCQfrLpPvoqBvmpyml0Vn7nMc0WaItEr8Q==
 
-"@selfcommunity/templates@^0.0.1-alpha.93":
-  version "0.0.1-alpha.93"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.93.tgz#0ed2b4afb6006be8ecaac3a2d7f44c8f1597530d"
-  integrity sha512-lzEMMgpyvxbvPEXAVjrMBfE/T8PN0C/nn8PSJZq6OivbOv84xegKgWTSC/bAd86SG5AP4OPw0HdiSn5arBpC0g==
+"@selfcommunity/templates@^0.0.1-alpha.95":
+  version "0.0.1-alpha.95"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.95.tgz#1921461682b6d2630cf454573a57bf1a8eff32ec"
+  integrity sha512-T0lyWb6IGAMZwtMX2GB+EMgxx7+vyh2HuI01e8tNthaFRrMv+P9OeEVLJKuuWyfK5wKHMGgXZbBa2VNylfYUxw==
   dependencies:
-    "@selfcommunity/core" "^0.1.0-alpha.93"
-    "@selfcommunity/i18n" "^0.1.0-alpha.93"
-    "@selfcommunity/ui" "^0.1.0-alpha.93"
+    "@selfcommunity/core" "^0.1.0-alpha.95"
+    "@selfcommunity/i18n" "^0.1.0-alpha.95"
+    "@selfcommunity/ui" "^0.1.0-alpha.95"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.93":
-  version "0.1.0-alpha.93"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.93.tgz#522fee76e19969f523d2547fecfe5dc0ef611b60"
-  integrity sha512-1TrjR5sQRCv3HnVSLRX0GorK14R+R9zXvptoJQejB6CCaT5U7Ju7kLZJ8f1L1idkKBUhLfJz8BIuxqfzM4RtTQ==
+"@selfcommunity/ui@^0.1.0-alpha.95":
+  version "0.1.0-alpha.95"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.95.tgz#0ce4123e3d3ab163c82849a057317e4ecc874625"
+  integrity sha512-10QTnMzN9wApNmtO21dneqQ09cdzpwWCPy47E0jATUxEOM+Au7whj4Lkh/mtRvYt6euvpcv06rRNMESSwN26FA==
   dependencies:
     "@mui/lab" "~5.0.0-alpha.68"
     "@rpldy/chunked-sender" "^0.18.0"
@@ -3867,8 +3867,8 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/core" "^0.1.0-alpha.93"
-    "@selfcommunity/i18n" "^0.1.0-alpha.93"
+    "@selfcommunity/core" "^0.1.0-alpha.95"
+    "@selfcommunity/i18n" "^0.1.0-alpha.95"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -4364,28 +4364,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "17.0.34"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.34.tgz#797b66d359b692e3f19991b6b07e4b0c706c0102"
-  integrity sha512-46FEGrMjc2+8XhHXILr+3+/sTe3OfzSPU9YGKILLrUYbQ1CLQC9Daqo1KzENGXAWwrFwiY0l4ZbF20gRvgpWTg==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@16 || 17":
-  version "17.0.39"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.39.tgz#d0f4cde092502a6db00a1cded6e6bf2abb7633ce"
-  integrity sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^18.0.8":
-  version "18.0.8"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.8.tgz#a051eb380a9fbcaa404550543c58e1cf5ce4ab87"
-  integrity sha512-+j2hk9BzCOrrOSJASi5XiOyBbERk9jG5O73Ya4M0env5Ixi6vUNli4qy994AINcEF+1IEHISYFfIT4zwr++LKw==
+"@types/react@*", "@types/react@16 || 17", "@types/react@^16 || ^17", "@types/react@^17.0.0":
+  version "17.0.44"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.44.tgz#c3714bd34dd551ab20b8015d9d0dbec812a51ec7"
+  integrity sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
