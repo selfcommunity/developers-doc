@@ -4095,38 +4095,38 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/core@^0.1.0-alpha.104":
-  version "0.1.0-alpha.104"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.104.tgz#b8503c09a1660cd0c1a0d7c467e74c5c1c93eec7"
-  integrity sha512-+U34xQyZAic82khG/rftX3op8KEfGR49swbaHfdfSuJfHydD/1rlDY/HUZrA/0zhnjK9+WVP+VoDqm+UtzaPCQ==
+"@selfcommunity/core@^0.1.0-alpha.110":
+  version "0.1.0-alpha.110"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/core/-/core-0.1.0-alpha.110.tgz#a126de3135e6af71012d9b983b42db4ef21c5b52"
+  integrity sha512-JEnTnT9aM35rmRqi2+Sqb1EluyzhgV98fir7l9W1Gz2gsmuXVqMwAJoqNSdEfn/xDRai3GnhzoBCI4e4uZjy9g==
   dependencies:
-    "@selfcommunity/i18n" "^0.1.0-alpha.104"
+    "@selfcommunity/i18n" "^0.1.0-alpha.110"
     axios "^0.23.0"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/i18n@^0.1.0-alpha.104":
-  version "0.1.0-alpha.104"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.104.tgz#4653eaaeb8e1648c0c25b2b5294678d3da2238c6"
-  integrity sha512-uiMCWuRRX2R5uUNy82F9KdaBUs8mBNHDiwerD/lvUnRQ2AbR19my7fzKnWQukMHsMlQMwgKGbbdY6i6FF2hFgw==
+"@selfcommunity/i18n@^0.1.0-alpha.110":
+  version "0.1.0-alpha.110"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/i18n/-/i18n-0.1.0-alpha.110.tgz#c840a113825e8f345a8a20551196f6e3ca7923ac"
+  integrity sha512-L8twPrSkkHdKj/XrYeyKW7z8SNTLCfuzCkF4GQqBKmc7HXxAOIk8JcbgEDkwtR7ISstm35zw1LI1lVYV1cYbGw==
 
-"@selfcommunity/templates@^0.0.1-alpha.104":
-  version "0.0.1-alpha.104"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.104.tgz#dd506c2ef684088867d2e3b3eee634c2615bed25"
-  integrity sha512-Q1tCjRceTuc/Gzq9GmnhXfQZnGDR/pqVevErz+ETg0vkQlB/E9bKOibQECvxNBM8DPyMRYUYNUiLuQPJmTXDLQ==
+"@selfcommunity/templates@^0.0.1-alpha.110":
+  version "0.0.1-alpha.110"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/templates/-/templates-0.0.1-alpha.110.tgz#f351994f64c8ea2473a4c8c74560025503c29351"
+  integrity sha512-mDeJ5E1BGGyf2GuMou1LRSd2wCQ/nPfSFXwsWkUm7yza8HGxqdyGWJgiYBGNHR7rcSNYR+bJceOwRHDPfHBaVg==
   dependencies:
-    "@selfcommunity/core" "^0.1.0-alpha.104"
-    "@selfcommunity/i18n" "^0.1.0-alpha.104"
-    "@selfcommunity/ui" "^0.1.0-alpha.104"
+    "@selfcommunity/core" "^0.1.0-alpha.110"
+    "@selfcommunity/i18n" "^0.1.0-alpha.110"
+    "@selfcommunity/ui" "^0.1.0-alpha.110"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/ui@^0.1.0-alpha.104":
-  version "0.1.0-alpha.104"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.104.tgz#52e604a0245fa221d567511713e1fafeb94da487"
-  integrity sha512-Dw3j2CF7pW5yk9JJpCOAkY7N8cOMH9JMVsksu+dU2Z6InajyvHYXR7CsFo5XkVoakoUspXR7n8hpg3C5F/wKXg==
+"@selfcommunity/ui@^0.1.0-alpha.110":
+  version "0.1.0-alpha.110"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/ui/-/ui-0.1.0-alpha.110.tgz#af5cf0470bc2d12889c1dcbe89d9fe31121f5991"
+  integrity sha512-p+0mybPDyGcV239CTRi3857W6jOwr65iS4n8n4b1a+1D2VbU4IaOAM+aX5zT4jbC/xNRFws663omD53JHKC6Ow==
   dependencies:
     "@lexical/link" "^0.2.5"
     "@lexical/react" "^0.2.5"
@@ -4138,8 +4138,8 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/core" "^0.1.0-alpha.104"
-    "@selfcommunity/i18n" "^0.1.0-alpha.104"
+    "@selfcommunity/core" "^0.1.0-alpha.110"
+    "@selfcommunity/i18n" "^0.1.0-alpha.110"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -4156,7 +4156,6 @@
     react-intersection-observer "^9.0.0"
     react-lazyload "^3.2.0"
     react-player "^2.9.0"
-    react-share "^4.4.0"
     react-sortablejs "^6.0.0"
     react-stickynode "^4.0.0"
     react-timeago "^5.2.0"
@@ -5913,7 +5912,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@*, classnames@2.3.1, classnames@^2.0.0, classnames@^2.2.5, classnames@^2.2.6:
+classnames@*, classnames@2.3.1, classnames@^2.0.0, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -5955,6 +5954,11 @@ cli-table3@^0.6.1:
     string-width "^4.2.0"
   optionalDependencies:
     colors "1.4.0"
+
+clipboard-copy@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/clipboard-copy/-/clipboard-copy-4.0.1.tgz#326ef9726d4ffe72d9a82a7bbe19379de692017d"
+  integrity sha512-wOlqdqziE/NNTUJsfSgXmBMIrYmfd5V0HCGsR8uAKHcg+h9NENWINcfRjtWGU77wDHC8B8ijV4hMTGYbrKovng==
 
 cliui@^6.0.0:
   version "6.0.0"
@@ -6628,7 +6632,7 @@ date-fns@^2.26.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
-debug@2.6.9, debug@^2.1.3, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0:
+debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
@@ -9157,13 +9161,6 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonp@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/jsonp/-/jsonp-0.2.1.tgz#a65b4fa0f10bda719a05441ea7b94c55f3e15bae"
-  integrity sha1-pltPoPEL2nGaBUQep7lMVfPhW64=
-  dependencies:
-    debug "^2.1.3"
-
 jss-plugin-camel-case@^10.8.2:
   version "10.9.0"
   resolved "https://registry.yarnpkg.com/jss-plugin-camel-case/-/jss-plugin-camel-case-10.9.0.tgz#4921b568b38d893f39736ee8c4c5f1c64670aaf7"
@@ -11544,14 +11541,6 @@ react-router@5.2.1, react-router@^5.2.0:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
-
-react-share@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/react-share/-/react-share-4.4.0.tgz#cabbf2111d7a907a888ab4d89d08410329efd5ee"
-  integrity sha512-POe8Ge/JT9Ew9iyW7CiYsCCWCb8uMJWqFl9S7W0fJ/oH5gBJNzukH0bL5vSr17KKG5h15d3GfKaoviI22BKeYA==
-  dependencies:
-    classnames "^2.2.5"
-    jsonp "^0.2.1"
 
 react-singleton-hook@^3.2.3:
   version "3.2.3"

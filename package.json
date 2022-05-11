@@ -31,6 +31,7 @@
     "@selfcommunity/templates": "^0.0.1-alpha.110",
     "@selfcommunity/ui": "^0.1.0-alpha.110",
     "@svgr/webpack": "^5.5.0",
+    "clipboard-copy": "^4.0.1",
     "clsx": "^1.1.1",
     "docusaurus-plugin-typedoc": "^0.17.0",
     "file-loader": "^6.2.0",
