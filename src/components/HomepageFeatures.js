@@ -24,7 +24,7 @@ const FeatureList = [
         ),
     },
     {
-        title: <Link to="/docs/sdk/community-ui/intro">Community-UI SDK</Link>,
+        title: <Link to="/docs/sdk/community-js/intro">Community-JS SDK</Link>,
         Svg: require('../../static/img/api.svg').default,
         description: (
             <>

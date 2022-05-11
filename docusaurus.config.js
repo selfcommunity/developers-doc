@@ -49,10 +49,10 @@ const config = {
     [
       'docusaurus-plugin-typedoc',
       {
-        id:'sc-core',
-        entryPoints: globs.sync(['./sdk/community-ui/packages/sc-core/src/components/provider/*/index.tsx', './sdk/community-ui/packages/sc-core/src/hooks/*.ts', './sdk/community-ui/packages/sc-core/src/types/*.ts']),
-        tsconfig: './sdk/community-ui/packages/sc-core/tsconfig.json',
-        out: 'sdk/community-ui/sc-core/API_Reference',
+        id:'react-core',
+        entryPoints: globs.sync(['./sdk/community-js/packages/react-core/src/components/provider/*/index.tsx', './sdk/community-js/packages/react-core/src/hooks/*.ts', './sdk/community-js/packages/react-core/src/types/*.ts']),
+        tsconfig: './sdk/community-js/packages/react-core/tsconfig.json',
+        out: 'sdk/community-js/react-core/API_Reference',
         readme: 'none',
         excludeExternals: true,
         sidebar: {
@@ -69,10 +69,10 @@ const config = {
     [
       'docusaurus-plugin-typedoc',
       {
-        id:'sc-ui',
-        entryPoints: glob.sync('./sdk/community-ui/packages/sc-ui/src/components/*/index.tsx'),
-        tsconfig: './sdk/community-ui/packages/sc-ui/tsconfig.json',
-        out: 'sdk/community-ui/sc-ui/component_API',
+        id:'react-ui',
+        entryPoints: glob.sync('./sdk/community-js/packages/react-ui/src/components/*/index.tsx'),
+        tsconfig: './sdk/community-js/packages/react-ui/tsconfig.json',
+        out: 'sdk/community-js/react-ui/component_API',
         readme: 'none',
         excludeExternals: true,
         sidebar: {
@@ -89,10 +89,10 @@ const config = {
     [
       'docusaurus-plugin-typedoc',
       {
-        id:'sc-templates',
-        entryPoints:  glob.sync('./sdk/community-ui/packages/sc-templates/src/components/*/index.tsx'),
-        tsconfig: './sdk/community-ui/packages/sc-templates/tsconfig.json',
-        out: 'sdk/community-ui/sc-templates/Component API',
+        id:'react-templates',
+        entryPoints:  glob.sync('./sdk/community-js/packages/react-templates/src/components/*/index.tsx'),
+        tsconfig: './sdk/community-js/packages/react-templates/tsconfig.json',
+        out: 'sdk/community-js/react-templates/Component API',
         readme: 'none',
         excludeExternals: true,
         sidebar: {
@@ -147,7 +147,7 @@ const config = {
               {
                 type: 'doc',
                 label: 'Community UI',
-                docId: 'sdk/community-ui/intro',
+                docId: 'sdk/community-js/intro',
               }
             ],
           },
@@ -202,7 +202,7 @@ const config = {
               },
               {
                 label: 'SDK',
-                to: '/docs/sdk/community-ui/intro',
+                to: '/docs/sdk/community-js/intro',
               },
             ],
           },
