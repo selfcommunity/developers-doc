@@ -49,6 +49,26 @@ const config = {
     [
       'docusaurus-plugin-typedoc',
       {
+        id:'api-services',
+        entryPoints: glob.sync('./sdk/community-js/packages/api-services/src/*/index.ts'),
+        tsconfig: './sdk/community-js/packages/api-services/tsconfig.json',
+        out: 'sdk/community-js/api-services/API_Reference',
+        readme: 'none',
+        excludeExternals: true,
+        sidebar: {
+          categoryLabel: 'API Reference',
+          position: 0,
+          indexLabel: 'Introduction'
+        },
+        validation: {
+          "notExported": true
+        },
+        plugin:['typedoc-plugin-rename-defaults'],
+      },
+    ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
         id:'react-core',
         entryPoints: globs.sync(['./sdk/community-js/packages/react-core/src/components/provider/*/index.tsx', './sdk/community-js/packages/react-core/src/hooks/*.ts', './sdk/community-js/packages/react-core/src/types/*.ts']),
         tsconfig: './sdk/community-js/packages/react-core/tsconfig.json',
@@ -93,6 +113,46 @@ const config = {
         entryPoints:  glob.sync('./sdk/community-js/packages/react-templates/src/components/*/index.tsx'),
         tsconfig: './sdk/community-js/packages/react-templates/tsconfig.json',
         out: 'sdk/community-js/react-templates/Component API',
+        readme: 'none',
+        excludeExternals: true,
+        sidebar: {
+          categoryLabel: 'Component API',
+          position: 0,
+          indexLabel: 'Introduction'
+        },
+        validation: {
+          "notExported": true
+        },
+        plugin:['typedoc-plugin-rename-defaults'],
+      },
+    ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id:'types',
+        entryPoints: glob.sync('./sdk/community-js/packages/types/src/*/index.ts'),
+        tsconfig: './sdk/community-js/packages/types/tsconfig.json',
+        out: 'sdk/community-js/types/Reference',
+        readme: 'none',
+        excludeExternals: true,
+        sidebar: {
+          categoryLabel: 'Reference',
+          position: 0,
+          indexLabel: 'Introduction'
+        },
+        validation: {
+          "notExported": true
+        },
+        plugin:['typedoc-plugin-rename-defaults'],
+      },
+    ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id:'utils',
+        entryPoints: glob.sync('./sdk/community-js/packages/utils/src/*/index.ts'),
+        tsconfig: './sdk/community-js/packages/utils/tsconfig.json',
+        out: 'sdk/community-js/utils/Reference',
         readme: 'none',
         excludeExternals: true,
         sidebar: {
