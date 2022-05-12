@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.email "fede.torre@gmail.com"
           git config --global user.name "gh-actions"
-          yarn --cwd "sdk/community-ui" bootstrap
+          yarn --cwd "sdk/community-js" bootstrap
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
