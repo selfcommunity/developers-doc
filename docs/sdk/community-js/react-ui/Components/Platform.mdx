@@ -1,0 +1,35 @@
+---
+sidebar_label: Platform
+sidebar_position: 1
+title: Platform
+---
+
+> The Platform component renders a card composed of three buttons that allows admin and moderator users to manage the application content.
+
+import Platform from './platform.js';
+import Logged from "../../Logged";
+
+<Logged><Platform/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {Platform} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><Platform /></SCContextProvider>
+   );
+ }
+```

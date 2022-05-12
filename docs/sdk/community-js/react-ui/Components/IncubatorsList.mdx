@@ -1,0 +1,39 @@
+---
+sidebar_label: Incubators List
+sidebar_position: 1
+title: Incubators List
+---
+
+> The Incubators List component renders a list of incubators.<br/>
+This list is composed of items containing incubator's title, info, a subscription status bar and a subscribe button that allows users to subscribe/unsubscribe to an incubator.<br/>
+By clicking the incubator title it is possible to open a modal card showing the incubators details and a section where it is possible to share the item on social networks.<br/>
+The incubators are shown in an orderly manner: few items are shown in the main card while the others can be displayed in a modal card by clicking on the "show all" button.
+At the card bottom there is also a "suggest a new topic" button that opens a modal composed of a form that allows users to propose a new interests.
+
+import IncubatorsList from './incubatorsList.js';
+import Logged from "../../Logged";
+
+<Logged><IncubatorsList/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {IncubatorsList} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><IncubatorsList /></SCContextProvider>
+   );
+ }
+```

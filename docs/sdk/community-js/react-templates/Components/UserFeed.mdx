@@ -1,0 +1,35 @@
+---
+sidebar_label: User Feed
+sidebar_position: 1
+title: User Feed
+---
+
+> The User Feed template renders user feed page.
+
+import UserFeed from './userFeed.js';
+import Logged from "../../Logged";
+
+<Logged><UserFeed/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {UserFeed} from '@selfcommunity/react-templates';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><UserFeed/></SCContextProvider>
+   );
+ }
+ ```

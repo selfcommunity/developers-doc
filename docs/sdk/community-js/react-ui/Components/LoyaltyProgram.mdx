@@ -1,0 +1,37 @@
+---
+sidebar_label: Loyalty Program
+sidebar_position: 1
+title: Loyalty Program
+---
+
+> The Loyalty Program component renders the loyalty program card. <br/>
+It is composed of a main section containing the program information, a section showing the points achieved by the user and
+a "discover more" button that once clicked opens a modal containing the available prizes that can be request.
+
+import LoyaltyProgram from './loyaltyProgram.js';
+import Logged from "../../Logged";
+
+<Logged><LoyaltyProgram/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {LoyaltyProgram} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><LoyaltyProgram /></SCContextProvider>
+   );
+ }
+```

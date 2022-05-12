@@ -1,0 +1,35 @@
+---
+sidebar_label: Custom Adv
+sidebar_position: 1
+title: Custom Adv
+---
+
+> The Custom Adv component renders custom adv banners.
+
+import CustomAdv from './customAdv.js';
+import Logged from "../../Logged";
+
+<Logged><CustomAdv/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {CustomAdv} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><CustomAdv /></SCContextProvider>
+   );
+ }
+```

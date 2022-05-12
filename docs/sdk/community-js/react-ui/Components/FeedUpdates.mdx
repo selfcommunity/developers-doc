@@ -1,0 +1,35 @@
+---
+sidebar_label: Feed Updates
+sidebar_position: 1
+title: Feed Updates
+---
+
+> The Feed Updates component renders feed updates.
+
+import FeedUpdates from './feedUpdates.js';
+import Logged from "../../Logged";
+
+<Logged><FeedUpdates/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {FeedUpdates} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><FeedUpdates /></SCContextProvider>
+   );
+ }
+```

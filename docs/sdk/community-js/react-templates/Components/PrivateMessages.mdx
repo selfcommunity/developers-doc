@@ -1,0 +1,35 @@
+---
+sidebar_label: Private Messages
+sidebar_position: 1
+title: Private Messages
+---
+
+> The Private Messages template renders private messages page.
+
+import PrivateMessages from './privateMessages.js';
+import Logged from "../../Logged";
+
+<Logged><PrivateMessages/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {PrivateMessages} from '@selfcommunity/react-templates';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><PrivateMessages/></SCContextProvider>
+   );
+ }
+ ```

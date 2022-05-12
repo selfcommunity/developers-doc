@@ -1,0 +1,38 @@
+---
+sidebar_label: Change Picture
+sidebar_position: 1
+title: Change Picture
+---
+
+> The Change Picture component  renders a button that allows users to manage their profile pictures.<br/>
+Once clicked, the button opens a modal card where all previously uploaded pictures are shown, and from there <br/>
+it is possible to remove old pictures and also add new ones. <br/>
+The last picture uploaded, or the selected one becomes the new profile picture.
+
+import ChangePicture from './changePicture.js';
+import Logged from "../../Logged";
+
+<Logged><ChangePicture/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {ChangePicture} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><ChangePicture /></SCContextProvider>
+   );
+ }
+```

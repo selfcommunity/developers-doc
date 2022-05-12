@@ -146,7 +146,7 @@ const config = {
             items: [
               {
                 type: 'doc',
-                label: 'Community UI',
+                label: 'Community JS',
                 docId: 'sdk/community-js/intro',
               }
             ],
