@@ -36,7 +36,7 @@ yarn add @mui/material @mui/icons-material @emotion/react @emotion/styled react-
 
 Based on which package you want to install proceed as follows:
 
-### Install sc-core:
+### Install react-core:
 
 ````mdx-code-block
 
@@ -58,7 +58,7 @@ yarn add @selfcommunity/react-i18n @selfcommunity/react-core
 </Tabs>
 ````
 
-### Install sc-ui package:
+### Install react-ui package:
 
 ````mdx-code-block
 
@@ -80,7 +80,7 @@ yarn add @selfcommunity/react-i18n @selfcommunity/react-core @selfcommunity/reac
 </Tabs>
 ````
 
-### Install sc-templates package:
+### Install react-templates package:
 
 ````mdx-code-block
 
@@ -102,7 +102,7 @@ yarn add @selfcommunity/react-i18n @selfcommunity/react-core @selfcommunity/reac
 </Tabs>
 ````
 
-### Install sc-i18n:
+### Install react-i18n:
 
 ````mdx-code-block
 
