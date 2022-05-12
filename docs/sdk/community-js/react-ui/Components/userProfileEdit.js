@@ -6,7 +6,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const UserProfileEdit = require('@selfcommunity/react-ui').UserProfileEdit;
-                const SCUserFields = require ('@selfcommunity/react-core').SCUserFields;
+                const SCUserFields = require ('@selfcommunity/types').SCUserFields;
                 const fields = [
                     SCUserFields.USERNAME,
                     SCUserFields.REAL_NAME,

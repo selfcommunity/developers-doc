@@ -6,7 +6,9 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const RelatedFeedObjects = require('@selfcommunity/react-ui').RelatedFeedObjects;
-                return <RelatedFeedObjects/>;
+                const typeDiscussion = 'discussion';
+                const template = 'snippet';
+                return <RelatedFeedObjects feedObjectId={30} feedObjectType={typeDiscussion} template={template}/>;
             }}
         </BrowserOnly>
     );

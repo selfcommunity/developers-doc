@@ -7,7 +7,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const Message = require('@selfcommunity/react-ui').Message;
-                return <Message />;
+                return <Message id={51}/>;
             }}
         </BrowserOnly>
     );

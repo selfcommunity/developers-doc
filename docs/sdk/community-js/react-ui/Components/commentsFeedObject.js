@@ -6,8 +6,8 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const discussion = 'discussion';
-                const CommentsObject = require('@selfcommunity/react-ui').CommentsObject;
-                return <CommentsObject feedObjectType={discussion} feedObjectId={30}/>;
+                const CommentsFeedObject = require('@selfcommunity/react-ui').CommentsFeedObject;
+                return <CommentsFeedObject feedObjectType={discussion} feedObjectId={30}/>;
             }}
         </BrowserOnly>
     );

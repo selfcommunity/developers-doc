@@ -6,7 +6,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const Feed = require('@selfcommunity/react-ui').Feed;
-                const Endpoints = require('@selfcommunity/react-core').Endpoints;
+                const Endpoints = require('@selfcommunity/api-services').Endpoints;
                 const FeedObject = require('@selfcommunity/react-ui').FeedObject;
                 const FeedObjectSkeleton = require('@selfcommunity/react-ui').FeedObjectSkeleton;
                 const  itemPropsGenerator = (scUser, item) => ({
