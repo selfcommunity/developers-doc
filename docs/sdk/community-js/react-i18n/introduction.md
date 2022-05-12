@@ -5,7 +5,7 @@ title: Introduction
 ---
 
 :::info
-Sc-I18n Package allows the internationalization and localization of your application.
+React-i18n Package allows the internationalization and localization of your application.
 :::
 
 ### How to generate translation files
