@@ -10,7 +10,7 @@ React-i18n Package allows the internationalization and localization of your appl
 
 ### How to generate translation files
 
-After package [installation](../getting_started/installation.md/#install-sc-i18n) a folder `locales` with two json files (en, it) will be generated.
+After package [installation](../getting_started/installation.md/#install-react-i18n) a folder `locales` with two json files (en, it) will be generated.
 
 Inside those files there are components translation strings. The standard pattern in use to define them is :
 
