@@ -12,6 +12,8 @@ export const scIcons = [
     {name: 'card_membership', codepoint: 'e8f7'},
     {name: 'chat_bubble_outline', codepoint: 'e0cb'},
     {name: 'check', codepoint: 'e5ca'},
+    {name: 'chevron_left', codepoint: 'e5cb'},
+    {name: 'chevron_right', codepoint: 'e5cc'},
     {name: 'close', codepoint: 'e5cd'},
     {name: 'code', codepoint: 'e86f'},
     {name: 'create', codepoint: 'e150'},
@@ -73,5 +75,7 @@ export const scIcons = [
     {name: 'upload', codepoint: 'f09b'},
     {name: 'visibility', codepoint: 'e8f4'},
     {name: 'visibility_off', codepoint: 'e8f5'},
+    {name: 'zoom_in', codepoint: 'e8ff'},
+    {name: 'zoom_out', codepoint: 'e900'},
     {name: 'zoom_out_map', codepoint: 'e56b'}
 ];
