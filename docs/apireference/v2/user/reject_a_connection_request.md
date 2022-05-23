@@ -20,6 +20,7 @@ This operation requires authentication.
 
 ## HTTP Request
 
+` POST /api/v2/user/{id}/connection/reject/`
 
 ### Parameters
 

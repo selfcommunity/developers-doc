@@ -14,7 +14,7 @@ This operation requires authentication
 
 ## HTTP Request
 
-`GET /api/v2/statuse/uncommented/`
+`GET /api/v2/status/uncommented/`
 
 ### Parameters
 
