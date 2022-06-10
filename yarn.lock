@@ -4067,50 +4067,51 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/api-services@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.4.tgz#3b69a525287cd6ecddd6ee59db38e8a78d32d6d4"
-  integrity sha512-n5lp8hJAyxqKz8PHvVMgO0F4DyqRnW3a3id3bx9Myw8/6TCI+sOUD1dc5IKR5NUj/Mo588ztYJDdDBE8irJmzA==
+"@selfcommunity/api-services@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.8.tgz#7b200441919cfe6efdf1d3a435200525db4bf8e1"
+  integrity sha512-YtyWK13ud5OTFa9GzVaZQ8wupAwUMjLuisQJBEbdJXSv1jQYMcmo3vAcjD2Jt+rbYaUrzwMLrUVzzwdZlDKzUg==
   dependencies:
-    "@selfcommunity/types" "^0.1.4"
-    "@selfcommunity/utils" "^0.1.4"
+    "@selfcommunity/types" "^0.1.8"
+    "@selfcommunity/utils" "^0.1.8"
     axios "^0.23.0"
     jose "^4.8.1"
 
-"@selfcommunity/react-core@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.1.4.tgz#0d38b6653d19a119b4eaafd9a192e4fa568e6e40"
-  integrity sha512-c0ajvg9BjEPT/33HtD9c6n1nd1CV2c8TXw9Y6RFmiBWhuC+OxwV05D4USrhUz0dgU+hgsrEekPy0Vkc5n1XmXQ==
+"@selfcommunity/react-core@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.1.8.tgz#d39348d1dce27b0f76def9e867890c678bdd7de5"
+  integrity sha512-EuuvluGtjW0h4vawMEBVDghD4D1Pou6uGMdj06BWsOR5KEPfJHr1LT8Q6qL/zuPC/RUEqS+QZGuP0ILW+RZCZg==
   dependencies:
-    "@selfcommunity/api-services" "^0.1.4"
-    "@selfcommunity/react-i18n" "^0.1.4"
-    "@selfcommunity/types" "^0.1.4"
+    "@selfcommunity/api-services" "^0.1.8"
+    "@selfcommunity/react-i18n" "^0.1.8"
+    "@selfcommunity/types" "^0.1.8"
+    "@selfcommunity/utils" "^0.1.8"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/react-i18n@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.1.4.tgz#5e83d10b7b748a8e4c0c6ecad70cd8f290f5aa1e"
-  integrity sha512-ppovVig3u2zQ/MuclYm0nH0O98E20nsheCVR7yfeSxJvuu8F4rcusTIlMPrnYHEDKIL1ti0uZGdmrcKAgu379w==
+"@selfcommunity/react-i18n@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.1.8.tgz#83762f0eff449363c91df71fb99cd7ea5b7844db"
+  integrity sha512-r4pcPsNoj5UKbI7hddCm1Uz3/z3lLEFqyCIVfR+1M05AAPKq3Wx44xSxhQY0jOrTqJO8fsK8/c1g1kmbb8xa2g==
 
-"@selfcommunity/react-templates@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.4.tgz#106de2b6882164ccc8166a5f7cfa3105bed184a1"
-  integrity sha512-ukSm70dzylvhIvPsPYWk0Bm4h3zFRPms8QSnfu5yBI//2qYA0u9rEruF6ebNQKTOh/ZuJ4uTEbczxQ0xJ87WrA==
+"@selfcommunity/react-templates@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.8.tgz#46848d648e344d265d1d7231e2c228415d9311e6"
+  integrity sha512-jffHlJiod9vOark4gKis9o8UG3mLTYV2AbyDk2qzRFh2hOyCMql65Nr7kYDi3WBKTUeVFpXmBjRGRQ5rFYcnqg==
   dependencies:
-    "@selfcommunity/react-core" "^0.1.4"
-    "@selfcommunity/react-i18n" "^0.1.4"
-    "@selfcommunity/react-ui" "^0.1.4"
-    "@selfcommunity/types" "^0.1.4"
+    "@selfcommunity/react-core" "^0.1.8"
+    "@selfcommunity/react-i18n" "^0.1.8"
+    "@selfcommunity/react-ui" "^0.1.8"
+    "@selfcommunity/types" "^0.1.8"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
 
-"@selfcommunity/react-ui@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.1.4.tgz#e83435f8aabb128e829e62f86284f3efdc79137f"
-  integrity sha512-kBac0Zl6KJoOC2vKtNRaaWuioEaE+gU7IWpoamSxkFtmr1Ug0gapv4KSeWyBB7hSJou3dRMYlLQyQFirkvoT7A==
+"@selfcommunity/react-ui@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.1.8.tgz#ea551a1639baff3470dcadd9cce8ffbd10eb5db7"
+  integrity sha512-u6BnrsbDLWR5S9j1Aq3rhFYtP1Tbk1ObAkWHWh2+PUzuisFYtQioJDDlPuCk/CY+MrfncQIKYrSPwFFiy77B6w==
   dependencies:
     "@lexical/link" "^0.2.4"
     "@lexical/react" "^0.2.4"
@@ -4122,10 +4123,11 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/api-services" "^0.1.4"
-    "@selfcommunity/react-core" "^0.1.4"
-    "@selfcommunity/react-i18n" "^0.1.4"
-    "@selfcommunity/types" "^0.1.4"
+    "@selfcommunity/api-services" "^0.1.8"
+    "@selfcommunity/react-core" "^0.1.8"
+    "@selfcommunity/react-i18n" "^0.1.8"
+    "@selfcommunity/types" "^0.1.8"
+    "@selfcommunity/utils" "^0.1.8"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -4151,15 +4153,15 @@
     spark-md5 "~3.0.2"
     use-deep-compare-effect "^1.8.1"
 
-"@selfcommunity/types@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.1.4.tgz#633f4ca728db217951060d3ab8c037072e43d054"
-  integrity sha512-OBTnwnjhf7EASwxxPNe+dnbSc1Z3lwu9ZTys8N5mcPZbKy/7pyxqOQM1WQedvn3DzRtQc7mmORRBtzrCgZWbDw==
+"@selfcommunity/types@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.1.8.tgz#210ad8850e44ebd51a0a5f0018a37b39f95f5fac"
+  integrity sha512-aJp1JvTn6iQ/sCMhaBA7dHzWL0AU3mvDkOZpmBLsjp5Y6oRBI+J+Cz+qE6OzhAlNVejl6cli6lXYpoR+ge2Z4Q==
 
-"@selfcommunity/utils@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.1.4.tgz#172e45a51e4aea2cfae847d7d9ccee8322d49889"
-  integrity sha512-GoQLMqiC0fVn66mZznezPI21nAd/Xu2h3SoS8oSbX2uEm48iun4p1ehg9m+U/8d9u7IEm6CpEOMZuexu8XMeFQ==
+"@selfcommunity/utils@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.1.8.tgz#ec5662c1544864a73e785368c8dd4043fa6becf4"
+  integrity sha512-xJfUT8/MP+lbcudszx8H6WfWGc6S+kwrkQwqhD4vx1AspLHaPEtXEa0Ym7tzl4XD59NHxjhxKPwS4g1bZY6+9Q==
 
 "@sideway/address@^4.1.3":
   version "4.1.3"

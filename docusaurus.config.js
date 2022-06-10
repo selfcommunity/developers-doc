@@ -50,7 +50,7 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'api-services',
-        entryPoints: glob.sync('./sdk/community-js/packages/api-services/src/*/index.ts'),
+        entryPoints: globs.sync(['./sdk/community-js/packages/api-services/src/types/index.ts', './sdk/community-js/packages/api-services/src/services/*/index.ts', './sdk/community-js/packages/api-services/src/utils/*/index.ts']),
         tsconfig: './sdk/community-js/packages/api-services/tsconfig.json',
         out: 'sdk/community-js/api-services/API_Reference',
         readme: 'none',
