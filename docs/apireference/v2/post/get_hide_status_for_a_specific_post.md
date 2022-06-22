@@ -65,9 +65,9 @@ curl -X GET /api/v2/post/{id}/hide/status/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](/docs/apireference/v2/schemas/flag)|
+|Status|Meaning|Description| Schema |
+|---|---|---|----|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|none|
 
 ### Example responses
 

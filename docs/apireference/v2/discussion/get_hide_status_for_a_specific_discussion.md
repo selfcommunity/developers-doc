@@ -67,8 +67,23 @@ curl -X GET /api/v2/discussion/{id}/hide/status/ \
 ## Responses
 
 |Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](/docs/apireference/v2/schemas/flag)|
+|---|---|---|--|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|none|
+
+### Example responses
 
 
+````mdx-code-block
 
+<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
+<TabItem value="200">
+
+```json
+{
+  "hidden": false
+}
+```
+
+</TabItem>
+</Tabs>
+````

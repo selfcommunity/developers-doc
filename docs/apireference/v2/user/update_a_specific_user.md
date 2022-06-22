@@ -30,10 +30,10 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
-|body|body|[User](/docs/apireference/v2/schemas/user)|false|none|
+| Name | In   | Type                                       | Required | Description                                   |
+|------|------|--------------------------------------------|----------|-----------------------------------------------|
+| id   | path | string                                     | true     | A unique integer value identifying this user. |
+| body | body | [User](/docs/apireference/v2/schemas/user) | true     | none                                          |
 
 #### Example Body Parameters
 

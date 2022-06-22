@@ -18,17 +18,16 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
-|active|query|string|false|Is the tag active?|
-|deleted|query|string|false|Is the tag deleted?|
-|visible|query|string|false|Is this tag publicly visible?|
-|visibility_boost|query|string|false|Has the tag the attribute visibility boost?|
-
-|ordering|query|string|false|Ordering fields (eg: `?ordering=name,created_at`), default is `-created_at` (minus char is used for descending ordering)|
+| Name             | In    | Type    | Required | Description                                                                                                              |
+|------------------|-------|---------|----------|--------------------------------------------------------------------------------------------------------------------------|
+| limit            | query | integer | false    | Number of results to return per page.                                                                                    |
+| offset           | query | integer | false    | The initial index from which to return the results.                                                                      |
+| search           | query | string  | false    | A search term.                                                                                                           |
+| active           | query | string  | false    | Is the tag active?                                                                                                       |
+| deleted          | query | string  | false    | Is the tag deleted?                                                                                                      |
+| visible          | query | string  | false    | Is this tag publicly visible?                                                                                            |
+| visibility_boost | query | string  | false    | Has the tag the attribute visibility boost?                                                                              |
+| ordering         | query | string  | false    | Ordering fields (eg: `?ordering=name,created_at`), default is `-created_at` (minus char is used for descending ordering) |
 
 ### Example Request
 

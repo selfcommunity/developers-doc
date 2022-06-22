@@ -18,9 +18,9 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|body|body|Array of user ids|false|none|
+| Name | In   | Type              | Required | Description |
+|------|------|-------------------|----------|-------------|
+| body | body | Array of user ids | true     | none        |
 
 #### Example Body Parameters
 
