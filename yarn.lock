@@ -4073,51 +4073,52 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/api-services@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.15.tgz#c99010922d29f3ea6ac0ae8c5a6220e625253323"
-  integrity sha512-TyQVxCoyZXaA6WtAVoNYxBFojkAJ7VpR2uzveAdePLuzW4X02LbBjVYpa3VdDdHfvm/EpToWsmKi2/6U+7q9rw==
+"@selfcommunity/api-services@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.17.tgz#84670f1c226412056ac5cb6c8117dcab63f0a6f3"
+  integrity sha512-sJg2N2cKWxBFFFCYPgIDhERn10m/WJFkztE22rKMou5JLYOICtQg7VA66F3PsnNRb5ubTP4iVwSZfIBMNZzjxA==
   dependencies:
-    "@selfcommunity/types" "^0.1.15"
-    "@selfcommunity/utils" "^0.1.15"
+    "@selfcommunity/types" "^0.1.17"
+    "@selfcommunity/utils" "^0.1.17"
     axios "^0.23.0"
     jose "^4.8.1"
 
-"@selfcommunity/react-core@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.1.15.tgz#f80e612d3933b123040d984fed6756f4a8f13b3e"
-  integrity sha512-i0wMGg3JMc45USLwQ/aXcWTgI4MZvnmBwaHsSYwgKENDB9O9+WAh4F65Ib9iFFmhJckNCJYebYNFn+T0N6LQFw==
+"@selfcommunity/react-core@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.1.17.tgz#dc7e4a860132e4a9eca39298503573f14760ffc1"
+  integrity sha512-EM1/YRYzxD9wrC3NSQ8qEahC6nYZa0TnvSwGSj8daoWZk7vKvAUtlWLmofM2kA9cAYMRg9uLNCi/f2fD+meixA==
   dependencies:
-    "@selfcommunity/api-services" "^0.1.15"
-    "@selfcommunity/react-i18n" "^0.1.15"
-    "@selfcommunity/types" "^0.1.15"
-    "@selfcommunity/utils" "^0.1.15"
+    "@selfcommunity/api-services" "^0.1.17"
+    "@selfcommunity/react-i18n" "^0.1.17"
+    "@selfcommunity/types" "^0.1.17"
+    "@selfcommunity/utils" "^0.1.17"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.2.3"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/react-i18n@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.1.15.tgz#94eb7281173997ee9efdb307e17784bb8a083c48"
-  integrity sha512-2Qe1eotQaGvnfP+GZylto0eHQHiNU2U3Mz7JhWRJgmvZbowza6zn0nwRWo1Y0RwjoK7ob9wF/zAlteZaPSlPtg==
+"@selfcommunity/react-i18n@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.1.17.tgz#952dc33f1bef0c63544791186c0831627c2309b2"
+  integrity sha512-QzDzu2B6ohF4Xj3KBB52xc91/TwofQU258oD0ILpNcHLOf288PQ6GjTI64WqibfUeKFDJQ+rCB6km7xSnNqNZQ==
 
-"@selfcommunity/react-templates@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.15.tgz#9247da0942947486b39d3f796796e930fe4482e2"
-  integrity sha512-QwGYoVrG5lOP2lS8DMBxO+tJfoto+e4P2kpoZuI0j96jh2jSfuz6LgbmJf4Xco92PP4uKUdEpdM2Fxq+KzvhuA==
+"@selfcommunity/react-templates@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.17.tgz#eb0673ab1afeaf1e1809c949b6ce5dd72cb8bd3e"
+  integrity sha512-uSdzGOoX1ybMcyYADNn3vgMcMntwKFYil/6UMjI25dsKkgQJPwxQwowhiOhrr6vsIasbGAEHFWwb6pBSY2HzNQ==
   dependencies:
-    "@selfcommunity/react-core" "^0.1.15"
-    "@selfcommunity/react-i18n" "^0.1.15"
-    "@selfcommunity/react-ui" "^0.1.15"
-    "@selfcommunity/types" "^0.1.15"
+    "@selfcommunity/react-core" "^0.1.17"
+    "@selfcommunity/react-i18n" "^0.1.17"
+    "@selfcommunity/react-ui" "^0.1.17"
+    "@selfcommunity/types" "^0.1.17"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
+    seamless-scroll-polyfill "^2.1.8"
 
-"@selfcommunity/react-ui@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.1.15.tgz#55e766c21a398f04436115d954cb01635610b620"
-  integrity sha512-XyEpwEJdPwtYhhsTC20kU5KgLIVF7kjgt2C5mC94ofEOiAkcFfBDiFxPAWezolsoUtFfFMKNvT94huWNumzwFA==
+"@selfcommunity/react-ui@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.1.17.tgz#f55854cc87ec5eb5fb3fcecb87b0739744a2f84b"
+  integrity sha512-ansSDRJ3KDAszxc9gNXgire4l6wfkkoFRZjpQoCZlRiEoXasvH2VVm5eTne5ysn+ygDF2p6QINdEzwlvrXdG+g==
   dependencies:
     "@lexical/link" "^0.3.3"
     "@lexical/react" "^0.3.3"
@@ -4129,11 +4130,11 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/api-services" "^0.1.15"
-    "@selfcommunity/react-core" "^0.1.15"
-    "@selfcommunity/react-i18n" "^0.1.15"
-    "@selfcommunity/types" "^0.1.15"
-    "@selfcommunity/utils" "^0.1.15"
+    "@selfcommunity/api-services" "^0.1.17"
+    "@selfcommunity/react-core" "^0.1.17"
+    "@selfcommunity/react-i18n" "^0.1.17"
+    "@selfcommunity/types" "^0.1.17"
+    "@selfcommunity/utils" "^0.1.17"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -4155,19 +4156,20 @@
     react-sortablejs "^6.0.0"
     react-stickynode "^4.0.0"
     react-waypoint "^10.1.0"
+    seamless-scroll-polyfill "^2.1.8"
     sortablejs "^1.14.0"
     spark-md5 "~3.0.2"
     use-deep-compare-effect "^1.8.1"
 
-"@selfcommunity/types@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.1.15.tgz#8c6be1d16a9b172d28102110e09b392be757cdbd"
-  integrity sha512-mDoeQ11eeVKMeIacyb1xu4VmJH4wYx59Wm7sQgdU0DXOfHYKJ/b0DjBxHlqmrkrvnXacSnJQK9ymG4+UfixcIA==
+"@selfcommunity/types@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.1.17.tgz#8fe8dd03bed3b8cb03d674e80bd64a07ca635079"
+  integrity sha512-k9pNDzdXW8+85UnwvrBqd7tVhZe7e1aElFTZ6NMHJ46zILkX534iye5ddRq0rykeii/WUCgGZhj4EeHQeMy3aA==
 
-"@selfcommunity/utils@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.1.15.tgz#9b3dee97ba7a11a20e0d88973ead48aa84e38317"
-  integrity sha512-2YhEQjKc4ixD791VXbN6FNcaZS+I4kjz00mzYMdN+6DgSxsUVygnCpVWg4LhRW+chPXdgHE4ClTwrQYc5ATBDQ==
+"@selfcommunity/utils@^0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.1.17.tgz#ca21b330489e934f315577c3d5ae1334c57b7dbb"
+  integrity sha512-zWYvUorDh8tN9lC6sDcq2LAUODA4Qd5pdyIgW9dWOikQ1JBWYtSA6GRhdUJSVSEyXptJc9BWY5AOfyK6HINWuw==
 
 "@sideway/address@^4.1.3":
   version "4.1.3"
@@ -11906,6 +11908,11 @@ schema-utils@^4.0.0:
     ajv "^8.8.0"
     ajv-formats "^2.1.1"
     ajv-keywords "^5.0.0"
+
+seamless-scroll-polyfill@^2.1.8:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/seamless-scroll-polyfill/-/seamless-scroll-polyfill-2.2.0.tgz#422f4a7d1b3a7d0ea86f8afad3d6abea2c66a000"
+  integrity sha512-c4KHfltYY8oFRt987Kl9i4xRLylIpg1YHWsOyH1kj4SP+W+8PtOiKrLyv8L6xbHvwQpofOZ98AWpGPEJK++udQ==
 
 section-matter@^1.0.0:
   version "1.0.0"
