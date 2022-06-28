@@ -11,7 +11,7 @@ This endpoint is recommended for implementing an autocomplete input field.
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication only if `content_availability` community option is false.
 
 :::
 

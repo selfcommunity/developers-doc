@@ -8,7 +8,7 @@ This endpoint performs users search
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication only if `content_availability` community option is false.
 
 :::
 
