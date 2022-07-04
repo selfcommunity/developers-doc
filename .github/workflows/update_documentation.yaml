@@ -58,8 +58,8 @@ jobs:
           value: "^${{ github.event.client_payload.templates }}"
       - name: Update community-ui submodule
         run: |
-          git config --global user.email "fede.torre@gmail.com"
-          git config --global user.name "fedetorre"
+          git config --global user.email "team@quentral.com"
+          git config --global user.name "quentralhub"
           rm -rf sdk/community-js/
           git submodule update
           git add sdk/community-js/
