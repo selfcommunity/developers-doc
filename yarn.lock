@@ -4076,22 +4076,22 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/api-services@^0.1.28-alpha.2":
-  version "0.1.28-alpha.2"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.28-alpha.2.tgz#e445a1ee753609c18b4df36832468a99fd6e78bb"
-  integrity sha512-eibjxNaYBi/CSBG3JgkcIMLy0IHZzepIhlAXBkOcmzUO0wBCu8KlBqO4WDBx+H9fovj5AdOSoPKZNYrtEKibgA==
+"@selfcommunity/api-services@^0.1.28-alpha.4":
+  version "0.1.28-alpha.4"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.28-alpha.4.tgz#4cb9e59587a04e67b80d7dd00612a0f71a944d24"
+  integrity sha512-kNzqpj9vUWeUBxwjyFQaAKKnb1bJLK5LlfD9+g+UZ/34HYhqfF79fG9lA0wphrKprBtUtQKXDqItzECgJpViAA==
   dependencies:
     "@selfcommunity/types" "^0.1.28-alpha.0"
     "@selfcommunity/utils" "^0.1.28-alpha.0"
     axios "^0.23.0"
     jose "^4.8.1"
 
-"@selfcommunity/react-core@^0.1.28-alpha.2":
-  version "0.1.28-alpha.2"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.1.28-alpha.2.tgz#f582f73de37e437edc1fe3f264aa1975d639965b"
-  integrity sha512-VEkJRyC1uHtbC+LSygP53tSU8Uaz1h1WHvQnMeXAV8jkoQ3OhKeq7wdamQOrd+/5fyudM2y1uwQssWVJgrvRyg==
+"@selfcommunity/react-core@^0.1.28-alpha.5":
+  version "0.1.28-alpha.5"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.1.28-alpha.5.tgz#aae6502d8227774c2deff9b3c022cad0628a37cc"
+  integrity sha512-M7Votqv9aEaicLYxclKz9VxX8Peqq+dzXEVbmY5E6YLaBam0jOIGuQsnIRjHlS+U5Sgp40VofLM6iTc+NUYAXw==
   dependencies:
-    "@selfcommunity/api-services" "^0.1.28-alpha.2"
+    "@selfcommunity/api-services" "^0.1.28-alpha.4"
     "@selfcommunity/react-i18n" "^0.1.28-alpha.0"
     "@selfcommunity/types" "^0.1.28-alpha.0"
     "@selfcommunity/utils" "^0.1.28-alpha.0"
@@ -4105,23 +4105,23 @@
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.1.28-alpha.0.tgz#533249807ca5049f2f69480a232570383edadb0f"
   integrity sha512-xFaimp7j3S0CBoNwIHUfnx2MKfQoeB5NBygi5yZB25ZZg4PpHSWzWndVT3gqqfSvSS9x+j6ihpTIVZY3hfjEfw==
 
-"@selfcommunity/react-templates@^0.1.28-alpha.2":
-  version "0.1.28-alpha.2"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.28-alpha.2.tgz#bfebeee84524f2073f739fdb2a23094a41fb02b7"
-  integrity sha512-EK+Q6MrjMSSgeIdDn5e+Fw+tEpoFUoubIRDh3PTGBHHhPTJK7f55eqDYjuiI/PMuzy+l9BGfLjbUF2Jx2k1qFA==
+"@selfcommunity/react-templates@^0.1.28-alpha.5":
+  version "0.1.28-alpha.5"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.28-alpha.5.tgz#ddbcc894655ba1f8ea00cea72ddc36ab8a819729"
+  integrity sha512-vBfJT9ukVY5o86b2czoDq1YO945vOqXFgRzQYuCdrxS8Wz9QHUnsukG+Wf0uocVzq311d9yADr8ss0J2DK4ohQ==
   dependencies:
-    "@selfcommunity/react-core" "^0.1.28-alpha.2"
+    "@selfcommunity/react-core" "^0.1.28-alpha.5"
     "@selfcommunity/react-i18n" "^0.1.28-alpha.0"
-    "@selfcommunity/react-ui" "^0.2.9-alpha.2"
+    "@selfcommunity/react-ui" "^0.2.9-alpha.5"
     "@selfcommunity/types" "^0.1.28-alpha.0"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
     seamless-scroll-polyfill "^2.1.8"
 
-"@selfcommunity/react-ui@^0.2.9-alpha.2":
-  version "0.2.9-alpha.2"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.2.9-alpha.2.tgz#639f2f6be94162ade59bf2fd3ddf49e387e8714f"
-  integrity sha512-eFA3iJeo4byUgEYJmvK+LattpQfh/p+DCwf6ceieo2GgArOStg7R+4pJi+kahQg3MmEj1Zzgx4O0um/0OiCOhQ==
+"@selfcommunity/react-ui@^0.2.9-alpha.5":
+  version "0.2.9-alpha.5"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.2.9-alpha.5.tgz#7020d076fea2f8e3833ab69b833a38831bfaf365"
+  integrity sha512-vCOuMhMDxkgZLHQ4Z5pxWB0HKdrV8IrIJPD6Yk4zgrHV257xhqgpVPrTpNQyFoHIVZSrfrsnJNS9GbG/8BQF+w==
   dependencies:
     "@lexical/link" "^0.3.7"
     "@lexical/react" "^0.3.7"
@@ -4133,8 +4133,8 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/api-services" "^0.1.28-alpha.2"
-    "@selfcommunity/react-core" "^0.1.28-alpha.2"
+    "@selfcommunity/api-services" "^0.1.28-alpha.4"
+    "@selfcommunity/react-core" "^0.1.28-alpha.5"
     "@selfcommunity/react-i18n" "^0.1.28-alpha.0"
     "@selfcommunity/types" "^0.1.28-alpha.0"
     "@selfcommunity/utils" "^0.1.28-alpha.0"
