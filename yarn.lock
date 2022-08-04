@@ -4076,52 +4076,52 @@
     "@rpldy/shared-ui" "^0.18.0"
     "@rpldy/uploader" "^0.18.0"
 
-"@selfcommunity/api-services@^0.1.28-alpha.4":
-  version "0.1.28-alpha.4"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.28-alpha.4.tgz#4cb9e59587a04e67b80d7dd00612a0f71a944d24"
-  integrity sha512-kNzqpj9vUWeUBxwjyFQaAKKnb1bJLK5LlfD9+g+UZ/34HYhqfF79fG9lA0wphrKprBtUtQKXDqItzECgJpViAA==
+"@selfcommunity/api-services@^0.1.29":
+  version "0.1.29"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.1.29.tgz#578821303e0176f5c2da5c3492b6d839097e8c06"
+  integrity sha512-hR+mFWkJlqAeR6VWOEp3yPwMIuMxAtbfFUofZbBpbQES/G75A60fW1dQShoM0AYx044ddzyVkMzxrD8C+y9M0A==
   dependencies:
-    "@selfcommunity/types" "^0.1.28-alpha.0"
-    "@selfcommunity/utils" "^0.1.28-alpha.0"
+    "@selfcommunity/types" "^0.2.0"
+    "@selfcommunity/utils" "^0.1.29"
     axios "^0.23.0"
     jose "^4.8.1"
 
-"@selfcommunity/react-core@^0.1.28-alpha.5":
-  version "0.1.28-alpha.5"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.1.28-alpha.5.tgz#aae6502d8227774c2deff9b3c022cad0628a37cc"
-  integrity sha512-M7Votqv9aEaicLYxclKz9VxX8Peqq+dzXEVbmY5E6YLaBam0jOIGuQsnIRjHlS+U5Sgp40VofLM6iTc+NUYAXw==
+"@selfcommunity/react-core@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.2.0.tgz#36cb968bc17776596a574f300973b2936845c4a4"
+  integrity sha512-GnznN0oTWBR+1EkGeTshjJ7anWNf2VGnz8+ThltTZ7v75ObiJy9aedv4u3F5WD3vEqU2SLQ5V8aVu36HRBvo6Q==
   dependencies:
-    "@selfcommunity/api-services" "^0.1.28-alpha.4"
-    "@selfcommunity/react-i18n" "^0.1.28-alpha.0"
-    "@selfcommunity/types" "^0.1.28-alpha.0"
-    "@selfcommunity/utils" "^0.1.28-alpha.0"
+    "@selfcommunity/api-services" "^0.1.29"
+    "@selfcommunity/react-i18n" "^0.2.0"
+    "@selfcommunity/types" "^0.2.0"
+    "@selfcommunity/utils" "^0.1.29"
     pubsub-js "^1.9.4"
     react-singleton-hook "^3.4.0"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.1"
 
-"@selfcommunity/react-i18n@^0.1.28-alpha.0":
-  version "0.1.28-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.1.28-alpha.0.tgz#533249807ca5049f2f69480a232570383edadb0f"
-  integrity sha512-xFaimp7j3S0CBoNwIHUfnx2MKfQoeB5NBygi5yZB25ZZg4PpHSWzWndVT3gqqfSvSS9x+j6ihpTIVZY3hfjEfw==
+"@selfcommunity/react-i18n@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.2.0.tgz#6e567451d76df3dee758fb0830891c0bcbe74326"
+  integrity sha512-LHc/1yhPnAzv3g7BM9wcblI2QFWPZLAfrkx64Bdf9+MSWZCmG0DH4uSznJVbpZVncCeN33IZzTHsUI9wlt4STw==
 
-"@selfcommunity/react-templates@^0.1.28-alpha.5":
-  version "0.1.28-alpha.5"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.28-alpha.5.tgz#ddbcc894655ba1f8ea00cea72ddc36ab8a819729"
-  integrity sha512-vBfJT9ukVY5o86b2czoDq1YO945vOqXFgRzQYuCdrxS8Wz9QHUnsukG+Wf0uocVzq311d9yADr8ss0J2DK4ohQ==
+"@selfcommunity/react-templates@^0.1.29":
+  version "0.1.29"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.1.29.tgz#9abb1a09bcc2cb32363d8fc54fcfa4249230568c"
+  integrity sha512-Q8MDNm+JIu0BcfQB4lIWaxIBdG8vgg9FvX1+lEb46S1E8BGbhpDezhP+6pbd6470IIIjBBs47Dq5xY7Yab4ejg==
   dependencies:
-    "@selfcommunity/react-core" "^0.1.28-alpha.5"
-    "@selfcommunity/react-i18n" "^0.1.28-alpha.0"
-    "@selfcommunity/react-ui" "^0.2.9-alpha.5"
-    "@selfcommunity/types" "^0.1.28-alpha.0"
+    "@selfcommunity/react-core" "^0.2.0"
+    "@selfcommunity/react-i18n" "^0.2.0"
+    "@selfcommunity/react-ui" "^0.3.0"
+    "@selfcommunity/types" "^0.2.0"
     "@types/classnames" "^2.2.11"
     classnames "^2.2.6"
     seamless-scroll-polyfill "^2.1.8"
 
-"@selfcommunity/react-ui@^0.2.9-alpha.5":
-  version "0.2.9-alpha.5"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.2.9-alpha.5.tgz#7020d076fea2f8e3833ab69b833a38831bfaf365"
-  integrity sha512-vCOuMhMDxkgZLHQ4Z5pxWB0HKdrV8IrIJPD6Yk4zgrHV257xhqgpVPrTpNQyFoHIVZSrfrsnJNS9GbG/8BQF+w==
+"@selfcommunity/react-ui@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.3.0.tgz#fc0a43ac01873e0bf67379ad3fdbd06ddd50848e"
+  integrity sha512-lFnA9+auJpWQhIMuUxQIsvfEXd4KdjvsSxduUtm2Qnqfeqei1RdngS8KdQDUw3r0VfFhH7xOB1tri/bNQzIWoQ==
   dependencies:
     "@lexical/link" "^0.3.7"
     "@lexical/react" "^0.3.7"
@@ -4133,11 +4133,11 @@
     "@rpldy/upload-drop-zone" "^0.18.0"
     "@rpldy/upload-preview" "^0.18.0"
     "@rpldy/uploady" "^0.18.0"
-    "@selfcommunity/api-services" "^0.1.28-alpha.4"
-    "@selfcommunity/react-core" "^0.1.28-alpha.5"
-    "@selfcommunity/react-i18n" "^0.1.28-alpha.0"
-    "@selfcommunity/types" "^0.1.28-alpha.0"
-    "@selfcommunity/utils" "^0.1.28-alpha.0"
+    "@selfcommunity/api-services" "^0.1.29"
+    "@selfcommunity/react-core" "^0.2.0"
+    "@selfcommunity/react-i18n" "^0.2.0"
+    "@selfcommunity/types" "^0.2.0"
+    "@selfcommunity/utils" "^0.1.29"
     "@types/classnames" "^2.2.11"
     autosuggest-highlight "^3.1.1"
     classnames "^2.2.6"
@@ -4164,15 +4164,15 @@
     use-deep-compare-effect "^1.8.1"
     virtual-scroller "^1.9.1"
 
-"@selfcommunity/types@^0.1.28-alpha.0":
-  version "0.1.28-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.1.28-alpha.0.tgz#0f16ef1a5d2fa68605f7dec0d921dc91cbc64bb0"
-  integrity sha512-AwZUBiswrscMG6wX4wt3s48vC28d6TtZz00QZnLdZmnYxb8GDVMq7oe8niaYW0xBPpjsy98RevoTgxxmc5S+lw==
+"@selfcommunity/types@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.2.0.tgz#2a6628a206f8a988e1dccc41bc5d4c1ee1780bf8"
+  integrity sha512-ISr4e/1uXdfLQaXzG2CheTLJu64m7SVUDhYum3AcPaErNGHwIx/uL1gEfL+v6WZWrt2Q14nNo5AvHcyYxbN9nA==
 
-"@selfcommunity/utils@^0.1.28-alpha.0":
-  version "0.1.28-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.1.28-alpha.0.tgz#a9e1a14b74557f51dae3afc28ce6c0e85f7fe77c"
-  integrity sha512-JdAa6ahpTLHucxqMVtM1KGvYxbbp24pa4aeJq+FXFfAUd/bJhrbuj+Kn3h9mV/cnnZ/v7dTyB42EsLm644WWEQ==
+"@selfcommunity/utils@^0.1.29":
+  version "0.1.29"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.1.29.tgz#c5438049d52febd27aa530b5bf56b4d60b3db91f"
+  integrity sha512-l9OXV/BJ9+B6lATICHP/eZ2o8HvLMOrfpk5awu4rLhNv5GmYfwjzO4ssqmDdbr3xJtDmdVYeCYS/t9oBY752TQ==
 
 "@sideway/address@^4.1.3":
   version "4.1.3"
