@@ -12,7 +12,6 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
-
 ## HTTP Request
 
 `GET /api/v2/discussion/`
@@ -85,12 +84,6 @@ Status Code **200**
 |» results|list([Discussion](/docs/apireference/v2/schemas/discussion))|true|none|List of results|
 
 ### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
 
 ```json
 {
@@ -223,9 +216,6 @@ Status Code **200**
 }
 ```
 
-</TabItem>
-</Tabs>
-````
 
 
 

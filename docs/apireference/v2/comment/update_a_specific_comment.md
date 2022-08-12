@@ -18,10 +18,10 @@ This operation requires authentication. The logged user must be the comment crea
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post.|
-|» text|body|string|true|text for the [Comment](/docs/apireference/v2/schemas/comment), html format, it can contain some mentions|
+| Name   | In   | Type   | Required | Description                                                                                              |
+|--------|------|--------|----------|----------------------------------------------------------------------------------------------------------|
+| id     | path | string | true     | A unique integer value identifying this post.                                                            |
+| » text | body | string | true     | text for the [Comment](/docs/apireference/v2/schemas/comment), html format, it can contain some mentions |
 
 #### Example Body Parameters
 
@@ -92,17 +92,11 @@ curl -X PUT /api/v2/comment/{id}/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Comment](/docs/apireference/v2/schemas/comment)|
+| Status | Meaning                                                 | Description | Schema                                           |
+|--------|---------------------------------------------------------|-------------|--------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Comment](/docs/apireference/v2/schemas/comment) |
 
 ### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
 
 ```json
 {
@@ -137,13 +131,13 @@ curl -X PUT /api/v2/comment/{id}/ \
         "created_at": "2019-08-24T14:15:22Z"
       }
     ],
-  "reputation": 111,
-  "followings_counter": 7,
-  "followers_counter": 2,
-  "posts_counter": 4,
-  "discussions_counter": 3,
-  "statuses_counter": 0,
-  "polls_counter": 1
+    "reputation": 111,
+    "followings_counter": 7,
+    "followers_counter": 2,
+    "posts_counter": 4,
+    "discussions_counter": 3,
+    "statuses_counter": 0,
+    "polls_counter": 1
   },
   "added_at": "2019-08-24T14:15:22Z",
   "html": "string",
@@ -189,13 +183,13 @@ curl -X PUT /api/v2/comment/{id}/ \
             "created_at": "2019-08-24T14:15:22Z"
           }
         ],
-      "reputation": 111,
-      "followings_counter": 7,
-      "followers_counter": 2,
-      "posts_counter": 4,
-      "discussions_counter": 3,
-      "statuses_counter": 0,
-      "polls_counter": 1
+        "reputation": 111,
+        "followings_counter": 7,
+        "followers_counter": 2,
+        "posts_counter": 4,
+        "discussions_counter": 3,
+        "statuses_counter": 0,
+        "polls_counter": 1
       },
       "added_at": "2019-08-24T14:15:22Z",
       "html": "string",
@@ -207,16 +201,32 @@ curl -X PUT /api/v2/comment/{id}/ \
       "comments_count": 0,
       "vote_count": 0,
       "voted": false,
+      "reaction": {
+        "id": 1,
+        "label": "string",
+        "image": "url",
+        "sentiment": 10,
+        "active": true
+      },
       "flag_count": 0,
-      "comment_count": 0
+      "comment_count": 0,
+      "reactions_count": [
+        {
+          "reaction": {
+            "id": 1,
+            "label": "string",
+            "image": "url",
+            "sentiment": 10,
+            "active": true
+          },
+          "count": 1
+        }
+      ]
     }
   ]
 }
 ```
 
-</TabItem>
-</Tabs>
-````
 
 
 

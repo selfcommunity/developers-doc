@@ -4,21 +4,28 @@ sidebar_position: 1
 title: Get All Comments
 ---
 
-This endpoint retrieves all comments. 
+This endpoint retrieves all comments.
 
 :::info
 
-If the `discussion` parameter is specified the endpoint retrieves all comments of a specific [Discussion](/docs/apireference/v2/schemas/discussion).
+If the `discussion` parameter is specified the endpoint retrieves all comments of a
+specific [Discussion](/docs/apireference/v2/schemas/discussion).
 
-If the `post` parameter is specified the endpoint retrieves all comments of a specific [Post](/docs/apireference/v2/schemas/post).
+If the `post` parameter is specified the endpoint retrieves all comments of a
+specific [Post](/docs/apireference/v2/schemas/post).
 
-If the `status` parameter is specified the endpoint retrieves all comments of a specific [Status](/docs/apireference/v2/schemas/status).
+If the `status` parameter is specified the endpoint retrieves all comments of a
+specific [Status](/docs/apireference/v2/schemas/status).
 
-If the `user` parameter is specified the endpoint retrieves all comments of a specific [User](/docs/apireference/v2/schemas/user).
+If the `user` parameter is specified the endpoint retrieves all comments of a
+specific [User](/docs/apireference/v2/schemas/user).
 
-The `discussion`, `post`, `status` and `user` parameters cannot be used together and one of these parameters is mandatory.
+The `discussion`, `post`, `status` and `user` parameters cannot be used together and one of these parameters is
+mandatory.
 
-If the `parent` parameter is specified (only with `discussion`, `post` or `status`) the endpoint retrieves all comments of a specific [Discussion](/docs/apireference/v2/schemas/discussion) , [Post](/docs/apireference/v2/schemas/post) or [Status](/docs/apireference/v2/schemas/status) that has the passed parent (nested comments).
+If the `parent` parameter is specified (only with `discussion`, `post` or `status`) the endpoint retrieves all comments
+of a specific [Discussion](/docs/apireference/v2/schemas/discussion) , [Post](/docs/apireference/v2/schemas/post)
+or [Status](/docs/apireference/v2/schemas/status) that has the passed parent (nested comments).
 
 :::
 
@@ -40,23 +47,23 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|discussion|query|string|true|Id of the [Discussion](/docs/apireference/v2/schemas/discussion), required if both post, status and user parameters are not set|
-|post|query|string|true|Id of the [Post](/docs/apireference/v2/schemas/post), required if both discussion, status and user parameters are not set|
-|status|query|string|true|Id of the [Status](/docs/apireference/v2/schemas/status), required if both discussion, post and user parameters are not set|
-|user|query|string|true|Id of the [User](/docs/apireference/v2/schemas/user), required if both discussion, post and status parameters are not set|
-|parent|query|string|false|Id of the parent [Comment](/docs/apireference/v2/schemas/comment), used for retrieve nested comments|
-|ordering|query|string|false|The field for sorting use - for order desc. Default to `added_at`|
+| Name       | In    | Type    | Required | Description                                                                                                                     |
+|------------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------|
+| limit      | query | integer | false    | Number of results to return per page.                                                                                           |
+| offset     | query | integer | false    | The initial index from which to return the results.                                                                             |
+| discussion | query | string  | true     | Id of the [Discussion](/docs/apireference/v2/schemas/discussion), required if both post, status and user parameters are not set |
+| post       | query | string  | true     | Id of the [Post](/docs/apireference/v2/schemas/post), required if both discussion, status and user parameters are not set       |
+| status     | query | string  | true     | Id of the [Status](/docs/apireference/v2/schemas/status), required if both discussion, post and user parameters are not set     |
+| user       | query | string  | true     | Id of the [User](/docs/apireference/v2/schemas/user), required if both discussion, post and status parameters are not set       |
+| parent     | query | string  | false    | Id of the parent [Comment](/docs/apireference/v2/schemas/comment), used for retrieve nested comments                            |
+| ordering   | query | string  | false    | The field for sorting use - for order desc. Default to `added_at`                                                               |
 
 #### Enumerated Values
 
-|Parameter|Value|Description|
-|---|---|---|
-|» ordering|added_at|Order by added_at comment field|
-|» ordering|connection|Order giving pripority to user connections (friends or followers)|
+| Parameter  | Value      | Description                                                       |
+|------------|------------|-------------------------------------------------------------------|
+| » ordering | added_at   | Order by added_at comment field                                   |
+| » ordering | connection | Order giving pripority to user connections (friends or followers) |
 
 ### Example Request
 
@@ -102,28 +109,22 @@ curl -X GET /api/v2/comment/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+| Status | Meaning                                                 | Description | Schema |
+|--------|---------------------------------------------------------|-------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|[[Comment](/docs/apireference/v2/schemas/comment)]|false|none|none|
+| Name       | Type                                               | Required | Restrictions | Description |
+|------------|----------------------------------------------------|----------|--------------|-------------|
+| » count    | integer                                            | false    | none         | none        |
+| » next     | string(uri)¦null                                   | false    | none         | none        |
+| » previous | string(uri)¦null                                   | false    | none         | none        |
+| » results  | [[Comment](/docs/apireference/v2/schemas/comment)] | false    | none         | none        |
 
 ### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
 
 ```json
 {
@@ -136,7 +137,7 @@ Status Code **200**
       "discussion": {
         "id": 0,
         "slug": "string"
-        },          
+      },
       "author": {
         "id": 0,
         "username": "string",
@@ -166,13 +167,13 @@ Status Code **200**
             "created_at": "2019-08-24T14:15:22Z"
           }
         ],
-      "reputation": 111,
-      "followings_counter": 7,
-      "followers_counter": 2,
-      "posts_counter": 4,
-      "discussions_counter": 3,
-      "statuses_counter": 0,
-      "polls_counter": 1
+        "reputation": 111,
+        "followings_counter": 7,
+        "followers_counter": 2,
+        "posts_counter": 4,
+        "discussions_counter": 3,
+        "statuses_counter": 0,
+        "polls_counter": 1
       },
       "added_at": "2019-08-24T14:15:22Z",
       "html": "string",
@@ -218,7 +219,7 @@ Status Code **200**
                 "created_at": "2019-08-24T14:15:22Z"
               }
             ],
-          "reputation": 111,
+            "reputation": 111
           },
           "added_at": "2019-08-24T14:15:22Z",
           "html": "string",
@@ -228,21 +229,35 @@ Status Code **200**
           "parent": 0,
           "in_reply_to": 0,
           "comments_count": 0,
-          "vote_count": 0,
+          "vote_count": 1,
           "voted": false,
+          "reaction": {
+            "id": 1,
+            "label": "string",
+            "image": "url",
+            "sentiment": 10,
+            "active": true
+          },
           "flag_count": 0,
-          "comment_count": 0
+          "comment_count": 0,
+          "reactions_count": [
+            {
+              "reaction": {
+                "id": 1,
+                "label": "string",
+                "image": "url",
+                "sentiment": 10,
+                "active": true
+              },
+              "count": 1
+            }
+          ]
         }
       ]
     }
   ]
 }
 ```
-
-</TabItem>
-</Tabs>
-````
-
 
 
 

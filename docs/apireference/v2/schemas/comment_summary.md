@@ -37,7 +37,7 @@ title: Comment Summary
         "created_at": "2019-08-24T14:15:22Z"
       }
     ],
-    "reputation":111
+    "reputation": 111
   },
   "added_at": "2019-08-24T14:15:22Z",
   "html": "string",
@@ -49,8 +49,27 @@ title: Comment Summary
   "comments_count": 0,
   "vote_count": 0,
   "voted": false,
+  "reaction": {
+    "id": 1,
+    "label": "string",
+    "image": "url",
+    "sentiment": 10,
+    "active": true
+  },
   "flag_count": 0,
-  "comment_count": 0
+  "comment_count": 0,
+  "reactions_count": [
+    {
+      "reaction": {
+        "id": 1,
+        "label": "string",
+        "image": "url",
+        "sentiment": 10,
+        "active": true
+      },
+      "count": 1
+    }
+  ]
 }
 
 ```

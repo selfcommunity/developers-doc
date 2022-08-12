@@ -4,7 +4,7 @@ sidebar_position: 7
 title: Get List of Votes for a Specific Comment
 ---
 
-This endpoint retrieves all votes for a specific comment.
+This endpoint retrieves all votes, with the relative reaction, for a specific comment.
 
 :::info
 
@@ -12,18 +12,17 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
-
 ## HTTP Request
 
 `GET /api/v2/comment/{id}/vote/`
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this comment.|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+| Name   | In    | Type    | Required | Description                                         |
+|--------|-------|---------|----------|-----------------------------------------------------|
+| id     | path  | string  | true     | A unique integer value identifying this comment.    |
+| limit  | query | integer | false    | Number of results to return per page.               |
+| offset | query | integer | false    | The initial index from which to return the results. |
 
 ### Example Request
 
@@ -76,7 +75,6 @@ curl -X GET /api/v2/comment/{id}/vote/ \
 
 ### Example responses
 
-
 ````mdx-code-block
 
 <Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
@@ -116,6 +114,13 @@ curl -X GET /api/v2/comment/{id}/vote/ \
         "discussions_counter": 3,
         "statuses_counter": 0,
         "polls_counter": 1
+      },
+      "reaction": {
+        "id": 1,
+        "label": "string",
+        "image": "url",
+        "sentiment": 1,
+        "active": true
       },
       "voted_at": "2019-08-24T14:15:22Z"
     }
