@@ -30,11 +30,11 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-| Name     | In   | Type           | Required | Description                                                                                                                                                                                                                                                         |
-|----------|------|----------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| username | body | string         | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                                   |
-| email    | body | string         | false    | The email of the user.                                                                                                                                                                                                                                              |
-| password | body | string         | false    | The password of the user. If passed, the password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&). |
+| Name     | In   | Type           | Required | Description                                                                                                                                                                                                                                              |
+|----------|------|----------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| username | body | string         | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                        |
+| email    | body | string         | false    | The email of the user.                                                                                                                                                                                                                                   |
+| password | body | string         | false    | The password of the user. The password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&). |
 
 #### Example Body Parameters
 
@@ -42,7 +42,7 @@ This operation requires authentication and admin role.
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }, { label: 'YAML', value: 'yaml', }]}>
+<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', },]}>
 <TabItem value="json">
 
 ```json
@@ -53,16 +53,6 @@ import TabItem from '@theme/TabItem';
 }
 ```
 </TabItem>
-
-<TabItem value="yaml">
-
-```yaml
-username: string
-email: string
-password: string
-```
-
-</TabItem>
 </Tabs>
 ````
 
@@ -70,13 +60,14 @@ password: string
 
 ````mdx-code-block
 
-<Tabs defaultValue="js" values={[{ label: 'JavaScript', value: 'js', }, { label: 'Bash', value: 'bash', }, { label: 'Python', value: 'py', }]}>
+<Tabs defaultValue="js" values={[{ label: 'JavaScript', value: 'js', }, { label: 'Bash', value: 'bash', }]}>
 <TabItem value="js">
 
 ```js
 const inputBody = '{
   "username": "string",
-  "ext_id": 0
+  "email": "string",
+  "password": "string"
 }';
 const headers = {
   'Authorization':'Bearer {access_token}',
@@ -84,7 +75,7 @@ const headers = {
   'Accept':'application/json'
 };
 
-fetch('/api/v2/sso/signup/',
+fetch('/api/v2/account/create/',
 {
   method: 'POST',
   body: inputBody,
@@ -110,29 +101,12 @@ curl -X POST /api/v2/sso/signup/ \
   -H 'Accept: application/json'
   -d '{
     "username": "string",
-    "ext_id": 0
+    "email": "string",
+    "password": "string"
  }'
 ```
 </TabItem>
 
-
-<TabItem value="py">
-
-```py
-import requests
-headers = {
-  'Authorization': 'Bearer {access_token}',
-  'Content-Type': 'application/json',
-  'Accept': 'application/json'
-}
-payload = '{"username": "string","ext_id": 0}'
-
-r = requests.post('/api/v2/sso/signup/', headers = headers, data = payload)
-
-print(r.json())
-```
-
-</TabItem>
 </Tabs>
 
 ````
@@ -150,11 +124,8 @@ Status Code **201**
 | Name       | Type           | Required | Restrictions | Description                                           |
 |------------|----------------|----------|--------------|-------------------------------------------------------|
 | » id       | integer        | true     | none         | The unique internal id associated to the created user |
-| » ext_id   | integer¦null   | true     | none         | A unique external id identifying the user             |
 | » username | string         | true     | none         | Username of the registered user                       |
-| » email    | string         | false    | none         | Email of the registered user                          |
-| » role     | string¦null    | false    | none         | Role of the user; it can be: admin, moderator, editor |
-| » tags     | [integer]¦null | false    | none         | List of tags id                                       |
+| » email    | string         | true     | none         | Email of the registered user                          |
 
 ### Example responses
 
@@ -167,12 +138,8 @@ Status Code **201**
 ```json
 {
   "id": 0,
-  "ext_id": 0,
   "username": "string",
-  "role": "string",
-  "tags": [
-    0
-  ]
+  "email": "string"
 }
 ```
 
