@@ -1,10 +1,10 @@
 ---
-sidebar_label: Create
+sidebar_label: Create an account
 sidebar_position: 1
-title: Create
+title: Create an account
 ---
 
-Creates a new user account
+Create a new user account
 
 :::info
 
@@ -35,26 +35,6 @@ This operation requires authentication and admin role.
 | username | body | string         | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                        |
 | email    | body | string         | false    | The email of the user.                                                                                                                                                                                                                                   |
 | password | body | string         | false    | The password of the user. The password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&). |
-
-#### Example Body Parameters
-
-````mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', },]}>
-<TabItem value="json">
-
-```json
-{
-  "username": "string",
-  "email": "string",
-  "password": "string"
-}
-```
-</TabItem>
-</Tabs>
-````
 
 ### Example Request
 
@@ -121,11 +101,11 @@ curl -X POST /api/v2/sso/signup/ \
 
 Status Code **201**
 
-| Name       | Type           | Required | Restrictions | Description                                           |
-|------------|----------------|----------|--------------|-------------------------------------------------------|
-| » id       | integer        | true     | none         | The unique internal id associated to the created user |
-| » username | string         | true     | none         | Username of the registered user                       |
-| » email    | string         | true     | none         | Email of the registered user                          |
+| Name     | Type    | Restrictions | Description                                           |
+|----------|---------|--------------|-------------------------------------------------------|
+| id       | integer | none         | The unique internal id associated to the created user |
+| username | string  | none         | Username of the registered user                       |
+| email    | string  | none         | Email of the registered user                          |
 
 ### Example responses
 

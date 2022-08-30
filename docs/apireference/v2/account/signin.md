@@ -23,25 +23,6 @@ This operation does not require authentication
 | username | body | string | true     | The username of the user. |
 | password | body | string | true     | The password of the user. |
 
-#### Example Body Parameters
-
-````mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', },]}>
-<TabItem value="json">
-
-```json
-{
-  "username": "string",
-  "password": "string"
-}
-```
-</TabItem>
-</Tabs>
-````
-
 ### Example Request
 
 ````mdx-code-block
@@ -103,12 +84,11 @@ curl -X POST /api/v2/account/signin/ \
 
 Status Code **200**
 
-| Name  | Type       | Required | Restrictions | Description  |
-|-------|------------|----------|--------------|--------------|
-| token | dictionary | true     | none         | Token fields |
+| Name  | Type       | Restrictions | Description  |
+|-------|------------|--------------|--------------|
+| token | dictionary | none         | Token fields |
 
 ### Example responses
-
 
 ````mdx-code-block
 
