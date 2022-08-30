@@ -18,16 +18,22 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                               |
-|----------|-------|---------|----------|-------------------------------------------|
-| username | query | string  | false    | The username of the user.                 |
-| email    | query | string  | false    | The email of the user.                    |
-| ext_id   | query | integer | false    | A unique external id identifying the user |
-| provider | query | string  | false    | The external provider of the ext_id.      |
+| Name     | In    | Type   | Required | Description                               |
+|----------|-------|--------|----------|-------------------------------------------|
+| username | query | string | false    | The username of the user.                 |
+| email    | query | string | false    | The email of the user.                    |
+| ext_id   | query | string | false    | A unique external id identifying the user |
+| provider | query | string | false    | The external provider of the ext_id.      |
 
 :::info
 
 You can pass in the query only one between: username, email or the pair ext_id and provider
+
+:::
+
+:::info
+
+If you are using a custom provider you can pass 'external' as provider parameter. 
 
 :::
 
