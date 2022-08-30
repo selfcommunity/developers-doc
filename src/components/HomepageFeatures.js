@@ -18,17 +18,17 @@ const FeatureList = [
         Svg: require('../../static/img/api_reference.svg').default,
         description: (
             <>
-                Harness the power of our v2 APIs.<br/>Discover the endpoints you can use to build innovative community
+                Harness the power of our v2 APIs.<br/>Discover the endpoints you can use to build innovative Community
                 solutions.
             </>
         ),
     },
     {
         title: <Link to="/docs/sdk/community-js/intro">Community-JS SDK</Link>,
-        Svg: require('../../static/img/api.svg').default,
+        Svg: require('../../static/img/sdk.svg').default,
         description: (
             <>
-                Quickly embed a beautiful community within your eCommerce, Website or APP.<br/>
+                Quickly embed a powerful Community within your eCommerce, Website or APP.<br/>
                 A set of React Components for integrating an empowered Social Networking Technology Community in your frontend.
             </>
         ),

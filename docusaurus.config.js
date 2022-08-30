@@ -9,7 +9,7 @@ const globs = require('glob-all');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SelfCommunity Developers',
-  tagline: 'Build amazing community solutions powered by the SelfCommunity platform',
+  tagline: 'Build amazing Community solutions powered by the SelfCommunity platform',
   url: 'https://developers.selfcommunity.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
