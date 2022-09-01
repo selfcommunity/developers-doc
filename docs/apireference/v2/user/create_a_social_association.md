@@ -1,6 +1,6 @@
 ---
 sidebar_label: Create a social association
-sidebar_position: 100
+sidebar_position: 200
 title: Create a social association
 ---
 
@@ -84,22 +84,9 @@ curl -X POST /api/v2/user/provider/ \
 
 ## Responses
 
-| Status | Meaning                                                      | Description | Schema |
-|--------|--------------------------------------------------------------|-------------|--------|
-| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | none        | Inline |
-
-### Response Schema
-
-Status Code **201**
-
-| Name            | Type    | 
-|-----------------|---------|
-| user_id         | integer |
-| provider        | string  | 
-| ext_id          | string  | 
-| profile_url     | string  | 
-| provider        | string  | 
-| show_in_profile | bool    | 
+| Status | Meaning                                                      | Schema                                                                         |
+|--------|--------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | [User External Provider](/docs/apireference/v2/schemas/user_external_provider) |
 
 ### Example responses
 
