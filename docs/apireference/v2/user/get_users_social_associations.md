@@ -8,7 +8,7 @@ This endpoint retrieves all user's social associations.
 
 :::info
 
-This operation requires authentication and the user must be the same or admin role to view all the associations.
+This operation requires authentication and the user must be the same or must have the admin role to view all the associations.
 
 :::
 
