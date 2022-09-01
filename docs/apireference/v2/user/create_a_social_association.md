@@ -4,8 +4,6 @@ sidebar_position: 200
 title: Create a social association
 ---
 
-Create a social association
-
 :::info
 
 This operation requires authentication and the user must be the same or must have the admin role.

@@ -44,7 +44,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/user/provider/',
+fetch('/api/v2/user/provider/?user_id=11',
 {
   method: 'GET',
   headers: headers
