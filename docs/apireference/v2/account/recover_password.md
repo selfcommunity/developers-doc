@@ -6,7 +6,8 @@ title: Recover password
 
 Using this endpoint the user will receive an email with the link to reset his password.
 The link contains a validation_code which can be used in the next call to reset the password.
-eg: http://[...]/account/recover/password?validation_code=d73832396a1b0c2511cf166147a3e2440a&next=/
+
+`eg: http://[...]/account/recover/password?validation_code=d73832396a1b0c2511cf166147a3e2440a&next=/`
 
 :::info
 
