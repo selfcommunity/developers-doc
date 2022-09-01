@@ -75,7 +75,7 @@ fetch('/api/v2/account/create/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/sso/signup/ \
+curl -X POST /api/v2/account/create/ \
   -H 'Authorization: Bearer {access_token}'
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json'
