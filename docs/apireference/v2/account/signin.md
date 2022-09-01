@@ -84,9 +84,9 @@ curl -X POST /api/v2/account/signin/ \
 
 Status Code **200**
 
-| Name  | Type       | Restrictions | Description  |
-|-------|------------|--------------|--------------|
-| token | dictionary | none         | Token fields |
+| Name  | Type                                         | Restrictions | Description  |
+|-------|----------------------------------------------|--------------|--------------|
+| token | [Token](/docs/apireference/v2/schemas/token) | none         | Token fields |
 
 ### Example responses
 
