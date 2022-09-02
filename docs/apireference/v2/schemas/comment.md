@@ -97,29 +97,39 @@ title: Comment
       "parent": 0,
       "in_reply_to": 0,
       "comments_count": 0,
-      "vote_count": 0,
-      "voted": false,
-      "reaction": {
-        "id": 1,
-        "label": "string",
-        "image": "url",
-        "sentiment": 10,
-        "active": true
-      },
-      "flag_count": 0,
-      "comment_count": 0,
+      "vote_count": 4,
       "reactions_count": [
         {
           "reaction": {
             "id": 1,
-            "label": "string",
-            "image": "url",
-            "sentiment": 10,
+            "label": "Mi piace",
+            "image": "reactions/like.svg",
+            "sentiment": 1,
             "active": true
           },
           "count": 1
+        },
+        {
+          "reaction": {
+            "id": 2,
+            "label": "Indifferente",
+            "image": "reactions/indifferent.png",
+            "sentiment": 0,
+            "active": true
+          },
+          "count": 3
         }
-      ]
+      ],
+      "voted": true,
+      "reaction": {
+        "id": 2,
+        "label": "Indifferente",
+        "image": "reactions/indifferent.png",
+        "sentiment": 0,
+        "active": true
+      },
+      "flag_count": 0,
+      "comment_count": 0
     }
   ]
 }
@@ -142,12 +152,12 @@ title: Comment
 | collapsed       | boolean                                                               | false    | read-only    | Is this comment collapsed                                                                                     |
 | parent          | integer¦null                                                          | false    | none         | Id of the parent [Comment](/docs/apireference/v2/schemas/comment)                                             |
 | in_reply_to     | integer¦null                                                          | false    | none         | Id of the reply [Comment](/docs/apireference/v2/schemas/comment), it must have the same `parent` and `object` |
-| vote_count      | integer                                                               | false    | read-only    | none                                                                                                          |
-| voted           | boolean                                                               | false    | read-only    | true if the logged user has already voted the comment                                                         |
-| reaction        | [Reaction](/docs/apireference/v2/schemas/reaction)                    | false    | read-only    | Reaction of the logged user (if he voted the comment)                                                         |
+| vote_count      | integer                                                               | false    | read-only    | Number of votes/reactions associated to this contribution                                                     |
+| reactions_count | list([Reaction](/docs/apireference/v2/schemas/reaction))              | false    | read-only    | Reactions associated to this contribution                                                                     |
+| voted           | boolean                                                               | false    | read-only    | true if the logged user has already voted this contribution                                                   |
+| reaction        | [Reaction](/docs/apireference/v2/schemas/reaction)                    | false    | read-only    | Reaction of the logged user (if he voted this contribution)                                                   |
 | flag_count      | integer                                                               | false    | read-only    | none                                                                                                          |
 | comment_count   | integer                                                               | false    | read-only    | none                                                                                                          |
-| reactions_count | array of dictionaries                                                 | false    | read-only    | Reactions associated to the comment                                                                           |
 | text            | string                                                                | true     | write-only   | none                                                                                                          |
 | latest_comments | list([CommentSummary](/docs/apireference/v2/schemas/comment_summary)) | false    | read-only    | none                                                                                                          |
 

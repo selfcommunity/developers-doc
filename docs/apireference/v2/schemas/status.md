@@ -87,8 +87,37 @@ title: Status
   "deleted": true,
   "collapsed": false,
   "comment_count": 0,
-  "vote_count": 0,
-  "voted": false,
+  "vote_count": 4,
+  "reactions_count": [
+    {
+      "reaction": {
+        "id": 1,
+        "label": "Mi piace",
+        "image": "reactions/like.svg",
+        "sentiment": 1,
+        "active": true
+      },
+      "count": 1
+    },
+    {
+      "reaction": {
+        "id": 2,
+        "label": "Indifferente",
+        "image": "reactions/indifferent.png",
+        "sentiment": 0,
+        "active": true
+      },
+      "count": 3
+    }
+  ],
+  "voted": true,
+  "reaction": {
+    "id": 2,
+    "label": "Indifferente",
+    "image": "reactions/indifferent.png",
+    "sentiment": 0,
+    "active": true
+  },
   "followed": false,
   "suspended": true,
   "flag_count": 0,
@@ -100,30 +129,32 @@ title: Status
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|none|
-|type|string|false|read-only|none|
-|action|string|true|none|none|
-|categories|list([Category](/docs/apireference/v2/schemas/category))|true|none|none|
-|medias|list([Media](/docs/apireference/v2/schemas/media))|false|none|none|
-|location|object¦null|false|none|none|
-|» location|string¦null|true|none|none|
-|» lat|number¦null|true|none|none|
-|» lng|number¦null|true|none|none|
-|last_activity_at|string(date-time)|false|read-only|none|
-|author|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
-|added_at|string(date-time)|false|read-only|none|
-|html|string|false|read-only|none|
-|summary|string|false|read-only|none|
-|deleted|boolean|false|read-only|none|
-|collapsed|string|false|read-only|none|
-|comment_count|integer|false|read-only|none|
-|share_count|integer|false|read-only|none|
-|vote_count|integer|false|read-only|none|
-|voted|boolean|false|read-only|true if the logged user has already voted the status|
-|followed|boolean|false|read-only|true if the logged user follows the status|
-|suspended|boolean|false|read-only|true if the logged user has suspended the notifications for the status|
-|flag_count|integer|false|read-only|none|
-|addressing|[integer]|false|none|none|
+| Name             | Type                                                     | Required | Restrictions | Description                                                            |
+|------------------|----------------------------------------------------------|----------|--------------|------------------------------------------------------------------------|
+| id               | integer                                                  | false    | read-only    | none                                                                   |
+| type             | string                                                   | false    | read-only    | none                                                                   |
+| action           | string                                                   | true     | none         | none                                                                   |
+| categories       | list([Category](/docs/apireference/v2/schemas/category)) | true     | none         | none                                                                   |
+| medias           | list([Media](/docs/apireference/v2/schemas/media))       | false    | none         | none                                                                   |
+| location         | object¦null                                              | false    | none         | none                                                                   |
+| » location       | string¦null                                              | true     | none         | none                                                                   |
+| » lat            | number¦null                                              | true     | none         | none                                                                   |
+| » lng            | number¦null                                              | true     | none         | none                                                                   |
+| last_activity_at | string(date-time)                                        | false    | read-only    | none                                                                   |
+| author           | [User](/docs/apireference/v2/schemas/user)               | false    | read-only    | none                                                                   |
+| added_at         | string(date-time)                                        | false    | read-only    | none                                                                   |
+| html             | string                                                   | false    | read-only    | none                                                                   |
+| summary          | string                                                   | false    | read-only    | none                                                                   |
+| deleted          | boolean                                                  | false    | read-only    | none                                                                   |
+| collapsed        | string                                                   | false    | read-only    | none                                                                   |
+| comment_count    | integer                                                  | false    | read-only    | none                                                                   |
+| share_count      | integer                                                  | false    | read-only    | none                                                                   |
+| vote_count       | integer                                                  | false    | read-only    | Number of votes/reactions associated to this contribution              |
+| reactions_count  | list([Reaction](/docs/apireference/v2/schemas/reaction)) | false    | read-only    | Reactions associated to this contribution                              |
+| voted            | boolean                                                  | false    | read-only    | true if the logged user has already voted this contribution            |
+| reaction         | [Reaction](/docs/apireference/v2/schemas/reaction)       | false    | read-only    | Reaction of the logged user (if he voted this contribution)            |
+| followed         | boolean                                                  | false    | read-only    | true if the logged user follows the status                             |
+| suspended        | boolean                                                  | false    | read-only    | true if the logged user has suspended the notifications for the status |
+| flag_count       | integer                                                  | false    | read-only    | none                                                                   |
+| addressing       | [integer]                                                | false    | none         | none                                                                   |
 
