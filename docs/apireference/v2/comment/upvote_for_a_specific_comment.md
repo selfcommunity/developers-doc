@@ -23,12 +23,6 @@ This operation requires authentication
 | id       | path  | string | true     | A unique integer value identifying this comment.                |
 | reaction | query | string | false    | A unique integer value identifying the reaction (default is 1). |
 
-<h4 id="votecreatecomment-responses">Responses</h4>
-
-| Status | Meaning                                                         | Description | Schema |
-|--------|-----------------------------------------------------------------|-------------|--------|
-| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | none        | None   |
-
 ### Example Request
 
 ````mdx-code-block
@@ -75,6 +69,11 @@ curl -X POST /api/v2/comment/{id}/vote/ \
 </Tabs>
 ````
 
+## Responses
+
+| Status | Meaning                                                         | Description | Schema |
+|--------|-----------------------------------------------------------------|-------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | none        | None   |
 
 
 

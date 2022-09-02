@@ -4,7 +4,7 @@ sidebar_position: 7
 title: Get List of Votes for a Specific Comment
 ---
 
-This endpoint retrieves all votes, with the relative reaction, for a specific comment.
+This endpoint retrieves all votes (with the relative reactions) for a specific comment.
 
 :::info
 
@@ -69,9 +69,9 @@ curl -X GET /api/v2/comment/{id}/vote/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Vote](/docs/apireference/v2/schemas/vote)|
+| Status | Meaning                                                 | Description | Schema                                     |
+|--------|---------------------------------------------------------|-------------|--------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Vote](/docs/apireference/v2/schemas/vote) |
 
 ### Example responses
 

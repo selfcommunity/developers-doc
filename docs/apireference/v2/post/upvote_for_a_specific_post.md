@@ -4,7 +4,7 @@ sidebar_position: 9
 title: Upvote for a Specific Post
 ---
 
-This endpoint upvotes a specific post
+This endpoint upvotes (with a relative reaction) a specific post
 
 :::info
 
@@ -18,9 +18,10 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post.|
+| Name     | In    | Type   | Required | Description                                                     |
+|----------|-------|--------|----------|-----------------------------------------------------------------|
+| id       | path  | string | true     | A unique integer value identifying this post.                   |
+| reaction | query | string | false    | A unique integer value identifying the reaction (default is 1). |
 
 ### Example Request
 
@@ -38,7 +39,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/post/{id}/vote/',
+fetch('/api/v2/post/{id}/vote/?reaction=1',
 {
   method: 'POST',
   headers: headers
@@ -57,7 +58,7 @@ fetch('/api/v2/post/{id}/vote/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/post/{id}/vote/ \
+curl -X POST /api/v2/post/{id}/vote/?reaction=1 \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
@@ -69,9 +70,9 @@ curl -X POST /api/v2/post/{id}/vote/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+| Status | Meaning                                                         | Description | Schema |
+|--------|-----------------------------------------------------------------|-------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | none        | None   |
 
 
 

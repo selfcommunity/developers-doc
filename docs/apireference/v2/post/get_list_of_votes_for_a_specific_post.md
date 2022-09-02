@@ -4,7 +4,7 @@ sidebar_position: 8
 title: Get List of Votes for a Specific Post
 ---
 
-This endpoint retrieves all votes for a specific post
+This endpoint retrieves all votes (with the relative reactions) for a specific post
 
 :::info
 
@@ -18,11 +18,11 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post.|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+| Name   | In    | Type    | Required | Description                                         |
+|--------|-------|---------|----------|-----------------------------------------------------|
+| id     | path  | string  | true     | A unique integer value identifying this post.       |
+| limit  | query | integer | false    | Number of results to return per page.               |
+| offset | query | integer | false    | The initial index from which to return the results. |
 
 ### Example Request
 
@@ -42,7 +42,6 @@ const headers = {
 fetch('/api/v2/post/{id}/vote/',
 {
   method: 'GET',
-
   headers: headers
 })
 .then(function(res) {
@@ -70,15 +69,14 @@ curl -X GET /api/v2/post/{id}/vote/ \
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|true|none|Total results count|
-|» next|string¦null|false|none|Next page url|
-|» previous|string¦null|false|none|Previous page url|
-|» results|list([Vote](/docs/apireference/v2/schemas/vote))|true|none|List of results|
+| Name       | Type                                             | Required | Restrictions | Description         |
+|------------|--------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                          | true     | none         | Total results count |
+| » next     | string¦null                                      | false    | none         | Next page url       |
+| » previous | string¦null                                      | false    | none         | Previous page url   |
+| » results  | list([Vote](/docs/apireference/v2/schemas/vote)) | true     | none         | List of results     |
 
 ### Example responses
-
 
 ````mdx-code-block
 
@@ -132,6 +130,13 @@ Status Code **200**
           "statuses_counter": 0,
           "polls_counter": 0
         },
+        "reaction": {
+            "id": 1,
+            "label": "string",
+            "image": "url",
+            "sentiment": 1,
+            "active": true
+        },        
         "voted_at": "2019-08-24T14:15:22Z"
         }
   ]

@@ -4,14 +4,13 @@ sidebar_position: 8
 title: Get List of Votes for a Specific Status
 ---
 
-This endpoint retrieves all votes for a specific status
+This endpoint retrieves all votes (with the relative reactions) for a specific status
 
 :::info
 
 This operation requires authentication only if `content_availability` community option is false.
 
 :::
-
 
 ## HTTP Request
 
@@ -71,16 +70,14 @@ curl -X GET /api/v2/status/{id}/vote/ \
 
 Status Code **200**
 
-| Name       | Type                      | Required | Restrictions | Description         |
-|------------|---------------------------|----------|--------------|---------------------|
-| » count    | integer                   | true     | none         | Total results count |
-| » next     | string¦null               | false    | none         | Next page url       |
-| » previous | string¦null               | false    | none         | Previous page url   |
+| Name       | Type                                             | Required | Restrictions | Description         |
+|------------|--------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                          | true     | none         | Total results count |
+| » next     | string¦null                                      | false    | none         | Next page url       |
+| » previous | string¦null                                      | false    | none         | Previous page url   |
 | » results  | list([Vote](/docs/apireference/v2/schemas/vote)) | true     | none         | List of results     |
 
-
 ### Example responses
-
 
 ````mdx-code-block
 
@@ -134,6 +131,13 @@ Status Code **200**
           "statuses_counter": 0,
           "polls_counter": 0
         },
+        "reaction": {
+            "id": 1,
+            "label": "string",
+            "image": "url",
+            "sentiment": 1,
+            "active": true
+        },        
         "voted_at": "2019-08-24T14:15:22Z"
         }
   ]

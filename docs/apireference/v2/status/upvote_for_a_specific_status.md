@@ -4,7 +4,7 @@ sidebar_position: 9
 title: Upvote for a Specific Status
 ---
 
-This endpoint upvotes a specific status
+This endpoint upvotes (with a relative reaction) a specific status
 
 :::info
 
@@ -18,9 +18,10 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                     |
-|------|------|--------|----------|-------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this status. |
+| Name     | In    | Type   | Required | Description                                                     |
+|----------|-------|--------|----------|-----------------------------------------------------------------|
+| id       | path  | string | true     | A unique integer value identifying this status.                 |
+| reaction | query | string | false    | A unique integer value identifying the reaction (default is 1). |
 
 ### Example Request
 
@@ -38,7 +39,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/status/{id}/vote/',
+fetch('/api/v2/status/{id}/vote/?reaction=1',
 {
   method: 'POST',
   headers: headers
@@ -56,7 +57,7 @@ fetch('/api/v2/status/{id}/vote/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/status/{id}/vote/ \
+curl -X POST /api/v2/status/{id}/vote/?reaction=1 \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
