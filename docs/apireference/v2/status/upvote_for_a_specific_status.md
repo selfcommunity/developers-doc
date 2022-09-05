@@ -23,6 +23,12 @@ This operation requires authentication.
 | id       | path  | string | true     | A unique integer value identifying this status.                 |
 | reaction | query | string | false    | A unique integer value identifying the reaction (default is 1). |
 
+:::info
+
+If a different reaction id than the one made previously by the user is passed, the reaction is updated to the new one.
+
+:::
+
 ### Example Request
 
 ````mdx-code-block

@@ -23,6 +23,18 @@ This operation requires authentication
 | id       | path  | string | true     | A unique integer value identifying this comment.                                   |
 | reaction | query | string | false    | A unique integer value identifying the reaction you want to remove (default is 1). |
 
+:::info
+
+To remove a reaction it is necessary to pass the id of the reaction made previously by the user.
+
+:::
+
+:::info
+
+If a different reaction id than the one made previously by the user is passed, the reaction is updated to the new one.
+
+:::
+
 ### Example Request
 
 ````mdx-code-block

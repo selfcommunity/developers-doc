@@ -4,7 +4,7 @@ sidebar_position: 10
 title: Remove an upvote for a Specific Post
 ---
 
-This endpoint removes an upvote for a specific post
+This endpoint removes a vote/reaction for a specific post
 
 :::info
 
@@ -18,9 +18,22 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post.|
+| Name     | In    | Type   | Required | Description                                                                        |
+|----------|-------|--------|----------|------------------------------------------------------------------------------------|
+| id       | path  | string | true     | A unique integer value identifying this post.                                      |
+| reaction | query | string | false    | A unique integer value identifying the reaction you want to remove (default is 1). |
+
+:::info
+
+To remove a reaction it is necessary to pass the id of the reaction made previously by the user.
+
+:::
+
+:::info
+
+If a different reaction id than the one made previously by the user is passed, the reaction is updated to the new one.
+
+:::
 
 ### Example Request
 
@@ -69,9 +82,9 @@ curl -X POST /api/v2/post/{id}/vote/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+| Status | Meaning                                                         | Description | Schema |
+|--------|-----------------------------------------------------------------|-------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | none        | None   |
 
 
 
