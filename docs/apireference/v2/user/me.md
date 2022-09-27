@@ -59,9 +59,9 @@ curl -X GET /api/v2/user/me/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](/docs/apireference/v2/schemas/user)|
+| Status | Meaning                                                 | Description | Schema                                     |
+|--------|---------------------------------------------------------|-------------|--------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [User](/docs/apireference/v2/schemas/user) |
 
 ### Example responses
 
@@ -100,6 +100,8 @@ curl -X GET /api/v2/user/me/ \
   "discussions_counter": 4,
   "statuses_counter": 1,
   "polls_counter": 6,
+  "connection_status": "string",
+  "categories_counter": 4,
   "unseen_interactions_counter": 0,
   "unseen_notification_banners_counter": 1,
   "permission": {

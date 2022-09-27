@@ -18,9 +18,9 @@ This operation does not require authentication only if `configurations.content_a
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
+| Name | In   | Type   | Required | Description                                   |
+|------|------|--------|----------|-----------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this user. |
 
 ### Example Request
 
@@ -63,21 +63,22 @@ curl -X GET /api/v2/user/{id}/counters/ \
 
 ## Responses
 
-|Status|Meaning|
-|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|
+| Status | Meaning                                                 |
+|--------|---------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) |
 
-|Field|Description|Note|
-|---|---|---|
-|discussions_counter|Number of discussions created by the user|Only if dynamic preference `configurations.discussion_type_enabled` is `true`|
-|posts_counter|Number of posts created by the user|Only if dynamic preference `configurations.post_type_enabled` is `true`|
-|statuses_counter|Number of statuses created by the user|Only if dynamic preference `configurations.status_type_enabled` is `true`|
-|polls_counter|Number of polls created by the user|Only if dynamic preference `addons.polls_enabled` is `true` or if the user has a staff role|
-|followings_counter|Number of followings of the user|Only if dynamic preference `configurations.follow_enabled` is `true`|
-|followers_counter|Number of followers of the user|Only if dynamic preference `configurations.follow_enabled` is `true`|
-|connection_requests_sent_counter|Number of connection requests sent by the user|Only if dynamic preference `configurations.follow_enabled` is `false`|
-|connection_requests_received_counter|Number of connection requests received by the user|Only if dynamic preference `configurations.follow_enabled` is `false`|
-|connections_counter|Number of connections of the user|Only if dynamic preference `configurations.follow_enabled` is `false`|
+| Field                        | Description                                        | Note                                                                                        |
+|------------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------------|
+| discussions                  | Number of discussions created by the user          | Only if dynamic preference `configurations.discussion_type_enabled` is `true`               |
+| posts                        | Number of posts created by the user                | Only if dynamic preference `configurations.post_type_enabled` is `true`                     |
+| statuses                     | Number of statuses created by the user             | Only if dynamic preference `configurations.status_type_enabled` is `true`                   |
+| polls                        | Number of polls created by the user                | Only if dynamic preference `addons.polls_enabled` is `true` or if the user has a staff role |
+| followings                   | Number of followings of the user                   | Only if dynamic preference `configurations.follow_enabled` is `true`                        |
+| followers                    | Number of followers of the user                    | Only if dynamic preference `configurations.follow_enabled` is `true`                        |
+| connection_requests_sent     | Number of connection requests sent by the user     | Only if dynamic preference `configurations.follow_enabled` is `false`                       |
+| connection_requests_received | Number of connection requests received by the user | Only if dynamic preference `configurations.follow_enabled` is `false`                       |
+| connections                  | Number of connections of the user                  | Only if dynamic preference `configurations.follow_enabled` is `false`                       |
+| categories                   | Number of categories followed by the user          |                                                                                             |
 
 ### Example responses
 
@@ -94,7 +95,8 @@ curl -X GET /api/v2/user/{id}/counters/ \
     "posts": 2,
     "statuses": 3,
     "followings": 2,
-    "followers": 1
+    "followers": 1,
+    "categories": 1
 }
 ```
 
