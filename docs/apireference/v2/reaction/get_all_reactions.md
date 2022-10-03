@@ -92,8 +92,6 @@ Status Code **200**
 ```json
 {
   "count": 123,
-  "next": "string(uri)",
-  "previous": "string(uri)",
   "results": [ 
     {
         "id": 1,
