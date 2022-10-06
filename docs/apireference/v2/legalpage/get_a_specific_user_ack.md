@@ -9,7 +9,6 @@ This endpoint retrieves a specific user ack.
 :::info
 
 This operation require authentication.
-
 :::
 
 
@@ -19,9 +18,9 @@ This operation require authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this legal page.|
+| Name | In   | Type   | Required | Description                                         |
+|------|------|--------|----------|-----------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this legal page. |
 
 ### Example Request
 
@@ -65,9 +64,9 @@ curl -X GET /api/v2/legal_page/{id}/user_ack/ \
 ````
 
 ## Responses
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Legal Page Ack](/docs/apireference/v2/schemas/legal_page_ack)|
+| Status | Meaning                                                 | Description | Schema                                                         |
+|--------|---------------------------------------------------------|-------------|----------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Legal Page Ack](/docs/apireference/v2/schemas/legal_page_ack) |
 
 ### Example responses
 

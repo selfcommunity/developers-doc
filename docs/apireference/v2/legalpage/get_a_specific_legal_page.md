@@ -9,9 +9,9 @@ This endpoint retrieves a specific legal page.
 :::info
 
 This operation does not require authentication.
+If the user is authenticated the 'ack' field will be added to the response with the user's ack status for that document.
 
 :::
-
 
 ## HTTP Request
 
@@ -19,9 +19,9 @@ This operation does not require authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this legal page.|
+| Name | In   | Type   | Required | Description                                         |
+|------|------|--------|----------|-----------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this legal page. |
 
 ### Example Request
 
@@ -57,20 +57,19 @@ fetch('/api/v2/legal_page/{id}/',
 ```bash
 # You can also use wget
 curl -X GET /api/v2/legal_page/{id}/ \
-  -H 'Accept: application/json' \
-  -H 'Authorization: Bearer {access_token}'
+  -H 'Accept: application/json'
 ```
 </TabItem>
 </Tabs>
 ````
 
 ## Responses
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Legal Page](/docs/apireference/v2/schemas/legal_page)|
+
+| Status | Meaning                                                 | Description | Schema                                                 |
+|--------|---------------------------------------------------------|-------------|--------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Legal Page](/docs/apireference/v2/schemas/legal_page) |
 
 ### Example responses
-
 
 ````mdx-code-block
 
@@ -91,6 +90,13 @@ curl -X GET /api/v2/legal_page/{id}/ \
   "valid_to": "2019-08-24",
   "created_at": "2019-08-24T14:15:22Z",
   "created_by": 0
+  "ack": {
+      "id": 0,
+      "accepted_at": "2022-10-06T10:07:29.079128+02:00",
+      "not_accepted_at": null,
+      "policy_document": 0,
+      "user": 0
+  }  
 }
 ```
 

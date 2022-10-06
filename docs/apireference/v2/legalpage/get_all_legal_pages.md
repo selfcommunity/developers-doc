@@ -10,6 +10,7 @@ This endpoint retrieves all legal pages.
 :::info
 
 This operation does not require authentication.
+If the user is authenticated the 'ack' field will be added to the response with the user's ack status for that document.
 
 :::
 
@@ -20,14 +21,14 @@ This operation does not require authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
-|valid_from|query|string|false|valid_from|
-|valid_to|query|string|false|valid_to|
-|ordering|query|string|false|Which field to use when ordering the results.|
+| Name       | In    | Type    | Required | Description                                         |
+|------------|-------|---------|----------|-----------------------------------------------------|
+| limit      | query | integer | false    | Number of results to return per page.               |
+| offset     | query | integer | false    | The initial index from which to return the results. |
+| search     | query | string  | false    | A search term.                                      |
+| valid_from | query | string  | false    | valid_from                                          |
+| valid_to   | query | string  | false    | valid_to                                            |
+| ordering   | query | string  | false    | Which field to use when ordering the results.       |
 
 ### Example Request
 
@@ -73,20 +74,20 @@ curl -X GET /api/v2/legal_page/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+| Status | Meaning                                                 | Description | Schema |
+|--------|---------------------------------------------------------|-------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Legal Page](/docs/apireference/v2/schemas/legal_page))|false|none|List of results|
+| Name       | Type                                                         | Required | Restrictions | Description         |
+|------------|--------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                      | false    | none         | Total results count |
+| » next     | string(uri)¦null                                             | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                             | false    | none         | Previous page url   |
+| » results  | list([Legal Page](/docs/apireference/v2/schemas/legal_page)) | false    | none         | List of results     |
 
 ### Example responses
 
@@ -114,7 +115,14 @@ Status Code **200**
       "valid_from": "2019-08-24",
       "valid_to": "2019-08-24",
       "created_at": "2019-08-24T14:15:22Z",
-      "created_by": 0
+      "created_by": 0,
+      "ack": {
+          "id": 0,
+          "accepted_at": "2022-10-06T10:07:29.079128+02:00",
+          "not_accepted_at": null,
+          "policy_document": 0,
+          "user": 0
+      }        
     }
   ]
 }

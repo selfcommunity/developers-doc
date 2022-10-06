@@ -18,10 +18,10 @@ This operation requires authentication
 
 ### Parameters
 
-| Name   | In   | Type   | Required | Description                                                                     |
-|--------|------|--------|----------|---------------------------------------------------------------------------------|
-| id     | path | string | true     | A unique integer value identifying this Legal Page.                             |
-| accept | body | string | false    | Accept or not accept a legal page, valid string values are: ('true', 'on', '1') |
+| Name   | In   | Type   | Required | Description                                                                                                                    |
+|--------|------|--------|----------|--------------------------------------------------------------------------------------------------------------------------------|
+| id     | path | string | true     | A unique integer value identifying this Legal Page.                                                                            |
+| accept | body | string | false    | For accept valid string values are: ('true', 'on', '1'); for not accept valid string values are: ('false', 'off', '0') or None |
 
 ### Example Request
 

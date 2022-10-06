@@ -1,10 +1,10 @@
 ---
-sidebar_label: Get Last Revision of a Legal Page
+sidebar_label: Get All Last Revisions
 sidebar_position: 1
-title: Get Last Revision of a Legal Page
+title: Get All Last Revisions
 ---
 
-This endpoint retrieves the last revision of a legal page.
+This endpoint retrieves all last revisions of legal pages.
 
 :::info
 
@@ -16,13 +16,7 @@ If the user is authenticated the 'ack' field will be added to the response with 
 
 ## HTTP Request
 
-`GET /api/v2/legal_page/{policy}/`
-
-### Parameters
-
-| Name   | In   | Type   | Required | Description                                 |
-|--------|------|--------|----------|---------------------------------------------|
-| policy | path | string | true     | Can be one between cookies, tec or privacy. |
+`GET /api/v2/legal_page/last_revisions/`
 
 ### Example Request
 
@@ -38,7 +32,7 @@ const headers = {
   'Accept':'application/json'
 };
 
-fetch('/api/v2/legal_page/{policy}/',
+fetch('/api/v2/legal_page/last_revisions/',
 {
   method: 'GET',
   headers: headers
@@ -56,7 +50,7 @@ fetch('/api/v2/legal_page/{policy}/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/legal_page/{policy}/ \
+curl -X GET /api/v2/legal_page/last_revisions/ \
   -H 'Accept: application/json' 
 ```
 </TabItem>
@@ -64,9 +58,9 @@ curl -X GET /api/v2/legal_page/{policy}/ \
 ````
 
 ## Responses
-| Status | Meaning                                                 | Description | Schema                                                 |
-|--------|---------------------------------------------------------|-------------|--------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Legal Page](/docs/apireference/v2/schemas/legal_page) |
+| Status | Meaning                                                 | Description | Value/Schema                                                 |
+|--------|---------------------------------------------------------|-------------|--------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | list([Legal Page](/docs/apireference/v2/schemas/legal_page)) |
 
 ### Example responses
 

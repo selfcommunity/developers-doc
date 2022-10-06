@@ -10,6 +10,7 @@ This endpoint retrieves all revisions of a legal page (ordered by last inserted 
 :::info
 
 This operation does not require authentication.
+If the user is authenticated the 'ack' field will be added to the response with the user's ack status for that document.
 
 :::
 
@@ -109,7 +110,14 @@ Status Code **200**
       "valid_from": "2019-08-24",
       "valid_to": "2019-08-24",
       "created_at": "2019-08-24T14:15:22Z",
-      "created_by": 0
+      "created_by": 0,
+      "ack": {
+          "id": 0,
+          "accepted_at": "2022-10-06T10:07:29.079128+02:00",
+          "not_accepted_at": null,
+          "policy_document": 0,
+          "user": 0
+      }        
     }
   ]
 }
