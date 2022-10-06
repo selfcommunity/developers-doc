@@ -18,10 +18,10 @@ This operation requires authentication
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Legal Page.|
-|accept|body|string|false|Accept or not accept a legal page, valid values are: ('true', 'on', '1')|
+| Name   | In   | Type   | Required | Description                                                                     |
+|--------|------|--------|----------|---------------------------------------------------------------------------------|
+| id     | path | string | true     | A unique integer value identifying this Legal Page.                             |
+| accept | body | string | false    | Accept or not accept a legal page, valid string values are: ('true', 'on', '1') |
 
 ### Example Request
 
@@ -70,9 +70,9 @@ curl -X POST /api/v2/legal_page/{id}/ack/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Legal Page Ack](/docs/apireference/v2/schemas/legal_page_ack)|
+| Status | Meaning                                                 | Description | Schema                                                         |
+|--------|---------------------------------------------------------|-------------|----------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Legal Page Ack](/docs/apireference/v2/schemas/legal_page_ack) |
 
 
 
