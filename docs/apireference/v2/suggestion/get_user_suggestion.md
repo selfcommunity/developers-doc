@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get User Suggestion
-sidebar_position: 2
+sidebar_position: 1
 title: Get User Suggestion
 ---
 
