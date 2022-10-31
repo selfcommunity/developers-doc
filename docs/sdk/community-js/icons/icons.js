@@ -64,6 +64,7 @@ export const scIcons = [
     {name: 'restore', codepoint: 'e8b3'},
     {name: 'restore_from_trash', codepoint: 'e938'},
     {name: 'save', codepoint: 'e161'},
+    {name: 'search', codepoint: 'e8b6'},
     {name: 'send', codepoint: 'e163'},
     {name: 'sentiment_satisfied_alt', codepoint: 'e0ed'},
     {name: 'share', codepoint: 'e80d'},
