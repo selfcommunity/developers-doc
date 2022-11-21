@@ -8,7 +8,7 @@ This endpoint returns the user identified by the authentication token
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication or simply JWT token.
 
 :::
 
@@ -115,7 +115,8 @@ curl -X GET /api/v2/user/me/ \
     "request_connection": true,
     "accept_connection": true
   },
-  "role": "string"
+  "role": "string",
+  "reg_approved": bool
 }
 ```
 
