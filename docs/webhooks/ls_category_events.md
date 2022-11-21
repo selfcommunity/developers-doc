@@ -7,9 +7,11 @@ title: List of Category Events
 
 | Category          | Triggered When                       | Note |
 |-------------------|--------------------------------------|------|
+| category.created  | a category is created                | ---  |
+| category.updated  | a category is updated                | ---  |
+| category.deleted  | a category is deleted                | ---  |
 | category.follow   | a category is followed by the user   | ---  |
 | category.unfollow | a category is unfollowed by the user | ---  |
-
 
 
 ````mdx-code-block

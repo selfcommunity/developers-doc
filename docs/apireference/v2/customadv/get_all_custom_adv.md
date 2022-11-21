@@ -14,6 +14,8 @@ This operation requires `custom_adv_enabled` community option set to true.
 
 If `custom_adv_only_for_anonymous_users_enabled` community option is set to true the results will be returned only for anonymous users.
 
+If the user is administrator or editor all adv (active or not) are returned, while only the active ones are returned if the user is normal
+
 :::
 
 
@@ -23,14 +25,14 @@ If `custom_adv_only_for_anonymous_users_enabled` community option is set to true
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|position|query|string|false|Filter using field position.|
-|category|query|string|false|Filter using field category.|
-|active|query|string|false|Filter using field active (only if user is administrator or editor).|
-|search|query|string|false|A search term.|
+|Name|In|Type|Required| Description                                                                                                   |
+|---|---|---|---|---------------------------------------------------------------------------------------------------------------|
+|limit|query|integer|false| Number of results to return per page.                                                                         |
+|offset|query|integer|false| The initial index from which to return the results.                                                           |
+|position|query|string|false| Filter using field position.                                                                                  |
+|category|query|string|false| Filter using field category.                                                                                  |
+|active|query|string|false| Filter using field active (only if user is administrator or editor). |
+|search|query|string|false| A search term.                                                                                                |
 
 ### Example Request
 
