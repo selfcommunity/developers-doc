@@ -5,5 +5,5 @@ title: Signin
 ---
 
 Refer to 
-[Authentication](/docs/api/authentication/intro.md)
+[Authentication](/docs/api/authentication/intro)
 for Authentication info.
