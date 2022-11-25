@@ -30,11 +30,14 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-| Name     | In   | Type           | Required | Description                                                                                                                                                                                                                                              |
-|----------|------|----------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| username | body | string         | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                        |
-| email    | body | string         | false    | The email of the user.                                                                                                                                                                                                                                   |
-| password | body | string         | false    | The password of the user. The password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&). |
+| Name                     | In   | Type   | Required | Description                                                                                                                                                                                                                                              |
+|--------------------------|------|--------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| username                 | body | string | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                        |
+| email                    | body | string | false    | The email of the user.                                                                                                                                                                                                                                   |
+| password                 | body | string | false    | The password of the user. The password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&). |
+| invite_code              | body | string | false    | A valid invite code, only if 'invite_code' preference is true.                                                                                                                                                                                           |
+| promo_code               | body | string | false    | A valid promo code, only if 'promo_code' feature is true.                                                                                                                                                                                                |
+| custom_user_metadata (*) | body | string | false    | Custom user metadata fields can be passed only if they are defined. Refer to the following guide [User's custom fields (metadata)](/docs/apireference/v2/usermetadata/).                                                              |
 
 ### Example Request
 
@@ -91,41 +94,11 @@ curl -X POST /api/v2/account/create/ \
 
 ````
 
-## Responses
-
-| Status | Meaning                                                      | Description | Schema |
-|--------|--------------------------------------------------------------|-------------|--------|
-| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | none        | Inline |
-
 ### Response Schema
 
-Status Code **201**
-
-| Name     | Type    | Restrictions | Description                                           |
-|----------|---------|--------------|-------------------------------------------------------|
-| id       | integer | none         | The unique internal id associated to the created user |
-| username | string  | none         | Username of the registered user                       |
-| email    | string  | none         | Email of the registered user                          |
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": 0,
-  "username": "string",
-  "email": "string"
-}
-```
-
-</TabItem>
-</Tabs>
-````
+| Status | Meaning                                                      | Description | Schema                                     |
+|--------|--------------------------------------------------------------|-------------|--------------------------------------------|
+| 201    | [CREATED](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [User](/docs/apireference/v2/schemas/user) |
 
 
 

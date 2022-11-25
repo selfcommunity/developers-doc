@@ -79,9 +79,17 @@ and the type of field among those available:
 
 To define custom fields it is also possible to define a field label.
 
-#### Update the user passing custom fileds
+#### Create an account passing custom fields
 
-After defining the custom fields for the user you can finally pass them in the user PATCH 
+After defining the custom fields for the user you can finally pass them the account create 
+
+[Create an account](/docs/apireference/v2/account/create_an_account.md)
+
+as if they were standard user fields.
+
+#### Update the user passing custom fields
+
+You can pass them in the user PATCH 
 
 [Patch a specific User](/docs/apireference/v2/user/patch_a_specific_user)
 
@@ -89,7 +97,7 @@ as if they were standard user fields.
 
 #### Retrieve the user with custom fields
 
-Now retrieving a user will resturn also the custom fields  
+Now retrieving a user will return also the custom fields  
 
 [get a specific User](/docs/apireference/v2/user/get_a_specific_user)
 
