@@ -6,7 +6,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const Thread = require('@selfcommunity/react-ui').Thread;
-                return <Thread id={51}/>;
+                return <Thread />;
             }}
         </BrowserOnly>
     );

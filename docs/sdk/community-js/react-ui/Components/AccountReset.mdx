@@ -1,23 +1,23 @@
 ---
-sidebar_label: Account Sign In
+sidebar_label: Account Reset
 sidebar_position: 1
-title: Account Sign In
+title: Account Reset
 ---
 
 > The Account Sign In component allows users to log in to the application with their usernames and passwords.<br/>
 This component is composed of a simple email and password form and a "sign in" button that submits the request.
 
 import Anonymous from '../../Anonymous.js';
-import AccountSignIn from './accountSignIn.js';
+import AccountReset from './AccountReset.js';
 
-<Anonymous><AccountSignIn/></Anonymous>
+<Anonymous><AccountReset/></Anonymous>
 
 #### Usage
 
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {AccountSignIn} from '@selfcommunity/react-ui';
+ import {AccountReset} from '@selfcommunity/react-ui';
 
  function App() {
    const conf = {
@@ -30,7 +30,7 @@ import AccountSignIn from './accountSignIn.js';
      },
    };
    return (
-     <SCContextProvider conf={conf}><AccountSignIn /></SCContextProvider>
+     <SCContextProvider conf={conf}><AccountReset /></SCContextProvider>
    );
  }
 ```

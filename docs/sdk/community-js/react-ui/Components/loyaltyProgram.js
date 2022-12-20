@@ -6,7 +6,8 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const LoyaltyProgram = require('@selfcommunity/react-ui').LoyaltyProgram;
-                return <LoyaltyProgram />;
+                const Box = require('@mui/material').Box;
+                return <Box sx={{maxWidth: '400px'}}><LoyaltyProgram /></Box>;
             }}
         </BrowserOnly>
     );

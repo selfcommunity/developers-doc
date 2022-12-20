@@ -146,26 +146,26 @@ const config = {
         plugin:['typedoc-plugin-rename-defaults'],
       },
     ],
-    [
-      'docusaurus-plugin-typedoc',
-      {
-        id:'utils',
-        entryPoints: glob.sync('./sdk/community-js/packages/utils/src/*/index.ts'),
-        tsconfig: './sdk/community-js/packages/utils/tsconfig.json',
-        out: 'sdk/community-js/utils/Reference',
-        readme: 'none',
-        excludeExternals: true,
-        sidebar: {
-          categoryLabel: 'API Reference',
-          position: 0,
-          indexLabel: 'Introduction'
-        },
-        validation: {
-          "notExported": true
-        },
-        plugin:['typedoc-plugin-rename-defaults'],
-      },
-    ],
+    // [
+    //   'docusaurus-plugin-typedoc',
+    //   {
+    //     id:'utils',
+    //     entryPoints: glob.sync('./sdk/community-js/packages/utils/src/*/index.ts'),
+    //     tsconfig: './sdk/community-js/packages/utils/tsconfig.json',
+    //     out: 'sdk/community-js/utils/Reference',
+    //     readme: 'none',
+    //     excludeExternals: true,
+    //     sidebar: {
+    //       categoryLabel: 'API Reference',
+    //       position: 0,
+    //       indexLabel: 'Introduction'
+    //     },
+    //     validation: {
+    //       "notExported": true
+    //     },
+    //     plugin:['typedoc-plugin-rename-defaults'],
+    //   },
+    // ],
   ],
 
   themeConfig:

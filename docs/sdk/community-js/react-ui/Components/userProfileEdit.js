@@ -6,7 +6,7 @@ export default function App () {
         <BrowserOnly>
             {() => {
                 const UserProfileEdit = require('@selfcommunity/react-ui').UserProfileEdit;
-                const SCUserFields = require ('@selfcommunity/types').SCUserFields;
+                const SCUserFields = require ('@selfcommunity/react-ui').SCUserProfileFields;
                 const fields = [
                     SCUserFields.USERNAME,
                     SCUserFields.REAL_NAME,
@@ -18,7 +18,7 @@ export default function App () {
                     SCUserFields.LOCATION,
                     SCUserFields.GENDER
                 ];
-                return <UserProfileEdit userId={18} fields={fields}/>;
+                return <UserProfileEdit userId={18} fields={fields} UserProfileEditSectionAccountProps={{showCredentialsSection: true}}/>;
             }}
         </BrowserOnly>
     );
