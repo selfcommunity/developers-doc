@@ -24,7 +24,7 @@ If `custom_adv_only_for_anonymous_users_enabled` community option is set to true
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this custom adv.|
+|id|path|string|true|A unique integer value identifying this custom adv|
 
 ### Example Request
 
@@ -81,17 +81,17 @@ curl -X GET /api/v2/custom_adv/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "position": "BELOW_TOPBAR",
+  "id": "integer",
+  "position": "string",
   "title": "string",
-  "link": "http://example.com",
+  "link": "string(uri)",
   "image": "string",
   "embed_code": "string",
-  "active": true,
-  "created_at": "2019-08-24T14:15:22Z",
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "category": 0,
-  "created_by": 0
+  "active": "boolean",
+  "created_at": "string",
+  "lastmod_datetime": "string",
+  "category": "integer",
+  "created_by": "integer"
 }
 ```
 

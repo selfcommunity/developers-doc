@@ -20,24 +20,24 @@ This operation requires authentication. The logged user must be the discussion c
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this discussion|
-|» title|body|string¦null|true|The title of the discussion|
-|» text|body|string|false|The content of the discussion in html format, it can contain some mentions|
-|» categories|body|list(integer)|true|List of id of [Category](/docs/apireference/v2/schemas/category)|
-|» medias|body|list(integer)|false|List of id of [Media](/docs/apireference/v2/schemas/media)|
-|» location|body|object¦null|false|The Location object to associate at the discussion|
-|»» location|body|string¦null|true|none|
-|»» lat|body|number¦null|true|none|
-|»» lng|body|number¦null|true|none|
-|» poll|body|object¦null|false|The poll object to associate at the discussion|
-|»» title|body|string|true|none|
-|»» multiple_choices|body|boolean|false|none|
-|»» expiration_at|body|string(date-time)|false|none|
-|»» choices|body|list(object)|true|none|
-|»»» choice|body|string|true|none|
-|» addressing|body|list(integer)|false|List of id of [Tag](/docs/apireference/v2/schemas/tag)|
+| Name                | In   | Type              | Required | Description                                                                |
+|---------------------|------|-------------------|----------|----------------------------------------------------------------------------|
+| id                  | path | string            | true     | A unique integer value identifying this discussion                         |
+| » title             | body | string¦null       | true     | The title of the discussion                                                |
+| » text              | body | string            | false    | The content of the discussion in html format, it can contain some mentions |
+| » categories        | body | list(integer)     | true     | List of id of [Category](/docs/apireference/v2/schemas/category)           |
+| » medias            | body | list(integer)     | false    | List of id of [Media](/docs/apireference/v2/schemas/media)                 |
+| » location          | body | object¦null       | false    | The Location object to associate at the discussion                         |
+| »» location         | body | string¦null       | true     | The location name                                                          |
+| »» lat              | body | number¦null       | true     | The location latitude                                                      |
+| »» lng              | body | number¦null       | true     | The location longitude                                                     |
+| » poll              | body | object¦null       | false    | The poll object to associate at the discussion                             |
+| »» title            | body | string            | true     | The poll title                                                             |
+| »» multiple_choices | body | boolean           | false    | If the poll has multiple choices                                           |
+| »» expiration_at    | body | string(date-time) | false    | Poll expiration datetime                                                   |
+| »» choices          | body | list(object)      | true     | Poll choices                                                               |
+| »»» choice          | body | string            | true     | Poll choice obj                                                            |
+| » addressing        | body | list(integer)     | false    | List of  [Tag](/docs/apireference/v2/schemas/tag) ids                      |
 
 #### Example Body Parameters
 
@@ -50,27 +50,27 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "title": "string",
-  "text": "string",
-  "categories": [0],
-  "medias": [0],
-  "location": {
-    "location": "string",
-    "lat": 0,
-    "lng": 0
-  },
-  "poll": {
     "title": "string",
-    "multiple_choices": true,
-    "closed": true,
-    "expiration_at": "2019-08-24T14:15:22Z",
-    "choices": [
-      {
-        "choice": "string"
-      }
-    ]
-  },
-  "addressing": []
+    "text": "string",
+    "categories": [integer],
+    "medias": [integer],
+    "location": {
+      "location": "string",
+      "lat": "integer,
+      "lng": "integer"
+    },
+    "poll": {
+      "title": "string",
+      "multiple_choices": "boolean",
+      "closed": "boolean",
+      "expiration_at": "string",
+      "choices": [
+        {
+          "choice": "string"
+        }
+      ]
+    },
+    "addressing": [integer]
 }
 ```
 
@@ -87,27 +87,27 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = {
-  "title": "string",
-  "text": "string",
-  "categories": [0],
-  "medias": [0],
-  "location": {
-    "location": "string",
-    "lat": 0,
-    "lng": 0
-  },
-  "poll": {
     "title": "string",
-    "multiple_choices": true,
-    "closed": true,
-    "expiration_at": "2019-08-24T14:15:22Z",
-    "choices": [
-      {
-        "choice": "string"
-      }
-    ]
-  },
-  "addressing": []
+    "text": "string",
+    "categories": [integer],
+    "medias": [integer],
+    "location": {
+      "location": "string",
+      "lat": "integer,
+      "lng": "integer"
+    },
+    "poll": {
+      "title": "string",
+      "multiple_choices": "boolean",
+      "closed": "boolean",
+      "expiration_at": "string",
+      "choices": [
+        {
+          "choice": "string"
+        }
+      ]
+    },
+    "addressing": [integer]
 };
 const headers = {
   'Content-Type':'application/json',
@@ -141,25 +141,25 @@ curl -X PUT /api/v2/discussion/{id}/ \
   --data-raw '{
     "title": "string",
     "text": "string",
-    "categories": [0],
-    "medias": [0],
+    "categories": [integer],
+    "medias": [integer],
     "location": {
       "location": "string",
-      "lat": 0,
-      "lng": 0
+      "lat": "integer,
+      "lng": "integer"
     },
     "poll": {
       "title": "string",
-      "multiple_choices": true,
-      "closed": true,
-      "expiration_at": "2019-08-24T14:15:22Z",
+      "multiple_choices": "boolean",
+      "closed": "boolean",
+      "expiration_at": "string",
       "choices": [
         {
           "choice": "string"
         }
       ]
     },
-    "addressing": []
+    "addressing": [integer]
   }'
 ```
 </TabItem>
@@ -182,126 +182,34 @@ curl -X PUT /api/v2/discussion/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "type": "discussion",
-  "categories": [
-    {
-      "id": 0,
-      "tags": [],
-      "followed": false,
-      "order": 123,
-      "name": "string",
-      "name_synonyms": "string",
-      "slug": "string",
-      "slogan": "string",
-      "html_info": "string",
-      "seo_title": "string",
-      "seo_description": "string",
-      "auto_follow": "none",
-      "active": true,
-      "image_original": "string",
-      "image_bigger": "string",
-      "image_big": "string",
-      "image_medium": "string",
-      "image_small": "string",
-      "emotional_image_original": "string",
-      "emotional_image_position": 0,
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "stream_order_by": "recent",
-      "followers_counter": 13
-    }
-  ],
-  "medias": [
-    {
-      "id": 0,
-      "added_at": "2019-08-24T14:15:22Z",
-      "type": "url",
-      "title": "string",
-      "description": "string",
-      "url": "https://example.com",
-      "image": "string",
-      "image_width": 0,
-      "image_height": 0,
-      "order": 0,
-      "embed": {
-        "id": 0,
-        "embed_type": "string",
-        "embed_id": "string",
-        "url": "string",
-        "metadata": {}
-      }
-    }
-  ],
-  "location": {
-    "location": "string",
-    "lat": 0,
-    "lng": 0
-  },
-  "poll": {
-    "id": 0,
-    "title": "string",
-    "multiple_choices": true,
-    "added_at": "2019-08-24T14:15:22Z",
-    "modified_at": "2019-08-24T14:15:22Z",
-    "closed": true,
-    "expiration_at": "2019-08-24T14:15:22Z",
-    "hidden": "string",
-    "choices": [
-      {
-        "id": 0,
-        "choice": "string",
-        "order": 0,
-        "added_at": "2019-08-24T14:15:22Z",
-        "deleted": "string",
-        "vote_count": 0,
-        "voted": true
-      }
-    ]
-  },
-  "last_activity_at": "2019-08-24T14:15:22Z",
-  "last_edited_at": "2019-08-25T14:15:22Z",
-  "author": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "date_joined": "2019-08-24T14:15:22Z",
-    "bio": "string",
-    "location": "string",
-    "location_lat_lng": "string",
-    "position_lat_lng": "string",
-    "date_of_birth": "string",
-    "description": "string",
-    "gender": "Male",
-    "website": "https://example.com",
-    "avatar": "string",
-    "cover": "string",
-    "ext_id": "string",
-    "tags": [],
-    "reputation": 111,
-    "followings_counter": 1,
-    "followers_counter": 1,
-    "posts_counter": 2,
-    "discussions_counter": 4,
-    "statuses_counter": 1,
-    "polls_counter": 6
-  },
-  "added_at": "2019-08-24T14:15:22Z",
+  "id": "integer",
+  "type": "string",
+  "last_activity_at": "string",
+  "author": {User},
+  "added_at": "string",
+  "last_edited_at": "string",
   "html": "string",
   "summary": "string",
-  "deleted": true,
-  "collapsed": false,
-  "comment_count": 0,
-  "vote_count": "string",
-  "voted": false,
-  "followed": false,
-  "suspended": true,
-  "flag_count": 0,
-  "share_count": 0,
-  "addressing": [],
-  "title": "string",
+  "deleted": "boolean",
+  "collapsed": "boolean",
+  "comment_count": "integer",
+  "view_count": "integer",
+  "vote_count": "integer",
+  "reactions_count": [{Reaction}],
+  "voted": "boolean",
+  "reaction": {Reaction},
+  "follower_count": "integer",
+  "followed": "boolean",
+  "suspended": "boolean",
+  "flag_count": "integer",
+  "share_count": "integer",
   "slug": "string",
-  "view_count": 1,
-  "follower_count": "string"
+  "categories": [{Category}],
+  "medias": [{Media}],
+  "location": "string",
+  "addressing": [integer],
+  "poll": {Poll},
+  "title": "string"
 }
 ```
 

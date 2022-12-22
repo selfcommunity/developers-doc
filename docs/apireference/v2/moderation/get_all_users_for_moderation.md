@@ -21,11 +21,11 @@ This operation requires moderation role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|search|query|string|false|A search term.|
+|search|query|string|false|A search term|
 |status|query|string|false|Valid values are: a, b, d, u|
 |days_blocked|query|string|false|"days" or "forever"|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 |order_by|query|string|false|Default ordering is: -date_joined. Other valid fields are: expire_at, blocked_at|
 
 #### Enumerated Values
@@ -105,64 +105,25 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
-    {
-      "id": 0,
-      "username": "string",
-      "real_name": "string",
-      "email": "user@example.com",
-      "email_isvalid": true,
-      "date_joined": "2019-08-24T14:15:22Z",
-      "bio": "string",
-      "location": "string",
-      "location_lat_lng": "string",
-      "position_lat_lng": "string",
-      "date_of_birth": "2019-08-24",
-      "description": "string",
-      "gender": "Male",
-      "status": "a",
-      "website": "https://example.com",
-      "avatar": "string",
-      "cover": "string",
-      "ext_id": "string",
-      "tags": [
         {
-          "id": 0,
-          "active": true,
-          "type": "user",
-          "name": "string",
-          "description": "string",
-          "color": "string",
-          "visible": true,
-          "deleted": true,
-          "created_at": "2019-08-24T14:15:22Z"
+          "...User": {},
+          "blocked_at": "string",
+          "days_blocked": "integer",
+          "expire_at": "string",
+          "last_seen": "string",
+          "flags_given": "integer",
+          "flags_received": "integer",
+          "last_score_variation": {
+            "score": "integer",
+            "comment": "string",
+            "reputed_at": "string",
+            "created_by": {}
+          }  
         }
-      ],
-      "reputation": 25,
-      "followings_counter": 3,
-      "followers_counter": 3,
-      "posts_counter": 2,
-      "polls_counter": 1,                                                                       
-      "blocked_at": "2019-08-24T14:15:22Z",
-      "days_blocked": "string",
-      "expire_at": "2019-08-24T14:15:22Z",
-      "last_seen": "2021-06-10T17:31:33.014024+02:00",
-      "flags_given": 0,
-      "flags_received": 0,
-      "last_score_variation": {
-          "score": 10,
-          "comment": "string",
-          "reputed_at": "2021-07-06T12:06:57.168320+02:00",
-          "created_by": {
-              "id": 1,
-              "username": "admin",
-              "avatar": "url"
-          }
-      }      
-    }
   ]
 }
 ```

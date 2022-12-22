@@ -18,9 +18,9 @@ This operation requires authentication
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Category.|
+| Name | In   | Type   | Required | Description                                      |
+|------|------|--------|----------|--------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this category |
 
 ### Example Request
 

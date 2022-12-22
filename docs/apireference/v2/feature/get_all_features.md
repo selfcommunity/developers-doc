@@ -22,10 +22,10 @@ This operation does not require authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|name|query|string|false|Filter using field name.|
-|search|query|string|false|A search term.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|name|query|string|false|Filter using field name|
+|search|query|string|false|A search term|
 
 ### Example Request
 
@@ -96,14 +96,14 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [ 
     {
-        "id": 0,
+        "id": "integer",
         "name": "string",
-        "enabled": true
+        "enabled": "boolean"
     }    
   ]
 }

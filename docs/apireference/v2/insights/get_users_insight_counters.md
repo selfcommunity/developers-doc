@@ -12,13 +12,13 @@ This endpoint retrieves a specific user's insight counters.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|user_id|path|integer|true|The user id.|
-|limit|path|integer|false|Number of results to return per page.|
-| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
-|created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
-|created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
+|Name|In|Type|Required| Description                                                                                          |
+|---|---|---|---|------------------------------------------------------------------------------------------------------|
+|user_id|path|integer|true| The user id                                                                                          |
+|limit|path|integer|false| Number of results to return per page                                                                 |
+| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category) |
+|created_at__gte|path|string(date-time)|false| Datetime of creation(greater than or equal to the given value)                                       |
+|created_at__lte|path|string(date-time)|false| Datetime of creation(less than or equal to the given value)                                          |
 
 ### Example Request
 
@@ -89,18 +89,18 @@ curl -X GET /api/v2/insight/user/counters/ \
 
 ```json
 {
-    "num_contributes": 28,
-    "num_comments": 19,
-    "num_answers_received": 799,
-    "num_comments_received": 0,
-    "num_votes": 12,
-    "num_votes_received": 125,
-    "num_connections": 0,
-    "num_followings": 1,
-    "num_followers": 2,
-    "num_shares": 0,
-    "num_posts_visits": 21,
-    "num_embed_custom_click_received": 0
+    "num_contributes": "integer",
+    "num_comments": "integer",
+    "num_answers_received": "integer",
+    "num_comments_received": "integer",
+    "num_votes": "integer",
+    "num_votes_received": "integer",
+    "num_connections": "integer",
+    "num_followings": "integer",
+    "num_followers": "integer",
+    "num_shares": "integer",
+    "num_posts_visits": "integer",
+    "num_embed_custom_click_received": "integer"
 }
 ```
 

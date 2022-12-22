@@ -4,7 +4,7 @@ sidebar_position: 2
 title: Create an Embed
 ---
 
-This endpoint creatse an Embed
+This endpoint creates an Embed
 
 :::info
 
@@ -18,13 +18,13 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|» id|body|integer|false|none|
-|» embed_type|body|string|true|Type of the embed, can be any string except `sc_vimeo` or `sc_link` that are used for embedded objects auomatically created by the community|
-|» embed_id|body|string|true|External id for the embed object|
-|» url|body|string(uri)¦null|false|Url for the resource, if any|
-|» metadata|body|json|false|Metadata associated to this embed. It mus be a valid json object|
+|Name|In|Type|Required| Description                                                                                                                                  |
+|---|---|---|---|----------------------------------------------------------------------------------------------------------------------------------------------|
+|» id|body|integer|false| The embed id                                                                                                                                 |
+|» embed_type|body|string|true| Type of the embed, can be any string except `sc_vimeo` or `sc_link` that are used for embedded objects auomatically created by the community |
+|» embed_id|body|string|true| External id for the embed object                                                                                                             |
+|» url|body|string(uri)¦null|false| Url for the resource, if any                                                                                                                 |
+|» metadata|body|json|false| Metadata associated to this embed. It mus be a valid json object                                                                             |
 
 #### Example Body Parameters
 
@@ -39,7 +39,7 @@ import TabItem from '@theme/TabItem';
 {
   "embed_type": "string",
   "embed_id": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "metadata": {}
 }
 ```
@@ -59,7 +59,7 @@ import TabItem from '@theme/TabItem';
 const inputBody = '{
   "embed_type": "string",
   "embed_id": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "metadata": {}
 }';
 const headers = {
@@ -92,10 +92,10 @@ curl -X POST /api/v2/embed/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "embed_type": "string",
-    "embed_id": "string",
-    "url": "https://example.com",
-    "metadata": {}
+      "embed_type": "string",
+      "embed_id": "string",
+      "url": "string(uri)",
+      "metadata": {}
 }'
 ```
 </TabItem>
@@ -118,10 +118,10 @@ curl -X POST /api/v2/embed/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "embed_type": "string",
   "embed_id": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "metadata": {}
 }
 ```

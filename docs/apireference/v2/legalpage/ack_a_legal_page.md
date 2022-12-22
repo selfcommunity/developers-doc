@@ -20,7 +20,7 @@ This operation requires authentication
 
 | Name   | In   | Type   | Required | Description                                                                                                                    |
 |--------|------|--------|----------|--------------------------------------------------------------------------------------------------------------------------------|
-| id     | path | string | true     | A unique integer value identifying this Legal Page.                                                                            |
+| id     | path | string | true     | A unique integer value identifying this legal page                                                                             |
 | accept | body | string | false    | For accept valid string values are: ('true', 'on', '1'); for not accept valid string values are: ('false', 'off', '0') or None |
 
 ### Example Request
@@ -85,11 +85,11 @@ curl -X POST /api/v2/legal_page/{id}/ack/ \
 
 ```json
 {
-  "id": 0,
-  "accepted_at": "2019-08-24T14:15:22Z",
-  "not_accepted_at": "2019-08-24T14:15:22Z",
-  "policy_document": 0,
-  "user": 0
+  "id": "integer",
+  "accepted_at": "string",
+  "not_accepted_at": "string",
+  "policy_document": "integer",
+  "user": "integer"
 }
 ```
 

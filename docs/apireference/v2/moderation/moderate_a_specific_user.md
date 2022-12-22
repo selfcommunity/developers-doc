@@ -21,7 +21,7 @@ This operation requires moderation role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
+|id|path|string|true|A unique integer value identifying this user|
 |status|body|string|true|Valid values are: a, b, d, u|
 |days_blocked|body|string|false|Number of days of block. If not passed the block will be forever (status must be "b")|
 |hard|body|integer|false|If the value is 1 and status is "d" it will perform an hard deletion (equivalent to status "u")|
@@ -54,7 +54,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{  
-  "status": "a"
+  "status": "string"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',

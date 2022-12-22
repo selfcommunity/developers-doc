@@ -6,34 +6,34 @@ title: Attempt
 
 ```json
 {
-  "id": 0,
-  "created_at": "2019-08-24T14:15:22Z",
+  "id": "integer",
+  "created_at": "string",
   "event": {
-    "type": "comment.created",
-    "added_at": "2019-08-24T14:15:22Z"
+    "type": "string",
+    "added_at": "string"
   },
-  "sent_at": "2019-08-24T14:15:22Z",
+  "sent_at": "string",
   "http_request_body": "string",
   "http_request_signature_header": "string",
-  "http_response_code": 0,
+  "http_response_code": "integer",
   "http_response_body": "string",
-  "next_retry": "2019-08-24T14:15:22Z"
+  "next_retry": "string"
 }
 
 ```
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|none|
-|created_at|string(date-time)|false|read-only|none|
-|event|list|true|none|none|
-|» type|string|true|none|none|
-|» added_at|string(date-time)|false|read-only|none|
-|sent_at|string(date-time)|false|read-only|none|
-|http_request_body|string|false|read-only|none|
-|http_request_signature_header|string|false|read-only|none|
-|http_response_code|integer|false|read-only|none|
-|http_response_body|string|false|read-only|none|
-|next_retry|string(date-time)|false|read-only|none|
+|Name|Type|Required|Restrictions| Description                    |
+|---|---|---|---|--------------------------------|
+|id|integer|false|read-only| none                           |
+|created_at|string(date-time)|false|read-only| The creation datetime          |
+|event|list|true|none| The event                      |
+|» type|string|true|none| The event type                 |
+|» added_at|string(date-time)|false|read-only| The datetime of event creation |
+|sent_at|string(date-time)|false|read-only| Datetime of sent               |
+|http_request_body|string|false|read-only| Http request body              |
+|http_request_signature_header|string|false|read-only| Http request signature header  |
+|http_response_code|integer|false|read-only| Http response code             |
+|http_response_body|string|false|read-only| Http response body             |
+|next_retry|string(date-time)|false|read-only| Datetime of next retry         |

@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "object": [0]
+  "object": [integer]
 }
 ```
 
@@ -53,7 +53,7 @@ import TabItem from '@theme/TabItem';
 ```js
 
 const inputBody = {
-  object: [0]
+  object: [integer]
 };
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -85,7 +85,7 @@ curl -X POST /api/v2/feed/read/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-      "object": [0]
+      "object": [integer]
   }'
 ```
 </TabItem>

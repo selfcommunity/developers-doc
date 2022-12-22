@@ -22,8 +22,8 @@ This endpoint retrieves the best contribution insights list.
 | contribution_type |path|string|false| The contribution type (discussion, post, status)                                                                                                                                                                                  |
 | user_id           |path|integer|false| The user id.                                                                                                                                                                                              |
 | ranked_by         |path|integer|false| The rank value to use: num_votes, num_comments, num_shares, num_views (default: rank function). If a list (eg: num_comments, num_answers_received) the final rank will be the sum of the list components. |
-|embed_id|path|string|false|The embed id (required in combo with embed_type).|
-|embed_type|path|string|false|The embed type (required in combo with embed_id).|
+|embed_id|path|string|false|The embed id (required in combo with embed_type)|
+|embed_type|path|string|false|The embed type (required in combo with embed_id)|
 
 ### Example Request
 
@@ -95,21 +95,21 @@ curl -X GET /api/v2/insight/contribution/ \
 
 ```json
 {
-    "count": 409,
-    "next": "https://apiv2.quentrix.com/api/v2/insight/contribution/?limit=20&offset=20",
-    "previous": null,
+    "count": "integer",
+    "next": "string(uri)",
+    "previous": "string(uri)",
     "results": [
         {
-            "post": "{see Post schema}",
-            "score": 856
+            "post": "{Post}",
+            "score": "integer"
         },
         {
-            "discussion": "{see Discussion schema}",
-            "score": 453
+            "discussion": "{Discussion}",
+            "score": "integer"
         },
         {
-            "status": "{see Status schema}",
-            "score": 260
+            "status": "{Status}",
+            "score": "integer"
         }
     ]
 }

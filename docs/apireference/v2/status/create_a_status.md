@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
     "lat": 0,
     "lng": 0
   },
-  "addressing": []
+  "addressing": [integer]
 }
 ```
 
@@ -76,7 +76,7 @@ const inputBody = '{
     "lat": 0,
     "lng": 0
   },
-  "addressing": []
+  "addressing": [integer]
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -117,7 +117,7 @@ curl -X POST /api/v2/status/ \
       "lat": 0,
       "lng": 0
     },
-    "addressing": []
+    "addressing": [integer]
   }'
 ```
 </TabItem>
@@ -140,7 +140,7 @@ curl -X POST /api/v2/status/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "type": "status",
   "action": "string",
   "categories": [
@@ -157,7 +157,7 @@ curl -X POST /api/v2/status/ \
       "seo_title": "string",
       "seo_description": "string",
       "auto_follow": "none",
-      "active": true,
+      "active": "boolean",
       "image_original": "string",
       "image_bigger": "string",
       "image_big": "string",
@@ -186,7 +186,7 @@ curl -X POST /api/v2/status/ \
         "id": 0,
         "embed_type": "string",
         "embed_id": "string",
-        "url": "string",
+        "url": "string(uri)",
         "metadata": {}
       }
     }
@@ -226,15 +226,15 @@ curl -X POST /api/v2/status/ \
   "added_at": "2019-08-24T14:15:22Z",
   "html": "string",
   "summary": "string",
-  "deleted": true,
+  "deleted": "boolean",
   "collapsed": false,
   "comment_count": 0,
   "vote_count": 0,
   "followed": false,
-  "suspended": true,
+  "suspended": "boolean",
   "flag_count": 0,
   "share_count": 0,
-  "addressing": []
+  "addressing": [integer]
 }
 ```
 

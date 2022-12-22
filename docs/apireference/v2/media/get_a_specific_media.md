@@ -21,7 +21,7 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this media.|
+|id|path|string|true|A unique integer value identifying this media|
 
 ### Example Request
 
@@ -81,23 +81,17 @@ curl -X GET /api/v2/media/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "added_at": "2019-08-24T14:15:22Z",
-  "type": "vimeo",
+  "id": "integer",
+  "added_at": "string",
+  "type": "string",
   "title": "string",
   "description": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "image": "string",
-  "image_width": 0,
-  "image_height": 0,
-  "order": 0,
-  "embed": {
-    "id": 0,
-    "embed_type": "string",
-    "embed_id": "string",
-    "url": "string",
-    "metadata": {}
-  }
+  "image_width": "integer",
+  "image_height": "integer",
+  "order": "integer",
+  "embed": {Embed}
 }
 ```
 

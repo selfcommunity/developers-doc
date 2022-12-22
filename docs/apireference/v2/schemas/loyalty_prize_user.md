@@ -6,12 +6,12 @@ title: Loyalty Prize User
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "user": {},
   "prize": {},
-  "prize_points": 0,
-  "pending_at": "2019-08-24T14:15:22Z",
-  "status": 0,
+  "prize_points": "integer",
+  "pending_at": "string",
+  "status": "integer",
   "status_description": "string"
 }
 ```

@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
+|id|path|string|true|A unique integer value identifying this user|
 |new_email|body|string(email)|true|none|
 |confirm|body|boolean|false|If confirm=1 (or true), the email is not changed directly but a validation code is generated to be used in the [confirm](confirm_users_change_email) call to validate the email. |
 
@@ -95,8 +95,8 @@ curl -X PATCH /api/v2/user/{id}/change_email/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|If confirm=1, the response body contains the validation code.|None|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|If confirm=0, there is no body response.|None|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|If confirm=1, the response body contains the validation code|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|If confirm=0, there is no body response|None|
 
 ### Example responses
 

@@ -21,7 +21,7 @@ This operation requires moderation role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this comment.|
+|id|path|string|true|A unique integer value identifying this comment|
 
 ### Example Request
 
@@ -81,51 +81,33 @@ curl -X GET /api/v2/comment/{id}/flag/ \
 
 ```json
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
+    "count": "integer",
+    "next": "string(uri)",
+    "previous": "string(uri)",
     "results": [
         {
-          "user": {
-            "id": 0,
-            "username": "string",
-            "real_name": "string",
-            "date_joined": "2019-08-24T14:15:22Z",
-            "bio": "string",
-            "location": "string",
-            "location_lat_lng": "string",
-            "position_lat_lng": "string",
-            "date_of_birth": "2019-08-24",
-            "description": "string",
-            "gender": "Male",
-            "website": "https://example.com",
-            "avatar": "string",
-            "cover": "string",
-            "ext_id": "string",
-            "tags": [
-              {
-                "id": 0,
-                "active": true,
-                "type": "user",
-                "name": "string",
-                "description": "string",
-                "color": "string",
-                "visible": true,
-                "deleted": true,
-                "created_at": "2019-08-24T14:15:22Z"
-              }
-            ],
-            "reputation": 111,
-            "followings_counter": 7,
-            "followers_counter": 2,
-            "posts_counter": 4,
-            "discussions_counter": 3,
-            "statuses_counter": 0,
-            "polls_counter": 1
+          "id": "integer",
+          "author": {User},
+          "added_at": "string",
+          "last_edited_at": "string",
+          "html": "string",
+          "summary": "string",
+          "deleted": "boolean",
+          "collapsed": "boolean",
+          "parent": "integer",
+          "in_reply_to": "integer",
+          "comment_count": "integer",
+          "vote_count": "integer",
+          "reactions_count": [{Reaction}],
+          "flag_count": "integer",
+          "post": {
+            "id": "integer",
+            "slug": "string"
           },
-          "added_at": "2019-08-24T14:15:22Z",
-          "flag_type": 0,
-          "flag_type_description": "string"
+          "latest_comments": [],
+          "type": "string",
+          "voted": "boolean",
+          "reaction": {Reaction}
         }
     ]
 }

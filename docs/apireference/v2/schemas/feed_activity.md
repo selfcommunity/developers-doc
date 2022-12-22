@@ -8,54 +8,22 @@ title: Feed Activity
 {
   "type": "string",
   "comment": {},
-  "author": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "date_joined": "2019-08-24T14:15:22Z",
-    "bio": "string",
-    "location": "string",
-    "location_lat_lng": "string",
-    "position_lat_lng": "string",
-    "date_of_birth": "string",
-    "description": "string",
-    "gender": "Male",
-    "website": "https://example.com",
-    "avatar": "string",
-    "cover": "string",
-    "ext_id": "string",
-    "tags": [
-      {
-        "id": 0,
-        "active": true,
-        "type": "user",
-        "name": "string",
-        "description": "string",
-        "color": "string",
-        "visible": true,
-        "deleted": true,
-        "created_at": "2019-08-24T14:15:22Z"
-      }
-    ],
-    "reputation":111
-  },
-  "active_at": "2019-08-24T14:15:22Z",
-  "seen_by_id": [
-    0
-  ]
+  "author": {},
+  "active_at": "string",
+  "seen_by_id": []
 }
 
 ```
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|type|string|false|read-only|none|
-|comment|[Comment](/docs/apireference/v2/schemas/comment)¦null|false|read-only|none|
-|author|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
-|active_at|string(date-time)|false|read-only|none|
-|seen_by_id|list(integer)¦null|false|read-only|Id of [User](/docs/apireference/v2/schemas/user) that have seen this activity|
+|Name|Type|Required|Restrictions| Description                                                                         |
+|---|---|---|---|-------------------------------------------------------------------------------------|
+|type|string|false|read-only| Feed activity type                                                                  |
+|comment|[Comment](/docs/apireference/v2/schemas/comment)¦null|false|read-only| Feed activity comment object                                                        |
+|author|[User](/docs/apireference/v2/schemas/user)|false|read-only| Feed activity user object                                                           |
+|active_at|string(date-time)|false|read-only| Datetime of activity                                                                |
+|seen_by_id|list(integer)¦null|false|read-only| List of [User](/docs/apireference/v2/schemas/user) ids that have seen this activity |
 
 #### Enumerated Values
 

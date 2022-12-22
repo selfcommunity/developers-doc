@@ -20,9 +20,9 @@ If the user is authenticated the 'ack' field will be added to the response with 
 
 ### Parameters
 
-| Name   | In   | Type   | Required | Description                                 |
-|--------|------|--------|----------|---------------------------------------------|
-| policy | path | string | true     | Can be one between cookies, tec or privacy. |
+| Name   | In   | Type   | Required | Description                                |
+|--------|------|--------|----------|--------------------------------------------|
+| policy | path | string | true     | Can be one between cookies, tec or privacy |
 
 ### Example Request
 
@@ -79,25 +79,25 @@ curl -X GET /api/v2/legal_page/{policy}/ \
 ```json
 [
     {
-      "id": 0,
+      "id": "integer",
       "name_and_version": "string",
       "icon_class": "string",
       "label": "string",
       "external_url": "string",
       "html_summary": "string",
       "html_body": "string",
-      "order": -2147483648,
-      "valid_from": "2019-08-24",
-      "valid_to": "2019-08-24",
-      "created_at": "2019-08-24T14:15:22Z",
-      "created_by": 0,
+      "order": "integer",
+      "valid_from": "string",
+      "valid_to": "string",
+      "created_at": "string",
+      "created_by": "integer",
       "ack": {
-          "id": 0,
-          "accepted_at": "2022-10-06T10:07:29.079128+02:00",
-          "not_accepted_at": null,
-          "policy_document": 0,
-          "user": 0
-      }    
+          "id": "integer",
+          "accepted_at": "string",
+          "not_accepted_at": "string",
+          "policy_document": "integer",
+          "user": "integer"
+      }      
     }
 ]
 ```

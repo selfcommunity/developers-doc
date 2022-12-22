@@ -8,12 +8,12 @@ title: Targeted Notification Banner
 {
     "title": "string",
     "description": "string",
-    "link_text": "Further details linked here &raquo;",
-    "link": "/users/alessia/",
-    "open_in_new_tab": true,
-    "image": null,
-    "added_at": "2020-11-13T09:51:55.415280+01:00",
-    "type_banner": "notification_banner"
+    "link_text": "string",
+    "link": "string",
+    "open_in_new_tab": "boolean",
+    "image": "string",
+    "added_at": "string",
+    "type_banner": "string"
 }
 
 ```

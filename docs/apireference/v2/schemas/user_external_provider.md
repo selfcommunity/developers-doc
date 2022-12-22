@@ -6,10 +6,10 @@ title: User External Provider
 
 ```json
 {
-  "user_id": 11,
-  "provider": "facebook",
-  "ext_id": "12345",
-  "profile_url": "https://www.facebook.com/my_profile/",
+  "user_id": "integer",
+  "provider": "string",
+  "ext_id": "string",
+  "profile_url": "string",
   "show_in_profile": false
 }
 

@@ -20,9 +20,9 @@ This operation does not require authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term|
 
 ### Example Request
 
@@ -91,9 +91,9 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
       "full_address": "string",
@@ -103,8 +103,8 @@ Status Code **200**
       "province_short": "string",
       "region": "string",
       "country": "string",
-      "lat": 0,
-      "lng": 0
+      "lat": "integer",
+      "lng": "integer"
     }
   ]
 }

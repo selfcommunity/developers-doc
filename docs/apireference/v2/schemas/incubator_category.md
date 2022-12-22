@@ -6,12 +6,12 @@ title: Incubator Category
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "name": "string",
   "slug": "string",
   "slogan": "string",
   "approved_category": {},
-  "added_at": "2019-08-24T14:15:22Z"
+  "added_at": "string"
 }
 
 ```

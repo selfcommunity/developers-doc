@@ -26,7 +26,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
+|id|path|string|true|A unique integer value identifying this user|
 
 ### Example Request
 
@@ -85,7 +85,7 @@ curl -X GET /api/v2/user/{id}/is_followed/ \
 
 ```json
 {
-    "is_followed": true
+    "is_followed": "boolean"
 }
 ```
 

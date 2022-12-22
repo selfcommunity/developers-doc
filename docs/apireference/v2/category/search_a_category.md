@@ -4,7 +4,7 @@ sidebar_position: 2
 title: Search a Category
 ---
 
-This endpoint performs search of a Category
+This endpoint performs a specific category search.
 
 :::info
 
@@ -21,11 +21,11 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
-|active|query|string|false|Filter using field active (only if user is administrator).|
-|deleted|query|string|false|Filter using field deleted (only if user is administrator).|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term|
+|active|query|string|false|Filter using field active (only if user is administrator)|
+|deleted|query|string|false|Filter using field deleted (only if user is administrator)|
 
 ### Example Request
 
@@ -95,15 +95,15 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer,
       "tags": [],
-      "followed": false,
-      "order": 123,
+      "followed": "boolean",
+      "order": "integer",
       "name": "string",
       "name_synonyms": "string",
       "slug": "string",
@@ -111,18 +111,18 @@ Status Code **200**
       "html_info": "string",
       "seo_title": "string",
       "seo_description": "string",
-      "auto_follow": "none",
-      "active": true,
+      "auto_follow": "string",
+      "active": "boolean",
       "image_original": "string",
       "image_bigger": "string",
       "image_big": "string",
       "image_medium": "string",
       "image_small": "string",
       "emotional_image_original": "string",
-      "emotional_image_position": 0,
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "stream_order_by": "recent",
-      "followers_counter": 13
+      "emotional_image_position": "integer",
+      "lastmod_datetime": "string",
+      "stream_order_by": "string",
+      "followers_counter": "integer"
 
     }
   ]

@@ -6,15 +6,15 @@ title: Notification Type Blocked User
 
 ```json
 {
-  "is_new": true,
-  "sid": 16053709616960000000063090,
-  "type": "blocked_user",
-  "active_at": "2020-11-14T17:52:20.967302+01:00",
+  "is_new": "boolean",
+  "sid": "string",
+  "type": "string",
+  "active_at": "string",
   "block_settings": {
-    "blocked_at": "2020-11-14T18:11:48.915332+01:00",
-    "days_blocked": 1,
-    "expire_at": "2020-11-15T18:11:48.915332+01:00",
-    "reputation_delta": 161
+    "blocked_at": "string",
+    "days_blocked": "integer",
+    "expire_at": "string",
+    "reputation_delta": "integer"
   }
 }
 ```

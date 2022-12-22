@@ -20,21 +20,21 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|user|query|string|false|A search term. Search in fields: username, real_name. If this parameter is used username & real_name will be ignored.|
-|username|query|string|false|Filter using field username.|
-|real_name|query|string|false|Filter using field real_name.|
-|gender|query|string|false|Filter using field gender type. Possible values: Male, Female, Unspecified.|
-|location|query|string|false|Filter using field location.|
-|age|query|string|false|Filter using age ranges. Possible values: -30, 30-45, 45+. The value 45+ must be encoded in the request url: 45%2B.|
-|lat_lng|query|string|false|Filter using coordinates lat,lng.|
-|user_position|query|boolean|false|Use the coordinates (position_lat_lng or location_lat_lng) of the authenticated user.|
-|description|query|string|false|Filter using field description.|
-|is_staff|query|boolean|false|Filter the users that belong to the staff.|
-|tag|query|integer|false|Filter using tag ID.|
-|category|query|integer|false|Filter using category ID.|
-|ordering|query|string|false|Ordering fields (eg: `?ordering=username`). Minus char is used for descending ordering, eg. `-username`. Possible values: username, location, real_name, distance.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|user|query|string|false|A search term. Search in fields: username, real_name. If this parameter is used username & real_name will be ignored|
+|username|query|string|false|Filter using field username|
+|real_name|query|string|false|Filter using field real_name|
+|gender|query|string|false|Filter using field gender type. Possible values: Male, Female, Unspecified|
+|location|query|string|false|Filter using field location|
+|age|query|string|false|Filter using age ranges. Possible values: -30, 30-45, 45+. The value 45+ must be encoded in the request url: 45%2B|
+|lat_lng|query|string|false|Filter using coordinates lat,lng|
+|user_position|query|boolean|false|Use the coordinates (position_lat_lng or location_lat_lng) of the authenticated user|
+|description|query|string|false|Filter using field description|
+|is_staff|query|boolean|false|Filter the users that belong to the staff|
+|tag|query|integer|false|Filter using tag ID|
+|category|query|integer|false|Filter using category ID|
+|ordering|query|string|false|Ordering fields (eg: `?ordering=username`). Minus char is used for descending ordering, eg. `-username`. Possible values: username, location, real_name, distance|
 
 ### Example Request
 
@@ -104,7 +104,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": null,
   "previous": null,
   "results": [
@@ -113,7 +113,7 @@ Status Code **200**
       "username": "string",
       "real_name": "string",
       "email": "user@example.com",
-      "email_isvalid": true,
+      "email_isvalid": "boolean",
       "date_joined": "2019-08-24T14:15:22Z",
       "bio": "string",
       "location": "string",

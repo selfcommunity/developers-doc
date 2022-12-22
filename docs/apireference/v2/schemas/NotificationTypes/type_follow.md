@@ -5,14 +5,11 @@ title: Notification Type Follow
 ---
 ```json
 {
-    "is_new": true,
-    "sid": 16053710571250000000007160,
-    "type": "follow",
-    "active_at": "2020-11-14T17:52:20.967302+01:00",
-    "discussion": {},
-    "post": {},
-    "status": {},
-    "user": {}
+   "is_new": "boolean",
+   "sid": "string",
+   "type": "string",
+   "active_at": "string",
+   "discussion/post/status/user": {}
 }
 ```
 

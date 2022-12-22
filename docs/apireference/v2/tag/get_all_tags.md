@@ -20,9 +20,9 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term|
 |active|query|string|false|Is the tag active?|
 |deleted|query|string|false|Is the tag deleted?|
 |visible|query|string|false|Is this tag publicly visible?|
@@ -99,7 +99,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
@@ -109,10 +109,10 @@ Status Code **200**
       "name": "string",      
       "description": "string",
       "color": "string",
-      "visible": true,
-      "visibility_boost": true,
+      "visible": "boolean",
+      "visibility_boost": "boolean",
       "created_at": "2019-08-24T14:15:22Z",
-      "active": true,
+      "active": "boolean",
       "deleted": false
     }
   ]

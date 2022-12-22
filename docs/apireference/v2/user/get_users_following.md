@@ -20,10 +20,10 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|mutual|path|integer|false|Allowed values: 0-1. Param 0 returns the list of non mutual followings. Param 1 returns only the mutual list.|
+|id|path|string|true|A unique integer value identifying this user|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|mutual|path|integer|false|Allowed values: 0-1. Param 0 returns the list of non mutual followings. Param 1 returns only the mutual list|
 
 ### Example Request
 
@@ -94,7 +94,7 @@ The results always return users sorted by: first mutuals and then non-mutuals.
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
@@ -103,7 +103,7 @@ The results always return users sorted by: first mutuals and then non-mutuals.
       "username": "string",
       "real_name": "string",
       "email": "user@example.com",
-      "email_isvalid": true,
+      "email_isvalid": "boolean",
       "date_joined": "2019-08-24T14:15:22Z",
       "bio": "string",
       "location": "string",

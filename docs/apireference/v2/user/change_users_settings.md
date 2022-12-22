@@ -21,7 +21,7 @@ This operation does not require authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying the current user id.|
+|id|path|string|true|A unique integer value identifying the current user id|
 |body|body|[UserSettings](/docs/apireference/v2/schemas/user_settings)|false|none|
 
 ### Example Request

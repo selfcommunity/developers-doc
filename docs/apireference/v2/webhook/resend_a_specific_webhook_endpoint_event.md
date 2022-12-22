@@ -20,8 +20,8 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint.|
-|event|body|integer|true|The id of the Event triggered by webhooks.|
+|id|path|string|true|A unique integer value identifying this endpoint|
+|event|body|integer|true|The id of the Event triggered by webhooks|
 
 #### Example Body Parameters
 

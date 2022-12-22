@@ -22,11 +22,11 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
-|active|query|string|false|Filter using field active (only if user is administrator or editor).|
-|visible_in_menu|query|string|false|Filter using field visible_in_menu.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term|
+|active|query|string|false|Filter using field active (only if user is administrator or editor)|
+|visible_in_menu|query|string|false|Filter using field visible_in_menu|
 
 
 ### Example Request
@@ -98,23 +98,24 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [ 
     {
-      "id": 0,
+      "id": "integer",
       "slug": "string",
       "label": "string",
       "title": "string",
       "alternative_url": "string",
       "html_body": "string",
-      "visible_in_menu": true,
-      "order": -2147483648,
-      "created_at": "2019-08-24T14:15:22Z",
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "active": true,
-      "created_by": 0
+      "visible_in_menu": "boolean",
+      "order": "integer",
+      "created_at": "string",
+      "updated_at": "string",
+      "active": "boolean",
+      "created_by": "integer",
+      "updated_by": "integer"
     }    
   ]
 }

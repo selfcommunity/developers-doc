@@ -110,8 +110,8 @@ Status Code **200**
 
 ```json
 {
-  "next": "string",
-  "previous": "string",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
         "is_new": false,
@@ -119,20 +119,14 @@ Status Code **200**
         "post": {...},
         "aggregated": [
             {
-                "is_new": false,
-                "sid": 16456592493610000000054923,
-                "type": "comment",
-                "active_at": "2020-10-26T15:55:05.984561+01:00",
-                "comment": {...}
+              "is_new": "boolean",
+              "sid": "string",
+              "type": "string",
+              "active_at": "string",
+              "comment": {...}
 
             },
-            {
-                "is_new": false,
-                "sid": 18952592493610000000055990,
-                "type": "nested_comment",
-                "active_at": "2020-10-25T15:30:01.982831+01:00",
-                "comment": {...}
-            }
+            {...}
         ]
     },
     {
@@ -140,11 +134,11 @@ Status Code **200**
        "sid": "1435259289000",
        "aggregated": [
             {
-              "is_new": false,
-              "type": "connection_accept",
-              "sid": 13452592763610000000054490,
-              "active_at": "2020-10-23T12:20:03.982632+01:00",
-              "accept_user": {...}
+              "is_new": "boolean",
+              "sid": "string",
+              "type": "string",
+              "active_at": "string",
+              "follower": {...}
             }
        ]
     }
@@ -159,37 +153,37 @@ Status Code **200**
 
 #### Notification types:
 
-Type | Description | Audience
--------------- | -------------- | --------------
-comment* | comment of first level | participants of the discussion/post, including those who follow the post
-nested_comment* | comment of second level | author of the top-level comment (unless the user has hidden it) and the authors of the siblings comments
-mention* | user mention | who is mentioned in the contribute
-vote_up* | vote up a post/discussion/status/comment | who received the voteup
-follow* | follow a post/discussion/status | author of the content (discussion/post/status)
-private_message* | private message | recipient of the message
-deleted_for_advertising | deleted content by moderators with motivation the content is advertising | author of the contribute
-deleted_for_aggressive | deleted content by moderators with motivation the content is aggressive | author of the contribute
-deleted_for_vulgar | deleted content by moderators with motivation the content is vulgar | author of the contribute
-deleted_for_poor | deleted content by moderators with motivation the content is poor | author of the contribute
-deleted_for_offtopic | deleted content by moderators with motivation the content is offtopic | author of the contribute
-undeleted_for | the content has been rehabilitated by the moderators | author of the contribute
-collapsed_for_advertising | only for comments, hidden content by moderator with motivation the content is advertising | author of the contribute
-collapsed_for_aggressive | only for comments, hidden content by moderator with motivation the content is aggressive | author of the contribute
-collapsed_for_vulgar | only for comments, hidden content by moderator with motivation the content is vulgar | author of the contribute
-collapsed_for_poor | only for comments, hidden content by moderator with motivation the content is poor | author of the contribute
-collapsed_for_offtopic | only for comments, hidden content by moderator with motivation the content is offtopic | author of the contribute
-connection_request | connect request | user who receives the request
-connection_accept | connection accept | who had requested friendship
-user_follow | follow user | user followed
-kindly_notice_advertising | content author notified for advertising content (via moderation) | author of the contribute
-kindly_notice_aggressive | content author notified for advertising content (via moderation) | author of the contribute
-kindly_notice_vulgar | content author notified for advertising content (via moderation) | author of the contribute
-kindly_notice_poor | content author notified for advertising content (via moderation) | author of the contribute
-kindly_notice_offtopic | content author notified for advertising content (via moderation) | author of the contribute
-kindly_notice_flag | flag author notified for bad flagging (via moderation) | author of the flag
-blocked_user | user blocked | blocked user
-unblocked_user | user unblocked | unblocked user
-custom_notification | custom notification | user followers/connections
+| Type                      | Description                                                                               | Audience                                                                                                 |
+|---------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+ | comment*                  | Comment of first level                                                                    | Participants of the discussion/post, including those who follow the post                                 |
+ | nested_comment*           | Comment of second level                                                                   | Author of the top-level comment (unless the user has hidden it) and the authors of the siblings comments |
+ | mention*                  | User mention                                                                              | Who is mentioned in the contribute                                                                       |
+| vote_up*                  | Vote up a post/discussion/status/comment                                                  | Who received the voteup                                                                                  |
+ | follow*                   | Follow a post/discussion/status                                                           | Author of the content (discussion/post/status)                                                           |
+ | private_message*          | Private message                                                                           | Recipient of the message                                                                                 |
+ | deleted_for_advertising   | Deleted content by moderators with motivation the content is advertising                  | Author of the contribute                                                                                 |
+ | deleted_for_aggressive    | Deleted content by moderators with motivation the content is aggressive                   | Author of the contribute                                                                                 |
+ | deleted_for_vulgar        | Deleted content by moderators with motivation the content is vulgar                       | Author of the contribute                                                                                 |
+ | deleted_for_poor          | Deleted content by moderators with motivation the content is poor                         | Author of the contribute                                                                                 |
+ | deleted_for_offtopic      | Deleted content by moderators with motivation the content is offtopic                     | Author of the contribute                                                                                 |
+ | undeleted_for             | the content has been rehabilitated by the moderators                                      | Author of the contribute                                                                                 |
+ | collapsed_for_advertising | Only for comments, hidden content by moderator with motivation the content is advertising | Author of the contribute                                                                                 |
+ | collapsed_for_aggressive  | Only for comments, hidden content by moderator with motivation the content is aggressive  | Author of the contribute                                                                                 |
+ | collapsed_for_vulgar      | Only for comments, hidden content by moderator with motivation the content is vulgar      | Author of the contribute                                                                                 |
+ | collapsed_for_poor        | Only for comments, hidden content by moderator with motivation the content is poor        | Author of the contribute                                                                                 |
+ | collapsed_for_offtopic    | Only for comments, hidden content by moderator with motivation the content is offtopic    | Author of the contribute                                                                                 |
+ | connection_request        | Connect request                                                                           | User who receives the request                                                                            |
+ | connection_accept         | Connection accept                                                                         | Who had requested friendship                                                                             |
+ | user_follow               | Follow user                                                                               | User followed                                                                                            |
+ | kindly_notice_advertising | Content author notified for advertising content (via moderation)                          | Author of the contribute                                                                                 |
+ | kindly_notice_aggressive  | Content author notified for advertising content (via moderation)                          | Author of the contribute                                                                                 |
+| kindly_notice_vulgar      | Content author notified for advertising content (via moderation)                          | Author of the contribute                                                                                 |
+| kindly_notice_poor        | Content author notified for advertising content (via moderation)                          | Author of the contribute                                                                                 |
+| kindly_notice_offtopic    | Content author notified for advertising content (via moderation)                          | Author of the contribute                                                                                 |
+| kindly_notice_flag        | Flag author notified for bad flagging (via moderation)                                    | Author of the flag                                                                                       |
+| blocked_user              | User blocked                                                                              | Blocked user                                                                                             |
+| unblocked_user            | User unblocked                                                                            | Unblocked user                                                                                           |
+| custom_notification       | Custom notification                                                                       | User followers/connections                                                                               |
 
 *notifications of this type, if chronologically consecutive, can be aggregated
 

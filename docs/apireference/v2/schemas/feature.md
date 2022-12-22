@@ -6,9 +6,9 @@ title: Feature
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "name": "string",
-  "enabled": true
+  "enabled": "boolean"
 }
 
 ```

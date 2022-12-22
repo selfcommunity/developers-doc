@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "recipients": [115],
+  "recipients": [integer],
 	"message": "string"
 }
 ```
@@ -101,20 +101,12 @@ curl -X POST /api/v2/pm/ \
 
 ```json
 {
-    "id": 1,
-    "sender": "object",
-    "message": "string",
-    "created_at": "2021-12-27T11:10:27.729971+01:00",
-    "status": "string",
-    "file": {
-          "uuid": "string",
-          "filename": "string",
-          "filesize": 17037,
-          "mimetype": "string",
-          "duration": 120,
-          "url": "string",
-          "thumbnail": "string"
-          }
+  "id": "integer",
+  "sender": {},
+  "message": "string",
+  "created_at": "string",
+  "status": "string",
+  "file": {}
 }
 ```
 

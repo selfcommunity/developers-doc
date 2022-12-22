@@ -20,11 +20,11 @@ This operation requires admin or moderation role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term|
 |user_id|query|string|false|The id of a specific user|
-|ordering|query|string|false|Which field to use when ordering the results.|
+|ordering|query|string|false|Which field to use when ordering the results|
 
 ### Example Request
 
@@ -94,7 +94,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "http://api.example.org/accounts/?offset=400&limit=100",
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [

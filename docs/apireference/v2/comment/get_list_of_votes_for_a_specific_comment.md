@@ -82,47 +82,33 @@ curl -X GET /api/v2/comment/{id}/vote/ \
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "user": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "email": "user@example.com",
-        "email_isvalid": true,
-        "date_joined": "2019-08-24T14:15:22Z",
-        "bio": "string",
-        "location": "string",
-        "location_lat_lng": "string",
-        "position_lat_lng": "string",
-        "date_of_birth": "string",
-        "description": "string",
-        "gender": "Male",
-        "status": "a",
-        "website": "https://example.com",
-        "avatar": "string",
-        "cover": "string",
-        "ext_id": "string",
-        "tags": [],
-        "reputation": 111,
-        "followings_counter": 7,
-        "followers_counter": 2,
-        "posts_counter": 4,
-        "discussions_counter": 3,
-        "statuses_counter": 0,
-        "polls_counter": 1
+       "id": "integer",
+      "author": {User},
+      "added_at": "string",
+      "last_edited_at": "string",
+      "html": "string",
+      "summary": "string",
+      "deleted": "boolean",
+      "collapsed": "boolean",
+      "parent": "integer",
+      "in_reply_to": "integer",
+      "comment_count": "integer",
+      "vote_count": "integer",
+      "reactions_count": [{Reaction}],
+      "flag_count": "integer",
+      "post": {
+        "id": "integer",
+        "slug": "string"
       },
-      "reaction": {
-        "id": 1,
-        "label": "string",
-        "image": "url",
-        "sentiment": 1,
-        "active": true
-      },
-      "voted_at": "2019-08-24T14:15:22Z"
+      "latest_comments": [],
+      "type": "string",
+      "voted": "boolean",
+      "reaction": {Reaction}  
     }
   ]
 }

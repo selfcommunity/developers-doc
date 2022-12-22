@@ -88,11 +88,11 @@ Status Code **200**
 {
     "count_by_category": [
         {
-            "id": 1,
-            "count": 67
+            "id": "integer",
+            "count": "integer"
         }
     ],
-    "total": 67
+    "total": "integer"
 }
 ```
 

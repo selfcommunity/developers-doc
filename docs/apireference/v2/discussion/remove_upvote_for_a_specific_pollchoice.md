@@ -26,8 +26,8 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this discussion.|
-|choice|body|integer|true|A unique integer value identifying the choice to be upvoted.|
+|id|path|string|true|A unique integer value identifying this discussion|
+|choice|body|integer|true|A unique integer value identifying the choice to be upvoted|
 
 ### Example Request
 
@@ -40,7 +40,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = {
-  "choice": 0
+  "choice": "integer"
 };
 const headers = {
   'Content-Type':'application/json',
@@ -72,7 +72,7 @@ curl -X POST /api/v2/discussion/{id}/poll/vote/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
   --data-raw '{
-    "choice": 0
+    "choice": "integer"
   }'
 ```
 </TabItem>

@@ -7,7 +7,7 @@ title: Token
 ```json
 {
     "access_token": "string",
-    "expires_in": "604800",
+    "expires_in": "integer",
     "token_type": "string",
     "refresh_token": "string",
     "client_id": "string",

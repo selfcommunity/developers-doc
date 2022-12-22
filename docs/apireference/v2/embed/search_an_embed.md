@@ -22,8 +22,8 @@ This operation requires authentication only if `content_availability` community 
 |---|---|---|---|---|
 |embed_type|query|string|false|embed_type|
 |embed_id|query|string|false|embed_id|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -94,15 +94,15 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "http://api.example.org/accounts/?offset=400&limit=100",
-  "previous": "http://api.example.org/accounts/?offset=200&limit=100",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
       "embed_type": "string",
       "embed_id": "string",
-      "url": "https://example.com",
+      "url": "string(uri)",
       "metadata": {}
     }
   ]

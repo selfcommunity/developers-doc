@@ -7,25 +7,25 @@ title: Search Match
 ```json
 {
     "object": {
-      "id": 238,
-      "type": "comment",
-      "added_at": "2020-10-19T16:05:34.974676+00:00",
+      "id": "integer",
+      "type": "string",
+      "added_at": "string",
       "html": "string"
     },
     "author": {
-      "id": 0,
+      "id": "integer",
       "username": "string",
       "real_name": "string",
-      "email": "user@example.com",
-      "email_isvalid": true,
-      "date_joined": "2019-08-24T14:15:22Z",
+      "email": "string",
+      "email_isvalid": "boolean",
+      "date_joined": "string",
       "bio": "string",
       "location": "string",
       "birthday": "string",
       "description": "string",
-      "gender": "Male",
-      "status": "a",
-      "website": "https://example.com",
+      "gender": "string",
+      "status": "string",
+      "website": "string",
       "avatar": "string",
       "cover": "string"
     }

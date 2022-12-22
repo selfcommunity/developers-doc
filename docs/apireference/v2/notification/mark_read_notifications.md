@@ -33,9 +33,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "sids": [
-    "string"
-  ]
+  "sids": [string]
 }
 ```
 
@@ -52,9 +50,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "sids": [
-    "16051998593220000000052990", "16031945321500000000007190", ...
-  ]
+  "sids": [string]
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',

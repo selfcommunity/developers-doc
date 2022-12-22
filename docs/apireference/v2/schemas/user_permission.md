@@ -6,15 +6,15 @@ title: User Permission
 
 ```json
 {
-    "upload_video": false,
-    "create_contribute": true,
-    "create_poll": true,
-    "locate_post": false,
-    "create_post": true,
-    "create_post_with_category": true,
-    "follow_user": true,
-    "request_connection": true,
-    "accept_connection": true
+    "upload_video": "boolean",
+    "create_contribute": "boolean",
+    "create_poll": "boolean",
+    "locate_post": "boolean",
+    "create_post": "boolean",
+    "create_post_with_category": "boolean",
+    "follow_user": "boolean",
+    "request_connection": "boolean",
+    "accept_connection": "boolean"
 }
 
 ```

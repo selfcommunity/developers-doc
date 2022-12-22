@@ -19,15 +19,15 @@ This operation requires authentication to see own requests and admin or editor t
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
-|status|query|string|false|status|
-|user_id|query|string|false|user_id|
-|prize_id|query|string|false|prize_id|
-|ordering|query|string|false|Which field to use when ordering the results.|
+|Name|In|Type|Required| Description                                        |
+|---|---|---|---|----------------------------------------------------|
+|limit|query|integer|false| Number of results to return per page               |
+|offset|query|integer|false| The initial index from which to return the results |
+|search|query|string|false| A search term                                      |
+|status|query|string|false| The request status                                 |
+|user_id|query|string|false| The user id                                        |
+|prize_id|query|string|false| The prize id                                       |
+|ordering|query|string|false| Which field to use when ordering the results       |
 
 #### Enumerated Values
 
@@ -107,32 +107,17 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "http://api.example.org/accounts/?offset=400&limit=100",
-  "previous": "http://api.example.org/accounts/?offset=200&limit=100",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
-      "user": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "email": "user@example.com",
-        "description": "string",
-        "avatar": "string"
-      },
-      "pending_at": "2019-08-24T14:15:22Z",
-      "prize": {
-        "id": 0,
-        "active": true,
-        "title": "string",
-        "description": "string",
-        "points": 0,
-        "link": "https://example.com",
-        "image": "string"
-      },
-      "prize_points": 0,
-      "status": 0,
+      "id": "integer",
+      "user": {},
+      "prize": {},
+      "prize_points": "integer",
+      "pending_at": "string",
+      "status": "integer",
       "status_description": "string"
     }
   ]

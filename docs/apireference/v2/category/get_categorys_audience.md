@@ -18,9 +18,9 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Category.|
+| Name | In   | Type   | Required | Description                                      |
+|------|------|--------|----------|--------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this category |
 
 ### Example Request
 
@@ -80,8 +80,8 @@ curl -X GET /api/v2/category/{id}/audience/ \
 
 ```json
 {
-  "category_audience": 123,
-  "connections_audience": 123
+  "category_audience": "integer",
+  "connections_audience": "integer"
 }
 ```
 

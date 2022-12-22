@@ -80,7 +80,7 @@ curl -X GET /api/v2/dynamic_preference/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "section": "string",
   "name": "string",
   "value": "string"

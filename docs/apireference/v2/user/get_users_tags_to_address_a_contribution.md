@@ -80,7 +80,7 @@ curl -X GET /api/v2/user/tag/tags_to_address_a_contribution/ \
       "name": "string",
       "description": "string",
       "color": "string",
-      "visible": true
+      "visible": "boolean"
     },
     {
       "id": 0,

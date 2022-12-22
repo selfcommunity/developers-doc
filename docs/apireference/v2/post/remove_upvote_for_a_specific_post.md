@@ -18,10 +18,10 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name     | In    | Type   | Required | Description                                                                        |
-|----------|-------|--------|----------|------------------------------------------------------------------------------------|
-| id       | path  | string | true     | A unique integer value identifying this post.                                      |
-| reaction | query | string | false    | A unique integer value identifying the reaction you want to remove (default is 1). |
+| Name     | In    | Type   | Required | Description                                                                       |
+|----------|-------|--------|----------|-----------------------------------------------------------------------------------|
+| id       | path  | string | true     | A unique integer value identifying this post.                                     |
+| reaction | query | string | false    | A unique integer value identifying the reaction you want to remove (default is 1) |
 
 :::info
 

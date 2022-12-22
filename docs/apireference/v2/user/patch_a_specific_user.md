@@ -40,7 +40,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
+|id|path|string|true|A unique integer value identifying this user|
 |body|body|[User](/docs/apireference/v2/schemas/user)|false|none|
 
 ### Example Request
@@ -116,11 +116,11 @@ curl -X PATCH /api/v2/user/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "username": "string",
   "real_name": "string",
   "email": "user@example.com",
-  "email_isvalid": true,
+  "email_isvalid": "boolean",
   "date_joined": "2019-08-24T14:15:22Z",
   "bio": "string",
   "location": "string",

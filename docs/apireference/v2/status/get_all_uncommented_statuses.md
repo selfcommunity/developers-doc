@@ -20,8 +20,8 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -93,9 +93,9 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
       "id": 0,
@@ -113,7 +113,7 @@ Status Code **200**
           "seo_title": "string",
           "seo_description": "string",
           "auto_follow": "none",
-          "active": true,
+          "active": "boolean",
           "image_original": "string",
           "image_bigger": "string",
           "image_big": "string",
@@ -142,7 +142,7 @@ Status Code **200**
             "id": 0,
             "embed_type": "string",
             "embed_id": "string",
-            "url": "string",
+            "url": "string(uri)",
             "metadata": {}
           }
         }
@@ -155,10 +155,10 @@ Status Code **200**
       "poll": {
         "id": 0,
         "title": "string",
-        "multiple_choices": true,
+        "multiple_choices": "boolean",
         "added_at": "2019-08-24T14:15:22Z",
         "modified_at": "2019-08-24T14:15:22Z",
-        "closed": true,
+        "closed": "boolean",
         "expiration_at": "2019-08-24T14:15:22Z",
         "hidden": false,
         "choices": [
@@ -169,7 +169,7 @@ Status Code **200**
             "added_at": "2019-08-24T14:15:22Z",
             "deleted": "string",
             "vote_count": 0,
-            "voted": true
+            "voted": "boolean"
           }
         ]
       },
@@ -203,16 +203,16 @@ Status Code **200**
       "added_at": "2019-08-24T14:15:22Z",
       "html": "string",
       "summary": "string",
-      "deleted": true,
+      "deleted": "boolean",
       "collapsed": false,
       "comment_count": 0,
       "vote_count": "string",
       "voted": false,
       "followed": false,
-      "suspended": true,
+      "suspended": "boolean",
       "flag_count": 0,
       "share_count": 0,
-      "addressing": [],
+      "addressing": [integer],
       "title": "string",
       "slug": "string",
       "view_count": 1,

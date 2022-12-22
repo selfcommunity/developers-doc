@@ -13,22 +13,22 @@ title: Locality
   "province_short": "string",
   "region": "string",
   "country": "string",
-  "lat": 0,
-  "lng": 0
+  "lat": "integer",
+  "lng": "integer"
 }
 
 ```
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|full_address|string|false|read-only|none|
-|postal_code|string|false|read-only|none|
-|town|string|false|read-only|none|
-|province|string|false|read-only|none|
-|province_short|string|false|read-only|none|
-|region|string|false|read-only|none|
-|country|string|false|read-only|none|
-|lat|number|false|read-only|none|
-|lng|number|false|read-only|none|
+|Name|Type|Required|Restrictions| Description             |
+|---|---|---|---|-------------------------|
+|full_address|string|false|read-only| Locality full address   |
+|postal_code|string|false|read-only| Locality postal code    |
+|town|string|false|read-only| Locality town name      |
+|province|string|false|read-only| Locality province name  |
+|province_short|string|false|read-only| Locality province short |
+|region|string|false|read-only| Locality region name    |
+|country|string|false|read-only| Locality country name   |
+|lat|integer|false|read-only| Locality latitude       |
+|lng|integer|false|read-only| Locality longitude      |

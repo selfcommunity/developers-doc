@@ -20,7 +20,7 @@ This operation requires authentication. The logged user must be the media creato
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this media object.|
+|id|path|string|true|A unique integer value identifying this media object|
 
 ### Example Request
 

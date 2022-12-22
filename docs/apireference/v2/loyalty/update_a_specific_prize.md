@@ -20,7 +20,7 @@ This operation requires authentication and admin or editor role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this loyalty prize.|
+|id|path|string|true|A unique integer value identifying this loyalty prize|
 |body|body|[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)|false|none|
 
 #### Example Body Parameters
@@ -34,12 +34,12 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "active": true,
+  "active": "boolean",
   "title": "string",
   "description": "string",
-  "points": 0,
-  "link": "https://example.com",
-  "image": "string"
+  "points": "integer",
+  "link": "string(uri)",
+  "image": "string",
 }
 ```
 
@@ -56,12 +56,12 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "active": true,
+  "active": "boolean",
   "title": "string",
   "description": "string",
-  "points": 0,
-  "link": "https://example.com",
-  "image": "string"
+  "points": "integer",
+  "link": "string(uri)",
+  "image": "string",
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -114,16 +114,16 @@ curl -X PUT /api/v2/loyalty/prize/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "active": true,
+  "id": "integer",
+  "active": "boolean",
   "title": "string",
   "description": "string",
-  "points": 0,
-  "link": "https://example.com",
+  "points": "integer",
+  "link": "string(uri)",
   "image": "string",
-  "created_at": "2019-08-24T14:15:22Z",
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "created_by": "string"
+  "created_at": "string",
+  "lastmod_datetime": "string",
+  "created_by": {User}
 }
 ```
 

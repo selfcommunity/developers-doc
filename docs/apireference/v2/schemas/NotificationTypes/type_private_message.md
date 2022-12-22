@@ -6,15 +6,15 @@ title: Notification Type Private Message
 
 ```json
 {
-    "is_new": true,
-    "sid": 16053713157510000000004370,
-    "type": "private_message",
-    "active_at": "2020-11-14T17:52:20.967302+01:00",
+    "is_new": "boolean",
+    "sid": "string",
+    "type": "string",
+    "active_at": "string",
     "message": {
-      "id": 0,
-      "sender_id": 0,
+      "id": "integer",
+      "sender_id": "integer",
       "message": "string",
-      "created_at": "2021-11-19T17:12:31.320062+01:00",
+      "created_at": "string",
       "status": "string",
       "file": "object"
     }

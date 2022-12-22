@@ -20,9 +20,9 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this status.|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|id|path|string|true|A unique integer value identifying this status|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -87,9 +87,9 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
         {
             "id": 123,

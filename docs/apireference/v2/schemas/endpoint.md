@@ -6,19 +6,19 @@ title: Endpoint
 
 ```json
 {
-  "id": 0,
-  "created_at": "2019-08-24T14:15:22Z",
-  "updated_at": "2019-08-24T14:15:22Z",
-  "is_active": true,
-  "target": "https://example.com",
+  "id": "integer",
+  "created_at": "string",
+  "updated_at": "string",
+  "is_active": "boolean",
+  "target": "string",
   "description": "string",
   "events": [
     {
-      "type": "comment.created",
-      "added_at": "2019-08-24T14:15:22Z"
+      "type": "string",
+      "added_at": "string"
     }
   ],
-  "ssl_cert_verification": true
+  "ssl_cert_verification": "boolean"
 }
 
 ```

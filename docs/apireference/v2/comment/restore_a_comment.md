@@ -21,7 +21,7 @@ This operation requires authentication. The logged user must be the comment crea
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this comment.|
+|id|path|string|true|A unique integer value identifying this comment|
 
 ### Example Request
 

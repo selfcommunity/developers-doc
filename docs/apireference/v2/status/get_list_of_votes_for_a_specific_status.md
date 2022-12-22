@@ -86,9 +86,9 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
       {
         "user": {
@@ -96,7 +96,7 @@ Status Code **200**
           "username": "string",
           "real_name": "string",
           "email": "user@example.com",
-          "email_isvalid": true,
+          "email_isvalid": "boolean",
           "date_joined": "2019-08-24T14:15:22Z",
           "bio": "string",
           "location": "string",
@@ -113,13 +113,13 @@ Status Code **200**
           "tags": [
             {
               "id": 0,
-              "active": true,
+              "active": "boolean",
               "type": "user",
               "name": "string",
               "description": "string",
               "color": "string",
-              "visible": true,
-              "deleted": true,
+              "visible": "boolean",
+              "deleted": "boolean",
               "created_at": "2019-08-24T14:15:22Z"
             }
           ],
@@ -136,7 +136,7 @@ Status Code **200**
             "label": "string",
             "image": "url",
             "sentiment": 1,
-            "active": true
+            "active": "boolean"
         },        
         "voted_at": "2019-08-24T14:15:22Z"
         }

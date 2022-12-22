@@ -49,9 +49,9 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "discussion": 0,
-  "parent": 0,
-  "in_reply_to": 0,
+  "discussion": "integer",
+  "parent": "integer",
+  "in_reply_to": "integer",
   "text": "string"
 }
 ```
@@ -69,9 +69,9 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "discussion": 0,
-  "parent": 0,
-  "in_reply_to": 0,
+  "discussion": "integer",
+  "parent": "integer",
+  "in_reply_to": "integer",
   "text": "string"
 }';
 const headers = {
@@ -104,9 +104,9 @@ curl -X POST /api/v2/comment/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --raw-data '{
-    "discussion": 0,
-    "parent": 0,
-    "in_reply_to": 0,
+    "discussion": "integer",
+    "parent": "integer",
+    "in_reply_to": "integer",
     "text": "string"
   }'
 ```
@@ -130,111 +130,28 @@ curl -X POST /api/v2/comment/ \
 
 ```json
 {
-  "id": 0,
-  "discussion": 0,
-  "author": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "date_joined": "2019-08-24T14:15:22Z",
-    "bio": "string",
-    "location": "string",
-    "location_lat_lng": "string",
-    "position_lat_lng": "string",
-    "date_of_birth": "string",
-    "description": "string",
-    "gender": "Male",
-    "website": "https://example.com",
-    "avatar": "string",
-    "cover": "string",
-    "ext_id": "string",
-    "tags": [
-      {
-        "id": 0,
-        "active": true,
-        "type": "user",
-        "name": "string",
-        "description": "string",
-        "color": "string",
-        "visible": true,
-        "deleted": true,
-        "created_at": "2019-08-24T14:15:22Z"
-      }
-    ],
-  "reputation": 111,
-  "followings_counter": 7,
-  "followers_counter": 2,
-  "posts_counter": 4,
-  "discussions_counter": 3,
-  "statuses_counter": 0,
-  "polls_counter": 1
-  },
-  "added_at": "2019-08-24T14:15:22Z",
-  "html": "string",
-  "summary": "string",
-  "deleted": true,
-  "collapsed": true,
-  "parent": 0,
-  "in_reply_to": 0,
-  "vote_count": 0,
-  "voted": false,
-  "flag_count": 0,
-  "comment_count": 1,
-  "latest_comments": [
-    {
-      "id": 1,
-      "object": 1,
-      "author": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "date_joined": "2019-08-24T14:15:22Z",
-        "bio": "string",
-        "location": "string",
-        "location_lat_lng": "string",
-        "position_lat_lng": "string",
-        "date_of_birth": "string",
-        "description": "string",
-        "gender": "Male",
-        "website": "https://example.com",
-        "avatar": "string",
-        "cover": "string",
-        "ext_id": "string",
-        "tags": [
-          {
-            "id": 0,
-            "active": true,
-            "type": "user",
-            "name": "string",
-            "description": "string",
-            "color": "string",
-            "visible": true,
-            "deleted": true,
-            "created_at": "2019-08-24T14:15:22Z"
-          }
-        ],
-      "reputation": 111,
-      "followings_counter": 7,
-      "followers_counter": 2,
-      "posts_counter": 4,
-      "discussions_counter": 3,
-      "statuses_counter": 0,
-      "polls_counter": 1
-      },
-      "added_at": "2019-08-24T14:15:22Z",
-      "html": "string",
-      "summary": "string",
-      "deleted": true,
-      "collapsed": true,
-      "parent": 0,
-      "in_reply_to": 0,
-      "comments_count": 0,
-      "vote_count": 0,
-      "voted": false,
-      "flag_count": 0,
-      "comment_count": 0
-    }
-  ]
+    "id": "integer",
+    "author": {User},
+    "added_at": "string",
+    "last_edited_at": "string",
+    "html": "string",
+    "summary": "string",
+    "deleted": "boolean",
+    "collapsed": "boolean",
+    "parent": "integer",
+    "in_reply_to": "integer",
+    "comment_count": "integer",
+    "vote_count": "integer",
+    "reactions_count": [{Reaction}],
+    "flag_count": "integer",
+    "post": {
+        "id": "integer",
+        "slug": "string"
+    },
+    "latest_comments": [{CommentSummary}],
+    "type": "string",
+    "voted": "boolean",
+    "reaction": {Reaction}
 }
 ```
 

@@ -21,11 +21,11 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term|
 |status|query|string|false|Valid values are from 0 to 3|
-|ordering|query|string|false|Which field to use when ordering the results.|
+|ordering|query|string|false|Which field to use when ordering the results|
 
 #### Status valid Values
 
@@ -104,21 +104,28 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
+      "name": "string",
       "slug": "string",
       "slogan": "string",
-      "status": 0,
+      "status": "integer",
       "approved_category": {},
-      "added_at": "2019-08-24T14:15:22Z",
-      "user": {},
-      "subscribers_count": "string",
-      "subscribers_threshold": "string",
-      "subscribed": true,           
+      "added_at": "string",
+      "user": {
+        "id": "integer",
+        "username": "string",
+        "real_name": "string",
+        "avatar": "string",
+        "ext_id": "integer"
+      },
+      "subscribers_count": "integer",
+      "subscribers_threshold": "integer",
+      "subscribed": "boolean"      
     }
   ]
 }

@@ -21,7 +21,7 @@ This operation requires moderation role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Contribution.|
+|id|path|string|true|A unique integer value identifying this Contribution|
 |contribution_type|body|string|true|Valid values are: post, discussion, status, comment|
 
 ### Example Request
@@ -102,9 +102,9 @@ curl -X GET /api/v2/moderation/contribution/{id}/status/ \
 
 ```json
 {
-    "status": "hidden",
-    "flag_type": 1,
-    "flag_type_description": "aggressive"
+    "status": "string",
+    "flag_type": "integer",
+    "flag_type_description": "string"
 }
 ```
 

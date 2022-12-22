@@ -20,7 +20,7 @@ This operation requires authentication. The logged user must be the comment crea
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post.|
+|id|path|string|true|A unique integer value identifying this post|
 
 ### Example Request
 

@@ -20,8 +20,8 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint.|
-|event|body|[integer]|true|Array of ids of Events that the endpoint must resend.|
+|id|path|string|true|A unique integer value identifying this endpoint|
+|event|body|[integer]|true|Array of ids of Events that the endpoint must resend|
 
 #### Example Body Parameters
 

@@ -20,9 +20,9 @@ This operation requires admin or moderation role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|user|body|integer|true|A unique integer value identifying the user.|
-|score|body|integer|true|Positive or negative integer value.|
-|comment|body|string|false|A comment about this operation (only for internal usage).|
+|user|body|integer|true|A unique integer value identifying the user|
+|score|body|integer|true|Positive or negative integer value|
+|comment|body|string|false|A comment about this operation (only for internal usage)|
 
 #### Example Body Parameters
 
@@ -113,7 +113,7 @@ curl -X POST /api/v2/score/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "user": {
     "id": 0,
     "username": "string",

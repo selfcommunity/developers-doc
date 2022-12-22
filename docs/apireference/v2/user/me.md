@@ -73,11 +73,11 @@ curl -X GET /api/v2/user/me/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "username": "string",
   "real_name": "string",
   "email": "user@example.com",
-  "email_isvalid": true,
+  "email_isvalid": "boolean",
   "date_joined": "2019-08-24T14:15:22Z",
   "bio": "string",
   "location": "string",
@@ -106,14 +106,14 @@ curl -X GET /api/v2/user/me/ \
   "unseen_notification_banners_counter": 1,
   "permission": {
     "upload_video": false,
-    "create_contribute": true,
-    "create_poll": true,
+    "create_contribute": "boolean",
+    "create_poll": "boolean",
     "locate_post": false,
-    "create_post": true,
-    "create_post_with_category": true,
-    "follow_user": true,
-    "request_connection": true,
-    "accept_connection": true
+    "create_post": "boolean",
+    "create_post_with_category": "boolean",
+    "follow_user": "boolean",
+    "request_connection": "boolean",
+    "accept_connection": "boolean"
   },
   "role": "string",
   "reg_approved": bool

@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 {
   "qquuid": "string",
   "qqfilename": "string"
-  "qqtotalparts": 5
+  "qqtotalparts": "integer"
 }
 ```
 
@@ -62,7 +62,7 @@ import TabItem from '@theme/TabItem';
 const inputBody = '{
   "qquuid": "string",
   "qqfilename": "string",
-  "qqtotalparts": "5"
+  "qqtotalparts": "integer"
 }';
 const headers = {
   'Authorization': 'Bearer {access_token}'

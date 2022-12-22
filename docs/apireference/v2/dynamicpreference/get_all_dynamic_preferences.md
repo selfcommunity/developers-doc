@@ -93,15 +93,15 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
-      "section": "loyalty",
-      "name": "points_make_post",
-      "value": "2"
+      "id": "integer",
+      "section": "string",
+      "name": "string",
+      "value": "string"
     }
   ]
 }

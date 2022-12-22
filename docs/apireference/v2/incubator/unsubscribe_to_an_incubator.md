@@ -26,7 +26,7 @@ This api is a toggle, so it's identical to [subscribe](subscribe_to_an_incubator
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Incubator.|
+|id|path|string|true|A unique integer value identifying this Incubator|
 
 ### Example Request
 

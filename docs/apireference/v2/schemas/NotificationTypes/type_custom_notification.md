@@ -5,10 +5,10 @@ title: Notification Type Vote Up Custom Notification
 ---
 ```json
 {
-    "is_new": false,
-    "sid": 16052592493610000000054990,
-    "type": "custom_notification",
-    "active_at": "2020-11-13T10:20:49.361022+01:00",
+    "is_new": "boolean",
+    "sid": "string",
+    "type": "string",
+    "active_at": "string",
     "custom_notification": {},
     "user": {}
 }

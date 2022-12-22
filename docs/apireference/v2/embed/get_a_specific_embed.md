@@ -20,7 +20,7 @@ This operation require authentication only if `content_availability` community o
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this embed.|
+|id|path|string|true|A unique integer value identifying this embed|
 
 ### Example Request
 
@@ -81,10 +81,10 @@ curl -X GET /api/v2/embed/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "embed_type": "string",
   "embed_id": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "metadata": {}
 }
 ```

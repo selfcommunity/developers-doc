@@ -6,122 +6,31 @@ title: Status
 
 ```json
 {
-  "id": 0,
-  "type": "status",
-  "action":"string",
-  "categories": [
-    {
-      "id": 0,
-      "order": 1,
-      "name": "name",
-      "name_synonyms": "synonyms",
-      "slug": "name",
-      "slogan": "Slogan",
-      "html_info": null,
-      "seo_title": null,
-      "seo_description": null,
-      "auto_follow": "None",
-      "active": true,
-      "deleted": false,
-      "image_original": "string",
-      "image_bigger": "string",
-      "image_big": "string",
-      "image_medium": "string",
-      "image_small": "string",
-      "emotional_image_original": "string",
-      "emotional_image_position": 50,
-      "lastmod_datetime": "2020-09-30T15:22:07.123058+02:00",
-      "stream_order_by": "recent"
-    }
-  ],
-  "medias": [
-    {
-      "id": 0,
-      "added_at": "2019-08-24T14:15:22Z",
-      "type": "url",
-      "title": "string",
-      "description": "string",
-      "url": "https://example.com",
-      "image": "string",
-      "image_width": 0,
-      "image_height": 0,
-      "order": 0,
-      "embed": {
-          "id": 0,
-          "embed_type": "string",
-          "embed_id": "string",
-          "url": "string",
-          "metadata": {}
-      }
-    }
-  ],
-  "location": {
-    "location": "string",
-    "lat": 0,
-    "lng": 0
-  },
-  "last_activity_at": "2019-08-24T14:15:22Z",
-  "last_edited_at": null,
-  "author": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "date_joined": "2019-08-24T14:15:22Z",
-    "bio": "string",
-    "location": "string",
-    "location_lat_lng": "string",
-    "position_lat_lng": "string",
-    "date_of_birth": "string",
-    "description": "string",
-    "gender": "Male",
-    "website": "https://example.com",
-    "avatar": "string",
-    "cover": "string",
-    "ext_id": "string",
-    "tags": [],
-    "reputation": 111
-  },
-  "added_at": "2019-08-24T14:15:22Z",
+  "id": "integer",
+  "type": "string",
+  "last_activity_at": "string",
+  "author": {},
+  "added_at": "string",
+  "last_edited_at": "string",
   "html": "string",
   "summary": "string",
-  "deleted": true,
-  "collapsed": false,
-  "comment_count": 0,
-  "vote_count": 4,
-  "reactions_count": [
-    {
-      "reaction": {
-        "id": 1,
-        "label": "Mi piace",
-        "image": "reactions/like.svg",
-        "sentiment": 1,
-        "active": true
-      },
-      "count": 1
-    },
-    {
-      "reaction": {
-        "id": 2,
-        "label": "Indifferente",
-        "image": "reactions/indifferent.png",
-        "sentiment": 0,
-        "active": true
-      },
-      "count": 3
-    }
-  ],
-  "voted": true,
-  "reaction": {
-    "id": 2,
-    "label": "Indifferente",
-    "image": "reactions/indifferent.png",
-    "sentiment": 0,
-    "active": true
-  },
-  "followed": false,
-  "suspended": true,
-  "flag_count": 0,
-  "share_count": 0,
+  "deleted": "boolean",
+  "collapsed": "boolean",
+  "comment_count": "integer",
+  "view_count": "integer",
+  "vote_count": "integer",
+  "reactions_count": [],
+  "voted": "boolean",
+  "reaction": {},
+  "follower_count": "integer",
+  "followed": "boolean",
+  "suspended": "boolean",
+  "flag_count": "integer",
+  "share_count": "integer",
+  "slug": "string",
+  "categories": [],
+  "medias": [],
+  "location": {},
   "addressing": []
 }
 

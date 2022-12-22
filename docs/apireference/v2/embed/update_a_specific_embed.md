@@ -20,7 +20,7 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this embed.|
+|id|path|string|true|A unique integer value identifying this embed|
 |» url|string(uri)¦null|false|none|Url for the resource, if any|
 |» metadata|json|false|none|Metadata associated to this embed. It mus be a valid json object|
 
@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "url": "https://example.com",
+  "url": "string(uri)",
   "metadata": {}
 }
 ```
@@ -110,10 +110,10 @@ curl -X PUT /api/v2/embed/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "embed_type": "string",
   "embed_id": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "metadata": {}
 }
 ```

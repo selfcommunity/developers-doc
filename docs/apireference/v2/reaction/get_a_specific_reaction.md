@@ -19,9 +19,9 @@ This operation does not require authentication.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                       |
-|------|------|--------|----------|---------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this Reaction. |
+| Name | In   | Type   | Required | Description                                      |
+|------|------|--------|----------|--------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this reaction |
 
 ### Example Request
 
@@ -63,9 +63,9 @@ curl -X GET /api/v2/reaction/{id}/ \
 ````
 
 ## Responses
-| Status | Meaning                                                 | Description | Schema                                               |
-|--------|---------------------------------------------------------|-------------|------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Reaction](/docs/apireference/v2/schemas/legal_page) |
+| Status | Meaning                                                 | Description | Schema                                             |
+|--------|---------------------------------------------------------|-------------|----------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Reaction](/docs/apireference/v2/schemas/reaction) |
 
 ### Example responses
 
@@ -77,11 +77,11 @@ curl -X GET /api/v2/reaction/{id}/ \
 
 ```json
 {
-    "id": 1,
-    "label": "string",
-    "image": "url",
-    "sentiment": 1,
-    "active": true
+      "id": "integer",
+      "label": "string",
+      "sentiment": "integer",
+      "image": "string(uri)",
+      "active": "boolean"
 }
 ```
 

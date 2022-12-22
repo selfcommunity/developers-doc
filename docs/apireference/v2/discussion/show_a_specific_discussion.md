@@ -19,7 +19,7 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this discussion.|
+|id|path|string|true|A unique integer value identifying this discussion|
 
 ### Example Request
 

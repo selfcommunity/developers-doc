@@ -6,60 +6,23 @@ title: Incubator
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "name": "string",
   "slug": "string",
   "slogan": "string",
-  "status": 0,
-  "approved_category": {
-    "id": 0,
-    "tags": [
-      {
-        "id": 0,
-        "active": true,
-        "type": "user",
-        "name": "string",
-        "description": "string",
-        "color": "string",
-        "visible": true,
-        "visibility_boost": true,
-        "deleted": true,
-        "created_at": "2019-08-24T14:15:22Z"
-      }
-    ],
-    "followed": false,
-    "order": -2147483648,
-    "name": "string",
-    "name_synonyms": "string",
-    "slug": "string",
-    "slogan": "string",
-    "html_info": "string",
-    "seo_title": "string",
-    "seo_description": "string",
-    "auto_follow": "none",
-    "active": true,
-    "image_original": "string",
-    "image_bigger": "string",
-    "image_big": "string",
-    "image_medium": "string",
-    "image_small": "string",
-    "emotional_image_original": "string",
-    "emotional_image_position": -2147483648,
-    "lastmod_datetime": "2019-08-24T14:15:22Z",
-    "stream_order_by": "recent",
-    "followers_counter": 13
-  },
-  "added_at": "2019-08-24T14:15:22Z",
+  "status": "integer",
+  "approved_category": {},
+  "added_at": "string",
   "user": {
-    "id": 0,
+    "id": "integer",
     "username": "string",
     "real_name": "string",
     "avatar": "string",
-    "ext_id": "string"
+    "ext_id": "integer"
   },
-  "subscribers_count": "string",
-  "subscribers_threshold": "string",
-  "subscribed": true
+  "subscribers_count": "integer",
+  "subscribers_threshold": "integer",
+  "subscribed": "boolean"
 }
 
 ```
@@ -76,8 +39,8 @@ title: Incubator
 |approved_category|[Category](/docs/apireference/v2/schemas/category)|false|read-only|The approved category obj|
 |added_at|string(date-time)|false|none|The datetime of the incubator creation|
 |user|[User](/docs/apireference/v2/schemas/user)|false|read-only|The user who created the incubator|
-|subscribers_count|string|false|read-only|The number of incubator suscribers|
-|subscribers_threshold|string|false|read-only|The number of subscribers required to approve the incubator|
+|subscribers_count|integer|false|read-only|The number of incubator suscribers|
+|subscribers_threshold|integer|false|read-only|The number of subscribers required to approve the incubator|
 |subscribed|boolean|false|none|If the authenticated user has subscribed to the incubator|
 
 #### Enumerated Values

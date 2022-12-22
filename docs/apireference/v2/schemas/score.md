@@ -6,18 +6,18 @@ title: Score
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "user": {
-    "id": 0,
+    "id": "integer",
     "username": "string",
     "real_name": "string",
     "email": "user@example.com",
     "description": "string",
     "avatar": "string",
-    "reputation": 0
+    "reputation": "integer"
   },
   "score": "string",
-  "reputation_type": 1,
+  "reputation_type": "integer",
   "reputation_type_description": "string",
   "comment": "string"
 }

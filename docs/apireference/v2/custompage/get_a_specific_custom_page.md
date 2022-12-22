@@ -21,7 +21,7 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this custom page.|
+|id|path|string|true|A unique integer value identifying this custom page|
 
 ### Example Request
 
@@ -80,18 +80,19 @@ curl -X GET /api/v2/custom_page/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "slug": "string",
   "label": "string",
   "title": "string",
   "alternative_url": "string",
   "html_body": "string",
-  "visible_in_menu": true,
-  "order": -2147483648,
-  "created_at": "2019-08-24T14:15:22Z",
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "active": true,
-  "created_by": 0
+  "visible_in_menu": "boolean",
+  "order": "integer",
+  "created_at": "string",
+  "updated_at": "string",
+  "active": "boolean",
+  "created_by": "integer",
+  "updated_by": "integer"
 }    
 ```
 

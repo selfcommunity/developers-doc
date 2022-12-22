@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Create an account
 ---
 
-Create a new user account
+This endpoint performs the creation of a new user account.
 
 :::info
 
@@ -14,7 +14,7 @@ Create a new user account
 
 :::info
 
-only users with the admin role can register new users.
+Only users with the admin role can register new users.
 
 :::
 
@@ -30,18 +30,20 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-| Name                     | In   | Type   | Required | Description                                                                                                                                                                                                                                              |
-|--------------------------|------|--------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| username                 | body | string | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                        |
-| email                    | body | string | false    | The email of the user.                                                                                                                                                                                                                                   |
-| password                 | body | string | false    | The password of the user. The password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&). |
-| invite_code              | body | string | false    | A valid invite code, only if 'invite_code' preference is true.                                                                                                                                                                                           |
-| promo_code               | body | string | false    | A valid promo code, only if 'promo_code' feature is true.                                                                                                                                                                                                |
+| Name                     | In   | Type   | Required | Description                                                                                                                                                                                                                                             |
+|--------------------------|------|--------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| username                 | body | string | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                       |
+| email                    | body | string | false    | The email of the user.                                                                                                                                                                                                                                  |
+| password                 | body | string | false    | The password of the user. The password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&) |
+| invite_code              | body | string | false    | A valid invite code, only if 'invite_code' preference is true.                                                                                                                                                                                          |
+| promo_code               | body | string | false    | A valid promo code, only if 'promo_code' feature is true.                                                                                                                                                                                               |
 | custom_user_metadata (*) | body | string | false    | Custom user metadata fields can be passed only if they are defined. Refer to the following guide [User's custom fields (metadata)](/docs/apireference/v2/usermetadata/).                                                              |
 
 ### Example Request
 
 ````mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <Tabs defaultValue="js" values={[{ label: 'JavaScript', value: 'js', }, { label: 'Bash', value: 'bash', }]}>
 <TabItem value="js">

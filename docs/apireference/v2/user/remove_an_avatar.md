@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|avatar_id|body|string|true|A unique integer value identifying this avatar.|
+|avatar_id|body|string|true|A unique integer value identifying this avatar|
 
 ### Example Request
 

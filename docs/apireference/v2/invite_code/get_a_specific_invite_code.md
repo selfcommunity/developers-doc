@@ -18,9 +18,9 @@ This operation does not require authentication
 
 ### Parameters
 
-| Name    | In   | Type   | Required | Description                                                      |
-|---------|------|--------|----------|------------------------------------------------------------------|
-| id/code | path | string | true     | A unique integer value or the code identifying this invite code. |
+| Name    | In   | Type   | Required | Description                                                     |
+|---------|------|--------|----------|-----------------------------------------------------------------|
+| id/code | path | string | true     | A unique integer value or the code identifying this invite code |
 
 ### Example Request
 
@@ -79,18 +79,18 @@ curl -X GET /api/v2/invite_code/{id/code}/ \
 
 ```json
 {
-    "id": 1,
+    "id": "integer",
     "invited_by_username": "string",
     "role": "string",
-    "tags": [],
+    "tags": [{Tags}],
     "name": "string",
     "email": "string",
     "code": "string",
-    "generated_at": "2019-12-12T01:00:00+01:00",
-    "sent_at": null,
-    "used_at": null,
-    "invited_by": 1,
-    "user": null
+    "generated_at": "string",
+    "sent_at": "string",
+    "used_at": "string",
+    "invited_by": "integer",
+    "user": {User}
 }
 ```
 

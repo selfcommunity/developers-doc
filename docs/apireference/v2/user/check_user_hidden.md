@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
+|id|path|string|true|A unique integer value identifying this user|
 
 ### Example Request
 
@@ -79,7 +79,7 @@ curl -X GET /api/v2/user/{id}/is_hidden/ \
 
 ```json
 {
-    "is_hidden": true
+    "is_hidden": "boolean"
 }
 ```
 

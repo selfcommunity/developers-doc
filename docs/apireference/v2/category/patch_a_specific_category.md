@@ -27,10 +27,10 @@ For example to change `active` or `deleted` flags in an admin list/table interfa
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Category.|
-|body|body|[Category](/docs/apireference/v2/schemas/category)|false|none|
+| Name | In   | Type                                               | Required | Description                                      |
+|------|------|----------------------------------------------------|----------|--------------------------------------------------|
+| id   | path | string                                             | true     | A unique integer value identifying this Category |
+| body | body | [Category](/docs/apireference/v2/schemas/category) | false    | The category body                                |
 
 #### Example Body Parameters
 
@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "order": 123,
+  "order": "integer",
   "name": "string",
   "name_synonyms": "string",
   "slug": "string",
@@ -52,13 +52,13 @@ import TabItem from '@theme/TabItem';
   "seo_title": "string",
   "seo_description": "string",
   "auto_follow": "none",
-  "active": true,
-  "deleted": false,
+  "active": "boolean",
+  "deleted": "boolean",
   "image_original": "string",
   "emotional_image_original": "string",
-  "emotional_image_position": 123,
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "stream_order_by": "recent"
+  "emotional_image_position": "integer",
+  "lastmod_datetime": "string",
+  "stream_order_by": "string"
 }
 ```
 
@@ -75,7 +75,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "order": 123,
+  "order": "integer",
   "name": "string",
   "name_synonyms": "string",
   "slug": "string",
@@ -84,13 +84,13 @@ const inputBody = '{
   "seo_title": "string",
   "seo_description": "string",
   "auto_follow": "none",
-  "active": true,
-  "deleted": false,
+  "active": "boolean",
+  "deleted": "boolean",
   "image_original": "string",
   "emotional_image_original": "string",
-  "emotional_image_position": 123,
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "stream_order_by": "recent"
+  "emotional_image_position": "integer",
+  "lastmod_datetime": "string",
+  "stream_order_by": "string"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -143,29 +143,29 @@ curl -X PATCH /api/v2/category/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "tags": [],
-  "followed": false,
-  "order": 123,
-  "name": "string",
-  "name_synonyms": "string",
-  "slug": "string",
-  "slogan": "string",
-  "html_info": "string",
-  "seo_title": "string",
-  "seo_description": "string",
-  "auto_follow": "none",
-  "active": true,
-  "image_original": "string",
-  "image_bigger": "string",
-  "image_big": "string",
-  "image_medium": "string",
-  "image_small": "string",
-  "emotional_image_original": "string",
-  "emotional_image_position": 0,
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "stream_order_by": "recent",
-  "followers_counter": 13
+      "id": "integer,
+      "tags": [],
+      "followed": "boolean",
+      "order": "integer",
+      "name": "string",
+      "name_synonyms": "string",
+      "slug": "string",
+      "slogan": "string",
+      "html_info": "string",
+      "seo_title": "string",
+      "seo_description": "string",
+      "auto_follow": "string",
+      "active": "boolean",
+      "image_original": "string",
+      "image_bigger": "string",
+      "image_big": "string",
+      "image_medium": "string",
+      "image_small": "string",
+      "emotional_image_original": "string",
+      "emotional_image_position": "integer",
+      "lastmod_datetime": "string",
+      "stream_order_by": "string",
+      "followers_counter": "integer"
 }
 ```
 

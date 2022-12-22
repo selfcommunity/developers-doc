@@ -48,8 +48,8 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "qqpartindex": 0,
-  "qqtotalparts": 5,
+  "qqpartindex": "integer",
+  "qqtotalparts": "integer",
   "qqfile": "blob"
 }
 ```

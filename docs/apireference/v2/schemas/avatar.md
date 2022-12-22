@@ -6,11 +6,11 @@ title: Avatar
 
 ```json
 {
-    "id": 123,
-    "primary": false,
-    "avatar": "url",
-    "date_uploaded": "2021-11-18T16:28:35.042201+01:00",
-    "user": 123
+    "id": "integer",
+    "primary": "boolean",
+    "avatar": "string(uri)",
+    "date_uploaded": "string",
+    "user": "integer"
 }
 
 ```

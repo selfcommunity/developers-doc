@@ -42,15 +42,10 @@ import TabItem from '@theme/TabItem';
 {
   "recipients_type": "string",
   "type": "string",
-  "embed": {
-    "embed_type": "string",
-    "embed_id": "string",
-    "url": "https://example.com",
-    "metadata": "{}"
-  },
+  "embed": {},
   "title": "string",
   "description": "string",
-  "user": 0
+  "user": "integer"
 }
 ```
 
@@ -72,12 +67,12 @@ const inputBody = '{
   "embed": {
     "embed_type": "string",
     "embed_id": "string",
-    "url": "https://example.com",
+    "url": "string",
     "metadata": "{}"
   },
   "title": "string",
   "description": "string",
-  "user": 3
+  "user": "integer"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',

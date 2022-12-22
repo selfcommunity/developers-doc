@@ -6,14 +6,11 @@ title: Notification Type Deleted For
 
 ```json
 {
-  "is_new": true,
-  "sid": 16053813898480000000224680,
-  "type": "deleted_for_<type>",
-  "active_at": "2020-11-14T20:16:29.848490+01:00",
-  "discussion": {},
-  "post": {},
-  "comment": {},
-  "status": {}
+  "is_new": "boolean",
+  "sid": "string",
+  "type": "string",
+  "active_at": "string",
+  "discussion/post/comment/status": {}
 }
 ```
 

@@ -22,12 +22,12 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|thread|query|integer|(one between thread or user is required)|The id of the thread.|
-|user|query|integer|(one between thread or user is required)|The id of the user.|
-|before_message|query|integer|false|Return all messages before this id of the message (excluded before_message).|
-|from_message|query|integer|false|Return all messages from this id of the message (included from_message).|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|thread|query|integer|(one between thread or user is required)|The id of the thread|
+|user|query|integer|(one between thread or user is required)|The id of the user|
+|before_message|query|integer|false|Return all messages before this id of the message (excluded before_message)|
+|from_message|query|integer|false|Return all messages from this id of the message (included from_message)|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 
 ### Example Request
@@ -82,12 +82,12 @@ curl -X GET /api/v2/pm/?thread=3 \
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Private Message](/docs/apireference/v2/schemas/private_message))|false|none|List of results|
+|Name| Type                                                                                 |Required|Restrictions|Description|
+|---|--------------------------------------------------------------------------------------|---|---|---|
+|» count| integer                                                                              |false|none|Total results count|
+|» next| string(uri)¦null                                                                     |false|none|Next page url|
+|» previous| string(uri)¦null                                                                     |false|none|Previous page url|
+|» results| list([Private Message Thread](/docs/apireference/v2/schemas/private_message_thread)) |false|none|List of results|
 
 ### Example responses
 
@@ -99,7 +99,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [ 

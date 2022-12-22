@@ -18,11 +18,11 @@ This operation requires moderation role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Contribution.|
-|contribution_type|body|string|true|Valid values are: post, discussion, status, comment|
-|flag_type|body|integer|false|Filter results by flag_type|
+|Name|In|Type|Required| Description                                          |
+|---|---|---|---|------------------------------------------------------|
+|id|path|string|true| A unique integer value identifying this contribution |
+|contribution_type|body|string|true| Valid values are: post, discussion, status, comment  |
+|flag_type|body|integer|false| Filter results by flag_type                          |
 
 #### Enumerated Values
 
@@ -91,43 +91,14 @@ curl -X GET /api/v2/moderation/contribution/{id}/flag/ \
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
     {
-      "user": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "date_joined": "2019-08-24T14:15:22Z",
-        "bio": "string",
-        "location": "string",
-        "location_lat_lng": "string",
-        "position_lat_lng": "string",
-        "date_of_birth": "2019-08-24",
-        "description": "string",
-        "gender": "Male",
-        "website": "https://example.com",
-        "avatar": "string",
-        "cover": "string",
-        "ext_id": "string",
-        "tags": [
-          {
-            "id": 0,
-            "active": true,
-            "type": "user",
-            "name": "string",
-            "description": "string",
-            "color": "string",
-            "visible": true,
-            "deleted": true,
-            "created_at": "2019-08-24T14:15:22Z"
-          }
-        ]
-      },
-      "added_at": "2019-08-24T14:15:22Z",
-      "flag_type": 0,
+      "user": {User},
+      "added_at": "string",
+      "flag_type": "integer",
       "flag_type_description": "string"
     }
   ]

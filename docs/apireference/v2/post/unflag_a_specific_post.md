@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post.|
+|id|path|string|true|A unique integer value identifying this post|
 |flag_type|body|integer|true|A integer from 0 to 4|
 
 #### Enumerated Values
@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "flag_type": 0
+  "flag_type": "integer"
 }
 ```
 
@@ -61,7 +61,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "flag_type": 0
+  "flag_type": "integer"
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -93,7 +93,7 @@ curl -X POST /api/v2/post/{id}/flag/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "flag_type": 0
+    "flag_type": "integer"
   }'
 ```
 </TabItem>

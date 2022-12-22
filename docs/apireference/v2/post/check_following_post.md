@@ -79,7 +79,7 @@ curl -X GET /api/v2/post/{id}/following/ \
 
 ```json
 {
-    "following": false
+    "following": "boolean"
 }
 ```
 

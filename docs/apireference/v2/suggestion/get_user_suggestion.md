@@ -20,8 +20,8 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -91,7 +91,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
@@ -100,7 +100,7 @@ Status Code **200**
       "username": "string",
       "real_name": "string",
       "email": "user@example.com",
-      "email_isvalid": true,
+      "email_isvalid": "boolean",
       "date_joined": "2019-08-24T14:15:22Z",
       "bio": "string",
       "location": "string",

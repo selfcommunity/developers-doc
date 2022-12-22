@@ -20,8 +20,8 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 |ordering|query|string|false|Which field to use when ordering the results. For sorting desc use - in front of the field name. Default to -created_at. Available values are created_at, is_active, updated_at|
 
 ### Example Request
@@ -94,15 +94,15 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
       "id": 0,
       "created_at": "2019-08-24T14:15:22Z",
       "updated_at": "2019-08-24T14:15:22Z",
-      "is_active": true,
+      "is_active": "boolean",
       "target": "https://example.com",
       "description": "string",
       "events": [
@@ -111,7 +111,7 @@ Status Code **200**
           "added_at": "2019-08-24T14:15:22Z"
         }
       ],
-      "ssl_cert_verification": true
+      "ssl_cert_verification": "boolean"
     }
   ]
 }

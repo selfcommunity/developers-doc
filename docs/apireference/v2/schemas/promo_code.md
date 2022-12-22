@@ -6,12 +6,12 @@ title: Promo Code
 
 ```json
 {
-    "id": 0,
+    "id": "integer",
     "code": "string",
     "name":  "string",
-    "is_valid_now": true,
-    "valid_from": "2022-06-01",
-    "valid_to": "2023-07-20"
+    "is_valid_now": "boolean",
+    "valid_from": "string",
+    "valid_to": "string"
 }
 
 ```

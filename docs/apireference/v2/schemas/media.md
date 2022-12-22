@@ -6,42 +6,36 @@ title: Media
 
 ```json
 {
-  "id": 0,
-  "added_at": "2019-08-24T14:15:22Z",
-  "type": "url",
+  "id": "integer",
+  "added_at": "string",
+  "type": "string",
   "title": "string",
   "description": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "image": "string",
-  "image_width": 0,
-  "image_height": 0,
-  "order": 0,
-  "embed": {
-    "id": 0,
-    "embed_type": "string",
-    "embed_id": "string",
-    "url": "string",
-    "metadata": {}
-  }
+  "image_width": "integer",
+  "image_height": "integer",
+  "order": "integer",
+  "embed": {}
 }
 
 ```
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|none|
-|added_at|string(date-time)|false|read-only|none|
-|type|string|true|none|none|
-|title|string|false|read-only|none|
-|description|string|false|read-only|none|
-|url|string(uri)|false|none|none|
-|image|string(binary)|false|read-only|none|
-|image_width|integer|false|read-only|none|
-|image_height|integer|false|read-only|none|
-|order|integer|false|read-only|none|
-|embed|[Embed](/docs/apireference/v2/schemas/embed)¦null|false|none|none|
+|Name|Type|Required|Restrictions| Description                 |
+|---|---|---|---|-----------------------------|
+|id|integer|false|read-only| The media id                |
+|added_at|string(date-time)|false|read-only| Date time of media creation |
+|type|string|true|none| Media type                  |
+|title|string|false|read-only| Media title                 |
+|description|string|false|read-only| Media description           |
+|url|string(uri)|false|none| Media url                   |
+|image|string(binary)|false|read-only| Media image                 |
+|image_width|integer|false|read-only| Media image width           |
+|image_height|integer|false|read-only| Media image     height      |
+|order|integer|false|read-only| The order                   |
+|embed|[Embed](/docs/apireference/v2/schemas/embed)¦null|false|none| The embed obj               |
 
 #### Enumerated Values
 

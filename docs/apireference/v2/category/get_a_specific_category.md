@@ -19,9 +19,9 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this category.|
+| Name | In   | Type   | Required | Description                                      |
+|------|------|--------|----------|--------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this category |
 
 ### Example Request
 
@@ -80,10 +80,10 @@ curl -X GET /api/v2/category/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer,
   "tags": [],
-  "followed": false,
-  "order": 123,
+  "followed": "boolean",
+  "order": "integer",
   "name": "string",
   "name_synonyms": "string",
   "slug": "string",
@@ -91,18 +91,18 @@ curl -X GET /api/v2/category/{id}/ \
   "html_info": "string",
   "seo_title": "string",
   "seo_description": "string",
-  "auto_follow": "none",
-  "active": true,
+  "auto_follow": "string",
+  "active": "boolean",
   "image_original": "string",
   "image_bigger": "string",
   "image_big": "string",
   "image_medium": "string",
   "image_small": "string",
   "emotional_image_original": "string",
-  "emotional_image_position": 0,
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "stream_order_by": "recent",
-  "followers_counter": 13
+  "emotional_image_position": "integer",
+  "lastmod_datetime": "string",
+  "stream_order_by": "string",
+  "followers_counter": "integer"
 }
 ```
 

@@ -20,7 +20,7 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this comment.|
+|id|path|string|true|A unique integer value identifying this comment|
 
 ### Example Request
 
@@ -80,8 +80,8 @@ curl -X GET /api/v2/comment/{id}/flag/status/ \
 
 ```json
 {
-  "added_at": "2019-08-24T14:15:22Z",
-  "flag_type": 0,
+  "added_at": "string",
+  "flag_type": "integer",
   "flag_type_description": "string"
 }
 ```

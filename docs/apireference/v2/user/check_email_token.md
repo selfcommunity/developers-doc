@@ -72,7 +72,7 @@ curl -X GET /api/v2/user/check_email_token/ \
 
 ```json
 {
-    "is_valid": true
+    "is_valid": "boolean"
 }
 ```
 

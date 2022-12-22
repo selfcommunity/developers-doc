@@ -20,8 +20,8 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint.|
-|password|body|string|false|Logged user password. It is used for security check.|
+|id|path|string|true|A unique integer value identifying this endpoint|
+|password|body|string|false|Logged user password. It is used for security check|
 
 #### Example Body Parameters
 

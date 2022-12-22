@@ -21,11 +21,11 @@ This operation requires authentication and admin or editor role to filter active
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term|
 |active|query|string|false|Filter by active only for editor or admin users|
-|ordering|query|string|false|Which field to use when ordering the results.|
+|ordering|query|string|false|Which field to use when ordering the results|
 
 ### Example Request
 
@@ -96,21 +96,18 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "http://api.example.org/accounts/?offset=400&limit=100",
-  "previous": "http://api.example.org/accounts/?offset=200&limit=100",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
-      "active": true,
-      "title": "string",
-      "description": "string",
-      "points": 0,
-      "link": "https://example.com",
-      "image": "string",
-      "created_at": "2019-08-24T14:15:22Z",
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "created_by": "string"
+      "id": "integer",
+      "user": {},
+      "prize": {},
+      "prize_points": "integer",
+      "pending_at": "string",
+      "status": "integer",
+      "status_description": "string"
     }
   ]
 }

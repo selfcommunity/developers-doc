@@ -6,18 +6,16 @@ title: Notification
 
 ```json
 {
-   "is_new": false,
-   "sid": "1605259249000",
-   "discussion": {},
-   "post": {},
-   "status": {},
+   "is_new": "boolean",
+   "sid": "string",
+   "post/discussion/status": {},
    "aggregated": [
         {
-          "is_new": false,
-          "type": "connection_accept",
-          "sid": 16037238513640000000074020,
-          "active_at": "2020-10-26T15:50:51.364336+01:00",
-          "accept_user": {}
+          "is_new": "boolean",
+          "sid": "string",
+          "type": "string",
+          "active_at": "string",
+          "post/discussion/status/comment/follower": {}
         }
    ]
 }

@@ -74,132 +74,28 @@ curl -X GET /api/v2/comment/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "discussion": {
-    "id": 0,
-    "slug": "string"
-  },
-  "author": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "date_joined": "2019-08-24T14:15:22Z",
-    "bio": "string",
-    "location": "string",
-    "location_lat_lng": "string",
-    "position_lat_lng": "string",
-    "date_of_birth": "string",
-    "description": "string",
-    "gender": "Male",
-    "website": "https://example.com",
-    "avatar": "string",
-    "cover": "string",
-    "ext_id": "string",
-    "tags": [
-      {
-        "id": 0,
-        "active": true,
-        "type": "user",
-        "name": "string",
-        "description": "string",
-        "color": "string",
-        "visible": true,
-        "deleted": true,
-        "created_at": "2019-08-24T14:15:22Z"
-      }
-    ],
-    "reputation": 111,
-    "followings_counter": 7,
-    "followers_counter": 2,
-    "posts_counter": 4,
-    "discussions_counter": 3,
-    "statuses_counter": 0,
-    "polls_counter": 1
-  },
-  "added_at": "2019-08-24T14:15:22Z",
+  "id": "integer",
+  "author": {},
+  "added_at": "string",
+  "last_edited_at": "string",
   "html": "string",
   "summary": "string",
-  "deleted": true,
-  "collapsed": true,
-  "parent": 0,
-  "in_reply_to": 0,
-  "vote_count": 0,
-  "voted": false,
-  "flag_count": 0,
-  "comment_count": 1,
-  "latest_comments": [
-    {
-      "id": 1,
-      "object": 1,
-      "author": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "date_joined": "2019-08-24T14:15:22Z",
-        "bio": "string",
-        "location": "string",
-        "location_lat_lng": "string",
-        "position_lat_lng": "string",
-        "date_of_birth": "string",
-        "description": "string",
-        "gender": "Male",
-        "website": "https://example.com",
-        "avatar": "string",
-        "cover": "string",
-        "ext_id": "string",
-        "tags": [
-          {
-            "id": 0,
-            "active": true,
-            "type": "user",
-            "name": "string",
-            "description": "string",
-            "color": "string",
-            "visible": true,
-            "deleted": true,
-            "created_at": "2019-08-24T14:15:22Z"
-          }
-        ],
-        "reputation": 111,
-        "followings_counter": 7,
-        "followers_counter": 2,
-        "posts_counter": 4,
-        "discussions_counter": 3,
-        "statuses_counter": 0,
-        "polls_counter": 1
-      },
-      "added_at": "2019-08-24T14:15:22Z",
-      "html": "string",
-      "summary": "string",
-      "deleted": true,
-      "collapsed": true,
-      "parent": 0,
-      "in_reply_to": 0,
-      "comments_count": 0,
-      "voted": false,
-      "reaction": {
-        "id": 1,
-        "label": "string",
-        "image": "url",
-        "sentiment": 10,
-        "active": true
-      },
-      "flag_count": 0,
-      "comment_count": 0,
-      "reactions_count": [
-        {
-          "reaction": {
-            "id": 1,
-            "label": "string",
-            "image": "url",
-            "sentiment": 10,
-            "active": true
-          },
-          "count": 1
-        }
-      ]
-    }
-  ]
+  "deleted": "boolean",
+  "collapsed": "boolean",
+  "parent": "integer",
+  "in_reply_to": "integer",
+  "comment_count": "integer",
+  "vote_count": "integer",
+  "reactions_count": [],
+  "flag_count": "integer",
+  "post": {
+    "id": "integer",
+    "slug": "string"
+  },
+  "latest_comments": [],
+  "type": "string",
+  "voted": "boolean",
+  "reaction": {}
 }
 ```
 

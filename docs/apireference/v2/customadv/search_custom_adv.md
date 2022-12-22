@@ -26,12 +26,12 @@ If `custom_adv_only_for_anonymous_users_enabled` community option is set to true
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per adv.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|position|query|string|false|Filter using field position.|
-|category|query|string|false|Filter using field category.|
-|active|query|string|false|Filter using field active (only if user is administrator or editor).|
-|search|query|string|false|A search term.|
+|limit|query|integer|false|Number of results to return per adv|
+|offset|query|integer|false|The initial index from which to return the results|
+|position|query|string|false|Filter using field position|
+|category|query|string|false|Filter using field category|
+|active|query|string|false|Filter using field active (only if user is administrator or editor)|
+|search|query|string|false|A search term|
 
 
 ### Example Request
@@ -103,22 +103,22 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [ 
     {
-      "id": 0,
-      "position": "BELOW_TOPBAR",
+      "id": "integer",
+      "position": "string",
       "title": "string",
-      "link": "http://example.com",
+      "link": "string(uri)",
       "image": "string",
       "embed_code": "string",
-      "active": true,
-      "created_at": "2019-08-24T14:15:22Z",
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "category": 0,
-      "created_by": 0
+      "active": "boolean",
+      "created_at": "string",
+      "lastmod_datetime": "string",
+      "category": "integer",
+      "created_by": "integer"
     }
   ]
 }

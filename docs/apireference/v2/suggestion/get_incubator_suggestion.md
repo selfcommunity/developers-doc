@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
+|limit|query|integer|false|Number of results to return per page|
 
 ### Example Request
 
@@ -98,14 +98,14 @@ Status Code **200**
         "tags": [
           {
             "id": 0,
-            "active": true,
+            "active": "boolean",
             "type": "user",
             "name": "string",
             "description": "string",
             "color": "string",
-            "visible": true,
-            "visibility_boost": true,
-            "deleted": true,
+            "visible": "boolean",
+            "visibility_boost": "boolean",
+            "deleted": "boolean",
             "created_at": "2019-08-24T14:15:22Z"
           }
         ],
@@ -118,8 +118,8 @@ Status Code **200**
         "seo_title": "string",
         "seo_description": "string",
         "auto_follow": "none",
-        "active": true,
-        "deleted": true,
+        "active": "boolean",
+        "deleted": "boolean",
         "image_original": "string",
         "image_bigger": "string",
         "image_big": "string",
@@ -140,7 +140,7 @@ Status Code **200**
       },
       "subscribers_count": "string",
       "subscribers_threshold": "string",
-      "subscribed": true,
+      "subscribed": "boolean",
 }
   ]
 }

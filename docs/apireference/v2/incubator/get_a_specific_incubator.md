@@ -21,7 +21,7 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this incubator.|
+|id|path|string|true|A unique integer value identifying this incubator|
 
 ### Example Request
 
@@ -79,59 +79,23 @@ curl -X GET /api/v2/incubator/{id}/ \
 
 ```json
 {
-      "id": 0,
-      "name": "string",
-      "slug": "string",
-      "slogan": "string",
-      "status": 2,
-      "approved_category": {
-        "id": 0,
-        "tags": [
-          {
-            "id": 0,
-            "active": true,
-            "type": "user",
-            "name": "string",
-            "description": "string",
-            "color": "string",
-            "visible": true,
-            "visibility_boost": true,
-            "deleted": true,
-            "created_at": "2019-08-24T14:15:22Z"
-          }
-        ],
-        "order": -2147483648,
-        "name": "string",
-        "name_synonyms": "string",
-        "slug": "string",
-        "slogan": "string",
-        "html_info": "string",
-        "seo_title": "string",
-        "seo_description": "string",
-        "auto_follow": "none",
-        "active": true,
-        "deleted": true,
-        "image_original": "string",
-        "image_bigger": "string",
-        "image_big": "string",
-        "image_medium": "string",
-        "image_small": "string",
-        "emotional_image_original": "string",
-        "emotional_image_position": -2147483648,
-        "lastmod_datetime": "2019-08-24T14:15:22Z",
-        "stream_order_by": "recent"
-      },
-      "added_at": "2019-08-24T14:15:22Z",
-      "user": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "avatar": "string",
-        "ext_id": "string"
-      },
-      "subscribers_count": "string",
-      "subscribers_threshold": "string",
-      "subscribed": true,
+  "id": "integer",
+  "name": "string",
+  "slug": "string",
+  "slogan": "string",
+  "status": "integer",
+  "approved_category": {},
+  "added_at": "string",
+  "user": {
+    "id": "integer",
+    "username": "string",
+    "real_name": "string",
+    "avatar": "string",
+    "ext_id": "integer"
+  },
+  "subscribers_count": "integer",
+  "subscribers_threshold": "integer",
+  "subscribed": "boolean"
 }
 ```
 

@@ -20,9 +20,9 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this tag.|
-|user|body|integer|false|A unique integer value identifying the user.|
-|category|body|integer|false|A unique integer value identifying the category.|
+|id|path|string|true|A unique integer value identifying this tag|
+|user|body|integer|false|A unique integer value identifying the user|
+|category|body|integer|false|A unique integer value identifying the category|
 
 One between "user" and "category" need to be passed to this endpoint.
 

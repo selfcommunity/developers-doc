@@ -20,7 +20,7 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user tag.|
+|id|path|string|true|A unique integer value identifying this user tag|
 |body|body|[Tag](/docs/apireference/v2/schemas/tag)|false|none|
 
 #### Example Body Parameters
@@ -34,13 +34,13 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "active": true,
+  "active": "boolean",
   "type": "string",
   "name": "string",
   "description": "string",
   "color": "string",
-  "visible": true,
-  "visibility_boost": true,
+  "visible": "boolean",
+  "visibility_boost": "boolean",
   "deleted": false
 }
 ```
@@ -58,13 +58,13 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "active": true,
+  "active": "boolean",
   "type": "string",
   "name": "string",
   "description": "string",
   "color": "string",
-  "visible": true,
-  "visibility_boost": true,
+  "visible": "boolean",
+  "visibility_boost": "boolean",
   "deleted": false
 }';
 const headers = {
@@ -118,15 +118,15 @@ curl -X PUT /api/v2/tag/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "type": "string",      
   "name": "string",      
   "description": "string",
   "color": "string",
-  "visible": true,
-  "visibility_boost": true,
+  "visible": "boolean",
+  "visibility_boost": "boolean",
   "created_at": "2019-08-24T14:15:22Z",
-  "active": true,
+  "active": "boolean",
   "deleted": false
 }
 ```

@@ -6,7 +6,7 @@ title: Dynamic Preference
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "section": "string",
   "name": "string",
   "value": "string"

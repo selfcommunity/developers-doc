@@ -91,12 +91,12 @@ Status Code **200**
 
 ```json
 {
-    "computing": false,
-    "send_email": true,
-    "requested_at": "2021-12-09T11:21:48.377089+01:00",
-    "generated_at": "2021-12-09T11:21:49.282058+01:00",
-    "email_sent_at": "2021-12-09T11:21:50.133074+01:00",
-    "downloaded_at": "2021-12-09T11:24:31.587374+01:00"
+    "computing": "boolean",
+    "send_email": "boolean",
+    "requested_at": "string",
+    "generated_at": "string",
+    "email_sent_at": "string",
+    "downloaded_at": "string"
 }
 ```
 

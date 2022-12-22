@@ -7,12 +7,12 @@ title: Private Message Snippet
 ```json
 
 {
-  "id": 0,
+  "id": "integer",
   "headline": "string",
-  "sender": "object",
-  "receiver": "object",
-  "created_at": "2019-08-24T14:15:22Z",
-  "last_message_at": "2019-08-24T14:15:22Z",
+  "sender": {},
+  "receiver": {},
+  "created_at": "string",
+  "last_message_at": "string",
   "thread_status": "string"
 }
 

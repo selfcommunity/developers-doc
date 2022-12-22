@@ -8,10 +8,10 @@ title: Private Message File
 {
   "uuid": "string",
   "filename": "string",
-  "filesize": 17037,
+  "filesize": "integer",
   "mimetype": "string",
-  "duration": 120,
-  "url": "string",
+  "duration": "integer",
+  "url": "string(uri)",
   "thumbnail": "string"
 }
 

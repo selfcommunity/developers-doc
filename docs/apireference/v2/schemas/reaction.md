@@ -6,20 +6,20 @@ title: Reaction
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "label": "string",
-  "sentiment": "int",
-  "image": "url",
-  "active": true
+  "sentiment": "integer",
+  "image": "string(uri)",
+  "active": "boolean"
 }
 ```
 
 #### Properties
 
-| Name      | Type    | Description                                    |
-|-----------|---------|------------------------------------------------|
-| id        | integer | Unique integer value identifying this reaction |
-| label     | string  | The label of the reaction (unique)             |
-| sentiment | integer | The sentiment value associated to the reaction |
-| image     | url     | The image of the reaction                      |
-| active    | boolean | Is this reaction active?                       |
+| Name      | Type        | Description                                    |
+|-----------|-------------|------------------------------------------------|
+| id        | integer     | Unique integer value identifying this reaction |
+| label     | string      | The label of the reaction (unique)             |
+| sentiment | integer     | The sentiment value associated to the reaction |
+| image     | string(uri) | The image of the reaction                      |
+| active    | boolean     | Is this reaction active?                       |

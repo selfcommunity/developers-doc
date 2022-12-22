@@ -20,7 +20,7 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint.|
+|id|path|string|true|A unique integer value identifying this endpoint|
 
 ### Example Request
 

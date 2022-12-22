@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Search a specific account
 ---
 
-Search a specific account
+This endpoint allows to perform  a specific account search.
 
 :::info
 
@@ -100,34 +100,36 @@ It will return status code 200 if the user is found. If not found it will return
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "username": "string",
   "real_name": "string",
-  "email": "user@example.com",
-  "email_isvalid": true,
-  "date_joined": "2019-08-24T14:15:22Z",
+  "avatar": "string",
+  "followings_counter": "integer",
+  "followers_counter": "integer",
+  "posts_counter": "integer",
+  "discussions_counter": "integer",
+  "polls_counter": "integer",
+  "categories_counter": "integer",
+  "email": "string",
+  "email_isvalid": "boolean",
+  "date_joined": "string",
   "bio": "string",
   "location": "string",
   "location_lat_lng": "string",
   "position_lat_lng": "string",
-  "date_of_birth": "2019-09-23",
+  "date_of_birth": "string",
   "description": "string",
-  "gender": "Male",
-  "status": "a",
-  "website": "https://example.com",
-  "avatar": "string",
+  "gender": "string",
+  "status": "string",
+  "website": "string",
   "cover": "string",
-  "ext_id": 3,
   "tags": [],
-  "reputation": 39,
-  "connection_status": "string",
-  "followings_counter": 7,
-  "followers_counter": 2,
-  "posts_counter": 4,
-  "discussions_counter": 3,
-  "statuses_counter": 0,
-  "polls_counter": 1,
-  "categories_counter": 3
+  "ext_id": "integer",
+  "reputation": "integer",
+  "community_badge": "boolean",
+  "reg_approved": "boolean",
+  "company_name": "string",
+  "company_role": "string"
 }
 ```
 

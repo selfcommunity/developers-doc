@@ -1,7 +1,7 @@
 ---
-sidebar_label: Recover password
+sidebar_label: Recover an account
 sidebar_position: 1
-title: Recover password
+title: Recover an account
 ---
 
 Using this endpoint the user will receive an email with the link to reset his password.
@@ -28,6 +28,8 @@ This operation does not require authentication.
 ### Example Request
 
 ````mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <Tabs defaultValue="js" values={[{ label: 'JavaScript', value: 'js', }, { label: 'Bash', value: 'bash', }]}>
 <TabItem value="js">

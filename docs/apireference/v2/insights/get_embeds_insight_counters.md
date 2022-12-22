@@ -12,13 +12,13 @@ This endpoint retrieves a specific embed's insight counters.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
-|created_at__gte|path|string(date-time)|false|datetime of creation(greater than or equal to the given value)|
-|created_at__lte|path|string(date-time)|false|datetime of creation(less than or equal to the given value)|
-|embed_type|path|string|false|The embed type|
-|embed_id|path|string|false|The embed id|
+|Name|In|Type|Required| Description                                                                                          |
+|---|---|---|---|------------------------------------------------------------------------------------------------------|
+| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category) |
+|created_at__gte|path|string(date-time)|false| Datetime of creation(greater than or equal to the given value)                                       |
+|created_at__lte|path|string(date-time)|false| Datetime of creation(less than or equal to the given value)                                          |
+|embed_type|path|string|false| The embed type                                                                                       |
+|embed_id|path|string|false| The embed id                                                                                         |
 
 ### Example Request
 
@@ -83,11 +83,11 @@ curl -X GET /api/v2/insight/embed/counters/ \
 
 ```json
 {
-    "num_contributes": 0,
-    "num_comments": 0,
-    "num_votes": 0,
-    "num_clicks": 0,
-    "num_shares": 0
+    "num_contributes": "integer",
+    "num_comments": "integer",
+    "num_votes": "integer",
+    "num_clicks": "integer",
+    "num_shares": "integer"
 }
 ```
 

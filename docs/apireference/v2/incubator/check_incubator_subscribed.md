@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this incubator.|
+|id|path|string|true|A unique integer value identifying this incubator|
 
 ### Example Request
 
@@ -79,7 +79,7 @@ curl -X GET /api/v2/incubator/{id}/subscribed/ \
 
 ```json
 {
-    "subscribed": true
+    "subscribed": "boolean"
 }
 ```
 

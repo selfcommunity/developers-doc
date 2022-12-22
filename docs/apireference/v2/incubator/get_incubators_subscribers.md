@@ -20,7 +20,7 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Incubator.|
+|id|path|string|true|A unique integer value identifying this Incubator|
 
 ### Example Request
 
@@ -79,35 +79,16 @@ curl -X GET /api/v2/incubator/{id}/subscribers/ \
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
     {
-      "id": 1,
-      "username": "string",
-      "real_name": "string",
-      "date_joined": "2019-08-24T14:15:22Z",
-      "bio": "string",
-      "location": "string",
-      "location_lat_lng": "string",
-      "position_lat_lng": "string",
-      "date_of_birth": "string",
-      "description": "string",
-      "gender": "Male",
-      "website": "https://example.com",
-      "avatar": "string",
-      "cover": "string",
-      "ext_id": "string",
-      "tags": [],
-      "reputation": 1,
-      "connection_status": "followed",
-      "followings_counter": 0,
-      "followers_counter": 0,
-      "posts_counter": 0,
-      "discussions_counter": 0,
-      "statuses_counter": 0,
-      "polls_counter": 0
+    "id": "integer",
+    "username": "string",
+    "real_name": "string",
+    "avatar": "string",
+    "ext_id": "integer"
     }
   ]
 }

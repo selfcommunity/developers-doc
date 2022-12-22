@@ -6,10 +6,10 @@ title: Notification Type Unblocked User
 
 ```json
 {
-  "is_new": true,
-  "sid": 16053709616960000000063090,
-  "type": "unblocked_user",
-  "active_at": "2020-11-14T17:52:20.967302+01:00"
+  "is_new": "boolean",
+  "sid": "string",
+  "type": "string",
+  "active_at": "string"
 }
 ```
 

@@ -23,8 +23,8 @@ This operation requires authentication
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -95,19 +95,19 @@ Status Code **200**
 
 ```json
 {
-  "count": 1,
-  "next": null,
-  "previous": null,
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
       "banner": {
-        "html": "<div>Hello!</div>",
+        "html": "string",
         "type_banner": "string"
       },
-      "added_at": "2019-08-24T14:15:22Z",
-      "disposed_at": "2019-08-24T14:15:22Z",
-      "viewed_at": "2019-08-24T14:15:22Z"
+      "added_at": "string",
+      "disposed_at": "string",
+      "viewed_at": "string"
     }
   ]
 }

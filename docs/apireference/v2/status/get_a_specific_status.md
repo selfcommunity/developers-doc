@@ -80,7 +80,7 @@ curl -X GET /api/v2/status/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "action": "string",
   "categories": [
     {
@@ -96,7 +96,7 @@ curl -X GET /api/v2/status/{id}/ \
       "seo_title": "string",
       "seo_description": "string",
       "auto_follow": "none",
-      "active": true,
+      "active": "boolean",
       "image_original": "string",
       "image_bigger": "string",
       "image_big": "string",
@@ -125,7 +125,7 @@ curl -X GET /api/v2/status/{id}/ \
         "id": 0,
         "embed_type": "string",
         "embed_id": "string",
-        "url": "string",
+        "url": "string(uri)",
         "metadata": {}
       }
     }
@@ -165,16 +165,16 @@ curl -X GET /api/v2/status/{id}/ \
   "added_at": "2019-08-24T14:15:22Z",
   "html": "string",
   "summary": "string",
-  "deleted": true,
+  "deleted": "boolean",
   "collapsed": false,
   "comment_count": 0,
   "vote_count": 0,
   "voted": false,
   "followed": false,
-  "suspended": true,
+  "suspended": "boolean",
   "share_count": 0,
   "flag_count": 0,
-  "addressing": []
+  "addressing": [integer]
 }
 ```
 

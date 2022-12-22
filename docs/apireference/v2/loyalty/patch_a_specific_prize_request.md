@@ -26,7 +26,7 @@ This operation requires authentication and admin or editor role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this loyalty prize user.|
+|id|path|string|true|A unique integer value identifying this loyalty prize user|
 |body|body|[LoyaltyPrizeUser](/docs/apireference/v2/schemas/loyalty_prize_user)|false|none|
 
 #### Example Body Parameters
@@ -40,7 +40,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "status": 0
+  "status": "integer"
 }
 ```
 
@@ -65,7 +65,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "status": 0
+  "status": "integer"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -118,27 +118,12 @@ curl -X PATCH /api/v2/loyalty/request/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "user": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "email": "user@example.com",
-    "description": "string",
-    "avatar": "string"
-  },
-  "pending_at": "2019-08-24T14:15:22Z",
-  "prize": {
-    "id": 0,
-    "active": true,
-    "title": "string",
-    "description": "string",
-    "points": 0,
-    "link": "https://example.com",
-    "image": "string"
-  },
-  "prize_points": 0,
-  "status": 0,
+  "id": "integer",
+  "user": {},
+  "prize": {},
+  "prize_points": "integer",
+  "pending_at": "string",
+  "status": "integer",
   "status_description": "string"
 }
 ```

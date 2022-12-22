@@ -42,8 +42,8 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
-|hard|query|bool|false|If the value is set to 1, perform hard delete else execute a soft delete.|
+|id|path|string|true|A unique integer value identifying this user|
+|hard|query|bool|false|If the value is set to 1, perform hard delete else execute a soft delete|
 
 ### Example Request
 

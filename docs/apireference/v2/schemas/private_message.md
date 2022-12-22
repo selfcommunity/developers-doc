@@ -7,12 +7,12 @@ title: Private Message
 ```json
 
 {
-  "id": 0,
-  "sender": "object",
+  "id": "integer",
+  "sender": {},
   "message": "string",
-  "created_at": "2021-11-19T17:12:31.320062+01:00",
+  "created_at": "string",
   "status": "string",
-  "file": "object"
+  "file": {}
 }
 
 ```

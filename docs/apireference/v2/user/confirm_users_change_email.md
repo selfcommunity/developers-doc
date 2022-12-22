@@ -20,7 +20,7 @@ This operation does not require authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|--|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
+|id|path|string|true|A unique integer value identifying this user|
 |new_email|body|string(email)|true|New email to confirm|
 |validation_code|body|string|false|Validation code obtained with [Change User's Email](change_users_email.md)|
 

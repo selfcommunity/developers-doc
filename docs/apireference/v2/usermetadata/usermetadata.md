@@ -17,7 +17,7 @@ An example of a structure can be the following:
 {
     "company_name": {
         "label": "Company name",
-        "mandatory": true
+        "mandatory": "boolean"
     },
     "company_website": {
         "label": "Company website",

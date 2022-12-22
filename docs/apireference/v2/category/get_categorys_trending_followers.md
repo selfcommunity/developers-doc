@@ -21,10 +21,10 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Category.|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|days|query|integer|false|Number of days (default 90 days).|
+|id|path|string|true|A unique integer value identifying this Category|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|days|query|integer|false|Number of days (default 90 days)|
 
 ### Example Request
 
@@ -84,35 +84,39 @@ curl -X GET /api/v2/category/{id}/followers/trending/ \
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
       "username": "string",
       "real_name": "string",
-      "date_joined": "2019-08-24T14:15:22Z",
+      "avatar": "string",
+      "ext_id": "integer",
+      "followings_counter": "integer",
+      "followers_counter": "integer",
+      "posts_counter": "integer",
+      "discussions_counter": "integer",
+      "polls_counter": "integer",
+      "connection_status": "string",
+      "categories_counter": "integer",
+      "date_joined": "string",
       "bio": "string",
       "location": "string",
       "location_lat_lng": "string",
       "position_lat_lng": "string",
       "date_of_birth": "string",
       "description": "string",
-      "gender": "Male",
-      "website": "https://example.com",
-      "avatar": "string",
+      "gender": "string",
+      "website": "string",
       "cover": "string",
-      "ext_id": "string",
       "tags": [],
-      "reputation": 111,
-      "connection_status": "followed",
-      "followings_counter": 1,
-      "followers_counter": 1,
-      "posts_counter": 2,
-      "discussions_counter": 5,
-      "statuses_counter": 1,
-      "polls_counter": 7
+      "reputation": "integer",
+      "community_badge": "boolean",
+      "reg_approved": "boolean",
+      "company_name": "string",
+      "company_role": "string"
     }
   ]
 }

@@ -85,59 +85,49 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
       {
         "user": {
-          "id": 0,
-          "username": "string",
-          "real_name": "string",
-          "email": "user@example.com",
-          "email_isvalid": true,
-          "date_joined": "2019-08-24T14:15:22Z",
-          "bio": "string",
-          "location": "string",
-          "location_lat_lng": "string",
-          "position_lat_lng": "string",
-          "date_of_birth": "2019-08-24",
-          "description": "string",
-          "gender": "Male",
-          "status": "a",
-          "website": "https://example.com",
-          "avatar": "string",
-          "cover": "string",
-          "ext_id": "string",
-          "tags": [
-            {
-              "id": 0,
-              "active": true,
-              "type": "user",
-              "name": "string",
+              "id": "integer",
+              "username": "string",
+              "real_name": "string",
+              "avatar": "string",
+              "ext_id": "integer",
+              "followings_counter": "integer",
+              "followers_counter": "integer",
+              "posts_counter": "integer",
+              "discussions_counter": "integer",
+              "polls_counter": "integer",
+              "connection_status": "string",
+              "categories_counter": "integer",
+              "date_joined": "string",
+              "bio": "string",
+              "location": "string",
+              "location_lat_lng": "string",
+              "position_lat_lng": "string",
+              "date_of_birth": "string",
               "description": "string",
-              "color": "string",
-              "visible": true,
-              "deleted": true,
-              "created_at": "2019-08-24T14:15:22Z"
-            }
-          ],
-          "reputation":111,
-          "followings_counter": 1,
-          "followers_counter": 1,
-          "posts_counter": 2,
-          "discussions_counter": 5,
-          "statuses_counter": 1,
-          "polls_counter": 7
+              "gender": "string",
+              "website": "string",
+              "cover": "string",
+              "tags": [],
+              "reputation": "integer",
+              "community_badge": "boolean",
+              "reg_approved": "boolean",
+              "company_name": "string",
+              "company_role": "string"
         },
         "reaction": {
-            "id": 1,
+            "id": "integer",
             "label": "string",
-            "image": "url",
-            "sentiment": 1,
-            "active": true
+            "image": "string(uri)",
+            "sentiment": "integer",
+            "active": "boolean"
         },
-        "voted_at": "2019-08-24T14:15:22Z"
+        "voted_at": "string"
       }
   ]
 }

@@ -104,13 +104,13 @@ curl -X GET /api/v2/status/{id}/flag/ \
             "tags": [
               {
                 "id": 0,
-                "active": true,
+                "active": "boolean",
                 "type": "user",
                 "name": "string",
                 "description": "string",
                 "color": "string",
-                "visible": true,
-                "deleted": true,
+                "visible": "boolean",
+                "deleted": "boolean",
                 "created_at": "2019-08-24T14:15:22Z"
               }
             ],

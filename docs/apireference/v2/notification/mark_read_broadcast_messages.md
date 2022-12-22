@@ -33,9 +33,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "banner_ids": [
-    0
-  ]
+  "banner_ids": [integer]
 }
 ```
 
@@ -52,9 +50,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "banner_ids": [
-    0
-  ]
+  "banner_ids": [integer]
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -104,9 +100,7 @@ curl -X POST /api/v2/notification/banner/read/ \
 
 ```json
 {
-  "banner_ids": [
-    0
-  ]
+  "banner_ids": [integer]
 }
 ```
 

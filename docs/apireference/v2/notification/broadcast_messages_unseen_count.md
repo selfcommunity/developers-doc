@@ -74,7 +74,7 @@ curl -X GET /api/v2/notification/banner/unseen/count/ \
 
 ```json
 {
-  "count": 3
+  "count": "integer"
 }
 ```
 

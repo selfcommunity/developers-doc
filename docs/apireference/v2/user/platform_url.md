@@ -21,7 +21,7 @@ This operation requires a staff member user.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|next|query|string|false|Redirect to this relative path (eg: /moderation/flags/).|
+|next|query|string|false|Redirect to this relative path (eg: /moderation/flags/)|
 
 ### Example Request
 

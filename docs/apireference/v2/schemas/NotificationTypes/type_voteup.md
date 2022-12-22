@@ -6,15 +6,11 @@ title: Notification Type Vote Up
 
 ```json
 {
-  "is_new": true,
-  "sid": 16053709616960000000063090,
-  "type": "vote_up",
-  "active_at": "2020-11-14T17:52:20.967302+01:00",
-  "user": {},
-  "discussion": {},
-  "post": {},
-  "comment": {},
-  "status": {}
+  "is_new": "boolean",
+  "sid": "string",
+  "type": "string",
+  "active_at": "string",
+  "user/discussion/post/comemnt/status": {}
 }
 ```
 

@@ -18,9 +18,9 @@ This operation does not require authentication
 
 ### Parameters
 
-| Name    | In   | Type   | Required | Description                                                     |
-|---------|------|--------|----------|-----------------------------------------------------------------|
-| id/code | path | string | true     | A unique integer value or the code identifying this promo code. |
+| Name    | In   | Type   | Required | Description                                                    |
+|---------|------|--------|----------|----------------------------------------------------------------|
+| id/code | path | string | true     | A unique integer value or the code identifying this promo code |
 
 ### Example Request
 
@@ -79,12 +79,12 @@ curl -X GET /api/v2/promo_code/{id/code}/ \
 
 ```json
 {
-    "id": 0,
+    "id": "integer",
     "code": "string",
     "name":  "string",
-    "is_valid_now": true,
-    "valid_from": "2022-06-01",
-    "valid_to": "2023-07-20"
+    "is_valid_now": "boolean",
+    "valid_from": "string",
+    "valid_to": "string"
 }
 ```
 

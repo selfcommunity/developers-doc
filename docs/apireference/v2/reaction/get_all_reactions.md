@@ -91,14 +91,16 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [ 
     {
-        "id": 1,
-        "label": "string",
-        "image": "url",
-        "sentiment": 1,
-        "active": true
+      "id": "integer",
+      "label": "string",
+      "sentiment": "integer",
+      "image": "string(uri)",
+      "active": "boolean"
     }
   ]
 }

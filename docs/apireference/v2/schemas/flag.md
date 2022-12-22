@@ -7,8 +7,8 @@ title: Flag
 ```json
 {
   "user": {},
-  "added_at": "2019-08-24T14:15:22Z",
-  "flag_type": 0,
+  "added_at": "string",
+  "flag_type": "integer",
   "flag_type_description": "string"
 }
 

@@ -6,14 +6,11 @@ title: Notification Type Mention
 
 ```json
 {
-  "is_new": false,
-  "sid": 16052906326300000000007190,
-  "type": "mention",
-  "active_at": "2020-11-14T17:52:20.967302+01:00",
-  "discussion": {},
-  "post": {},
-  "comment": {},
-  "status": {}
+  "is_new": "boolean",
+  "sid": "string",
+  "type": "string",
+  "active_at": "string",
+  "discussion/post/comment/status": {}
 }
 ```
 

@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
+|limit|query|integer|false|Number of results to return per page|
 
 ### Example Request
 
@@ -120,13 +120,13 @@ Status Code **200**
         "added_at": "2019-08-24T14:15:22Z",
         "html": "string",
         "summary": "string",
-        "deleted": true,
+        "deleted": "boolean",
         "collapsed": false,
         "comment_count": 0,
         "vote_count": 0,
         "voted": false,
         "followed": false,
-        "suspended": true,
+        "suspended": "boolean",
         "flag_count": 0,
         "share_count": 0,
         "slug": "string",
@@ -144,7 +144,7 @@ Status Code **200**
               "seo_title": "string",
               "seo_description": "string",
               "auto_follow": "none",
-              "active": true,
+              "active": "boolean",
               "image_original": "string",
               "image_bigger": "string",
               "image_big": "string",
@@ -163,14 +163,14 @@ Status Code **200**
             "lat": 0,
             "lng": 0
         },
-        "addressing": [],
+        "addressing": [integer],
         "poll": {
             "id": 47864,
             "title": "string",
-            "multiple_choices": true,
+            "multiple_choices": "boolean",
             "added_at": "2021-03-19T16:37:54.830145+01:00",
             "modified_at": "2021-03-19T16:37:54.830194+01:00",
-            "closed": true,
+            "closed": "boolean",
             "expiration_at": "2021-12-15T15:15:22+01:00",
             "hidden": false,
             "choices": [

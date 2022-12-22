@@ -26,7 +26,7 @@ This operation requires authentication. The logged user must be the media creato
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this media object.|
+|id|path|string|true|A unique integer value identifying this media object|
 |» image|body|string(uri)|true|Image url|
 
 #### Example Body Parameters
@@ -57,7 +57,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "image": "https://example.com"
+  "image": "string"
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -89,7 +89,7 @@ curl -X PUT /api/v2/media/{id}/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "image": "https://example.com"
+    "image": "string"
   }'
 ```
 </TabItem>
@@ -112,23 +112,17 @@ curl -X PUT /api/v2/media/{id}/ \
 
 ```json
 {
-  "id": 0,
-  "added_at": "2019-08-24T14:15:22Z",
-  "type": "vimeo",
+  "id": "integer",
+  "added_at": "string",
+  "type": "string",
   "title": "string",
   "description": "string",
-  "url": "https://example.com",
+  "url": "string(uri)",
   "image": "string",
-  "image_width": 0,
-  "image_height": 0,
-  "order": 0,
-  "embed": {
-    "id": 0,
-    "embed_type": "string",
-    "embed_id": "string",
-    "url": "string",
-    "metadata": {}
-  }
+  "image_width": "integer",
+  "image_height": "integer",
+  "order": "integer",
+  "embed": {}
 }
 ```
 

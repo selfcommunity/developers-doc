@@ -6,10 +6,10 @@ title: Notification Type User Follow
 
 ```json
 {
-  "is_new": false,
-  "sid": 16052906326300000000007190,
-  "type": "user_follow",
-  "active_at": "2020-11-14T17:52:20.967302+01:00",
+  "is_new": "boolean",
+  "sid": "string",
+  "type": "string",
+  "active_at": "string",
   "follower": {}
 }
 ```

@@ -20,14 +20,14 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
-|search|query|string|false|A search term. Search in fields: username, real_name.|
-|username|query|string|false|Filter using field username.|
-|gender|query|string|false|Filter using field gender type.|
-|real_name|query|string|false|Filter using field real_name.|
-|location|query|string|false|Filter using field location.|
-|description|query|string|false|Filter using field description.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
+|search|query|string|false|A search term. Search in fields: username, real_name|
+|username|query|string|false|Filter using field username|
+|gender|query|string|false|Filter using field gender type|
+|real_name|query|string|false|Filter using field real_name|
+|location|query|string|false|Filter using field location|
+|description|query|string|false|Filter using field description|
 |ordering|query|string|false|Ordering fields (eg: `?ordering=username`). Minus char is used for descending ordering, eg. `-username`|
 
 ### Example Request
@@ -98,7 +98,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "http://api.example.org/accounts/?offset=400&limit=100",
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [
@@ -107,7 +107,7 @@ Status Code **200**
       "username": "string",
       "real_name": "string",
       "email": "user@example.com",
-      "email_isvalid": true,
+      "email_isvalid": "boolean",
       "date_joined": "2019-08-24T14:15:22Z",
       "bio": "string",
       "location": "string",

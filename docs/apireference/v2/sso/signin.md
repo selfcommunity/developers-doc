@@ -102,7 +102,7 @@ Status Code **200**
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "ext_id": 0,
   "username": "string",
   "role": "string",

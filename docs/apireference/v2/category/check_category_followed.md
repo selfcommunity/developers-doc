@@ -20,7 +20,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this category.|
+|id|path|string|true|A unique integer value identifying this category|
 
 ### Example Request
 
@@ -79,7 +79,7 @@ curl -X GET /api/v2/category/{id}/is_followed/ \
 
 ```json
 {
-    "is_followed": true
+    "is_followed": "boolean"
 }
 ```
 

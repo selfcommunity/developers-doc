@@ -12,12 +12,12 @@ This endpoint retrieves a specific contribution's insight counters.
 
 ### Parameters
 
-| Name            |In| Type              |Required| Description                                                    |
-|-----------------|---|-------------------|---|----------------------------------------------------------------|
-| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category).                                                                                                       |
-| created_at__gte |path| string(date-time) |false| datetime of creation(greater than or equal to the given value) |
-| created_at__lte |path| string(date-time) |false| datetime of creation(less than or equal to the given value)    |
-| contribution_id |path| string            |false| The contribution id                                            |
+| Name            |In| Type              |Required| Description                                                                                          |
+|-----------------|---|-------------------|---|------------------------------------------------------------------------------------------------------|
+| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category) |
+| created_at__gte |path| string(date-time) |false| Datetime of creation(greater than or equal to the given value)                                       |
+| created_at__lte |path| string(date-time) |false| Datetime of creation(less than or equal to the given value)                                          |
+| contribution_id |path| string            |false| The contribution id                                                                                  |
 
 ### Example Request
 
@@ -88,10 +88,10 @@ Status Code **200**
 
 ```json
 {
-    "num_views": 0,
-    "num_comments": 0,
-    "num_votes": 0,
-    "num_shares": 0
+    "num_views": "integer",
+    "num_comments": "integer",
+    "num_votes": "integer",
+    "num_shares": "integer"
 }
 ```
 

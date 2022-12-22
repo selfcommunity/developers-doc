@@ -6,10 +6,10 @@ title: Notification Type Collapsed For
 
 ```json
 {
-  "is_new": true,
-  "sid": 16053813898480000000224680,
-  "type": "collapsed_for_<type>",
-  "active_at": "2020-11-14T20:16:29.848490+01:00",
+  "is_new": "boolean",
+  "sid": "string",
+  "type": "string",
+  "active_at": "string",
   "comment": {}
 }
 ```
@@ -20,13 +20,13 @@ Example preview:
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|is_new|boolean|true|read-only|True if the notification has been read, otherwise false|
-|sid|string|true|read-only|Serialization id of the notification|
-|type|string|true|read-only|Types: "collapsed_for_advertising", "collapsed_for_aggressive", "collapsed_for_vulgar", "collapsed_for_poor", "collapsed_for_offtopic", "uncollapsed_for"|
-|active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|comment|[Comment](/docs/apireference/v2/schemas/comment)|true|read-only|if a comment is collapsed|
+|Name|Type|Required|Restrictions| Description                                                                                                                                               |
+|---|---|---|---|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|is_new|boolean|true|read-only| True if the notification has been read, otherwise false                                                                                                   |
+|sid|string|true|read-only| Serialization id of the notification                                                                                                                      |
+|type|string|true|read-only| Types: "collapsed_for_advertising", "collapsed_for_aggressive", "collapsed_for_vulgar", "collapsed_for_poor", "collapsed_for_offtopic", "uncollapsed_for" |
+|active_at|string(date-time)|true|read-only| Time when the notification was generated                                                                                                                  |
+|comment|[Comment](/docs/apireference/v2/schemas/comment)|true|read-only| If a comment is collapsed                                                                                                                                 |
 
 #### Enumerated Values
 

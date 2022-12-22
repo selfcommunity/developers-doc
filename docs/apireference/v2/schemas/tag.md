@@ -6,16 +6,16 @@ title: Tag
 
 ```json
 {
-  "id": 0,
-  "active": true,
+  "id": "integer",
+  "active": "boolean",
   "name": "string",
   "type": "string",
   "description": "string",
   "color": "string",
-  "visible": true,
-  "visibility_boost": true,
-  "created_at": "2019-08-24T14:15:22Z",
-  "deleted": false
+  "visible": "boolean",
+  "visibility_boost": "boolean",
+  "created_at": "string",
+  "deleted": "boolean"
 }
 
 ```

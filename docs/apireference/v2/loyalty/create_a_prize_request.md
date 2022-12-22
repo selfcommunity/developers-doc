@@ -21,7 +21,7 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|prize|body|integer|true|A unique integer value identifying the requested prize.|
+|prize|body|integer|true|A unique integer value identifying the requested prize|
 
 #### Example Body Parameters
 
@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "prize": 0
+  "prize": "integer"
 }
 ```
 
@@ -51,7 +51,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "prize": 0
+  "prize": "integer"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -104,27 +104,12 @@ curl -X POST /api/v2/loyalty/request/ \
 
 ```json
 {
-  "id": 0,
-  "user": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "email": "user@example.com",
-    "description": "string",
-    "avatar": "string"
-  },
-  "pending_at": "2019-08-24T14:15:22Z",
-  "prize": {
-    "id": 0,
-    "active": true,
-    "title": "string",
-    "description": "string",
-    "points": 0,
-    "link": "https://example.com",
-    "image": "string"
-  },
-  "prize_points": 0,
-  "status": 0,
+  "id": "integer",
+  "user": {User},
+  "prize": {Prize},
+  "prize_points": "integer",
+  "pending_at": "string",
+  "status": "integer",
   "status_description": "string"
 }
 ```

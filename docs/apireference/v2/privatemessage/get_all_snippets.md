@@ -22,8 +22,8 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 
 ### Example Request
@@ -95,28 +95,20 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [ 
     {
-      "id": 0,
+      "id": "integer",
       "headline": "string",
-      "sender": "object",
-      "receiver": "object",
-      "created_at": "2019-08-24T14:15:22Z",
-      "last_message_at": "2019-08-24T14:15:22Z",
+      "sender": {},
+      "receiver": {},
+      "created_at": "string",
+      "last_message_at": "string",
       "thread_status": "string"
     },
-    {
-      "id": 0,
-      "headline": "string",
-      "sender": "object",
-      "receiver": "object",
-      "created_at": "2019-08-24T14:15:22Z",
-      "last_message_at": "2019-08-24T14:15:22Z",
-      "thread_status": "string"
-    }    
+    {...}    
   ]
 }
 ```

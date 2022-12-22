@@ -118,17 +118,17 @@ curl -X POST /api/v2/media/upload/complete/ \
 
 ```json
 {
-  "id": 0,
-  "added_at": "2019-08-24T14:15:22Z",
-  "type": "image",
-  "title": null,
-  "description": null,
-  "url": null,
+  "id": "integer",
+  "added_at": "string",
+  "type": "string",
+  "title": "string",
+  "description": "string",
+  "url": "string(uri)",
   "image": "string",
-  "image_width": 0,
-  "image_height": 0,
-  "order": 0,
-  "embed": null
+  "image_width": "integer",
+  "image_height": "integer",
+  "order": "integer",
+  "embed": {Embed}
 }
 ```
 

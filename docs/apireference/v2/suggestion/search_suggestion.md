@@ -20,9 +20,9 @@ This operation requires authentication.
 
 | Name   | In    | Type    | Required |Description|
 |--------|-------|---------|----------|---|
-| search | query  | string  | true     |A search term.|
-| limit  | query | integer | false    |Number of results to return per page.|
-| offset | query | integer | false    |The initial index from which to return the results.|
+| search | query  | string  | true     |A search term|
+| limit  | query | integer | false    |Number of results to return per page|
+| offset | query | integer | false    |The initial index from which to return the results|
 
 ### Example Request
 
@@ -144,7 +144,7 @@ Status Code **200**
       'seo_title': 'string',
       'seo_description': 'string',
       'auto_follow': 'none',
-      'active': true,
+      'active': "boolean",
       'image_original': 'string',
       'image_bigger': 'string',
       'image_big': 'string',

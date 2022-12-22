@@ -21,7 +21,7 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|avatar|body/formdata|file|true|Avatar of the user.|
+|avatar|body/formdata|file|true|Avatar of the user|
 
 ### Example Request
 

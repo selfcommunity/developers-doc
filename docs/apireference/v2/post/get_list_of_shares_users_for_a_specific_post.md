@@ -20,9 +20,9 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post.|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|id|path|string|true|A unique integer value identifying this post|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -87,42 +87,25 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
-  "next": "string",
-  "previous": "string",
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
         {
-            "id": 123,
-            "username": "string",
-            "real_name": "string",
-            "avatar": "url",
-            "ext_id": "string",
-            "connection_requests_sent_counter": 0,
-            "connection_requests_received_counter": 0,
-            "connections_counter": 0,
-            "followings_counter": 3,
-            "followers_counter": 4,
-            "posts_counter": 4,
-            "discussions_counter": 0,
-            "statuses_counter": 0,
-            "polls_counter": 1    
+          "id": "integer",
+          "username": "string",
+          "real_name": "string",
+          "avatar": "string",
+          "ext_id": "integer",
+          "followings_counter": "integer",
+          "followers_counter": "integer",
+          "posts_counter": "integer",
+          "discussions_counter": "integer",
+          "polls_counter": "integer",
+          "connection_status": "string",
+          "categories_counter": "integer"  
         },
-        {
-            "id": 123,
-            "username": "string",
-            "real_name": "string",
-            "avatar": "url",
-            "ext_id": "string",
-            "connection_requests_sent_counter": 0,
-            "connection_requests_received_counter": 0,
-            "connections_counter": 0,
-            "followings_counter": 3,
-            "followers_counter": 4,
-            "posts_counter": 4,
-            "discussions_counter": 0,
-            "statuses_counter": 0,
-            "polls_counter": 1    
-        },
+        {...},
   ]
 }
 ```

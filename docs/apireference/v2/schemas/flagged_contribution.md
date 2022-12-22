@@ -8,91 +8,54 @@ title: Flagged Contribution
 {
   "contribution_type": "string",
   "contribution": {
-    "id": 0,
-    "author": {
-      "id": 0,
-      "username": "string",
-      "real_name": "string",
-      "date_joined": "2019-08-24T14:15:22Z",
-      "bio": "string",
-      "location": "string",
-      "location_lat_lng": "string",
-      "position_lat_lng": "string",
-      "date_of_birth": "2019-08-24",
-      "description": "string",
-      "gender": "Male",
-      "website": "https://example.com",
-      "avatar": "string",
-      "cover": "string",
-      "ext_id": "string",
-      "tags": [
-        {
-          "id": 0,
-          "active": true,
-          "type": "user",
-          "name": "string",
-          "description": "string",
-          "color": "string",
-          "visible": true,
-          "deleted": true,
-          "created_at": "2019-08-24T14:15:22Z"
-        }
-      ]
-    },
-    "added_at": "2019-08-24T14:15:22Z",      
-    "categories": [
-        {
-            "id": 0,
-            "name": "string",
-            "slug": "string"
-        }
-    ],
+    "id": "integer",
+    "author": "{ModerationUser}",
+    "added_at": "string",      
+    "categories": [],
     "title": "string",
     "html": "string",
     "summary": "string",
-    "deleted": true,
-    "collapsed": true,
-    "parent": "string",
-    "in_reply_to": "string",
-    "comment_count": 0,
-    "vote_count": 0,
-    "flag_count": 6,
+    "deleted": "boolean",
+    "collapsed": "boolean",
+    "parent": "integer",
+    "in_reply_to": "integer",
+    "comment_count": "integer",
+    "vote_count": "integer",
+    "reactions_count": [],
+    "flag_count": "integer",
     "flag_count_detail": {
-        "0": 1,
-        "2": 5
+      "1": "integer",
+      "2": "integer",
+      "3": "integer",
+      "4": "integer",
+      "0": "integer"
     },
     "media_count_detail": {},
-    "has_poll": false,
-    "thread_id": 0,
+    "share_count": "integer",
+    "has_poll": "boolean",
+    "thread_id": "integer",
     "thread_type": "string"
   },
-  "last_flagged_at": "2019-08-24T14:15:22Z",
+  "last_flagged_at": "string",
   "moderation_status": "string",
-  "moderation_type": "0",
-  "moderation_by": {
-      "id": 0,
-      "username": "string",
-      "real_name": "",
-      "avatar": "url",
-      "ext_id": null,
-      "tags": []
-  },
-  "moderation_at": "2021-07-07T12:20:12.472485+02:00"
+  "moderation_type": "string",
+  "moderation_by": {},
+  "moderation_at": "string"
 }
 
 ```
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|contribution_type|string|true|none|post, discussion, status or comment|
-|contribution|[object]|true|none|the contribution|
-|last_flagged_at|string(date-time)|true|none|date time of the last flag|
-|moderation_status|string|true|none|moderation status|
-|moderation_type|integer|false|none|cause of the moderation|
-|moderation_by|[User](/docs/apireference/v2/schemas/user)|false|none|moderator|
-|moderation_at|string(date-time)|true|none|date time of the moderation|
+| Name              | Type                                                                                                                                                                                                   | Required | Restrictions | Description                         |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------|-------------------------------------|
+| contribution_type | string                                                                                                                                                                                                 | true     | none         | post, discussion, status or comment |
+| contribution      | [Post](/docs/apireference/v2/schemas/post), [Discussion](/docs/apireference/v2/schemas/discussion), [Status](/docs/apireference/v2/schemas/status) or [Comment](/docs/apireference/v2/schemas/comment) | true     | none         | the contribution                    |
+| last_flagged_at   | string(date-time)                                                                                                                                                                                      | true     | none         | date time of the last flag          |
+| moderation_status | string                                                                                                                                                                                                 | true     | none         | moderation status                   |
+| moderation_type   | string                                                                                                                                                                                                 | false    | none         | cause of the moderation             |
+| moderation_by     | [User](/docs/apireference/v2/schemas/user)                                                                                                                                                             | false    | none         | moderator                           |
+| moderation_at     | string(date-time)                                                                                                                                                                                      | true     | none         | date time of the moderation         |
 
 #### Enumerated Values
 

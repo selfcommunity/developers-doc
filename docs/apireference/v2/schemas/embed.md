@@ -6,10 +6,10 @@ title: Embed
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "embed_type": "string",
   "embed_id": "string",
-  "url": "https://example.com",
+  "url": "string",
   "metadata": {}
 }
 
@@ -30,6 +30,6 @@ title: Embed
 
 |Parameter|Value|Description|
 |---|---|---|
-|embed_type|sc_vimeo|Embed of type video uploaded on vimeo platform (when enabled). This type is used internally by the community.|
-|embed_type|sc_link|Embed of type link. This type is used internally by the community.|
-|embed_type|sc_shared_object|Embed of type shared object. This type is used internally by the community when the user share a [Discussion](/docs/apireference/v2/schemas/discussion) or [Post](/docs/apireference/v2/schemas/post).|
+|embed_type|sc_vimeo|Embed of type video uploaded on vimeo platform (when enabled). This type is used internally by the community|
+|embed_type|sc_link|Embed of type link. This type is used internally by the community|
+|embed_type|sc_shared_object|Embed of type shared object. This type is used internally by the community when the user share a [Discussion](/docs/apireference/v2/schemas/discussion) or [Post](/docs/apireference/v2/schemas/post)|

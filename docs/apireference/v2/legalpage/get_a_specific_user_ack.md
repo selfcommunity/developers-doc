@@ -18,9 +18,9 @@ This operation require authentication.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                         |
-|------|------|--------|----------|-----------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this legal page. |
+| Name | In   | Type   | Required | Description                                        |
+|------|------|--------|----------|----------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this legal page |
 
 ### Example Request
 
@@ -78,11 +78,11 @@ curl -X GET /api/v2/legal_page/{id}/user_ack/ \
 
 ```json
 {
-  "id": 0,
-  "accepted_at": "2019-08-24T14:15:22Z",
-  "not_accepted_at": "2019-08-24T14:15:22Z",
-  "policy_document": 0,
-  "user": 0
+  "id": "integer",
+  "accepted_at": "string",
+  "not_accepted_at": "string",
+  "policy_document": "integer",
+  "user": "integer"
 }
 ```
 

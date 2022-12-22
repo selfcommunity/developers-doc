@@ -20,9 +20,9 @@ This operation requires authentication only if `content_availability` community 
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|id|path|string|true|A unique integer value identifying this user|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -93,7 +93,7 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
@@ -113,7 +113,7 @@ Status Code **200**
                 "seo_title": null,
                 "seo_description": null,
                 "auto_follow": "None",
-                "active": true,
+                "active": "boolean",
                 "deleted": false,
                 "image_original": "string",
                 "image_bigger": "string",
@@ -142,7 +142,7 @@ Status Code **200**
                     "id": 0,
                     "embed_type": "string",
                     "embed_id": "string",
-                    "url": "string",
+                    "url": "string(uri)",
                     "metadata": {}
             }
           }
@@ -155,10 +155,10 @@ Status Code **200**
         "poll": {
           "id": 0,
           "title": "string",
-          "multiple_choices": true,
+          "multiple_choices": "boolean",
           "added_at": "2019-08-24T14:15:22Z",
           "modified_at": "2019-08-24T14:15:22Z",
-          "closed": true,
+          "closed": "boolean",
           "expiration_at": "2019-08-24T14:15:22Z",
           "hidden": "string",
           "choices": [
@@ -169,7 +169,7 @@ Status Code **200**
               "added_at": "2019-08-24T14:15:22Z",
               "deleted": "string",
               "vote_count": 0,
-              "voted": true
+              "voted": "boolean"
             }
           ],
           "votes": [
@@ -201,13 +201,13 @@ Status Code **200**
           "tags": [
             {
               "id": 0,
-              "active": true,
+              "active": "boolean",
               "type": "user",
               "name": "string",
               "description": "string",
               "color": "string",
-              "visible": true,
-              "deleted": true,
+              "visible": "boolean",
+              "deleted": "boolean",
               "created_at": "2019-08-24T14:15:22Z"
             }
           ],
@@ -222,7 +222,7 @@ Status Code **200**
         "added_at": "2019-08-24T14:15:22Z",
         "html": "string",
         "summary": "string",
-        "deleted": true,
+        "deleted": "boolean",
         "collapsed": "string",
         "comment_count": 0,
         "vote_count": 0,

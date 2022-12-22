@@ -20,7 +20,7 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint.|
+|id|path|string|true|A unique integer value identifying this endpoint|
 
 ### Example Request
 
@@ -83,10 +83,10 @@ curl -X POST /api/v2/webhook/endpoint/{id}/secret/expire/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "created_at": "2019-08-24T14:15:22Z",
   "updated_at": "2019-08-24T14:15:22Z",
-  "is_active": true,
+  "is_active": "boolean",
   "target": "https://example.com",
   "description": "string",
   "events": [
@@ -95,7 +95,7 @@ curl -X POST /api/v2/webhook/endpoint/{id}/secret/expire/ \
       "added_at": "2019-08-24T14:15:22Z"
     }
   ],
-  "ssl_cert_verification": true
+  "ssl_cert_verification": "boolean"
 }
 ```
 

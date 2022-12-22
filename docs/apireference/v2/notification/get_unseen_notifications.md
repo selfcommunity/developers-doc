@@ -74,7 +74,10 @@ curl -X GET /api/v2/notification/unseen/count/ \
 <TabItem value="200">
 
 ```json
-{"count":  3}
+{
+   "count":  "integer"
+   
+}
 ```
 
 </TabItem>

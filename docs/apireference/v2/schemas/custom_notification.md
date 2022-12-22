@@ -6,14 +6,14 @@ title: Custom Notification
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "recipients_type": "string",
   "type": "string",
   "embed": {
-    "id": 0,
+    "id": "integer",
     "embed_type": "string",
     "embed_id": "string",
-    "url": "https://example.com",
+    "url": "string(uri)",
     "metadata": "{}"
   },
   "title": "string",

@@ -24,7 +24,7 @@ If this operation has been done by an administrator user it will show all tag de
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this tag.|
+|id|path|string|true|A unique integer value identifying this tag|
 
 ### Example Request
 
@@ -85,15 +85,15 @@ curl -X GET /api/v2/tag/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "type": "string",      
   "name": "string",      
   "description": "string",
   "color": "string",
-  "visible": true,
-  "visibility_boost": true,
+  "visible": "boolean",
+  "visibility_boost": "boolean",
   "created_at": "2019-08-24T14:15:22Z",
-  "active": true,
+  "active": "boolean",
   "deleted": false
 }
 ```
@@ -104,7 +104,7 @@ curl -X GET /api/v2/tag/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "type": "string",      
   "name": "string",      
   "description": "string",

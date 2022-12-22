@@ -20,15 +20,15 @@ This operation requires moderation role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|min_flags|query|integer|false|Minimum number of flags received by a contribute to display it in this list.|
+|min_flags|query|integer|false|Minimum number of flags received by a contribute to display it in this list|
 |contribution_type|query|string|false|Valid values are: post, discussion, status, comment|
-|contribution_id|query|string|false|A unique integer value identifying this Contribution.|
+|contribution_id|query|string|false|A unique integer value identifying this Contribution|
 |author|query|string|false|Username (or part of it) of the contributes' author|
 |flagged_by|query|string|false|Username (or part of it) of the contributes' flagger|
 |content|query|string|false|Content text (or part of it) of the contributes|
 |moderation_status|query|string|false|Moderation status of the contributes flagged|
-|limit|query|integer|false|Number of results to return per page.|
-|offset|query|integer|false|The initial index from which to return the results.|
+|limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 |order_by|query|string|false|Default ordering is: -last_flagged_at. Other valid fields are: flag_count, last_moderated_at|
 
 #### Enumerated Values
@@ -114,83 +114,60 @@ Status Code **200**
 
 ```json
 {
-  "count": 123,
+  "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
   "results": [
     {
-      "contribute_type": "string",
-      "contribute": {
-        "id": 0,
-        "author": {
-          "id": 0,
-          "username": "string",
-          "real_name": "string",
-          "date_joined": "2019-08-24T14:15:22Z",
-          "bio": "string",
-          "location": "string",
-          "location_lat_lng": "string",
-          "position_lat_lng": "string",
-          "date_of_birth": "2019-08-24",
-          "description": "string",
-          "gender": "Male",
-          "website": "https://example.com",
-          "avatar": "string",
-          "cover": "string",
-          "ext_id": "string",
-          "tags": [
-            {
-              "id": 0,
-              "active": true,
-              "type": "user",
-              "name": "string",
-              "description": "string",
-              "color": "string",
-              "visible": true,
-              "deleted": true,
-              "created_at": "2019-08-24T14:15:22Z"
-            }
-          ]
-        },
-        "added_at": "2019-08-24T14:15:22Z",      
-        "categories": [
-            {
-                "id": 0,
-                "name": "string",
-                "slug": "string"
-            }
-        ],
-        "title": "string",
-        "html": "string",
-        "summary": "string",
-        "deleted": true,
-        "collapsed": true,
-        "parent": "string",
-        "in_reply_to": "string",
-        "comment_count": 0,
-        "vote_count": 0,
-        "flag_count": 6,
-        "flag_count_detail": {
-            "0": 1,
-            "2": 5
-        },
-        "media_count_detail": {},
-        "has_poll": false,
-        "thread_id": 0,
-        "thread_type": "string"
-      },
-      "last_flagged_at": "2019-08-24T14:15:22Z",
-      "moderation_status": "string",
-      "moderation_type": "0",
-      "moderation_by": {
-          "id": 0,
-          "username": "string",
-          "real_name": "",
-          "avatar": "url",
-          "ext_id": null,
-          "tags": []
-      },
-      "moderation_at": "2021-07-07T12:20:12.472485+02:00"
+  "contribution_type": "string",
+  "contribution": {
+            "id": "integer",
+            "author": {
+              ...User,
+              "blocked_at": "string",
+              "days_blocked": "integer",
+              "expire_at": "string",
+              "last_seen": "string",
+              "flags_given": "integer",
+              "flags_received": "integer",
+              "last_score_variation": {
+                "score": "integer",
+                "comment": "string",
+                "reputed_at": "string",
+                "created_by": {}
+              },
+            },
+            "added_at": "string",      
+            "categories": [],
+            "title": "string",
+            "html": "string",
+            "summary": "string",
+            "deleted": "boolean",
+            "collapsed": "boolean",
+            "parent": "integer",
+            "in_reply_to": "integer",
+            "comment_count": "integer",
+            "vote_count": "integer",
+            "reactions_count": [{Reaction}],
+            "flag_count": "integer",
+            "flag_count_detail": {
+              "1": "integer",
+              "2": "integer",
+              "3": "integer",
+              "4": "integer",
+              "0": "integer"
+            },
+            "media_count_detail": {},
+            "share_count": "integer",
+            "has_poll": "boolean",
+            "thread_id": "integer",
+            "thread_type": "string"
+          },
+          "last_flagged_at": "string",
+          "moderation_status": "string",
+          "moderation_type": "string",
+          "moderation_by": {},
+          "moderation_at": "string"
     }
   ]
 }

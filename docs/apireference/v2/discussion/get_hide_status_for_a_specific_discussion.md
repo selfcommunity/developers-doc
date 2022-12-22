@@ -20,7 +20,7 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this discussion.|
+|id|path|string|true|A unique integer value identifying this discussion|
 
 ### Example Request
 
@@ -80,7 +80,7 @@ curl -X GET /api/v2/discussion/{id}/hide/status/ \
 
 ```json
 {
-  "hidden": false
+  "hidden": "boolean"
 }
 ```
 

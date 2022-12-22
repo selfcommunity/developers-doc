@@ -20,8 +20,8 @@ This operation does not require authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user.|
-|mutual|path|integer|false|Allowed values: 0-1. Param 0 returns the list of non mutual categories. Param 1 returns only the mutual list.|
+|id|path|string|true|A unique integer value identifying this user|
+|mutual|path|integer|false|Allowed values: 0-1. Param 0 returns the list of non mutual categories. Param 1 returns only the mutual list|
 
 ### Example Request
 
@@ -83,17 +83,17 @@ The results always return categories sorted by: first mutuals and then non-mutua
 ```json
 [
   {
-  "id": 0,
+  "id": "integer",
   "tags": [
     {
       "id": 0,
-      "active": true,
+      "active": "boolean",
       "type": "user",
       "name": "string",
       "description": "string",
       "color": "string",
-      "visible": true,
-      "deleted": true,
+      "visible": "boolean",
+      "deleted": "boolean",
       "created_at": "2019-08-24T14:15:22Z"
     }
   ],
@@ -106,8 +106,8 @@ The results always return categories sorted by: first mutuals and then non-mutua
   "seo_title": "string",
   "seo_description": "string",
   "auto_follow": "none",
-  "active": true,
-  "deleted": true,
+  "active": "boolean",
+  "deleted": "boolean",
   "image_original": "string",
   "image_bigger": "string",
   "image_big": "string",

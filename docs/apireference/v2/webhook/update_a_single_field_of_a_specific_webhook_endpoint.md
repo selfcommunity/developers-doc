@@ -20,7 +20,7 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint.|
+|id|path|string|true|A unique integer value identifying this endpoint|
 |» is_active|body|boolean|false|none|
 |» target|body|string(uri)|true|none|
 |» description|body|string|false|none|
@@ -39,7 +39,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "is_active": true,
+  "is_active": "boolean",
   "target": "https://example.com",
   "description": "string",
   "events": [
@@ -47,7 +47,7 @@ import TabItem from '@theme/TabItem';
       "type": "comment.created"
     }
   ],
-  "ssl_cert_verification": true
+  "ssl_cert_verification": "boolean"
 }
 ```
 
@@ -64,7 +64,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "is_active": true,
+  "is_active": "boolean",
   "target": "https://example.com",
   "description": "string",
   "events": [
@@ -72,7 +72,7 @@ const inputBody = '{
       "type": "comment.created"
     }
   ],
-  "ssl_cert_verification": true
+  "ssl_cert_verification": "boolean"
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -104,7 +104,7 @@ curl -X PATCH /api/v2/webhook/endpoint/{id}/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "is_active": true,
+    "is_active": "boolean",
     "target": "https://example.com",
     "description": "string",
     "events": [
@@ -112,7 +112,7 @@ curl -X PATCH /api/v2/webhook/endpoint/{id}/ \
         "type": "comment.created"
       }
     ],
-    "ssl_cert_verification": true
+    "ssl_cert_verification": "boolean"
   }'
 ```
 </TabItem>
@@ -135,10 +135,10 @@ curl -X PATCH /api/v2/webhook/endpoint/{id}/ \
 
 ```json
 {
-  "id": 0,
+  "id": "integer",
   "created_at": "2019-08-24T14:15:22Z",
   "updated_at": "2019-08-24T14:15:22Z",
-  "is_active": true,
+  "is_active": "boolean",
   "target": "https://example.com",
   "description": "string",
   "events": [
@@ -147,7 +147,7 @@ curl -X PATCH /api/v2/webhook/endpoint/{id}/ \
       "added_at": "2019-08-24T14:15:22Z"
     }
   ],
-  "ssl_cert_verification": true
+  "ssl_cert_verification": "boolean"
 }
 ```
 

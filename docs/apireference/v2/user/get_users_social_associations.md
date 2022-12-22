@@ -107,7 +107,7 @@ curl -X GET /api/v2/user/provider/ \
         "provider": "twitter",
         "ext_id": "12345",
         "profile_url": "https://www.twitter.com/my_profile/",
-        "show_in_profile": true
+        "show_in_profile": "boolean"
     }
 ]
 
