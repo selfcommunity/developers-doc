@@ -129,7 +129,9 @@ Status Code **200**
 
 <Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
 <TabItem value="200">
+
 ```json
+
 {
   "count": "integer",
   "next": "string(uri)",
@@ -161,7 +163,9 @@ Status Code **200**
     }
   ]
 }
+
 ```
+
 </TabItem>
 </Tabs>
 ````
