@@ -18,9 +18,9 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|sids|body|List of sid (serialization id)|true|none|
+|Name|In|Type|Required| Description       |
+|---|---|---|---|-------------------|
+|sids|body|List of sid (serialization id)|true| Serialization ids |
 
 #### Example Body Parameters
 
@@ -33,7 +33,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "sids": [string]
+  "sids": ["string"]
 }
 ```
 
@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "sids": [string]
+  "sids": ["string"]
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -90,7 +90,7 @@ curl -X POST /api/v2/notification/read/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 
 

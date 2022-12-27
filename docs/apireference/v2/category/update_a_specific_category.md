@@ -18,10 +18,10 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Category|
-|body|body|[Category](/docs/apireference/v2/schemas/category)|false|none|
+|Name|In|Type|Required| Description                                      |
+|---|---|---|---|--------------------------------------------------|
+|id|path|string|true| A unique integer value identifying this category |
+|body|body|[Category](/docs/apireference/v2/schemas/category)|false| The request body(category params)                |
 
 #### Example Body Parameters
 
@@ -42,7 +42,7 @@ import TabItem from '@theme/TabItem';
   "html_info": "string",
   "seo_title": "string",
   "seo_description": "string",
-  "auto_follow": "none",
+  "auto_follow": "string",
   "active": "boolean",
   "deleted": "boolean",
   "image_original": "string",
@@ -74,7 +74,7 @@ const inputBody = '{
   "html_info": "string",
   "seo_title": "string",
   "seo_description": "string",
-  "auto_follow": "none",
+  "auto_follow": "string",
   "active": "boolean",
   "deleted": "boolean",
   "image_original": "string",
@@ -134,8 +134,8 @@ curl -X PUT /api/v2/category/{id}/ \
 
 ```json
 {
-      "id": "integer,
-      "tags": [],
+      "id": "integer",
+      "tags": [{Tag}],
       "followed": "boolean",
       "order": "integer",
       "name": "string",

@@ -114,7 +114,7 @@ Status Code **200**
         "categories": [{Category}],
         "medias": [{Media}],
         "location": "string",
-        "addressing": [integer],
+        "addressing": ["integer"],
         "poll": {Poll},
         "title": "string"
         "matches": [
@@ -125,36 +125,7 @@ Status Code **200**
                 "added_at": "string",
                 "html": "string"
             },
-            "author": {
-                  "id": "integer",
-                  "username": "string",
-                  "real_name": "string",
-                  "avatar": "string",
-                  "ext_id": "integer",
-                  "followings_counter": "integer",
-                  "followers_counter": "integer",
-                  "posts_counter": "integer",
-                  "discussions_counter": "integer",
-                  "polls_counter": "integer",
-                  "connection_status": "string",
-                  "categories_counter": "integer",
-                  "date_joined": "string",
-                  "bio": "string",
-                  "location": "string",
-                  "location_lat_lng": "string",
-                  "position_lat_lng": "string",
-                  "date_of_birth": "string",
-                  "description": "string",
-                  "gender": "string",
-                  "website": "string",
-                  "cover": "string",
-                  "tags": [],
-                  "reputation": "integer",
-                  "community_badge": "boolean",
-                  "reg_approved": "boolean",
-                  "company_name": "string",
-                  "company_role": "string"
-            }
+            "author": {}
           }
         ]
       }

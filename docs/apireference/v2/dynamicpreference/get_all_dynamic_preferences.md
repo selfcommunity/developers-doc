@@ -19,13 +19,13 @@ This operation does not require authentication
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                         |
-|----------|-------|---------|----------|-----------------------------------------------------|
-| limit    | query | integer | false    | Number of results to return per page.               |
-| offset   | query | integer | false    | The initial index from which to return the results. |
-| search   | query | string  | false    | A search term.                                      |
-| section  | query | string  | false    | Filter all preferences in a section                 |
-| ordering | query | string  | false    | Which field to use when ordering the results.       |
+| Name     | In    | Type    | Required | Description                                      |
+|----------|-------|---------|----------|--------------------------------------------------|
+| limit    | query | integer | false    | Number of results to return per page             |
+| offset   | query | integer | false    | The initial index from which to return the results |
+| search   | query | string  | false    | A search term                                    |
+| section  | query | string  | false    | Filter all preferences in a section              |
+| ordering | query | string  | false    | Which field to use when ordering the results     |
 
 ### Example Request
 
@@ -70,18 +70,18 @@ curl -X GET /api/v2/dynamic_preference/ \
 
 | Status | Meaning                                                 | Description | Schema |
 |--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | Inline |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-| Name       | Type                                            | Required | Restrictions | Description         |
-|------------|-------------------------------------------------|----------|--------------|---------------------|
-| » count    | integer                                         | false    | none         | Total results count |
-| » next     | string(uri)¦null                                | false    | none         | Next page url       |
-| » previous | string(uri)¦null                                | false    | none         | Previous page url   |
-| » results  | [[DynamicPreference](/docs/apireference/v2/schemas/dynamic_preference)] | false    | none         | List of results     |
+| Name       | Type                                                                     | Required | Restrictions | Description         |
+|------------|--------------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                                  | false    | none         | Total results count |
+| » next     | string(uri)¦null                                                         | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                                         | false    | none         | Previous page url   |
+| » results  | [[Dynamic Preference](/docs/apireference/v2/schemas/dynamic_preference)] | false    | none         | List of results     |
 
 ### Example responses
 

@@ -18,10 +18,10 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                     |
-|------|------|--------|----------|-------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this status. |
-|flag_type|body|integer|true|A integer from 0 to 4|
+| Name      | In   | Type    | Required | Description                                     |
+|-----------|------|---------|----------|-------------------------------------------------|
+| id        | path | string  | true     | A unique integer value identifying this status. |
+| flag_type | body | integer | true     | An integer from 0 to 4                          |
 
 #### Enumerated Values
 
@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "flag_type": 0
+  "flag_type": "boolean"
 }
 ```
 
@@ -61,7 +61,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "flag_type": 0
+  "flag_type": "boolean"
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -93,7 +93,7 @@ curl -X POST /api/v2/status/{id}/flag/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "flag_type": 0
+    "flag_type": "boolean"
   }'
 ```
 </TabItem>
@@ -104,7 +104,7 @@ curl -X POST /api/v2/status/{id}/flag/ \
 
 | Status | Meaning                                                         | Description | Schema |
 |--------|-----------------------------------------------------------------|-------------|--------|
-| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | none        | None   |
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code        | None   |
 
 
 

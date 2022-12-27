@@ -36,7 +36,7 @@ title: Comment
 
 | Name            | Type                                                                  | Required | Restrictions | Description                                                                                                   |
 |-----------------|-----------------------------------------------------------------------|----------|--------------|---------------------------------------------------------------------------------------------------------------|
-| id              | integer                                                               | false    | read-only    | The comment id                                                                                                |
+| id              | integer                                                               | false    | read-only    | A unique integer value identifying this  comment                                                              |
 | author          | [User](/docs/apireference/v2/schemas/user)                            | true     | read-only    | The comment author                                                                                            |
 | added_at        | string(date-time)                                                     | false    | read-only    | Datetime of creation                                                                                          |
 | last_edited_at  | string(date-time)                                                     | false    | read-only    | Datetime of last edit                                                                                         |
@@ -55,7 +55,7 @@ title: Comment
 | status          | integer¦null                                                          | false    | none         | Id of the [Status](/docs/apireference/v2/schemas/status)                                                      |
 | latest_comments | list([CommentSummary](/docs/apireference/v2/schemas/comment_summary)) | false    | read-only    | The list of last comments                                                                                     |
 | type            | string                                                                | true     | write-only   | The type of comment                                                                                           |
-| voted           | boolean                                                               | false    | read-only    | True if the logged user has already voted this contribution                                                   |
+| voted           | boolean                                                               | false    | read-only    | If true, the logged user has already voted this contribution                                                  |
 | reaction        | [Reaction](/docs/apireference/v2/schemas/reaction)                    | false    | read-only    | Reaction of the logged user (if he voted this contribution)                                                   |
 
 

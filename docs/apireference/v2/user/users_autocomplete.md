@@ -78,7 +78,7 @@ curl -X GET /api/v2/user/autocomplete/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -102,15 +102,15 @@ Status Code **200**
 ```json
 {
   "count": "integer",
-  "next": "http://api.example.org/accounts/?offset=400&limit=100",
-  "previous": "http://api.example.org/accounts/?offset=200&limit=100",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
       "username": "string",
       "real_name": "string",
       "avatar": "string",
-      "ext_id": 3
+      "ext_id": "integer"
     }
   ]
 }

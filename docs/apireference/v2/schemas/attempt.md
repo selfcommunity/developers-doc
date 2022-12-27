@@ -26,7 +26,7 @@ title: Attempt
 
 |Name|Type|Required|Restrictions| Description                    |
 |---|---|---|---|--------------------------------|
-|id|integer|false|read-only| none                           |
+|id|integer|false|read-only| A unique integer value                           |
 |created_at|string(date-time)|false|read-only| The creation datetime          |
 |event|list|true|none| The event                      |
 |» type|string|true|none| The event type                 |

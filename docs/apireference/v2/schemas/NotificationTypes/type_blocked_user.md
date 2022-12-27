@@ -27,7 +27,7 @@ Example preview:
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|is_new|boolean|true|read-only|True if the notification has been read, otherwise false|
+|is_new|boolean|true|read-only|If true, the notification has been read|
 |sid|string|true|read-only|Serialization id of the notification|
 |type|string|true|read-only|Type "blocker_user"|
 |active_at|string(date-time)|true|read-only|Time when the notification was generated|

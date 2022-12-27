@@ -34,7 +34,7 @@ This operation requires authentication and the user must be the same or must hav
 
 ```js
 const inputBody = '{
-  "user_id": 1,
+  "user_id": "integer",
   "ext_id": "string",
   "provider": "string"
 }';
@@ -69,7 +69,7 @@ curl -X POST /api/v2/user/provider/ \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json'
   -d '{
-  "user_id": 1,
+  "user_id": "integer",
   "ext_id": "string",
   "provider": "string"
  }'
@@ -95,11 +95,11 @@ curl -X POST /api/v2/user/provider/ \
 
 ```json
 {
-    "user_id": 11,
-    "provider": "facebook",
-    "ext_id": "12345",
-    "profile_url": "https://www.facebook.com/my_profile/",
-    "show_in_profile": false
+    "user_id": "integer",
+    "provider": "string",
+    "ext_id": "integer",
+    "profile_url": "string(uri)",
+    "show_in_profile":  "boolean"
 }
 ```
 

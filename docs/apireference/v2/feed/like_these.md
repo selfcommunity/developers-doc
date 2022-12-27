@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-    "object": [integer]
+    "object": ["integer"]
 }
 ```
 
@@ -54,7 +54,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = {
-    "object": [integer]
+    "object": ["integer"]
 };
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -86,7 +86,7 @@ curl -X POST /api/v2/feed/likethis/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "object": [integer]
+    "object": ["integer"]
   }'
 ```
 </TabItem>
@@ -97,10 +97,10 @@ curl -X POST /api/v2/feed/likethis/ \
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
+|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|List of results|
 
 ### Example responses
 
@@ -140,14 +140,14 @@ curl -X POST /api/v2/feed/likethis/ \
         "flag_count": "integer",
         "share_count": "integer",
         "slug": "string",
-        "categories": [],
-        "medias": [],
+        "categories": [{Category}],
+        "medias": [{Media}],
         "location": "string",
-        "addressing": [integer],
-        "poll": {},
+        "addressing": ["integer"],
+        "poll": {Poll},
         "title": "string"
       },
-      "seen_by_id": [],
+      "seen_by_id": ["integer"],
       "has_boost": "boolean"
     }
   ]

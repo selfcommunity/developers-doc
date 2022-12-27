@@ -117,7 +117,7 @@ Status Code **200**
                   "categories": [{Category}],
                   "medias": [{Media}],
                   "location": "string",
-                  "addressing": [integer],
+                  "addressing": ["integer"],
                   "poll": {Poll},
                   "title": "string"
    },

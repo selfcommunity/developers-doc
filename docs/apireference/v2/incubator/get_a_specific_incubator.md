@@ -84,7 +84,7 @@ curl -X GET /api/v2/incubator/{id}/ \
   "slug": "string",
   "slogan": "string",
   "status": "integer",
-  "approved_category": {},
+  "approved_category": {Category},
   "added_at": "string",
   "user": {
     "id": "integer",

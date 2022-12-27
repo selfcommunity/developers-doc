@@ -18,9 +18,9 @@ This operation does not require authentication
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                                 |
-|------|------|--------|----------|-------------------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this dynamic preference. |
+| Name | In   | Type   | Required | Description                                                |
+|------|------|--------|----------|------------------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this dynamic preference |
 
 ### Example Request
 
@@ -68,7 +68,7 @@ curl -X GET /api/v2/dynamic_preference/{id}/ \
 
 | Status | Meaning                                                 | Description | Schema                                        |
 |--------|---------------------------------------------------------|-------------|-----------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [DynamicPreference](/docs/apireference/v2/schemas/dynamic_preference) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [DynamicPreference](/docs/apireference/v2/schemas/dynamic_preference) |
 
 ### Example responses
 

@@ -101,7 +101,7 @@ curl -X POST /api/v2/incubator/ \
   "status": "integer",
   "approved_category": {Category},
   "added_at": "string",
-  "user": {},
+  "user": {User},
   "subscribers_count": "integer",
   "subscribers_threshold": "integer",
   "subscribed": "boolean"

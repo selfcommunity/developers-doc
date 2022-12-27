@@ -113,7 +113,7 @@ Status Code **200**
               "gender": "string",
               "website": "string",
               "cover": "string",
-              "tags": [],
+              "tags": [{Tag}],
               "reputation": "integer",
               "community_badge": "boolean",
               "reg_approved": "boolean",

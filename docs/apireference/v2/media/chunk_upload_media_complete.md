@@ -106,7 +106,7 @@ curl -X POST /api/v2/media/upload/complete/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Media](/docs/apireference/v2/schemas/media)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Media](/docs/apireference/v2/schemas/media)|
 
 ### Example responses
 

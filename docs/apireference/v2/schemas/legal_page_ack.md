@@ -16,10 +16,10 @@ title: Legal Page Ack
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|Unique integer value identifying this ack|
-|accepted_at|string(date-time)¦null|false|none|This policy has been accepted in this datetime|
-|not_accepted_at|string(date-time)¦null|false|none|This policy has been refused in this datetime|
-|policy_document|integer|true|none|The id of the policy document|
-|user|integer|true|none|The id of the user|
+|Name|Type|Required|Restrictions| Description                                    |
+|---|---|---|---|------------------------------------------------|
+|id|integer|false|read-only| A unique integer value identifying this ack    |
+|accepted_at|string(date-time)¦null|false|none| This policy has been accepted in this datetime |
+|not_accepted_at|string(date-time)¦null|false|none| This policy has been refused in this datetime  |
+|policy_document|integer|true|none| The id of the policy document                  |
+|user|integer|true|none| The id of the user                             |

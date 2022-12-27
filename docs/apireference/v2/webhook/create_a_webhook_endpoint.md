@@ -19,14 +19,14 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|» is_active|body|boolean|false|none|
-|» target|body|string(uri)|true|none|
-|» description|body|string|false|none|
-|» events|body|list|true|none|
-|»» type|body|string|true|The [webhook event type](#list-of-events)|
-|» ssl_cert_verification|body|boolean|false|True if the SSL certificates for HTTPS requests must be enabled|
+|Name|In| Type         |Required| Description                                                      |
+|---|---|--------------|---|------------------------------------------------------------------|
+|» is_active|body| boolean      |false| Endpoint active status                                           |
+|» target|body| string(uri)  |true| Endpoint target                                                  |
+|» description|body| string       |false| Endpoint description                                             |
+|» events|body| list[object] |true| Endpoint events objects                                          |
+|»» type|body| string       |true| The [webhook event type](#list-of-events)                        |
+|» ssl_cert_verification|body| boolean      |false| If true, the SSL certificates for HTTPS requests must be enabled |
 
 #### Example Body Parameters
 
@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
   "description": "string",
   "events": [
     {
-      "type": "comment.created"
+      "type": "string"
     }
   ],
   "ssl_cert_verification": "boolean"
@@ -69,7 +69,7 @@ const inputBody = '{
   "description": "string",
   "events": [
     {
-      "type": "comment.created"
+      "type": "string"
     }
   ],
   "ssl_cert_verification": "boolean"
@@ -109,7 +109,7 @@ curl -X POST /api/v2/webhook/endpoint/ \
     "description": "string",
     "events": [
       {
-        "type": "comment.created"
+        "type": "string"
       }
     ],
     "ssl_cert_verification": "boolean"
@@ -123,7 +123,7 @@ curl -X POST /api/v2/webhook/endpoint/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Endpoint](/docs/apireference/v2/schemas/endpoint)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Endpoint](/docs/apireference/v2/schemas/endpoint)|
 
 ### Example responses
 
@@ -136,15 +136,15 @@ curl -X POST /api/v2/webhook/endpoint/ \
 ```json
 {
   "id": "integer",
-  "created_at": "2019-08-24T14:15:22Z",
-  "updated_at": "2019-08-24T14:15:22Z",
+  "created_at": "string",
+  "updated_at": "string",
   "is_active": "boolean",
-  "target": "https://example.com",
+  "target": "string",
   "description": "string",
   "events": [
     {
-      "type": "comment.created",
-      "added_at": "2019-08-24T14:15:22Z"
+      "type": "string",
+      "added_at": "string"
     }
   ],
   "ssl_cert_verification": "boolean"

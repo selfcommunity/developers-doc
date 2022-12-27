@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "new_email": "user@example.com",
+  "new_email": "string",
   "validation_code": "string"
 }
 ```
@@ -53,8 +53,8 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "new_email": "user@example.com",
-  "confirm": false,
+  "new_email": "string",
+  "confirm": "boolean",
   "validation_code": "string"
 }';
 const headers = {
@@ -94,7 +94,7 @@ curl -X POST /api/v2/user/{id}/confirm_email/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 
 

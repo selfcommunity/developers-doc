@@ -67,7 +67,7 @@ curl -X GET /api/v2/suggestion/category/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -95,10 +95,10 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
-      "tags": [],
-      "followed": false,
-      "order": 123,
+      "id": "integer",
+      "tags": [{Tag}],
+      "followed": "boolean",
+      "order": "integer",
       "name": "string",
       "name_synonyms": "string",
       "slug": "string",
@@ -106,7 +106,7 @@ Status Code **200**
       "html_info": "string",
       "seo_title": "string",
       "seo_description": "string",
-      "auto_follow": "none",
+      "auto_follow": "string",
       "active": "boolean",
       "image_original": "string",
       "image_bigger": "string",
@@ -114,10 +114,10 @@ Status Code **200**
       "image_medium": "string",
       "image_small": "string",
       "emotional_image_original": "string",
-      "emotional_image_position": 0,
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "stream_order_by": "recent",
-      "followers_counter": 13
+      "emotional_image_position": "integer",
+      "lastmod_datetime": "string",
+      "stream_order_by": "string",
+      "followers_counter": "integer"
     }
   ]
 }

@@ -69,18 +69,18 @@ curl -X GET /api/v2/suggestion/?search={search} \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
 Status Code **200**
 
-|Name| Type                                                  |Required|Restrictions|Description|
-|---|-------------------------------------------------------|---|---|---|
-|» count| integer                                               |false|none|Total results count|
-|» next| string(uri)¦null                                      |false|none|Next page url|
-|» previous| string(uri)¦null                                      |false|none|Previous page url|
-|» results| list([User](/docs/apireference/v2/schemas/user)) and ([Category](/docs/apireference/v2/schemas/category) |false|none|List of results|
+| Name       | Type                                                                                                     | Required | Restrictions | Description         |
+|------------|----------------------------------------------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                                                                  | false    | none         | Total results count |
+| » next     | string(uri)¦null                                                                                         | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                                                                         | false    | none         | Previous page url   |
+| » results  | list([User](/docs/apireference/v2/schemas/user)) and ([Category](/docs/apireference/v2/schemas/category) | false    | none         | List of results     |
 
 ### Example responses
 
@@ -92,70 +92,19 @@ Status Code **200**
 
 ```json
 {
-    "count": 20,
-    "next": "https://italiano.quentrix.com/api/v2/suggestion/?limit=10&offset=10&search={search}",
-    "previous": null,
+    "count": "integer",
+    "next": "string(uri)",
+    "previous": "string(uri)",
     "results": [
   {
-    'type': 'user',
-    'score': 31,
-    'user': {
-      'id': 392,
-      'username': 'string',
-      'real_name': 'string',
-      'avatar': 'string',
-      'followings_counter': 0,
-      'followers_counter': 1,
-      'posts_counter': 0,
-      'discussions_counter': 0,
-      'polls_counter': 0,
-      'connection_status': null,
-      'categories_counter': 15,
-      'date_joined': '2022-08-08T04:43:00+02:00',
-      'bio': 'string',
-      'location': 'string',
-      'location_lat_lng': 'string',
-      'position_lat_lng': 'string',
-      'date_of_birth': 2019 - 09-23,
-      'description': 'string',
-      'gender': 'Male',
-      'website': 'string',
-      'cover': 'string',
-      'tags': [],
-      'reputation': 6,
-      'community_badge': false,
-      'company_name': null,
-      'company_role': null
-    }
+    'type': 'string',
+    'score': "integer",
+    'user': {User}
   },
   {
-    'type': 'category',
-    'score': 80,
-    'category': {
-      'id': 0,
-      'tags': [],
-      'followed': false,
-      'order': 123,
-      'name': 'string',
-      'name_synonyms': 'string',
-      'slug': 'string',
-      'slogan': 'string',
-      'html_info': 'string',
-      'seo_title': 'string',
-      'seo_description': 'string',
-      'auto_follow': 'none',
-      'active': "boolean",
-      'image_original': 'string',
-      'image_bigger': 'string',
-      'image_big': 'string',
-      'image_medium': 'string',
-      'image_small': 'string',
-      'emotional_image_original': 'string',
-      'emotional_image_position': 0,
-      'lastmod_datetime': '2019-08-24T14:15:22Z',
-      'stream_order_by': 'recent',
-      'followers_counter': 13
-    }
+    'type': 'string',
+    'score': "integer",
+    'category': {Category}
     ]
 }
 ```

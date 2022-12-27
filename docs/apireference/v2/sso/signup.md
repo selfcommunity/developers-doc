@@ -37,7 +37,7 @@ This operation requires authentication and admin role.
 | email    | body | string         | false    | The email of the user.                                                                                                                                                                                                                                             |
 | password | body | string         | false    | The password of the user. If passed, the password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&) |
 | role     | body | string¦null    | false    | Role of the user; it can be: admin, moderator, editor                                                                                                                                                                                                              |
-| tags     | body | [integer]¦null | false    | List of tags id                                                                                                                                                                                                                                                    |
+| tags     | body | ["integer"]¦null | false    | List of tags id                                                                                                                                                                                                                                                    |
 
 #### Example Body Parameters
 
@@ -50,12 +50,10 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "ext_id": 0,
+  "ext_id": "integer",
   "username": "string",
   "role": "string",
-  "tags": [
-    0
-  ]
+  "tags": ["integer"]
 }
 ```
 </TabItem>
@@ -63,11 +61,11 @@ import TabItem from '@theme/TabItem';
 <TabItem value="yaml">
 
 ```yaml
-ext_id: 0
+ext_id: integer
 username: string
 role: string
 tags:
-  - 0
+  - "integer"
 ```
 
 </TabItem>
@@ -84,7 +82,7 @@ tags:
 ```js
 const inputBody = '{
   "username": "string",
-  "ext_id": 0
+  "ext_id": "integer"
 }';
 const headers = {
   'Authorization':'Bearer {access_token}',
@@ -118,7 +116,7 @@ curl -X POST /api/v2/sso/signup/ \
   -H 'Accept: application/json'
   -d '{
     "username": "string",
-    "ext_id": 0
+    "ext_id": "integer"
  }'
 ```
 </TabItem>
@@ -133,7 +131,7 @@ headers = {
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
-payload = '{"username": "string","ext_id": 0}'
+payload = '{"username": "string","ext_id": "integer"}'
 
 r = requests.post('/api/v2/sso/signup/', headers = headers, data = payload)
 
@@ -149,7 +147,7 @@ print(r.json())
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|Inline|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|Inline|
 
 ### Response Schema
 
@@ -162,7 +160,7 @@ Status Code **201**
 | » username | string         | true     | none         | Username of the registered user                       |
 | » email    | string         | false    | none         | Email of the registered user                          |
 | » role     | string¦null    | false    | none         | Role of the user; it can be: admin, moderator, editor |
-| » tags     | [integer]¦null | false    | none         | List of tags id                                       |
+| » tags     | ["integer"]¦null | false    | none         | List of tags id                                       |
 
 ### Example responses
 
@@ -175,12 +173,10 @@ Status Code **201**
 ```json
 {
   "id": "integer",
-  "ext_id": 0,
+  "ext_id": "integer",
   "username": "string",
   "role": "string",
-  "tags": [
-    0
-  ]
+  "tags": ["integer"]
 }
 ```
 

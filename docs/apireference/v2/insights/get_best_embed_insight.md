@@ -16,17 +16,17 @@ If you pass group_by the result will be not paginated and will contain only user
 
 ### Parameters
 
-| Name            |In| Type             |Required| Description                                                                                                                                                                                                                                                                 |
-|-----------------|---|------------------|---|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| limit           |path| integer          |false| Number of results to return per page.                                                                                                                                                                                                                                       |
-| offset          |path| integer          |false| The initial index from which to return the results (only if pagination is guaranteed).                                                                                                                                                                                      |
+| Name            |In| Type             |Required| Description                                                                                                                                                                                                                                                            |
+|-----------------|---|------------------|---|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| limit           |path| integer          |false| Number of results to return per page                                                                                                                                                                                                                                   |
+| offset          |path| integer          |false| The initial index from which to return the results (only if pagination is guaranteed)                                                                                                                                                                                  |
 | category_id     |path| string          |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category). If you use a list of category ids then any embed associated to a contribution that has at least one category_id will be returned (the filter is in OR and not in AND) |
-| created_at__gte |path| string(date-time) |false| Datetime of creation(greater than or equal to the given value)                                                                                                                                                                                                              |
-| created_at__lte |path| string(date-time) |false| Datetime of creation(less than or equal to the given value)                                                                                                                                                                                                                 |
-| embed_type      |path| string           |false| The embed type (custom)                                                                                                                                                                                                                                                     |
-| ranked_by       |path| string           |false| The rank value to use: num_posts, num_comments, num_votes, num_clicks, num_shares  (default: rank function). If a list (eg: num_posts, num_comments) the final rank will be the sum of the list components.                                                                 |
-| group_by        |path| string           |false| Embed_id, embed_type or metadata.TERM_KEY                                                                                                                                                                                                                                   |
-| metadata        |path| json dict        |false| A json dict containing some TERM_KEYs (eg: {"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}). Usable only if group_by is set.                                                                                                                                    |
+| created_at__gte |path| string(date-time) |false| Datetime of creation(greater than or equal to the given value)                                                                                                                                                                                                         |
+| created_at__lte |path| string(date-time) |false| Datetime of creation(less than or equal to the given value)                                                                                                                                                                                                            |
+| embed_type      |path| string           |false| The embed type (custom)                                                                                                                                                                                                                                                |
+| ranked_by       |path| string           |false| The rank value to use: num_posts, num_comments, num_votes, num_clicks, num_shares  (default: rank function). If a list (eg: num_posts, num_comments) the final rank will be the sum of the list components                                                             |
+| group_by        |path| string           |false| Embed_id, embed_type or metadata.TERM_KEY                                                                                                                                                                                                                              |
+| metadata        |path| json dict        |false| A json dict containing some TERM_KEYs (eg: {"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}). Usable only if group_by is set                                                                                                                                |
 
 ### Example Request
 
@@ -73,7 +73,7 @@ curl -X GET /api/v2/insight/embed/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema with Pagination (group_by and metadata params are NOT passed)
 

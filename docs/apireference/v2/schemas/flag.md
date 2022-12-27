@@ -16,12 +16,12 @@ title: Flag
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|user|object|false|read-only|[User](/docs/apireference/v2/schemas/user)|
-|added_at|string(date-time)|false|read-only|none|
-|flag_type|integer|true|none|none|
-|flag_type_description|string|false|read-only|none|
+|Name| Type              |Required|Restrictions| Description                                   |
+|---|-------------------|---|---|-----------------------------------------------|
+|user| object            |false|read-only| [User](/docs/apireference/v2/schemas/user)    |
+|added_at| string(date-time) |false|read-only| none                                          |
+|flag_type| [integer](/docs/apireference/v2/schemas/flag#enumerated-values)       |true|none| The value associated with the flag type       |
+|flag_type_description| string            |false|read-only| The description associated with the flag type |
 
 #### Enumerated Values
 

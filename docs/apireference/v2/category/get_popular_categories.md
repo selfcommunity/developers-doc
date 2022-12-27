@@ -71,7 +71,7 @@ curl -X GET /api/v2/category/popular/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -99,8 +99,8 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [
     {
-      "id": "integer,
-      "tags": [],
+      "id": "integer",
+      "tags": [{Tag}],
       "followed": "boolean",
       "order": "integer",
       "name": "string",

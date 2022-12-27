@@ -80,7 +80,7 @@ curl -X GET /api/v2/feed/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -88,10 +88,10 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
+|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|List of results|
 
 ### Example responses
 
@@ -131,14 +131,14 @@ Status Code **200**
         "flag_count": "integer",
         "share_count": "integer",
         "slug": "string",
-        "categories": [],
-        "medias": [],
+        "categories": [{Category}],
+        "medias": [{Media}],
         "location": "string",
-        "addressing": [integer],
-        "poll": {},
+        "addressing": ["integer"],
+        "poll": {Poll},
         "title": "string"
       },
-      "seen_by_id": [],
+      "seen_by_id": ["integer"],
       "has_boost": "boolean"
         }
     ]

@@ -15,8 +15,8 @@ title: Feature
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|Unique integer value identifying this feature|
-|name|string|false|none|Unique name identifying this feature|
-|enabled|boolean|false|none|Is this feature enabled|
+|Name|Type|Required|Restrictions| Description                                    |
+|---|---|---|---|------------------------------------------------|
+|id|integer|false|read-only| A unique integer value identifying this feature |
+|name|string|false|none| Unique name identifying this feature           |
+|enabled|boolean|false|none| If true, this feature is enabled               |

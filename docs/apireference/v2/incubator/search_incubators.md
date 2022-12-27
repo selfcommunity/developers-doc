@@ -81,7 +81,7 @@ curl -X GET /api/v2/incubator/search/ \
 ## Responses
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -114,7 +114,7 @@ Status Code **200**
       "slug": "string",
       "slogan": "string",
       "status": "integer",
-      "approved_category": {},
+      "approved_category": {Category},
       "added_at": "string",
       "user": {
         "id": "integer",

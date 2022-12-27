@@ -64,23 +64,7 @@ curl -X POST /api/v2/status/{id}/restore/
 
 | Status | Meaning                                                         | Description | Schema |
 |--------|-----------------------------------------------------------------|-------------|--------|
-| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | none        | None   |
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{}
-```
-
-</TabItem>
-</Tabs>
-````
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code         | None   |
 
 
 

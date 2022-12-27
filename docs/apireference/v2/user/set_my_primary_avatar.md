@@ -33,7 +33,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "avatar_id": 123
+  "avatar_id": "integer"
 }
 ```
 
@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "avatar_id": 123
+  "avatar_id": "integer"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -91,5 +91,5 @@ curl -X PATCH /api/v2/user/avatar/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 

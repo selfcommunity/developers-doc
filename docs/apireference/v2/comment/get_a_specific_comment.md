@@ -72,10 +72,15 @@ curl -X GET /api/v2/comment/{id}/ \
 
 ### Example responses
 
+````mdx-code-block
+
+<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
+<TabItem value="200">
+
 ```json
 {
   "id": "integer",
-  "author": {},
+  "author": {User},
   "added_at": "string",
   "last_edited_at": "string",
   "html": "string",
@@ -86,19 +91,21 @@ curl -X GET /api/v2/comment/{id}/ \
   "in_reply_to": "integer",
   "comment_count": "integer",
   "vote_count": "integer",
-  "reactions_count": [],
+  "reactions_count": [{Reaction}],
   "flag_count": "integer",
   "post": {
     "id": "integer",
     "slug": "string"
   },
-  "latest_comments": [],
+  "latest_comments": [{Comment}],
   "type": "string",
   "voted": "boolean",
-  "reaction": {}
+  "reaction": {Reaction}
 }
 ```
-
+</TabItem>
+</Tabs>
+````
 
 
 

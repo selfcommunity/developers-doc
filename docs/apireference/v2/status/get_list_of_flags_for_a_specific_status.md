@@ -68,7 +68,7 @@ curl -X GET /api/v2/status/{id}/flag/ \
 
 | Status | Meaning                                                 | Description | Schema              |
 |--------|---------------------------------------------------------|-------------|---------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Flag](/docs/apireference/v2/schemas/flag) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [Flag](/docs/apireference/v2/schemas/flag) |
 
 ### Example responses
 
@@ -86,44 +86,37 @@ curl -X GET /api/v2/status/{id}/flag/ \
     "results": [
         {
           "user": {
-            "id": 0,
-            "username": "string",
-            "real_name": "string",
-            "date_joined": "2019-08-24T14:15:22Z",
-            "bio": "string",
-            "location": "string",
-            "location_lat_lng": "string",
-            "position_lat_lng": "string",
-            "date_of_birth": "2019-08-24",
-            "description": "string",
-            "gender": "Male",
-            "website": "https://example.com",
-            "avatar": "string",
-            "cover": "string",
-            "ext_id": "string",
-            "tags": [
-              {
-                "id": 0,
-                "active": "boolean",
-                "type": "user",
-                "name": "string",
-                "description": "string",
-                "color": "string",
-                "visible": "boolean",
-                "deleted": "boolean",
-                "created_at": "2019-08-24T14:15:22Z"
-              }
-            ],
-            "reputation":111,
-            "followings_counter": 0,
-            "followers_counter": 0,
-            "posts_counter": 0,
-            "discussions_counter": 0,
-            "statuses_counter": 0,
-            "polls_counter": 0
+                  "id": "integer",
+                  "username": "string",
+                  "real_name": "string",
+                  "avatar": "string",
+                  "ext_id": "integer",
+                  "followings_counter": "integer",
+                  "followers_counter": "integer",
+                  "posts_counter": "integer",
+                  "discussions_counter": "integer",
+                  "polls_counter": "integer",
+                  "connection_status": "string",
+                  "categories_counter": "integer",
+                  "date_joined": "string",
+                  "bio": "string",
+                  "location": "string",
+                  "location_lat_lng": "string",
+                  "position_lat_lng": "string",
+                  "date_of_birth": "string",
+                  "description": "string",
+                  "gender": "string",
+                  "website": "string",
+                  "cover": "string",
+                  "tags": [{Tag}],
+                  "reputation": "integer",
+                  "community_badge": "boolean",
+                  "reg_approved": "boolean",
+                  "company_name": "string",
+                  "company_role": "string"
           },
-          "added_at": "2019-08-24T14:15:22Z",
-          "flag_type": 0,
+          "added_at": "string",
+          "flag_type": "integer",
           "flag_type_description": "string"
         }
     ]

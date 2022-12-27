@@ -18,9 +18,9 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name | In   | Type              | Required | Description |
-|------|------|-------------------|----------|-------------|
-| body | body | Array of user ids | true     | none        |
+| Name | In   | Type              | Required | Description                 |
+|------|------|-------------------|----------|-----------------------------|
+| body | body | Array of user ids | true     | The request body(users ids) |
 
 #### Example Body Parameters
 
@@ -33,9 +33,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "users": [
-    1,7,9
-  ]
+  "users": ["integer"]
 }
 ```
 
@@ -52,9 +50,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "users": [
-    1,7,9
-  ]
+  "users": ["integer"]
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -94,7 +90,7 @@ curl -X POST /api/v2/user/connection/statuses/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|Array of user ids and connection statuses|
+|200|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|Array of user ids and connection statuses|
 
 ### Example responses
 
@@ -107,9 +103,9 @@ curl -X POST /api/v2/user/connection/statuses/ \
 ```json
 {
     "connection_statuses": {
-        "1": null,
-        "7": "followed",
-        "9": null
+        "1": "string",
+        "7": "string",
+        "9": "string"
     }
 }
 ```

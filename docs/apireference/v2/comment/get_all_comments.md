@@ -125,7 +125,10 @@ Status Code **200**
 | » results  | [[Comment](/docs/apireference/v2/schemas/comment)] | false    | none         | none        |
 
 ### Example responses
+````mdx-code-block
 
+<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
+<TabItem value="200">
 ```json
 {
   "count": "integer",
@@ -134,7 +137,7 @@ Status Code **200**
   "results": [
     {
       "id": "integer",
-      "author": {},
+      "author": {User},
       "added_at": "string",
       "last_edited_at": "string",
       "html": "string",
@@ -145,20 +148,22 @@ Status Code **200**
       "in_reply_to": "integer",
       "comment_count": "integer",
       "vote_count": "integer",
-      "reactions_count": [],
+      "reactions_count": [{Reaction}],
       "flag_count": "integer",
       "post": {
         "id": "integer",
         "slug": "string"
       },
-      "latest_comments": [],
+      "latest_comments": [{Comment}],
       "type": "string",
       "voted": "boolean",
-      "reaction": {}
+      "reaction": {Reaction}
     }
   ]
 }
 ```
-
+</TabItem>
+</Tabs>
+````
 
 

@@ -67,7 +67,7 @@ curl -X GET /api/v2/webhook/endpoint/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Endpoint](/docs/apireference/v2/schemas/endpoint)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Endpoint](/docs/apireference/v2/schemas/endpoint)|
 
 ### Example responses
 
@@ -80,15 +80,15 @@ curl -X GET /api/v2/webhook/endpoint/{id}/ \
 ```json
 {
   "id": "integer",
-  "created_at": "2019-08-24T14:15:22Z",
-  "updated_at": "2019-08-24T14:15:22Z",
+  "created_at": "string",
+  "updated_at": "string",
   "is_active": "boolean",
-  "target": "https://example.com",
+  "target": "string",
   "description": "string",
   "events": [
     {
-      "type": "comment.created",
-      "added_at": "2019-08-24T14:15:22Z"
+      "type": "string",
+      "added_at": "string"
     }
   ],
   "ssl_cert_verification": "boolean"

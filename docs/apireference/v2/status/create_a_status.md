@@ -18,17 +18,17 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name         | In   | Type          | Required | Description                                                                                          |
-|--------------|------|---------------|----------|------------------------------------------------------------------------------------------------------|
-| » action     | body | string¦null   | true     | The action of the status                                                                             |
-| » text       | body | string        | false    | The content of the status in html format, it can contain some mentions|
-| » categories | body | list(integer) | true     | List of id of [Category](/docs/apireference/v2/schemas/category)                                                            |
-| » medias     | body | list(integer) | false    | List of id of [Media](/docs/apireference/v2/schemas/media) (only one media of type share is allowed)                                                                 |
-| » location   | body | object¦null   | false    | The Location object to associate with the status                                                     |
-| »» location  | body | string¦null   | true     | none                                                                                                 |
-| »» lat       | body | number¦null   | true     | none                                                                                                 |
-| »» lng       | body | number¦null   | true     | none                                                                                                 |
-| » addressing | body | list(integer) | false    | List of id of [Tag](/docs/apireference/v2/schemas/tag)                                                                      |
+| Name         | In   | Type          | Required | Description                                                                                         |
+|--------------|------|---------------|----------|-----------------------------------------------------------------------------------------------------|
+| » action     | body | string¦null   | true     | The action of the status                                                                            |
+| » text       | body | string        | false    | The content of the status in html format, it can contain some mentions                              |
+| » categories | body | list(integer) | true     | List of [Category](/docs/apireference/v2/schemas/category) ids                                      |
+| » medias     | body | list(integer) | false    | List of  [Media](/docs/apireference/v2/schemas/media) (only one media of type share is allowed) ids |
+| » location   | body | object¦null   | false    | The Location object to associate with the status                                                    |
+| »» location  | body | string¦null   | true     | Location name                                                                                       |
+| »» lat       | body | number¦null   | true     | Location latitude                                                                                   |
+| »» lng       | body | number¦null   | true     | Location longitude                                                                                  |
+| » addressing | body | list(integer) | false    | List of [Tag](/docs/apireference/v2/schemas/tag) ids                                                |
 
 #### Example Body Parameters
 
@@ -43,14 +43,14 @@ import TabItem from '@theme/TabItem';
 {
   "action": "string",
   "text": "string",
-  "categories": [0],
-  "medias": [0],
+  "categories": ["integer"],
+  "medias": ["integer"],
   "location": {
     "location": "string",
-    "lat": 0,
-    "lng": 0
+    "lat": "integer",
+    "lng": "integer"
   },
-  "addressing": [integer]
+  "addressing": ["integer"]
 }
 ```
 
@@ -69,14 +69,14 @@ import TabItem from '@theme/TabItem';
 const inputBody = '{
   "action": "string",
   "text": "string",
-  "categories": [0],
-  "medias": [0],
+  "categories": ["integer"],
+  "medias": ["integer"],
   "location": {
     "location": "string",
-    "lat": 0,
-    "lng": 0
+    "lat": "integer",
+    "lng": "integer"
   },
-  "addressing": [integer]
+  "addressing": ["integer"]
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -108,16 +108,16 @@ curl -X POST /api/v2/status/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "action": "string",
-    "text": "string",
-    "categories": [0],
-    "medias": [0],
-    "location": {
-      "location": "string",
-      "lat": 0,
-      "lng": 0
-    },
-    "addressing": [integer]
+      "action": "string",
+      "text": "string",
+      "categories": ["integer"],
+      "medias": ["integer"],
+      "location": {
+        "location": "string",
+        "lat": "integer",
+        "lng": "integer"
+      },
+      "addressing": ["integer"]
   }'
 ```
 </TabItem>
@@ -128,7 +128,7 @@ curl -X POST /api/v2/status/ \
 
 | Status | Meaning                                                      | Description | Schema                  |
 |--------|--------------------------------------------------------------|-------------|-------------------------|
-| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | none        | [Status](/docs/apireference/v2/schemas/status) |
+| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code        | [Status](/docs/apireference/v2/schemas/status) |
 
 ### Example responses
 
@@ -141,100 +141,31 @@ curl -X POST /api/v2/status/ \
 ```json
 {
   "id": "integer",
-  "type": "status",
-  "action": "string",
-  "categories": [
-    {
-      "id": 0,
-      "tags": [],
-      "followed": false,
-      "order": 123,
-      "name": "string",
-      "name_synonyms": "string",
-      "slug": "string",
-      "slogan": "string",
-      "html_info": "string",
-      "seo_title": "string",
-      "seo_description": "string",
-      "auto_follow": "none",
-      "active": "boolean",
-      "image_original": "string",
-      "image_bigger": "string",
-      "image_big": "string",
-      "image_medium": "string",
-      "image_small": "string",
-      "emotional_image_original": "string",
-      "emotional_image_position": 0,
-      "lastmod_datetime": "2019-08-24T14:15:22Z",
-      "stream_order_by": "recent",
-      "followers_counter": 13
-    }
-  ],
-  "medias": [
-    {
-      "id": 0,
-      "added_at": "2019-08-24T14:15:22Z",
-      "type": "url",
-      "title": "string",
-      "description": "string",
-      "url": "https://example.com",
-      "image": "string",
-      "image_width": 0,
-      "image_height": 0,
-      "order": 0,
-      "embed": {
-        "id": 0,
-        "embed_type": "string",
-        "embed_id": "string",
-        "url": "string(uri)",
-        "metadata": {}
-      }
-    }
-  ],
-  "location": {
-    "location": "string",
-    "lat": 0,
-    "lng": 0
-  },
-  "last_activity_at": "2019-08-24T14:15:22Z",
-  "last_edited_at": null,
-  "author": {
-    "id": 0,
-    "username": "string",
-    "real_name": "string",
-    "date_joined": "2019-08-24T14:15:22Z",
-    "bio": "string",
-    "location": "string",
-    "location_lat_lng": "string",
-    "position_lat_lng": "string",
-    "date_of_birth": "string",
-    "description": "string",
-    "gender": "Male",
-    "website": "https://example.com",
-    "avatar": "string",
-    "cover": "string",
-    "ext_id": "string",
-    "tags": [],
-    "reputation": 111,
-    "followings_counter": 0,
-    "followers_counter": 0,
-    "posts_counter": 0,
-    "discussions_counter": 0,
-    "statuses_counter": 0,
-    "polls_counter": 0
-  },
-  "added_at": "2019-08-24T14:15:22Z",
+  "type": "string",
+  "last_activity_at": "string",
+  "author": {User},
+  "added_at": "string",
+  "last_edited_at": "string",
   "html": "string",
   "summary": "string",
   "deleted": "boolean",
-  "collapsed": false,
-  "comment_count": 0,
-  "vote_count": 0,
-  "followed": false,
+  "collapsed": "boolean",
+  "comment_count": "integer",
+  "view_count": "integer",
+  "vote_count": "integer",
+  "reactions_count": [{Reaction}],
+  "voted": "boolean",
+  "reaction": {Reaction},
+  "follower_count": "integer",
+  "followed": "boolean",
   "suspended": "boolean",
-  "flag_count": 0,
-  "share_count": 0,
-  "addressing": [integer]
+  "flag_count": "integer",
+  "share_count": "integer",
+  "slug": "string",
+  "categories": [{Category}],
+  "medias": [{Media}],
+  "location": {Location},
+  "addressing": ["integer"]
 }
 ```
 

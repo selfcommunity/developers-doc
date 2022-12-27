@@ -42,7 +42,7 @@ import TabItem from '@theme/TabItem';
 {
   "recipients_type": "string",
   "type": "string",
-  "embed": {},
+  "embed": {Embed},
   "title": "string",
   "description": "string",
   "user": "integer"
@@ -67,7 +67,7 @@ const inputBody = '{
   "embed": {
     "embed_type": "string",
     "embed_id": "string",
-    "url": "string",
+    "url": "string(uri)",
     "metadata": "{}"
   },
   "title": "string",
@@ -112,7 +112,7 @@ curl -X POST /api/v2/notification/notify/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 
 

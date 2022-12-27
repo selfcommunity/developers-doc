@@ -20,7 +20,7 @@ This operation requires authentication and admin role.
 
 |Name|In|Type|Required| Description                                                                                                                                  |
 |---|---|---|---|----------------------------------------------------------------------------------------------------------------------------------------------|
-|» id|body|integer|false| The embed id                                                                                                                                 |
+|» id|body|integer|false| A unique integer value identifying this embed                                                                                                |
 |» embed_type|body|string|true| Type of the embed, can be any string except `sc_vimeo` or `sc_link` that are used for embedded objects auomatically created by the community |
 |» embed_id|body|string|true| External id for the embed object                                                                                                             |
 |» url|body|string(uri)¦null|false| Url for the resource, if any                                                                                                                 |

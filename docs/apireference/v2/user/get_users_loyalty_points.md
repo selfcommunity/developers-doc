@@ -65,9 +65,9 @@ curl -X GET /api/v2/user/{id}/loyalty/points/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](/docs/apireference/v2/schemas/user)|
+|Status|Meaning| Description           |Schema|
+|---|---|-----------------------|---|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)| Response status codes |[User](/docs/apireference/v2/schemas/user)|
 
 ### Example responses
 
@@ -79,7 +79,7 @@ curl -X GET /api/v2/user/{id}/loyalty/points/ \
 
 ```json
 {
-  "points": 0
+  "points": "integer"
 }
 ```
 

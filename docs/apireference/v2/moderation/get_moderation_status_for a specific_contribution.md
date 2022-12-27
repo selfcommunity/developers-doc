@@ -68,10 +68,10 @@ curl -X GET /api/v2/moderation/contribution/{id}/status/ \
 ## Responses
 
 |Status|Meaning| Description    | Schema |
-|---|---|----------------|------|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|status details|status|
+|---|---|----------------|--------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| Inline |
 
-#### status Values
+#### Status values
 
 | Parameter | Value   |
 |-----------|---------|
@@ -81,7 +81,7 @@ curl -X GET /api/v2/moderation/contribution/{id}/status/ \
 | status | deleted | 
 
 
-#### flag_type Values
+#### Flag type values
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|

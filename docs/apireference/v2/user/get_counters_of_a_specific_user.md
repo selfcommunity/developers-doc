@@ -63,9 +63,13 @@ curl -X GET /api/v2/user/{id}/counters/ \
 
 ## Responses
 
-| Status | Meaning                                                 |
-|--------|---------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) |
+|Status|Meaning|Description|Schema|
+|---|---|---|---|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+
+### Response Schema
+
+Status Code **200**
 
 | Field                        | Description                                        | Note                                                                                        |
 |------------------------------|----------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -90,13 +94,13 @@ curl -X GET /api/v2/user/{id}/counters/ \
 
 ```json
 {
-    "discussions": 11,
-    "polls": 10,
-    "posts": 2,
-    "statuses": 3,
-    "followings": 2,
-    "followers": 1,
-    "categories": 1
+    "discussions": "integer",
+    "polls": "integer",
+    "posts": "integer",
+    "statuses": "integer",
+    "followings": "integer",
+    "followers": "integer",
+    "categories": "integer"
 }
 ```
 

@@ -51,7 +51,7 @@ title: Feed
 |post|[Post](/docs/apireference/v2/schemas/post)¦undefined|false|read-only| The post obj                                                                |
 |status|[Status](/docs/apireference/v2/schemas/status)¦undefined|false|read-only| The status obj                                                              |
 |seen_by_id|list(integer)¦undefined|false|read-only| Id of [User](/docs/apireference/v2/schemas/user) that have seen this object |
-|has_boost|¦undefined|false|read-only| True if this object has the visibility boost                                |
+|has_boost|¦undefined|false|read-only| If true, this object has the visibility boost                               |
 |activities|list([FeedActivity](/docs/apireference/v2/schemas/feed_activity))¦undefined|false|read-only| List of feed acitivity. This field is returned only for relevance feed      |
 
 

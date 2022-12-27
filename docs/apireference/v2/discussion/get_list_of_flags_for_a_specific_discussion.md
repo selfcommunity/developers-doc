@@ -108,7 +108,7 @@ curl -X GET /api/v2/discussion/{id}/flag/ \
                   "gender": "string",
                   "website": "string",
                   "cover": "string",
-                  "tags": [],
+                  "tags": [{Tag}],
                   "reputation": "integer",
                   "community_badge": "boolean",
                   "reg_approved": "boolean",

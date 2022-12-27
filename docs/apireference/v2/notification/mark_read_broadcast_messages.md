@@ -18,9 +18,9 @@ This operation does not require authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|banner_ids|list([integer])|true|none|none|
+| Name       | In   | Type            | Required | Description                       |
+|------------|------|-----------------|----------|-----------------------------------|
+| banner_ids | body | list([integer]) | true     | The request body(banner ids list) |
 
 #### Example Body Parameters
 
@@ -33,7 +33,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "banner_ids": [integer]
+  "banner_ids": ["integer"]
 }
 ```
 
@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "banner_ids": [integer]
+  "banner_ids": ["integer"]
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -88,7 +88,7 @@ curl -X POST /api/v2/notification/banner/read/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 ### Example responses
 
@@ -100,7 +100,7 @@ curl -X POST /api/v2/notification/banner/read/ \
 
 ```json
 {
-  "banner_ids": [integer]
+  "banner_ids": ["integer"]
 }
 ```
 

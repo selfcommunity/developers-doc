@@ -67,7 +67,7 @@ curl -X GET /api/v2/post/{id}/flag/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](/docs/apireference/v2/schemas/flag)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Flag](/docs/apireference/v2/schemas/flag)|
 
 ### Example responses
 
@@ -107,7 +107,7 @@ curl -X GET /api/v2/post/{id}/flag/ \
                   "gender": "string",
                   "website": "string",
                   "cover": "string",
-                  "tags": [],
+                  "tags": [{Tag}],
                   "reputation": "integer",
                   "community_badge": "boolean",
                   "reg_approved": "boolean",

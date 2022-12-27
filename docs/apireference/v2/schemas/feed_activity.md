@@ -17,13 +17,13 @@ title: Feed Activity
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description                                                                         |
-|---|---|---|---|-------------------------------------------------------------------------------------|
-|type|string|false|read-only| Feed activity type                                                                  |
-|comment|[Comment](/docs/apireference/v2/schemas/comment)¦null|false|read-only| Feed activity comment object                                                        |
-|author|[User](/docs/apireference/v2/schemas/user)|false|read-only| Feed activity user object                                                           |
-|active_at|string(date-time)|false|read-only| Datetime of activity                                                                |
-|seen_by_id|list(integer)¦null|false|read-only| List of [User](/docs/apireference/v2/schemas/user) ids that have seen this activity |
+|Name| Type                                                  |Required|Restrictions| Description                                                                         |
+|---|-------------------------------------------------------|---|---|-------------------------------------------------------------------------------------|
+|type| [string](/docs/apireference/v2/schemas/feed_activity#enumerated-values)                                            |false|read-only| Feed activity type                                                                  |
+|comment| [Comment](/docs/apireference/v2/schemas/comment)¦null |false|read-only| Feed activity comment object                                                        |
+|author| [User](/docs/apireference/v2/schemas/user)            |false|read-only| Feed activity user object                                                           |
+|active_at| string(date-time)                                     |false|read-only| Datetime of activity                                                                |
+|seen_by_id| list(integer)¦null                                    |false|read-only| List of [User](/docs/apireference/v2/schemas/user) ids that have seen this activity |
 
 #### Enumerated Values
 

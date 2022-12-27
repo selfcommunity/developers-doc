@@ -24,8 +24,8 @@ title: Custom Adv
 
 | Name             | Type                | Required | Restrictions | Description                                                |
 |------------------|---------------------|----------|--------------|------------------------------------------------------------|
-| id               | integer             | false    | read-only    | Unique integer value identifying this adv                  |
-| position         | string              | true     | none         | A string code representing the display position of the adv |
+| id               | integer             | false    | read-only    | A unique integer value identifying this adv                |
+| position         | [string](/docs/apireference/v2/schemas/custom_adv#position-valid-values)          | true     | none         | A string code representing the display position of the adv |
 | title            | string              | true     | none         | The title of the adv                                       |
 | link             | string(uri)¦null    | false    | none         | The link/url of the adv                                    |
 | image            | string(binary)¦null | false    | none         | An image banner for the adv                                |

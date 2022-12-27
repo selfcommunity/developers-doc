@@ -18,13 +18,13 @@ This operation requires moderation role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|none|
-|contribution_type|body|string|true|Valid values are: post, discussion, comment|
-|action|body|string|true|Valid values are: scold_author, scold_flagger, ignore, hide, delete|
-|user|body|integer|true|The user id of the contribution flagger to scold (use only with action=scold_flagger)|
-|moderation_type|body|integer|true|An integer value to describe the moderation activity if action is one between scold_author, hide or delete. This param is not needed if the contribute is already hidden or deleted (you are restoring)|
+| Name              | In   | Type    | Required | Description                                                                                                                                                                                             |
+|-------------------|------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| id                | path | string  | true     | A unique integer value identifying this contribution                                                                                                                                                    |
+| contribution_type | body | string  | true     | Valid values are: post, discussion, comment                                                                                                                                                             |
+| action            | body | string  | true     | Valid values are: scold_author, scold_flagger, ignore, hide, delete                                                                                                                                     |
+| user              | body | integer | true     | The user id of the contribution flagger to scold (use only with action=scold_flagger)                                                                                                                   |
+| moderation_type   | body | integer | true     | An integer value to describe the moderation activity if action is one between scold_author, hide or delete. This param is not needed if the contribute is already hidden or deleted (you are restoring) |
 
 #### Enumerated Values
 
@@ -100,7 +100,7 @@ curl -X PATCH /api/v2/moderation/contribution/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 
 

@@ -73,9 +73,9 @@ curl -X GET /api/v2/user/{id}/connection_requests/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[ConnectionRequest](/docs/apireference/v2/schemas/connection_request)|
+|Status|Meaning|Description| Schema                                                                 |
+|---|---|---|------------------------------------------------------------------------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| [Connection Request](/docs/apireference/v2/schemas/connection_request) |
 
 ### Response Schema
 
@@ -83,10 +83,10 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|[[ConnectionRequest](/docs/apireference/v2/schemas/connection_request)]|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
+|» results|[[ConnectionRequest](/docs/apireference/v2/schemas/connection_request)]|false|none|List of results|
 
 ### Example responses
 
@@ -103,37 +103,10 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [
     {
-        "from_user": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "date_joined": "2019-08-24T14:15:22Z",
-        "bio": "string",
-        "location": "string",
-        "location_lat_lng": "string",
-        "position_lat_lng": "string",
-        "date_of_birth": "string",
-        "description": "string",
-        "gender": "Male",
-        "status": "a",
-        "website": "https://example.com",
-        "avatar": "string",
-        "cover": "string",
-        "ext_id": 1,
-        "tags": [],
-        "reputation": 39,
-        "connection_status": "string",
-        "connection_requests_sent_counter": 1,
-        "connection_requests_received_counter": 0,
-        "connections_counter": 0,
-        "posts_counter": 0,
-        "discussions_counter": 0,
-        "statuses_counter": 0,
-        "polls_counter": 0
-      },
-      "created": "2019-08-24T14:15:22Z",
-      "rejected": "2019-08-24T14:15:22Z",
-      "viewed": "2019-08-24T14:15:22Z"
+      "from_user": {User},
+      "created": "string",
+      "rejected": "string",
+      "viewed": "string"
     }
   ]
 }

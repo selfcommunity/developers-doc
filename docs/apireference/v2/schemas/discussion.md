@@ -40,52 +40,49 @@ title: Discussion
 
 #### Properties
 
-| Name               | Type                                                     | Required | Restrictions | Description                                                                |
-|--------------------|----------------------------------------------------------|----------|--------------|----------------------------------------------------------------------------|
-| id                 | integer                                                  | false    | read-only    | none                                                                       |
-| type               | string                                                   | false    | read-only    | none                                                                       |
-| title              | string                                                   | true     | none         | none                                                                       |
-| slug               | string                                                   | false    | read-only    | none                                                                       |
-| categories         | list([Category](/docs/apireference/v2/schemas/category)) | true     | none         | At least one category is required                                          |
-| medias             | list([Media](/docs/apireference/v2/schemas/media))       | false    | none         | none                                                                       |
-| location           | object¦null                                              | false    | none         | none                                                                       |
-| » location         | string¦null                                              | true     | none         | none                                                                       |
-| » lat              | number¦null                                              | true     | none         | none                                                                       |
-| » lng              | number¦null                                              | true     | none         | none                                                                       |
-| poll               | object¦null                                              | false    | none         | none                                                                       |
-| » id               | integer                                                  | false    | read-only    | none                                                                       |
-| » title            | string                                                   | true     | none         | none                                                                       |
-| » multiple_choices | boolean                                                  | false    | none         | none                                                                       |
-| » added_at         | string(date-time)                                        | false    | read-only    | none                                                                       |
-| » modified_at      | string(date-time)                                        | false    | read-only    | none                                                                       |
-| » closed           | boolean                                                  | false    | none         | none                                                                       |
-| » expiration_at    | string(date-time)                                        | false    | none         | none                                                                       |
-| » hidden           | string                                                   | false    | read-only    | none                                                                       |
-| » choices          | list(object)                                             | true     | none         | none                                                                       |
-| »» id              | integer                                                  | false    | read-only    | none                                                                       |
-| »» choice          | string                                                   | true     | none         | none                                                                       |
-| »» order           | integer                                                  | false    | read-only    | none                                                                       |
-| »» added_at        | string(date-time)                                        | false    | read-only    | none                                                                       |
-| »» deleted         | string                                                   | false    | read-only    | none                                                                       |
-| »» vote_count      | integer                                                  | false    | read-only    | none                                                                       |
-| »» voted           | boolean                                                  | false    | read-only    | true if the logged user has already voted the choice                       |
-| last_activity_at   | string(date-time)                                        | false    | read-only    | none                                                                       |
-| view_count         | integer                                                  | false    | read-only    | none                                                                       |
-| author             | [User](/docs/apireference/v2/schemas/user)               | false    | read-only    | none                                                                       |
-| added_at           | string(date-time)                                        | false    | read-only    | none                                                                       |
-| html               | string                                                   | false    | read-only    | none                                                                       |
-| summary            | string                                                   | false    | read-only    | none                                                                       |
-| deleted            | boolean                                                  | false    | read-only    | none                                                                       |
-| collapsed          | string                                                   | false    | read-only    | none                                                                       |
-| comment_count      | integer                                                  | false    | read-only    | none                                                                       |
-| share_count        | integer                                                  | false    | read-only    | none                                                                       |
-| vote_count         | integer                                                  | false    | read-only    | Number of votes/reactions associated to this contribution                  |
-| reactions_count    | list([Reaction](/docs/apireference/v2/schemas/reaction)) | false    | read-only    | Reactions associated to this contribution                                  |
-| voted              | boolean                                                  | false    | read-only    | true if the logged user has already voted this contribution                |
-| reaction           | [Reaction](/docs/apireference/v2/schemas/reaction)       | false    | read-only    | Reaction of the logged user (if he voted this contribution)                |
-| followed           | boolean                                                  | false    | read-only    | true if the logged user follows the discussion                             |
-| suspended          | boolean                                                  | false    | read-only    | true if the logged user has suspended the notifications for the discussion |
-| flag_count         | integer                                                  | false    | read-only    | none                                                                       |
-| addressing         | [integer]                                                | false    | none         | none                                                                       |
-| follower_count     | string                                                   | false    | read-only    | none                                                                       |
+| Name             | Type                                                   | Required | Restrictions | Description                                                                        |
+|------------------|--------------------------------------------------------|----------|--------------|------------------------------------------------------------------------------------|
+| id               | integer                                                | false    | read-only    | A unique integer value identifying this discussion                                 |
+| type             | string                                                 | false    | read-only    | Discussion type                                                                    |
+| last_activity_at | string(date-time)                                      | false    | read-only    | Discussion last activity datetime                                                  |
+| author           | [User](/docs/apireference/v2/schemas/user)             | false    | read-only    | Discussion author                                                                  |
+| added_at         | string(date-time)                                      | false    | read-only    | Discussion creation time                                                           |
+| last_edited_at   | string(date-time)                                      | false    | read-only    | Discussion last edit time                                                          |
+| html             | string                                                 | false    | read-only    | Discussion html content                                                            |
+| summary          | string                                                 | false    | read-only    | Discussion summary                                                                 |
+| deleted          | boolean                                                | false    | read-only    | If true, discussion has been deleted                                               |
+| collapsed        | string                                                 | false    | read-only    | If true, discussion has been collapsed                                             |
+| comment_count    | integer                                                | false    | read-only    | The number of comments associated to this contribution                             |
+| view_count       | integer                                                | false    | read-only    | The number of views associated to this contribution                                |
+| vote_count       | integer                                                | false    | read-only    | The number of votes/reactions associated to this contribution                      |
+| reactions_count  | list([Reaction](/docs/apireference/v2/schemas/reaction)) | false    | read-only    | Reactions associated to this contribution                                          |
+| voted            | boolean                                                | false    | read-only    | If true,  the logged user has already voted this contribution                      |
+| reaction         | [Reaction](/docs/apireference/v2/schemas/reaction)     | false    | read-only    | Reaction of the logged user (if he voted this contribution)                        |
+| follower_count   | string                                                 | false    | read-only    | The number of followers associated to this contribution                            |
+| followed         | boolean                                                | false    | read-only    | If true, the logged user follows the discussion                                    |
+| suspended        | boolean                                                | false    | read-only    | If true, the logged user has suspended the notifications for the discussion        |
+| flag_count       | integer                                                | false    | read-only    | The number of flags associated to this contribution                                |
+| share_count      | integer                                                | false    | read-only    | The number of shares associated to this contribution                               |
+| slug             | string                                                 | false    | read-only    | Discussion  slug                                                                   |
+| categories       | list([Category](/docs/apireference/v2/schemas/category)) | true     | none         | The categories (at least one category is required) associated to this contribution |
+| medias           | list([Media](/docs/apireference/v2/schemas/media))     | false    | none         | The medias  associated to this contribution                                        |
+| location         | object¦null                                            | false    | none         | The location object associated to this contribution                                |
+| » location       | string¦null                                            | true     | none         | Location name                                                                      |
+| » lat            | number¦null                                            | true     | none         | Location latitude                                                                  |
+| » lng            | number¦null                                            | true     | none         | Location Longitude                                                                 |
+| addressing       | list(integer)                                          | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag) ids                               |
+| poll             | [Poll](/docs/apireference/v2/schemas/poll)¦null        | false    | none         | The poll object associated to this contribution                                    |
+| title            | string                                                 | true     | none         | Discussion title                                                                   |
+
+
+
+
+
+
+
+
+
+
+
+
 

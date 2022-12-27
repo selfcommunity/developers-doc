@@ -33,7 +33,7 @@ title: Legal Page
 
 | Name             | Type                             | Required | Restrictions                               | Description                                                     |
 |------------------|----------------------------------|----------|--------------------------------------------|-----------------------------------------------------------------|
-| id               | integer                          | false    | read-only                                  | Unique integer value identifying this page                      |
+| id               | integer                          | false    | read-only                                  | A unique integer value identifying this page                    |
 | name_and_version | string                           | true     | none                                       | The name and version code for this page                         |
 | icon_class       | string                           | false    | none                                       | A css class representing the icon associated to this page       |
 | label            | string                           | true     | none                                       | A label for the page in the menu                                |

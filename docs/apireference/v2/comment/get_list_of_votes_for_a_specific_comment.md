@@ -105,7 +105,7 @@ curl -X GET /api/v2/comment/{id}/vote/ \
         "id": "integer",
         "slug": "string"
       },
-      "latest_comments": [],
+      "latest_comments": [{Comment}],
       "type": "string",
       "voted": "boolean",
       "reaction": {Reaction}  

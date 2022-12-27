@@ -65,9 +65,9 @@ curl -X GET /api/v2/promo_code/{id/code}/ \
 
 ## Responses
 
-| Status | Meaning                                                 | Description | Schema                                                |
-|--------|---------------------------------------------------------|-------------|-------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [PromoCode](/docs/apireference/v2/schemas/promo_code) |
+| Status | Meaning                                                 | Description | Schema                                                 |
+|--------|---------------------------------------------------------|-------------|--------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [Promo Code](/docs/apireference/v2/schemas/promo_code) |
 
 ### Example responses
 

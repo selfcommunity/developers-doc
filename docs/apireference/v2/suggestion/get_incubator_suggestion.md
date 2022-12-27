@@ -66,7 +66,7 @@ curl -X GET /api/v2/suggestion/incubator/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -87,61 +87,25 @@ Status Code **200**
 ```json
 {
   "results": [
-{
-      "id": 0,
-      "name": "string",
-      "slug": "string",
-      "slogan": "string",
-      "status": 2,
-      "approved_category": {
-        "id": 0,
-        "tags": [
-          {
-            "id": 0,
-            "active": "boolean",
-            "type": "user",
-            "name": "string",
-            "description": "string",
-            "color": "string",
-            "visible": "boolean",
-            "visibility_boost": "boolean",
-            "deleted": "boolean",
-            "created_at": "2019-08-24T14:15:22Z"
-          }
-        ],
-        "order": -2147483648,
-        "name": "string",
-        "name_synonyms": "string",
-        "slug": "string",
-        "slogan": "string",
-        "html_info": "string",
-        "seo_title": "string",
-        "seo_description": "string",
-        "auto_follow": "none",
-        "active": "boolean",
-        "deleted": "boolean",
-        "image_original": "string",
-        "image_bigger": "string",
-        "image_big": "string",
-        "image_medium": "string",
-        "image_small": "string",
-        "emotional_image_original": "string",
-        "emotional_image_position": -2147483648,
-        "lastmod_datetime": "2019-08-24T14:15:22Z",
-        "stream_order_by": "recent"
-      },
-      "added_at": "2019-08-24T14:15:22Z",
-      "user": {
-        "id": 0,
-        "username": "string",
-        "real_name": "string",
-        "avatar": "string",
-        "ext_id": "string"
-      },
-      "subscribers_count": "string",
-      "subscribers_threshold": "string",
-      "subscribed": "boolean",
-}
+        {
+          "id": "integer",
+          "name": "string",
+          "slug": "string",
+          "slogan": "string",
+          "status": "integer",
+          "approved_category": {Category},
+          "added_at": "string",
+          "user": {
+            "id": "integer",
+            "username": "string",
+            "real_name": "string",
+            "avatar": "string",
+            "ext_id": "integer"
+          },
+          "subscribers_count": "integer",
+          "subscribers_threshold": "integer",
+          "subscribed": "boolean"
+        }
   ]
 }
 ```

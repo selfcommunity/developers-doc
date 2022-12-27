@@ -18,10 +18,10 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint|
-|event|body|integer|true|The id of the Event triggered by webhooks|
+|Name|In|Type|Required| Description                                      |
+|---|---|---|---|--------------------------------------------------|
+|id|path|string|true| A unique integer value identifying this endpoint |
+|event|body|integer|true| The id of the event triggered by webhooks        |
 
 #### Example Body Parameters
 
@@ -34,7 +34,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "event": 0
+  "event": "integer"
 }
 ```
 
@@ -51,7 +51,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "event": 0
+  "event": "integer"
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -83,7 +83,7 @@ curl -X POST /api/v2/webhook/endpoint/{id}/event/resend/ \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "event": 0
+  "event": "integer"
   }'
 ```
 </TabItem>
@@ -94,7 +94,7 @@ curl -X POST /api/v2/webhook/endpoint/{id}/event/resend/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 ````
 
 

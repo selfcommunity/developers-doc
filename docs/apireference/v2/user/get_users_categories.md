@@ -67,7 +67,7 @@ curl -X GET /api/v2/user/{id}/categories/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Category](/docs/apireference/v2/schemas/category)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Category](/docs/apireference/v2/schemas/category)|
 
 ### Example responses
 
@@ -84,20 +84,8 @@ The results always return categories sorted by: first mutuals and then non-mutua
 [
   {
   "id": "integer",
-  "tags": [
-    {
-      "id": 0,
-      "active": "boolean",
-      "type": "user",
-      "name": "string",
-      "description": "string",
-      "color": "string",
-      "visible": "boolean",
-      "deleted": "boolean",
-      "created_at": "2019-08-24T14:15:22Z"
-    }
-  ],
-  "order": -2147483648,
+  "tags": [{Tag}],
+  "order": "integer",
   "name": "string",
   "name_synonyms": "string",
   "slug": "string",
@@ -105,20 +93,20 @@ The results always return categories sorted by: first mutuals and then non-mutua
   "html_info": "string",
   "seo_title": "string",
   "seo_description": "string",
-  "auto_follow": "none",
+  "auto_follow": "string",
   "active": "boolean",
-  "deleted": "boolean",
   "image_original": "string",
   "image_bigger": "string",
   "image_big": "string",
   "image_medium": "string",
   "image_small": "string",
   "emotional_image_original": "string",
-  "emotional_image_position": -2147483648,
-  "lastmod_datetime": "2019-08-24T14:15:22Z",
-  "stream_order_by": "recent"
+  "emotional_image_position": "integer",
+  "lastmod_datetime": "string",
+  "stream_order_by": "string",
+  "followers_counter": "integer"
   },
-  {..}
+  {...}
 ]
 ```
 

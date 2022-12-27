@@ -19,10 +19,10 @@ This operation does not require authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying the current user id|
-|body|body|[UserSettings](/docs/apireference/v2/schemas/user_settings)|false|none|
+|Name|In|Type|Required| Description                                            |
+|---|---|---|---|--------------------------------------------------------|
+|id|path|string|true| A unique integer value identifying the current user id |
+|body|body|[UserSettings](/docs/apireference/v2/schemas/user_settings)|false| The request body                                       |
 
 ### Example Request
 
@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "qa_frequency": -1
+  "qa_frequency": "integer"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -75,6 +75,6 @@ curl -X PATCH /api/v2/user/{id}/settings/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UserSettings](/docs/apireference/v2/schemas/user_settings)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[UserSettings](/docs/apireference/v2/schemas/user_settings)|
 
 

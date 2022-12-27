@@ -71,7 +71,7 @@ curl -X GET /api/v2/webhook/endpoint/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -79,9 +79,9 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
 |» results|[[Endpoint](/docs/apireference/v2/schemas/endpoint)]|false|none|List of results|
 
 ### Example responses
@@ -99,16 +99,16 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
-      "created_at": "2019-08-24T14:15:22Z",
-      "updated_at": "2019-08-24T14:15:22Z",
+      "id": "integer",
+      "created_at": "string",
+      "updated_at": "string",
       "is_active": "boolean",
-      "target": "https://example.com",
+      "target": "string",
       "description": "string",
       "events": [
         {
-          "type": "comment.created",
-          "added_at": "2019-08-24T14:15:22Z"
+          "type": "string",
+          "added_at": "string"
         }
       ],
       "ssl_cert_verification": "boolean"

@@ -69,7 +69,7 @@ curl -X GET /api/v2/embed/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -77,10 +77,10 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|list([Embed](/docs/apireference/v2/schemas/embed))|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
+|» results|list([Embed](/docs/apireference/v2/schemas/embed))|false|none|List of results|
 
 
 ### Example responses
@@ -94,14 +94,14 @@ Status Code **200**
 ```json
 {
   "count": "integer",
-  "next": "http://api.example.org/accounts/?offset=400&limit=100",
-  "previous": "http://api.example.org/accounts/?offset=200&limit=100",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
       "embed_type": "string",
       "embed_id": "string",
-      "url": "https://example.com",
+      "url": "string",
       "metadata": {}
     }
   ]

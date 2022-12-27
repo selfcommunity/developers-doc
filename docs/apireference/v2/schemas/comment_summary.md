@@ -31,7 +31,7 @@ title: Comment Summary
 
 | Name            | Type                                                     | Required | Restrictions | Description                                                                                                   |
 |-----------------|----------------------------------------------------------|----------|--------------|---------------------------------------------------------------------------------------------------------------|
-| id              | integer                                                  | false    | read-only    | The object id                                                                                                 |
+| id              | integer                                                  | false    | read-only    | A unique integer value identifying this  object                                                               |
 | discussion      | integer¦null                                             | false    | none         | Id of the [Discussion](/docs/apireference/v2/schemas/discussion)                                              |
 | post            | integer¦null                                             | false    | none         | Id of the [Post](/docs/apireference/v2/schemas/post)                                                          |
 | status          | integer¦null                                             | false    | none         | Id of the [Status](/docs/apireference/v2/schemas/status)                                                      |
@@ -45,7 +45,7 @@ title: Comment Summary
 | in_reply_to     | integer¦null                                             | false    | none         | Id of the reply [Comment](/docs/apireference/v2/schemas/comment), it must have the same `parent` and `object` |
 | vote_count      | integer                                                  | false    | read-only    | Number of votes/reactions associated to this contribution                                                     |
 | reactions_count | list([Reaction](/docs/apireference/v2/schemas/reaction)) | false    | read-only    | Reactions associated to this contribution                                                                     |
-| voted           | boolean                                                  | false    | read-only    | true if the logged user has already voted this contribution                                                   |
+| voted           | boolean                                                  | false    | read-only    | If true, the logged user has already voted this contribution                                                  |
 | reaction        | [Reaction](/docs/apireference/v2/schemas/reaction)       | false    | read-only    | Reaction of the logged user (if he voted this contribution)                                                   |
 | flag_count      | integer                                                  | false    | read-only    | The number of flags                                                                                           |
 | comment_count   | integer                                                  | false    | read-only    | The number of comments                                                                                        |

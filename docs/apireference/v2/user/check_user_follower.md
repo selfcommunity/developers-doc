@@ -73,7 +73,7 @@ curl -X GET /api/v2/user/{id}/is_follower/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|none|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|none|
 
 ### Example responses
 
@@ -85,7 +85,7 @@ curl -X GET /api/v2/user/{id}/is_follower/ \
 
 ```json
 {
-    "is_follower": false
+    "is_follower": "boolean"
 }
 ```
 

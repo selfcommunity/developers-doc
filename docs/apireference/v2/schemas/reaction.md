@@ -16,10 +16,10 @@ title: Reaction
 
 #### Properties
 
-| Name      | Type        | Description                                    |
-|-----------|-------------|------------------------------------------------|
-| id        | integer     | Unique integer value identifying this reaction |
-| label     | string      | The label of the reaction (unique)             |
-| sentiment | integer     | The sentiment value associated to the reaction |
-| image     | string(uri) | The image of the reaction                      |
-| active    | boolean     | Is this reaction active?                       |
+| Name      | Type        | Description                                      |
+|-----------|-------------|--------------------------------------------------|
+| id        | integer     | A unique integer value identifying this reaction |
+| label     | string      | The label of the reaction (unique)               |
+| sentiment | integer     | The sentiment value associated to the reaction   |
+| image     | string(uri) | The image of the reaction                        |
+| active    | boolean     | Is this reaction active?                         |

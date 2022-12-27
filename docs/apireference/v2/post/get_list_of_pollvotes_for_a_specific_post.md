@@ -96,7 +96,7 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [
       {
-        "id": 0,
+        "id": "integer",
         "choice": "string",
         "user": {
               "id": "integer",

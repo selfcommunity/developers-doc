@@ -18,11 +18,11 @@ title: Promo Code
 
 #### Properties
 
-| Name         | Type    | Required | Restrictions | Description                                      |
-|--------------|---------|----------|--------------|--------------------------------------------------|
-| id           | integer | false    | read-only    | Unique integer value identifying this promo code |
-| code         | string  | false    | read-only    | Unique human readable code                       |
-| name         | string  | false    | read-only    | A name for this promo code                       |
-| is_valid_now | boolean | false    | read-only    | Is the promo code valid now (in this date)?      |
-| valid_from   | date    | false    | read-only    | The promo code is valid starting from this date  |
-| valid_to     | date    | false    | read-only    | The promo code is valid till this date           |
+| Name         | Type    | Required | Restrictions | Description                                        |
+|--------------|---------|----------|--------------|----------------------------------------------------|
+| id           | integer | false    | read-only    | A unique integer value identifying this promo code |
+| code         | string  | false    | read-only    | A unique human readable code                       |
+| name         | string  | false    | read-only    | A name for this promo code                         |
+| is_valid_now | boolean | false    | read-only    | Is the promo code valid now (in this date)?        |
+| valid_from   | date    | false    | read-only    | The promo code is valid starting from this date    |
+| valid_to     | date    | false    | read-only    | The promo code is valid till this date             |

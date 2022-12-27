@@ -67,8 +67,8 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "qqpartindex": 0,
-  "qqtotalparts": 5,
+  "qqpartindex": "integer",
+  "qqtotalparts": "integer",
   "qqfile": "blob"
 }';
 const headers = {
@@ -107,7 +107,7 @@ curl -X POST /api/v2/pm/upload/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[File](/docs/apireference/v2/schemas/file)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[File](/docs/apireference/v2/schemas/file)|
 
 ### Example responses
 

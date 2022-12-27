@@ -63,7 +63,7 @@ curl -X GET /api/v2/notification/unseen/count/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|none|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|none|
 
 ### Example responses
 
@@ -76,7 +76,6 @@ curl -X GET /api/v2/notification/unseen/count/ \
 ```json
 {
    "count":  "integer"
-   
 }
 ```
 

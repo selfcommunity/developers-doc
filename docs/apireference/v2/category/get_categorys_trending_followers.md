@@ -19,12 +19,12 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Category|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
-|days|query|integer|false|Number of days (default 90 days)|
+|Name|In|Type|Required| Description                                        |
+|---|---|---|---|----------------------------------------------------|
+|id|path|string|true| A unique integer value identifying this category   |
+|limit|query|integer|false| Number of results to return per page               |
+|offset|query|integer|false| The initial index from which to return the results |
+|days|query|integer|false| Number of days (default 90 days)                   |
 
 ### Example Request
 
@@ -111,7 +111,7 @@ curl -X GET /api/v2/category/{id}/followers/trending/ \
       "gender": "string",
       "website": "string",
       "cover": "string",
-      "tags": [],
+      "tags": [{Tag}],
       "reputation": "integer",
       "community_badge": "boolean",
       "reg_approved": "boolean",

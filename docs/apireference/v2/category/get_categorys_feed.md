@@ -18,11 +18,11 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                                                                                            |
-|----------|-------|---------|----------|------------------------------------------------------------------------------------------------------------------------|
-| id       | path  | string  | true     | A unique integer value identifying this Category                                                                       |
-| limit    | query | integer | false    | Number of results to return per page                                                                                   |
-| offset   | query | integer | false    | The initial index from which to return the results                                                                     |
+| Name     | In    | Type    | Required | Description                                                                                                               |
+|----------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------|
+| id       | path  | string  | true     | A unique integer value identifying this category                                                                          |
+| limit    | query | integer | false    | Number of results to return per page                                                                                      |
+| offset   | query | integer | false    | The initial index from which to return the results                                                                        |
 | ordering | query | string  | false    | The ordering of the feed. Default to `stream_order_by` field in [Category](/docs/apireference/v2/schemas/category) object |
 
 #### Enumerated Values
@@ -78,7 +78,7 @@ curl -X GET /api/v2/category/{id}/feed/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -135,10 +135,10 @@ Status Code **200**
                 "categories": [{Category}],
                 "medias": [{Media}],
                 "location": "string",
-                "addressing": [integer],
+                "addressing": ["integer"],
                 "poll": {Poll}
             },
-            "seen_by_id": [integer],
+            "seen_by_id": ["integer"],
             "has_boost": "boolean"
         },
   ]

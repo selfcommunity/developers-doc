@@ -18,11 +18,11 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user|
-|new_email|body|string(email)|true|none|
-|confirm|body|boolean|false|If confirm=1 (or true), the email is not changed directly but a validation code is generated to be used in the [confirm](confirm_users_change_email) call to validate the email. |
+|Name|In|Type|Required| Description                                                                                                                                                                      |
+|---|---|---|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|id|path|string|true| A unique integer value identifying this user                                                                                                                                     |
+|new_email|body|string(email)|true| The new email                                                                                                                                                                    |
+|confirm|body|boolean|false| If confirm=1 (or true), the email is not changed directly but a validation code is generated to be used in the [confirm](confirm_users_change_email) call to validate the email. |
 
 #### Example Body Parameters
 
@@ -35,8 +35,8 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "new_email": "user@example.com",
-  "confirm": 0
+  "new_email": "string",
+  "confirm": "integer/boolean"
 }
 ```
 
@@ -54,8 +54,8 @@ import TabItem from '@theme/TabItem';
 ```js
 
 const inputBody = '{
-  "new_email": "user@example.com",
-  "confirm": 0
+  "new_email": "string",
+  "confirm": "integer/boolean"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',

@@ -64,7 +64,7 @@ curl -X GET /api/v2/user/me/permission/ \
 ### Response 
 Schema|Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User Permission](/docs/apireference/v2/schemas/user_permission)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[User Permission](/docs/apireference/v2/schemas/user_permission)|
 
 ### Example responses
 
@@ -76,10 +76,10 @@ Schema|Status|Meaning|Description|Schema|
 
 ```json
 {
-    "upload_video": false,
+    "upload_video": "boolean",
     "create_contribute": "boolean",
     "create_poll": "boolean",
-    "locate_post": false,
+    "locate_post": "boolean",
     "create_post": "boolean",
     "create_post_with_category": "boolean",
     "follow_user": "boolean",

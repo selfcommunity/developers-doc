@@ -116,7 +116,7 @@ curl -X POST /api/v2/media/upload/chunk/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[ChunkMedia](/docs/apireference/v2/schemas/chunk_media)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[ChunkMedia](/docs/apireference/v2/schemas/chunk_media)|
 
 ### Example responses
 

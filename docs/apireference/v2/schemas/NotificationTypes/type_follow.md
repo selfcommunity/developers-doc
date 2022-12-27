@@ -21,7 +21,7 @@ Example preview:
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|is_new|boolean|false|read-only|True if the notification has been read, otherwise false|
+|is_new|boolean|false|read-only|If true, the notification has been read|
 |sid|string|false|read-only|Serialization id of the notification|
 |type|string|false|read-only|Type "follow"|
 |active_at|string(date-time)|false|read-only|Time when the notification was generated|

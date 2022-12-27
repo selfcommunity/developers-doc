@@ -20,12 +20,12 @@ title: Private Message Snippet
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|Unique integer value identifying this thread|
-|headline|string|false|none|The headline/snippet|
-|sender|[User](/docs/apireference/v2/schemas/user)|false|none|The sender/creator of the thread|
-|receiver|[User](/docs/apireference/v2/schemas/user)|false|none|The receiver of the thread|
-|created_at|string(date-time)|false|none|datetime of creation|
-|last_message_at|string(date-time)|false|none|datetime of last message|
-|thread_status|string|false|none|seen or new|
+| Name            | Type                                       | Required | Restrictions | Description                                     |
+|-----------------|--------------------------------------------|----------|--------------|-------------------------------------------------|
+| id              | integer                                    | false    | read-only    | A unique integer value identifying this snippet |
+| headline        | string                                     | false    | none         | The headline/snippet                            |
+| sender          | [User](/docs/apireference/v2/schemas/user) | false    | none         | The snippet sender/creator                      |
+| receiver        | [User](/docs/apireference/v2/schemas/user) | false    | none         | The snippet receiver                            |
+| created_at      | string(date-time)                          | false    | none         | Datetime of creation                            |
+| last_message_at | string(date-time)                          | false    | none         | Datetime of last message                        |
+| thread_status   | string                                     | false    | none         | Snippet status: seen or new                     |

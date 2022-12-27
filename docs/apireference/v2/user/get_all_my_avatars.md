@@ -71,7 +71,7 @@ curl -X GET /api/v2/user/avatar/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -99,11 +99,11 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [ 
     {
-        "id": 123,
-        "primary": false,
-        "avatar": "url",
-        "date_uploaded": "2021-11-18T16:28:35.042201+01:00",
-        "user": 123
+        "id": "integer",
+        "primary": "boolean",
+        "avatar": "string(uri)",
+        "date_uploaded": "string",
+        "user": "integer"
     }
   ]
 }

@@ -80,8 +80,8 @@ curl -X GET /api/v2/category/{id}/ \
 
 ```json
 {
-  "id": "integer,
-  "tags": [],
+  "id": "integer",
+  "tags": [{Tag}],
   "followed": "boolean",
   "order": "integer",
   "name": "string",

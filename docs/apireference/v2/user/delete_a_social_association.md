@@ -16,11 +16,11 @@ This operation requires authentication and the user must be the same or must hav
 
 ### Parameters
 
-| Name       | In    | Type    | Required | Description                                                                                                                              |
-|------------|-------|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------|
-| id         | query | integer | true     | The user id                                                                                                                              |
-| ext_id     | body  | string  | true     | A unique external id identifying the user                                                                                                |
-| provider   | body  | string  | true     | The external provider of the ext_id                                                                                                      |
+| Name       | In    | Type    | Required | Description                                                                                                                           |
+|------------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------------|
+| id         | query | integer | true     | A unique integer value identifying this  user                                                                                                                              |
+| ext_id     | body  | integer | true     | A unique external id identifying the user                                                                                             |
+| provider   | body  | string  | true     | The external provider of the ext_id                                                                                                   |
 
 ### Example Request
 
@@ -31,7 +31,7 @@ This operation requires authentication and the user must be the same or must hav
 
 ```js
 const inputBody = '{
-  "ext_id": "string",
+  "ext_id":  "integer",
   "provider": "string"
 }';
 const headers = {
@@ -65,7 +65,7 @@ curl -X DELETE /api/v2/user/{id}/provider/ \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json'
   -d '{
-  "ext_id": "string",
+  "ext_id":  "integer",
   "provider": "string"
  }'
 ```
@@ -77,6 +77,6 @@ curl -X DELETE /api/v2/user/{id}/provider/ \
 
 ## Responses
 
-| Status | Meaning                                                         | Schema |
-|--------|-----------------------------------------------------------------|--------|
-| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | none   |
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

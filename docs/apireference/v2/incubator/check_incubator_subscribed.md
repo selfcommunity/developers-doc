@@ -67,7 +67,7 @@ curl -X GET /api/v2/incubator/{id}/subscribed/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|none|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|none|
 
 ### Example responses
 

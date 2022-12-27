@@ -22,13 +22,13 @@ Example previews:
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|is_new|boolean|true|read-only|True if the notification has been read, otherwise false|
-|sid|string|true|read-only|Serialization id of the notification|
-|type|string|true|read-only|Type "comment" or "nested_comment"|
-|active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|comment|[Comment](/docs/apireference/v2/schemas/comment)|true|read-only|Comment of second level|
+|Name| Type                                                                                     |Required|Restrictions|Description|
+|---|------------------------------------------------------------------------------------------|---|---|---|
+|is_new| boolean                                                                                  |true|read-only|If true, the notification has been read|
+|sid| string                                                                                   |true|read-only|Serialization id of the notification|
+|type| [string](/docs/apireference/v2/schemas/NotificationTypes/type_comment#enumerated-values) |true|read-only|Type "comment" or "nested_comment"|
+|active_at| string(date-time)                                                                        |true|read-only|Time when the notification was generated|
+|comment| [Comment](/docs/apireference/v2/schemas/comment)                                         |true|read-only|Comment of second level|
 
 #### Enumerated Values
 

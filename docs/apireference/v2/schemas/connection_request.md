@@ -18,11 +18,11 @@ title: Connection Request
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|id|integer|false|read-only|none|
-|from_user|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
-|to_user|[User](/docs/apireference/v2/schemas/user)|false|read-only|none|
-|created|string(date-time)|false|read-only|none|
-|rejected|string(date-time)|false|read-only|none|
-|viewed|string(date-time)|false|read-only|none|
+|Name|Type|Required|Restrictions| Description                              |
+|---|---|---|---|------------------------------------------|
+|id|integer|false|read-only| A unique integer value                   |
+|from_user|[User](/docs/apireference/v2/schemas/user)|false|read-only| The user object who sent the request     |
+|to_user|[User](/docs/apireference/v2/schemas/user)|false|read-only| The user object who received the request |
+|created|string(date-time)|false|read-only| Datetime of request creation             |
+|rejected|string(date-time)|false|read-only| Datetime of request rejection            |
+|viewed|string(date-time)|false|read-only| Datetime of request view                 |

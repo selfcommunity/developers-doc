@@ -22,10 +22,10 @@ Hard: all user's content (profile, post, votes, etc...) will be removed (status 
 
 In particular:
 
-* If the delete is soft and the user is already soft deleted you will get a 400 response (The user has already been soft deleted)
-* If the delete is soft and the user is already hard deleted you will get a 404 response (User not found)
-* If the delete is hard and the user is already soft deleted perform hard delete
-* If the delete is hard and the user is already hard deleted you will get a 404 response (User not found)
+* If the deletion is soft and the user is already soft deleted you will get a 400 response (The user has already been soft deleted)
+* If the deletion is soft and the user is already hard deleted you will get a 404 response (User not found)
+* If the deletion is hard and the user is already soft deleted perform hard delete
+* If the deletion is hard and the user is already hard deleted you will get a 404 response (User not found)
 :::
 
 :::info
@@ -90,7 +90,7 @@ curl -X DELETE /api/v2/user/{id}/
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 
 

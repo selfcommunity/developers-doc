@@ -24,17 +24,17 @@ title: Invite Code
 
 #### Properties
 
-| Name                | Type                                       | Required | Restrictions | Description                                       |
-|---------------------|--------------------------------------------|----------|--------------|---------------------------------------------------|
-| id                  | integer                                    | false    | read-only    | Unique integer value identifying this invite code |
-| invited_by_username | string                                     | false    | read-only    | The username of the user who sent the invite code |
-| role                | string                                     | false    | read-only    | The user role                                     |
-| tags                | [Tag](/docs/apireference/v2/schemas/tag)   | false    | read-only    | The list of user tags                             |
-| name                | string                                     | false    | read-only    | The name of the person invited                    |
-| email               | string                                     | false    | read-only    | The email of the person invited                   |
-| code                | string                                     | false    | read-only    | Unique human readable code                        |
-| generated_at        | string(datetime)                           | false    | read-only    | Datetime of invite generation                     |
-| sent_at             | string(datetime)                           | false    | read-only    | Datetime of invite send                           |
-| used_at             | string(datetime)                           | false    | read-only    | Datetime of invite use                            |
-| invited_by          | integer                                    | false    | read-only    | The  id of the user who sent the invite code      |   
-| user                | [User](/docs/apireference/v2/schemas/user) | false    | read-only    | The user obj                                      |  |
+| Name                | Type                                       | Required | Restrictions | Description                                         |
+|---------------------|--------------------------------------------|----------|--------------|-----------------------------------------------------|
+| id                  | integer                                    | false    | read-only    | A unique integer value identifying this invite code |
+| invited_by_username | string                                     | false    | read-only    | The username of the user who sent the invite code   |
+| role                | string                                     | false    | read-only    | The user role                                       |
+| tags                | [Tag](/docs/apireference/v2/schemas/tag)   | false    | read-only    | The list of user tags                               |
+| name                | string                                     | false    | read-only    | The name of the person invited                      |
+| email               | string                                     | false    | read-only    | The email of the person invited                     |
+| code                | string                                     | false    | read-only    | Unique human readable code                          |
+| generated_at        | string(datetime)                           | false    | read-only    | Datetime of invite generation                       |
+| sent_at             | string(datetime)                           | false    | read-only    | Datetime of invite send                             |
+| used_at             | string(datetime)                           | false    | read-only    | Datetime of invite use                              |
+| invited_by          | integer                                    | false    | read-only    | The  id of the user who sent the invite code        |   
+| user                | [User](/docs/apireference/v2/schemas/user) | false    | read-only    | The user obj                                        |  |

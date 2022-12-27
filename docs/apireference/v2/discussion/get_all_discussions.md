@@ -70,7 +70,7 @@ curl -X GET /api/v2/discussion/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -85,7 +85,13 @@ Status Code **200**
 
 ### Example responses
 
+````mdx-code-block
+
+<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
+<TabItem value="200">
+
 ```json
+
 {
   "count": "integer",
   "next": "string(uri)",
@@ -95,7 +101,7 @@ Status Code **200**
       "id": "integer",
       "type": "string",
       "last_activity_at": "string",
-      "author": {},
+      "author": {User},
       "added_at": "string",
       "last_edited_at": "string",
       "html": "string",
@@ -105,25 +111,29 @@ Status Code **200**
       "comment_count": "integer",
       "view_count": "integer",
       "vote_count": "integer",
-      "reactions_count": [],
+      "reactions_count": [{Reaction}],
       "voted": "boolean",
-      "reaction": {},
+      "reaction": {Reaction},
       "follower_count": "integer",
       "followed": "boolean",
       "suspended": "boolean",
       "flag_count": "integer",
       "share_count": "integer",
       "slug": "string",
-      "categories": [],
-      "medias": [],
+      "categories": [{Category}],
+       "medias": [{Media}],
       "location": "string",
-      "addressing": [],
-      "poll": {},
+      "addressing": ["integer"],
+      "poll": {Poll},
       "title": "string"
     }
   ]
 }
+
 ```
+</TabItem>
+</Tabs>
+````
 
 
 

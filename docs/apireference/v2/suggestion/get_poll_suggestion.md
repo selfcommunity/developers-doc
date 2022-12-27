@@ -66,7 +66,7 @@ curl -X GET /api/v2/suggestion/poll/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -88,112 +88,34 @@ Status Code **200**
 {
   "results": [
 {
-        "id": 48343,
-        "type": "post",
-        "last_activity_at": "2021-03-19T16:38:53.503858+01:00",
-        "last_edited_at": null,
-        "author": {
-            "id": 135,
-            "username": "string",
-            "real_name": "string",
-            "avatar": "string",
-            "ext_id": "string",
-            "followings_counter": 17,
-            "followers_counter": 10,
-            "posts_counter": 140,
-            "discussions_counter": 1,
-            "statuses_counter": 0,
-            "polls_counter": 140,
-            "date_joined": "2020-10-04T21:22:00+02:00",
-            "bio": "string",
-            "location": "string",
-            "location_lat_lng": "string",
-            "position_lat_lng": "string",
-            "date_of_birth": "string",
-            "description": "string",
-            "gender": "Male",
-            "website": "https://example.com",
-            "cover": "string",
-            "tags": [],
-            "reputation": 111
-        },
-        "added_at": "2019-08-24T14:15:22Z",
+        "id": "integer",
+        "type": "string",
+        "last_activity_at": "string",
+        "last_edited_at": "string",
+        "author": {User},
+        "added_at": "string",
+        "last_edited_at": "string",
         "html": "string",
         "summary": "string",
         "deleted": "boolean",
-        "collapsed": false,
-        "comment_count": 0,
-        "vote_count": 0,
-        "voted": false,
-        "followed": false,
+        "collapsed": "boolean",
+        "comment_count": "integer",
+        "view_count": "integer",
+        "vote_count": "integer",
+        "reactions_count": [{Reaction}],
+        "voted": "boolean",
+        "reaction": {Reaction},
+        "follower_count": "integer",
+        "followed": "boolean",
         "suspended": "boolean",
-        "flag_count": 0,
-        "share_count": 0,
+        "flag_count": "integer",
+        "share_count": "integer",
         "slug": "string",
-        "categories": [
-            {
-              "id": 1,
-              "tags": [],
-              "followed": false,
-              "order": 123,
-              "name": "string",
-              "name_synonyms": "string",
-              "slug": "string",
-              "slogan": "string",
-              "html_info": "string",
-              "seo_title": "string",
-              "seo_description": "string",
-              "auto_follow": "none",
-              "active": "boolean",
-              "image_original": "string",
-              "image_bigger": "string",
-              "image_big": "string",
-              "image_medium": "string",
-              "image_small": "string",
-              "emotional_image_original": "string",
-              "emotional_image_position": 0,
-              "lastmod_datetime": "2019-08-24T14:15:22Z",
-              "stream_order_by": "recent",
-              "followers_counter": 13
-            }
-        ],
-        "medias": [],
-        "location": {
-            "location": "string",
-            "lat": 0,
-            "lng": 0
-        },
-        "addressing": [integer],
-        "poll": {
-            "id": 47864,
-            "title": "string",
-            "multiple_choices": "boolean",
-            "added_at": "2021-03-19T16:37:54.830145+01:00",
-            "modified_at": "2021-03-19T16:37:54.830194+01:00",
-            "closed": "boolean",
-            "expiration_at": "2021-12-15T15:15:22+01:00",
-            "hidden": false,
-            "choices": [
-                {
-                    "id": 95722,
-                    "choice": "string",
-                    "order": 0,
-                    "added_at": "2021-03-19T16:37:54.893941+01:00",
-                    "deleted": false,
-                    "vote_count": 0,
-                    "voted": null
-                },
-                {
-                    "id": 95723,
-                    "choice": "string",
-                    "order": 1,
-                    "added_at": "2021-03-19T16:37:54.898287+01:00",
-                    "deleted": false,
-                    "vote_count": 0,
-                    "voted": null
-                }
-            ]
-        }
+        "categories": [{Category}],
+        "medias": [{Media}],
+        "location": {Locality},
+        "addressing": ["integer"],
+        "poll": {Poll}
     }
   ]
 }

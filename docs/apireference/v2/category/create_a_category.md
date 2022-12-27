@@ -42,7 +42,7 @@ import TabItem from '@theme/TabItem';
   "html_info": "string",
   "seo_title": "string",
   "seo_description": "string",
-  "auto_follow": "none",
+  "auto_follow": "string",
   "active": "boolean",
   "deleted": "boolean",
   "image_original": "string",
@@ -74,7 +74,7 @@ const inputBody = '{
   "html_info": "string",
   "seo_title": "string",
   "seo_description": "string",
-  "auto_follow": "none",
+  "auto_follow": "string",
   "active": "boolean",
   "deleted": "boolean",
   "image_original": "string",
@@ -134,7 +134,7 @@ curl -X POST /api/v2/category/ \
 ```json
 {
   "id": "integer",
-  "tags": [],
+  "tags": [{Tag}],
   "followed": "boolean",
   "order": "integer",
   "name": "string",

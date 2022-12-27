@@ -18,15 +18,15 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this endpoint|
-|» is_active|body|boolean|false|none|
-|» target|body|string(uri)|true|none|
-|» description|body|string|false|none|
-|» events|body|[object]|true|none|
-|»» type|body|string|true|The [webhook event type](#list-of-events)|
-|» ssl_cert_verification|body|boolean|false|True if the SSL certificates for HTTPS requests must be enabled|
+| Name                    | In   | Type         | Required | Description                                                      |
+|-------------------------|------|--------------|----------|------------------------------------------------------------------|
+| id                      | path | string       | true     | A unique integer value identifying this endpoint                 |
+| » is_active             | body | boolean      | false    | Endpoint active status                                           |
+| » target                | body | string(uri)  | true     | Endpoint target                                                  |
+| » description           | body | string       | false    | Endpoint description                                             |
+| » events                | body | list[object] | true     | Endpoint events objects                                          |
+| »» type                 | body | string       | true     | The [webhook event type](#list-of-events)                        |
+| » ssl_cert_verification | body | boolean      | false    | If true, the SSL certificates for HTTPS requests must be enabled |
 
 #### Example Body Parameters
 
@@ -40,11 +40,11 @@ import TabItem from '@theme/TabItem';
 ```json
 {
   "is_active": "boolean",
-  "target": "https://example.com",
+  "target": "string",
   "description": "string",
   "events": [
     {
-      "type": "comment.created"
+      "type": "string"
     }
   ],
   "ssl_cert_verification": "boolean"
@@ -65,11 +65,11 @@ import TabItem from '@theme/TabItem';
 ```js
 const inputBody = '{
   "is_active": "boolean",
-  "target": "https://example.com",
+  "target": "string",
   "description": "string",
   "events": [
     {
-      "type": "comment.created"
+      "type": "string"
     }
   ],
   "ssl_cert_verification": "boolean"
@@ -104,15 +104,15 @@ curl -X PATCH /api/v2/webhook/endpoint/{id}/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "is_active": "boolean",
-    "target": "https://example.com",
-    "description": "string",
-    "events": [
-      {
-        "type": "comment.created"
-      }
-    ],
-    "ssl_cert_verification": "boolean"
+      "is_active": "boolean",
+      "target": "string",
+      "description": "string",
+      "events": [
+        {
+          "type": "string"
+        }
+      ],
+      "ssl_cert_verification": "boolean"
   }'
 ```
 </TabItem>
@@ -136,15 +136,15 @@ curl -X PATCH /api/v2/webhook/endpoint/{id}/ \
 ```json
 {
   "id": "integer",
-  "created_at": "2019-08-24T14:15:22Z",
-  "updated_at": "2019-08-24T14:15:22Z",
+  "created_at": "string",
+  "updated_at": "string",
   "is_active": "boolean",
-  "target": "https://example.com",
+  "target": "string",
   "description": "string",
   "events": [
     {
-      "type": "comment.created",
-      "added_at": "2019-08-24T14:15:22Z"
+      "type": "string",
+      "added_at": "string"
     }
   ],
   "ssl_cert_verification": "boolean"

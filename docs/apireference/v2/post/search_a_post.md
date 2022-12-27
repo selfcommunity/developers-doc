@@ -93,7 +93,7 @@ Status Code **200**
         "id": "integer",
         "type": "string",
         "last_activity_at": "string",
-        "author": {},
+        "author": {User},
         "added_at": "string",
         "last_edited_at": "string",
         "html": "string",
@@ -103,26 +103,26 @@ Status Code **200**
         "comment_count": "integer",
         "view_count": "integer",
         "vote_count": "integer",
-        "reactions_count": [],
+        "reactions_count": [{Reaction}],
         "voted": "boolean",
-        "reaction": {},
+        "reaction": {Reaction},
         "follower_count": "integer",
         "followed": "boolean",
         "suspended": "boolean",
         "flag_count": "integer",
         "share_count": "integer",
         "slug": "string",
-        "categories": [],
-        "medias": [],
-        "location": {},
-        "addressing": [],
-        "poll": {}
+        "categories": [{Category}],
+        "medias": [{Media}],
+        "location": {Locality},
+        "addressing": ["integer"],
+        "poll": {Poll}
         "matches": [
         {
         "object": {
-            "id": 238,
+            "id": "integer",
             "type": "comment",
-            "added_at": "2020-10-19T16:05:34.974676+00:00",
+            "added_at": "string",
             "html": "string"
         },
         "author": {}

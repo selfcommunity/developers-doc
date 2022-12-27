@@ -68,7 +68,7 @@ curl -X GET /api/v2/user/{id}/followers/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](/docs/apireference/v2/schemas/user)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[User](/docs/apireference/v2/schemas/user)|
 
 ### Response Schema
 
@@ -76,10 +76,10 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|list([User](/docs/apireference/v2/schemas/user))|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
+|» results|list([User](/docs/apireference/v2/schemas/user))|false|none|List of results|
 
 ### Example responses
 
@@ -100,34 +100,36 @@ The results always return users sorted by: first mutuals and then non-mutuals.
   "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
       "username": "string",
       "real_name": "string",
-      "email": "user@example.com",
-      "email_isvalid": "boolean",
-      "date_joined": "2019-08-24T14:15:22Z",
+      "avatar": "string",
+      "ext_id": "integer",
+      "followings_counter": "integer",
+      "followers_counter": "integer",
+      "posts_counter": "integer",
+      "discussions_counter": "integer",
+      "polls_counter": "integer",
+      "connection_status": "string",
+      "categories_counter": "integer",
+      "date_joined": "string",
       "bio": "string",
       "location": "string",
       "location_lat_lng": "string",
       "position_lat_lng": "string",
       "date_of_birth": "string",
       "description": "string",
-      "gender": "Male",
-      "status": "a",
-      "website": "https://example.com",
-      "avatar": "string",
+      "gender": "string",
+      "website": "string",
       "cover": "string",
-      "ext_id": 3,
-      "tags": [],
-      "reputation": 39,
-      "connection_status": "string",
-      "followings_counter": 1,
-      "followers_counter": 0,
-      "posts_counter": 2,
-      "discussions_counter": 4,
-      "statuses_counter": 1,
-      "polls_counter": 6
-    }
+      "tags": [{Tag}],
+      "reputation": "integer",
+      "community_badge": "boolean",
+      "reg_approved": "boolean",
+      "company_name": "string",
+      "company_role": "string"
+    },
+    {...}
   ]
 }
 ```

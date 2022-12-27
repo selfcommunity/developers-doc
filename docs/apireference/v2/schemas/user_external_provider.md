@@ -10,7 +10,7 @@ title: User External Provider
   "provider": "string",
   "ext_id": "string",
   "profile_url": "string",
-  "show_in_profile": false
+  "show_in_profile": "boolean"
 }
 
 ```

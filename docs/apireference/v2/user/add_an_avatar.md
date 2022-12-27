@@ -65,7 +65,7 @@ curl --location --request POST '/api/v2/user/avatar/' \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Avatar](/docs/apireference/v2/schemas/avatar)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Avatar](/docs/apireference/v2/schemas/avatar)|
 
 ### Example responses
 
@@ -77,11 +77,11 @@ curl --location --request POST '/api/v2/user/avatar/' \
 
 ```json
 {
-    "id": 123,
-    "primary": false,
-    "avatar": "url",
-    "date_uploaded": "2021-11-18T16:28:35.042201+01:00",
-    "user": 123
+    "id": "integer",
+    "primary": "boolean",
+    "avatar": "string(uri)",
+    "date_uploaded": "string",
+    "user": "integer"
 }
 ```
 

@@ -17,11 +17,11 @@ title: Avatar
 
 #### Properties
 
-|Name|Type|Description|
-|---|---|---|
-|id|integer|Unique integer value identifying this avatar|
-|primary|boolean|Is the primary avatar for the user?|
-|avatar|string(binary)¦null|The avatar url|
-|date_uploaded|string(date-time)|Upload datetime|
-|user|integer|The id of the user for this avatar|
+| Name          | Type                | Description                                    |
+|---------------|---------------------|------------------------------------------------|
+| id            | integer             | A unique integer value identifying this avatar |
+| primary       | boolean             | If true, it is the user primary avatar         |
+| avatar        | string(binary)¦null | The avatar url                                 |
+| date_uploaded | string(date-time)   | Upload datetime                                |
+| user          | integer             | The user id for this avatar                    |
 

@@ -18,9 +18,9 @@ This operation requires authentication
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this Category|
+|Name|In|Type|Required| Description                                      |
+|---|---|---|---|--------------------------------------------------|
+|id|path|string|true| A unique integer value identifying this category |
 
 ### Example Request
 
@@ -107,7 +107,7 @@ curl -X GET /api/v2/category/{id}/followers/ \
       "gender": "string",
       "website": "string",
       "cover": "string",
-      "tags": [],
+      "tags": [{Tag}],
       "reputation": "integer",
       "community_badge": "boolean",
       "reg_approved": "boolean",

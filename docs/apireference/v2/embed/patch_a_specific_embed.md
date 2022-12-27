@@ -40,7 +40,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "url": "https://example.com",
+  "url": "string(uri)",
   "metadata": {}
 }
 ```
@@ -92,7 +92,7 @@ curl -X PATCH /api/v2/embed/{id}/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "url": "string"
+    "url": "string(uri)"
   }'
 ```
 </TabItem>

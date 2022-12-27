@@ -10,7 +10,7 @@ title: Notification Type Vote Up
   "sid": "string",
   "type": "string",
   "active_at": "string",
-  "user/discussion/post/comemnt/status": {}
+  "user/discussion/post/comment/status": {}
 }
 ```
 

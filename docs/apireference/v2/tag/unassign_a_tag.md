@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "user": 123
+  "user": "integer"
 }
 ```
 
@@ -54,7 +54,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "user": 123
+  "user": "integer"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -95,7 +95,7 @@ curl -X POST /api/v2/tag/{id}/assign/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 
 

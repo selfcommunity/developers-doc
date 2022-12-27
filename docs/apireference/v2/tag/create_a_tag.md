@@ -18,9 +18,9 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false|none|
+|Name|In|Type|Required| Description                   |
+|---|---|---|---|-------------------------------|
+|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false| The request body (tag params) |
 
 #### Example Body Parameters
 
@@ -40,7 +40,7 @@ import TabItem from '@theme/TabItem';
   "color": "string",
   "visible": "boolean",
   "visibility_boost": "boolean",
-  "deleted": false
+  "deleted": "boolean"
 }
 ```
 
@@ -65,7 +65,7 @@ const inputBody = '{
   "color": "string",
   "visible": "boolean",
   "visibility_boost": "boolean",
-  "deleted": false
+  "deleted": "boolean"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -106,7 +106,7 @@ curl -X POST /api/v2/tag/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Tag](/docs/apireference/v2/schemas/tag)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Tag](/docs/apireference/v2/schemas/tag)|
 
 ### Example responses
 
@@ -125,9 +125,9 @@ curl -X POST /api/v2/tag/ \
   "color": "string",
   "visible": "boolean",
   "visibility_boost": "boolean",
-  "created_at": "2019-08-24T14:15:22Z",
+  "created_at": "string",
   "active": "boolean",
-  "deleted": false
+  "deleted": "boolean"
 }
 ```
 

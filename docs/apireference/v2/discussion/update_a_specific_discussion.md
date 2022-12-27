@@ -52,11 +52,11 @@ import TabItem from '@theme/TabItem';
 {
     "title": "string",
     "text": "string",
-    "categories": [integer],
-    "medias": [integer],
+    "categories": ["integer"],
+    "medias": ["integer"],
     "location": {
       "location": "string",
-      "lat": "integer,
+      "lat": "integer",
       "lng": "integer"
     },
     "poll": {
@@ -70,7 +70,7 @@ import TabItem from '@theme/TabItem';
         }
       ]
     },
-    "addressing": [integer]
+    "addressing": ["integer"]
 }
 ```
 
@@ -89,11 +89,11 @@ import TabItem from '@theme/TabItem';
 const inputBody = {
     "title": "string",
     "text": "string",
-    "categories": [integer],
-    "medias": [integer],
+    "categories": ["integer"],
+    "medias": ["integer"],
     "location": {
       "location": "string",
-      "lat": "integer,
+      "lat": "integer",
       "lng": "integer"
     },
     "poll": {
@@ -107,7 +107,7 @@ const inputBody = {
         }
       ]
     },
-    "addressing": [integer]
+    "addressing": ["integer"]
 };
 const headers = {
   'Content-Type':'application/json',
@@ -141,11 +141,11 @@ curl -X PUT /api/v2/discussion/{id}/ \
   --data-raw '{
     "title": "string",
     "text": "string",
-    "categories": [integer],
-    "medias": [integer],
+    "categories": ["integer"],
+    "medias": ["integer"],
     "location": {
       "location": "string",
-      "lat": "integer,
+      "lat": "integer",
       "lng": "integer"
     },
     "poll": {
@@ -159,7 +159,7 @@ curl -X PUT /api/v2/discussion/{id}/ \
         }
       ]
     },
-    "addressing": [integer]
+    "addressing": ["integer"]
   }'
 ```
 </TabItem>
@@ -207,7 +207,7 @@ curl -X PUT /api/v2/discussion/{id}/ \
   "categories": [{Category}],
   "medias": [{Media}],
   "location": "string",
-  "addressing": [integer],
+  "addressing": ["integer"],
   "poll": {Poll},
   "title": "string"
 }

@@ -69,9 +69,9 @@ curl -X POST /api/v2/user/{id}/settings/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UserSettings](/docs/apireference/v2/schemas/user_settings)|
+|Status|Meaning|Description| Schema                                                       |
+|---|---|---|--------------------------------------------------------------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3."integer")|Response status code| [User Settings](/docs/apireference/v2/schemas/user_settings) |
 
 ### Example responses
 
@@ -83,11 +83,11 @@ curl -X POST /api/v2/user/{id}/settings/ \
 
 ```json
 {
-  "qa_frequency": -1,
-  "email_notification_not_qa": 1,
-  "mobile_notifications_scmty": 1,
-  "toast_notifications_emit_sound": 1,
-  "show_toast_notifications": 1
+  "qa_frequency": "integer",
+  "email_notification_not_qa": "integer",
+  "mobile_notifications_scmty": "integer",
+  "toast_notifications_emit_sound": "integer",
+  "show_toast_notifications": "integer"
 }
 ```
 

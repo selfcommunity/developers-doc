@@ -65,7 +65,7 @@ curl -X GET /api/v2/user/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[User](/docs/apireference/v2/schemas/user)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[User](/docs/apireference/v2/schemas/user)|
 
 ### Example responses
 
@@ -80,30 +80,31 @@ curl -X GET /api/v2/user/{id}/ \
   "id": "integer",
   "username": "string",
   "real_name": "string",
-  "email": "user@example.com",
-  "email_isvalid": "boolean",
-  "date_joined": "2019-08-24T14:15:22Z",
+  "avatar": "string",
+  "ext_id": "integer",
+  "followings_counter": "integer",
+  "followers_counter": "integer",
+  "posts_counter": "integer",
+  "discussions_counter": "integer",
+  "polls_counter": "integer",
+  "connection_status": "string",
+  "categories_counter": "integer",
+  "date_joined": "string",
   "bio": "string",
   "location": "string",
   "location_lat_lng": "string",
   "position_lat_lng": "string",
-  "date_of_birth": "2019-09-23",
+  "date_of_birth": "string",
   "description": "string",
-  "gender": "Male",
-  "status": "a",
-  "website": "https://example.com",
-  "avatar": "string",
+  "gender": "string",
+  "website": "string",
   "cover": "string",
-  "ext_id": 3,
-  "tags": [],
-  "reputation": 39,
-  "connection_status": "string",
-  "followings_counter": 7,
-  "followers_counter": 2,
-  "posts_counter": 4,
-  "discussions_counter": 3,
-  "statuses_counter": 0,
-  "polls_counter": 1
+  "tags": [{Tag}],
+  "reputation": "integer",
+  "community_badge": "boolean",
+  "reg_approved": "boolean",
+  "company_name": "string",
+  "company_role": "string"
 }
 ```
 

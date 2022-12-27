@@ -73,7 +73,7 @@ curl -X GET /api/v2/loyalty/prize/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -81,10 +81,10 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|[[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)]|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
+|» results|[[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)]|false|none|List of results|
 
 ### Example responses
 
@@ -102,8 +102,8 @@ Status Code **200**
   "results": [
     {
       "id": "integer",
-      "user": {},
-      "prize": {},
+      "user": {User},
+      "prize": {Prize},
       "prize_points": "integer",
       "pending_at": "string",
       "status": "integer",

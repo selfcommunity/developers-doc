@@ -24,9 +24,9 @@ This operation does not require authentication to view only the associations wit
 
 ### Parameters
 
-| Name    | In    | Type    | Required | Description         |
-|---------|-------|---------|----------|---------------------|
-| user_id | query | integer | false    | The id of the user. |
+| Name    | In    | Type    | Required | Description                                  |
+|---------|-------|---------|----------|----------------------------------------------|
+| user_id | query | integer | false    | A unique integer value identifying this user |
 
 ### Example Request
 
@@ -86,29 +86,23 @@ curl -X GET /api/v2/user/provider/ \
 ```json
 [
     {
-        "user_id": 11,
-        "provider": "external",
-        "ext_id": "666",
+        "user_id": "integer",
+        "provider": "string",
+        "ext_id": "integer",
         "metadata": {
-            "ext_id": 666,
-            "username": "giorgia",
-            "email": "fake11@example.org"
+            "ext_id": "integer",
+            "username": "string",
+            "email": "string"
         }
     },
     {
-        "user_id": 11,
-        "provider": "facebook",
-        "ext_id": "10221880760234038",
-        "profile_url": null,
-        "show_in_profile": false
-    },
-    {
-        "user_id": 11,
-        "provider": "twitter",
-        "ext_id": "12345",
-        "profile_url": "https://www.twitter.com/my_profile/",
+        "user_id": "integer",
+        "provider": "string",
+        "ext_id": "integer",
+        "profile_url": "string(uri)",
         "show_in_profile": "boolean"
-    }
+    },
+    {...}
 ]
 
 ```

@@ -49,11 +49,11 @@ title: Flagged Contribution
 
 | Name              | Type                                                                                                                                                                                                   | Required | Restrictions | Description                         |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------|-------------------------------------|
-| contribution_type | string                                                                                                                                                                                                 | true     | none         | post, discussion, status or comment |
+| contribution_type | [string](/docs/apireference/v2/schemas/flagged_contribution#enumerated-values)                                                                                                                         | true     | none         | post, discussion, status or comment |
 | contribution      | [Post](/docs/apireference/v2/schemas/post), [Discussion](/docs/apireference/v2/schemas/discussion), [Status](/docs/apireference/v2/schemas/status) or [Comment](/docs/apireference/v2/schemas/comment) | true     | none         | the contribution                    |
 | last_flagged_at   | string(date-time)                                                                                                                                                                                      | true     | none         | date time of the last flag          |
-| moderation_status | string                                                                                                                                                                                                 | true     | none         | moderation status                   |
-| moderation_type   | string                                                                                                                                                                                                 | false    | none         | cause of the moderation             |
+| moderation_status | [string](/docs/apireference/v2/schemas/flagged_contribution#enumerated-values-1)                                                                                                                       | true     | none         | moderation status                   |
+| moderation_type   | [string](/docs/apireference/v2/schemas/flagged_contribution#enumerated-values-2)                                                                                                                                                                                             | false    | none         | cause of the moderation             |
 | moderation_by     | [User](/docs/apireference/v2/schemas/user)                                                                                                                                                             | false    | none         | moderator                           |
 | moderation_at     | string(date-time)                                                                                                                                                                                      | true     | none         | date time of the moderation         |
 
@@ -64,10 +64,15 @@ title: Flagged Contribution
 |contribution_type|discussion|
 |contribution_type|post|
 |contribution_type|comment|
+
+#### Enumerated Values
+|Property|Value|
+|---|---|
 |moderation_status|ignored|
 |moderation_status|deleted|
 |moderation_status|hidden|
 
+#### Enumerated Values
 |Parameter|Value|Description|
 |---|---|---|
 |moderation_type|0|spam|

@@ -18,13 +18,13 @@ This operation requires admin or moderation role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
-|search|query|string|false|A search term|
-|user_id|query|string|false|The id of a specific user|
-|ordering|query|string|false|Which field to use when ordering the results|
+| Name     | In    | Type    | Required | Description                                        |
+|----------|-------|---------|----------|----------------------------------------------------|
+| limit    | query | integer | false    | Number of results to return per page               |
+| offset   | query | integer | false    | The initial index from which to return the results |
+| search   | query | string  | false    | A search term                                      |
+| user_id  | query | string  | false    | The id of a specific user                          |
+| ordering | query | string  | false    | Which field to use when ordering the results       |
 
 ### Example Request
 
@@ -71,18 +71,18 @@ curl -X GET /api/v2/score/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|[[Score](/docs/apireference/v2/schemas/score)]|false|none|none|
+| Name       | Type                                           | Required | Restrictions | Description         |
+|------------|------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                        | false    | none         | Total results count |
+| » next     | string(uri)¦null                               | false    | none         | Next page url       |
+| » previous | string(uri)¦null                               | false    | none         | Previous page url   |
+| » results  | [[Score](/docs/apireference/v2/schemas/score)] | false    | none         | List of results     |
 
 ### Example responses
 
@@ -95,22 +95,22 @@ Status Code **200**
 ```json
 {
   "count": "integer",
-  "next": "http://api.example.org/accounts/?offset=400&limit=100",
-  "previous": "http://api.example.org/accounts/?offset=200&limit=100",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
     {
-      "id": 0,
+      "id": "integer",
       "user": {
-        "id": 0,
+        "id": "integer",
         "username": "string",
         "real_name": "string",
-        "email": "user@example.com",
+        "email": "string",
         "description": "string",
         "avatar": "string",
-        "reputation": 0
+        "reputation": "integer"
       },
       "score": "string",
-      "reputation_type": 1,
+      "reputation_type": "integer",
       "reputation_type_description": "string",
       "comment": "string"
     }

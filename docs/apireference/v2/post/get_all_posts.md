@@ -70,7 +70,7 @@ curl -X GET /api/v2/post/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -121,10 +121,10 @@ Status Code **200**
       "flag_count": "integer",
       "share_count": "integer",
       "slug": "string",
-      "categories": [],
-      "medias": [],
-      "location": {},
-      "addressing": [integer],
+      "categories": [{Category}],
+      "medias": [{Media}],
+      "location": {Locality},
+      "addressing": ["integer"],
       "poll": {Poll}
     }
   ]

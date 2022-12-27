@@ -62,19 +62,19 @@ curl -X GET /api/v2/feed/unseen/count/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[FeedUnseenCount](/docs/apireference/v2/schemas/feed_unseen_count)|
+|Status|Meaning|Description| Schema                                                               |
+|---|---|---|----------------------------------------------------------------------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| [Feed Unseen Count](/docs/apireference/v2/schemas/feed_unseen_count) |
 
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» total|integer|true|none|none|
-|» count_by_category|list(object)|false|none|none|
+|Name|Type|Required|Restrictions| Description                 |
+|---|---|---|---|-----------------------------|
+|» total|integer|true|none| The total unseen count      |
+|» count_by_category|list(object)|false|none| The total count by category |
 
 ### Example responses
 

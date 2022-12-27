@@ -68,16 +68,16 @@ curl -X GET /api/v2/user/me/platform_url/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Description|
-|---|---|---|---|---|
-|» platform_url|string(uri)|The URL to access the platform|
-|» token_details|string|Some informative token details|
+| Name            | Type                                         | Description                    |
+|-----------------|----------------------------------------------|--------------------------------|
+| » platform_url  | string(uri)                                  | The URL to access the platform |
+| » token_details | [Token](/docs/apireference/v2/schemas/token) | Some informative token details |
 
 ### Example responses
 
@@ -89,14 +89,8 @@ Status Code **200**
 
 ```json
 {
-    "platform_url": "https://URL/community/sso/?token=TOKEN&is_owner=1&domain=DOMAIN_URL&next=/",
-    "token_details": {
-        "access_token": "string",
-        "expires_in": "2021-08-09T16:17:01Z",
-        "token_type": "string",
-        "refresh_token": "string",
-        "scope": "string"
-    }
+    "platform_url": "string(uri)",
+    "token_details": {Token}
 }
 ```
 

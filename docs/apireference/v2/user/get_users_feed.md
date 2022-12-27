@@ -70,7 +70,7 @@ curl -X GET /api/v2/user/{id}/feed/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -78,10 +78,10 @@ Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|» count|integer|false|none|none|
-|» next|string(uri)¦null|false|none|none|
-|» previous|string(uri)¦null|false|none|none|
-|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|none|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
+|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|List of results|
 
 ### Example responses
 
@@ -98,143 +98,8 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [
     {
-      "type": "discussion",
-      "discussion": {
-        "id": 0,
-        "categories": [
-            {
-                "id": 0,
-                "order": 1,
-                "name": "name",
-                "name_synonyms": "synonyms",
-                "slug": "name",
-                "slogan": "Slogan",
-                "html_info": null,
-                "seo_title": null,
-                "seo_description": null,
-                "auto_follow": "None",
-                "active": "boolean",
-                "deleted": false,
-                "image_original": "string",
-                "image_bigger": "string",
-                "image_big": "string",
-                "image_medium": "string",
-                "image_small": "string",
-                "emotional_image_original": "string",
-                "emotional_image_position": 50,
-                "lastmod_datetime": "2020-09-30T15:22:07.123058+02:00",
-                "stream_order_by": "recent"
-            }
-        ],
-        "medias": [
-            {
-                "id": 0,
-                "added_at": "2019-08-24T14:15:22Z",
-                "type": "url",
-                "title": "string",
-                "description": "string",
-                "url": "https://example.com",
-                "image": "string",
-                "image_width": 0,
-                "image_height": 0,
-                "order": 0,
-                "embed": {
-                    "id": 0,
-                    "embed_type": "string",
-                    "embed_id": "string",
-                    "url": "string(uri)",
-                    "metadata": {}
-            }
-          }
-        ],
-        "location": {
-          "location": "string",
-          "lat": 0,
-          "lng": 0
-        },
-        "poll": {
-          "id": 0,
-          "title": "string",
-          "multiple_choices": "boolean",
-          "added_at": "2019-08-24T14:15:22Z",
-          "modified_at": "2019-08-24T14:15:22Z",
-          "closed": "boolean",
-          "expiration_at": "2019-08-24T14:15:22Z",
-          "hidden": "string",
-          "choices": [
-            {
-              "id": 0,
-              "choice": "string",
-              "order": 0,
-              "added_at": "2019-08-24T14:15:22Z",
-              "deleted": "string",
-              "vote_count": 0,
-              "voted": "boolean"
-            }
-          ],
-          "votes": [
-            {
-              "id": 0,
-              "choice": "string",
-              "user": "string"
-            }
-          ]
-        },
-        "last_activity_at": "2019-08-24T14:15:22Z",
-        "last_edited_at": null,
-        "author": {
-          "id": 0,
-          "username": "string",
-          "real_name": "string",
-          "date_joined": "2019-08-24T14:15:22Z",
-          "bio": "string",
-          "location": "string",
-          "location_lat_lng": "string",
-          "position_lat_lng": "string",
-          "date_of_birth": "string",
-          "description": "string",
-          "gender": "Male",
-          "website": "https://example.com",
-          "avatar": "string",
-          "cover": "string",
-          "ext_id": "string",
-          "tags": [
-            {
-              "id": 0,
-              "active": "boolean",
-              "type": "user",
-              "name": "string",
-              "description": "string",
-              "color": "string",
-              "visible": "boolean",
-              "deleted": "boolean",
-              "created_at": "2019-08-24T14:15:22Z"
-            }
-          ],
-        "reputation": 111,
-        "followings_counter": 1,
-        "followers_counter": 0,
-        "posts_counter": 2,
-        "discussions_counter": 4,
-        "statuses_counter": 1,
-        "polls_counter": 6
-        },
-        "added_at": "2019-08-24T14:15:22Z",
-        "html": "string",
-        "summary": "string",
-        "deleted": "boolean",
-        "collapsed": "string",
-        "comment_count": 0,
-        "vote_count": 0,
-        "voted": false,
-        "flag_count": 0,
-        "share_count": 0,
-        "addressing": [0],
-        "title": "string",
-        "slug": "string",
-        "view_count": 0,
-        "follower_count": "string"
-      }
+      "type": "string",
+      "discussion": {Discussion}
     }
   ]
 }

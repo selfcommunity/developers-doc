@@ -100,7 +100,7 @@ curl -X PUT /api/v2/media/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Media](/docs/apireference/v2/schemas/media)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Media](/docs/apireference/v2/schemas/media)|
 
 ### Example responses
 
@@ -122,7 +122,7 @@ curl -X PUT /api/v2/media/{id}/ \
   "image_width": "integer",
   "image_height": "integer",
   "order": "integer",
-  "embed": {}
+  "embed": {Embed}
 }
 ```
 

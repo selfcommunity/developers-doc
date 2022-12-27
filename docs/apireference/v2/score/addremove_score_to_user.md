@@ -18,11 +18,11 @@ This operation requires admin or moderation role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|user|body|integer|true|A unique integer value identifying the user|
-|score|body|integer|true|Positive or negative integer value|
-|comment|body|string|false|A comment about this operation (only for internal usage)|
+| Name    | In   | Type    | Required | Description                                              |
+|---------|------|---------|----------|----------------------------------------------------------|
+| user    | body | integer | true     | A unique integer value identifying the user              |
+| score   | body | integer | true     | Positive or negative integer value                       |
+| comment | body | string  | false    | A comment about this operation (only for internal usage) |
 
 #### Example Body Parameters
 
@@ -88,9 +88,9 @@ curl -X POST /api/v2/score/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-    "comment": "Comment",
-    "user": "1",
-    "score": "20"
+      "user": "integer",
+      "score": "integer",
+      "comment": "string"
   }'
 ```
 </TabItem>
@@ -101,7 +101,7 @@ curl -X POST /api/v2/score/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Score](/docs/apireference/v2/schemas/score)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Score](/docs/apireference/v2/schemas/score)|
 
 ### Example responses
 
@@ -115,16 +115,16 @@ curl -X POST /api/v2/score/ \
 {
   "id": "integer",
   "user": {
-    "id": 0,
+    "id": "integer",
     "username": "string",
     "real_name": "string",
-    "email": "user@example.com",
+    "email": "string",
     "description": "string",
     "avatar": "string",
-    "reputation": 0
+    "reputation": "integer"
   },
   "score": "string",
-  "reputation_type": 1,
+  "reputation_type": "integer",
   "reputation_type_description": "string",
   "comment": "string"
 }

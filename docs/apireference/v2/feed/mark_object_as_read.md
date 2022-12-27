@@ -35,7 +35,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "object": [integer]
+  "object": ["integer"]
 }
 ```
 
@@ -53,7 +53,7 @@ import TabItem from '@theme/TabItem';
 ```js
 
 const inputBody = {
-  object: [integer]
+  object: ["integer"]
 };
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -85,7 +85,7 @@ curl -X POST /api/v2/feed/read/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}' \
   --data-raw '{
-      "object": [integer]
+      "object": ["integer"]
   }'
 ```
 </TabItem>
@@ -96,6 +96,6 @@ curl -X POST /api/v2/feed/read/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|none|None|
+|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
 
 

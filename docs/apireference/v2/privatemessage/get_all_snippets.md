@@ -72,7 +72,7 @@ curl -X GET /api/v2/pm/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -102,8 +102,8 @@ Status Code **200**
     {
       "id": "integer",
       "headline": "string",
-      "sender": {},
-      "receiver": {},
+      "sender": {User},
+      "receiver": {User},
       "created_at": "string",
       "last_message_at": "string",
       "thread_status": "string"

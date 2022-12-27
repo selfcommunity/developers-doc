@@ -68,7 +68,7 @@ curl -X GET /api/v2/post/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Post](/docs/apireference/v2/schemas/post)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Post](/docs/apireference/v2/schemas/post)|
 
 ### Example responses
 
@@ -80,7 +80,7 @@ curl -X GET /api/v2/post/{id}/ \
 
 ```json
 {
-   "id": "integer",
+  "id": "integer",
   "type": "string",
   "last_activity_at": "string",
   "author": {User},
@@ -102,10 +102,10 @@ curl -X GET /api/v2/post/{id}/ \
   "flag_count": "integer",
   "share_count": "integer",
   "slug": "string",
-  "categories": [],
-  "medias": [],
-  "location": {},
-  "addressing": [integer],
+  "categories": [{Category}],
+  "medias": [{Media}],
+  "location": {Locality},
+  "addressing": ["integer"],
   "poll": {Poll}
 }
 ```

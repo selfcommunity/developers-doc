@@ -81,8 +81,8 @@ curl -X GET /api/v2/loyalty/request/{id}/ \
 ```json
 {
   "id": "integer",
-  "user": {},
-  "prize": {},
+  "user": {User},
+  "prize": {Prize},
   "prize_points": "integer",
   "pending_at": "string",
   "status": "integer",

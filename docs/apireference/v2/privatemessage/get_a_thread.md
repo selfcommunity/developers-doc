@@ -76,7 +76,7 @@ curl -X GET /api/v2/pm/?thread=3 \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
@@ -104,19 +104,19 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [ 
     {
-      "id": 0,
+      "id": "integer",
       "message": "string",
-      "sender": "object",
-      "receiver": "object",
-      "created_at": "2019-08-24T14:15:22Z",
+      "sender": {User},
+      "receiver": {User},
+      "created_at": "string",
       "status": "string"
     },
     {
-      "id": 0,
+      "id": "integer",
       "message": "string",
-      "sender": "object",
-      "receiver": "object",
-      "created_at": "2019-08-24T14:15:22Z",
+      "sender": {User},
+      "receiver": {User},
+      "created_at": "string",
       "status": "string"
     }    
   ]

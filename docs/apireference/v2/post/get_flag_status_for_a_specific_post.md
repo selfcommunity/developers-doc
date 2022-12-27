@@ -68,7 +68,7 @@ curl -X GET /api/v2/post/{id}/flag/status/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Flag](/docs/apireference/v2/schemas/flag)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Flag](/docs/apireference/v2/schemas/flag)|
 
 ### Example responses
 
@@ -81,7 +81,7 @@ curl -X GET /api/v2/post/{id}/flag/status/ \
 ```json
 {
   "added_at": "string",
-  "flag_type": "integer,
+  "flag_type": "integer",
   "flag_type_description": "string"
 }
 ```

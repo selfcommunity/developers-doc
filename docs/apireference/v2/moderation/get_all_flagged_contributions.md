@@ -91,18 +91,18 @@ curl -X GET /api/v2/moderation/contribution/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|Inline|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|[[FlaggedContribution](/docs/apireference/v2/schemas/flagged_contribution)]|false|none|none|
+|Name| Type                                                                         |Required|Restrictions|Description|
+|---|------------------------------------------------------------------------------|---|---|---|
+|» count| integer                                                                      |false|none|Total results count|
+|» next| string(uri)¦null                                                             |false|none|Next page url|
+|» previous| string(uri)¦null                                                             |false|none|Previous page url|
+|» results| [[Flagged Contribution](/docs/apireference/v2/schemas/flagged_contribution)] |false|none|List of results|
 
 ### Example responses
 
@@ -122,23 +122,15 @@ Status Code **200**
   "contribution_type": "string",
   "contribution": {
             "id": "integer",
-            "author": {
-              ...User,
-              "blocked_at": "string",
-              "days_blocked": "integer",
-              "expire_at": "string",
-              "last_seen": "string",
-              "flags_given": "integer",
-              "flags_received": "integer",
-              "last_score_variation": {
-                "score": "integer",
-                "comment": "string",
-                "reputed_at": "string",
-                "created_by": {}
-              },
-            },
+            "author": {ModerationUser},
             "added_at": "string",      
-            "categories": [],
+            "categories": [
+                {
+                    "id": "integer,
+                    "name": "string",
+                    "slug": "string"
+                }
+            ],
             "title": "string",
             "html": "string",
             "summary": "string",
@@ -166,7 +158,7 @@ Status Code **200**
           "last_flagged_at": "string",
           "moderation_status": "string",
           "moderation_type": "string",
-          "moderation_by": {},
+          "moderation_by": {User},
           "moderation_at": "string"
     }
   ]
