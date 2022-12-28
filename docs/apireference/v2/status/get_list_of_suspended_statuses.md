@@ -125,7 +125,7 @@ Status Code **200**
                   "location": "string",
                   "addressing": ["integer"]
     },
-    added_at: "string"
+    "added_at": "string"
    }
   ]
 }

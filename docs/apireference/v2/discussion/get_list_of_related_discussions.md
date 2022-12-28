@@ -68,6 +68,12 @@ curl -X GET /api/v2/discussion/{id}/related/ \
 
 ## Responses
 
+|Status|Meaning|Description| Schema |
+|---|---|---|--------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| Inline |
+
+### Response schema
+
 Status Code **200**
 
 |Name|Type|Required|Restrictions|Description|

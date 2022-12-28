@@ -41,10 +41,10 @@ title: Targeted Banner Visibility
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description          |
-|---|---|---|---|----------------------|
-|id|integer|false|read-only| none                 |
-|banner|[TargetedHtmlBanner](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_html_banner), [TargetedNotificationBanner](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_notification_banner)|false|read-only| none                 |
-|added_at|string(date-time)|false|read-only| Datetime of creation |
-|disposed_at|string(date-time)|false|read-only| Datetime of disposal |
-|viewed_at|string(date-time)|false|read-only| Datetime of view     |
+| Name        | Type                                                                                                                                                                                                         | Required | Restrictions | Description                                    |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--------------|------------------------------------------------|
+| id          | integer                                                                                                                                                                                                      | false    | read-only    | A unique integer value identifying this banner |
+| banner      | [Targeted Html Banner](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_html_banner), [TargetedNotificationBanner](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_notification_banner) | false    | read-only    | The banner object                              |
+| added_at    | string(date-time)                                                                                                                                                                                            | false    | read-only    | Datetime of creation                           |
+| disposed_at | string(date-time)                                                                                                                                                                                            | false    | read-only    | Datetime of disposal                           |
+| viewed_at   | string(date-time)                                                                                                                                                                                            | false    | read-only    | Datetime of view                               |

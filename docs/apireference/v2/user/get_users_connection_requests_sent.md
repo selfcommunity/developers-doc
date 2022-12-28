@@ -81,12 +81,12 @@ curl -X GET /api/v2/user/{id}/connection/requests_sent/ \
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|[[ConnectionRequest](/docs/apireference/v2/schemas/connection_request)]|false|none|List of results|
+|Name| Type                                                                        |Required|Restrictions|Description|
+|---|-----------------------------------------------------------------------------|---|---|---|
+|» count| integer                                                                     |false|none|Total results count|
+|» next| string(uri)¦null                                                            |false|none|Next page url|
+|» previous| string(uri)¦null                                                            |false|none|Previous page url|
+|» results| list([ConnectionRequest](/docs/apireference/v2/schemas/connection_request)) |false|none|List of results|
 
 ### Example responses
 

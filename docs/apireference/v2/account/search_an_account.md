@@ -18,12 +18,12 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-| Name     | In    | Type   | Required | Description                               |
-|----------|-------|--------|----------|-------------------------------------------|
-| username | query | string | false    | The username of the user.                 |
-| email    | query | string | false    | The email of the user.                    |
+| Name     | In    | Type   | Required | Description                          |
+|----------|-------|--------|----------|--------------------------------------|
+| username | query | string | false    | The username of the user             |
+| email    | query | string | false    | The email of the user                |
 | ext_id   | query | string | false    | A unique external id identifying the user |
-| provider | query | string | false    | The external provider of the ext_id.      |
+| provider | query | string | false    | The external provider of the ext_id  |
 
 :::info
 
@@ -83,7 +83,7 @@ curl -X GET /api/v2/account/search/ \
 
 | Status | Meaning                                                 | Description | Schema                                     |
 |--------|---------------------------------------------------------|-------------|--------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [User](/docs/apireference/v2/schemas/user) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [User](/docs/apireference/v2/schemas/user) |
 
 :::info
 
@@ -123,7 +123,7 @@ It will return status code 200 if the user is found. If not found it will return
   "status": "string",
   "website": "string",
   "cover": "string",
-  "tags": [],
+  "tags": [{Tag}],
   "ext_id": "integer",
   "reputation": "integer",
   "community_badge": "boolean",

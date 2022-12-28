@@ -19,10 +19,10 @@ This operation does not require authentication.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                                            |
-|---|---|---|---|--------------------------------------------------------|
-|id|path|string|true| A unique integer value identifying the current user id |
-|body|body|[UserSettings](/docs/apireference/v2/schemas/user_settings)|false| The request body                                       |
+|Name|In| Type                                                         |Required| Description                                            |
+|---|---|--------------------------------------------------------------|---|--------------------------------------------------------|
+|id|path| string                                                       |true| A unique integer value identifying the current user id |
+|body|body| [User Settings](/docs/apireference/v2/schemas/user_settings) |false| The request body                                       |
 
 ### Example Request
 

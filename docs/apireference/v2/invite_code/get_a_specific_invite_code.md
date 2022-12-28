@@ -67,7 +67,7 @@ curl -X GET /api/v2/invite_code/{id/code}/ \
 
 | Status | Meaning                                                 | Description | Schema                                                  |
 |--------|---------------------------------------------------------|-------------|---------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [InviteCode](/docs/apireference/v2/schemas/invite_code) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [InviteCode](/docs/apireference/v2/schemas/invite_code) |
 
 ### Example responses
 

@@ -80,9 +80,9 @@ curl -X GET /api/v2/status/{id}/flag/ \
 
 ```json
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
+    "count": "integer",
+    "next": "string(uri)",
+    "previous": "string(uri)",
     "results": [
         {
           "user": {

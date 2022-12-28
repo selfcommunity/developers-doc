@@ -32,13 +32,13 @@ This operation requires authentication
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|» Content-Range|header|string|true|range of the chunk upload in the format `bytes start-end/total`|
-|» upload_id|body|string|true|returned by the first call and required from the second|
-|» expires|body|string|false|expiration time|
-|» image|body|blob|false|Image chunk to be uploaded|
-|» document|body|blob|false|Document chunk to be uploaded|
+|Name|In|Type|Required| Description                                                         |
+|---|---|---|---|---------------------------------------------------------------------|
+|» Content-Range|header|string|true| The range of the chunk upload in the format `bytes start-end/total` |
+|» upload_id|body|string|true| Id returned by the first call and required from the second          |
+|» expires|body|string|false| The expiration time                                                 |
+|» image|body|blob|false| Image chunk to be uploaded                                          |
+|» document|body|blob|false| Document chunk to be uploaded                                       |
 
 #### Example Body Parameters
 
@@ -114,9 +114,9 @@ curl -X POST /api/v2/media/upload/chunk/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[ChunkMedia](/docs/apireference/v2/schemas/chunk_media)|
+|Status|Meaning|Description| Schema                                                   |
+|---|---|---|----------------------------------------------------------|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code| [Chunk Media](/docs/apireference/v2/schemas/chunk_media) |
 
 ### Example responses
 

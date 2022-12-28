@@ -92,9 +92,9 @@ curl -X POST /api/v2/webhook/endpoint/{id}/secret/reveal/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[EndpointSecret](/docs/apireference/v2/schemas/endpoint_secret)|
+|Status|Meaning|Description| Schema                                                           |
+|---|---|---|------------------------------------------------------------------|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code| [Endpoint Secret](/docs/apireference/v2/schemas/endpoint_secret) |
 
 ### Example responses
 

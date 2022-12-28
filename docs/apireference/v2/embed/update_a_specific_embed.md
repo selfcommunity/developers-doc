@@ -96,9 +96,9 @@ curl -X PUT /api/v2/embed/{id}/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[UpdateEmbed](/docs/apireference/v2/schemas/embed)|
+|Status|Meaning|Description| Schema                                              |
+|---|---|---|-----------------------------------------------------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| [Update Embed](/docs/apireference/v2/schemas/embed) |
 
 ### Example responses
 

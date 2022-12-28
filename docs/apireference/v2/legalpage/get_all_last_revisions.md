@@ -60,7 +60,7 @@ curl -X GET /api/v2/legal_page/last_revisions/ \
 ## Responses
 | Status | Meaning                                                 | Description | Value/Schema                                                 |
 |--------|---------------------------------------------------------|-------------|--------------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | list([Legal Page](/docs/apireference/v2/schemas/legal_page)) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | list([Legal Page](/docs/apireference/v2/schemas/legal_page)) |
 
 ### Example responses
 

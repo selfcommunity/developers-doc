@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "status": 'string'
+  "status": "string"
 }
 ```
 

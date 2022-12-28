@@ -25,10 +25,10 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                                 |
-|---|---|---|---|---------------------------------------------|
+|Name|In|Type|Required| Description                                |
+|---|---|---|---|--------------------------------------------|
 |id|path|string|true| A unique integer value identifying this tag |
-|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false| The request body (tag params)               |
+|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false| The request body(tag params)               |
 
 #### Example Body Parameters
 

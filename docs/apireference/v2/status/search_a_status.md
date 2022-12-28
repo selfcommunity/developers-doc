@@ -75,12 +75,12 @@ curl -X GET /api/v2/status/search/ \
 
 Status Code **200**
 
-| Name       | Type                                      | Required | Restrictions | Description         |
-|------------|-------------------------------------------|----------|--------------|---------------------|
-| » count    | integer                                   | true     | none         | Total results count |
-| » next     | string¦null                               | false    | none         | Next page url       |
-| » previous | string¦null                               | false    | none         | Previous page url   |
-| » results  | list([SearchStatus](/docs/apireference/v2/schemas/search_status)) | true     | none         | List of results     |
+| Name       | Type                                                               | Required | Restrictions | Description         |
+|------------|--------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                            | true     | none         | Total results count |
+| » next     | string¦null                                                        | false    | none         | Next page url       |
+| » previous | string¦null                                                        | false    | none         | Previous page url   |
+| » results  | list([Search Status](/docs/apireference/v2/schemas/search_status)) | true     | none         | List of results     |
 
 ### Example responses
 

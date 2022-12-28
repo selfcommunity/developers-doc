@@ -22,4 +22,4 @@ title: Reaction
 | label     | string      | The label of the reaction (unique)               |
 | sentiment | integer     | The sentiment value associated to the reaction   |
 | image     | string(uri) | The image of the reaction                        |
-| active    | boolean     | Is this reaction active?                         |
+| active    | boolean     | If true, this reaction is active                 |

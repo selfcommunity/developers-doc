@@ -70,9 +70,9 @@ curl -X GET /api/v2/notification/banner/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[TargetedBannerVisibility](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_banner_visibility)|
+|Status|Meaning|Description| Schema                                                                                                     |
+|---|---|---|------------------------------------------------------------------------------------------------------------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| [Targeted Banner Visibility](/docs/apireference/v2/schemas/TargetedBannerTypes/targeted_banner_visibility) |
 
 ### Response Schema
 

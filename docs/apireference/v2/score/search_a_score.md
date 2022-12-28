@@ -78,12 +78,12 @@ curl -X GET /api/v2/score/search/ \
 
 Status Code **200**
 
-| Name       | Type                                           | Required | Restrictions | Description         |
-|------------|------------------------------------------------|----------|--------------|---------------------|
-| » count    | integer                                        | false    | none         | Total results count |
-| » next     | string(uri)¦null                               | false    | none         | Next page url       |
-| » previous | string(uri)¦null                               | false    | none         | Previous page url   |
-| » results  | [[Score](/docs/apireference/v2/schemas/score)] | false    | none         | List of results     |
+| Name       | Type                                               | Required | Restrictions | Description         |
+|------------|----------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                            | false    | none         | Total results count |
+| » next     | string(uri)¦null                                   | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                   | false    | none         | Previous page url   |
+| » results  | list([Score](/docs/apireference/v2/schemas/score)) | false    | none         | List of results     |
 
 ### Example responses
 

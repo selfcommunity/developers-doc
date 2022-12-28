@@ -97,12 +97,12 @@ curl -X GET /api/v2/moderation/contribution/ \
 
 Status Code **200**
 
-|Name| Type                                                                         |Required|Restrictions|Description|
-|---|------------------------------------------------------------------------------|---|---|---|
-|» count| integer                                                                      |false|none|Total results count|
-|» next| string(uri)¦null                                                             |false|none|Next page url|
-|» previous| string(uri)¦null                                                             |false|none|Previous page url|
-|» results| [[Flagged Contribution](/docs/apireference/v2/schemas/flagged_contribution)] |false|none|List of results|
+|Name| Type                                                                             |Required|Restrictions|Description|
+|---|----------------------------------------------------------------------------------|---|---|---|
+|» count| integer                                                                          |false|none|Total results count|
+|» next| string(uri)¦null                                                                 |false|none|Next page url|
+|» previous| string(uri)¦null                                                                 |false|none|Previous page url|
+|» results| list([Flagged Contribution](/docs/apireference/v2/schemas/flagged_contribution)) |false|none|List of results|
 
 ### Example responses
 

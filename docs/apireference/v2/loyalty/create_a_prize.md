@@ -19,9 +19,9 @@ This operation requires authentication and admin or editor role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|body|body|[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)|false|none|
+|Name|In| Type                                                         |Required| Description                            |
+|---|---|--------------------------------------------------------------|---|----------------------------------------|
+|body|body| [Loyalty Prize](/docs/apireference/v2/schemas/loyalty_prize) |false| The request body(loyalty prize params) |
 
 #### Enumerated Values
 
@@ -104,7 +104,7 @@ curl -X POST /api/v2/loyalty/prize/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)|
 
 ### Example responses
 

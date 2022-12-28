@@ -65,7 +65,7 @@ curl -X POST /api/v2/udp/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|Inline|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|Inline|
 
 
 ### Response Schema

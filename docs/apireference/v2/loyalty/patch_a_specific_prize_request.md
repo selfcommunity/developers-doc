@@ -24,10 +24,10 @@ This operation requires authentication and admin or editor role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this loyalty prize user|
-|body|body|[LoyaltyPrizeUser](/docs/apireference/v2/schemas/loyalty_prize_user)|false|none|
+|Name|In| Type                                                                   |Required| Description                                                |
+|---|---|------------------------------------------------------------------------|---|------------------------------------------------------------|
+|id|path| string                                                                 |true| A unique integer value identifying this loyalty prize user |
+|body|body| [Loyalty Prize User](/docs/apireference/v2/schemas/loyalty_prize_user) |false| The request body(loyalty prize user params)                |
 
 #### Example Body Parameters
 
@@ -104,9 +104,9 @@ curl -X PATCH /api/v2/loyalty/request/{id}/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[LoyaltyPrizeUser](/docs/apireference/v2/schemas/loyalty_prize_user)|
+|Status|Meaning|Description| Schema                                                                 |
+|---|---|---|------------------------------------------------------------------------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| [Loyalty Prize User](/docs/apireference/v2/schemas/loyalty_prize_user) |
 
 ### Example responses
 

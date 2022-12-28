@@ -170,7 +170,7 @@ curl -X PUT /api/v2/discussion/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Discussion](/docs/apireference/v2/schemas/discussion)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Discussion](/docs/apireference/v2/schemas/discussion)|
 
 ### Example responses
 

@@ -84,13 +84,13 @@ curl -X POST /api/v2/sso/signin/ \
 
 Status Code **200**
 
-| Name       | Type           | Required | Restrictions | Description                                             |
-|------------|----------------|----------|--------------|---------------------------------------------------------|
-| » id       | integer        | true     | none         | A unique internal id identifying the authenticated user |
-| » ext_id   | integer¦null   | true     | none         | A unique external id identifying the authenticated user |
-| » username | string         | true     | none         | Username of the authenticated user                      |
-| » role     | string¦null    | false    | none         | Role of the user; it can be: admin, moderator, editor   |
-| » tags     | ["integer"]¦null | false    | none         | List of tag ids                                         |
+| Name       | Type               | Required | Restrictions | Description                                             |
+|------------|--------------------|----------|--------------|---------------------------------------------------------|
+| » id       | integer            | true     | none         | A unique internal id identifying the authenticated user |
+| » ext_id   | integer¦null       | true     | none         | A unique external id identifying the authenticated user |
+| » username | string             | true     | none         | Username of the authenticated user                      |
+| » role     | string¦null        | false    | none         | Role of the user; it can be: admin, moderator, editor   |
+| » tags     | list(integer)¦null | false    | none         | List of tag ids                                         |
 
 ### Example responses
 

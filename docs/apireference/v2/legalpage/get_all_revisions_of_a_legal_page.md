@@ -21,11 +21,11 @@ If the user is authenticated the 'ack' field will be added to the response with 
 
 ### Parameters
 
-| Name   | In    | Type    | Required | Description                                         |
-|--------|-------|---------|----------|-----------------------------------------------------|
-| policy | path  | string  | true     | Can be one between cookies, tec or privacy.         |
-| limit  | query | integer | false    | Number of results to return per page.               |
-| offset | query | integer | false    | The initial index from which to return the results. |
+| Name   | In    | Type    | Required | Description                                       |
+|--------|-------|---------|----------|---------------------------------------------------|
+| policy | path  | string  | true     | Can be one between cookies, tec or privacy        |
+| limit  | query | integer | false    | Number of results to return per page              |
+| offset | query | integer | false    | The initial index from which to return the results |
 
 ### Example Request
 
@@ -71,7 +71,7 @@ curl -X GET /api/v2/legal_page/ \
 
 | Status | Meaning                                                 | Description | Schema |
 |--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | Inline |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | Inline |
 
 ### Response Schema
 

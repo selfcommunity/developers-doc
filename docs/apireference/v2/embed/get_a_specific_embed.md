@@ -69,7 +69,7 @@ curl -X GET /api/v2/embed/{id}/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Embed](/docs/apireference/v2/schemas/embed)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Embed](/docs/apireference/v2/schemas/embed)|
 
 ### Example responses
 

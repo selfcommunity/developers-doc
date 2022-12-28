@@ -83,7 +83,7 @@ curl -X POST /api/v2/incubator/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Successfully created|[Incubator](/docs/apireference/v2/schemas/incubator)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Incubator](/docs/apireference/v2/schemas/incubator)|
 
 ### Example responses
 

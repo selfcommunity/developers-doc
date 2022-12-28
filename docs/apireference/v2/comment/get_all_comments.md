@@ -111,18 +111,18 @@ curl -X GET /api/v2/comment/ \
 
 | Status | Meaning                                                 | Description | Schema |
 |--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | Inline |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-| Name       | Type                                               | Required | Restrictions | Description |
-|------------|----------------------------------------------------|----------|--------------|-------------|
-| » count    | integer                                            | false    | none         | none        |
-| » next     | string(uri)¦null                                   | false    | none         | none        |
-| » previous | string(uri)¦null                                   | false    | none         | none        |
-| » results  | [[Comment](/docs/apireference/v2/schemas/comment)] | false    | none         | none        |
+| Name       | Type                                                   | Required | Restrictions | Description |
+|------------|--------------------------------------------------------|----------|--------------|-------------|
+| » count    | integer                                                | false    | none         | none        |
+| » next     | string(uri)¦null                                       | false    | none         | none        |
+| » previous | string(uri)¦null                                       | false    | none         | none        |
+| » results  | list([Comment](/docs/apireference/v2/schemas/comment)) | false    | none         | none        |
 
 ### Example responses
 ````mdx-code-block

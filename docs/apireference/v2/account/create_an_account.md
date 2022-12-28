@@ -98,9 +98,9 @@ curl -X POST /api/v2/account/create/ \
 
 ### Response Schema
 
-| Status | Meaning                                                      | Description | Schema                                     |
-|--------|--------------------------------------------------------------|-------------|--------------------------------------------|
-| 201    | [CREATED](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [User](/docs/apireference/v2/schemas/user) |
+| Status | Meaning                                                      | Description          | Schema                                     |
+|--------|--------------------------------------------------------------|----------------------|--------------------------------------------|
+| 201    | [CREATED](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [User](/docs/apireference/v2/schemas/user) |
 
 
 

@@ -35,12 +35,12 @@ This operation requires authentication
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|» type|body|string|true|none|
-|» url|body|string(uri)|if `type` is *url*|Required for type url|
-|» shared_object|body|integer|if `type` is *share*|Required for type share|
-|» embed|body|[Embed](/docs/apireference/v2/schemas/embed)|if `type` is *embed*|none|
+|Name|In|Type|Required| Description             |
+|---|---|---|---|-------------------------|
+|» type|body|string|true| The media type          |
+|» url|body|string(uri)|if `type` is *url*| Required for type url   |
+|» shared_object|body|integer|if `type` is *share*| Required for type share |
+|» embed|body|[Embed](/docs/apireference/v2/schemas/embed)|if `type` is *embed*| The embed object        |
 
 #### Enumerated Values
 

@@ -68,5 +68,5 @@ title: Status
 | » location       | string¦null                                              | true     | read-only    | Location name                                                        |
 | » lat            | number¦null                                              | true     | read-only    | Location latitude                                                    |
 | » lng            | number¦null                                              | true     | read-only    | Location longitude                                                   |
-| addressing       | ["integer"]                                                | false    | read-only    | List of [Tag](/docs/apireference/v2/schemas/tag) ids                 |
+| addressing       | list(integer)                                              | false    | read-only    | List of [Tag](/docs/apireference/v2/schemas/tag) ids                 |
 

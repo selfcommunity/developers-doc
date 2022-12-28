@@ -118,7 +118,7 @@ curl -X POST /api/v2/comment/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Comment](/docs/apireference/v2/schemas/comment)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Comment](/docs/apireference/v2/schemas/comment)|
 
 ### Example responses
 

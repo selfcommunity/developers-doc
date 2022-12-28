@@ -18,8 +18,8 @@ title: Flag
 
 |Name| Type              |Required|Restrictions| Description                                   |
 |---|-------------------|---|---|-----------------------------------------------|
-|user| object            |false|read-only| [User](/docs/apireference/v2/schemas/user)    |
-|added_at| string(date-time) |false|read-only| none                                          |
+|user| [User](/docs/apireference/v2/schemas/user)            |false|read-only| The user object                               |
+|added_at| string(date-time) |false|read-only| Datetime of flag creation                     |
 |flag_type| [integer](/docs/apireference/v2/schemas/flag#enumerated-values)       |true|none| The value associated with the flag type       |
 |flag_type_description| string            |false|read-only| The description associated with the flag type |
 

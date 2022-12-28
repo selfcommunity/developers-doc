@@ -114,8 +114,8 @@ Status Code **200**
   "previous": "string(uri)",
   "results": [
     {
-        "is_new": false,
-        "sid": "1905252769000",
+        "is_new": "boolean",
+        "sid": "string",
         "post": {...},
         "aggregated": [
             {
@@ -130,8 +130,8 @@ Status Code **200**
         ]
     },
     {
-       "is_new": false,
-       "sid": "1435259289000",
+       "is_new": "boolean",
+       "sid": "string",
        "aggregated": [
             {
               "is_new": "boolean",

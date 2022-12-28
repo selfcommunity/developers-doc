@@ -18,11 +18,11 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name   | In    | Type    | Required | Description                                         |
-|--------|-------|---------|----------|-----------------------------------------------------|
-| id     | path  | string  | true     | A unique integer value identifying this comment.    |
-| limit  | query | integer | false    | Number of results to return per page.               |
-| offset | query | integer | false    | The initial index from which to return the results. |
+| Name   | In    | Type    | Required | Description                                      |
+|--------|-------|---------|----------|--------------------------------------------------|
+| id     | path  | string  | true     | A unique integer value identifying this comment  |
+| limit  | query | integer | false    | Number of results to return per page             |
+| offset | query | integer | false    | The initial index from which to return the results |
 
 ### Example Request
 
@@ -71,7 +71,7 @@ curl -X GET /api/v2/comment/{id}/vote/ \
 
 | Status | Meaning                                                 | Description | Schema                                     |
 |--------|---------------------------------------------------------|-------------|--------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | none        | [Vote](/docs/apireference/v2/schemas/vote) |
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [Vote](/docs/apireference/v2/schemas/vote) |
 
 ### Example responses
 

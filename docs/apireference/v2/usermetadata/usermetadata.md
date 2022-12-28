@@ -83,7 +83,7 @@ To define custom fields it is also possible to define a field label.
 
 After defining the custom fields for the user you can finally pass them the account create 
 
-[Create an account](/docs/apireference/v2/account/create_an_account.md)
+[Create an account](/docs/apireference/v2/account/create_an_account)
 
 as if they were standard user fields.
 
@@ -99,6 +99,6 @@ as if they were standard user fields.
 
 Now retrieving a user will return also the custom fields  
 
-[get a specific User](/docs/apireference/v2/user/get_a_specific_user)
+[Get a specific User](/docs/apireference/v2/user/get_a_specific_user)
 
 as if they were standard user fields.

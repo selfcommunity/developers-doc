@@ -68,7 +68,7 @@ curl -X GET /api/v2/custom_page/{id}/ \
 ## Responses
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[Custom Page](/docs/apireference/v2/schemas/custom_page)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Custom Page](/docs/apireference/v2/schemas/custom_page)|
 
 ### Example responses
 

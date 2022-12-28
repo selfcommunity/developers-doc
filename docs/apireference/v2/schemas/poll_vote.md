@@ -44,8 +44,8 @@ title: Poll Vote
 
 #### Properties
 
-| Name   | Type                                       | Required | Restrictions | Description           |
-|--------|--------------------------------------------|----------|--------------|-----------------------|
-| id     | integer                                    | false    | read-only    | A unique integer value                   |
-| choice | integer                                    | false    | read-only    | Poll Choice unique id |
-| user   | [User](/docs/apireference/v2/schemas/user) | false    | read-only    | none                  |
+| Name   | Type                                       | Required | Restrictions | Description            |
+|--------|--------------------------------------------|----------|--------------|------------------------|
+| id     | integer                                    | false    | read-only    | A unique integer value |
+| choice | integer                                    | false    | read-only    | Poll Choice unique id  |
+| user   | [User](/docs/apireference/v2/schemas/user) | false    | read-only    | The user object        |

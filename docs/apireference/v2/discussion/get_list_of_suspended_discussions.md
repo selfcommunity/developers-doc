@@ -63,6 +63,11 @@ curl -X GET /api/v2/discussion/suspended/ \
 </TabItem>
 </Tabs>
 ````
+## Responses
+
+|Status|Meaning|Description| Schema |
+|---|---|---|--------|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code| Inline |
 
 ### Response Schema
 
@@ -121,7 +126,7 @@ Status Code **200**
                   "poll": {Poll},
                   "title": "string"
     },
-    added_at: "string"
+    "added_at": "string"
     }
   ]
 }

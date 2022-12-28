@@ -167,7 +167,7 @@ curl -X POST /api/v2/discussion/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[Discussion](/docs/apireference/v2/schemas/discussion)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Discussion](/docs/apireference/v2/schemas/discussion)|
 
 ### Example responses
 

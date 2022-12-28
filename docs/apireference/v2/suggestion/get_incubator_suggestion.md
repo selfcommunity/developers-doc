@@ -72,9 +72,9 @@ curl -X GET /api/v2/suggestion/incubator/ \
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» results|list of [Incubators](/docs/apireference/v2/schemas/incubator)|false|none|List of results|
+|Name| Type                                                        |Required|Restrictions|Description|
+|---|-------------------------------------------------------------|---|---|---|
+|» results| list([Incubators](/docs/apireference/v2/schemas/incubator)) |false|none|List of results|
 
 ### Example responses
 

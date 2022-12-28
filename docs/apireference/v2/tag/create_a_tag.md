@@ -18,9 +18,9 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                   |
-|---|---|---|---|-------------------------------|
-|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false| The request body (tag params) |
+|Name|In|Type|Required| Description                  |
+|---|---|---|---|------------------------------|
+|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false| The request body(tag params) |
 
 #### Example Body Parameters
 

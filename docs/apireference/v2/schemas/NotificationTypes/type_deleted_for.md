@@ -20,16 +20,16 @@ Example preview:
 
 #### Properties
 
-|Name| Type                                                   |Required|Restrictions|Description|
-|---|--------------------------------------------------------|---|---|---|
-|is_new| boolean                                                |true|read-only|If true, the notification has been read|
-|sid| string                                                 |true|read-only|Serialization id of the notification|
-|type| [string](/docs/apireference/v2/schemas/NotificationTypes/type_deleted_for#enumerated-values)                                             |true|read-only|Types: "deleted_for_advertising", "deleted_for_aggressive", "deleted_for_vulgar", "deleted_for_poor", "deleted_for_offtopic", "undeleted_for"|
-|active_at| string(date-time)                                      |true|read-only|Time when the notification was generated|
-|discussion| [Discussion](/docs/apireference/v2/schemas/discussion) |false|read-only|if a discussion is deleted|
-|post| [Post](/docs/apireference/v2/schemas/post)             |false|read-only|if a post is deleted|
-|comment| [Comment](/docs/apireference/v2/schemas/comment)       |false|read-only|if a comment is deleted|
-|status| [Status](/docs/apireference/v2/schemas/status)         |false|read-only|if a status is deleted|
+| Name       | Type                                                                                         | Required | Restrictions | Description                                                                                                                                   |
+|------------|----------------------------------------------------------------------------------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| is_new     | boolean                                                                                      | true     | read-only    | If true, the notification has been read                                                                                                       |
+| sid        | string                                                                                       | true     | read-only    | Serialization id of the notification                                                                                                          |
+| type       | [string](/docs/apireference/v2/schemas/NotificationTypes/type_deleted_for#enumerated-values) | true     | read-only    | Types: "deleted_for_advertising", "deleted_for_aggressive", "deleted_for_vulgar", "deleted_for_poor", "deleted_for_offtopic", "undeleted_for" |
+| active_at  | string(date-time)                                                                            | true     | read-only    | Time when the notification was generated                                                                                                      |
+| discussion | [Discussion](/docs/apireference/v2/schemas/discussion)                                       | false    | read-only    | If a discussion is deleted                                                                                                                    |
+| post       | [Post](/docs/apireference/v2/schemas/post)                                                   | false    | read-only    | If a post is deleted                                                                                                                          |
+| comment    | [Comment](/docs/apireference/v2/schemas/comment)                                             | false    | read-only    | If a comment is deleted                                                                                                                       |
+| status     | [Status](/docs/apireference/v2/schemas/status)                                               | false    | read-only    | If a status is deleted                                                                                                                        |
 
 #### Enumerated Values
 

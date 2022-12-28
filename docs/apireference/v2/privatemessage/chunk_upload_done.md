@@ -18,15 +18,15 @@ This operation requires authentication
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|done|query|string|true|none|
-|qquuid|body|string|true|The file uuid returned by the first chunk upload|
-|qqfilename|body|string|true|The name of the file to upload|
-|qqtotalparts|body|integer|false|The number of total parts of the chunk to upload|
-|qqmd5|body|string|false|The MD5 of the file to upload|
-|qqfiletype|body|string|false|The type of the file to upload|
-|qqtotalfilesize|body|integer|false|The size of the file to upload|
+|Name|In|Type|Required| Description                                      |
+|---|---|---|---|--------------------------------------------------|
+|done|query|string|true| Path string                                      |
+|qquuid|body|string|true| The file uuid returned by the first chunk upload |
+|qqfilename|body|string|true| The name of the file to upload                   |
+|qqtotalparts|body|integer|false| The number of total parts of the chunk to upload |
+|qqmd5|body|string|false| The MD5 of the file to upload                    |
+|qqfiletype|body|string|false| The type of the file to upload                   |
+|qqtotalfilesize|body|integer|false| The size of the file to upload                   |
 
 
 
@@ -100,7 +100,7 @@ curl -X POST /api/v2/pm/upload/?done/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|[File](/docs/apireference/v2/schemas/file)|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[File](/docs/apireference/v2/schemas/file)|
 
 ### Example responses
 

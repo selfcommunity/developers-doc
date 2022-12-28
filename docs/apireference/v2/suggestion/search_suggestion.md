@@ -75,12 +75,12 @@ curl -X GET /api/v2/suggestion/?search={search} \
 
 Status Code **200**
 
-| Name       | Type                                                                                                     | Required | Restrictions | Description         |
-|------------|----------------------------------------------------------------------------------------------------------|----------|--------------|---------------------|
-| » count    | integer                                                                                                  | false    | none         | Total results count |
-| » next     | string(uri)¦null                                                                                         | false    | none         | Next page url       |
-| » previous | string(uri)¦null                                                                                         | false    | none         | Previous page url   |
-| » results  | list([User](/docs/apireference/v2/schemas/user)) and ([Category](/docs/apireference/v2/schemas/category) | false    | none         | List of results     |
+| Name       | Type                                                                                                      | Required | Restrictions | Description         |
+|------------|-----------------------------------------------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                                                                   | false    | none         | Total results count |
+| » next     | string(uri)¦null                                                                                          | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                                                                          | false    | none         | Previous page url   |
+| » results  | list([User](/docs/apireference/v2/schemas/user)) and ([Category](/docs/apireference/v2/schemas/category)) | false    | none         | List of results     |
 
 ### Example responses
 
@@ -97,14 +97,14 @@ Status Code **200**
     "previous": "string(uri)",
     "results": [
   {
-    'type': 'string',
-    'score': "integer",
-    'user': {User}
+    "type": "string",
+    "score": "integer",
+    "user": {User}
   },
   {
-    'type': 'string',
-    'score': "integer",
-    'category': {Category}
+    "type": "string",
+    "score": "integer",
+    "category": {Category}
     ]
 }
 ```

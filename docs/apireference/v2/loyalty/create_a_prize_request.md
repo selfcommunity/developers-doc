@@ -90,9 +90,9 @@ curl -X POST /api/v2/loyalty/request/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|none|[LoyaltyPrizeUser](/docs/apireference/v2/schemas/loyalty_prize_user)|
+|Status|Meaning|Description| Schema                                                                 |
+|---|---|---|------------------------------------------------------------------------|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code| [Loyalty Prize User](/docs/apireference/v2/schemas/loyalty_prize_user) |
 
 ### Example responses
 

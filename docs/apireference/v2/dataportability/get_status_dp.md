@@ -72,14 +72,14 @@ curl -X GET /api/v2/udp/ \
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|computing|boolean|false|read-only|Is still processing your data?|
-|send_email|boolean|false|read-only|Has already sent the email?|
-|requested_at|string(date-time)|false|read-only|Request date time|
-|generated_at|string(date-time)|false|read-only|Generation date time|
-|email_sent_at|string(date-time)|false|read-only|Email sent date time|
-|downloaded_at|string(date-time)|false|read-only|Download date time|
+|Name|Type|Required|Restrictions| Description                           |
+|---|---|---|---|---------------------------------------|
+|computing|boolean|false|read-only| If true, the data is still in process |
+|send_email|boolean|false|read-only| If true, the email has been sent      |
+|requested_at|string(date-time)|false|read-only| Request date time                     |
+|generated_at|string(date-time)|false|read-only| Generation date time                  |
+|email_sent_at|string(date-time)|false|read-only| Email sent date time                  |
+|downloaded_at|string(date-time)|false|read-only| Download date time                    |
 
 ### Example responses
 
