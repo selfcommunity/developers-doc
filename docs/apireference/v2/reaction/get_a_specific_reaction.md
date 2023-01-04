@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Get a Specific Reaction
 ---
 
-This endpoint retrieves a specific Reaction.
+This endpoint retrieves a specific reaction.
 
 :::info
 

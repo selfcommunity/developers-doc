@@ -1,10 +1,10 @@
 ---
-sidebar_label: Get All Reactions
+sidebar_label: Search a Reaction
 sidebar_position: 1
-title: Get All Reactions
+title: Search a Reaction
 ---
 
-This endpoint retrieves all reactions.
+This endpoint performs a specific reaction search.
 
 
 :::info
@@ -16,15 +16,15 @@ This operation does not require authentication.
 
 ## HTTP Request
 
-`GET /api/v2/reaction/`
+`GET /api/v2/reaction/search/`
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                  |
-|----------|-------|---------|----------|----------------------------------------------|
-| search   | query | string  | false    | A search term                                |
-| active   | query | boolean | false    | If the reaction is active                    |
-| ordering | query | string  | false    | Which field to use when ordering the results |
+| Name     | In    | Type    | Required | Description               |
+|----------|-------|---------|----------|---------------------------|
+| search   | query | string  | false    | A search term             |
+| active   | query | boolean | false    | If the reaction is active |
+
 
 ### Example Request
 
@@ -41,7 +41,7 @@ const headers = {
   'Accept':'application/json'
 };
 
-fetch('/api/v2/reaction/',
+fetch('/api/v2/reaction/search/',
 {
   method: 'GET',
   headers: headers
@@ -59,7 +59,7 @@ fetch('/api/v2/reaction/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/reaction/ \
+curl -X GET /api/v2/reaction/search/ \
   -H 'Accept: application/json' 
 ```
 </TabItem>
@@ -68,9 +68,9 @@ curl -X GET /api/v2/reaction/ \
 
 ## Responses
 
-| Status | Meaning                                                 | Description | Schema |
-|--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | Inline |
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
