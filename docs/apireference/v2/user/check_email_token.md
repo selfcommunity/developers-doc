@@ -4,11 +4,17 @@ sidebar_position: 41
 title: Check email token
 ---
 
-This endpoint checks an email token typically received in the unsubscribe/settings link of an email
+This endpoint checks an email token typically received in the unsubscribe/settings link of an email.
 
 :::info
 
 This operation does not require authentication.
+
+:::
+
+:::info
+
+Being an unauthenticated api call, it is possible to check the token, after clicking the link in the email, even anonymously. If the check will answer true, it will be possible, for example, to render a page for managing the email reception settings and subsequently call the [user settings update](/docs/apireference/v2/user/change_users_settings) endpoint.
 
 :::
 
@@ -65,12 +71,17 @@ curl -X GET /api/v2/user/{id}/check_email_token/?token={token} \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|--|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|none|
-| Status | Meaning                                                 | Description | Schema |
-|--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | A boolean   | none   |
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
+
+### Response Schema
+
+Status Code **200**
+
+| Name     | Type                                             | Description          |
+|----------|--------------------------------------------------|----------------------|
+| is_valid | boolean                                          | Is this token valid? |
 
 ### Example responses
 
