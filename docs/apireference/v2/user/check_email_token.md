@@ -4,16 +4,25 @@ sidebar_position: 41
 title: Check email token
 ---
 
-This endpoint checks an email token
+This endpoint checks an email token typically received in the unsubscribe/settings link of an email
 
 :::info
 
-This operation requires authentication.
+This operation does not require authentication.
+
 :::
 
 ## HTTP Request
 
-`GET /api/v2/user/check_email_token/`
+`GET /api/v2/user/{id}/check_email_token/`
+
+### Parameters
+
+| Name  | In    | Type   | Required | Description                                                              |
+|-------|-------|--------|----------|--------------------------------------------------------------------------|
+| id    | path  | string | true     | A unique integer value identifying the current user id.                  |
+| token | query | string | true     | A token typically received in the unsubscribe/settings link of an email. |
+
 
 ### Example Request
 
@@ -27,11 +36,10 @@ import TabItem from '@theme/TabItem';
 ```js
 
 const headers = {
-  'Accept':'application/json',
-  'Authorization': 'Bearer <token>'
+  'Accept':'application/json'
 };
 
-fetch('/api/v2/user/check_email_token/',
+fetch('/api/v2/user/{id}/check_email_token/?token={token}',
 {
   method: 'GET',
   headers: headers
@@ -48,9 +56,8 @@ fetch('/api/v2/user/check_email_token/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/user/check_email_token/ \
+curl -X GET /api/v2/user/{id}/check_email_token/?token={token} \
   -H 'Accept: application/json' \
-  -H 'Authorization: Bearer <token>'
 ```
 </TabItem>
 </Tabs>
@@ -61,6 +68,9 @@ curl -X GET /api/v2/user/check_email_token/ \
 |Status|Meaning|Description|Schema|
 |---|---|--|---|
 |200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|none|
+| Status | Meaning                                                 | Description | Schema |
+|--------|---------------------------------------------------------|-------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | A boolean   | none   |
 
 ### Example responses
 
