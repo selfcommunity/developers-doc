@@ -12,13 +12,12 @@ This endpoint retrieves a specific user's insight counters.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                                                                                          |
-|---|---|---|---|------------------------------------------------------------------------------------------------------|
-|user_id|path|integer|true| The user id                                                                                          |
-|limit|path|integer|false| Number of results to return per page                                                                 |
-| category_id     |path| string            |false| Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category) |
-|created_at__gte|path|string(date-time)|false| Datetime of creation(greater than or equal to the given value)                                       |
-|created_at__lte|path|string(date-time)|false| Datetime of creation(less than or equal to the given value)                                          |
+| Name            | In   | Type              | Required | Description                                                                                          |
+|-----------------|------|-------------------|----------|------------------------------------------------------------------------------------------------------|
+| user_id         | path | integer           | true     | The user id                                                                                          |
+| category_id     | path | string            | false    | Can be a single category id or list (comma separated) of categories ids. 0 means empty (no category) |
+| created_at__gte | path | string(date-time) | false    | Datetime of creation(greater than or equal to the given value)                                       |
+| created_at__lte | path | string(date-time) | false    | Datetime of creation(less than or equal to the given value)                                          |
 
 ### Example Request
 
