@@ -18,13 +18,14 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this tag|
-|user|body|integer|false|A unique integer value identifying the user|
-|category|body|integer|false|A unique integer value identifying the category|
+| Name         | In   | Type    | Required | Description                                         |
+|--------------|------|---------|----------|-----------------------------------------------------|
+| id           | path | string  | true     | A unique integer value identifying this tag         |
+| user         | body | integer | false    | A unique integer value identifying the user         |
+| category     | body | integer | false    | A unique integer value identifying the category     |
+| contribution | body | integer | false    | A unique integer value identifying the contribution |
 
-One between "user" and "category" need to be passed to this endpoint.
+One between "user", "category" and "contribution" need to be passed to this endpoint.
 
 #### Example Body Parameters
 

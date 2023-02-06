@@ -4,7 +4,7 @@ sidebar_position: 7
 title: Assign a Tag
 ---
 
-This endpoint assigns a tag to a user or to a category.
+This endpoint assigns a tag to a user or to a category or to a contribution.
 
 :::info
 
@@ -18,32 +18,14 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this tag|
-|user|body|integer|false|A unique integer value identifying the user|
-|category|body|integer|false|A unique integer value identifying the category|
+| Name         | In   | Type    | Required | Description                                         |
+|--------------|------|---------|----------|-----------------------------------------------------|
+| id           | path | string  | true     | A unique integer value identifying this tag         |
+| user         | body | integer | false    | A unique integer value identifying the user         |
+| category     | body | integer | false    | A unique integer value identifying the category     |
+| contribution | body | integer | false    | A unique integer value identifying the contribution |
 
-One between "user" and "category" need to be passed to this endpoint.
-
-#### Example Body Parameters
-
-````mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
-<TabItem value="json">
-
-```json
-{
-  "user": "integer"
-}
-```
-
-</TabItem>
-</Tabs>
-````
+One between "user", "category" and "contribution" need to be passed to this endpoint.
 
 ### Example Request
 
@@ -85,7 +67,7 @@ curl -X POST /api/v2/tag/{id}/assign/ \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}'
-  --DATA '{body}'
+  --DATA '{"user": integer}'
 ```
 </TabItem>
 </Tabs>
@@ -93,9 +75,9 @@ curl -X POST /api/v2/tag/{id}/assign/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |
 
 
 

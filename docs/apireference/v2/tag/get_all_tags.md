@@ -18,16 +18,17 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                                                                                                              |
-|---|---|---|---|--------------------------------------------------------------------------------------------------------------------------|
-|limit|query|integer|false| Number of results to return per page                                                                                     |
-|offset|query|integer|false| The initial index from which to return the results                                                                       |
-|search|query|string|false| A search term                                                                                                            |
-|active|query|string|false| If true, the tag is active                                                                                               |
-|deleted|query|string|false| If true, the tag has been deleted                                                                                        |
-|visible|query|string|false| If true, this tag is publicly visible                                                                                    |
-|visibility_boost|query|string|false| The tag add a visibility boost                                                                                           |
-|ordering|query|string|false| Ordering fields (eg: `?ordering=name,created_at`), default is `-created_at` (minus char is used for descending ordering) |
+| Name             | In    | Type    | Required | Description                                                                                                              |
+|------------------|-------|---------|----------|--------------------------------------------------------------------------------------------------------------------------|
+| limit            | query | integer | false    | Number of results to return per page                                                                                     |
+| offset           | query | integer | false    | The initial index from which to return the results                                                                       |
+| search           | query | string  | false    | A search term                                                                                                            |
+| active           | query | string  | false    | If true, the tag is active                                                                                               |
+| type             | query | string  | false    | One of the following: 'user', 'category', 'contribution'                                                                 |
+| deleted          | query | string  | false    | If true, the tag has been deleted                                                                                        |
+| visible          | query | string  | false    | If true, this tag is publicly visible                                                                                    |
+| visibility_boost | query | string  | false    | The tag add a visibility boost                                                                                           |
+| ordering         | query | string  | false    | Ordering fields (eg: `?ordering=name,created_at`), default is `-created_at` (minus char is used for descending ordering) |
 
 ### Example Request
 
@@ -48,7 +49,6 @@ const headers = {
 fetch('/api/v2/tag/',
 {
   method: 'GET',
-
   headers: headers
 })
 .then(function(res) {
@@ -74,20 +74,20 @@ curl -X GET /api/v2/tag/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline| 
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline | 
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Tag](/docs/apireference/v2/schemas/tag))|false|none|List of results|
+| Name       | Type                                           | Required | Restrictions | Description         |
+|------------|------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                        | false    | none         | Total results count |
+| » next     | string(uri)¦null                               | false    | none         | Next page url       |
+| » previous | string(uri)¦null                               | false    | none         | Previous page url   |
+| » results  | list([Tag](/docs/apireference/v2/schemas/tag)) | false    | none         | List of results     |
 
 ### Example responses
 
