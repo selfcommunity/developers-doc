@@ -69,6 +69,7 @@ import TabItem from '@theme/TabItem';
         "flag_count": 0,
         "share_count": 0,
         "addressing": [],
+        "tags": []
     }
 }
 ```

@@ -106,6 +106,7 @@ curl -X GET /api/v2/post/{id}/ \
   "medias": [{Media}],
   "location": {Locality},
   "addressing": ["integer"],
+  "tags": ["integer"],
   "poll": {Poll}
 }
 ```

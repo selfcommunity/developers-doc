@@ -32,6 +32,7 @@ title: Search Discussion
   "medias": [],
   "location": "string",
   "addressing": [],
+  "tags": [],
   "poll": {},
   "title": "string",
   "matches": [

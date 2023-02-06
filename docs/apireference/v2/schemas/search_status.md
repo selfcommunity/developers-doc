@@ -32,6 +32,7 @@ title: Search Status
   "medias": [],
   "location": "string",
   "addressing": [],
+  "tags": [],
   "matches": [
     {
       "object": {

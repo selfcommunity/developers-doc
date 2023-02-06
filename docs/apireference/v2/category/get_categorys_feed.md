@@ -136,6 +136,7 @@ Status Code **200**
                 "medias": [{Media}],
                 "location": "string",
                 "addressing": ["integer"],
+                "tags": ["integer"],
                 "poll": {Poll}
             },
             "seen_by_id": ["integer"],

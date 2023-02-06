@@ -149,6 +149,7 @@ curl -X POST /api/v2/feed/likethis/ \
         "medias": [{Media}],
         "location": "string",
         "addressing": ["integer"],
+        "tags": ["integer"],
         "poll": {Poll},
         "title": "string"
       },

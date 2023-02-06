@@ -33,6 +33,7 @@ title: Feed
     "medias": [],
     "location": "string",
     "addressing": [],
+    "tags": [],
     "poll": {},
     "title": "string"
   },

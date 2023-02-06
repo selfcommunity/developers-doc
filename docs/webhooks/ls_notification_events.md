@@ -108,6 +108,7 @@ import TabItem from '@theme/TabItem';
             "flag_count": 0,
             "share_count": 0,
             "addressing": [],
+            "tags": [],
             "title": "string",
             "slug": "string",
             "view_count": 3,
@@ -216,6 +217,7 @@ import TabItem from '@theme/TabItem';
             "flag_count": 0,
             "share_count": 0,
             "addressing": [],
+            "tags": [],
             "title": "string",
             "slug": "string",
             "view_count": 3,
@@ -357,6 +359,7 @@ import TabItem from '@theme/TabItem';
             "flag_count": 0,
             "share_count": 0,
             "addressing": [],
+            "tags": []
         }
     }
 }
@@ -431,6 +434,7 @@ import TabItem from '@theme/TabItem';
             "flag_count": 0,
             "share_count": 0,
             "addressing": [],
+            "tags": [],
             "title": "string",
             "slug": "string",
             "view_count": 3,
@@ -534,6 +538,7 @@ import TabItem from '@theme/TabItem';
             "flag_count": 0,
             "share_count": 0,
             "addressing": [],
+            "tags": [],
             "title": "string",
             "slug": "string",
             "view_count": 3,
@@ -710,6 +715,7 @@ import TabItem from '@theme/TabItem';
             "flag_count": 0,
             "share_count": 0,
             "addressing": [],
+            "tags": [],
             "title": "string",
             "slug": "string",
             "view_count": 7,
@@ -794,6 +800,7 @@ import TabItem from '@theme/TabItem';
             "flag_count": 0,
             "share_count": 0,
             "addressing": [],
+            "tags": [],
             "title": "string",
             "slug": "string",
             "view_count": 7,

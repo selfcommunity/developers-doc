@@ -105,7 +105,8 @@ curl -X GET /api/v2/status/{id}/ \
   "categories": [{Category}],
   "medias": [{Media}],
   "location": {Location},
-  "addressing": ["integer"]
+  "addressing": ["integer"],
+  "tags": ["integer"]
 }
 ```
 

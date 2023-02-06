@@ -125,7 +125,8 @@ Status Code **200**
       "categories": [{Category}],
       "medias": [{Media}],
       "location": {Locality},
-      "addressing": ["integer"]
+      "addressing": ["integer"],
+      "tags": ["integer"]
     }
   ]
 }

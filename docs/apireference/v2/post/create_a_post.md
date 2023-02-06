@@ -65,7 +65,8 @@ import TabItem from '@theme/TabItem';
         }
       ]
     },
-    "addressing": ["integer"]
+    "addressing": ["integer"],
+    "tags": ["integer"]
 }
 ```
 
@@ -101,7 +102,8 @@ const inputBody = '{
         }
       ]
     },
-    "addressing": ["integer"]
+    "addressing": ["integer"],
+    "tags": ["integer"]
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -152,7 +154,8 @@ curl -X POST /api/v2/post/ \
         }
       ]
     },
-    "addressing": ["integer"]
+    "addressing": ["integer"],
+    "tags": ["integer"]
   }'
 ```
 </TabItem>
@@ -201,6 +204,7 @@ curl -X POST /api/v2/post/ \
   "medias": [{Media}],
   "location": {Location},
   "addressing": ["integer"],
+  "tags": ["integer"],
   "poll": {Poll}
 }
 ```

@@ -106,6 +106,7 @@ curl -X GET /api/v2/discussion/{id}/ \
   "medias": [{Media}],
   "location": "string",
   "addressing": ["integer"],
+  "tags": ["integer"],
   "poll": {Poll},
   "title": "string"
 }

@@ -50,7 +50,8 @@ import TabItem from '@theme/TabItem';
     "lat": "integer",
     "lng": "integer"
   },
-  "addressing": ["integer"]
+  "addressing": ["integer"],
+  "tags": ["integer"]
 }
 ```
 
@@ -76,7 +77,8 @@ const inputBody = '{
     "lat": "integer",
     "lng": "integer"
   },
-  "addressing": ["integer"]
+  "addressing": ["integer"],
+  "tags": ["integer"]
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -117,7 +119,8 @@ curl -X POST /api/v2/status/ \
         "lat": "integer",
         "lng": "integer"
       },
-      "addressing": ["integer"]
+      "addressing": ["integer"],
+      "tags": ["integer"]
   }'
 ```
 </TabItem>
@@ -165,7 +168,8 @@ curl -X POST /api/v2/status/ \
   "categories": [{Category}],
   "medias": [{Media}],
   "location": {Location},
-  "addressing": ["integer"]
+  "addressing": ["integer"],
+  "tags": ["integer"]
 }
 ```
 

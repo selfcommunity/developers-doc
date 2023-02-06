@@ -32,6 +32,7 @@ title: Search Post
   "medias": [],
   "location": "string",
   "addressing": [],
+  "tags": [],
   "poll": {},
   "matches": [
     {
