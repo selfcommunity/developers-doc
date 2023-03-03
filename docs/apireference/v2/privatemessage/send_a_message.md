@@ -87,9 +87,9 @@ curl -X POST /api/v2/pm/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Private Message](/docs/apireference/v2/schemas/private_message)|
+|Status|Meaning|Description| Schema                                                                 |
+|---|---|---|------------------------------------------------------------------------|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code| list([Private Message](/docs/apireference/v2/schemas/private_message)) |
 
 ### Example responses
 
@@ -100,14 +100,17 @@ curl -X POST /api/v2/pm/ \
 <TabItem value="201">
 
 ```json
-{
-  "id": "integer",
-  "sender": {User},
-  "message": "string",
-  "created_at": "string",
-  "status": "string",
-  "file": {File}
-}
+[
+    {
+      "id": "integer",
+      "sender": {User},
+      "message": "string",
+      "created_at": "string",
+      "status": "string",
+      "file": {File},
+      "thread_id": "integer"
+    }
+]
 ```
 
 </TabItem>

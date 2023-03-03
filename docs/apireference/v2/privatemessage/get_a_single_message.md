@@ -82,7 +82,8 @@ curl -X GET /api/v2/pm/{id}/ \
   "message": "string",
   "created_at": "string",
   "status": "string",
-  "file": {File}
+  "file": {File},
+  "thread_id": "integer"
 }
 ```
 

@@ -109,7 +109,8 @@ Status Code **200**
       "sender": {User},
       "receiver": {User},
       "created_at": "string",
-      "status": "string"
+      "status": "string",
+      "thread_id": "integer"
     },
     {
       "id": "integer",
@@ -117,7 +118,8 @@ Status Code **200**
       "sender": {User},
       "receiver": {User},
       "created_at": "string",
-      "status": "string"
+      "status": "string",
+      "thread_id": "integer"
     }    
   ]
 }

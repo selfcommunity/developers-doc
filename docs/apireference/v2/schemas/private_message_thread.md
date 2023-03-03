@@ -13,7 +13,8 @@ title: Private Message
   "message": "string",
   "created_at": "string",
   "status": "string",
-  "file": {}
+  "file": {},
+  "thread_id": "integer"
 }
 
 ```
@@ -29,3 +30,4 @@ title: Private Message
 | created_at | string(date-time)                          | false    | read-only    | Send date time                                         |
 | status     | string                                     | true     | none         | Message status: created, deleted or hidden message     |
 | file       | [File](/docs/apireference/v2/schemas/file) | true     | none         | The private message file                               |
+| thread_id  | integer                                    | false    | read-only    | A unique integer value identifying the thread id        |
