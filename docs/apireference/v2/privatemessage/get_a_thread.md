@@ -46,7 +46,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/pm/?thread=3',
+fetch('/api/v2/pm/?thread={id}',
 {
   method: 'GET',
   headers: headers
@@ -64,7 +64,7 @@ fetch('/api/v2/pm/?thread=3',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/pm/?thread=3 \
+curl -X GET /api/v2/pm/?thread={id} \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```

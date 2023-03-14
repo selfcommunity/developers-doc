@@ -21,7 +21,14 @@ The thread is deleted only for the logged user.
 
 ## HTTP Request
 
-`DELETE /api/v2/pm/{id}/?hide=1`
+`DELETE /api/v2/pm/`
+
+### Parameters
+
+| Name   | In    | Type    | Required                                 | Description          |
+|--------|-------|---------|------------------------------------------|----------------------|
+| thread | query | integer | (one between thread or user is required) | The id of the thread |
+| user   | query | integer | (one between thread or user is required) | The id of the user   |
 
 ### Example Request
 
@@ -38,7 +45,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/pm/{id}/?hide=1',
+fetch('/api/v2/pm/?thread={id}',
 {
   method: 'DELETE',
   headers: headers
@@ -56,7 +63,7 @@ fetch('/api/v2/pm/{id}/?hide=1',
 
 ```bash
 # You can also use wget
-curl -X DELETE /api/v2/pm/{id}/?hide=1 \
+curl -X DELETE /api/v2/pm/?thread={id} \
   -H 'Authorization: Bearer {access_token}'
 ```
 </TabItem>

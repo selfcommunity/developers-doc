@@ -26,12 +26,12 @@ This endpoint always follows [Upload a Media](/docs/apireference/v2/privatemessa
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|qqfile|body|image|true|The file to upload|
-|qqparentuuid|body|string|true|The parent file uuid. It has to be the file_uuid returned by the previous call|
-|qqfiletype|body|string|false|The type of the file to upload|
-|qqfilename|body|string|false|The name of the file to upload|
-|qqtotalfilesize|body|integer|false|The size of the file to upload|
-|qqmd5|body|string|false|The MD5 of the file to upload|
+|file|body|image|true|The file to upload|
+|parentuuid|body|string|true|The parent file uuid. It has to be the file_uuid returned by the previous call|
+|filetype|body|string|false|The type of the file to upload|
+|filename|body|string|false|The name of the file to upload|
+|totalfilesize|body|integer|false|The size of the file to upload|
+|md5|body|string|false|The MD5 of the file to upload|
 
 #### Example Body Parameters
 
@@ -44,8 +44,8 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
- qqfile: "image",
- qqparentuuid: "string"
+ file: "image",
+ parentuuid: "string"
 }
 ```
 

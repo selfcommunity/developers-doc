@@ -21,12 +21,12 @@ This operation requires authentication
 |Name|In|Type|Required| Description                                      |
 |---|---|---|---|--------------------------------------------------|
 |done|query|string|true| Path string                                      |
-|qquuid|body|string|true| The file uuid returned by the first chunk upload |
-|qqfilename|body|string|true| The name of the file to upload                   |
-|qqtotalparts|body|integer|false| The number of total parts of the chunk to upload |
-|qqmd5|body|string|false| The MD5 of the file to upload                    |
-|qqfiletype|body|string|false| The type of the file to upload                   |
-|qqtotalfilesize|body|integer|false| The size of the file to upload                   |
+|uuid|body|string|true| The file uuid returned by the first chunk upload |
+|filename|body|string|true| The name of the file to upload                   |
+|totalparts|body|integer|false| The number of total parts of the chunk to upload |
+|md5|body|string|false| The MD5 of the file to upload                    |
+|filetype|body|string|false| The type of the file to upload                   |
+|totalfilesize|body|integer|false| The size of the file to upload                   |
 
 
 
@@ -41,9 +41,9 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "qquuid": "string",
-  "qqfilename": "string"
-  "qqtotalparts": "integer"
+  "uuid": "string",
+  "filename": "string"
+  "totalparts": "integer"
 }
 ```
 
@@ -60,9 +60,9 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "qquuid": "string",
-  "qqfilename": "string",
-  "qqtotalparts": "integer"
+  "uuid": "string",
+  "filename": "string",
+  "totalparts": "integer"
 }';
 const headers = {
   'Authorization': 'Bearer {access_token}'
@@ -89,7 +89,7 @@ fetch('/api/v2/pm/upload/?done/',
 # You can also use wget
 curl -X POST /api/v2/pm/upload/?done/ \
   -H "Authorization: Bearer {access_token}"
-  --body-data 'qquuid=5ffbebd3-60a7-4b35-ba39-74e7021b0e44&qqfilename=compressed.tracemonkey-pldi-09.pdf&qqtotalparts=5' \
+  --body-data 'uuid=5ffbebd3-60a7-4b35-ba39-74e7021b0e44&filename=compressed.tracemonkey-pldi-09.pdf&totalparts=5' \
    'https://apiv2.quentrix.com/api/v2/pm/upload/?done'
 ```
 </TabItem>

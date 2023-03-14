@@ -20,12 +20,12 @@ This operation requires authentication.
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|qqfile|body|blob|true|The file to upload|
-|qqfiletype|body|string|false|The type of the file to upload|
-|qqfilename|body|string|false|The name of the file to upload|
-|qqduration|body|integer|false|The duration (in seconds) of the video or audio track to upload|
-|qqtotalfilesize|body|integer|false|The size of the file to upload|
-|qqmd5|body|string|false|The MD5 of the file to upload|
+|file|body|blob|true|The file to upload|
+|filetype|body|string|false|The type of the file to upload|
+|filename|body|string|false|The name of the file to upload|
+|duration|body|integer|false|The duration (in seconds) of the video or audio track to upload|
+|totalfilesize|body|integer|false|The size of the file to upload|
+|md5|body|string|false|The MD5 of the file to upload|
 
 #### Example Body Parameters
 
@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
- qqfile: "blob"   
+ file: "blob"   
 }
 ```
 

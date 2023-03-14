@@ -14,7 +14,7 @@ This operation requires authentication
 
 :::info
 
- The client must split the file into chunks and send to the server in series. After all the chunks have been uploaded the client must call the [Chunk Upload Done](/docs/apireference/v2/privatemessage/chunk_upload_done) endpoint with the given `qqfilename` parameter to finalize the upload and retrieve the [File](/docs/apireference/v2/schemas/file).
+ The client must split the file into chunks and send to the server in series. After all the chunks have been uploaded the client must call the [Chunk Upload Done](/docs/apireference/v2/privatemessage/chunk_upload_done) endpoint with the given `filename` parameter to finalize the upload and retrieve the [File](/docs/apireference/v2/schemas/file).
 
 
 :::
@@ -27,15 +27,15 @@ This operation requires authentication
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|qqfile|body|blob|true|The file to upload|
-|qquuid|body|string|true*|The file uuid returned by the first chunk upload. It is required only when qqpartindex > 0|
-|qqpartindex|body|integer|true|The index of the chunk part to upload. It starts at 0 and reaches qqtotalparts -1|
-|qqtotalparts|body|integer|true|The number of total parts of the chunk to upload|
-|qqfiletype|body|string|false|The type of the file to upload|
-|qqtotalfilesize|body|integer|false|The size of the file to upload|
-|qqpartbyteoffset|body|integer|false|The chunk byte offset|
-|qqchunksize|body|integer|false|The size of the chunk|
-|qqfilename|body|string|false|The name of the file to upload|
+|file|body|blob|true|The file to upload|
+|uuid|body|string|true*|The file uuid returned by the first chunk upload. It is required only when partindex > 0|
+|partindex|body|integer|true|The index of the chunk part to upload. It starts at 0 and reaches totalparts -1|
+|totalparts|body|integer|true|The number of total parts of the chunk to upload|
+|filetype|body|string|false|The type of the file to upload|
+|totalfilesize|body|integer|false|The size of the file to upload|
+|partbyteoffset|body|integer|false|The chunk byte offset|
+|chunksize|body|integer|false|The size of the chunk|
+|filename|body|string|false|The name of the file to upload|
 
 #### Example Body Parameters
 
@@ -48,9 +48,9 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "qqpartindex": "integer",
-  "qqtotalparts": "integer",
-  "qqfile": "blob"
+  "partindex": "integer",
+  "totalparts": "integer",
+  "file": "blob"
 }
 ```
 
@@ -67,9 +67,9 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "qqpartindex": "integer",
-  "qqtotalparts": "integer",
-  "qqfile": "blob"
+  "partindex": "integer",
+  "totalparts": "integer",
+  "file": "blob"
 }';
 const headers = {
   'Authorization': 'Bearer {access_token}'
@@ -96,7 +96,7 @@ fetch('/api/v2/pm/upload/',
 # You can also use wget
 curl -X POST /api/v2/pm/upload/ \
   -H "Authorization: Bearer {access_token}"
-  --body-data 'qqpartindex=0&qqtotalparts=5' \
+  --body-data 'partindex=0&totalparts=5' \
    'https://apiv2.quentrix.com/api/v2/pm/upload/'
 ```
 </TabItem>
