@@ -18,9 +18,9 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                  |
-|---|---|---|---|------------------------------|
-|body|body|[Tag](/docs/apireference/v2/schemas/tag)|false| The request body(tag params) |
+| Name | In   | Type                                     | Description      |
+|------|------|------------------------------------------|------------------|
+| body | body | [Tag](/docs/apireference/v2/schemas/tag) | The request body |
 
 #### Example Body Parameters
 
@@ -104,9 +104,9 @@ curl -X POST /api/v2/tag/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Tag](/docs/apireference/v2/schemas/tag)|
+| Status | Meaning                                                      | Description          | Schema                                   |
+|--------|--------------------------------------------------------------|----------------------|------------------------------------------|
+| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Tag](/docs/apireference/v2/schemas/tag) |
 
 ### Example responses
 

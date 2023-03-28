@@ -18,11 +18,12 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name   | In    | Type    | Required | Description                                         |
-|--------|-------|---------|----------|-----------------------------------------------------|
-| id     | path  | string  | true     | A unique integer value identifying this status.     |
-| limit  | query | integer | false    | Number of results to return per page.               |
-| offset | query | integer | false    | The initial index from which to return the results. |
+| Name     | In    | Type    | Required | Description                                                                 |
+|----------|-------|---------|----------|-----------------------------------------------------------------------------|
+| id       | path  | string  | true     | A unique integer value identifying this status.                             |
+| limit    | query | integer | false    | Number of results to return per page.                                       |
+| offset   | query | integer | false    | The initial index from which to return the results.                         |
+| reaction | query | integer | false    | Filter votes using the unique integer value identifying a specific Reaction |
 
 ### Example Request
 
@@ -42,7 +43,6 @@ const headers = {
 fetch('/api/v2/status/{id}/vote/',
 {
   method: 'GET',
-
   headers: headers
 })
 .then(function(res) {
@@ -68,10 +68,9 @@ curl -X GET /api/v2/status/{id}/vote/ \
 
 ## Responses
 
-
-| Status | Meaning                                                 | Description | Schema |
-|--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | Inline |
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
@@ -96,48 +95,7 @@ Status Code **200**
   "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
-  "results": [
-      {
-        "user": {
-              "id": "integer",
-              "username": "string",
-              "real_name": "string",
-              "avatar": "string",
-              "ext_id": "integer",
-              "followings_counter": "integer",
-              "followers_counter": "integer",
-              "posts_counter": "integer",
-              "discussions_counter": "integer",
-              "polls_counter": "integer",
-              "connection_status": "string",
-              "categories_counter": "integer",
-              "date_joined": "string",
-              "bio": "string",
-              "location": "string",
-              "location_lat_lng": "string",
-              "position_lat_lng": "string",
-              "date_of_birth": "string",
-              "description": "string",
-              "gender": "string",
-              "website": "string",
-              "cover": "string",
-              "tags": [{Tag}],
-              "reputation": "integer",
-              "community_badge": "boolean",
-              "reg_approved": "boolean",
-              "company_name": "string",
-              "company_role": "string"
-        },
-        "reaction": {
-            "id": "integer",
-            "label": "string",
-            "image": "string(uri)",
-            "sentiment": "integer",
-            "active": "boolean"
-        },        
-        "voted_at": "string"
-        }
-  ]
+  "results": [{Vote}]
 }
 ```
 

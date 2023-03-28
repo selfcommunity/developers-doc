@@ -18,11 +18,12 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name   | In    | Type    | Required | Description                                      |
-|--------|-------|---------|----------|--------------------------------------------------|
-| id     | path  | string  | true     | A unique integer value identifying this comment  |
-| limit  | query | integer | false    | Number of results to return per page             |
-| offset | query | integer | false    | The initial index from which to return the results |
+| Name     | In    | Type    | Required | Description                                                                 |
+|----------|-------|---------|----------|-----------------------------------------------------------------------------|
+| id       | path  | string  | true     | A unique integer value identifying this comment                             |
+| limit    | query | integer | false    | Number of results to return per page                                        |
+| offset   | query | integer | false    | The initial index from which to return the results                          |
+| reaction | query | integer | false    | Filter votes using the unique integer value identifying a specific Reaction |
 
 ### Example Request
 
@@ -42,7 +43,6 @@ const headers = {
 fetch('/api/v2/comment/{id}/vote/',
 {
   method: 'GET',
-
   headers: headers
 })
 .then(function(res) {
@@ -61,7 +61,6 @@ fetch('/api/v2/comment/{id}/vote/',
 curl -X GET /api/v2/comment/{id}/vote/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
-
 ```
 </TabItem>
 </Tabs>
@@ -69,9 +68,20 @@ curl -X GET /api/v2/comment/{id}/vote/ \
 
 ## Responses
 
-| Status | Meaning                                                 | Description | Schema                                     |
-|--------|---------------------------------------------------------|-------------|--------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [Vote](/docs/apireference/v2/schemas/vote) |
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
+
+### Response Schema
+
+Status Code **200**
+
+| Name       | Type                                             | Required | Restrictions | Description         |
+|------------|--------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                          | true     | none         | Total results count |
+| » next     | string¦null                                      | false    | none         | Next page url       |
+| » previous | string¦null                                      | false    | none         | Previous page url   |
+| » results  | list([Vote](/docs/apireference/v2/schemas/vote)) | true     | none         | List of results     |
 
 ### Example responses
 
@@ -85,32 +95,7 @@ curl -X GET /api/v2/comment/{id}/vote/ \
   "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
-  "results": [
-    {
-       "id": "integer",
-      "author": {User},
-      "added_at": "string",
-      "last_edited_at": "string",
-      "html": "string",
-      "summary": "string",
-      "deleted": "boolean",
-      "collapsed": "boolean",
-      "parent": "integer",
-      "in_reply_to": "integer",
-      "comment_count": "integer",
-      "vote_count": "integer",
-      "reactions_count": [{Reaction}],
-      "flag_count": "integer",
-      "post": {
-        "id": "integer",
-        "slug": "string"
-      },
-      "latest_comments": [{Comment}],
-      "type": "string",
-      "voted": "boolean",
-      "reaction": {Reaction}  
-    }
-  ]
+  "results": [{Vote}]
 }
 ```
 

@@ -4,7 +4,7 @@ sidebar_position: 9
 title: Upvote for a Specific Status
 ---
 
-This endpoint upvotes (with a relative reaction) a specific status
+This endpoint allows to vote (with a relative reaction) a specific status
 
 :::info
 
@@ -74,9 +74,9 @@ curl -X POST /api/v2/status/{id}/vote/?reaction=1 \
 
 ## Responses
 
-| Status | Meaning                                                         | Description | Schema |
-|--------|-----------------------------------------------------------------|-------------|--------|
-| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code        | None   |
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |
 
 
 

@@ -6,9 +6,9 @@ title: Vote
 
 ```json
 {
-  "user": {},
-  "reaction": {},
-  "voted_at": "string"
+  "user": {User},
+  "reaction": {Reaction},
+  "voted_at": "string(date-time)"
 }
 
 ```

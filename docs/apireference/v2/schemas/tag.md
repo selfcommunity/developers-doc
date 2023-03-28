@@ -36,6 +36,7 @@ title: Tag
 | deleted          | boolean                                               | false    | none         | If true, this tag has been deleted          |
 
 #### Tag types
+
 | Property | Value        | Description           |
 |----------|--------------|-----------------------|
 | type     | user         | Only for user         |
