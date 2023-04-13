@@ -20,9 +20,9 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name   | In    | Type   | Required | Description   |
-|--------|-------|--------|----------|---------------|
-| search | query | string | false    | A search term |
+| Name   | In    | Type   | Required | Description                      |
+|--------|-------|--------|----------|----------------------------------|
+| search | query | string | false    | A search term for the name field |
 
 
 ### Example Request
@@ -80,8 +80,8 @@ Status Code **200**
 | Name     | Type                                                          | Required | Restrictions | Description         |
 |----------|---------------------------------------------------------------|----------|--------------|---------------------|
 | count    | integer                                                       | false    | none         | Total results count |
-| next     | null                                                          | false    | none         | No pagination       |
-| previous | null                                                          | false    | none         | No pagination       |
+| next     | string(uri)¦null                                              | false    | none         | Next page url       |
+| previous | string(uri)¦null                                              | false    | none         | Previous page url   |
 | results  | list([CustomMenu](/docs/apireference/v2/schemas/custom_menu)) | true     | none         | List of results     |
 
 ### Example responses
