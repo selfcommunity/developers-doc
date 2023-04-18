@@ -20,13 +20,12 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
-|search|query|string|false|A search term|
-|active|query|string|false|Filter using field active (only if user is administrator or editor)|
-|visible_in_menu|query|string|false|Filter using field visible_in_menu|
+| Name   | In    | Type    | Required | Description                                                         |
+|--------|-------|---------|----------|---------------------------------------------------------------------|
+| limit  | query | integer | false    | Number of results to return per page                                |
+| offset | query | integer | false    | The initial index from which to return the results                  |
+| search | query | string  | false    | A search term                                                       |
+| active | query | string  | false    | Filter using field active (only if user is administrator or editor) |
 
 
 ### Example Request
@@ -73,58 +72,18 @@ curl -X GET /api/v2/custom_page/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Custom Page](/docs/apireference/v2/schemas/custom_page))|false|none|List of results|
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "count": "integer",
-  "next": "string(uri)",
-  "previous": "string(uri)",
-  "results": [ 
-    {
-      "id": "integer",
-      "slug": "string",
-      "label": "string",
-      "title": "string",
-      "alternative_url": "string",
-      "html_body": "string",
-      "visible_in_menu": "boolean",
-      "order": "integer",
-      "created_at": "string",
-      "updated_at": "string",
-      "active": "boolean",
-      "created_by": "integer",
-      "updated_by": "integer"
-    }    
-  ]
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
+| Name       | Type                                                           | Required | Restrictions | Description         |
+|------------|----------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                        | false    | none         | Total results count |
+| » next     | string(uri)¦null                                               | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                               | false    | none         | Previous page url   |
+| » results  | list([Custom Page](/docs/apireference/v2/schemas/custom_page)) | false    | none         | List of results     |
 

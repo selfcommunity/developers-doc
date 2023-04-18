@@ -19,9 +19,9 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this custom page|
+| Name | In   | Type   | Required | Description                                         |
+|------|------|--------|----------|-----------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this custom page |
 
 ### Example Request
 
@@ -41,7 +41,6 @@ const headers = {
 fetch('/api/v2/custom_page/{id}/',
 {
   method: 'GET',
-
   headers: headers
 })
 .then(function(res) {
@@ -66,40 +65,9 @@ curl -X GET /api/v2/custom_page/{id}/ \
 ````
 
 ## Responses
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Custom Page](/docs/apireference/v2/schemas/custom_page)|
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "slug": "string",
-  "label": "string",
-  "title": "string",
-  "alternative_url": "string",
-  "html_body": "string",
-  "visible_in_menu": "boolean",
-  "order": "integer",
-  "created_at": "string",
-  "updated_at": "string",
-  "active": "boolean",
-  "created_by": "integer",
-  "updated_by": "integer"
-}    
-```
-
-</TabItem>
-</Tabs>
-````
-
+| Status | Meaning                                                 | Description          | Schema                                                   |
+|--------|---------------------------------------------------------|----------------------|----------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Custom Page](/docs/apireference/v2/schemas/custom_page) |
 
 
 
