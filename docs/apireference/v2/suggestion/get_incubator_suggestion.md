@@ -21,6 +21,7 @@ This operation requires authentication.
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |limit|query|integer|false|Number of results to return per page|
+|offset|query|integer|false|The initial index from which to return the results|
 
 ### Example Request
 
@@ -74,6 +75,9 @@ Status Code **200**
 
 |Name| Type                                                        |Required|Restrictions|Description|
 |---|-------------------------------------------------------------|---|---|---|
+|» count|integer|false|none|Total results count|
+|» next|string(uri)¦null|false|none|Next page url|
+|» previous|string(uri)¦null|false|none|Previous page url|
 |» results| list([Incubators](/docs/apireference/v2/schemas/incubator)) |false|none|List of results|
 
 ### Example responses
@@ -86,6 +90,9 @@ Status Code **200**
 
 ```json
 {
+  "count": "integer",
+  "next": "string(uri)",
+  "previous": "string(uri)",
   "results": [
         {
           "id": "integer",
