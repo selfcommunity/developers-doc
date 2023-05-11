@@ -19,11 +19,11 @@ This operation requires authentication. The logged user must be followed by reci
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|recipients|body|integer|true|The id(s) of the recipient(s) of the message|
-|message|body|string|false*|The content of the message. It is required when file_uuid param is missing|
-|file_uuid|body|[File](/docs/apireference/v2/schemas/file)|false|The private message file|
+| Name       | In   | Type    | Required | Description                                                                |
+|------------|------|---------|----------|----------------------------------------------------------------------------|
+| recipients | body | integer | true     | The id(s) of the recipient(s) of the message                               |
+| message    | body | string  | false*   | The content of the message. It is required when file_uuid param is missing |
+| file_uuid  | body | string  | false*   | The private message file id. It is required when message param is missing  |
 
 #### Example Body Parameters
 

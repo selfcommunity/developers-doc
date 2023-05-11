@@ -105,9 +105,18 @@ curl -X POST /api/v2/pm/upload/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[File](/docs/apireference/v2/schemas/file)|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
+
+### Response Schema
+
+Status Code **200**
+
+| Name      | Type   | Required | Restrictions | Description |
+|-----------|--------|----------|--------------|-------------|
+| file_uuid | string | false    | read-only    | The file id |
+
 
 ### Example responses
 
