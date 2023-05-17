@@ -9,17 +9,17 @@ title: Legal Page Ack
   "id": "integer",
   "accepted_at": "string",
   "not_accepted_at": "string",
-  "policy_document": "integer",
+  "custom_page": "integer",
   "user": "integer"
 }
 ```
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description                                    |
-|---|---|---|---|------------------------------------------------|
-|id|integer|false|read-only| A unique integer value identifying this ack    |
-|accepted_at|string(date-time)¦null|false|none| This policy has been accepted in this datetime |
-|not_accepted_at|string(date-time)¦null|false|none| This policy has been refused in this datetime  |
-|policy_document|integer|true|none| The id of the policy document                  |
-|user|integer|true|none| The id of the user                             |
+| Name            | Type                   | Required | Restrictions | Description                                    |
+|-----------------|------------------------|----------|--------------|------------------------------------------------|
+| id              | integer                | false    | read-only    | A unique integer value identifying this ack    |
+| accepted_at     | string(date-time)¦null | false    | none         | This policy has been accepted in this datetime |
+| not_accepted_at | string(date-time)¦null | false    | none         | This policy has been refused in this datetime  |
+| custom_page     | integer                | true     | none         | The id of the custom page (legal page)         |
+| user            | integer                | true     | none         | The id of the user                             |

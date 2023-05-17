@@ -21,14 +21,14 @@ If the user is authenticated the 'ack' field will be added to the response with 
 
 ### Parameters
 
-| Name       | In    | Type    | Required | Description                                     |
-|------------|-------|---------|----------|-------------------------------------------------|
-| limit      | query | integer | false    | Number of results to return per page            |
+| Name       | In    | Type    | Required | Description                                        |
+|------------|-------|---------|----------|----------------------------------------------------|
+| limit      | query | integer | false    | Number of results to return per page               |
 | offset     | query | integer | false    | The initial index from which to return the results |
-| search     | query | string  | false    | A search term                                   |
-| valid_from | query | string  | false    | valid_from                                      |
-| valid_to   | query | string  | false    | valid_to                                        |
-| ordering   | query | string  | false    | Which field to use when ordering the results    |
+| search     | query | string  | false    | A search term                                      |
+| valid_from | query | string  | false    | valid_from                                         |
+| valid_to   | query | string  | false    | valid_to                                           |
+| ordering   | query | string  | false    | Which field to use when ordering the results       |
 
 ### Example Request
 
@@ -74,9 +74,9 @@ curl -X GET /api/v2/legal_page/ \
 
 ## Responses
 
-| Status | Meaning                                                 | Description | Schema |
-|--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | Inline |
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
@@ -102,29 +102,7 @@ Status Code **200**
   "count": "integer",
   "next": "string(uri)",
   "previous": "string(uri)",
-  "results": [ 
-        {
-          "id": "integer",
-          "name_and_version": "string",
-          "icon_class": "string",
-          "label": "string",
-          "external_url": "string",
-          "html_summary": "string",
-          "html_body": "string",
-          "order": "integer",
-          "valid_from": "string",
-          "valid_to": "string",
-          "created_at": "string",
-          "created_by": "integer",
-          "ack": {
-              "id": "integer",
-              "accepted_at": "string",
-              "not_accepted_at": "string",
-              "policy_document": "integer",
-              "user": "integer"
-          }      
-        }
-  ]
+  "results": [{Legal Page}]
 }
 ```
 

@@ -61,33 +61,6 @@ curl -X GET /api/v2/legal_page/user_acks/ \
 ````
 
 ## Responses
-| Status | Meaning                                                 | Description | Schema                                                         |
-|--------|---------------------------------------------------------|-------------|----------------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [Legal Page Ack](/docs/apireference/v2/schemas/legal_page_ack) |
-
-### Example responses
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-[
-    {
-      "id": "integer",
-      "accepted_at": "string",
-      "not_accepted_at": "string",
-      "policy_document": "integer",
-      "user": "integer"
-    }
-]
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                 | Description          | Schema                                                               |
+|--------|---------------------------------------------------------|----------------------|----------------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | list([Legal Page Ack](/docs/apireference/v2/schemas/legal_page_ack)) |

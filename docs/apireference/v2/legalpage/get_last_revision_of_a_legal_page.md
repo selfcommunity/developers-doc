@@ -22,7 +22,7 @@ If the user is authenticated the 'ack' field will be added to the response with 
 
 | Name   | In   | Type   | Required | Description                                |
 |--------|------|--------|----------|--------------------------------------------|
-| policy | path | string | true     | Can be one between cookies, tec or privacy |
+| policy | path | string | true     | Can be one between tec or privacy |
 
 ### Example Request
 
@@ -64,48 +64,6 @@ curl -X GET /api/v2/legal_page/{policy}/ \
 ````
 
 ## Responses
-| Status | Meaning                                                 | Description | Schema                                                 |
-|--------|---------------------------------------------------------|-------------|--------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | [Legal Page](/docs/apireference/v2/schemas/legal_page) |
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-[
-    {
-      "id": "integer",
-      "name_and_version": "string",
-      "icon_class": "string",
-      "label": "string",
-      "external_url": "string",
-      "html_summary": "string",
-      "html_body": "string",
-      "order": "integer",
-      "valid_from": "string",
-      "valid_to": "string",
-      "created_at": "string",
-      "created_by": "integer",
-      "ack": {
-          "id": "integer",
-          "accepted_at": "string",
-          "not_accepted_at": "string",
-          "policy_document": "integer",
-          "user": "integer"
-      }      
-    }
-]
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                 | Description          | Schema                                                 |
+|--------|---------------------------------------------------------|----------------------|--------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Legal Page](/docs/apireference/v2/schemas/legal_page) |

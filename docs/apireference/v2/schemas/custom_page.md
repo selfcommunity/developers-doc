@@ -7,7 +7,7 @@ title: Custom Page
 ```json
 {
   "id": "integer",
-  "type": "string",
+  "type": "normal",
   "slug": "string",
   "title": "string",
   "html_summary": "string",
@@ -28,7 +28,7 @@ title: Custom Page
 | Name         | Type                   | Description                                  |
 |--------------|------------------------|----------------------------------------------|
 | id           | integer                | A unique integer value identifying this page |
-| type         | string                 | Can be "normal" or "legal"                   |
+| type         | string                 | Fixed value is "normal"                      |
 | slug         | string                 | The slug                                     |
 | title        | string                 | The title of this page                       |
 | html_summary | string¦null            | The html summary of the page                 |

@@ -7,42 +7,37 @@ title: Legal Page
 ```json
 {
   "id": "integer",
-  "name_and_version": "string",
-  "icon_class": "string",
-  "label": "string",
-  "external_url": "string",
+  "type": "legal",
+  "slug": "string",
+  "title": "string",
   "html_summary": "string",
   "html_body": "string",
-  "order": "integer",
-  "valid_from": "string",
-  "valid_to": "string",
-  "created_at": "string",
+  "valid_from": "string(date-time)",
+  "valid_to": "string(date-time)",
+  "created_at": "string(date-time)",
+  "updated_at": "string(date-time)",
+  "active": "boolean",
   "created_by": "integer",
-  "ack": {
-      "id": "integer",
-      "accepted_at": "string",
-      "not_accepted_at": "string",
-      "policy_document": "integer",
-      "user": "integer"
-  }      
+  "updated_by": "integer",
+  "ack": {}
 }
-
 ```
 
 #### Properties
 
-| Name             | Type                             | Required | Restrictions                               | Description                                                     |
-|------------------|----------------------------------|----------|--------------------------------------------|-----------------------------------------------------------------|
-| id               | integer                          | false    | read-only                                  | A unique integer value identifying this page                    |
-| name_and_version | string                           | true     | none                                       | The name and version code for this page                         |
-| icon_class       | string                           | false    | none                                       | A css class representing the icon associated to this page       |
-| label            | string                           | true     | none                                       | A label for the page in the menu                                |
-| external_url     | string                           | false    | none                                       | An external url for this page (in alternative to the full body) |
-| html_summary     | string                           | true     | none                                       | A short html summary                                            |
-| html_body        | string¦null                      | false    | none                                       | The full html body for this page                                |
-| order            | integer                          | false    | none                                       | The extraction order of the page                                |
-| valid_from       | string(date)                     | true     | none                                       | This page is valid from this date                               |
-| valid_to         | string(date)                     | true     | none                                       | This page is valid till this date                               |
-| created_at       | string(date-time)                | false    | none                                       | Datetime of creation                                            |
-| created_by       | integer                          | true     | none                                       | The id of the creator of this page                              |
-| ack              | [Legal Page Ack](legal_page_ack) | false    | returned only if the user is authenticated | The user's ack status for this document                         |
+| Name         | Type                             | Description                                                                          |
+|--------------|----------------------------------|--------------------------------------------------------------------------------------|
+| id           | integer                          | A unique integer value identifying this page                                         |
+| type         | string                           | Fixed value is "legal"                                                               |
+| slug         | string                           | The slug                                                                             |
+| title        | string                           | The title of this page                                                               |
+| html_summary | string¦null                      | The html summary of the page                                                         |
+| html_body    | string¦null                      | The html body of the page                                                            |
+| valid_from   | string(date-time)¦null           | Valid from this datetime                                                             |
+| valid_to     | string(date-time)¦null           | Valid till this datetime                                                             |
+| created_at   | string(date-time)                | Datetime of creation                                                                 |
+| updated_at   | string(date-time)¦null           | Last modify datetime                                                                 |
+| active       | boolean                          | If true, this page is active                                                         |
+| created_by   | integer                          | The id of the creator of this page                                                   |
+| updated_by   | integer¦null                     | The id of the user who updated this page                                             |
+| ack          | [Legal Page Ack](legal_page_ack) | The user's ack status for this document (returned only if the user is authenticated) |
