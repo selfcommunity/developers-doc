@@ -2,6 +2,7 @@ import React from 'react';
 import {sessionData} from "./sessionData";
 import {useAuthToken} from "./useAuthToken";
 import {SCContextProvider} from '@selfcommunity/react-core';
+import defaultTheme from '@selfcommunity/react-theme-default';
 import {refreshToken} from "./helpers";
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
@@ -18,24 +19,7 @@ export default function Logged({children}) {
             authToken: authToken,
             handleRefreshToken: refreshToken,
         },
-        theme: {
-            palette: {
-                primary: {
-                    main: '#7baa5d'
-                },
-                secondary: {
-                    main: '#4a8f62'
-                }
-            },
-            components: {
-                MuiIcon: {
-                    defaultProps: {
-                        // Replace the `material-icons` default value.
-                        baseClassName: 'material-icons-outlined',
-                    },
-                },
-            }
-        },
+        theme: defaultTheme,
         handleAnonymousAction: () => {
             alert('Anonymous action');
         }

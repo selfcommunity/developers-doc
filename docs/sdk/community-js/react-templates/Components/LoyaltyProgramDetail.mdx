@@ -1,15 +1,15 @@
 ---
-sidebar_label: User Profile Info
+sidebar_label: Loyalty Program Detail
 sidebar_position: 1
-title: User Profile Info
+title: Loyalty Program Detail
 ---
 
-> The User Profile Info component renders some user information such its real name, job and join date.
+> The LoyaltyProgramDetail template renders the loyalty program detail page.
 
-import UserProfileInfo from './userProfileInfo.js';
+import LoyaltyProgramDetail from './loyaltyProgramDetail.js';
 import Logged from "../../Logged";
 
-<Logged><UserProfileInfo/></Logged>
+<Logged><LoyaltyProgramDetail/></Logged>
 
 
 #### Usage
@@ -17,7 +17,7 @@ import Logged from "../../Logged";
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {UserProfileInfo} from '@selfcommunity/react-ui';
+ import {LoyaltyProgramDetail} from '@selfcommunity/react-templates';
 
  function App() {
    const conf = {
@@ -30,7 +30,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><UserProfileInfo /></SCContextProvider>
+     <SCContextProvider conf={conf}><LoyaltyProgramDetail/></SCContextProvider>
    );
  }
 ```

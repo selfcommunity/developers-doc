@@ -5,7 +5,7 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const FeedUpdates = require('@selfcommunity/react-ui').FeedUpdates;
+                const FeedUpdates = require('@selfcommunity/react-ui').FeedUpdatesWidget;
                 return <FeedUpdates/>;
             }}
         </BrowserOnly>

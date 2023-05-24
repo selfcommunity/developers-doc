@@ -16,7 +16,7 @@ import Logged from "../../Logged";
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {FeedUpdates} from '@selfcommunity/react-ui';
+ import {FeedUpdatesWidget} from '@selfcommunity/react-ui';
 
  function App() {
    const conf = {
@@ -29,7 +29,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><FeedUpdates /></SCContextProvider>
+     <SCContextProvider conf={conf}><FeedUpdatesWidget /></SCContextProvider>
    );
  }
 ```

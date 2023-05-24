@@ -5,9 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const TrendingFeed = require('@selfcommunity/react-ui').TrendingFeed;
-                const template = 'snippet';
-                return <TrendingFeed categoryId={5} template={template} elevation={1}/>;
+                const CategoryTrendingUsersWidget = require('@selfcommunity/react-ui').CategoryTrendingUsersWidget;
+                return <CategoryTrendingUsersWidget categoryId={2}/>;
             }}
         </BrowserOnly>
     );

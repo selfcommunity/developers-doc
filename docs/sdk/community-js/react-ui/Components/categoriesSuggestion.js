@@ -5,7 +5,7 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const CategoriesSuggestion = require('@selfcommunity/react-ui').CategoriesSuggestion;
+                const CategoriesSuggestion = require('@selfcommunity/react-ui').CategoriesSuggestionWidget;
                 return <CategoriesSuggestion/>;
             }}
         </BrowserOnly>

@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const Thread = require('@selfcommunity/react-ui').PrivateMessageThread;
-                return <Thread />;
+                const PrivateMessages = require('@selfcommunity/react-ui').PrivateMessageComponent;
+                return <PrivateMessages id={2}/>;
             }}
         </BrowserOnly>
     );

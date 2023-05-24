@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const Thread = require('@selfcommunity/react-ui').PrivateMessageThread;
-                return <Thread />;
+                const CategoryAutocomplete = require('@selfcommunity/react-ui').CategoryAutocomplete;
+                return <CategoryAutocomplete />;
             }}
         </BrowserOnly>
     );

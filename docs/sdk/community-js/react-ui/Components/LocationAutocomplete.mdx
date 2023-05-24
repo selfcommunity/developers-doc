@@ -1,23 +1,23 @@
 ---
-sidebar_label: Thread
+sidebar_label: Location Autocomplete
 sidebar_position: 1
-title: Thread
+title: Location Autocomplete
 ---
 
-> The Thread component renders the conversation between users and it is composed of different message items that contains<br/>
- the body of the message related to their type("text", "document", "image" or "video").
+> The Location Autocomplete component renders a bar that allows users to search (with autocomplete) for cities names.
 
-import Thread from './thread.js';
+import LocationAutocomplete from './locationAutocomplete';
 import Logged from "../../Logged";
 
-<Logged><Thread/></Logged>
+<Logged><LocationAutocomplete/></Logged>
+
 
 #### Usage
 
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {PrivateMessageThread} from '@selfcommunity/react-ui';
+ import {LocationAutocomplete} from '@selfcommunity/react-ui';
 
  function App() {
    const conf = {
@@ -30,7 +30,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><PrivateMessageThread /></SCContextProvider>
+     <SCContextProvider conf={conf}><LocationAutocomplete /></SCContextProvider>
    );
  }
 ```

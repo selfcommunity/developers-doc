@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const CategoriesFollowed = require('@selfcommunity/react-ui').CategoriesFollowed;
-                return <CategoriesFollowed userId={7}/>;
+                const UserSuggestion = require('@selfcommunity/react-ui').UserSuggestionWidget;
+                return <UserSuggestion/>;
             }}
         </BrowserOnly>
     );

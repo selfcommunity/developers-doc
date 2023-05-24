@@ -5,7 +5,7 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const CategoriesPopular = require('@selfcommunity/react-ui').CategoriesPopular;
+                const CategoriesPopular = require('@selfcommunity/react-ui').CategoriesPopularWidget;
                 return <CategoriesPopular/>;
             }}
         </BrowserOnly>

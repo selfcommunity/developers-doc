@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const PrivateMessages = require('@selfcommunity/react-templates').PrivateMessages;
-                return <PrivateMessages/>;
+                const LocationAutocomplete = require('@selfcommunity/react-ui').LocationAutocomplete;
+                return <LocationAutocomplete />;
             }}
         </BrowserOnly>
     );

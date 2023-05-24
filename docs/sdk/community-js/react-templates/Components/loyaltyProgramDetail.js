@@ -5,13 +5,9 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const Thread = require('@selfcommunity/react-ui').PrivateMessageThread;
-                return <Thread />;
+                const LoyaltyProgramDetail = require('@selfcommunity/react-templates').LoyaltyProgramDetail;
+                return <LoyaltyProgramDetail/>;
             }}
         </BrowserOnly>
     );
-}
-
-
-
-
+};

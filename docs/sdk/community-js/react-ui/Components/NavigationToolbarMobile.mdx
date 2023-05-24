@@ -1,0 +1,36 @@
+---
+sidebar_label: Navigation Toolbar Mobile
+sidebar_position: 1
+title: Navigation Toolbar Mobile
+---
+
+> The Navigation Toolbar component renders the mobile application header.<br/>
+Navigation Toolbar allows users to perform search action, to create contributes and to navigate through the entire application through a menu that opens a drawer containing the links to main sections (such as personal profile, private messages, settings etc).
+
+import NavigationToolbarMobile from './navigationToolbarMobile.js';
+import Logged from "../../Logged";
+
+<Logged><NavigationToolbarMobile/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {NavigationToolbarMobile} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><NavigationToolbarMobile /></SCContextProvider>
+   );
+ }
+```

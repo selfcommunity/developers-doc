@@ -1,6 +1,7 @@
 import React from 'react';
 import {SCContextProvider} from '@selfcommunity/react-core';
 import {sessionData} from "./sessionData";
+import defaultTheme from '@selfcommunity/react-theme-default';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function Anonymous({children}) {
@@ -12,24 +13,7 @@ export default function Anonymous({children}) {
             type: 'OAuth',
             clientId: sessionData.user.client_id
         },
-        theme: {
-            palette: {
-                primary: {
-                    main: '#7baa5d'
-                },
-                secondary: {
-                    main: '#4a8f62'
-                }
-            },
-            components: {
-                MuiIcon: {
-                    defaultProps: {
-                        // Replace the `material-icons` default value.
-                        baseClassName: 'material-icons-outlined',
-                    },
-                },
-            }
-        },
+        theme: defaultTheme,
         handleAnonymousAction: () => {
             alert('Anonymous action');
         }

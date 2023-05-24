@@ -5,7 +5,7 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const Snippets = require('@selfcommunity/react-ui').Snippets;
+                const Snippets = require('@selfcommunity/react-ui').PrivateMessageSnippets;
                 return <Snippets/>;
             }}
         </BrowserOnly>

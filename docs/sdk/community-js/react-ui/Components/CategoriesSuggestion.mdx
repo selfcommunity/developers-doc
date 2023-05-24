@@ -1,10 +1,10 @@
 ---
-sidebar_label: Categories Suggestion
+sidebar_label: Categories Suggestion Widget
 sidebar_position: 1
-title: Categories Suggestion
+title: Categories Suggestion Widget
 ---
 
-> The Categories Suggestion component renders a list of suggested categories.<br/>
+> The Categories Suggestion Widget renders a list of suggested categories.<br/>
 This list is composed of items containing category's image, title, info and a follow button, that allows users to follow/unfollow a category.<br/>
 The categories are shown in an orderly manner: few items are shown in the main card while the others can be displayed in a modal card by clicking on the "show all" button.
 
@@ -18,7 +18,7 @@ import Logged from "../../Logged";
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {CategoriesSuggestion} from '@selfcommunity/react-ui';
+ import {CategoriesSuggestionWidget} from '@selfcommunity/react-ui';
 
  function App() {
    const conf = {
@@ -31,7 +31,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><CategoriesSuggestion /></SCContextProvider>
+     <SCContextProvider conf={conf}><CategoriesSuggestionWidget /></SCContextProvider>
    );
  }
 ```

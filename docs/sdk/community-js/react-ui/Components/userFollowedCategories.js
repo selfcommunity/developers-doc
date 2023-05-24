@@ -5,8 +5,8 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const Thread = require('@selfcommunity/react-ui').PrivateMessageThread;
-                return <Thread />;
+                const CategoriesFollowed = require('@selfcommunity/react-ui').UserFollowedCategoriesWidget;
+                return <CategoriesFollowed userId={7}/>;
             }}
         </BrowserOnly>
     );

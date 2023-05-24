@@ -5,7 +5,7 @@ export default function App () {
     return (
         <BrowserOnly>
             {() => {
-                const UserFollowers = require('@selfcommunity/react-ui').UserFollowers;
+                const UserFollowers = require('@selfcommunity/react-ui').UserFollowersWidget;
                 return <UserFollowers userId={7}/>;
             }}
         </BrowserOnly>

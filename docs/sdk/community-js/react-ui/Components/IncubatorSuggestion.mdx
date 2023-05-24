@@ -19,7 +19,7 @@ import Logged from "../../Logged";
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {IncubatorSuggestion} from '@selfcommunity/react-ui';
+ import {IncubatorSuggestionWidget} from '@selfcommunity/react-ui';
 
  function App() {
    const conf = {
@@ -32,7 +32,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><IncubatorSuggestion /></SCContextProvider>
+     <SCContextProvider conf={conf}><IncubatorSuggestionWidget /></SCContextProvider>
    );
  }
 ```

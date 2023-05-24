@@ -17,7 +17,7 @@ import Logged from "../../Logged";
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {Snippets} from '@selfcommunity/react-ui';
+ import {PrivateMessageSnippets} from '@selfcommunity/react-ui';
 
  function App() {
    const conf = {
@@ -30,7 +30,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><Snippets /></SCContextProvider>
+     <SCContextProvider conf={conf}><PrivateMessageSnippets /></SCContextProvider>
    );
  }
 ```

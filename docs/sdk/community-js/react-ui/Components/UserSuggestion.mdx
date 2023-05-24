@@ -1,25 +1,24 @@
 ---
-sidebar_label: Trending People
+sidebar_label: User Suggestion Widget
 sidebar_position: 1
-title: Trending People
+title: User Suggestion Widget
 ---
 
-> The Trending People component renders a list of trending people.<br/>
+> The User Suggestion Widget renders a list of suggested users.<br/>
 This list is composed of items containing user's avatar and username, info (or followers counter) and a follow button that allows users to follow/unfollow others.<br/>
 The categories are shown in an orderly manner: few items are shown in the main card while the others can be displayed in a modal card by clicking on the "show all" button.
 
-import TrendingPeople from './trendingPeople.js';
+import UserSuggestion from './userSuggestion.js';
 import Logged from "../../Logged";
 
-<br/>
-<Logged><TrendingPeople/></Logged>
+<Logged><UserSuggestion/></Logged>
 
 #### Usage
 
 ```jsx
  import React from 'react';
  import {SCContextProvider} from '@selfcommunity/react-core';
- import {TrendingPeople} from '@selfcommunity/react-ui';
+ import {UserSuggestionWidget} from '@selfcommunity/react-ui';
 
  function App() {
    const conf = {
@@ -32,7 +31,7 @@ import Logged from "../../Logged";
      },
    };
    return (
-     <SCContextProvider conf={conf}><TrendingPeople /></SCContextProvider>
+     <SCContextProvider conf={conf}><UserSuggestionWidget /></SCContextProvider>
    );
  }
 ```
