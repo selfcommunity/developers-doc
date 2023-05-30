@@ -2,6 +2,3 @@
 	path = sdk/community-js
 	url = https://github.com/selfcommunity/community-js.git
 	branch = prerelease
-[submodule "sdk/community-ui"]
-	path = sdk/community-ui
-	url = ../community-ui.git
