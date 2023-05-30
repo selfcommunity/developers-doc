@@ -50,7 +50,7 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'api-services',
-        entryPoints: globs.sync(['./sdk/community-js/packages/api-services/src/types/index.ts', './sdk/community-js/packages/api-services/src/services/*/index.ts', './sdk/community-js/packages/api-services/src/utils/*/index.ts']),
+        entryPoints: globs.sync(['./sdk/community-js/packages/api-services/src/types/*.ts', './sdk/community-js/packages/api-services/src/services/*/index.ts']),
         tsconfig: './sdk/community-js/packages/api-services/tsconfig.json',
         out: 'sdk/community-js/api-services/API_Reference',
         readme: 'none',
@@ -70,7 +70,7 @@ const config = {
       'docusaurus-plugin-typedoc',
       {
         id:'react-core',
-        entryPoints: globs.sync(['./sdk/community-js/packages/react-core/src/components/provider/*/index.tsx', './sdk/community-js/packages/react-core/src/hooks/*.ts', './sdk/community-js/packages/react-core/src/types/*.ts']),
+        entryPoints: globs.sync(['./sdk/community-js/packages/react-core/src/components/provider/*/index.tsx', './sdk/community-js/packages/react-core/src/components/router/index.tsx', './sdk/community-js/packages/react-core/src/hooks/*.ts', './sdk/community-js/packages/react-core/src/types/*.ts']),
         tsconfig: './sdk/community-js/packages/react-core/tsconfig.json',
         out: 'sdk/community-js/react-core/API_Reference',
         readme: 'none',
