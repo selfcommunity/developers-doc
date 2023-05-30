@@ -2901,7 +2901,7 @@
     "@rpldy/shared-ui" "^1.4.1"
     "@rpldy/uploader" "^1.4.1"
 
-"@selfcommunity/api-services@^0.4.0-alpha.16", "@selfcommunity/api-services@^0.4.0-alpha.18":
+"@selfcommunity/api-services@^0.4.0-alpha.18":
   version "0.4.0-alpha.18"
   resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.4.0-alpha.18.tgz#c22088eb5f053c5d9bebae04c53392bd0feb6ff9"
   integrity sha512-JQt4nSRaXs+QQyuBntXwh3U0+9BPRFCN7f5xdIo4Lk9jdMeho+mV4f1wrre/xjc2sea19XT/AY0Bq6sDk/eC/Q==
@@ -2911,7 +2911,7 @@
     axios "^1.4.0"
     jose "^4.14.4"
 
-"@selfcommunity/react-core@^0.4.0-alpha.55", "@selfcommunity/react-core@^0.4.0-alpha.57":
+"@selfcommunity/react-core@^0.4.0-alpha.57":
   version "0.4.0-alpha.57"
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.0-alpha.57.tgz#f4d2b94a034c35e9a9b165b83f869ea6d4661da4"
   integrity sha512-pAEnsA0m77s6NSSEaEAUvJ8LwLjDD7XS1haG72N8TCsYDSPiXlbX7BJW/iXAC7q4gTBzw4lg0YQ5ZtCpLRX7Yg==
@@ -2926,12 +2926,12 @@
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.4"
 
-"@selfcommunity/react-i18n@^0.5.0-alpha.23", "@selfcommunity/react-i18n@^0.5.0-alpha.24":
+"@selfcommunity/react-i18n@^0.5.0-alpha.24":
   version "0.5.0-alpha.24"
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.0-alpha.24.tgz#48de940f0482369f8849fff0192c6870b038ce27"
   integrity sha512-KhCr7i4KyMryJVFVR/9UASSLHOx7vd6IUF2tjeKIU40Dwy54Xja8M0NaSv0QXRINpPPc3dGPz62vvHESMU/ZAQ==
 
-"@selfcommunity/react-templates@^0.3.0-alpha.208":
+"@selfcommunity/react-templates@^0.3.0-alpha.211":
   version "0.3.0-alpha.211"
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.0-alpha.211.tgz#c2ff8cfd5f5c0e7546589dee2ed0da4e1e1cc059"
   integrity sha512-PUvLM78N+kTqfSYujhU+WizPqu4ke4Lox42P0DnKq2QMrmir7JjsWXWBHUoTrYs8yo3f1eiCty80WoqozTK5yA==
@@ -2944,7 +2944,7 @@
     classnames "^2.3.2"
     seamless-scroll-polyfill "^2.3.4"
 
-"@selfcommunity/react-theme-default@^0.1.0-alpha.167":
+"@selfcommunity/react-theme-default@^0.1.0-alpha.169":
   version "0.1.0-alpha.169"
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.0-alpha.169.tgz#6d7320d77ffeb4d7f5a5bb676405836bc22d741a"
   integrity sha512-gygRk60pQlyKQuDXQ7QlM+fiwc2l3yEmdJ7uymkDZdSjo0qBTxq8lyb/+GQ5TAXSbnVmWRDigU7LrFusHyCl/Q==
@@ -2952,7 +2952,7 @@
     "@selfcommunity/react-core" "^0.4.0-alpha.57"
     "@selfcommunity/react-ui" "^0.7.0-alpha.220"
 
-"@selfcommunity/react-ui@^0.7.0-alpha.218", "@selfcommunity/react-ui@^0.7.0-alpha.220":
+"@selfcommunity/react-ui@^0.7.0-alpha.220":
   version "0.7.0-alpha.220"
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.0-alpha.220.tgz#2bc8e8accc176050f6b3290c76bbc720ad73b2a1"
   integrity sha512-w9F+Tl0LMD3WMy28jJB369S7YXobrQtCEoZac2xtwW6qfV0+9xkAKHCYmZOssstUlDViAxccuC0OjcmtXzLLwA==
