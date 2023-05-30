@@ -166,6 +166,13 @@ const config = {
     //     plugin:['typedoc-plugin-rename-defaults'],
     //   },
     // ],
+    () => ({
+      configureWebpack(config, isServer) {
+        return {
+          externals : { canvas: {} },
+        };
+      },
+    }),
   ],
 
   themeConfig:
