@@ -140,7 +140,7 @@ export default function Icons() {
             <Grid item>
                 <Paper>
                     <IconButton sx={{padding: '10px'}} aria-label="search">
-                        <Icon baseClassName="material-icons-outlined">search</Icon>
+                        <Icon baseClassName="community-icons">search</Icon>
                     </IconButton>
                     <InputBase
                         autoFocus
@@ -156,7 +156,7 @@ export default function Icons() {
                     {filteredIcons
                         .map((icon, index) => (
                             <Box component="span" className={classes.iconBox} key={index} onClick={() => handleClick(icon)}>
-                                <StyledIcon baseClassName="material-icons-outlined" fontSize="large" onClick={handleOpenDialog}>
+                                <StyledIcon baseClassName="community-icons" fontSize="large" onClick={handleOpenDialog}>
                                     {icon.name}
                                 </StyledIcon>
                                 <Box sx={{display: 'flex'}}>
@@ -185,14 +185,14 @@ export default function Icons() {
                     <Box sx={{display: 'flex'}}>
                         <Typography sx={{marginRight: '8px', marginLeft: '8px', fontWeight: 800}}>codepoint: {codePoint}</Typography>
                         <Tooltip placement="right" title={copiedCode ? 'copied' : 'copy'} TransitionProps={{onExited: () => setCopiedCode(false)}}>
-                            <Icon baseClassName="material-icons-outlined" fontSize="small" onClick={handleCopyCode}>
+                            <Icon baseClassName="community-icons" fontSize="small" onClick={handleCopyCode}>
                                 content_copy
                             </Icon>
                         </Tooltip>
                     </Box>
 
                     <Typography align={'right'} variant="caption">
-                        <Link href="https://developers.google.com/fonts/docs/material_icons#icon_font_for_the_web" color="inherit" sx={{paddingRight: '8px'}}>
+                        <Link href="/docs/sdk/community-js/icons/overview" color="inherit" sx={{paddingRight: '8px'}}>
                             Learn more about the import
                         </Link>
                     </Typography>
@@ -200,7 +200,7 @@ export default function Icons() {
                         <Grid container>
                             <Grid item xs sx={{border: 'solid'}}>
                                 <Grid container justifyContent="center">
-                                    <Icon baseClassName="material-icons-outlined" sx={{fontSize: '48px !important'}}>{selectedIcon}</Icon>
+                                    <Icon baseClassName="community-icons" sx={{fontSize: '48px !important'}}>{selectedIcon}</Icon>
                                 </Grid>
                             </Grid>
                             <Grid item xs>
@@ -208,7 +208,7 @@ export default function Icons() {
                                     <Grid item>
                                         <Tooltip title="fontSize small">
                                             <Box component="span" sx={{margin: '16px'}}>
-                                                <Icon baseClassName="material-icons-outlined" fontSize={'small'} sx={{fontSize: '18px !important'}}>
+                                                <Icon baseClassName="community-icons" fontSize={'small'}>
                                                     {selectedIcon}
                                                 </Icon>
                                             </Box>
@@ -217,7 +217,7 @@ export default function Icons() {
                                     <Grid item>
                                         <Tooltip title="fontSize medium">
                                             <Box component="span" sx={{margin: '16px'}}>
-                                                <Icon baseClassName="material-icons-outlined" fontSize={'medium'} sx={{fontSize: '24px !important'}}>
+                                                <Icon baseClassName="community-icons" fontSize={'medium'}>
                                                     {selectedIcon}
                                                 </Icon>
                                             </Box>
@@ -226,7 +226,7 @@ export default function Icons() {
                                     <Grid item>
                                         <Tooltip title="fontSize large">
                                             <Box component="span" sx={{margin: '16px'}}>
-                                                <Icon baseClassName="material-icons-outlined" fontSize={'large'} sx={{fontSize: '36px !important'}}>
+                                                <Icon baseClassName="community-icons" fontSize={'large'}>
                                                     {selectedIcon}
                                                 </Icon>
                                             </Box>

@@ -17,16 +17,20 @@ import TabItem from '@theme/TabItem';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {SCContextProvider} from '@selfcommunity/react-core';
+import defaultTheme from '@selfcommunity/react-theme-default';
+import {refreshTokenMethod} from "./helpers";
 import {PeopleSuggestion} from '@selfcommunity/react-ui';
 
 function App() {
   const conf = {
     portal: '<community-path>',
+    locale: {default: 'en'},
     session: {
       type: 'OAuth',
-      token: '<community-token>',
-      refreshToken: '<community-refresh-token>',
-      refreshTokenEndpoint: '<community-refresh-endpoint>',
+      clientId: '<client-id>',
+      authToken: '<auth-token>',
+      handleRefreshToken: refreshTokenMethod,
+      theme: defaultTheme,
     },
   };
   return (

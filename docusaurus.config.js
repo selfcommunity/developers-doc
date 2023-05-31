@@ -24,9 +24,9 @@ const config = {
   },
   stylesheets: [
     // Object format.
-    {
-      href: 'https://fonts.googleapis.com/icon?family=Material+Icons+Outlined',
-    },
+    // {
+    //   href: 'https://fonts.googleapis.com/icon?family=Material+Icons+Outlined',
+    // },
   ],
 
   presets: [
