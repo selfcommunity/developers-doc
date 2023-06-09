@@ -2911,13 +2911,13 @@
     axios "^1.4.0"
     jose "^4.14.4"
 
-"@selfcommunity/react-core@^0.4.0-alpha.69":
-  version "0.4.0-alpha.69"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.0-alpha.69.tgz#cdabeb678579530594a87748428bed132c84ce35"
-  integrity sha512-MaCyLXZrV2wmu4wDrDGlz7GjnlzBzFmAvIqfWISNGHZoQTQF8PYM9lrejQKr5CTNMdYuutkWf79CofYklThZgA==
+"@selfcommunity/react-core@^0.4.0-alpha.70":
+  version "0.4.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.0-alpha.70.tgz#b44328f56c42cff879356d77911014d714343c76"
+  integrity sha512-GV8sEx2107kL8JXdTkRrlSt4JK9hgNSFdv9afla1/lXeI/rlzddI64+5Lt7899sHNdxTy0bBYHTrvNBo0Ted9Q==
   dependencies:
     "@selfcommunity/api-services" "^0.4.0-alpha.22"
-    "@selfcommunity/react-i18n" "^0.5.0-alpha.32"
+    "@selfcommunity/react-i18n" "^0.5.0-alpha.33"
     "@selfcommunity/types" "^0.5.0-alpha.6"
     "@selfcommunity/utils" "^0.2.0-alpha.3"
     js-cookie "^3.0.5"
@@ -2926,42 +2926,42 @@
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.4"
 
-"@selfcommunity/react-i18n@^0.5.0-alpha.32":
-  version "0.5.0-alpha.32"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.0-alpha.32.tgz#d5b9c10ca5e875f9d402aae354f82d836e7b6e13"
-  integrity sha512-y2/TaIaHGrr7emlFV5GFAQk/cK280hzpoY8Dc4aZGCyvUg54FKNLsBrRrBVhWVzZqOd+HEpkpLwrEmFipvaz7w==
+"@selfcommunity/react-i18n@^0.5.0-alpha.33":
+  version "0.5.0-alpha.33"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.0-alpha.33.tgz#99c8031e7c247f6d1e21a6cee0ebad1663acc9ef"
+  integrity sha512-V/Dd8nwcWGZS6C6GTED0NGLXIbe5cXpoSeO2++v2aeTchjYc0ylLQY14ttPRcCCbHB+lBVLIZV1goHx8kc7QYw==
 
-"@selfcommunity/react-templates@^0.3.0-alpha.227":
-  version "0.3.0-alpha.227"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.0-alpha.227.tgz#160528e515a3df0923a346d785f6f7b888d49c28"
-  integrity sha512-u2IXtDUL6qR3l6nkl/jVrR7BXfsIXjB8flnn3LamNf8RqhQYTBvFJ14zIK0mOjNspSuV2MJaWP3iHSjTndqgcA==
+"@selfcommunity/react-templates@^0.3.0-alpha.228":
+  version "0.3.0-alpha.228"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.0-alpha.228.tgz#6f3927479301e56793445e8ea503021cd2722e8b"
+  integrity sha512-15JPDAdaOPX7AJiGGX5IjL4VtX0INPY/xgovavBFivKYbDEpHoDx+1XedM5tNuC5ksgpmJYdat4fA4zMenakEw==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.0-alpha.69"
-    "@selfcommunity/react-i18n" "^0.5.0-alpha.32"
-    "@selfcommunity/react-ui" "^0.7.0-alpha.236"
+    "@selfcommunity/react-core" "^0.4.0-alpha.70"
+    "@selfcommunity/react-i18n" "^0.5.0-alpha.33"
+    "@selfcommunity/react-ui" "^0.7.0-alpha.237"
     "@selfcommunity/types" "^0.5.0-alpha.6"
     "@types/classnames" "^2.3.1"
     classnames "^2.3.2"
     seamless-scroll-polyfill "^2.3.4"
 
-"@selfcommunity/react-theme-default@^0.1.0-alpha.185":
-  version "0.1.0-alpha.185"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.0-alpha.185.tgz#91bc21e33b817b14bbb4dbd15b0c9ff30b062a76"
-  integrity sha512-qoGO9lRJQA9Z0QuqFwJOw0EZ1c9rVU2mEpymDYaD2gs2MpaUNND/Va+ey05JROdSXVVYTgP4/FjC+wltI/a7Qw==
+"@selfcommunity/react-theme-default@^0.1.0-alpha.186":
+  version "0.1.0-alpha.186"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.0-alpha.186.tgz#29ff80c06631d0eea9f623269bd25d1e9c32334e"
+  integrity sha512-YX98l3FDOAF3lTHwyDTFs93O77kA/VN1OeQ6sCEJG1FtJnumiUDsKWpEb+5x10Pjrcn1ZBsfWLXkWpoNzgXckw==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.0-alpha.69"
-    "@selfcommunity/react-ui" "^0.7.0-alpha.236"
+    "@selfcommunity/react-core" "^0.4.0-alpha.70"
+    "@selfcommunity/react-ui" "^0.7.0-alpha.237"
 
-"@selfcommunity/react-ui@^0.7.0-alpha.236":
-  version "0.7.0-alpha.236"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.0-alpha.236.tgz#1efe54bd3b51a165189f4932bc2b7b10d506e961"
-  integrity sha512-WiNLUZOBUqY/Pqi+MizqNTKBQ8HzNonCzLU6XWhl5GtUVg2lmt9mGPL914chI2PplFCU2R8e3dMhJJ0MS4BtHQ==
+"@selfcommunity/react-ui@^0.7.0-alpha.237":
+  version "0.7.0-alpha.237"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.0-alpha.237.tgz#fd991df50cb90a1d9a3343b2a6118ba78bbe0240"
+  integrity sha512-OLEPFvep6sY89DwlGvcUp3Wajxx8/B9B9AxcFMOz6b2QS2uUWeS3VW1Uux+hRBweemCFRj6Q6lCR4QDg87nMHg==
   dependencies:
     "@lexical/html" "^0.10.0"
     "@lexical/react" "^0.10.0"
     "@selfcommunity/api-services" "^0.4.0-alpha.22"
-    "@selfcommunity/react-core" "^0.4.0-alpha.69"
-    "@selfcommunity/react-i18n" "^0.5.0-alpha.32"
+    "@selfcommunity/react-core" "^0.4.0-alpha.70"
+    "@selfcommunity/react-i18n" "^0.5.0-alpha.33"
     "@selfcommunity/types" "^0.5.0-alpha.6"
     "@selfcommunity/utils" "^0.2.0-alpha.3"
     "@types/classnames" "^2.3.1"
