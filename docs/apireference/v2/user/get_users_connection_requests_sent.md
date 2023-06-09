@@ -4,7 +4,7 @@ sidebar_position: 27
 title: Get User's Connection Requests sent
 ---
 
-This endpoint retrieves a specific user's list of connection requests sent by user
+This endpoint retrieves the list of connection requests sent by the logged-in user.
 
 :::info
 
@@ -20,13 +20,12 @@ This operation requires authentication.
 
 ## HTTP Request
 
-`GET /api/v2/user/{id}/connection/requests_sent/`
+`GET /api/v2/user/connection/requests_sent/`
 
 ### Parameters
 
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this user|
 |limit|query|integer|false|Number of results to return per page|
 |offset|query|integer|false|The initial index from which to return the results|
 
@@ -45,7 +44,7 @@ const headers = {
   'Authorization: Bearer <token>'
 };
 
-fetch('/api/v2/user/{id}/connection/requests_sent/',
+fetch('/api/v2/user/connection/requests_sent/',
 {
   method: 'GET',
   headers: headers
@@ -63,7 +62,7 @@ fetch('/api/v2/user/{id}/connection/requests_sent/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/user/{id}/connection/requests_sent/ \
+curl -X GET /api/v2/user/connection/requests_sent/ \
   -H 'Accept: application/json'
   -H "Authorization: Bearer <token>"
 ```

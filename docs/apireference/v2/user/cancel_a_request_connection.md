@@ -75,7 +75,34 @@ curl -X POST /api/v2/user/{id}/connection/cancel_request/ \
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
+
+#### Connection Status values
+
+| Parameter         | Value                       |
+|-------------------|-----------------------------|
+| connection_status | connected                   |
+| connection_status | sent_connection_request     |
+| connection_status | received_connection_request |
+| connection_status | null                        | 
+
+### Example responses
+
+
+````mdx-code-block
+
+<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
+<TabItem value="200">
+
+```json
+{
+    "connection_status": "string"
+}
+```
+
+</TabItem>
+</Tabs>
+````
 
 
 
