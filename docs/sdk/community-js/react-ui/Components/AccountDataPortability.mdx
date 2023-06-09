@@ -1,0 +1,36 @@
+---
+sidebar_label: Account Data Portability
+sidebar_position: 1
+title: Account Data Portability
+---
+
+> The Account Data Portability component allows users to display the logic behind data portability of user data<br/>
+This component  consists of a list containing the instructions for forwarding the data generation request, which is sent when the button shown is clicked. Once the file has been created, a second button will appear(which allows the user to download his data).
+
+import Logged from '../../Logged.js';
+import AccountDataPortability from './accountDataPortability.js';
+
+<Logged><AccountDataPortability/></Logged>
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {AccountDataPortability} from '@selfcommunity/react-ui';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><AccountDataPortability /></SCContextProvider>
+   );
+ }
+```
