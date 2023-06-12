@@ -20,6 +20,7 @@ export const scIcons = [
     {name: 'create', codepoint: 'e912'},
     {name: 'delete', codepoint: 'e913'},
     {name: 'download', codepoint: 'e914'},
+    {name: 'drag', codepoint: 'e962'},
     {name: 'edit', codepoint: 'e915'},
     {name: 'email', codepoint: 'e916'},
     {name: 'error', codepoint: 'e917'},
