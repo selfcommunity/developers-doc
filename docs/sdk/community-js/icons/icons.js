@@ -64,6 +64,7 @@ export const scIcons = [
     {name: 'link', codepoint: 'e93d'},
     {name: 'linkedin', codepoint: 'e93e'},
     {name: 'list', codepoint: 'e93f'},
+    {name: 'menu', codepoint: 'e963'},
     {name: 'more_circle', codepoint: 'e940'},
     {name: 'more_vert', codepoint: 'e941'},
     {name: 'movie', codepoint: 'e942'},

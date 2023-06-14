@@ -151,7 +151,7 @@ export default function Icons() {
                     />
                 </Paper>
                 <>
-                    {filteredIcons.length >= 1 ? (<Typography>{`${filteredIcons.length} matching results`}</Typography>) :
+                    {filteredIcons.length >= 1 ? (<Typography sx={{padding: '14px', fontSize: '1.2rem'}}>{`${filteredIcons.length} matching results`}</Typography>) :
                     (<Typography align={'center'}>{'No results!'}</Typography>)}
                     {filteredIcons
                         .map((icon, index) => (
