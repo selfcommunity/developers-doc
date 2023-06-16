@@ -163,6 +163,7 @@ curl -X PUT /api/v2/user/{id}/ \
   "reputation": "integer",
   "community_badge": "boolean",
   "reg_approved": "boolean",
+  "deleted" : "boolean",
   "company_name": "string",
   "company_role": "string"
 }

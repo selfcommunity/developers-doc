@@ -130,6 +130,7 @@ The results always return users sorted by: first mutuals and then non-mutuals.
       "reputation": "integer",
       "community_badge": "boolean",
       "reg_approved": "boolean",
+      "deleted" : "boolean",
       "company_name": "string",
       "company_role": "string"
     },

@@ -129,6 +129,7 @@ Status Code **200**
       "reputation": "integer",
       "community_badge": "boolean",
       "reg_approved": "boolean",
+      "deleted" : "boolean",
       "company_name": "string",
       "company_role": "string"
     }

@@ -128,6 +128,7 @@ It will return status code 200 if the user is found. If not found it will return
   "reputation": "integer",
   "community_badge": "boolean",
   "reg_approved": "boolean",
+  "deleted" : "boolean",
   "company_name": "string",
   "company_role": "string"
 }

@@ -2901,24 +2901,24 @@
     "@rpldy/shared-ui" "^1.4.1"
     "@rpldy/uploader" "^1.4.1"
 
-"@selfcommunity/api-services@^0.4.0-alpha.22":
-  version "0.4.0-alpha.22"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.4.0-alpha.22.tgz#ba46c26e8e0119ae39637c1249d3d7aad90304be"
-  integrity sha512-7TfKvxhP0EGat3Hlc6isC2r8GHYGhtD9bXaYmAMQVcM0ZR5iz8dbJhloEkbFzNQAeijj6JGmuZgnm/cRVG2yXA==
+"@selfcommunity/api-services@^0.4.0-alpha.23":
+  version "0.4.0-alpha.23"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.4.0-alpha.23.tgz#e8ae2a6ed325fa6bec31d551babe5c7143531a1f"
+  integrity sha512-AnPFj9/lYPP0bb8sDFyX0kgPDIf/StWQH/pUu51IrwU1UfidTpuWyZGvc+ag3Ztb7IOQL8vev2MxMRlkXYhVzQ==
   dependencies:
-    "@selfcommunity/types" "^0.5.0-alpha.6"
+    "@selfcommunity/types" "^0.5.0-alpha.7"
     "@selfcommunity/utils" "^0.2.0-alpha.3"
     axios "^1.4.0"
     jose "^4.14.4"
 
-"@selfcommunity/react-core@^0.4.0-alpha.72":
-  version "0.4.0-alpha.72"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.0-alpha.72.tgz#7d693c638978f4f8771274286a1d6af69f85fa5b"
-  integrity sha512-qSa1SZYB2VwrHb70zAbVzb8CTC7JVUJAxBkkB71zeVZxKRCKZMTHhL42npPn92lTpBIFiTInc3D2GiwnIzyigw==
+"@selfcommunity/react-core@^0.4.0-alpha.75":
+  version "0.4.0-alpha.75"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.0-alpha.75.tgz#55f60c52d7435e9a51374024208fe6d652dffcf7"
+  integrity sha512-UK4tFYwCqWG8pHRysp/Q/pW/GeIrqdQC0YucFUyEtvZ8o/q41BYsFxrkNzkhGmdZYLyUSoxhvOZ/BDGQYdTmBg==
   dependencies:
-    "@selfcommunity/api-services" "^0.4.0-alpha.22"
-    "@selfcommunity/react-i18n" "^0.5.0-alpha.35"
-    "@selfcommunity/types" "^0.5.0-alpha.6"
+    "@selfcommunity/api-services" "^0.4.0-alpha.23"
+    "@selfcommunity/react-i18n" "^0.5.0-alpha.36"
+    "@selfcommunity/types" "^0.5.0-alpha.7"
     "@selfcommunity/utils" "^0.2.0-alpha.3"
     js-cookie "^3.0.5"
     pubsub-js "^1.9.4"
@@ -2926,43 +2926,43 @@
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.4"
 
-"@selfcommunity/react-i18n@^0.5.0-alpha.35":
-  version "0.5.0-alpha.35"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.0-alpha.35.tgz#755a793ba414d0ba0c8229fe14b10b48ab82bee2"
-  integrity sha512-Ds8zafmNfB5ZuZffYMMkCFGNS1SRPFz9AqdZCRzU3ahYRSv29HcImSfPUuHNg+d+DMVA6O8t93VirnO68b1xqg==
+"@selfcommunity/react-i18n@^0.5.0-alpha.36":
+  version "0.5.0-alpha.36"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.0-alpha.36.tgz#55da23a771f1c968649d43a2e7b4f09957605ba7"
+  integrity sha512-6DFE2XIf/Q+nA+kgMapw7UJNSJtl+vQxqNpUN/rvpfxBKLAwfjmRBnOeaJQIV+hB9o4dasTFbmDSjGxC0YB6TQ==
 
-"@selfcommunity/react-templates@^0.3.0-alpha.233":
-  version "0.3.0-alpha.233"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.0-alpha.233.tgz#0c30c94e14acbff4b1d6d4077898ec0582d39662"
-  integrity sha512-1A8Dnpj8vxvcxcwi2dKwCfj0MP44FRGZKdguJfCJgI3Luf7wJsgZSTbC3E17PF1iJ/ONh1XQZN6R8TYwy9LS8A==
+"@selfcommunity/react-templates@^0.3.0-alpha.237":
+  version "0.3.0-alpha.237"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.0-alpha.237.tgz#7ef0928da14266b67a9b752bc0b6751582b47b70"
+  integrity sha512-swXIMKRmfD292Z0gRWQVkK/idHZUKLpLCqH8vgLzoWopDvE9AJe34iLeahOHEZuuZxY1CEHKgmW71PR+bl8JmQ==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.0-alpha.72"
-    "@selfcommunity/react-i18n" "^0.5.0-alpha.35"
-    "@selfcommunity/react-ui" "^0.7.0-alpha.242"
-    "@selfcommunity/types" "^0.5.0-alpha.6"
+    "@selfcommunity/react-core" "^0.4.0-alpha.75"
+    "@selfcommunity/react-i18n" "^0.5.0-alpha.36"
+    "@selfcommunity/react-ui" "^0.7.0-alpha.246"
+    "@selfcommunity/types" "^0.5.0-alpha.7"
     "@types/classnames" "^2.3.1"
     classnames "^2.3.2"
     seamless-scroll-polyfill "^2.3.4"
 
-"@selfcommunity/react-theme-default@^0.1.0-alpha.191":
-  version "0.1.0-alpha.191"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.0-alpha.191.tgz#455092c2e381513869b4f1830ce448ba8de9497f"
-  integrity sha512-5x1/C6MDc1KPUbGOrAFsqVVfl0o7Cdagwon0NRuZ2qxXbAyzJyWxwXQamMTG+5p2YCLp2E5sMOQ+NREaY6C3xg==
+"@selfcommunity/react-theme-default@^0.1.0-alpha.195":
+  version "0.1.0-alpha.195"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.0-alpha.195.tgz#1701deb32e1bc0c1a344f7ec93d16e0e0ace57e8"
+  integrity sha512-XIqTnkD0Yk96ngMNxUVX4OgQBWxd3LlkEfdsY6AoejqT9XzsplFstefzRRy4zoB6lH+weLmPfB5Lwzt90YMu8g==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.0-alpha.72"
-    "@selfcommunity/react-ui" "^0.7.0-alpha.242"
+    "@selfcommunity/react-core" "^0.4.0-alpha.75"
+    "@selfcommunity/react-ui" "^0.7.0-alpha.246"
 
-"@selfcommunity/react-ui@^0.7.0-alpha.242":
-  version "0.7.0-alpha.242"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.0-alpha.242.tgz#532e3ab3bf2b8103d601094793f5f6bf8083f570"
-  integrity sha512-amZxHdm+6J5gjuwgXs14qkY8uoiv8pOWKbXToi3th9+ZTEPjtNE8+jp6QrC0fW+I6pALpHYpvMYGmd/Xxu65dA==
+"@selfcommunity/react-ui@^0.7.0-alpha.246":
+  version "0.7.0-alpha.246"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.0-alpha.246.tgz#1bcfd7c216a904ed876e29f24f9de908b43ee661"
+  integrity sha512-ha/tbdzjSyV3O9QzCE+A8T6IQX83XbgM94azlklAh1E/sxSnoDNx0XXHo8miDJotv81PBU6aTKxdtx2lKJEwsQ==
   dependencies:
     "@lexical/html" "^0.10.0"
     "@lexical/react" "^0.10.0"
-    "@selfcommunity/api-services" "^0.4.0-alpha.22"
-    "@selfcommunity/react-core" "^0.4.0-alpha.72"
-    "@selfcommunity/react-i18n" "^0.5.0-alpha.35"
-    "@selfcommunity/types" "^0.5.0-alpha.6"
+    "@selfcommunity/api-services" "^0.4.0-alpha.23"
+    "@selfcommunity/react-core" "^0.4.0-alpha.75"
+    "@selfcommunity/react-i18n" "^0.5.0-alpha.36"
+    "@selfcommunity/types" "^0.5.0-alpha.7"
     "@selfcommunity/utils" "^0.2.0-alpha.3"
     "@types/classnames" "^2.3.1"
     autosuggest-highlight "^3.1.1"
@@ -2991,10 +2991,10 @@
     use-resize-observer "^9.1.0"
     virtual-scroller "^1.12.3"
 
-"@selfcommunity/types@^0.5.0-alpha.6":
-  version "0.5.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.5.0-alpha.6.tgz#59698e335019c97e5af9fab7ed7e254d5e6839a2"
-  integrity sha512-Tten3lKV15qA3KqYRzCEf+KGaTjBJ/0XGA6bkZAhStN8e0GA7HxnCW3/vZLIrq1GXqDVHXb73nvMLb1HlpS4Yw==
+"@selfcommunity/types@^0.5.0-alpha.7":
+  version "0.5.0-alpha.7"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.5.0-alpha.7.tgz#8797cf3db62a0575e853cc9cc5b705a517961a60"
+  integrity sha512-F4+WHk1NZcW6KgR16piaITRjQEP90pRHNfv5HfO+/xeM7UfUwF+XDiTdEK9Q6j0SR+Gstp05U1Q/aP2OUbCMCQ==
 
 "@selfcommunity/utils@^0.2.0-alpha.3":
   version "0.2.0-alpha.3"

@@ -145,6 +145,7 @@ Status Code **200**
   "role": "string",
   "unseen_interactions_counter": "integer",
   "unseen_notification_banners_counter": "integer",
+  "deleted" : "boolean",
   "company_name": "string",
   "company_role": "string"
 }
