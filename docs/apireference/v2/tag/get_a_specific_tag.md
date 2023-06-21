@@ -10,7 +10,7 @@ This endpoint retrieves a specific tag
 
 This operation requires authentication only if `content_availability` community option is false.
 
-This operation can be done by normal (not administrators) users and it will return only a public visible and active tag.
+This operation can be done by normal (not administrators) users and it will return only a public visible and active tag and only some public tag details.
 
 If this operation has been done by an administrator user it will show all tag details and not active, not visible or deleted tag also.
 
