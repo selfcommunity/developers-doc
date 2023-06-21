@@ -4,14 +4,12 @@ sidebar_position: 11
 title: List of Status Events
 ---
 
-
-| Status          | Triggered When                      | Note                                                                      |
+| Event           | Triggered When                      | Note                                                                      |
 |-----------------|-------------------------------------|---------------------------------------------------------------------------|
 | status.created  | a new status is created             | This event is triggered only if `status_enabled` community option is true |
 | status.updated  | a status is updated                 | This event is triggered only if `status_enabled` community option is true |
 | status.deleted  | a status is deleted                 | This event is triggered only if `status_enabled` community option is true |
 | status.restored | a status is restored after deletion | This event is triggered only if `status_enabled` community option is true |
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';

@@ -7,13 +7,12 @@ title: List of Notification Events
 
 :::info
 
-All events with prefix notification.* include in the payload a field "recipients" specifying the list of recipients of the notification.
+All events with prefix notification.* include in the payload a field "recipients" specifying the list of recipients of
+the notification.
 
 :::
 
-
-
-| Notification                           | Triggered When                                                                            | Note                                                                       |
+| Event                                  | Triggered When                                                                            | Note                                                                       |
 |----------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | notification.comment                   | a new comment of first level is created                                                   | ---                                                                        |
 | notification.nested_comment            | a new comment of second level is created                                                  | ---                                                                        |
@@ -45,9 +44,7 @@ All events with prefix notification.* include in the payload a field "recipients
 | notification.custom_notification       | a custom notification is created                                                          | ---                                                                        |
 | notification.banner.sent               | a notification banner is sent and addressed to users                                      | ---                                                                        |
 
-
-
->* notification.comment
+> * notification.comment
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';
@@ -154,9 +151,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
-
->* notification.nested_comment
+> * notification.nested_comment
 
 ````mdx-code-block
 
@@ -294,9 +289,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.mention
-
+> * notification.mention
 
 ````mdx-code-block
 
@@ -371,9 +364,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.vote_up
-
+> * notification.vote_up
 
 ````mdx-code-block
 
@@ -472,9 +463,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.follow
-
+> * notification.follow
 
 ````mdx-code-block
 
@@ -581,7 +570,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* notification.private_message
+> * notification.private_message
 
 ````mdx-code-block
 
@@ -643,8 +632,8 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
+> * notification.deleted_for_advertising
 
->* notification.deleted_for_advertising
 * notification.deleted_for_aggressive
 * notification.deleted_for_vulgar
 * notification.deleted_for_poor
@@ -733,13 +722,12 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* notification.collapsed_for_advertising
+> * notification.collapsed_for_advertising
+
 * notification.collapsed_for_aggressive
 * notification.collapsed_for_vulgar
 * notification.collapsed_for_poor
 * notification.collapsed_for_offtopic
-
-
 
 ````mdx-code-block
 
@@ -903,9 +891,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.connection_request
-
+> * notification.connection_request
 
 ````mdx-code-block
 
@@ -960,10 +946,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.connection_accept
-
-
+> * notification.connection_accept
 
 ````mdx-code-block
 
@@ -1018,9 +1001,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* notification.user_follow
-
-
+> * notification.user_follow
 
 ````mdx-code-block
 
@@ -1075,9 +1056,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.blocked_user
-
+> * notification.blocked_user
 
 ````mdx-code-block
 
@@ -1112,8 +1091,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* notification.unblocked_user
-
+> * notification.unblocked_user
 
 ````mdx-code-block
 
@@ -1143,8 +1121,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.custom_notification
+> * notification.custom_notification
 
 ````mdx-code-block
 
@@ -1210,9 +1187,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* notification.banner.sent
-
+> * notification.banner.sent
 
 ````mdx-code-block
 

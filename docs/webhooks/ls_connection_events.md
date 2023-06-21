@@ -4,9 +4,7 @@ sidebar_position: 6
 title: List of Connection Events
 ---
 
-
-
-| Connection                   | Triggered When                                          | Note                                                                       |
+| Event                        | Triggered When                                          | Note                                                                       |
 |------------------------------|---------------------------------------------------------|----------------------------------------------------------------------------|
 | connection_request.created   | a new connection request is created                     | This event is triggered only if `follow_enabled` community option is false |
 | connection_request.rejected  | a connection request is rejected                        | This event is triggered only if `follow_enabled` community option is false |
@@ -17,14 +15,11 @@ title: List of Connection Events
 | connection.follow            | a user follows another user                             | This event is triggered only if `follow_enabled` community option is true  |
 | connection.unfollow          | a user unfollows another user                           | This event is triggered only if `follow_enabled` community option is true  |
 
-
->* connection_request.created
+> * connection_request.created
 >* connection_request.rejected
 >* connection_request.cancelled
 >* connection.created
 >* connection.deleted
-
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';
@@ -105,10 +100,8 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* connection.follow
->* connection.unfollow 
-
+> * connection.follow
+>* connection.unfollow
 
 ````mdx-code-block
 

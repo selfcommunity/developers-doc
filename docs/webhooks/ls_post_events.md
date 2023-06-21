@@ -4,15 +4,12 @@ sidebar_position: 10
 title: List of Post Events
 ---
 
-
-| Post          | Triggered When                    | Note                                                                    |
+| Event         | Triggered When                    | Note                                                                    |
 |---------------|-----------------------------------|-------------------------------------------------------------------------|
 | post.created  | a new post is created             | This event is triggered only if `post_enabled` community option is true |
 | post.updated  | a post is updated                 | This event is triggered only if `post_enabled` community option is true |
 | post.deleted  | a post is deleted                 | This event is triggered only if `post_enabled` community option is true |
 | post.restored | a post is restored after deletion | This event is triggered only if `post_enabled` community option is true |
-
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';

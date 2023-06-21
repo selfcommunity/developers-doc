@@ -4,15 +4,12 @@ sidebar_position: 5
 title: List of Comment Events
 ---
 
-
-| Comment          | Triggered When                       | Note |
+| Event            | Triggered When                       | Note |
 |------------------|--------------------------------------|------|
 | comment.created  | a new comment is created             | ---  |
 | comment.updated  | a comment is updated                 | ---  |
 | comment.deleted  | a comment is deleted                 | ---  |
 | comment.restored | a comment is restored after deletion | ---  |
-
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';

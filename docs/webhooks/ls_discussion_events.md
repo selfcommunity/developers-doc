@@ -4,8 +4,7 @@ sidebar_position: 7
 title: List of Discussion Events
 ---
 
-
-| Discussion          | Triggered When                          | Note                                                                          |
+| Event               | Triggered When                          | Note                                                                          |
 |---------------------|-----------------------------------------|-------------------------------------------------------------------------------|
 | discussion.created  | a new discussion is created             | This event is triggered only if `discussion_enabled` community option is true |
 | discussion.updated  | a discussion is updated                 | This event is triggered only if `discussion_enabled` community option is true |
@@ -14,13 +13,10 @@ title: List of Discussion Events
 | discussion.follow   | a discussion is followed by the user    | This event is triggered only if `discussion_enabled` community option is true |
 | discussion.unfollow | a discussion is unfollowed by the user  | This event is triggered only if `discussion_enabled` community option is true |
 
-
->* discussion.created
+> * discussion.created
 >* discussion.updated
 >* discussion.deleted
 >* discussion.restored
-
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';
@@ -90,11 +86,8 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* discussion.follow
+> * discussion.follow
 >* discussion.unfollow
-
-
 
 ````mdx-code-block
 

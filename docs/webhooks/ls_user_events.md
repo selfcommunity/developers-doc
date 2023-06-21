@@ -4,8 +4,7 @@ sidebar_position: 13
 title: List of User Events
 ---
 
-
-| User                        | Triggered When                                  | Note |
+| Event                       | Triggered When                                  | Note |
 |-----------------------------|-------------------------------------------------|------|
 | user.created                | a new user is created                           | ---  |
 | user.updated                | a user is updated                               | ---  |
@@ -14,8 +13,7 @@ title: List of User Events
 | user.score_updated          | the score of the user has been updated          | ---  |
 | user.loyalty_points_updated | the loyalty points of the user has been updated | ---  |
 
-
->* user.created
+> * user.created
 >* user.updated
 >* user.deleted
 
@@ -66,7 +64,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* user.settings_updated
+> * user.settings_updated
 
 ````mdx-code-block
 
@@ -120,7 +118,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* user.score_updated
+> * user.score_updated
 
 ````mdx-code-block
 
@@ -155,8 +153,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* user.loyalty_points_updated
-
+> * user.loyalty_points_updated
 
 ````mdx-code-block
 
