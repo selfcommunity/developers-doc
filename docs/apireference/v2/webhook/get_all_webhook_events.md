@@ -125,6 +125,7 @@ curl -X GET /api/v2/webhook/endpoint/event/ \
     "vote.created",
     "vote.deleted",
     "notification.banner.sent",
+    "notification.contribution",
     "notification.comment",
     "notification.nested_comment",
     "notification.mention",

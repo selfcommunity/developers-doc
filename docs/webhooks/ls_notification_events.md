@@ -14,6 +14,7 @@ the notification.
 
 | Event                                  | Triggered When                                                                            | Note                                                                       |
 |----------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| notification.contribution              | a new contribution is created                                                             | Only if new_contribution_notification_enabled is true                      |
 | notification.comment                   | a new comment of first level is created                                                   | ---                                                                        |
 | notification.nested_comment            | a new comment of second level is created                                                  | ---                                                                        |
 | notification.mention                   | a user is mentioned                                                                       | ---                                                                        |
@@ -43,6 +44,83 @@ the notification.
 | notification.unblocked_user            | a user is unblocked                                                                       | ---                                                                        |
 | notification.custom_notification       | a custom notification is created                                                          | ---                                                                        |
 | notification.banner.sent               | a notification banner is sent and addressed to users                                      | ---                                                                        |
+
+> * notification.contribution
+
+````mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
+<TabItem value="json">
+
+```json
+{
+    "event_id": 0,
+    "type": "string",
+    "created": 1625471209.139224,
+    "data": {
+        "recipients": [
+            1
+        ],
+        "discussion": {
+            "id": 2,
+            "categories": [],
+            "medias": [],
+            "location": [],
+            "poll": [],
+            "last_activity_at": "2021-06-07T12:30:44.509122+02:00",
+            "last_edited_at": null,
+            "author": {
+                "id": 1,
+                "username": "string",
+                "real_name": "string",
+                "date_joined": "2021-05-28T10:33:52.269304+02:00",
+                "bio":  "string",
+                "location": "string",
+                "location_lat_lng":  "string",
+                "position_lat_lng":  "string",
+                "date_of_birth": "string",
+                "description": "string",
+                "gender": "Male",
+                "website": "https://example.com",
+                "avatar": "string",
+                "cover": "string",
+                "ext_id": "string",
+                "tags": [],
+                "reputation": 111,
+                "followings_counter": 7,
+                "followers_counter": 2,
+                "posts_counter": 4,
+                "discussions_counter": 3,
+                "statuses_counter": 0,
+                "polls_counter": 1
+            },
+            "added_at": "2021-05-27T14:58:04.334631+02:00",
+            "html": "string",
+            "summary": "string",
+            "deleted": false,
+            "collapsed": false,
+            "comment_count": 2,
+            "vote_count": 2,
+            "flag_count": 0,
+            "share_count": 0,
+            "addressing": [],
+            "tags": [],
+            "title": "string",
+            "slug": "string",
+            "view_count": 3,
+            "follower_count": 0
+        },
+        "type": "string",
+        "active_at": "2021-06-07T12:30:44.509122+02:00",       
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+````
 
 > * notification.comment
 
