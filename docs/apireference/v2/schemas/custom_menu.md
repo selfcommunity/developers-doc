@@ -10,17 +10,17 @@ title: Custom Menu
   "name": "string",
   "items": [
     {
-        "id": "integer",
-        "custom_menu": "integer",
-        "label": "string",
-        "url": "string(uri)",
-        "attrs": "string",
-        "order": "integer"
+      "id": "integer",
+      "custom_menu": "integer",
+      "label": "string",
+      "url": "string(uri)",
+      "attrs": "string",
+      "order": "integer"
     }
   ],
   "created_at": "string(date-time)",
   "updated_at": "string(date-time)"
-}    
+}
 
 ```
 

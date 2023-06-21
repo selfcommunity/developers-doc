@@ -21,14 +21,14 @@ title: Locality
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description             |
-|---|---|---|---|-------------------------|
-|full_address|string|false|read-only| Locality full address   |
-|postal_code|string|false|read-only| Locality postal code    |
-|town|string|false|read-only| Locality town name      |
-|province|string|false|read-only| Locality province name  |
-|province_short|string|false|read-only| Locality province short |
-|region|string|false|read-only| Locality region name    |
-|country|string|false|read-only| Locality country name   |
-|lat|integer|false|read-only| Locality latitude       |
-|lng|integer|false|read-only| Locality longitude      |
+| Name           | Type    | Required | Restrictions | Description             |
+|----------------|---------|----------|--------------|-------------------------|
+| full_address   | string  | false    | read-only    | Locality full address   |
+| postal_code    | string  | false    | read-only    | Locality postal code    |
+| town           | string  | false    | read-only    | Locality town name      |
+| province       | string  | false    | read-only    | Locality province name  |
+| province_short | string  | false    | read-only    | Locality province short |
+| region         | string  | false    | read-only    | Locality region name    |
+| country        | string  | false    | read-only    | Locality country name   |
+| lat            | integer | false    | read-only    | Locality latitude       |
+| lng            | integer | false    | read-only    | Locality longitude      |

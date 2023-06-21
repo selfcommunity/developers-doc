@@ -11,7 +11,7 @@ title: Custom Page
   "slug": "string",
   "title": "string",
   "html_summary": "string",
-  "html_body": "string", 
+  "html_body": "string",
   "valid_from": "string(date-time)",
   "valid_to": "string(date-time)",
   "created_at": "string(date-time)",

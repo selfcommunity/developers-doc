@@ -13,6 +13,6 @@ title: Endpoint Secret
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description             |
-|---|---|---|---|-------------------------|
-|signing_secret|string|false|read-only| Endpoint signing secret |
+| Name           | Type   | Required | Restrictions | Description             |
+|----------------|--------|----------|--------------|-------------------------|
+| signing_secret | string | false    | read-only    | Endpoint signing secret |

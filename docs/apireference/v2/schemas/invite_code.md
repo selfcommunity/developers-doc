@@ -6,18 +6,18 @@ title: Invite Code
 
 ```json
 {
-    "id": "integer",
-    "invited_by_username": "string",
-    "role": "string",
-    "tags": [],
-    "name": "string",
-    "email": "string",
-    "code": "string",
-    "generated_at": "string",
-    "sent_at": "string",
-    "used_at": "string",
-    "invited_by": "integer",
-    "user": {}
+  "id": "integer",
+  "invited_by_username": "string",
+  "role": "string",
+  "tags": [],
+  "name": "string",
+  "email": "string",
+  "code": "string",
+  "generated_at": "string",
+  "sent_at": "string",
+  "used_at": "string",
+  "invited_by": "integer",
+  "user": {}
 }
 
 ```

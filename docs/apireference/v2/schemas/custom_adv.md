@@ -22,19 +22,19 @@ title: Custom Adv
 
 #### Properties
 
-| Name             | Type                | Required | Restrictions | Description                                                |
-|------------------|---------------------|----------|--------------|------------------------------------------------------------|
-| id               | integer             | false    | read-only    | A unique integer value identifying this adv                |
-| position         | [string](/docs/apireference/v2/schemas/custom_adv#position-valid-values)          | true     | none         | A string code representing the display position of the adv |
-| title            | string              | true     | none         | The title of the adv                                       |
-| link             | string(uri)¦null    | false    | none         | The link/url of the adv                                    |
-| image            | string(binary)¦null | false    | none         | An image banner for the adv                                |
-| embed_code       | string¦null         | false    | none         | Html/js embeddable code                                    |
-| active           | boolean             | false    | none         | A flag to activate or deactivate this adv                  |
-| created_at       | string(date-time)   | false    | none         | Datetime of creation                                       |
-| lastmod_datetime | string(date-time)   | false    | none         | Last modify datetime                                       |
-| category         | integer¦null        | false    | none         | The id of the category connected to this adv               |
-| created_by       | integer             | true     | none         | The id of the creator of this adv                          |
+| Name             | Type                                                                     | Required | Restrictions | Description                                                |
+|------------------|--------------------------------------------------------------------------|----------|--------------|------------------------------------------------------------|
+| id               | integer                                                                  | false    | read-only    | A unique integer value identifying this adv                |
+| position         | [string](/docs/apireference/v2/schemas/custom_adv#position-valid-values) | true     | none         | A string code representing the display position of the adv |
+| title            | string                                                                   | true     | none         | The title of the adv                                       |
+| link             | string(uri)¦null                                                         | false    | none         | The link/url of the adv                                    |
+| image            | string(binary)¦null                                                      | false    | none         | An image banner for the adv                                |
+| embed_code       | string¦null                                                              | false    | none         | Html/js embeddable code                                    |
+| active           | boolean                                                                  | false    | none         | A flag to activate or deactivate this adv                  |
+| created_at       | string(date-time)                                                        | false    | none         | Datetime of creation                                       |
+| lastmod_datetime | string(date-time)                                                        | false    | none         | Last modify datetime                                       |
+| category         | integer¦null                                                             | false    | none         | The id of the category connected to this adv               |
+| created_by       | integer                                                                  | true     | none         | The id of the creator of this adv                          |
 
 #### Position valid Values
 

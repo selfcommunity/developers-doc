@@ -16,9 +16,9 @@ title: Dynamic Preference
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description                                                         |
-|---|---|---|---|---------------------------------------------------------------------|
-|id|integer|false|read-only| A unique integer value identifying this dynamic preference          |
-|section|string|false|read-only| Grouping name                                                       |
-|name|string|false|read-only| Unique name identifying this dynamic preference                     |
-|value|string|true|none| The value of the dynamic preference (can be an integer or a string) |
+| Name    | Type    | Required | Restrictions | Description                                                         |
+|---------|---------|----------|--------------|---------------------------------------------------------------------|
+| id      | integer | false    | read-only    | A unique integer value identifying this dynamic preference          |
+| section | string  | false    | read-only    | Grouping name                                                       |
+| name    | string  | false    | read-only    | Unique name identifying this dynamic preference                     |
+| value   | string  | true     | none         | The value of the dynamic preference (can be an integer or a string) |

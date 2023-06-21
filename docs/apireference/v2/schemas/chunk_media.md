@@ -15,9 +15,9 @@ title: Chunk Media
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description  |
-|---|---|---|---|--------------|
-|upload_id|string|true|none| The upload id |
-|offset|string|true|none| The media offset |
-|expires|string|false|read-only| Expiration   |
+| Name      | Type   | Required | Restrictions | Description      |
+|-----------|--------|----------|--------------|------------------|
+| upload_id | string | true     | none         | The upload id    |
+| offset    | string | true     | none         | The media offset |
+| expires   | string | false    | read-only    | Expiration       |
 

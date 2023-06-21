@@ -6,8 +6,12 @@ title: Vote
 
 ```json
 {
-  "user": {User},
-  "reaction": {Reaction},
+  "user": {
+    User
+  },
+  "reaction": {
+    Reaction
+  },
   "voted_at": "string(date-time)"
 }
 

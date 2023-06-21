@@ -17,14 +17,13 @@ title: User Settings
 
 #### Properties
 
-| Name                           | Type        | Required | Restrictions | Description                                                                                           |
-|--------------------------------|-------------|----------|--------------|-------------------------------------------------------------------------------------------------------|
+| Name                           | Type                                                                     | Required | Restrictions | Description                                                                                           |
+|--------------------------------|--------------------------------------------------------------------------|----------|--------------|-------------------------------------------------------------------------------------------------------|
 | qa_frequency                   | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values) | false    | none         | Frequency of the email notifications for all interactions (except for private messages notifications) |
-| email_notification_not_qa      | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values)     | false    | none         | Enable private messages notifications also via mail                                                   |
-| mobile_notifications_scmty     | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values)     | false    | none         | Enable mobile app notifications                                                                       |
-| show_toast_notifications       | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values)     | false    | none         | Shows a popup when the user receive a notification (only if the frontend is enabled)                  |
-| toast_notifications_emit_sound | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values)     | false    | none         | Emit a sound when the notification popup is shown. See 'show_toast_notifications'                     |
-
+| email_notification_not_qa      | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values) | false    | none         | Enable private messages notifications also via mail                                                   |
+| mobile_notifications_scmty     | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values) | false    | none         | Enable mobile app notifications                                                                       |
+| show_toast_notifications       | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values) | false    | none         | Shows a popup when the user receive a notification (only if the frontend is enabled)                  |
+| toast_notifications_emit_sound | [integer](/docs/apireference/v2/schemas/user_settings#enumerated-values) | false    | none         | Emit a sound when the notification popup is shown. See 'show_toast_notifications'                     |
 
 #### Enumerated Values
 
