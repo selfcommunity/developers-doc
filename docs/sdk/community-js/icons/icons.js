@@ -73,7 +73,6 @@ export const scIcons = [
     {name: 'outlined_flag', codepoint: 'e945'},
     {name: 'people_alt', codepoint: 'e946'},
     {name: 'person', codepoint: 'e947'},
-    {name: 'photo', codepoint: 'e949'},
     {name: 'photo_camera', codepoint: 'e948'},
     {name: 'picture_as_pdf', codepoint: 'e94a'},
     {name: 'play_arrow', codepoint: 'e94b'},
