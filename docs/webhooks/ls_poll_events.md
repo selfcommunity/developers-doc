@@ -4,13 +4,10 @@ sidebar_position: 9
 title: List of Poll Events
 ---
 
-
-| Poll              | Triggered When                     | Note |
+| Event             | Triggered When                     | Note |
 |-------------------|------------------------------------|------|
 | poll_vote.created | a user votes a poll                | ---  |
 | poll_vote.deleted | a user remove the vote from a poll | ---  |
-
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';

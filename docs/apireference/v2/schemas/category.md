@@ -63,15 +63,15 @@ title: Category
 
 #### Enumerated Values
 
-|Property|Value|Description|
-|---|---|---|
-|auto_follow|none|No auto following|
-|auto_follow|default|New users will follow this category|
-|auto_follow|forced|All users follow (and can't unfollow) this category|
+| Property    | Value   | Description                                         |
+|-------------|---------|-----------------------------------------------------|
+| auto_follow | none    | No auto following                                   |
+| auto_follow | default | New users will follow this category                 |
+| auto_follow | forced  | All users follow (and can't unfollow) this category |
 
 #### Enumerated Values
 
-|Property|Value|Description|
-|---|---|---|
-|stream_order_by|recent|Order by last created (decreasing)|
-|stream_order_by|last_activity|Order by last activity (creation, comments, ecc) (decreasing)|
+| Property        | Value         | Description                                                   |
+|-----------------|---------------|---------------------------------------------------------------|
+| stream_order_by | recent        | Order by last created (decreasing)                            |
+| stream_order_by | last_activity | Order by last activity (creation, comments, ecc) (decreasing) |

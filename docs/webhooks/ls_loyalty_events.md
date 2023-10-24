@@ -4,19 +4,15 @@ sidebar_position: 8
 title: List of Loyalty Events
 ---
 
-
-
-| Loyalty                       | Triggered When                                 | Note                                                                                 |
+| Event                         | Triggered When                                 | Note                                                                                 |
 |-------------------------------|------------------------------------------------|--------------------------------------------------------------------------------------|
 | loyalty.prize.created         | a new prize has been created                   | This event is triggered only if `loyalty_points_collection` community option is true |
 | loyalty.prize.updated         | a prize has been updated                       | This event is triggered only if `loyalty_points_collection` community option is true |
 | loyalty.prize_request.created | a new request of a prize has been created      | This event is triggered only if `loyalty_points_collection` community option is true |
 | loyalty.prize_request.updated | a request of a prize has been updated (status) | This event is triggered only if `loyalty_points_collection` community option is true |
 
-
->* loyalty.prize.created
+> * loyalty.prize.created
 >* loyalty.prize.updated
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';
@@ -56,7 +52,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
->* loyalty.prize_request.created
+> * loyalty.prize_request.created
 >* loyalty.prize_request.updated
 
 ````mdx-code-block

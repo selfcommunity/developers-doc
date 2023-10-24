@@ -45,15 +45,15 @@ title: Feed
 
 #### Properties
 
-|Name|Type|Required|Restrictions| Description                                                                 |
-|---|---|---|---|-----------------------------------------------------------------------------|
-|type|string|false|read-only| The type of the object, can be `discussion` , `post` or `status`            |
-|discussion|[Discussion](/docs/apireference/v2/schemas/discussion)¦null|false|read-only| The discussion obj                                                          |
-|post|[Post](/docs/apireference/v2/schemas/post)¦undefined|false|read-only| The post obj                                                                |
-|status|[Status](/docs/apireference/v2/schemas/status)¦undefined|false|read-only| The status obj                                                              |
-|seen_by_id|list(integer)¦undefined|false|read-only| Id of [User](/docs/apireference/v2/schemas/user) that have seen this object |
-|has_boost|¦undefined|false|read-only| If true, this object has the visibility boost                               |
-|activities|list([FeedActivity](/docs/apireference/v2/schemas/feed_activity))¦undefined|false|read-only| List of feed acitivity. This field is returned only for relevance feed      |
+| Name       | Type                                                                        | Required | Restrictions | Description                                                                 |
+|------------|-----------------------------------------------------------------------------|----------|--------------|-----------------------------------------------------------------------------|
+| type       | string                                                                      | false    | read-only    | The type of the object, can be `discussion` , `post` or `status`            |
+| discussion | [Discussion](/docs/apireference/v2/schemas/discussion)¦null                 | false    | read-only    | The discussion obj                                                          |
+| post       | [Post](/docs/apireference/v2/schemas/post)¦undefined                        | false    | read-only    | The post obj                                                                |
+| status     | [Status](/docs/apireference/v2/schemas/status)¦undefined                    | false    | read-only    | The status obj                                                              |
+| seen_by_id | list(integer)¦undefined                                                     | false    | read-only    | Id of [User](/docs/apireference/v2/schemas/user) that have seen this object |
+| has_boost  | ¦undefined                                                                  | false    | read-only    | If true, this object has the visibility boost                               |
+| activities | list([FeedActivity](/docs/apireference/v2/schemas/feed_activity))¦undefined | false    | read-only    | List of feed acitivity. This field is returned only for relevance feed      |
 
 
 

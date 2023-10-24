@@ -5,7 +5,7 @@ title: Legal Page Ack
 ---
 
 ```json
-{ 
+{
   "id": "integer",
   "accepted_at": "string",
   "not_accepted_at": "string",

@@ -4,15 +4,10 @@ sidebar_position: 14
 title: List of Vote Events
 ---
 
-
-| Vote         | Triggered When                                                                                                                                       | Note |
-|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| Event        | Triggered When                                                                                                                                                                                                                       | Note |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | vote.created | a user votes a contribute ([Discussion](../apireference/v2/schemas/discussion), [Post](../apireference/v2/schemas/post),  [Status](../apireference/v2/schemas/status) or [Comment](../apireference/v2/schemas/comment))              | ---  |
 | vote.deleted | a user remove the vote from a contribute ([Discussion](../apireference/v2/schemas/discussion), [Post](../apireference/v2/schemas/post), [Status](../apireference/v2/schemas/status) or [Comment](../apireference/v2/schemas/comment) | ---  |
-
-
-
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';

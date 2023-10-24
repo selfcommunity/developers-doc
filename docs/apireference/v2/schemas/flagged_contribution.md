@@ -10,7 +10,7 @@ title: Flagged Contribution
   "contribution": {
     "id": "integer",
     "author": "{ModerationUser}",
-    "added_at": "string",      
+    "added_at": "string",
     "categories": [],
     "title": "string",
     "html": "string",
@@ -53,42 +53,45 @@ title: Flagged Contribution
 | contribution      | [Post](/docs/apireference/v2/schemas/post), [Discussion](/docs/apireference/v2/schemas/discussion), [Status](/docs/apireference/v2/schemas/status) or [Comment](/docs/apireference/v2/schemas/comment) | true     | none         | the contribution                    |
 | last_flagged_at   | string(date-time)                                                                                                                                                                                      | true     | none         | date time of the last flag          |
 | moderation_status | [string](/docs/apireference/v2/schemas/flagged_contribution#enumerated-values-1)                                                                                                                       | true     | none         | moderation status                   |
-| moderation_type   | [string](/docs/apireference/v2/schemas/flagged_contribution#enumerated-values-2)                                                                                                                                                                                             | false    | none         | cause of the moderation             |
+| moderation_type   | [string](/docs/apireference/v2/schemas/flagged_contribution#enumerated-values-2)                                                                                                                       | false    | none         | cause of the moderation             |
 | moderation_by     | [User](/docs/apireference/v2/schemas/user)                                                                                                                                                             | false    | none         | moderator                           |
 | moderation_at     | string(date-time)                                                                                                                                                                                      | true     | none         | date time of the moderation         |
 
 #### Enumerated Values
 
-|Property|Value|
-|---|---|
-|contribution_type|discussion|
-|contribution_type|post|
-|contribution_type|comment|
+| Property          | Value      |
+|-------------------|------------|
+| contribution_type | discussion |
+| contribution_type | post       |
+| contribution_type | comment    |
 
 #### Enumerated Values
-|Property|Value|
-|---|---|
-|moderation_status|ignored|
-|moderation_status|deleted|
-|moderation_status|hidden|
+
+| Property          | Value   |
+|-------------------|---------|
+| moderation_status | ignored |
+| moderation_status | deleted |
+| moderation_status | hidden  |
 
 #### Enumerated Values
-|Parameter|Value|Description|
-|---|---|---|
-|moderation_type|0|spam|
-|moderation_type|1|aggressive|
-|moderation_type|2|vulgar|
-|moderation_type|3|poor|
-|moderation_type|4|offtopic|
+
+| Parameter       | Value | Description |
+|-----------------|-------|-------------|
+| moderation_type | 0     | spam        |
+| moderation_type | 1     | aggressive  |
+| moderation_type | 2     | vulgar      |
+| moderation_type | 3     | poor        |
+| moderation_type | 4     | offtopic    |
 
 #### Field media_count_detail possible keys
-|Key|
-|---|
-|vimeo|
-|url|
-|embed|
-|image|
-|eimage|
-|doc|
-|share|
+
+| Key    |
+|--------|
+| vimeo  |
+| url    |
+| embed  |
+| image  |
+| eimage |
+| doc    |
+| share  |
 

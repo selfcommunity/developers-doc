@@ -22,7 +22,7 @@ title: Loyalty Prize User
 |--------------------|-------------------------------------------------------------------------------|----------|--------------|-------------------------------------------|
 | id                 | integer                                                                       | false    | read-only    | A unique integer value                    |
 | user               | [User](/docs/apireference/v2/schemas/user)                                    | false    | read-only    | The user object                           |
-| prize              | [LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)                                                                         | false    | read-only    | The prize object                          |
+| prize              | [LoyaltyPrize](/docs/apireference/v2/schemas/loyalty_prize)                   | false    | read-only    | The prize object                          |
 | prize_points       | integer                                                                       | false    | read-only    | Prize points when the request was created |
 | pending_at         | string(date-time)                                                             | false    | read-only    | Date since it was in pending status       |
 | status             | [integer](/docs/apireference/v2/schemas/loyalty_prize_user#enumerated-values) | false    | none         | Integer value representing the status     |
@@ -30,8 +30,8 @@ title: Loyalty Prize User
 
 #### Enumerated Values
 
-|Property|Value|Description|
-|---|---|---|
-|status|0|pending|
-|status|1|refused|
-|status|2|sent|
+| Property | Value | Description |
+|----------|-------|-------------|
+| status   | 0     | pending     |
+| status   | 1     | refused     |
+| status   | 2     | sent        |

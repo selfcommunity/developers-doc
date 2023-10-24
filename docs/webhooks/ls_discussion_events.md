@@ -4,23 +4,21 @@ sidebar_position: 7
 title: List of Discussion Events
 ---
 
+| Event                | Triggered When                                           | Note                                                                          |
+|----------------------|----------------------------------------------------------|-------------------------------------------------------------------------------|
+| discussion.created   | a new discussion is created                              | This event is triggered only if `discussion_enabled` community option is true |
+| discussion.updated   | a discussion is updated                                  | This event is triggered only if `discussion_enabled` community option is true |
+| discussion.deleted   | a discussion is deleted                                  | This event is triggered only if `discussion_enabled` community option is true |
+| discussion.restored  | a discussion is restored after deletion                  | This event is triggered only if `discussion_enabled` community option is true |
+| discussion.follow    | a discussion is followed by the user                     | This event is triggered only if `discussion_enabled` community option is true |
+| discussion.unfollow  | a discussion is unfollowed by the user                   | This event is triggered only if `discussion_enabled` community option is true |
+| discussion.suspend   | a discussion's notifications are suspended by the user   | This event is triggered only if `discussion_enabled` community option is true |
+| discussion.unsuspend | a discussion's notifications are unsuspended by the user | This event is triggered only if `discussion_enabled` community option is true |
 
-| Discussion          | Triggered When                          | Note                                                                          |
-|---------------------|-----------------------------------------|-------------------------------------------------------------------------------|
-| discussion.created  | a new discussion is created             | This event is triggered only if `discussion_enabled` community option is true |
-| discussion.updated  | a discussion is updated                 | This event is triggered only if `discussion_enabled` community option is true |
-| discussion.deleted  | a discussion is deleted                 | This event is triggered only if `discussion_enabled` community option is true |
-| discussion.restored | a discussion is restored after deletion | This event is triggered only if `discussion_enabled` community option is true |
-| discussion.follow   | a discussion is followed by the user    | This event is triggered only if `discussion_enabled` community option is true |
-| discussion.unfollow | a discussion is unfollowed by the user  | This event is triggered only if `discussion_enabled` community option is true |
-
-
->* discussion.created
+> * discussion.created
 >* discussion.updated
 >* discussion.deleted
 >* discussion.restored
-
-
 
 ````mdx-code-block
 import Tabs from '@theme/Tabs';
@@ -90,11 +88,10 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ````
 
-
->* discussion.follow
+> * discussion.follow
 >* discussion.unfollow
-
-
+>* discussion.suspend
+>* discussion.unsuspend
 
 ````mdx-code-block
 

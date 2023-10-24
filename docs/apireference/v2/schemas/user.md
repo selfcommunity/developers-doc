@@ -32,7 +32,7 @@ title: User
   "reputation": "integer",
   "community_badge": "boolean",
   "reg_approved": "boolean",
-  "deleted" : "boolean",
+  "deleted": "boolean",
   "company_name": "string",
   "company_role": "string"
 }
@@ -73,13 +73,14 @@ title: User
 | company_role        | string                                                                       | false    | read-only    | User company role                                                                                                   |
 | deleted             | boolean                                                                      | false    | read-only    | The user account deletion state                                                                                     |
 | deleted_at          | string(date-time)                                                            | false    | read-only    | The user account deletion datetime                                                                                  | Only if `deleted` is `true`                                                                 |
+
 #### Enumerated Values
 
-| Property          | Value                       | Description                                                 |
-|-------------------|-----------------------------|-------------------------------------------------------------|
-| gender            | Male                        | Male                                                        |
-| gender            | Female                      | Female                                                      |
-| gender            | Unspecified                 | Unspecified                                                 |
+| Property | Value       | Description |
+|----------|-------------|-------------|
+| gender   | Male        | Male        |
+| gender   | Female      | Female      |
+| gender   | Unspecified | Unspecified |
 
 #### Connection statuses values
 

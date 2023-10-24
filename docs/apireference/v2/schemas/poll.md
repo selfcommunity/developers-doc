@@ -1,5 +1,5 @@
 ---
-sidebar_label: Poll 
+sidebar_label: Poll
 sidebar_position: 1
 title: Poll 
 ---
@@ -33,7 +33,7 @@ title: Poll
       "vote_count": "integer",
       "voted": "boolean"
     }
-    ]
+  ]
 }
 
 ```
