@@ -125,9 +125,6 @@ import TabItem from '@theme/TabItem';
 > * notification.comment
 
 ````mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
 <TabItem value="json">
 
@@ -232,8 +229,6 @@ import TabItem from '@theme/TabItem';
 > * notification.nested_comment
 
 ````mdx-code-block
-
-
 <Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
 <TabItem value="json">
 
@@ -370,8 +365,6 @@ import TabItem from '@theme/TabItem';
 > * notification.mention
 
 ````mdx-code-block
-
-
 <Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
 <TabItem value="json">
 
@@ -445,7 +438,6 @@ import TabItem from '@theme/TabItem';
 > * notification.vote_up
 
 ````mdx-code-block
-
 
 <Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
 <TabItem value="json">
