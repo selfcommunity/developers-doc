@@ -9,7 +9,7 @@ This endpoint retrieves all custom pages.
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+Custom Pages are a "public object" visible both to not authenticated users and in closed communities.
 
 :::
 

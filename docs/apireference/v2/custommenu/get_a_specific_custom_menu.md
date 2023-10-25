@@ -8,7 +8,7 @@ This endpoint retrieves a specific custom menu.
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+Custom Menus are a "public object" visible both to not authenticated users and in closed communities.
 
 :::
 
