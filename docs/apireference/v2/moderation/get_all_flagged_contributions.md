@@ -153,7 +153,8 @@ Status Code **200**
             "share_count": "integer",
             "has_poll": "boolean",
             "thread_id": "integer",
-            "thread_type": "string"
+            "thread_type": "string",
+            "thread_slug": "string"
           },
           "last_flagged_at": "string",
           "moderation_status": "string",
