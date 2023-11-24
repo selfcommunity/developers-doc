@@ -105,7 +105,8 @@ curl -X GET /api/v2/user/{id}/ \
   "reg_approved": "boolean",
   "deleted" : "boolean",
   "company_name": "string",
-  "company_role": "string"
+  "company_role": "string",
+  "can_send_pm_to": "string"
 }
 ```
 
