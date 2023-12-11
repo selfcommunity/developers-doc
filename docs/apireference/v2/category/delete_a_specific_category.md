@@ -4,7 +4,7 @@ sidebar_position: 7
 title: Delete a Specific Category
 ---
 
-This endpoint deletes a specific category identified by {id}. 
+This endpoint deletes a specific category identified by \{id}. 
 
 
 :::info

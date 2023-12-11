@@ -4,7 +4,7 @@ sidebar_position: 6
 title: Update a Specific User
 ---
 
-This endpoint updates the profile of a user identified by {id}. A user can only update their personal data.
+This endpoint updates the profile of a user identified by \{id}. A user can only update their personal data.
 
 :::info
 

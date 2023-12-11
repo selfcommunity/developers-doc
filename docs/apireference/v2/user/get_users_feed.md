@@ -4,7 +4,7 @@ sidebar_position: 18
 title: Get User's Feed
 ---
 
-This endpoint retrieves the list of posts of the user identified by {id}
+This endpoint retrieves the list of posts of the user identified by \{id}
 
 :::info
 

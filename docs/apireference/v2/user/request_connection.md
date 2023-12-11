@@ -4,7 +4,7 @@ sidebar_position: 29
 title: Request Connection
 ---
 
-This endpoint requests a connection to the user identified by {id}
+This endpoint requests a connection to the user identified by \{id}
 
 :::info
 

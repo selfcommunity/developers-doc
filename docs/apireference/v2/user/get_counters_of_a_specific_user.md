@@ -4,7 +4,7 @@ sidebar_position: 5
 title: Get Counters of a Specific User
 ---
 
-This endpoint retrieves the counters of a specific user identified by {id}
+This endpoint retrieves the counters of a specific user identified by \{id}
 
 :::info
 

@@ -4,7 +4,7 @@ sidebar_position: 7
 title: Patch a Specific User
 ---
 
-This endpoint patches a specific user identified by {id}
+This endpoint patches a specific user identified by \{id}
 
 :::info
 

@@ -4,7 +4,7 @@ sidebar_position: 4
 title: Get a Specific User
 ---
 
-This endpoint retrieves a specific user's profile identified by {id}
+This endpoint retrieves a specific user's profile identified by \{id}
 
 :::info
 

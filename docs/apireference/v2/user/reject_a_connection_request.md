@@ -4,7 +4,7 @@ sidebar_position: 33
 title: Reject a Connection Request
 ---
 
-This endpoint rejects a connection request sent from user identified by {id}
+This endpoint rejects a connection request sent from user identified by \{id}
 
 :::info
 

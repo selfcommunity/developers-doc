@@ -4,7 +4,7 @@ sidebar_position: 20
 title: Get User's Following
 ---
 
-This endpoint retrieves the list of following of a specific user identified by {id}
+This endpoint retrieves the list of following of a specific user identified by \{id}
 
 :::info
 

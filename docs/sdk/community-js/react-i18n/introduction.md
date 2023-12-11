@@ -10,7 +10,7 @@ React-i18n Package allows the internationalization and localization of your appl
 
 ### How to generate translation files
 
-After package [installation](../getting_started/installation.md/#install-react-i18n) a folder `locales` with two json files (en, it) will be generated.
+After package [installation]( /docs/sdk/community-js/getting_started/installation#install-react-i18n) a folder `locales` with two json files (en, it) will be generated.
 
 Inside those files there are components translation strings. The standard pattern in use to define them is :
 
@@ -25,7 +25,7 @@ Inside those files there are components translation strings. The standard patter
 
 There are two ways to declare and use translations:
 
-:::tipMethod 1 steps:
+:::tip Method 1 steps:
 1. import [`defineMessages`](https://formatjs.io/docs/react-intl/api#definemessages) and [`useIntl`](https://formatjs.io/docs/react-intl/api/#useintl-hook) hook from react-intl API.
 2. Define a `messages` constant  that will contain the objs with description strings you want to translate.
 3. Inside your functional component, declare a `intl` constant that uses `useIntl` hook.
@@ -50,11 +50,10 @@ const intl = useIntl();
 `${intl.formatMessage(messages.categoryFollowers)}`
 ```
 
-:::tipMethod s steps:
+:::tip Method steps:
 1. import [`FormattedMessages`](https://formatjs.io/docs/react-intl/components#formattedmessage) from react-intl API
 2. Use `FormattedMessages` component with `id` and `defaultMessage` string as defined in your JSON files.
    :::
-3. 
 ```jsx
 //Import
 import {FormattedMessage} from 'react-intl';

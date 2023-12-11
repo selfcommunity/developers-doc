@@ -4,11 +4,11 @@ sidebar_position: 8
 title: Delete a Specific User
 ---
 
-This endpoint deletes a specific user identified by {id}
+This endpoint deletes a specific user identified by \{id}
 
 :::info
 
-Only the user identified by the {id} and the administrators can delete the user. 
+Only the user identified by the \{id} and the administrators can delete the user. 
 
 :::
 

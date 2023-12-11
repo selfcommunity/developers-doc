@@ -4,7 +4,7 @@ sidebar_position: 34
 title: Mark Seen a Connection Request
 ---
 
-This endpoint marks seen a connection request of user identified by {id} for the user authenticated
+This endpoint marks seen a connection request of user identified by \{id} for the user authenticated
 
 :::info
 

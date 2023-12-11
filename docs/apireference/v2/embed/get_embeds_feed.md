@@ -24,14 +24,14 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In| Type      |Required| Description                                                                                             |
-|---|---|-----------|---|---------------------------------------------------------------------------------------------------------|
-|embed_type|query| string    |false| The embed type                                                                                          |
-|embed_id|query| string    |false| The embed id                                                                                            |
-|metadata|query| json dict |false| A json dict containing some TERM_KEYS (eg: {"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}) |
-|limit|query| integer   |false| Number of results to return per page                                                                    |
-|offset|query| integer   |false| The initial index from which to return the results                                                      |
-|ordering|query| string    |false| The ordering of the feed. Default to 'recent'                                                           |
+|Name|In| Type      |Required| Description                                                                                              |
+|---|---|-----------|---|----------------------------------------------------------------------------------------------------------|
+|embed_type|query| string    |false| The embed type                                                                                           |
+|embed_id|query| string    |false| The embed id                                                                                             |
+|metadata|query| json dict |false| A json dict containing some TERM_KEYS (eg: \{"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}) |
+|limit|query| integer   |false| Number of results to return per page                                                                     |
+|offset|query| integer   |false| The initial index from which to return the results                                                       |
+|ordering|query| string    |false| The ordering of the feed. Default to 'recent'                                                            |
 
 #### Enumerated Values
 

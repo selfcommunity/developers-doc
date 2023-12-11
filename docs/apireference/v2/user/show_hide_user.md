@@ -4,7 +4,7 @@ sidebar_position: 35
 title: Show/Hide User
 ---
 
-This endpoint shows/hides a user (and its posts) identified by {id} for the authenticated user
+This endpoint shows/hides a user (and its posts) identified by \{id} for the authenticated user
 
 :::info
 

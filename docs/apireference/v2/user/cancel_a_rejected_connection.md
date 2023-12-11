@@ -4,7 +4,7 @@ sidebar_position: 31
 title: Cancel a Rejected Connection
 ---
 
-This endpoint cancels reject connection to a user identified by {id}
+This endpoint cancels reject connection to a user identified by \{id}
 
 :::info
 

@@ -4,7 +4,7 @@ sidebar_position: 28
 title: Accept a User Connection
 ---
 
-This endpoint accepts a request connection of the user identified by {id}
+This endpoint accepts a request connection of the user identified by \{id}
 
 :::info
 

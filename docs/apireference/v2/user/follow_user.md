@@ -4,7 +4,7 @@ sidebar_position: 21
 title: Follow User
 ---
 
-This endpoint allows a user to follow another user identified by {id}
+This endpoint allows a user to follow another user identified by \{id}
 
 :::info
 

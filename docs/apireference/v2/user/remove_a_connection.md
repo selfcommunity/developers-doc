@@ -4,7 +4,7 @@ sidebar_position: 30
 title: Remove a Connection
 ---
 
-This endpoint removes connection with the user identified by {id}
+This endpoint removes connection with the user identified by \{id}
 
 :::info
 
