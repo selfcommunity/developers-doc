@@ -6,10 +6,11 @@ title: User Profile Header
 
 > The User Profile Header component renders the user profile header composed of user's cover, profile picture and username.
 
-import UserProfileHeader from './userProfileHeader.js';
-import Logged from "../../Logged";
 
-<Logged><UserProfileHeader/></Logged>
+import Logged from "../../Logged";
+import {UserProfileHeader} from '@selfcommunity/react-ui';
+
+<Logged><UserProfileHeader  userId={7}/></Logged>
 
 
 #### Usage

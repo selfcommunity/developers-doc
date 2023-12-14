@@ -1,19 +1,11 @@
 import React from 'react';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 import {useState, useEffect} from 'react';
 import {getOAuthSession} from "./helpers";
-import useIsBrowser from '@docusaurus/useIsBrowser';
-
-export const stored = () => {
-    const isBrowser = useIsBrowser();
-    if (isBrowser) {
-       return JSON.parse(window.localStorage.getItem("token"));
-    }
-
-}
 
 export function useAuthToken() {
     const isBrowser = useIsBrowser();
-    const [authToken, setAuthToken] = useState(stored);
+    const [authToken, setAuthToken] = useState(isBrowser ? JSON.parse(window.localStorage.getItem("token")) : '');
 
     useEffect(() => {
         if (!isBrowser) {
@@ -24,7 +16,7 @@ export function useAuthToken() {
                 setAuthToken(res);
             });
         } else {
-            setAuthToken(stored);
+            isBrowser && setAuthToken(JSON.parse(window.localStorage.getItem("token")));
         }
 
     }, [isBrowser]);
@@ -37,5 +29,4 @@ export function useAuthToken() {
 
     return authToken;
 }
-
 

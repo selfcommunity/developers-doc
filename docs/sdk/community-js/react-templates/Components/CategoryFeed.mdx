@@ -6,10 +6,11 @@ title: Category Feed
 
 > The Category Feed template renders the category feed.
 
-import CategoryFeed from './categoryFeed.js';
-import Logged from "../../Logged";
 
-<Logged><CategoryFeed/></Logged>
+import Logged from "../../Logged";
+import {CategoryFeed} from '@selfcommunity/react-templates';
+
+<Logged><CategoryFeed categoryId={3}/></Logged>
 
 #### Usage
 

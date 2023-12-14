@@ -9,11 +9,12 @@ This list is composed of feed object items containing the avatar and username of
 and a "comment" button that allows users to browse to the post, discussion or status extended version.<br/>
 The feed objects are shown in an orderly manner: few items are shown in the main card while the others can be displayed in a modal card by clicking on the "show more" button.
 
-import CategoryTrendingFeedWidget from './categoryTrendingFeed.js';
+
 import Logged from "../../Logged";
+import {CategoryTrendingFeedWidget} from '@selfcommunity/react-ui';
 
 
-[//]: # (<Logged><CategoryTrendingFeedWidget/></Logged>)
+<Logged><CategoryTrendingFeedWidget categoryId={5} template={'snippet'} elevation={1}/></Logged>
 
 
 #### Usage

@@ -7,10 +7,11 @@ title: User
 > The User component renders a user item containing user's avatar and username, info (or followers counter) and a follow button, <br/>
 that allows users to follow/unfollow others.
 
-import User from './user.js';
-import Logged from "../../Logged";
 
-[//]: # (<Logged><User/></Logged>)
+import Logged from "../../Logged";
+import {User} from '@selfcommunity/react-ui';
+
+<Logged><User userId={18}/></Logged>
 
 #### Usage
 

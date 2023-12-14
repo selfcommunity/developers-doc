@@ -6,10 +6,11 @@ title: Feed Object Detail
 
 > The Feed Object Detail template renders the feed object detail page.
 
-import FeedObjectDetail from './feedObjectDetail.js';
-import Logged from "../../Logged";
 
-[//]: # (<Logged><FeedObjectDetail/></Logged>)
+import Logged from "../../Logged";
+import {FeedObjectDetail} from '@selfcommunity/react-templates';
+
+<Logged><FeedObjectDetail feedObjectId={25} feedObjectType={'discussion'}/></Logged>
 
 #### Usage
 

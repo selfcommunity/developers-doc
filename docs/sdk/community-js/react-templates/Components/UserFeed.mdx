@@ -6,10 +6,11 @@ title: User Feed
 
 > The User Feed template renders user feed page.
 
-import UserFeed from './userFeed.js';
-import Logged from "../../Logged";
 
-<Logged><UserFeed/></Logged>
+import Logged from "../../Logged";
+import {UserFeed} from '@selfcommunity/react-templates';
+
+<Logged><UserFeed userId={1}/></Logged>
 
 #### Usage
 

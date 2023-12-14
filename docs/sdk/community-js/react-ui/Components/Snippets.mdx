@@ -7,10 +7,11 @@ title: Snippets
 > The Snippets component renders the list of conversations preview between users.<br/>
 Snippet items are composed of the user avatar and username, the message content and the receipt date.
 
-import Snippets from './snippets.js';
-import Logged from "../../Logged";
 
-<Logged><Snippets/></Logged>
+import Logged from "../../Logged";
+import {PrivateMessageSnippets} from '@selfcommunity/react-ui';
+
+<Logged><PrivateMessageSnippets/></Logged>
 
 #### Usage
 

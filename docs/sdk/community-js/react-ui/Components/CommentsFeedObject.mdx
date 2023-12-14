@@ -7,10 +7,11 @@ title: Comments Feed Object
 > The Comments Feed Object component renders a list of comment items.
 The comments are shown in an orderly manner: few items are full shown while the others can be loaded afterwards by clicking on the "see more comments" button.
 
-import CommentsFeedObject from './commentsFeedObject.js';
-import Logged from "../../Logged";
 
-[//]: # (<Logged><CommentsFeedObject/></Logged>)
+import Logged from "../../Logged";
+import {CommentsFeedObject} from '@selfcommunity/react-ui';
+
+<Logged><CommentsFeedObject feedObjectType={'discussion'} feedObjectId={50}/></Logged>
 
 #### Usage
 

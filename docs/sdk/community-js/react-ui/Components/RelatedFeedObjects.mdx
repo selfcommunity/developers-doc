@@ -9,10 +9,11 @@ This list is composed of feed object items containing the avatar and username of
 and a "comment" button that allows users to browse to the item extended version.<br/>
 The feed object items are shown in an orderly manner: few items are shown in the main card while the others can be displayed in a modal card by clicking on the "show more" button.
 
-import RelatedFeedObjects from './relatedFeedObjects.js';
-import Logged from "../../Logged";
 
-[//]: # (<Logged><RelatedFeedObjects/></Logged>)
+import Logged from "../../Logged";
+import {RelatedFeedObjectsWidget} from '@selfcommunity/react-ui';
+
+<Logged><RelatedFeedObjectsWidget feedObjectId={50} feedObjectType={'discussion'} template={'snippet'}/></Logged>
 
 #### Usage
 

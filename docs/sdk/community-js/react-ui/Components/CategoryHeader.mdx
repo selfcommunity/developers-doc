@@ -7,10 +7,11 @@ title: Category Header
 > The Category Header component renders a category header composed of category's cover, title, slogan and <br/>
  a followers section followed by a button that allows users to follow/unfollow the category.
 
-import CategoryHeader from './categoryHeader.js';
-import Logged from "../../Logged";
 
-<Logged><CategoryHeader/></Logged>
+import Logged from "../../Logged";
+import {CategoryHeader} from '@selfcommunity/react-ui';
+
+<Logged><CategoryHeader categoryId={10}/></Logged>
 
 #### Usage
 

@@ -6,10 +6,25 @@ title: Feed
 
 > The Feed component renders a feed composed of different feed objects and custom adv banners.
 
-import Feed from './feed.js';
-import Logged from "../../Logged";
 
-<Logged><Feed /></Logged>
+import Logged from "../../Logged";
+import {Feed, FeedObject, FeedObjectSkeleton} from '@selfcommunity/react-ui';
+import {Endpoints} from "@selfcommunity/api-services";
+
+<Logged>
+    <Feed
+        id={'feed'}
+        endpoint={Endpoints.ExploreFeed} ItemComponent={FeedObject}
+        itemPropsGenerator={(scUser, item) => ({
+            feedObject: item[item.type],
+            feedObjectType: item.type,
+            feedObjectActivities: item.activities ? item.activities : null,
+            markRead: scUser ? !item.seen_by_id.includes(scUser.id) : false
+        })}
+        ItemSkeleton={FeedObjectSkeleton} itemIdGenerator={(item) => item[item.type].id}
+    />
+</Logged>
+
 
 #### Usage
 

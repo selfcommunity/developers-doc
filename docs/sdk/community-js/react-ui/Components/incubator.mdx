@@ -7,10 +7,11 @@ title: Incubator
 > The Incubator component renders an incubator item containing incubator's title, info, a subscription status bar and a subscribe button,
 that allows users to subscribe/unsubscribe to an incubator.
 
-import Incubator from './incubator.js';
-import Logged from "../../Logged";
 
-<Logged><Incubator/></Logged>
+import Logged from "../../Logged";
+import {Incubator} from '@selfcommunity/react-ui';
+
+<Logged><Incubator incubatorId={1}/></Logged>
 
 
 #### Usage

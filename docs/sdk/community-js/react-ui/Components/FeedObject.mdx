@@ -10,10 +10,11 @@ Every feed object item is composed of a section containing the avatar and userna
 There are also various actions that can be performed on these items, such as comment, like and share, which are represented by icons.
 Moreover, through the top right menu it is possible to get item's permanent link and to turn notifications off.
 
-import FeedObject from './feedObject.js';
-import Logged from "../../Logged";
 
-<Logged><FeedObject/></Logged>
+import Logged from "../../Logged";
+import {FeedObject} from '@selfcommunity/react-ui';
+
+<Logged><FeedObject feedObjectId={25} feedObjectType={'discussion'}/></Logged>
 
 #### Usage
 

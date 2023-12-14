@@ -9,10 +9,11 @@ It is composed of a section containing the avatar and username of the author, th
 There are also various actions that can be performed, such as reply and like, which are represented by icons and text.
 Moreover, through the top right menu it is possible to flag, hide or delete the comment item.
 
-import CommentObject from './commentObject.js';
 import Logged from "../../Logged";
+import {CommentObject} from '@selfcommunity/react-ui';
 
-<Logged><CommentObject/></Logged>
+
+<Logged><CommentObject commentObjectId={70} feedObjectType={'discussion'}/></Logged>
 
 #### Usage
 

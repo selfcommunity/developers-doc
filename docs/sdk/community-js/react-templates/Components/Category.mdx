@@ -6,10 +6,11 @@ title: Category
 
 > The Category template renders the category page.
 
-import Category from './category.js';
-import Logged from "../../Logged";
 
-<Logged><Category/></Logged>
+import Logged from "../../Logged";
+import {Category} from '@selfcommunity/react-templates';
+
+<Logged><Category categoryId={3}/></Logged>
 
 
 #### Usage
