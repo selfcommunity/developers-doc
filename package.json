@@ -38,9 +38,9 @@
     "@selfcommunity/react-core": "0.4.1-alpha.4",
     "@selfcommunity/react-i18n": "0.5.1-alpha.0",
     "@selfcommunity/react-templates": "0.3.1-alpha.4",
-    "@selfcommunity/react-theme-default": "0.1.0-alpha.195",
+    "@selfcommunity/react-theme-default": "0.1.1-alpha.4",
     "@selfcommunity/react-ui": "0.7.1-alpha.4",
-    "@selfcommunity/types": "^0.5.1-alpha.0",
+    "@selfcommunity/types": "0.5.1-alpha.0",
     "@selfcommunity/utils": "0.2.1-alpha.0",
     "@svgr/webpack": "^8.0.0",
     "clipboard-copy": "^4.0.1",
@@ -59,7 +59,9 @@
     "typedoc-plugin-markdown": "^3.17.1",
     "typedoc-plugin-rename-defaults": "^0.7.0",
     "url-loader": "^4.1.1",
-    "webpack": "4.0"
+    "webpack": "4.0",
+    "axios": "^1.4.0",
+    "pdfjs-dist": "^3.5.141"
   },
   "browserslist": {
     "production": [
@@ -77,8 +79,6 @@
     "@docusaurus/tsconfig": "3.0.0",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
-    "axios": "^1.4.0",
-    "pdfjs-dist": "^3.5.141",
     "typescript": "^5.1.3"
   }
 }

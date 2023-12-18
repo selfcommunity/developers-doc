@@ -3909,16 +3909,6 @@
     axios "^1.4.0"
     jose "^4.14.4"
 
-"@selfcommunity/api-services@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.4.0.tgz#4e4bde03b09417468a625fa0ea594d42850c8a33"
-  integrity sha512-Ag7TlhFZes16DQnLXx2O9OTH+Vpl8QI/b3MLq8Okw8w5YLXETfwqIGQ0DxgipouDcFUrsxi6OwAfHmwH7soKMQ==
-  dependencies:
-    "@selfcommunity/types" "^0.5.0"
-    "@selfcommunity/utils" "^0.2.0"
-    axios "^1.4.0"
-    jose "^4.14.4"
-
 "@selfcommunity/react-core@0.4.1-alpha.4", "@selfcommunity/react-core@^0.4.1-alpha.4":
   version "0.4.1-alpha.4"
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.1-alpha.4.tgz#f006db9aa9b0c079832ea9489a8932ae58f56feb"
@@ -3933,29 +3923,10 @@
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.4"
 
-"@selfcommunity/react-core@^0.4.0", "@selfcommunity/react-core@^0.4.0-alpha.75":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.0.tgz#0a6a9ec5d06bd9d4189054cd587ba3d14a5295a0"
-  integrity sha512-tR/XXKkfc5ZCY1GgHANALd2kElRZO3uVCquNtN8zsEn67EZ0qtgZTw59cIruj8GDMoOD6Vsr+pzytgPCh36ygA==
-  dependencies:
-    "@selfcommunity/api-services" "^0.4.0"
-    "@selfcommunity/react-i18n" "^0.5.0"
-    "@selfcommunity/types" "^0.5.0"
-    "@selfcommunity/utils" "^0.2.0"
-    js-cookie "^3.0.5"
-    pubsub-js "^1.9.4"
-    use-deep-compare-effect "^1.8.1"
-    validate-color "^2.2.4"
-
 "@selfcommunity/react-i18n@0.5.1-alpha.0", "@selfcommunity/react-i18n@^0.5.1-alpha.0":
   version "0.5.1-alpha.0"
   resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.1-alpha.0.tgz#b456b6c3e11406b4f658f8e183bfcf4168deac4c"
   integrity sha512-qmTo4K3jy7sr75YviZLBhEM67TUDn4QBhp43VS+WHWIwrKjJ3a9WkaCGFxDde0r3uJvs9we4ASoRX3hnqKqZIw==
-
-"@selfcommunity/react-i18n@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.0.tgz#deb2d839ffd51ba1c74942d3d1c8a1d995742c63"
-  integrity sha512-kkPFC9buXO0XXbt0fNaE20zf+4jXcjzLPAMbIaxIAqfpccnTaFQNBzwMBD54JW4T1bAPnleN2+T9XNq2lshQQw==
 
 "@selfcommunity/react-templates@0.3.1-alpha.4":
   version "0.3.1-alpha.4"
@@ -3969,13 +3940,13 @@
     "@types/classnames" "^2.3.1"
     classnames "^2.3.2"
 
-"@selfcommunity/react-theme-default@0.1.0-alpha.195":
-  version "0.1.0-alpha.195"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.0-alpha.195.tgz#1701deb32e1bc0c1a344f7ec93d16e0e0ace57e8"
-  integrity sha512-XIqTnkD0Yk96ngMNxUVX4OgQBWxd3LlkEfdsY6AoejqT9XzsplFstefzRRy4zoB6lH+weLmPfB5Lwzt90YMu8g==
+"@selfcommunity/react-theme-default@0.1.1-alpha.4":
+  version "0.1.1-alpha.4"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.1-alpha.4.tgz#6ed8c604223227ec76f3797a11a0c7281d56c496"
+  integrity sha512-Cm9M8WufObNfRgjvdA63QW6YO28eDWdjpASrs/w0EHaqreMcwjGhFhdm1ygeq/pt4FUYX/bhhYarHW3GxTN5hg==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.0-alpha.75"
-    "@selfcommunity/react-ui" "^0.7.0-alpha.246"
+    "@selfcommunity/react-core" "^0.4.1-alpha.4"
+    "@selfcommunity/react-ui" "^0.7.1-alpha.4"
 
 "@selfcommunity/react-ui@0.7.1-alpha.4", "@selfcommunity/react-ui@^0.7.1-alpha.4":
   version "0.7.1-alpha.4"
@@ -4018,53 +3989,7 @@
     virtual-scroller "^1.12.3"
     yjs "^13.6.7"
 
-"@selfcommunity/react-ui@^0.7.0-alpha.246":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.0.tgz#169008e69ab5f7326665a70f6917b8d0bc7d8e64"
-  integrity sha512-AnSWolvlMt2do8aLggwm8HbaAhKweD5Ocq/+b7CJQfwUTPRxUY/IqsG1bzVBez4VgSePqg2ndnE9Zbqm1zw67g==
-  dependencies:
-    "@lexical/html" "^0.12.2"
-    "@lexical/react" "^0.12.2"
-    "@selfcommunity/api-services" "^0.4.0"
-    "@selfcommunity/react-core" "^0.4.0"
-    "@selfcommunity/react-i18n" "^0.5.0"
-    "@selfcommunity/types" "^0.5.0"
-    "@selfcommunity/utils" "^0.2.0"
-    "@types/classnames" "^2.3.1"
-    "@types/sortablejs" "1"
-    autosuggest-highlight "^3.1.1"
-    classnames "^2.3.2"
-    date-fns "^2.30.0"
-    emoji-picker-react "^4.5.2"
-    lexical "^0.12.2"
-    libphonenumber-js "^1.10.30"
-    prop-types "^15.8.1"
-    prop-types-extra "^1.1.1"
-    pubsub-js "^1.9.4"
-    react-custom-scrollbars-2 "^4.5.0"
-    react-intersection-observer "^9.4.3"
-    react-lazyload "^3.2.0"
-    react-photo-view "^1.2.3"
-    react-player "^2.12.0"
-    react-share "^4.4.1"
-    react-sortablejs "^6.1.4"
-    react-waypoint "^10.3.0"
-    resize-observer-polyfill "^1.5.1"
-    seamless-scroll-polyfill "^2.3.4"
-    sortablejs "^1.15.0"
-    spark-md5 "~3.0.2"
-    throttle-debounce "^2.1.0"
-    use-deep-compare-effect "^1.8.1"
-    use-resize-observer "^9.1.0"
-    virtual-scroller "^1.12.3"
-    yjs "^13.6.7"
-
-"@selfcommunity/types@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.5.0.tgz#56823a700b8a9d6d8bb0d0a8cee9b594d7d39861"
-  integrity sha512-EGPL/RSDm5aI9aJApQFDn40J6JVJaLlMqSs5lM0bP2S22+oan/Wa8VSP1y5Q69NG4fshZIb5xTYASgXTbii5BA==
-
-"@selfcommunity/types@^0.5.1-alpha.0":
+"@selfcommunity/types@0.5.1-alpha.0", "@selfcommunity/types@^0.5.1-alpha.0":
   version "0.5.1-alpha.0"
   resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.5.1-alpha.0.tgz#9374164fbc115bf1e7a235ec4f05ef7b5ec9aa55"
   integrity sha512-9v44Q2QqCjOy+j5Pa70LCVeNg7VcVwzNj/5okcJzotkLwX/J8rU3viNEf28hAjYpL6k2r9EhP0oa3SuIXiW7YA==
@@ -4073,11 +3998,6 @@
   version "0.2.1-alpha.0"
   resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.2.1-alpha.0.tgz#189561333a244314b22ba0df13759c1330a1c2fd"
   integrity sha512-n7/V0N2pxY9L+JHf4zXiUaNFfLqiXep+CL2f3Ey/TiUCb4z/FUnedpZnUvVf5HEtPhNT5Mhl7/ddJwLTPTy9XA==
-
-"@selfcommunity/utils@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.2.0.tgz#d72c1a8738e396e10b208269b1c839c5a8f05f6c"
-  integrity sha512-k4yACQ5a3ex+Isu/25IGHwuZGBcGGle6V53OE+wQ41ru21ATujmqgwSClkbQn/8LFcA9fy8/fa8na9FwWtW7lg==
 
 "@sideway/address@^4.1.3":
   version "4.1.4"

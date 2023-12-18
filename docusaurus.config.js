@@ -39,7 +39,7 @@ const config = {
           editUrl: 'https://github.com/selfcommunity/developers-doc/tree/main/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.css'), require.resolve('./node_modules/@selfcommunity/react-theme-default/lib/cjs/styles/reset.css'), require.resolve('./node_modules/@selfcommunity/react-theme-default/lib/cjs/fonts/community-icons.css')],
         },
       }),
     ],
