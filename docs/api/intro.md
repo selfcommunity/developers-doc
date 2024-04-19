@@ -11,7 +11,7 @@ At the moment the current version of SelfCommunity API is V2. See the full refer
 :::
 
 
-As an Enterprise plan subscriber, login to [https://make.selfcommunity.com](https://make.selfcommunity.com) with your account, go to the **API** section on **Integration** menu and enable the **API** and the **Authentication**.
+As an Enterprise plan subscriber, login to [https://make.selfcommunity.io](https://make.selfcommunity.io) with your account, go to the **API** section on **Integration** menu and enable the **API** and the **Authentication**.
 
 Continue reading this documentation to learn how to use SelfCommunity APIs.
 

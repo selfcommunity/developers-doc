@@ -18,7 +18,7 @@ OAuth apps can either be installed and managed across an account by account admi
 
 **Register Your App**
 
-To register your app, visit the [https://make.selfcommunity.com](https://make.selfcommunity.com) and click on the Community Apis option under Integrations in the left menu.
+To register your app, visit the [https://make.selfcommunity.io](https://make.selfcommunity.io) and click on the Community Apis option under Integrations in the left menu.
 Enable Community Apis and Authentcation api if they are disabled.
 
 ![Switch API Enabled](/img/authentication/switch_api_enable.png)

@@ -16,7 +16,7 @@ v9H5nkbu_J0ysGqY2YUeufn1ypHmvvTc2k2WoDdztvw
 JSON Web Token (JWT) is an open standard [RFC 7519](https://tools.ietf.org/html/rfc7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed.
 
 JWTs will be signed using a shared secret (with the HMAC algorithm).
-If your product support JWT access token, go to Community APIs panel under Integration menu on [https://make.selfcommunity.com](https://make.selfcommunity.com).
+If your product support JWT access token, go to Community APIs panel under Integration menu on [https://make.selfcommunity.io](https://make.selfcommunity.io).
 You need to first check that you have **enabled** the **Community APIs** and **Authentication APIs** and **retrieve the secret key** in the JWT Authentication panel.
 
 ![JWT Panel](/img/authentication/jwt_panel.png)

@@ -6,4 +6,4 @@ title: Adding Webhooks
 
 ### Adding Webhooks
 
-If your community is Enterprise login to [https://make.selfcommunity.com](https://make.selfcommunity.com/) with your account and go to Webhook panel under Integration menu and check that you have **enabled** the **Webhook** and register and endpoint for subscribing to events.
+If your community is Enterprise login to [https://make.selfcommunity.io](https://make.selfcommunity.io/) with your account and go to Webhook panel under Integration menu and check that you have **enabled** the **Webhook** and register and endpoint for subscribing to events.
