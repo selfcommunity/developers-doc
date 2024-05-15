@@ -51,13 +51,22 @@ const config = {
         id:'api-services',
         entryPoints: globs.sync(['./sdk/community-js/packages/api-services/src/types/*.ts', './sdk/community-js/packages/api-services/src/services/*/index.ts']),
         tsconfig: './sdk/community-js/packages/api-services/tsconfig.json',
-        out: 'sdk/community-js/api-services/API_Reference',
+        out: 'docs/sdk/community-js/api-services/API_Reference',
         readme: 'none',
         excludeExternals: true,
+        outputFileStrategy: "members",
+        membersWithOwnFile: ["Class", "Enum", "Interface", "TypeAlias", "Function"],
+        propertiesFormat: "table",
+        enumMembersFormat: "table",
+        parametersFormat: "table",
+        typeDeclarationFormat: "table",
+        textContentMappings: {
+          "title.indexPage": "API Reference",
+          "title.memberPage": "{name}",
+          "label.index": "",
+        },
         sidebar: {
-          categoryLabel: 'API Reference',
-          position: 0,
-          indexLabel: 'Introduction'
+          pretty: true
         },
         validation: {
           "notExported": true
@@ -71,13 +80,21 @@ const config = {
         id:'react-core',
         entryPoints: globs.sync(['./sdk/community-js/packages/react-core/src/components/provider/*/index.tsx', './sdk/community-js/packages/react-core/src/components/router/index.tsx', './sdk/community-js/packages/react-core/src/hooks/*.ts', './sdk/community-js/packages/react-core/src/types/*.ts']),
         tsconfig: './sdk/community-js/packages/react-core/tsconfig.json',
-        out: 'sdk/community-js/react-core/API_Reference',
+        out: 'docs/sdk/community-js/react-core/API_Reference',
         readme: 'none',
         excludeExternals: true,
+        outputFileStrategy: "modules",
+        propertiesFormat: "table",
+        enumMembersFormat: "table",
+        parametersFormat: "table",
+        typeDeclarationFormat: "table",
+        textContentMappings: {
+          "title.indexPage": "API Reference",
+          "title.memberPage": "{name}",
+          "label.index": "",
+        },
         sidebar: {
-          categoryLabel: 'API Reference',
-          position: 0,
-          indexLabel: 'Introduction'
+          pretty: true
         },
         validation: {
           "notExported": true
@@ -91,13 +108,21 @@ const config = {
         id:'react-ui',
         entryPoints: glob.sync('./sdk/community-js/packages/react-ui/src/components/*/index.tsx'),
         tsconfig: './sdk/community-js/packages/react-ui/tsconfig.json',
-        out: 'sdk/community-js/react-ui/component_API',
+        out: 'docs/sdk/community-js/react-ui/component_API',
         readme: 'none',
         excludeExternals: true,
+        outputFileStrategy: "modules",
+        propertiesFormat: "table",
+        enumMembersFormat: "table",
+        parametersFormat: "table",
+        typeDeclarationFormat: "table",
+        textContentMappings: {
+          "title.indexPage": "Component API",
+          "title.memberPage": "{name}",
+          "label.index": "",
+        },
         sidebar: {
-          categoryLabel: 'Component API',
-          position: 0,
-          indexLabel: 'Introduction'
+          pretty: true
         },
         validation: {
           "notExported": true
@@ -111,13 +136,18 @@ const config = {
         id:'react-templates',
         entryPoints:  glob.sync('./sdk/community-js/packages/react-templates/src/components/*/index.tsx'),
         tsconfig: './sdk/community-js/packages/react-templates/tsconfig.json',
-        out: 'sdk/community-js/react-templates/Component API',
+        out: 'docs/sdk/community-js/react-templates/Component API',
         readme: 'none',
         excludeExternals: true,
+        outputFileStrategy: "modules",
+        parametersFormat: "table",
+        textContentMappings: {
+          "title.indexPage": "Component API",
+          "title.memberPage": "{name}",
+          "label.index": "",
+        },
         sidebar: {
-          categoryLabel: 'Component API',
-          position: 0,
-          indexLabel: 'Introduction'
+          pretty: true
         },
         validation: {
           "notExported": true
@@ -131,13 +161,20 @@ const config = {
         id:'types',
         entryPoints: glob.sync('./sdk/community-js/packages/types/src/*/index.ts'),
         tsconfig: './sdk/community-js/packages/types/tsconfig.json',
-        out: 'sdk/community-js/types/Reference',
+        out: 'docs/sdk/community-js/types/Reference',
         readme: 'none',
         excludeExternals: true,
+        textContentMappings: {
+          "title.indexPage": "Reference",
+          "title.memberPage": "{name}",
+          "label.index": "",
+        },
+        propertiesFormat: "table",
+        enumMembersFormat: "table",
+        parametersFormat: "table",
+        typeDeclarationFormat: "table",
         sidebar: {
-          categoryLabel: 'Reference',
-          position: 0,
-          indexLabel: 'Introduction'
+          pretty: true
         },
         validation: {
           "notExported": true

@@ -8,7 +8,7 @@ This endpoint performs the chunk upload of a media with type image or document.
 
 :::info
 
- The client must split the file into chunks and send to the server in series. After all the chunks have been uploaded the client must call the [Chunk Upload Complete](#opIdcreateMediaChunkComplete) endpoint with the given `upload_id` parameter to finalize the upload and retrieve the [Media](/docs/apireference/v2/schemas/media).
+ The client must split the file into chunks and send to the server in series. After all the chunks have been uploaded the client must call the [Chunk Upload Complete](/docs/apireference/v2/media/chunk_upload_media_complete.md) endpoint with the given `upload_id` parameter to finalize the upload and retrieve the [Media](/docs/apireference/v2/schemas/media).
 
 To perform chunk upload the request must contain `Content-Range` header with the information about the chunk.
 

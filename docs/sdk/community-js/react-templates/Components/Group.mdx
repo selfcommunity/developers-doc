@@ -1,0 +1,38 @@
+---
+sidebar_label: Group
+sidebar_position: 1
+title: Group
+---
+
+> The Group template renders the group page template.
+
+
+[//]: # (import Logged from "../../Logged";)
+
+[//]: # (import {Group} from '@selfcommunity/react-templates';)
+
+[//]: # ()
+[//]: # (<Logged><Group groupId={3}/></Logged>)
+
+#### Usage
+
+```jsx
+ import React from 'react';
+ import {SCContextProvider} from '@selfcommunity/react-core';
+ import {GroupFeed} from '@selfcommunity/react-templates';
+
+ function App() {
+   const conf = {
+     portal: '<community-path>',
+     session: {
+       type: 'OAuth',
+       token: '<community-token>',
+       refreshToken: '<community-refresh-token>',
+       refreshTokenEndpoint: '<community-refresh-endpoint>',
+     },
+   };
+   return (
+     <SCContextProvider conf={conf}><Group/></SCContextProvider>
+   );
+ }
+```

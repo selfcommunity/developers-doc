@@ -10,7 +10,7 @@ In our library, we use our custom icons, **community-icons** through MUI icon [c
 ### Setup 
 
 There are two different ways to use the @selfcommunity **community-icons**:
-* The first way is to [install](/docs/sdk/community-js/getting_started/installation#install-react-theme-default-package) the **@selfcommunity/react-theme-default** package and pass it down to your provider context through [configurations](/docs/sdk/community-js/react-theme-default/introduction#usage).
+* The first way is to [install](/docs/sdk/community-js/getting_started/installation#install-react-theme-default) the **@selfcommunity/react-theme-default** package and pass it down to your provider context through [configurations](/docs/sdk/community-js/react-theme-default/introduction#usage).
 * Alternatively, if you only want to use the icons, you can import them into the stylesheet directly from **@selfcommunity/react-theme-default** package.
 
 **1) Import**:

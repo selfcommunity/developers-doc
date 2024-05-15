@@ -11,7 +11,7 @@ It is based on Material-Ui [Theming](https://mui.com/material-ui/customization/t
 
 
 ### Usage
-[Install](/docs/sdk/community-js/getting_started/installation#install-react-theme-default-package) the **@selfcommunity/react-theme-default** package and pass it down to your provider context through configuration.
+[Install](/docs/sdk/community-js/getting_started/installation#install-react-theme-default) the **@selfcommunity/react-theme-default** package and pass it down to your provider context through configuration.
 
 ```js
 import defaultTheme from '@selfcommunity/react-theme-default';

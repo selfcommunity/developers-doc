@@ -4,7 +4,7 @@ sidebar_position: 3
 title: Create a Webhook Endpoint
 ---
 
-This endpoint creates a Webhook Endpoint and connects it to the given [webhook events](#list-of-events).
+This endpoint creates a Webhook Endpoint and connects it to the given webhook events.
 
 
 :::info
@@ -19,13 +19,13 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In| Type         |Required| Description                                                      |
-|---|---|--------------|---|------------------------------------------------------------------|
-|» is_active|body| boolean      |false| Endpoint active status                                           |
-|» target|body| string(uri)  |true| Endpoint target                                                  |
-|» description|body| string       |false| Endpoint description                                             |
-|» events|body| list[object] |true| Endpoint events objects                                          |
-|»» type|body| string       |true| The [webhook event type](#list-of-events)                        |
+|Name|In| Type         |Required| Description                                                   |
+|---|---|--------------|---|---------------------------------------------------------------|
+|» is_active|body| boolean      |false| Endpoint active status                                        |
+|» target|body| string(uri)  |true| Endpoint target                                               |
+|» description|body| string       |false| Endpoint description                                          |
+|» events|body| list[object] |true| Endpoint events objects                                       |
+|»» type|body| string       |true| The webhook event type                        |
 |» ssl_cert_verification|body| boolean      |false| If true, the SSL certificates for HTTPS requests must be enabled |
 
 #### Example Body Parameters

@@ -18,14 +18,14 @@ This operation requires authentication and admin role.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                                                      |
-|---|---|---|---|------------------------------------------------------------------|
-|id|path|string|true| A unique integer value identifying this endpoint                 |
+|Name|In|Type|Required| Description                                                  |
+|---|---|---|---|--------------------------------------------------------------|
+|id|path|string|true| A unique integer value identifying this endpoint             |
 |» is_active|body|boolean|false|Endpoint active status   |
 |» target|body|string(uri)|true|Endpoint target  |
 |» description|body|string|false|Endpoint description  |
 |» events|body|list|true|Endpoint events objects   |
-|»» type|body|string|true| The [webhook event type](#list-of-events)                        |
+|»» type|body|string|true| The webhook event type                       |
 |» ssl_cert_verification|body|boolean|false| If true, the SSL certificates for HTTPS requests must be enabled |
 
 #### Example Body Parameters

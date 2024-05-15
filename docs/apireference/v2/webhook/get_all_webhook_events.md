@@ -4,7 +4,7 @@ sidebar_position: 2
 title: Get All Webhook Events
 ---
 
-This endpoint retrieves [webhook events](#list-of-events) that can be enabled in the endpoint
+This endpoint retrieves webhook events that can be enabled in the endpoint
 
 :::info
 
