@@ -1,6 +1,6 @@
 ---
 sidebar_label: Search an Embed
-sidebar_position: 3
+sidebar_position: 1
 title: Search an Embed
 ---
 

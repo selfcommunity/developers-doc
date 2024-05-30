@@ -1,6 +1,6 @@
 ---
 sidebar_label: Remove an Upvote for a Specific Poll Choice
-sidebar_position: 15
+sidebar_position: 1
 title: Remove an Upvote for a Specific Poll Choice
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get User's Followers
-sidebar_position: 19
+sidebar_position: 1
 title: Get User's Followers
 ---
 

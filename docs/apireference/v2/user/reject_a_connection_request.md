@@ -1,6 +1,6 @@
 ---
 sidebar_label: Reject a Connection Request
-sidebar_position: 33
+sidebar_position: 1
 title: Reject a Connection Request
 ---
 

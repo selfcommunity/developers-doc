@@ -1,6 +1,6 @@
 ---
 sidebar_label: Unfollow a Category
-sidebar_position: 15
+sidebar_position: 1
 title: Unfollow a Category
 ---
 

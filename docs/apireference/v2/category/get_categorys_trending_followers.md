@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Category's Trending Followers
-sidebar_position: 13
+sidebar_position: 1
 title: Get Category's Trending Followers
 ---
 

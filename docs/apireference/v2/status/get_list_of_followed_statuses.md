@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Following Statuses
-sidebar_position: 23
+sidebar_position: 1
 title: Get List of Following Statuses
 ---
 

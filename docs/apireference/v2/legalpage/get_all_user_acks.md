@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get All User Acks
-sidebar_position: 3
+sidebar_position: 1
 title: Get All User Acks
 ---
 

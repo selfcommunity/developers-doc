@@ -1,6 +1,6 @@
 ---
 sidebar_label: Suspend a Post
-sidebar_position: 16
+sidebar_position: 1
 title: Suspend a Post
 ---
 

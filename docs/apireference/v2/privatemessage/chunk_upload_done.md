@@ -1,6 +1,6 @@
 ---
 sidebar_label: Chunk Upload Done
-sidebar_position: 8
+sidebar_position: 1
 title: Chunk Upload Done
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: List User's Connections Statuses
-sidebar_position: 39
+sidebar_position: 1
 title: List User's Connections Statuses
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get All Flags for a Specific Contribution
-sidebar_position: 4
+sidebar_position: 1
 title: Get All Flags for a Specific Contribution
 ---
 

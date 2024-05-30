@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get a Specific Prize
-sidebar_position: 3
+sidebar_position: 1
 title: Get a Specific Prize
 ---
 

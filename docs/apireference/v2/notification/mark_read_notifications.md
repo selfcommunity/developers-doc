@@ -1,6 +1,6 @@
 ---
 sidebar_label: Mark Read Notifications
-sidebar_position: 2
+sidebar_position: 1
 title: Mark Read Notifications
 ---
 

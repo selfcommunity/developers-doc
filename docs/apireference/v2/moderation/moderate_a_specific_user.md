@@ -1,6 +1,6 @@
 ---
 sidebar_label: Moderate a Specific User
-sidebar_position: 2
+sidebar_position: 1
 title: Moderate a Specific User
 ---
 

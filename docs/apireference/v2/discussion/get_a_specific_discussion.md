@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get a specific Discussion
-sidebar_position: 5
+sidebar_position: 1
 title: Get a specific Discussion
 ---
 

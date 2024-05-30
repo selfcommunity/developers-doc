@@ -1,6 +1,6 @@
 ---
 sidebar_label: Delete a Single Message
-sidebar_position: 5
+sidebar_position: 1
 title: Delete a Single Message
 ---
 

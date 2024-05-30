@@ -1,6 +1,6 @@
 ---
 sidebar_label: Flag a Specific Post
-sidebar_position: 15
+sidebar_position: 1
 title: Flag a Specific Post
 ---
 

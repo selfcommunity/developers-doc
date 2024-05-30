@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Category's Audience
-sidebar_position: 8
+sidebar_position: 1
 title: Get Category's Audience
 ---
 

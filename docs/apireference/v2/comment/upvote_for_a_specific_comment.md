@@ -1,6 +1,6 @@
 ---
 sidebar_label: Upvote for a Specific Comment
-sidebar_position: 8
+sidebar_position: 1
 title: Upvote for a Specific Comment
 ---
 

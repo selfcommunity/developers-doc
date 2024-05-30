@@ -1,6 +1,6 @@
 ---
 sidebar_label: Update a Specific Webhook Endpoint
-sidebar_position: 5
+sidebar_position: 1
 title: Update a Specific Webhook Endpoint
 ---
 

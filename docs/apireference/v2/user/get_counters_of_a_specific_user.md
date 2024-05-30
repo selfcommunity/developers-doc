@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Counters of a Specific User
-sidebar_position: 5
+sidebar_position: 1
 title: Get Counters of a Specific User
 ---
 

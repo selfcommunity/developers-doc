@@ -1,6 +1,6 @@
 ---
 sidebar_label: Check Category Followed
-sidebar_position: 16
+sidebar_position: 1
 title: Check Category Followed
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Status Data Portability
-sidebar_position: 3
+sidebar_position: 1
 title: Get Status Data Portability
 ---
 

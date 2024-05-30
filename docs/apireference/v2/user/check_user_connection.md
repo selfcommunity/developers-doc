@@ -1,6 +1,6 @@
 ---
 sidebar_label: Check User Connection
-sidebar_position: 25
+sidebar_position: 1
 title: Check User Connection
 ---
 

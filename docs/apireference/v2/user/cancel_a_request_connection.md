@@ -1,6 +1,6 @@
 ---
 sidebar_label: Cancel a Request Connection
-sidebar_position: 32
+sidebar_position: 1
 title: Cancel a Request Connection
 ---
 

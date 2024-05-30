@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Comment Events
-sidebar_position: 5
+sidebar_position: 1
 title: List of Comment Events
 ---
 

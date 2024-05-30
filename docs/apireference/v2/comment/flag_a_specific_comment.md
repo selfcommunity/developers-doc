@@ -1,6 +1,6 @@
 ---
 sidebar_label: Flag a Specific Comment
-sidebar_position: 11
+sidebar_position: 1
 title: Flag a Specific Comment
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Moderate a Specific Contribution
-sidebar_position: 5
+sidebar_position: 1
 title: Moderate a Specific Contribution
 ---
 

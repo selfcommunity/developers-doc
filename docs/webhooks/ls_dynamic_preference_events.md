@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Dynamic Preference Events
-sidebar_position: 7
+sidebar_position: 1
 title: List of Dynamic Preference Events
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Like These feed objects
-sidebar_position: 5
+sidebar_position: 1
 title: Like These feed objects
 ---
 

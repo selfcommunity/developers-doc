@@ -1,6 +1,6 @@
 ---
 sidebar_label: Accept a User Connection
-sidebar_position: 28
+sidebar_position: 1
 title: Accept a User Connection
 ---
 

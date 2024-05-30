@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get a Thread
-sidebar_position: 2
+sidebar_position: 1
 title: Get a Thread
 ---
 

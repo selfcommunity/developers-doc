@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Flags for a Specific Post
-sidebar_position: 14
+sidebar_position: 1
 title: Get List of Flags for a Specific Post
 ---
 

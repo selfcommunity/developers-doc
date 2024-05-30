@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get User's Connections
-sidebar_position: 24
+sidebar_position: 1
 title: Get User's Connections
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Flag Status for a Specific Discussion
-sidebar_position: 21
+sidebar_position: 1
 title: Get Flag Status for a Specific Discussion
 ---
 

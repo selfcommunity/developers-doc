@@ -1,6 +1,6 @@
 ---
 sidebar_label: Delete a Specific Category
-sidebar_position: 7
+sidebar_position: 1
 title: Delete a Specific Category
 ---
 

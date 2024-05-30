@@ -1,6 +1,6 @@
 ---
 sidebar_label: Change User's Password
-sidebar_position: 11
+sidebar_position: 1
 title: Change User's Password
 ---
 

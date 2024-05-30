@@ -1,6 +1,6 @@
 ---
 sidebar_label: Click a specific Media
-sidebar_position: 4
+sidebar_position: 1
 title: Click a specific Media
 ---
 

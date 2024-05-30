@@ -1,6 +1,6 @@
 ---
 sidebar_label: Unflag a Specific Discussion
-sidebar_position: 20
+sidebar_position: 1
 title: Unflag a Specific Discussion
 ---
 

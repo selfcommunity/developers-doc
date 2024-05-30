@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Flag Status for a Specific Post
-sidebar_position: 17
+sidebar_position: 1
 title: Get Flag Status for a Specific Post
 ---
 

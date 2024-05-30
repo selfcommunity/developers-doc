@@ -1,6 +1,6 @@
 ---
 sidebar_label: Remove an upvote for a Specific Post
-sidebar_position: 10
+sidebar_position: 1
 title: Remove an upvote for a Specific Post
 ---
 

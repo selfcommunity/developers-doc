@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Status Events
-sidebar_position: 11
+sidebar_position: 1
 title: List of Status Events
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Resend multiple Webhook Endpoint Event
-sidebar_position: 12
+sidebar_position: 1
 title: Resend multiple Webhook Endpoint Event
 ---
 

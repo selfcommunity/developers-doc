@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Hide Status for a Specific Status
-sidebar_position: 17
+sidebar_position: 1
 title: Get Hide Status for a Specific Status
 ---
 

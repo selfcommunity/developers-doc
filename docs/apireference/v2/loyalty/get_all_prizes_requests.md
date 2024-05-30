@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get All Prizes Requests
-sidebar_position: 6
+sidebar_position: 1
 title: Get All Prizes Requests
 ---
 

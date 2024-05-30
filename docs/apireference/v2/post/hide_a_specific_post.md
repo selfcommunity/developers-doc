@@ -1,6 +1,6 @@
 ---
 sidebar_label: Hide a Specific Post
-sidebar_position: 18
+sidebar_position: 1
 title: Hide a Specific Post
 ---
 

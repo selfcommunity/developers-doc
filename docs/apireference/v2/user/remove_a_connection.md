@@ -1,6 +1,6 @@
 ---
 sidebar_label: Remove a Connection
-sidebar_position: 30
+sidebar_position: 1
 title: Remove a Connection
 ---
 

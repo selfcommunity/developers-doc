@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Hide Status for a Specific Discussion
-sidebar_position: 24
+sidebar_position: 1
 title: Get Hide Status for a Specific Discussion
 ---
 

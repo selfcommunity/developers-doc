@@ -1,6 +1,6 @@
 ---
 sidebar_label: Upload a Media in Chunks
-sidebar_position: 7
+sidebar_position: 1
 title: Upload a Media in Chunks
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Create a Media
-sidebar_position: 3
+sidebar_position: 1
 title: Create a Media
 ---
 

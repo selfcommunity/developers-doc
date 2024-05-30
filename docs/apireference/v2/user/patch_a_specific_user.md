@@ -1,6 +1,6 @@
 ---
 sidebar_label: Patch a Specific User
-sidebar_position: 7
+sidebar_position: 1
 title: Patch a Specific User
 ---
 

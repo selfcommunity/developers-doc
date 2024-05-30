@@ -1,6 +1,6 @@
 ---
 sidebar_label: Remove an Upvote for a Specific Comment
-sidebar_position: 9
+sidebar_position: 1
 title: Remove an Upvote for a Specific Comment
 ---
 

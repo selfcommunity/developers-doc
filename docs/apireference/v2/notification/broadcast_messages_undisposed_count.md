@@ -1,6 +1,6 @@
 ---
 sidebar_label: Broadcast Messages Undisposed Count
-sidebar_position: 7
+sidebar_position: 1
 title: Broadcast Messages Undisposed Count
 ---
 

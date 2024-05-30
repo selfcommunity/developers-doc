@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get a specific Comment
-sidebar_position: 3
+sidebar_position: 1
 title: Get a specific Comment
 ---
 

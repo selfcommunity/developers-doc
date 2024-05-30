@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Category Events
-sidebar_position: 5
+sidebar_position: 1
 title: List of Category Events
 ---
 

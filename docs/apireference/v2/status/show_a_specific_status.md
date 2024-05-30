@@ -1,6 +1,6 @@
 ---
 sidebar_label: Show a Specific Status
-sidebar_position: 16
+sidebar_position: 1
 title: Show a Specific Status
 ---
 

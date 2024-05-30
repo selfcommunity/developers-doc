@@ -1,6 +1,6 @@
 ---
 sidebar_label: Broadcast Messages Unseen Count
-sidebar_position: 6
+sidebar_position: 1
 title: Broadcast Messages Unseen Count
 ---
 

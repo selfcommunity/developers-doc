@@ -1,6 +1,6 @@
 ---
 sidebar_label: Upload a Thumbnail
-sidebar_position: 6
+sidebar_position: 1
 title:  Upload a Thumbnail
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Update a specific Discussion
-sidebar_position: 6
+sidebar_position: 1
 title: Update a specific Discussion
 ---
 

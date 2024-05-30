@@ -1,6 +1,6 @@
 ---
 sidebar_label: Show a Specific Post
-sidebar_position: 19
+sidebar_position: 1
 title: Show a Specific Post
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Discussion Events
-sidebar_position: 7
+sidebar_position: 1
 title: List of Discussion Events
 ---
 

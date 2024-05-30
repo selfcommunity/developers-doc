@@ -1,6 +1,6 @@
 ---
 sidebar_label: Update a single field of a Specific Webhook Endpoint
-sidebar_position: 6
+sidebar_position: 1
 title: Update a single field of a Specific Webhook Endpoint
 ---
 

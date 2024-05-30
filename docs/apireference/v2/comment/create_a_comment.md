@@ -1,6 +1,6 @@
 ---
 sidebar_label: Create a Comment
-sidebar_position: 2
+sidebar_position: 1
 title: Create a Comment
 ---
 

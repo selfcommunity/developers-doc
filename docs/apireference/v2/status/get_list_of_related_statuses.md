@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get list of related Statuses
-sidebar_position: 9
+sidebar_position: 1
 title: Get list of related Statuses
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Platform Url
-sidebar_position: 16
+sidebar_position: 1
 title: Platform Url
 ---
 

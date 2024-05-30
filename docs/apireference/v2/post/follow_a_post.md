@@ -1,6 +1,6 @@
 ---
 sidebar_label: Follow a Post
-sidebar_position: 16
+sidebar_position: 1
 title: Follow a Post
 ---
 

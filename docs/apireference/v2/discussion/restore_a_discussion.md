@@ -1,6 +1,6 @@
 ---
 sidebar_label: Restore a Discussion
-sidebar_position: 8
+sidebar_position: 1
 title: Restore a Discussion
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get All Flagged Contributions
-sidebar_position: 3
+sidebar_position: 1
 title: Get All Flagged Contributions
 ---
 

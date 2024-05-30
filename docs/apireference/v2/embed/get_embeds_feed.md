@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Embed's Feed
-sidebar_position: 8
+sidebar_position: 1
 title: Get Embed's Feed
 ---
 

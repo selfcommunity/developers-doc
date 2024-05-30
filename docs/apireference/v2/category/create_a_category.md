@@ -1,6 +1,6 @@
 ---
 sidebar_label: Create a Category
-sidebar_position: 3
+sidebar_position: 1
 title: Create a Category
 ---
 

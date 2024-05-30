@@ -1,6 +1,6 @@
 ---
 sidebar_label: Follow User
-sidebar_position: 21
+sidebar_position: 1
 title: Follow User
 ---
 

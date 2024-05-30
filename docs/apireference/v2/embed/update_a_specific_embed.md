@@ -1,6 +1,6 @@
 ---
 sidebar_label: Update a specific Embed
-sidebar_position: 5
+sidebar_position: 1
 title: Update a specific Embed
 ---
 

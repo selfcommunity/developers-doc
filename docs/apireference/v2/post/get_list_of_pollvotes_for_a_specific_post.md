@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Poll Votes for a Specific Post
-sidebar_position: 11
+sidebar_position: 1
 title: Get List of Poll Votes for a Specific Post
 ---
 

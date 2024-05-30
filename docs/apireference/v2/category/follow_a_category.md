@@ -1,6 +1,6 @@
 ---
 sidebar_label: Follow a Category
-sidebar_position: 14
+sidebar_position: 1
 title: Follow a Category
 ---
 

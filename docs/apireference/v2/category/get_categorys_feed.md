@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Category's Feed
-sidebar_position: 11
+sidebar_position: 1
 title: Get Category's Feed
 ---
 

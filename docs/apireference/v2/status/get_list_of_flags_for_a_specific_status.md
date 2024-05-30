@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Flags for a Specific Status
-sidebar_position: 11
+sidebar_position: 1
 title: Get List of Flags for a Specific Status
 ---
 

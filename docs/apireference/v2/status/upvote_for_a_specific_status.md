@@ -1,6 +1,6 @@
 ---
 sidebar_label: Upvote for a Specific Status
-sidebar_position: 9
+sidebar_position: 1
 title: Upvote for a Specific Status
 ---
 

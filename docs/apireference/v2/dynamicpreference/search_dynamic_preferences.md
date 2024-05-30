@@ -1,6 +1,6 @@
 ---
 sidebar_label: Search Dynamic Preferences
-sidebar_position: 2
+sidebar_position: 1
 title: Search Dynamic Preferences
 ---
 

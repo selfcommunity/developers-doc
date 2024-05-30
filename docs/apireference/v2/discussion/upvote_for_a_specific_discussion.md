@@ -1,6 +1,6 @@
 ---
 sidebar_label: Upvote for a Specific Discussion
-sidebar_position: 11
+sidebar_position: 1
 title: Upvote for a Specific Discussion
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Unassign a Tag
-sidebar_position: 8
+sidebar_position: 1
 title: Unassign a Tag
 ---
 

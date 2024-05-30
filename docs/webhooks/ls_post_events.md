@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Post Events
-sidebar_position: 10
+sidebar_position: 1
 title: List of Post Events
 ---
 

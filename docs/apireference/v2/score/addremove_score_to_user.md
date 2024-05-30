@@ -1,6 +1,6 @@
 ---
 sidebar_label: Add/Remove Score to a User
-sidebar_position: 3
+sidebar_position: 1
 title: Add/Remove Score to a User
 ---
 

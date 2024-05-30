@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Votes for a Specific Discussion
-sidebar_position: 10
+sidebar_position: 1
 title: Get List of Votes for a Specific Discussion
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Poll Events
-sidebar_position: 9
+sidebar_position: 1
 title: List of Poll Events
 ---
 

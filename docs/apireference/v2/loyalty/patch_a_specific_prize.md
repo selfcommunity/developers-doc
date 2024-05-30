@@ -1,6 +1,6 @@
 ---
 sidebar_label: Patch a Specific Prize
-sidebar_position: 5
+sidebar_position: 1
 title: Patch a Specific Prize
 ---
 

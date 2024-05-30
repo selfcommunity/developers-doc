@@ -1,6 +1,6 @@
 ---
 sidebar_label: Ack a Legal Page
-sidebar_position: 3
+sidebar_position: 1
 title: Ack a Legal Page
 ---
 

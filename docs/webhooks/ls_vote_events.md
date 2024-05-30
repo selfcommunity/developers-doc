@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Vote Events
-sidebar_position: 14
+sidebar_position: 1
 title: List of Vote Events
 ---
 

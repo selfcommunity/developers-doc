@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Flag Status for a Specific Comment
-sidebar_position: 13
+sidebar_position: 1
 title: Get Flag Status for a Specific Comment
 ---
 

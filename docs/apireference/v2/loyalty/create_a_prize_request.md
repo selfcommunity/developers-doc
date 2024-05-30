@@ -1,6 +1,6 @@
 ---
 sidebar_label: Create a Prize Request
-sidebar_position: 7
+sidebar_position: 1
 title: Create a Prize Request
 ---
 

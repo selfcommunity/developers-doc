@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Category's Trending Feed
-sidebar_position: 12
+sidebar_position: 1
 title: Get Category's Trending Feed
 ---
 

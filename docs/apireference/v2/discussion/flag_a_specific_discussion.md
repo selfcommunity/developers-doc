@@ -1,6 +1,6 @@
 ---
 sidebar_label: Flag a Specific Discussion
-sidebar_position: 19
+sidebar_position: 1
 title: Flag a Specific Discussion
 ---
 

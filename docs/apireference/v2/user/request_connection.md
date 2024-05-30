@@ -1,6 +1,6 @@
 ---
 sidebar_label: Request Connection
-sidebar_position: 29
+sidebar_position: 1
 title: Request Connection
 ---
 

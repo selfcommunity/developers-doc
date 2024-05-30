@@ -1,6 +1,6 @@
 ---
 sidebar_label:  Get User Connection Status
-sidebar_position: 25
+sidebar_position: 1
 title:  Get User Connection Status
 ---
 

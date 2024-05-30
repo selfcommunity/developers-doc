@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of User Events
-sidebar_position: 13
+sidebar_position: 1
 title: List of User Events
 ---
 

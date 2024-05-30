@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Legal Page Events
-sidebar_position: 5
+sidebar_position: 1
 title: List of Legal Page Events
 ---
 

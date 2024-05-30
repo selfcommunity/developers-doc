@@ -1,6 +1,6 @@
 ---
 sidebar_label: Unsuspend a Discussion
-sidebar_position: 16
+sidebar_position: 1
 title: Unsuspend a Discussion
 ---
 

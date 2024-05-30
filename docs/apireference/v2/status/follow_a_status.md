@@ -1,6 +1,6 @@
 ---
 sidebar_label: Follow a Status
-sidebar_position: 16
+sidebar_position: 1
 title: Follow a Status
 ---
 

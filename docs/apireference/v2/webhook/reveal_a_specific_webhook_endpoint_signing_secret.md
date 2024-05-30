@@ -1,6 +1,6 @@
 ---
 sidebar_label: Reveal a specific Webhook Endpoint signing secret
-sidebar_position: 10
+sidebar_position: 1
 title: Reveal a specific Webhook Endpoint signing secret
 ---
 

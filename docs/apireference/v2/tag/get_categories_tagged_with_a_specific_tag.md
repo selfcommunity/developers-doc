@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Categories tagged with a Specific Tag
-sidebar_position: 11
+sidebar_position: 1
 title: Get Categories tagged with a Specific Tag
 ---
 

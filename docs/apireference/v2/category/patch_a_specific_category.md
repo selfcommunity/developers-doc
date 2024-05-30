@@ -1,6 +1,6 @@
 ---
 sidebar_label: Patch a Specific Category
-sidebar_position: 6
+sidebar_position: 1
 title: Patch a Specific Category
 ---
 

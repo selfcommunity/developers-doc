@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Loyalty Events
-sidebar_position: 8
+sidebar_position: 1
 title: List of Loyalty Events
 ---
 

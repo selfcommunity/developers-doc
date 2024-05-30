@@ -1,6 +1,6 @@
 ---
 sidebar_label: Create a Status
-sidebar_position: 2
+sidebar_position: 1
 title: Create a Status
 ---
 

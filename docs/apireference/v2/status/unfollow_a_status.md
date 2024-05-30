@@ -1,6 +1,6 @@
 ---
 sidebar_label: Unfollow a Status
-sidebar_position: 16
+sidebar_position: 1
 title: Unfollow a Status
 ---
 

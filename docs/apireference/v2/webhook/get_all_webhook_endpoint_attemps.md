@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get All Webhook Endpoint Attempts
-sidebar_position: 8
+sidebar_position: 1
 title: Get All Webhook Endpoint Attempts
 ---
 

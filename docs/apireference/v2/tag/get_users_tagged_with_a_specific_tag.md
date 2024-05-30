@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Users tagged with a Specific Tag
-sidebar_position: 10
+sidebar_position: 1
 title: Get Users tagged with a Specific Tag
 ---
 

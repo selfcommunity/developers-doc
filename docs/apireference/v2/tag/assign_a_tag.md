@@ -1,6 +1,6 @@
 ---
 sidebar_label: Assign a Tag
-sidebar_position: 7
+sidebar_position: 1
 title: Assign a Tag
 ---
 

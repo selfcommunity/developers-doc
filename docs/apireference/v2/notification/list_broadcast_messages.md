@@ -1,6 +1,6 @@
 ---
 sidebar_label: List Broadcast Messages
-sidebar_position: 5
+sidebar_position: 1
 title: List Broadcast Messages
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get User's Connection Requests
-sidebar_position: 26
+sidebar_position: 1
 title: Get User's Connection Requests
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Check User Hidden By
-sidebar_position: 37
+sidebar_position: 1
 title: Check User Hidden By
 ---
 

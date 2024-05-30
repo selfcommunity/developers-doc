@@ -1,6 +1,6 @@
 ---
 sidebar_label: Chunk Upload Media Complete
-sidebar_position: 2
+sidebar_position: 1
 title: Chunk Upload Media Complete
 ---
 

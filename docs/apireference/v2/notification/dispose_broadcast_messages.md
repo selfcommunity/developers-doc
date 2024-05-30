@@ -1,6 +1,6 @@
 ---
 sidebar_label: Dispose Broadcast Messages
-sidebar_position: 9
+sidebar_position: 1
 title: Dispose Broadcast Messages
 ---
 

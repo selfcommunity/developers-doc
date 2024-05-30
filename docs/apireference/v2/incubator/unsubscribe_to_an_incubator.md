@@ -1,6 +1,6 @@
 ---
 sidebar_label: Unsubscribe to an Incubator
-sidebar_position: 6
+sidebar_position: 1
 title: Unsubscribe to an Incubator
 ---
 

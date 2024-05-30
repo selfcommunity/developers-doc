@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Moderation Status for a Specific Contribution
-sidebar_position: 8
+sidebar_position: 1
 title: Get Moderation Status for a Specific Contribution
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Shares for a Specific Post
-sidebar_position: 8
+sidebar_position: 1
 title: Get List of Contributors for a Specific Post
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Expire a specific Webhook Endpoint signing secret
-sidebar_position: 9
+sidebar_position: 1
 title: Expire a specific Webhook Endpoint signing secret
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get User's Feed
-sidebar_position: 18
+sidebar_position: 1
 title: Get User's Feed
 ---
 

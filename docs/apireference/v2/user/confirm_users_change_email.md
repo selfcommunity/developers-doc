@@ -1,6 +1,6 @@
 ---
 sidebar_label: Confirm User's Change Email
-sidebar_position: 10
+sidebar_position: 1
 title: Confirm User's Change Email
 ---
 

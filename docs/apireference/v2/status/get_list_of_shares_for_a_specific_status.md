@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Shares for a Specific Status
-sidebar_position: 8
+sidebar_position: 1
 title: Get List of Shares for a Specific Status
 ---
 

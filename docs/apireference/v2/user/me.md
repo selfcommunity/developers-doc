@@ -1,6 +1,6 @@
 ---
 sidebar_label: Me
-sidebar_position: 14
+sidebar_position: 1
 title: Me
 ---
 

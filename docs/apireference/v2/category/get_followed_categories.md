@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Followed Categories
-sidebar_position: 16
+sidebar_position: 1
 title: Get Followed Categories
 ---
 

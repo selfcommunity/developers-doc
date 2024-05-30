@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Unseen Notifications
-sidebar_position: 3
+sidebar_position: 1
 title: Get Unseen Notifications
 ---
 

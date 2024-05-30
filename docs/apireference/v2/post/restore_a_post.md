@@ -1,6 +1,6 @@
 ---
 sidebar_label: Restore a Post
-sidebar_position: 7
+sidebar_position: 1
 title: Restore a Post
 ---
 

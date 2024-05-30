@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Explore Feed
-sidebar_position: 2
+sidebar_position: 1
 title: Get Explore Feed
 ---
 

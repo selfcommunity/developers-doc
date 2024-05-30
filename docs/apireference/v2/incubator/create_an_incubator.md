@@ -1,6 +1,6 @@
 ---
 sidebar_label: Create an Incubator
-sidebar_position: 4
+sidebar_position: 1
 title: Create an Incubator
 ---
 

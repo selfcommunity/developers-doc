@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get a Specific Dynamic Preference
-sidebar_position: 3
+sidebar_position: 1
 title: Get a Specific Dynamic Preference
 ---
 

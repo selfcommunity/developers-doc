@@ -1,6 +1,6 @@
 ---
 sidebar_label: Upvote for a Specific Poll Choice
-sidebar_position: 14
+sidebar_position: 1
 title: Upvote for a Specific Poll Choice
 ---
 

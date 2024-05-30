@@ -1,6 +1,6 @@
 ---
 sidebar_label: Download Data Portability
-sidebar_position: 2
+sidebar_position: 1
 title: Download Data Portability
 ---
 

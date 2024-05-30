@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get User's Loyalty Points
-sidebar_position: 38
+sidebar_position: 1
 title: Get User's Loyalty Points
 ---
 

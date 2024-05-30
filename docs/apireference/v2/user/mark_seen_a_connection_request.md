@@ -1,6 +1,6 @@
 ---
 sidebar_label: Mark Seen a Connection Request
-sidebar_position: 34
+sidebar_position: 1
 title: Mark Seen a Connection Request
 ---
 

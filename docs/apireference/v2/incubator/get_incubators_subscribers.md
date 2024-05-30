@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Incubator's Subscribers
-sidebar_position: 4
+sidebar_position: 1
 title: Get Incubator's Subscribers
 ---
 

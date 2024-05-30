@@ -1,6 +1,6 @@
 ---
 sidebar_label: Mark a Specific Feed Object as Read
-sidebar_position: 4
+sidebar_position: 1
 title: Mark a Specific Feed Object as Read
 ---
 

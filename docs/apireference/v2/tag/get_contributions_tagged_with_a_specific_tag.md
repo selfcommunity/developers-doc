@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Contributions tagged with a Specific Tag
-sidebar_position: 12
+sidebar_position: 1
 title: Get Contributions tagged with a Specific Tag
 ---
 

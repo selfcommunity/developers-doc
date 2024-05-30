@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Main Feed Unseen Count
-sidebar_position: 3
+sidebar_position: 1
 title: Get Main Feed Unseen Count
 ---
 

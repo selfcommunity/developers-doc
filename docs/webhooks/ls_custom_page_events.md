@@ -1,6 +1,6 @@
 ---
 sidebar_label: List of Custom Page Events
-sidebar_position: 5
+sidebar_position: 1
 title: List of Custom Page Events
 ---
 

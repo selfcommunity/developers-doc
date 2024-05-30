@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Suspended Statuses
-sidebar_position: 23
+sidebar_position: 1
 title: Get List of Suspended Statuses
 ---
 

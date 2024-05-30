@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get a Specific Category
-sidebar_position: 4
+sidebar_position: 1
 title: Get a Specific Category
 ---
 

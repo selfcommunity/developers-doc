@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get User Groups
-sidebar_position: 17
+sidebar_position: 1
 title: Get User Groups
 ---
 

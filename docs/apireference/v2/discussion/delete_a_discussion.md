@@ -1,6 +1,6 @@
 ---
 sidebar_label: Delete a Discussion
-sidebar_position: 7
+sidebar_position: 1
 title: Delete a Discussion
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Poll Votes for a Specific Discussion
-sidebar_position: 13
+sidebar_position: 1
 title: Get List of Poll Votes for a Specific Discussion
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Resend a specific Webhook Endpoint Event
-sidebar_position: 11
+sidebar_position: 1
 title: Resend a specific Webhook Endpoint Event
 ---
 

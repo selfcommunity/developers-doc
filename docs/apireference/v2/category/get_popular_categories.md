@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Popular Categories
-sidebar_position: 16
+sidebar_position: 1
 title: Get Popular Categories
 ---
 

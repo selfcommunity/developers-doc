@@ -1,6 +1,6 @@
 ---
 sidebar_label: Suspend a Status
-sidebar_position: 16
+sidebar_position: 1
 title: Suspend a Status
 ---
 

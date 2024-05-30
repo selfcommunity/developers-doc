@@ -1,6 +1,6 @@
 ---
 sidebar_label: Change User's Email
-sidebar_position: 9
+sidebar_position: 1
 title: Change User's Email
 ---
 

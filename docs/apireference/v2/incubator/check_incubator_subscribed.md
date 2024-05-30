@@ -1,6 +1,6 @@
 ---
 sidebar_label: Check Incubator Subscription
-sidebar_position: 7
+sidebar_position: 1
 title: Check Incubator Subscription
 ---
 

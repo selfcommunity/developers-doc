@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get All Webhook Events
-sidebar_position: 2
+sidebar_position: 1
 title: Get All Webhook Events
 ---
 

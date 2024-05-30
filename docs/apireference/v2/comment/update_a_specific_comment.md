@@ -1,6 +1,6 @@
 ---
 sidebar_label: Update a specific Comment
-sidebar_position: 4
+sidebar_position: 1
 title: Update a specific Comment
 ---
 

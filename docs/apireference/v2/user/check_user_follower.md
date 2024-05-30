@@ -1,6 +1,6 @@
 ---
 sidebar_label: Check User Follower
-sidebar_position: 23
+sidebar_position: 1
 title: Check User Follower
 ---
 

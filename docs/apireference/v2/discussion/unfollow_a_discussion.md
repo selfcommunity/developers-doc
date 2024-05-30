@@ -1,6 +1,6 @@
 ---
 sidebar_label: Unfollow a Discussion
-sidebar_position: 17
+sidebar_position: 1
 title: Unfollow a Discussion
 ---
 

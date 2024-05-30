@@ -1,6 +1,6 @@
 ---
 sidebar_label: Search a Score
-sidebar_position: 2
+sidebar_position: 1
 title: Search a Score
 
 ---

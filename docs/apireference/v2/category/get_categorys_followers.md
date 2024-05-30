@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get Category's Followers
-sidebar_position: 10
+sidebar_position: 1
 title: Get Category's Followers
 ---
 

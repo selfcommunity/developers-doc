@@ -1,6 +1,6 @@
 ---
 sidebar_label: Update a Specific Prize
-sidebar_position: 4
+sidebar_position: 1
 title: Update a Specific Prize
 ---
 

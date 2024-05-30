@@ -1,6 +1,6 @@
 ---
 sidebar_label: Mark Read Broadcast Messages
-sidebar_position: 8
+sidebar_position: 1
 title: Mark Read Broadcast Messages
 ---
 

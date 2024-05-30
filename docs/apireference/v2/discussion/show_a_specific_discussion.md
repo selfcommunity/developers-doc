@@ -1,6 +1,6 @@
 ---
 sidebar_label: Show a Specific Discussion
-sidebar_position: 23
+sidebar_position: 1
 title: Show a Specific Discussion
 ---
 

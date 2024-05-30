@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Flags for a Specific Discussion
-sidebar_position: 18
+sidebar_position: 1
 title: Get List of Flags for a Specific Discussion
 ---
 

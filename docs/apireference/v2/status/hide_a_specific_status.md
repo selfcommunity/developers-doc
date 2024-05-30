@@ -1,6 +1,6 @@
 ---
 sidebar_label: Hide a Specific Status
-sidebar_position: 15
+sidebar_position: 1
 title: Hide a Specific Status
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_label: Get List of Votes for a Specific Post
-sidebar_position: 8
+sidebar_position: 1
 title: Get List of Votes for a Specific Post
 ---
 

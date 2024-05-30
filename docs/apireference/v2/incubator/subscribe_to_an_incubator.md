@@ -1,6 +1,6 @@
 ---
 sidebar_label: Subscribe to an Incubator
-sidebar_position: 5
+sidebar_position: 1
 title: Subscribe to an Incubator
 ---
 

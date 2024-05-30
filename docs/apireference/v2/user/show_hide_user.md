@@ -1,6 +1,6 @@
 ---
 sidebar_label: Show/Hide User
-sidebar_position: 35
+sidebar_position: 1
 title: Show/Hide User
 ---
 

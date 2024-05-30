@@ -1,6 +1,6 @@
 ---
 sidebar_label: Change User's Settings
-sidebar_position: 13
+sidebar_position: 1
 title: Change User's Settings
 ---
 

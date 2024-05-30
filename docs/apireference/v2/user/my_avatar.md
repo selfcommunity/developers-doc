@@ -1,6 +1,6 @@
 ---
 sidebar_label: My Avatar
-sidebar_position: 14
+sidebar_position: 1
 title: My Avatar
 ---
 

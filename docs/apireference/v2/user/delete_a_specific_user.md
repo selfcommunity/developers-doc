@@ -1,6 +1,6 @@
 ---
 sidebar_label: Delete a Specific User
-sidebar_position: 8
+sidebar_position: 1
 title: Delete a Specific User
 ---
 

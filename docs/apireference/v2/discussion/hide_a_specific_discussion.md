@@ -1,6 +1,6 @@
 ---
 sidebar_label: Hide a Specific Discussion
-sidebar_position: 22
+sidebar_position: 1
 title: Hide a Specific Discussion
 ---
 

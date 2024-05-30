@@ -1,6 +1,6 @@
 ---
 sidebar_label: Search a Post
-sidebar_position: 3
+sidebar_position: 1
 title: Search a Post
 ---
 
