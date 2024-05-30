@@ -32,6 +32,7 @@ title: Post
   "medias": [],
   "location": {},
   "tags": [],
+  "group": "integer",
   "poll": {}
 }
 
@@ -71,6 +72,7 @@ title: Post
 | » lng            | number¦null                                              | true     | read-only    | Location longitude                                                                                                   |
 | addressing       | list(integer)                                            | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag) ids. Only tags of type 'user' used for addressing this contribution |
 | tags             | list(integer)                                            | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag) ids. Only tags of type 'contribution'                               |
+| group            | integer                                                  | false    | none         | The id of the group                                                                                                  |
 | poll             | [Poll](/docs/apireference/v2/schemas/poll)               | false    | read-only    | The post poll object                                                                                                 |
 
 

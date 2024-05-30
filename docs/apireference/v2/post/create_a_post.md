@@ -18,22 +18,23 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required| Description                                                                                       |
-|---|---|---|---|---------------------------------------------------------------------------------------------------|
-|» text|body|string|false| The content of the post in html format, it can contain some mentions                              |
-|» categories|body|list(integer)|true| List of [Category](/docs/apireference/v2/schemas/category) ids                                    |
-|» medias|body|list(integer)|false| List of [Media](/docs/apireference/v2/schemas/media) (only one media of type share is allowed) ids |
-|» location|body|object¦null|false| The Location object to associate at the post                                                      |
-|»» location|body|string¦null|true| Location name                                                                                     |
-|»» lat|body|number¦null|true| Location latitude                                                                                 |
-|»» lng|body|number¦null|true| Location longitude                                                                                |
-|» poll|body|object¦null|false| The poll object to associate to the post                                                          |
-|»» title|body|string|true| Poll title                                                                                        |
-|»» multiple_choices|body|boolean|false| If poll choices can be multiple                                                                   |
-|»» expiration_at|body|string(date-time)|false| Poll expiration datetime                                                                          |
-|»» choices|body|list(object)|true| Poll choices objects                                                                                     |
-|»»» choice|body|string|true| Poll choice title                                                                                 |
-|» addressing|body|list(integer)|false| List of [Tag](/docs/apireference/v2/schemas/tag) ids                                              |
+| Name                | In   | Type              | Required | Description                                                                                        |
+|---------------------|------|-------------------|----------|----------------------------------------------------------------------------------------------------|
+| » text              | body | string            | false    | The content of the post in html format, it can contain some mentions                               |
+| » categories        | body | list(integer)     | true     | List of [Category](/docs/apireference/v2/schemas/category) ids                                     |
+| » group             | body | integer           | false    | The id of the group                                                                                |
+| » medias            | body | list(integer)     | false    | List of [Media](/docs/apireference/v2/schemas/media) (only one media of type share is allowed) ids |
+| » location          | body | object¦null       | false    | The Location object to associate at the post                                                       |
+| »» location         | body | string¦null       | true     | Location name                                                                                      |
+| »» lat              | body | number¦null       | true     | Location latitude                                                                                  |
+| »» lng              | body | number¦null       | true     | Location longitude                                                                                 |
+| » poll              | body | object¦null       | false    | The poll object to associate to the post                                                           |
+| »» title            | body | string            | true     | Poll title                                                                                         |
+| »» multiple_choices | body | boolean           | false    | If poll choices can be multiple                                                                    |
+| »» expiration_at    | body | string(date-time) | false    | Poll expiration datetime                                                                           |
+| »» choices          | body | list(object)      | true     | Poll choices objects                                                                               |
+| »»» choice          | body | string            | true     | Poll choice title                                                                                  |
+| » addressing        | body | list(integer)     | false    | List of [Tag](/docs/apireference/v2/schemas/tag) ids                                               |
 
 #### Example Body Parameters
 

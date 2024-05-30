@@ -20,14 +20,15 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|thread|query|integer|(one between thread or user is required)|The id of the thread|
-|user|query|integer|(one between thread or user is required)|The id of the user|
-|before_message|query|integer|false|Return all messages before this id of the message (excluded before_message)|
-|from_message|query|integer|false|Return all messages from this id of the message (included from_message)|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
+| Name           | In    | Type    | Required                                        | Description                                                                 |
+|----------------|-------|---------|-------------------------------------------------|-----------------------------------------------------------------------------|
+| thread         | query | integer | (one between thread, user or group is required) | The id of the thread                                                        |
+| user           | query | integer | (one between thread, user or group is required) | The id of the user                                                          |
+| group          | query | integer | (one between thread, user or group is required) | The id of the group (only if `grouping` and `tagging` features are enabled) |
+| before_message | query | integer | false                                           | Return all messages before this id of the message (excluded before_message) |
+| from_message   | query | integer | false                                           | Return all messages from this id of the message (included from_message)     |
+| limit          | query | integer | false                                           | Number of results to return per page                                        |
+| offset         | query | integer | false                                           | The initial index from which to return the results                          |
 
 
 ### Example Request

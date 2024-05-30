@@ -4136,67 +4136,67 @@
     "@rpldy/shared-ui" "1.8.0"
     "@rpldy/uploader" "1.8.0"
 
-"@selfcommunity/api-services@^0.4.9-alpha.18":
-  version "0.4.9-alpha.18"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.4.9-alpha.18.tgz#a607dacfe76c7952108e0e250ae9fae9c446decc"
-  integrity sha512-0DpcSP+W8GYmhczHKdj0HpSXouikd9oAKT9r3xZQwAp1YDCG5Fzb0gMcLz626KCE1O6sXF4eIbdB22wSIfVI4A==
+"@selfcommunity/api-services@0.4.27", "@selfcommunity/api-services@^0.4.27":
+  version "0.4.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.4.27.tgz#8f7cc8773c7c328b4c9c44db48f74b5cdeea047a"
+  integrity sha512-dwATWI258gbyIkABvVLuUHsoBHjGUF3BEBNhrhSyHkSvUKq416/VAEszq38ee9eJ7D+1tTPKl5TILFy/8e01/A==
   dependencies:
-    "@selfcommunity/types" "^0.5.9-alpha.11"
-    "@selfcommunity/utils" "^0.2.9-alpha.0"
+    "@selfcommunity/types" "^0.5.27"
+    "@selfcommunity/utils" "^0.2.27"
     axios "^1.4.0"
     jose "^4.14.4"
 
-"@selfcommunity/react-core@^0.4.9-alpha.45":
-  version "0.4.9-alpha.45"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.9-alpha.45.tgz#3b6c51bc1a3a2c671231e46fcac56ef595ea3e5f"
-  integrity sha512-G+t76TOkJmtcRoT2efXPwIRXWSypxRTxpJPD/mHuZKjkv2dNwdN/QNtEob/Es6fBL4LrIeQHMFctE0QkiFmeaQ==
+"@selfcommunity/react-core@0.4.27", "@selfcommunity/react-core@^0.4.27":
+  version "0.4.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.27.tgz#666a38a330fecbebf2a0a7c280fbe052aa31ce9a"
+  integrity sha512-Bb+ygYLHzQ17KYkAbwFgFl5+jau8C0Kpvy/AL3ldClbauaLU7vjSFpoSvuSABIOVqnA+SNoNiYzzzbbD8BwUFQ==
   dependencies:
-    "@selfcommunity/api-services" "^0.4.9-alpha.18"
-    "@selfcommunity/react-i18n" "^0.5.9-alpha.24"
-    "@selfcommunity/types" "^0.5.9-alpha.11"
-    "@selfcommunity/utils" "^0.2.9-alpha.0"
+    "@selfcommunity/api-services" "^0.4.27"
+    "@selfcommunity/react-i18n" "^0.5.27"
+    "@selfcommunity/types" "^0.5.27"
+    "@selfcommunity/utils" "^0.2.27"
     js-cookie "^3.0.5"
     pubsub-js "^1.9.4"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.4"
 
-"@selfcommunity/react-i18n@^0.5.9-alpha.24":
-  version "0.5.9-alpha.24"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.9-alpha.24.tgz#a88d8456d078892c3e29ffc8fb6176664f236a1e"
-  integrity sha512-7PVJZNVhRI6LpWlGZyyeBFriD2Ql7yA1XQXXaPHcQwpfa9wTOaXApnaqc5aLdvkmGVKZOzDtv7zgdlQcoX/nOA==
+"@selfcommunity/react-i18n@0.5.27", "@selfcommunity/react-i18n@^0.5.27":
+  version "0.5.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.27.tgz#4d28830092155e0c67d3caa7d6978e5039c33c79"
+  integrity sha512-72SEBDeZL1+VL1M4Y6aF8doQQMB1keLghqqRHtTnAH78Uwv+NPVXjQRcPA52Hb2hIUEuO8sblKkf5rk11QtyIQ==
 
-"@selfcommunity/react-templates@^0.3.9-alpha.85":
-  version "0.3.9-alpha.85"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.9-alpha.85.tgz#bfe7249b4ee864a04192d7bd5b532f1848e96bac"
-  integrity sha512-8ZKQK8H9UF++MSmwB0+x4zlF8Jxj5xkZf1O711ipGXtKGiLs6od/OZVsN4gzxZyUJU0GKxYu7lJSre3v0rkN5w==
+"@selfcommunity/react-templates@0.3.27":
+  version "0.3.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.27.tgz#17e13eaa7b2abb2853745abaa8b0d28ba9321e0b"
+  integrity sha512-qn3gkW5uYkweXRYX8r17fBRemB3ZpF+3rjb1pvk8djfHSjnOiglQFROwTK3sVaFR38NKGTrrWSL+yjPNgZEHow==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.9-alpha.45"
-    "@selfcommunity/react-i18n" "^0.5.9-alpha.24"
-    "@selfcommunity/react-ui" "^0.7.9-alpha.81"
-    "@selfcommunity/types" "^0.5.9-alpha.11"
+    "@selfcommunity/react-core" "^0.4.27"
+    "@selfcommunity/react-i18n" "^0.5.27"
+    "@selfcommunity/react-ui" "^0.7.27"
+    "@selfcommunity/types" "^0.5.27"
     "@types/classnames" "^2.3.1"
     classnames "^2.3.2"
 
-"@selfcommunity/react-theme-default@^0.1.9-alpha.85":
-  version "0.1.9-alpha.85"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.9-alpha.85.tgz#dbd55cdc078f147d8eac3d6cda8bdcb653301b5b"
-  integrity sha512-FCFvhJcYeyYoG83faJj2TVy9N15hUXBIOTdBMkNbf65HHMY14YVhZ6hxlopWsUhnTajWeBsjWPlOSPJLWkuEsA==
+"@selfcommunity/react-theme-default@0.1.27":
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.27.tgz#85c9e5a803edde196225cfb12451df30dd0ae38a"
+  integrity sha512-PEpjFBT6oW0mQfAoq5RRU94sCVLH1TwqcP89t2Ca6mtUiaLPmN/mTgaJWQx6za0HaEWmj0wqXL/Bg2M+BA1H7A==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.9-alpha.45"
-    "@selfcommunity/react-ui" "^0.7.9-alpha.81"
+    "@selfcommunity/react-core" "^0.4.27"
+    "@selfcommunity/react-ui" "^0.7.27"
 
-"@selfcommunity/react-ui@^0.7.9-alpha.81":
-  version "0.7.9-alpha.81"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.9-alpha.81.tgz#72eb91d2f9abceaffeb296307edded4b0ea153fe"
-  integrity sha512-wFySOQViUW6PoDSzJesOhGj+QQN2jc5YrDpKrEyLHe9ULfZ/HS34VcjPRoRMyLBmkaJMa/FrCuELkIZe5ErjXw==
+"@selfcommunity/react-ui@0.7.27", "@selfcommunity/react-ui@^0.7.27":
+  version "0.7.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.27.tgz#9c0fd65e51287e130419f3526c9d3bf92615cb5a"
+  integrity sha512-573mOytd7kFygzOxpqGyKcQm/XCR1NtkeKwbK9wWpwXmoJPL4CtfVS5dwfPRiHLoQdkuK0AJgx9FRk3wipyRig==
   dependencies:
     "@lexical/html" "^0.15.0"
     "@lexical/react" "^0.15.0"
-    "@selfcommunity/api-services" "^0.4.9-alpha.18"
-    "@selfcommunity/react-core" "^0.4.9-alpha.45"
-    "@selfcommunity/react-i18n" "^0.5.9-alpha.24"
-    "@selfcommunity/types" "^0.5.9-alpha.11"
-    "@selfcommunity/utils" "^0.2.9-alpha.0"
+    "@selfcommunity/api-services" "^0.4.27"
+    "@selfcommunity/react-core" "^0.4.27"
+    "@selfcommunity/react-i18n" "^0.5.27"
+    "@selfcommunity/types" "^0.5.27"
+    "@selfcommunity/utils" "^0.2.27"
     "@types/classnames" "^2.3.1"
     "@types/sortablejs" "1"
     autosuggest-highlight "^3.3.4"
@@ -4226,15 +4226,15 @@
     virtual-scroller "^1.12.3"
     yjs "^13.6.7"
 
-"@selfcommunity/types@^0.5.9-alpha.11":
-  version "0.5.9-alpha.11"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.5.9-alpha.11.tgz#9c7c38dd54b5c3931de61f29af4b5d903639ae20"
-  integrity sha512-gZaPQx/kt9vTJZVuPb6dVwAbZEpevY9WxvhM1ZU1whU5XfERMlrIt7DGom84uJBSp7LCZkAcxP2n+O4uDTTimg==
+"@selfcommunity/types@0.5.27", "@selfcommunity/types@^0.5.27":
+  version "0.5.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.5.27.tgz#1a8fc5ae2e1dd90829ab812c702457a4331973ef"
+  integrity sha512-kC9OJkE+GJq3uG4KsV5HHV8TKlNb9lCL69DHYPxBlQAbvuiyYyYUUv+z+XhGM0nCHtQFBqq6bYh1SwjIZURFaw==
 
-"@selfcommunity/utils@^0.2.9-alpha.0":
-  version "0.2.9-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.2.9-alpha.0.tgz#6ebb2b1f828df7a01b52891a59b8ced7a7177d42"
-  integrity sha512-QH8NZcA3pP8tsh9COoeAdwTDhOwBcO2RR7CKFIBA3fanG7d01Zf/0caKjxxFibt3nIhLM9JaToKcRS/a1D4dnQ==
+"@selfcommunity/utils@0.2.27", "@selfcommunity/utils@^0.2.27":
+  version "0.2.27"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.2.27.tgz#c8c4e3303cad285630fb5e2c187aa0e31da085d9"
+  integrity sha512-eRC84hN81B6r68wFjGaCXAch0l856O4Cv0iTExYDZXMa6JiiNzry//p5tqySIQkvkOyCLsN7XfuK1E3sslXZnA==
 
 "@sideway/address@^4.1.3":
   version "4.1.4"

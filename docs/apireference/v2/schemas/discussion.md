@@ -32,6 +32,7 @@ title: Discussion
   "medias": [],
   "location": "string",
   "tags": [],
+  "group": "integer",
   "poll": {},
   "title": "string"
 }
@@ -72,6 +73,7 @@ title: Discussion
 | » lng            | number¦null                                              | true     | none         | Location Longitude                                                                                                   |
 | addressing       | list(integer)                                            | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag) ids. Only tags of type 'user' used for addressing this contribution |
 | tags             | list(integer)                                            | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag) ids. Only tags of type 'contribution'                               |
+| group            | integer                                                  | false    | none         | The id of the group                                                                                                  |
 | poll             | [Poll](/docs/apireference/v2/schemas/poll)¦null          | false    | none         | The poll object associated to this contribution                                                                      |
 | title            | string                                                   | true     | none         | Discussion title                                                                                                     |
 
