@@ -15,7 +15,7 @@ By passing the optional param  `user` a group manager is able to remove the user
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication (and also the group manager role if the "user" parameter is passed).
 
 :::
 

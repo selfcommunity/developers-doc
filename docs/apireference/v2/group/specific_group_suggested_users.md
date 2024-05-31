@@ -8,7 +8,7 @@ This endpoint retrieves the list of all suggested users to invite to a specific 
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication and the group manager role.
 
 :::
 
