@@ -8,7 +8,7 @@ This endpoint retrieves the group feed.
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication and being a member of the group.
 
 :::
 
@@ -18,12 +18,12 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                                                                                               |
-|----------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------|
-| id       | path  | string  | true     | A unique integer value identifying this group                                                                          |
-| limit    | query | integer | false    | Number of results to return per page                                                                                      |
-| offset   | query | integer | false    | The initial index from which to return the results                                                                        |
-
+| Name     | In    | Type    | Required | Description                                        |
+|----------|-------|---------|----------|----------------------------------------------------|
+| id       | path  | string  | true     | A unique integer value identifying this group      |
+| limit    | query | integer | false    | Number of results to return per page               |
+| offset   | query | integer | false    | The initial index from which to return the results |
+| ordering | query | string  | false    | Which field to use when ordering the results       |
 
 ### Example Request
 

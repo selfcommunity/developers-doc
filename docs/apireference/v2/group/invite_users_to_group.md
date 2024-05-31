@@ -1,10 +1,10 @@
 ---
-sidebar_label: Invite Users
+sidebar_label: Invite Users Or Accept Users
 sidebar_position: 1
-title:  Invite Users
+title: Invite Users Or Accept Users
 ---
 
-This endpoint follows a group.
+This endpoint allows user managers to invite or accept users to the group
 
 :::info
 

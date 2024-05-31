@@ -14,7 +14,7 @@ This operation requires authentication only if `content_availability` community 
 
 ## HTTP Request
 
-`GET /api/v2/group/user/?search=`
+`GET /api/v2/group/user/`
 
 ### Parameters
 
@@ -40,7 +40,7 @@ const headers = {
   'Authorization: Bearer <token>'
 };
 
-fetch('/api/v2/group/user/?search=',
+fetch('/api/v2/group/user/',
 {
   method: 'GET',
   headers: headers
@@ -58,7 +58,7 @@ fetch('/api/v2/group/user/?search=',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/group/user/?search= \
+curl -X GET /api/v2/group/user/ \
   -H 'Accept: application/json'
   -H "Authorization: Bearer <token>"
 ```

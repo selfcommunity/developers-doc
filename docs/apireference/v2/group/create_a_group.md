@@ -39,7 +39,9 @@ import TabItem from '@theme/TabItem';
     "color": "string",
     "privacy": "string",
     "visible": boolean,
-    "invite_users": [integer]
+    "invite_users": [integer],
+    "image_original": "string",
+    "emotional_image_original": "string"
 }
 ```
 
@@ -61,7 +63,9 @@ const inputBody = '{
     "color": "string",
     "privacy": "string",
     "visible": boolean,
-    "invite_users": [integer]
+    "invite_users": [integer],
+    "image_original": "string",
+    "emotional_image_original": "string"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',

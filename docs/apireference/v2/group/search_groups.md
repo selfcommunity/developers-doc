@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Search Groups
 ---
 
-This endpoint performs groups search.
+This endpoint performs groups search only for groups that has `visible = true` or when `visible = false` the user must already be part of the group.
 
 :::info
 

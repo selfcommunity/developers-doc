@@ -8,7 +8,7 @@ This endpoint retrieves the list of all subscribed users to the group identified
 
 :::info
 
-This operation requires authentication and the group manager role.
+This operation requires authentication and being a member of the group.
 
 :::
 
@@ -23,7 +23,6 @@ This operation requires authentication and the group manager role.
 | id     | path  | string  | true     | A unique integer value identifying this group        |
 | limit  | query | integer | false    | Number of results to return per page                 |
 | offset | query | integer | false    | The initial index from which to return the results   |
-| search | query | string  | false    | A search term. Search in fields: username, real_name |
 
 
 ### Example Request

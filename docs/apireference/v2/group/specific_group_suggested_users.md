@@ -14,7 +14,7 @@ This operation requires authentication and the group manager role.
 
 ## HTTP Request
 
-`GET /api/v2/group/{id}/user/?search=`
+`GET /api/v2/group/{id}/user/`
 
 ### Parameters
 
@@ -41,7 +41,7 @@ const headers = {
   'Authorization: Bearer <token>'
 };
 
-fetch('/api/v2/group/{id}/user/?search=',
+fetch('/api/v2/group/{id}/user/',
 {
   method: 'GET',
   headers: headers
@@ -59,7 +59,7 @@ fetch('/api/v2/group/{id}/user/?search=',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/group/{id}/user/?search= \
+curl -X GET /api/v2/group/{id}/user/ \
   -H 'Accept: application/json'
   -H "Authorization: Bearer <token>"
 ```
