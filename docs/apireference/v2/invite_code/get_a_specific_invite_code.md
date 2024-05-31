@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Get a Specific Invite Code
 ---
 
-This endpoint retrieves a specific invite code by id or code.
+This endpoint retrieves a specific invite code by code.
 
 :::info
 
@@ -14,13 +14,13 @@ This operation does not require authentication
 
 ## HTTP Request
 
-`GET /api/v2/invite_code/{id/code}/`
+`GET /api/v2/invite_code/{code}/`
 
 ### Parameters
 
-| Name    | In   | Type   | Required | Description                                                     |
-|---------|------|--------|----------|-----------------------------------------------------------------|
-| id/code | path | string | true     | A unique integer value or the code identifying this invite code |
+| Name | In   | Type   | Required | Description                     |
+|------|------|--------|----------|---------------------------------|
+| code | path | string | true     | The code identifying the invite |
 
 ### Example Request
 
@@ -37,7 +37,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/invite_code/{id/code}/',
+fetch('/api/v2/invite_code/{code}/',
 {
   method: 'GET',
   headers: headers
@@ -55,7 +55,7 @@ fetch('/api/v2/invite_code/{id/code}/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/invite_code/{id/code}/ \
+curl -X GET /api/v2/invite_code/{code}/ \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}'
 ```
