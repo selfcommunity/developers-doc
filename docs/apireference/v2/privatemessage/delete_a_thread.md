@@ -29,6 +29,7 @@ The thread is deleted only for the logged user.
 |--------|-------|---------|------------------------------------------|----------------------|
 | thread | query | integer | (one between thread or user is required) | The id of the thread |
 | user   | query | integer | (one between thread or user is required) | The id of the user   |
+| group  | query | integer | false                                    | The id of the group  |
 
 ### Example Request
 
