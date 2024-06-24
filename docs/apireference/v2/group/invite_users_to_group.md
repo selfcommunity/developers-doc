@@ -8,7 +8,7 @@ This endpoint allows user managers to invite or accept users to the group
 
 :::info
 
-This operation requires authentication and the group manager role.
+This operation requires the group manager role.
 
 :::
 

@@ -8,7 +8,7 @@ This endpoint patches a specific group.
 
 :::info
 
-This operation requires authentication and the group manager role.
+This operation requires the group manager role.
 
 :::
 

@@ -6,13 +6,18 @@ title: Get All Categories
 
 This endpoint retrieves all categories.
 
-
 :::info
 
 This operation requires authentication only if `content_availability` community option is false.
 
 :::
 
+:::info
+
+To filter the category list by a tag id please refer
+to [Get Categories tagged with a Specific Tag](/docs/apireference/v2/tag/get_categories_tagged_with_a_specific_tag)
+
+:::
 
 ## HTTP Request
 
@@ -20,14 +25,13 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name    | In    | Type    | Required | Description                                            |
-|---------|-------|---------|----------|--------------------------------------------------------|
-| limit   | query | integer | false    | Number of results to return per page                   |
-| offset  | query | integer | false    | The initial index from which to return the results     |
-| search  | query | string  | false    | A search term                                          |
-| active  | query | string  | false    | Filter using field active (only if user is administrator) |
+| Name    | In    | Type    | Required | Description                                                |
+|---------|-------|---------|----------|------------------------------------------------------------|
+| limit   | query | integer | false    | Number of results to return per page                       |
+| offset  | query | integer | false    | The initial index from which to return the results         |
+| search  | query | string  | false    | A search term                                              |
+| active  | query | string  | false    | Filter using field active (only if user is administrator)  |
 | deleted | query | string  | false    | Filter using field deleted (only if user is administrator) |
-
 
 ### Example Request
 
@@ -74,9 +78,9 @@ curl -X GET /api/v2/category/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
@@ -90,7 +94,6 @@ Status Code **200**
 | » results  | list([Category](/docs/apireference/v2/schemas/category)) | false    | none         | List of results     |
 
 ### Example responses
-
 
 ````mdx-code-block
 
@@ -126,7 +129,8 @@ Status Code **200**
       "emotional_image_position": "integer",
       "lastmod_datetime": "string",
       "stream_order_by": "string",
-      "followers_counter": "integer"
+      "followers_counter": "integer",
+      "parents": ["integer"]
     }
   ]
 }

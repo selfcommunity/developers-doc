@@ -8,7 +8,7 @@ This endpoint resends the events specified as parameters to the endpoint spacifi
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

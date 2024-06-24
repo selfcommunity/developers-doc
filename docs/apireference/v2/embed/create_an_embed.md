@@ -8,7 +8,7 @@ This endpoint creates an Embed
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

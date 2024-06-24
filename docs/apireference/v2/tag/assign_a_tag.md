@@ -8,7 +8,7 @@ This endpoint assigns a tag to a user or to a category or to a contribution.
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

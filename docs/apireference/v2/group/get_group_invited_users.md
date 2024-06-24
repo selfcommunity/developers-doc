@@ -8,7 +8,7 @@ This endpoint retrieves the list of all invited users to the group identified by
 
 :::info
 
-This operation requires authentication and the group manager role.
+This operation requires the group manager role.
 
 :::
 

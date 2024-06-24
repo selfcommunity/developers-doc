@@ -8,7 +8,7 @@ This endpoint resends the event specified as parameter to the endpoint specified
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

@@ -14,7 +14,7 @@ You can use this endpoint to to change `status` in an admin list/table interface
 
 :::info
 
-This operation requires authentication and admin or editor role.
+This operation requires admin or editor role.
 
 :::
 

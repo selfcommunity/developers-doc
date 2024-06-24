@@ -8,7 +8,7 @@ This endpoint retrieves webhook events that can be enabled in the endpoint
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 :::
 
 ## HTTP Request

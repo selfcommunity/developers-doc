@@ -8,7 +8,7 @@ This endpoint patches a specific category.
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 
@@ -20,7 +20,6 @@ For example to change `active` or `deleted` flags in an admin list/table interfa
 
 :::
 
-
 ## HTTP Request
 
 `PATCH /api/v2/category/{id}/`
@@ -31,6 +30,14 @@ For example to change `active` or `deleted` flags in an admin list/table interfa
 |------|------|----------------------------------------------------|----------|--------------------------------------------------|
 | id   | path | string                                             | true     | A unique integer value identifying this category |
 | body | body | [Category](/docs/apireference/v2/schemas/category) | false    | The request body(category params)                |
+
+:::info
+
+The field "tags" is a list of integer category tags ids.
+The field "parents" is a list of integer category ids.
+
+:::
+
 
 #### Example Body Parameters
 
@@ -58,7 +65,9 @@ import TabItem from '@theme/TabItem';
   "emotional_image_original": "string",
   "emotional_image_position": "integer",
   "lastmod_datetime": "string",
-  "stream_order_by": "string"
+  "stream_order_by": "string",
+  "tags": ["integer"],
+  "parents": ["integer"]
 }
 ```
 
@@ -129,12 +138,11 @@ curl -X PATCH /api/v2/category/{id}/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Category](/docs/apireference/v2/schemas/category)|
+| Status | Meaning                                                 | Description          | Schema                                             |
+|--------|---------------------------------------------------------|----------------------|----------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Category](/docs/apireference/v2/schemas/category) |
 
 ### Example responses
-
 
 ````mdx-code-block
 

@@ -18,19 +18,20 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                                                                                               |
-|----------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------|
-| id       | path  | string  | true     | A unique integer value identifying this category                                                                          |
-| limit    | query | integer | false    | Number of results to return per page                                                                                      |
-| offset   | query | integer | false    | The initial index from which to return the results                                                                        |
-| ordering | query | string  | false    | The ordering of the feed. Default to `stream_order_by` field in [Category](/docs/apireference/v2/schemas/category) object |
+| Name     | In    | Type    | Required | Description                                                                                                                        |
+|----------|-------|---------|----------|------------------------------------------------------------------------------------------------------------------------------------|
+| id       | path  | string  | true     | A unique integer value identifying this category                                                                                   |
+| limit    | query | integer | false    | Number of results to return per page                                                                                               |
+| offset   | query | integer | false    | The initial index from which to return the results                                                                                 |
+| ordering | query | string  | false    | The ordering of the feed. Default is based on `stream_order_by` field in [Category](/docs/apireference/v2/schemas/category) object |
 
 #### Enumerated Values
 
-| Parameter  | Value         | Description                                                                    |
-|------------|---------------|--------------------------------------------------------------------------------|
-| » ordering | recent        | Order by recent creation datetime                                              |
+| Parameter  | Value         | Description                                                                     |
+|------------|---------------|---------------------------------------------------------------------------------|
+| » ordering | recent        | Order by recent creation datetime                                               |
 | » ordering | last_activity | Order by last activity in the [Feed](/docs/apireference/v2/schemas/feed) object |
+| » ordering | relevance     | Order by relevance algorithm                                                    |
 
 ### Example Request
 
@@ -76,25 +77,22 @@ curl -X GET /api/v2/category/{id}/feed/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|[[Feed](/docs/apireference/v2/schemas/feed)]|false|none|List of results|
-
-
+| Name       | Type                                         | Required | Restrictions | Description         |
+|------------|----------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                      | false    | none         | Total results count |
+| » next     | string(uri)¦null                             | false    | none         | Next page url       |
+| » previous | string(uri)¦null                             | false    | none         | Previous page url   |
+| » results  | [[Feed](/docs/apireference/v2/schemas/feed)] | false    | none         | List of results     |
 
 ### Example responses
-
 
 ````mdx-code-block
 

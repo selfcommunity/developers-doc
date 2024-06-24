@@ -6,13 +6,11 @@ title: Get Popular Categories
 
 This endpoint retrieves all categories ordered by the number of followers (in descending order).
 
-
 :::info
 
 This operation requires authentication only if `content_availability` community option is false.
 
 :::
-
 
 ## HTTP Request
 
@@ -20,10 +18,10 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
+| Name   | In    | Type    | Required | Description                                        |
+|--------|-------|---------|----------|----------------------------------------------------|
+| limit  | query | integer | false    | Number of results to return per page               |
+| offset | query | integer | false    | The initial index from which to return the results |
 
 ### Example Request
 
@@ -69,23 +67,22 @@ curl -X GET /api/v2/category/popular/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Category](/docs/apireference/v2/schemas/category))|false|none|List of results|
+| Name       | Type                                                     | Required | Restrictions | Description         |
+|------------|----------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                  | false    | none         | Total results count |
+| » next     | string(uri)¦null                                         | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                         | false    | none         | Previous page url   |
+| » results  | list([Category](/docs/apireference/v2/schemas/category)) | false    | none         | List of results     |
 
 ### Example responses
-
 
 ````mdx-code-block
 
@@ -121,7 +118,8 @@ Status Code **200**
       "emotional_image_position": "integer",
       "lastmod_datetime": "string",
       "stream_order_by": "string",
-      "followers_counter": "integer"
+      "followers_counter": "integer",
+      "parents": ["integer"]
     }
   ]
 }

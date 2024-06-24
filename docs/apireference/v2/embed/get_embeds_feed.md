@@ -4,11 +4,14 @@ sidebar_position: 1
 title: Get Embed's Feed
 ---
 
-This endpoint retrieves the embed's feed witch contains [Feed](/docs/apireference/v2/schemas/feed) that has an [Embed](/docs/apireference/v2/schemas/embed) as associated media.
+This endpoint retrieves the embed's feed witch contains [Feed](/docs/apireference/v2/schemas/feed) that has
+an [Embed](/docs/apireference/v2/schemas/embed) as associated media.
 
 :::info
 
-If the tuple `embed_type` `embed_id` is passed as parameter retrieves a list of [Feed](/docs/apireference/v2/schemas/feed) that has [Embed](/docs/apireference/v2/schemas/embed) as associated media like the [Get a specific Embed's Feed API](/docs/apireference/v2/embed/get_a_specific_embeds_feed).
+If the tuple `embed_type` `embed_id` is passed as parameter retrieves a list
+of [Feed](/docs/apireference/v2/schemas/feed) that has [Embed](/docs/apireference/v2/schemas/embed) as associated media
+like the [Get a specific Embed's Feed API](/docs/apireference/v2/embed/get_a_specific_embeds_feed).
 
 :::
 
@@ -24,21 +27,21 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-|Name|In| Type      |Required| Description                                                                                              |
-|---|---|-----------|---|----------------------------------------------------------------------------------------------------------|
-|embed_type|query| string    |false| The embed type                                                                                           |
-|embed_id|query| string    |false| The embed id                                                                                             |
-|metadata|query| json dict |false| A json dict containing some TERM_KEYS (eg: \{"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}) |
-|limit|query| integer   |false| Number of results to return per page                                                                     |
-|offset|query| integer   |false| The initial index from which to return the results                                                       |
-|ordering|query| string    |false| The ordering of the feed. Default to 'recent'                                                            |
+| Name       | In    | Type      | Required | Description                                                                                              |
+|------------|-------|-----------|----------|----------------------------------------------------------------------------------------------------------|
+| embed_type | query | string    | false    | The embed type                                                                                           |
+| embed_id   | query | string    | false    | The embed id                                                                                             |
+| metadata   | query | json dict | false    | A json dict containing some TERM_KEYS (eg: \{"authors": ["Umberto Eco", "Neil Gaiman"], "type": "book"}) |
+| limit      | query | integer   | false    | Number of results to return per page                                                                     |
+| offset     | query | integer   | false    | The initial index from which to return the results                                                       |
+| ordering   | query | string    | false    | The ordering of the feed. Default to 'recent'                                                            |
 
 #### Enumerated Values
 
-|Parameter|Value|Description|
-|---|---|---|
-|» ordering|recent|Order by recent creation datetime|
-|» ordering|last_activity|Order by last activity in the [Feed](/docs/apireference/v2/schemas/feed) object|
+| Parameter  | Value         | Description                                                                     |
+|------------|---------------|---------------------------------------------------------------------------------|
+| » ordering | recent        | Order by recent creation datetime                                               |
+| » ordering | last_activity | Order by last activity in the [Feed](/docs/apireference/v2/schemas/feed) object |
 
 ### Example Request
 
@@ -84,23 +87,22 @@ curl -X GET /api/v2/embed/feed/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|List of results|
+| Name       | Type                                             | Required | Restrictions | Description         |
+|------------|--------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                          | false    | none         | Total results count |
+| » next     | string(uri)¦null                                 | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                 | false    | none         | Previous page url   |
+| » results  | list([Feed](/docs/apireference/v2/schemas/feed)) | false    | none         | List of results     |
 
 ### Example responses
-
 
 ````mdx-code-block
 

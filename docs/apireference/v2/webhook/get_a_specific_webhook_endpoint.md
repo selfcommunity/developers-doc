@@ -8,7 +8,7 @@ This endpoint retrieves a specific webhook endpoint using ID
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 :::
 
 ## HTTP Request

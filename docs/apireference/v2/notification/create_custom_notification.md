@@ -10,7 +10,7 @@ Es. connections -> "user" added an item to the wishlist
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

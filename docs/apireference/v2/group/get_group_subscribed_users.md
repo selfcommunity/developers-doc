@@ -8,7 +8,7 @@ This endpoint retrieves the list of all subscribed users to the group identified
 
 :::info
 
-This operation requires authentication and being a member of the group.
+This operation requires being a member of the group.
 
 :::
 

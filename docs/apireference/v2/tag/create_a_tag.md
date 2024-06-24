@@ -8,7 +8,7 @@ This endpoint creates a tag
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

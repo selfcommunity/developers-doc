@@ -8,7 +8,7 @@ This endpoint deletes a Webhook Endpoint.
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

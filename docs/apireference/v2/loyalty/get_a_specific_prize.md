@@ -8,7 +8,7 @@ This endpoint retrieves a specific prize
 
 :::info
 
-This operation requires authentication and admin or editor role to get a not active prize.
+This operation requires admin or editor role to get a not active prize.
 
 :::
 

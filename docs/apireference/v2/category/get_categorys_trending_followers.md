@@ -12,19 +12,18 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
-
 ## HTTP Request
 
 `GET /api/v2/category/{id}/followers/trending/`
 
 ### Parameters
 
-|Name|In|Type|Required| Description                                        |
-|---|---|---|---|----------------------------------------------------|
-|id|path|string|true| A unique integer value identifying this category   |
-|limit|query|integer|false| Number of results to return per page               |
-|offset|query|integer|false| The initial index from which to return the results |
-|days|query|integer|false| Number of days (default 90 days)                   |
+| Name   | In    | Type    | Required | Description                                        |
+|--------|-------|---------|----------|----------------------------------------------------|
+| id     | path  | string  | true     | A unique integer value identifying this category   |
+| limit  | query | integer | false    | Number of results to return per page               |
+| offset | query | integer | false    | The initial index from which to return the results |
+| days   | query | integer | false    | Number of days (default 90 days)                   |
 
 ### Example Request
 
@@ -70,12 +69,11 @@ curl -X GET /api/v2/category/{id}/followers/trending/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[User](/docs/apireference/v2/schemas/user)|
+| Status | Meaning                                                 | Description          | Schema                                     |
+|--------|---------------------------------------------------------|----------------------|--------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [User](/docs/apireference/v2/schemas/user) |
 
 ### Example responses
-
 
 ````mdx-code-block
 

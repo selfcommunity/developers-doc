@@ -28,7 +28,10 @@ title: Category
   "emotional_image_position": "integer",
   "lastmod_datetime": "string",
   "stream_order_by": "string",
-  "followers_counter": "integer"
+  "followers_counter": "integer",
+  "parents": [
+    "integer"
+  ]
 }
 
 ```
@@ -38,7 +41,7 @@ title: Category
 | Name                     | Type                                                               | Required | Restrictions | Description                                                                                        |
 |--------------------------|--------------------------------------------------------------------|----------|--------------|----------------------------------------------------------------------------------------------------|
 | id                       | integer                                                            | false    | read-only    | Unique integer value identifying this category                                                     |
-| tags                     | [Tag](/docs/apireference/v2/schemas/tag)¦[]                        | false    | none         | User's tag list. List of [Tag](/docs/apireference/v2/schemas/tag).                                 |
+| tags                     | [Tag](/docs/apireference/v2/schemas/tag)¦[]                        | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag).                                                  |
 | followed                 | boolean                                                            | false    | none         | If the category is followed by the authenticated user                                              |
 | order                    | integer                                                            | false    | none         | Manual ordering number                                                                             |
 | name                     | string                                                             | true     | none         | Unique name of the category                                                                        |
@@ -60,6 +63,7 @@ title: Category
 | lastmod_datetime         | string(date-time)                                                  | false    | read-only    | Last modify date time                                                                              |
 | stream_order_by          | [string](/docs/apireference/v2/schemas/category#enumerated-values) | false    | none         | Order of the category feed                                                                         |
 | followers_counter        | integer                                                            | false    | none         | Number of category followers                                                                       |
+| parents                  | integer¦[]                                                         | false    | none         | List of Category parents ids                                                                       |
 
 #### Enumerated Values
 
@@ -75,3 +79,4 @@ title: Category
 |-----------------|---------------|---------------------------------------------------------------|
 | stream_order_by | recent        | Order by last created (decreasing)                            |
 | stream_order_by | last_activity | Order by last activity (creation, comments, ecc) (decreasing) |
+| stream_order_by | relevance     | Order by the relevance algorithm                              |

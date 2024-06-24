@@ -12,16 +12,22 @@ This operation requires admin role.
 
 :::
 
-
 ## HTTP Request
 
 `POST /api/v2/category/`
 
 ### Parameters
 
-|Name|In|Type|Required| Description                       |
-|---|---|---|---|-----------------------------------|
-|body|body|[Category](/docs/apireference/v2/schemas/category)|false| The request body(category params) |
+| Name | In   | Type                                               | Required | Description                       |
+|------|------|----------------------------------------------------|----------|-----------------------------------|
+| body | body | [Category](/docs/apireference/v2/schemas/category) | false    | The request body(category params) |
+
+:::info
+
+The field "tags" is a list of integer category tags ids.
+The field "parents" is a list of integer category ids.
+
+:::
 
 #### Example Body Parameters
 
@@ -49,7 +55,9 @@ import TabItem from '@theme/TabItem';
   "emotional_image_original": "string",
   "emotional_image_position": "integer",
   "lastmod_datetime": "string",
-  "stream_order_by": "string"
+  "stream_order_by": "string",
+  "tags": ["integer"],
+  "parents": ["integer"]
 }
 ```
 
@@ -81,7 +89,9 @@ const inputBody = '{
   "emotional_image_original": "string",
   "emotional_image_position": "integer",
   "lastmod_datetime": "string",
-  "stream_order_by": "string"
+  "stream_order_by": "string",
+  "tags": ["integer"],
+  "parents": ["integer"]
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -120,9 +130,9 @@ curl -X POST /api/v2/category/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Category](/docs/apireference/v2/schemas/category)|
+| Status | Meaning                                                      | Description          | Schema                                             |
+|--------|--------------------------------------------------------------|----------------------|----------------------------------------------------|
+| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Category](/docs/apireference/v2/schemas/category) |
 
 ### Example responses
 
@@ -155,7 +165,8 @@ curl -X POST /api/v2/category/ \
   "emotional_image_position": "integer",
   "lastmod_datetime": "string",
   "stream_order_by": "string",
-  "followers_counter": "integer"
+  "followers_counter": "integer",
+  "parents": ["integer"]
 }
 ```
 

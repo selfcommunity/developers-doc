@@ -8,7 +8,7 @@ This endpoint updates a specific prize
 
 :::info
 
-This operation requires authentication and admin or editor role.
+This operation requires admin or editor role.
 
 :::
 

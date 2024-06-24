@@ -10,7 +10,8 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
-This endpoint retrieves the explore feed. This endpoint can be disabled by setting `explore_stream_enabled` community option to false
+This endpoint retrieves the explore feed. This endpoint can be disabled by setting `explore_stream_enabled` community
+option to false
 
 ## HTTP Request
 
@@ -18,18 +19,18 @@ This endpoint retrieves the explore feed. This endpoint can be disabled by setti
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
-|ordering|query|string|false|The ordering of the feed. Default to `explore_stream_order_by` community option|
+| Name     | In    | Type    | Required | Description                                                                     |
+|----------|-------|---------|----------|---------------------------------------------------------------------------------|
+| limit    | query | integer | false    | Number of results to return per page                                            |
+| offset   | query | integer | false    | The initial index from which to return the results                              |
+| ordering | query | string  | false    | The ordering of the feed. Default to `explore_stream_order_by` community option |
 
 #### Enumerated Values
 
-|Parameter|Value|Description|
-|---|---|---|
-|» ordering|recent|Order by recent creation datetime|
-|» ordering|last_activity|Order by last activity in the [Feed](/docs/apireference/v2/schemas/feed) object|
+| Parameter  | Value         | Description                                                                     |
+|------------|---------------|---------------------------------------------------------------------------------|
+| » ordering | recent        | Order by recent creation datetime                                               |
+| » ordering | last_activity | Order by last activity in the [Feed](/docs/apireference/v2/schemas/feed) object |
 
 ### Example Request
 
@@ -76,21 +77,20 @@ curl -X GET /api/v2/feed/explore/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Feed](/docs/apireference/v2/schemas/feed))|false|none|List of results|
-
+| Name       | Type                                             | Required | Restrictions | Description         |
+|------------|--------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                          | false    | none         | Total results count |
+| » next     | string(uri)¦null                                 | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                 | false    | none         | Previous page url   |
+| » results  | list([Feed](/docs/apireference/v2/schemas/feed)) | false    | none         | List of results     |
 
 ### Example responses
 

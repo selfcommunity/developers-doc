@@ -8,7 +8,7 @@ This endpoint retrieves the group feed.
 
 :::info
 
-This operation requires authentication and being a member of the group.
+This operation requires being a member of the group.
 
 :::
 

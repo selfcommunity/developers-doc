@@ -8,7 +8,7 @@ This endpoint retrieves all prizes
 
 :::info
 
-This operation requires authentication and admin or editor role to filter active prizes.
+This operation requires admin or editor role to filter active prizes.
 
 :::
 

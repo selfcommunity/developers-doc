@@ -20,7 +20,7 @@ only users with the admin role can register new users.
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

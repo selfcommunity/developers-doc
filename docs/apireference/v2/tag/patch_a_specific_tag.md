@@ -15,7 +15,7 @@ For example to change `active` or `visible` flags in an admin list/table interfa
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

@@ -1,40 +1,20 @@
 ---
-sidebar_label: Get Categories tagged with a Specific Tag
+sidebar_label: Get Category children
 sidebar_position: 1
-title: Get Categories tagged with a Specific Tag
+title: Get Category children
 ---
 
-This endpoint retrieves all Categories tagged with a Specific Tag
-
-:::info
-
-This operation requires admin role.
-
-:::
+This endpoint retrieves all Categories children
 
 ## HTTP Request
 
-`GET /api/v2/tag/category/`
+`GET /api/v2/category/{id}/children/`
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                                                     |
-|----------|-------|---------|----------|---------------------------------------------------------------------------------|
-| tag_id   | query | integer | false    | A unique integer value identifying this tag                                     |
-| tag_name | query | string  | false    | A unique name identifying this tag for the selected type (path)                 |
-| limit    | query | integer | false    | Number of results to return per page                                            |
-| offset   | query | integer | false    | The initial index from which to return the results                              |
-| ordering | query | string  | false    | Ordering field, default is `order` (minus char is used for descending ordering) |
-
-One between "tag_id" and "tag_name" must be passed to this endpoint.
-
-#### Available ordering fields
-
-| Value | Description          |
-|-------|----------------------|
-| order | Custom order         |
-| id    | id of the category   |
-| name  | name of the category |
+| Name | In   | Type   | Required | Description                                      |
+|------|------|--------|----------|--------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this category |
 
 ### Example Request
 
@@ -52,7 +32,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/tag/category/',
+fetch('/api/v2/category/{id}/children/',
 {
   method: 'GET',
   headers: headers
@@ -70,7 +50,7 @@ fetch('/api/v2/tag/category/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/tag/category/ \
+curl -X GET /api/v2/category/{id}/children/ \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access_token}'
 ```
@@ -96,7 +76,6 @@ Status Code **200**
 | » results  | list([Category](/docs/apireference/v2/schemas/category)) | false    | none         | List of results     |
 
 ### Example responses
-
 
 ````mdx-code-block
 

@@ -8,7 +8,7 @@ This endpoint expires the secret associated with this endpoint
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

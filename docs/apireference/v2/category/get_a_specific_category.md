@@ -102,7 +102,8 @@ curl -X GET /api/v2/category/{id}/ \
   "emotional_image_position": "integer",
   "lastmod_datetime": "string",
   "stream_order_by": "string",
-  "followers_counter": "integer"
+  "followers_counter": "integer",
+  "parents": ["integer"]
 }
 ```
 

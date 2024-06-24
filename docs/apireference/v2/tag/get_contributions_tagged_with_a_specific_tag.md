@@ -8,7 +8,7 @@ This endpoint retrieves all Contributions tagged with a Specific Tag
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

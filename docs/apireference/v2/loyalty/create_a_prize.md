@@ -8,7 +8,7 @@ This endpoint creates a prize
 
 :::info
 
-This operation requires authentication and admin or editor role.
+This operation requires admin or editor role.
 
 :::
 

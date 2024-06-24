@@ -8,7 +8,7 @@ This endpoint unassigns a tag to a user or to a category.
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

@@ -8,7 +8,7 @@ This endpoint allows to perform  a specific account search.
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 

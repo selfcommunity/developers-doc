@@ -6,7 +6,7 @@ title: Delete a social association
 
 :::info
 
-This operation requires authentication and the user must be the same or must have the admin role.
+This operation requires that the user is the same or has the admin role.
 
 :::
 

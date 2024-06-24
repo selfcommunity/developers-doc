@@ -18,9 +18,9 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this category|
+| Name | In   | Type   | Required | Description                                      |
+|------|------|--------|----------|--------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this category |
 
 ### Example Request
 
@@ -65,12 +65,11 @@ curl -X GET /api/v2/category/{id}/is_followed/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|none|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | none   |
 
 ### Example responses
-
 
 ````mdx-code-block
 

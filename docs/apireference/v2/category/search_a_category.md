@@ -12,20 +12,19 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
-
 ## HTTP Request
 
 `GET /api/v2/category/search/`
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
-|search|query|string|false|A search term|
-|active|query|string|false|Filter using field active (only if user is administrator)|
-|deleted|query|string|false|Filter using field deleted (only if user is administrator)|
+| Name    | In    | Type    | Required | Description                                                |
+|---------|-------|---------|----------|------------------------------------------------------------|
+| limit   | query | integer | false    | Number of results to return per page                       |
+| offset  | query | integer | false    | The initial index from which to return the results         |
+| search  | query | string  | false    | A search term                                              |
+| active  | query | string  | false    | Filter using field active (only if user is administrator)  |
+| deleted | query | string  | false    | Filter using field deleted (only if user is administrator) |
 
 ### Example Request
 
@@ -70,23 +69,23 @@ curl -X GET /api/v2/category/search/ \
 ````
 
 ## Responses
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|list([Category](/docs/apireference/v2/schemas/category))|false|none|List of results|
+| Name       | Type                                                     | Required | Restrictions | Description         |
+|------------|----------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                  | false    | none         | Total results count |
+| » next     | string(uri)¦null                                         | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                         | false    | none         | Previous page url   |
+| » results  | list([Category](/docs/apireference/v2/schemas/category)) | false    | none         | List of results     |
 
 ### Example responses
-
 
 ````mdx-code-block
 
@@ -122,8 +121,8 @@ Status Code **200**
       "emotional_image_position": "integer",
       "lastmod_datetime": "string",
       "stream_order_by": "string",
-      "followers_counter": "integer"
-
+      "followers_counter": "integer",
+      "parents": ["integer"]
     }
   ]
 }

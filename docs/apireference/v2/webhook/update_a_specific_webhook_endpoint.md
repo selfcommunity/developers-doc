@@ -8,7 +8,7 @@ This endpoint updates a specific webhook endpoint
 
 :::info
 
-This operation requires authentication and admin role.
+This operation requires admin role.
 
 :::
 
