@@ -18,6 +18,12 @@ This operation requires authentication. The logged user must be the status creat
 
 ### Parameters
 
+:::info
+
+By passing a category id that has parents defined, the system will automatically ascend the category graph based on the parents and will also automatically add the parents category ids to the status.
+
+:::
+
 | Name         | In   | Type          | Required | Description                                                            |
 |--------------|------|---------------|----------|------------------------------------------------------------------------|
 | » action     | body | string¦null   | true     | The action of the status                                               |

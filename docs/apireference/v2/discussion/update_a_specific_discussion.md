@@ -20,6 +20,12 @@ This operation requires authentication. The logged user must be the discussion c
 
 ### Parameters
 
+:::info
+
+By passing a category id that has parents defined, the system will automatically ascend the category graph based on the parents and will also automatically add the parents category ids to the discussion.
+
+:::
+
 | Name                | In   | Type              | Required | Description                                                                |
 |---------------------|------|-------------------|----------|----------------------------------------------------------------------------|
 | id                  | path | string            | true     | A unique integer value identifying this discussion                         |

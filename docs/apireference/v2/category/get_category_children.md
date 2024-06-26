@@ -1,10 +1,10 @@
 ---
-sidebar_label: Get Category children
+sidebar_label: Get Category Children
 sidebar_position: 1
-title: Get Category children
+title: Get Category Children
 ---
 
-This endpoint retrieves all Categories children
+This endpoint retrieves all Categories Children positioned down in the first level of the Categories graph.
 
 ## HTTP Request
 

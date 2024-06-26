@@ -18,6 +18,12 @@ This operation requires authentication
 
 ### Parameters
 
+:::info
+
+By passing a category id that has parents defined, the system will automatically ascend the category graph based on the parents and will also automatically add the parents category ids to the discussion.
+
+:::
+
 | Name                | In   | Type              | Required | Description                                                                                          |
 |---------------------|------|-------------------|----------|------------------------------------------------------------------------------------------------------|
 | » title             | body | string¦null       | true     | The title of the discussion                                                                          |

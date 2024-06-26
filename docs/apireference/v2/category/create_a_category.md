@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Create a Category
 ---
 
-This endpoint creates a category
+This endpoint creates a category.
 
 :::info
 
