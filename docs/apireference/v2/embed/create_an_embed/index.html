@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.5c91f9cf.css">
-<script src="/assets/js/runtime~main.1c8446e9.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.6cba236c.js" defer="defer"></script>
 <script src="/assets/js/main.2c3fee5b.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -18,7 +18,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request">​</a></h2>
 <p><code>POST /api/v2/embed/</code></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h3>
-<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>» id</td><td>body</td><td>integer</td><td>false</td><td>A unique integer value identifying this embed</td></tr><tr><td>» embed_type</td><td>body</td><td>string</td><td>true</td><td>Type of the embed, can be any string except <code>sc_vimeo</code> or <code>sc_link</code> that are used for embedded objects auomatically created by the community</td></tr><tr><td>» embed_id</td><td>body</td><td>string</td><td>true</td><td>External id for the embed object</td></tr><tr><td>» url</td><td>body</td><td>string(uri)¦null</td><td>false</td><td>Url for the resource, if any</td></tr><tr><td>» metadata</td><td>body</td><td>json</td><td>false</td><td>Metadata associated to this embed. It mus be a valid json object</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>» id</td><td>body</td><td>integer</td><td>false</td><td>A unique integer value identifying this embed</td></tr><tr><td>» embed_type</td><td>body</td><td>string</td><td>true</td><td>Type of the embed, can be any string except <code>sc_link</code> that are used for embedded objects auomatically created by the community</td></tr><tr><td>» embed_id</td><td>body</td><td>string</td><td>true</td><td>External id for the embed object</td></tr><tr><td>» url</td><td>body</td><td>string(uri)¦null</td><td>false</td><td>Url for the resource, if any</td></tr><tr><td>» metadata</td><td>body</td><td>json</td><td>false</td><td>Metadata associated to this embed. It mus be a valid json object</td></tr></tbody></table>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-body-parameters">Example Body Parameters<a href="#example-body-parameters" class="hash-link" aria-label="Direct link to Example Body Parameters" title="Direct link to Example Body Parameters">​</a></h4>
 <!-- -->
 <!-- -->
