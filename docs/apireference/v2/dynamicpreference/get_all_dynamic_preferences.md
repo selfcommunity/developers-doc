@@ -133,10 +133,6 @@ This section contains a collection of modules which can be added as an extra fea
 * **share_post_on_facebook_enabled**: This feature allows users to share posts on Facebook.
 * **share_post_on_twitter_enabled**: This feature allows users to share posts on Twitter.
 * **share_post_on_linkedin_enabled**: This feature allows users to share posts on Linkedin.
-* **video_upload_enabled**: This feature enables video upload via vimeo.
-* **vimeo_token_upload**: This feature uploads vimeo token.
-* **vimeo_token_delete**: This feature deletes vimeo token.
-* **video_upload_only_for_staff**: This feature enables video upload only for staff members.
 * **zapier_enabled**: This feature enables Zapier.
 * **custom_code_head**: Custom code printed in the head section.
 * **custom_code_body**: Custom code printed in the body section.

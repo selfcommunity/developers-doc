@@ -88,7 +88,6 @@ title: Flagged Contribution
 
 | Key    |
 |--------|
-| vimeo  |
 | url    |
 | embed  |
 | image  |

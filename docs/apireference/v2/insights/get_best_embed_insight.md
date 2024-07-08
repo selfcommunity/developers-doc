@@ -8,7 +8,7 @@ This endpoint retrieves the best embed insights list.
 The operations of this endpoint is quite complex and returns different result structures based on the parameters passed.
 For example, pagination (and therefore the use of the offset parameter) is guaranteed only if the metadata and group_by parameter are not passed.
 If you are passing metadata you MUST pass also group_by.
-If you pass group_by the result will be not paginated and will contain only user defined custom embeds (not among these: 'sc_vimeo', 'sc_link', 'sc_shared_object').
+If you pass group_by the result will be not paginated and will contain only user defined custom embeds (not among these: 'sc_link', 'sc_shared_object').
 
 ## HTTP Request
 

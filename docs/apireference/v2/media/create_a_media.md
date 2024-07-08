@@ -10,7 +10,7 @@ This endpoint creates a Media
 
 The allowed types for this endpoint are:
 
- - *vimeo* for video upload. The endpoint must receive the url of the video after the video is fully uploaded to vimeo servers by the client.
+ - *image* for image upload. The endpoint retrieve the image associated with the given url and creates an image media type.
 
  - *url* for url fetch. The endpoint retrieve metadata associated with the given url and create a preview.
 
@@ -35,20 +35,20 @@ This operation requires authentication
 
 ### Parameters
 
-|Name|In|Type|Required| Description             |
-|---|---|---|---|-------------------------|
-|» type|body|string|true| The media type          |
-|» url|body|string(uri)|if `type` is *url*| Required for type url   |
-|» shared_object|body|integer|if `type` is *share*| Required for type share |
-|» embed|body|[Embed](/docs/apireference/v2/schemas/embed)|if `type` is *embed*| The embed object        |
+| Name            | In   | Type                                         | Required             | Description             |
+|-----------------|------|----------------------------------------------|----------------------|-------------------------|
+| » type          | body | string                                       | true                 | The media type          |
+| » url           | body | string(uri)                                  | if `type` is *url*   | Required for type url   |
+| » shared_object | body | integer                                      | if `type` is *share* | Required for type share |
+| » embed         | body | [Embed](/docs/apireference/v2/schemas/embed) | if `type` is *embed* | The embed object        |
 
 #### Enumerated Values
 
-|Parameter|Value|Description|
-|---|---|---|
-|» type|vimeo|Vimeo video media type|
-|» type|url|Url media type (used for any webpages, youtube or vimeo public videos)|
-|» type|embed|External resource|
+| Parameter | Value | Description                                          |
+|-----------|-------|------------------------------------------------------|
+| » type    | image | Url media type                                       |
+| » type    | url   | Url media type (used for any webpages, youtube etc.) |
+| » type    | embed | External resource                                    |
 
 #### Example Body Parameters
 

@@ -41,7 +41,7 @@ title: Media
 
 | Property | Value  | Description                                                                                                                                                             |
 |----------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| type     | vimeo  | Media associated to an uploaded video on vimeo platform                                                                                                                 |
+| type     | image  | Media associated to a webpage url containing an image                                                                                                                   |
 | type     | url    | Media associated to a webpage url                                                                                                                                       |
 | type     | embed  | Media of type embed                                                                                                                                                     |
 | type     | image  | Media of type image                                                                                                                                                     |
