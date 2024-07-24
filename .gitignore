@@ -22,4 +22,7 @@ yarn-error.log*
 
 /.idea
 /sdk/community-ui/node_modules/
-/docs/sdk/community-js/
+
+# Local files
+# inside has only: /docs/sdk/community-js/
+/docs/sdk/.gitignore
