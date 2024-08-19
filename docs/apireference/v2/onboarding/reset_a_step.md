@@ -1,6 +1,6 @@
 ---
 sidebar_label: Reset An Onboarding Step
-sidebar_position: 4
+sidebar_position: 5
 title: Reset An Onboarding Step
 ---
 
