@@ -33,6 +33,7 @@ title: Post
   "location": {},
   "tags": [],
   "group": "integer",
+  "event": "integer",
   "poll": {}
 }
 
@@ -73,6 +74,7 @@ title: Post
 | addressing       | list(integer)                                            | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag) ids. Only tags of type 'user' used for addressing this contribution |
 | tags             | list(integer)                                            | false    | none         | List of [Tag](/docs/apireference/v2/schemas/tag) ids. Only tags of type 'contribution'                               |
 | group            | integer                                                  | false    | none         | The id of the group                                                                                                  |
+| event            | integer                                                  | false    | none         | The id of the event                                                                                                  |
 | poll             | [Poll](/docs/apireference/v2/schemas/poll)               | false    | read-only    | The post poll object                                                                                                 |
 
 
