@@ -8,7 +8,7 @@ This endpoint retrieves the event feed.
 
 :::info
 
-This operation requires being subscribed to the event.
+This operation requires authentication and being subscribed to the event.
 
 :::
 
@@ -18,12 +18,12 @@ This operation requires being subscribed to the event.
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                        |
-|----------|-------|---------|----------|----------------------------------------------------|
-| id       | path  | string  | true     | A unique integer value identifying this event      |
-| limit    | query | integer | false    | Number of results to return per page               |
-| offset   | query | integer | false    | The initial index from which to return the results |
-| ordering | query | string  | false    | Which field to use when ordering the results       |
+| Name     | In    | Type    | Required | Description                                                                                                    |
+|----------|-------|---------|----------|----------------------------------------------------------------------------------------------------------------|
+| id       | path  | integer | true     | A unique integer value identifying this event                                                                  |
+| limit    | query | integer | false    | Number of results to return per page                                                                           |
+| offset   | query | integer | false    | The initial index from which to return the results                                                             |
+| ordering | query | string  | false    | Order the contents of the feed; valid values are: recent, relevance and last_activity; default value is recent |
 
 ### Example Request
 
@@ -69,80 +69,17 @@ curl -X GET /api/v2/event/{id}/feed/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|» count|integer|false|none|Total results count|
-|» next|string(uri)¦null|false|none|Next page url|
-|» previous|string(uri)¦null|false|none|Previous page url|
-|» results|[[Feed](/docs/apireference/v2/schemas/feed)]|false|none|List of results|
-
-
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "count": "integer",
-  "next": "string(uri)",
-  "previous": "string(uri)",
-  "results": [
-        {
-            "type": "string",
-            "post": {
-                "id": "integer",
-                "type": "string",
-                "last_activity_at": "string",
-                "author": {User},
-                "added_at": "string",
-                "last_edited_at": "string",
-                "html": "string",
-                "summary": "string",
-                "deleted": "boolean",
-                "collapsed": "boolean",
-                "comment_count": "integer",
-                "view_count": "integer",
-                "vote_count": "integer",
-                "reactions_count": [{Reaction}],
-                "voted": "boolean",
-                "reaction": {Reaction},
-                "follower_count": "integer",
-                "followed": "boolean",
-                "suspended": "boolean",
-                "flag_count": "integer",
-                "share_count": "integer",
-                "slug": "string",
-                "categories": [{Event}],
-                "medias": [{Media}],
-                "location": "string",
-                "addressing": ["integer"],
-                "tags": ["integer"],
-                "poll": {Poll}
-            },
-            "seen_by_id": ["integer"],
-            "has_boost": "boolean"
-        },
-  ]
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Name       | Type                                         | Required | Restrictions | Description         |
+|------------|----------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                      | false    | none         | Total results count |
+| » next     | string(uri)¦null                             | false    | none         | Next page url       |
+| » previous | string(uri)¦null                             | false    | none         | Previous page url   |
+| » results  | [[Feed](/docs/apireference/v2/schemas/feed)] | false    | none         | List of results     |

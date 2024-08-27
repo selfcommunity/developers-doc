@@ -4,11 +4,11 @@ sidebar_position: 1
 title: Not Going to Event
 ---
 
-This endpoint allows users to opt out of a specific event.
+This endpoint allows the user to specify that he will be not going to the event.
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication and that the user is subscribed to the event.
 
 :::
 
@@ -18,9 +18,9 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                      |
-|------|------|--------|----------|--------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this event |
+| Name | In   | Type    | Required | Description                                   |
+|------|------|---------|----------|-----------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this event |
 
 ### Example Request
 
@@ -69,10 +69,6 @@ curl -X POST /api/v2/event/{id}/not_going/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

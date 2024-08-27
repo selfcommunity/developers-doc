@@ -12,16 +12,15 @@ This operation requires authentication.
 
 :::
 
-
 ## HTTP Request
 
 `POST /api/v2/event/`
 
 ### Parameters
 
-|Name|In|Type|Required| Description                       |
-|---|---|---|---|-----------------------------------|
-|body|body|[Event](/docs/apireference/v2/schemas/event)|false| The request body(event params) |
+| Name | In   | Type                                         | Required | Description                     |
+|------|------|----------------------------------------------|----------|---------------------------------|
+| body | body | [Event](/docs/apireference/v2/schemas/event) | true     | The request body (event params) |
 
 #### Example Body Parameters
 
@@ -35,10 +34,10 @@ import TabItem from '@theme/TabItem';
 ```json
 {
     "name": "string",
-    "description": "string",
-    "color": "string",
     "privacy": "string",
-    "visible": boolean,
+    "start_date": "string",
+    "recurring": "string",
+    "location": "string",
     "invite_users": [integer],
     "image_original": "string"
 }
@@ -58,10 +57,10 @@ import TabItem from '@theme/TabItem';
 ```js
 const inputBody = '{
     "name": "string",
-    "description": "string",
-    "color": "string",
     "privacy": "string",
-    "visible": boolean,
+    "start_date": "string",
+    "recurring": "string",
+    "location": "string",
     "invite_users": [integer],
     "image_original": "string"
 }';
@@ -102,58 +101,6 @@ curl -X POST /api/v2/event/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Event](/docs/apireference/v2/schemas/event)|
-
-### Example responses
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "name": "string",
-  "description": "string",
-  "slug": "string",
-  "color": "string",
-  "privacy": {},
-  "visible": "boolean",
-  "active": "boolean",
-  "show_on_feed": "boolean",
-  "subscription_status": {},
-  "image_bigger": "string",
-  "image_big": "string",
-  "image_medium": "string",
-  "image_small": "string",
-  "subscribers_counter": "integer",
-  "goings_counter": "integer",
-  "start_date": "string",
-  "end_date": "string",
-  "recurring": "string",
-  "location": "string",
-  "geolocation": "string",
-  "geolocation_lat": "integer",
-  "geolocation_lng": "integer",
-  "link": "string",
-  "created_at": "string",
-  "created_by": {},
-  "managed_by": {},
-  "running": "boolean",
-  "running_start_date": "string",
-  "running_end_date": "string",
-  "next_start_date": "string",
-  "next_end_date": "string"
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                      | Description          | Schema                                       |
+|--------|--------------------------------------------------------------|----------------------|----------------------------------------------|
+| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Event](/docs/apireference/v2/schemas/event) |

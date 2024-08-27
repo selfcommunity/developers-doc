@@ -4,11 +4,13 @@ sidebar_position: 1
 title: Hide a Specific Event
 ---
 
-This endpoint hides the [Event](/docs/apireference/v2/schemas/event) for the logged user. The event must be in show state
+This endpoint hides the contents in the feed relative to this event for the logged user. The event must have
+`show_on_feed = true` for the current user.
 
 :::info
 
-This operation requires authentication.
+This operation requires being subscribed to the event.
+
 :::
 
 ## HTTP Request
@@ -17,9 +19,9 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this event|
+| Name | In   | Type    | Required | Description                                   |
+|------|------|---------|----------|-----------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this event |
 
 ### Example Request
 
@@ -65,11 +67,6 @@ curl -X POST /api/v2/event/{id}/hide/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

@@ -1,21 +1,22 @@
 ---
-sidebar_label: Unsubscribe From Group
+sidebar_label: Unsubscribe From Group Or Remove request
 sidebar_position: 1
-title: Unsubscribe From Group
+title: Unsubscribe From Group Or Remove request
 ---
 
-This endpoint allows users to unsubscribe from the group identified by \{id}. 
+This endpoint allows users to unsubscribe from the group identified by `{id}`. If the user is not subscribed to the
+group but has requested to participate to a private group then remove the request to participate.
 
 :::note
 
-By passing the optional param  `user` a group manager is able to remove the user identified by the id from the group.
+By passing the optional param `user` an group manager is able to remove the user from the group.
 
 :::
 
-
 :::info
 
-This operation requires authentication (and also the group manager role if the "user" parameter is passed).
+This operation requires only authentication without the `user` param. It requires also that the user is the manager of
+the group if the `user` param is passed.
 
 :::
 
@@ -25,10 +26,10 @@ This operation requires authentication (and also the group manager role if the "
 
 ### Parameters
 
-| Name |In|Type| Required | Description                                                          |
-|------|---|---|----------|----------------------------------------------------------------------|
-| id   |path|string| true     | A unique integer value identifying this group                        |
-| user |path|string| false    | A unique integer value identifying the user to remove from the group |
+| Name | In   | Type    | Required | Description                                                          |
+|------|------|---------|----------|----------------------------------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this group                        |
+| user | path | integer | false    | A unique integer value identifying the user to remove from the group |
 
 ### Example Request
 
@@ -56,7 +57,6 @@ fetch('/api/v2/group/{id}/subscribe/',
     console.log(body);
 });
 
-
 ```
 
 </TabItem>
@@ -73,11 +73,6 @@ curl -X DELETE /api/v2/group/{id}/subscribe/
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

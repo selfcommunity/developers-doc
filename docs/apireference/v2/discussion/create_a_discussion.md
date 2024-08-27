@@ -20,7 +20,8 @@ This operation requires authentication
 
 :::info
 
-By passing a category id that has parents defined, the system will automatically ascend the category graph based on the parents and will also automatically add the parents category ids to the discussion.
+By passing a category id that has parents defined, the system will automatically ascend the category graph based on the
+parents and will also automatically add the parents category ids to the discussion.
 
 :::
 
@@ -30,6 +31,7 @@ By passing a category id that has parents defined, the system will automatically
 | » text              | body | string            | false    | The content of the discussion in html format, it can contain some mentions                           |
 | » categories        | body | list(integer)     | true     | List of id of [Category](/docs/apireference/v2/schemas/category)                                     |
 | » group             | body | integer           | false    | The id of the group                                                                                  |
+| » event             | body | integer           | false    | The id of the event                                                                                  |
 | » medias            | body | list(integer)     | false    | List of id of [Media](/docs/apireference/v2/schemas/media) (only one media of type share is allowed) |
 | » location          | body | object¦null       | false    | The Location object to associate at the discussion                                                   |
 | »» location         | body | string¦null       | true     | The location name                                                                                    |
@@ -175,56 +177,6 @@ curl -X POST /api/v2/discussion/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Discussion](/docs/apireference/v2/schemas/discussion)|
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "type": "string",
-  "last_activity_at": "string",
-  "author": {User},
-  "added_at": "string",
-  "last_edited_at": "string",
-  "html": "string",
-  "summary": "string",
-  "deleted": "boolean",
-  "collapsed": "boolean",
-  "comment_count": "integer",
-  "view_count": "integer",
-  "vote_count": "integer",
-  "reactions_count": [{Reaction}],
-  "voted": "boolean",
-  "reaction": {Reaction},
-  "follower_count": "integer",
-  "followed": "boolean",
-  "suspended": "boolean",
-  "flag_count": "integer",
-  "share_count": "integer",
-  "slug": "string",
-  "categories": [{Category}],
-  "medias": [{Media}],
-  "location": "string",
-  "addressing": ["integer"],
-  "tags": ["integer"],
-  "poll": {Poll},
-  "title": "string"
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                      | Description          | Schema                                                 |
+|--------|--------------------------------------------------------------|----------------------|--------------------------------------------------------|
+| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Discussion](/docs/apireference/v2/schemas/discussion) |

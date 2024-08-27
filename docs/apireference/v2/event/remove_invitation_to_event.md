@@ -1,26 +1,28 @@
 ---
-sidebar_label: Remove Going To Event
+sidebar_label: Remove Invitation To Event
 sidebar_position: 1
-title: Remove Going To Event
+title: Remove Invitation To Event
 ---
 
-This endpoint allows users to remove the choice 'going' from the event identified by `{id}`.
+This endpoint allows the manager to remove one or more invitations to attend an event that were previously sent to some
+users.
 
 :::info
 
-This operation requires authentication and that the user will be going to the event.
+This operation requires authentication and that the user is the manager of the event.
 
 :::
 
 ## HTTP Request
 
-`DELETE /api/v2/event/{id}/going/`
+`DELETE /api/v2/event/{id}/invite/`
 
 ### Parameters
 
-| Name | In   | Type    | Required | Description                                   |
-|------|------|---------|----------|-----------------------------------------------|
-| id   | path | integer | true     | A unique integer value identifying this event |
+| Name  | In   | Type          | Required | Description                                                                   |
+|-------|------|---------------|----------|-------------------------------------------------------------------------------|
+| id    | path | integer       | true     | A unique integer value identifying this event                                 |
+| users | body | list(integer) | true     | List of id of [User](/docs/apireference/v2/schemas/user) to remove invitation |
 
 ### Example Request
 
@@ -32,14 +34,18 @@ import TabItem from '@theme/TabItem';
 <TabItem value="js">
 
 ```js
+const inputBody = '{
+  "users": ["integer"]
+}';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
   'Accept':'application/json',
   'Authorization: Bearer <token>'
 };
-fetch('/api/v2/event/{id}/going/',
+fetch('/api/v2/event/{id}/invite/',
 {
   method: 'DELETE',
+  body: inputBody,
   headers: headers
 })
 .then(function(res) {
@@ -48,7 +54,6 @@ fetch('/api/v2/event/{id}/going/',
     console.log(body);
 });
 
-
 ```
 
 </TabItem>
@@ -56,8 +61,9 @@ fetch('/api/v2/event/{id}/going/',
 
 ```bash
 # You can also use wget
-curl -X DELETE /api/v2/event/{id}/going/
+curl -X DELETE /api/v2/event/{id}/invite/
   -H "Authorization: Bearer <token>"
+  --DATA '{body}'
 ```
 </TabItem>
 </Tabs>

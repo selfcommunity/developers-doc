@@ -8,7 +8,7 @@ This endpoint retrieves the list of all suggested users to invite to a group.
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+This operation requires authentication.
 
 :::
 

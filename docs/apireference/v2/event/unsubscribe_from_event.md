@@ -1,21 +1,22 @@
 ---
-sidebar_label: Unsubscribe From Event
+sidebar_label: Unsubscribe From Event Or Remove request
 sidebar_position: 1
-title: Unsubscribe From Event
+title: Unsubscribe From Event Or Remove request
 ---
 
-This endpoint allows users to unsubscribe from the event identified by \{id}. 
+This endpoint allows users to unsubscribe from the event identified by `{id}`. If the user is not subscribed to the
+event but has requested to participate to a private event then remove the request to participate.
 
 :::note
 
-By passing the optional param  `user` an event manager is able to remove the user identified by the id from the event.
+By passing the optional param `user` an event manager is able to remove the user from the event.
 
 :::
 
-
 :::info
 
-This operation requires authentication (and also the event manager role if the "user" parameter is passed).
+This operation requires only authentication without the `user` param. It requires also that the user is the manager of
+the event if the `user` param is passed.
 
 :::
 
@@ -25,10 +26,10 @@ This operation requires authentication (and also the event manager role if the "
 
 ### Parameters
 
-| Name |In|Type| Required | Description                                                          |
-|------|---|---|----------|----------------------------------------------------------------------|
-| id   |path|string| true     | A unique integer value identifying this event                        |
-| user |path|string| false    | A unique integer value identifying the user to remove from the event |
+| Name | In   | Type    | Required | Description                                                          |
+|------|------|---------|----------|----------------------------------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this event                        |
+| user | path | integer | false    | A unique integer value identifying the user to remove from the event |
 
 ### Example Request
 
@@ -56,7 +57,6 @@ fetch('/api/v2/event/{id}/subscribe/',
     console.log(body);
 });
 
-
 ```
 
 </TabItem>
@@ -73,11 +73,6 @@ curl -X DELETE /api/v2/event/{id}/subscribe/
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

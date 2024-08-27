@@ -12,16 +12,15 @@ This operation requires authentication
 
 :::
 
-
 ## HTTP Request
 
 `GET /api/v2/media/{id}/`
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this media|
+| Name | In   | Type    | Required | Description                                   |
+|------|------|---------|----------|-----------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this media |
 
 ### Example Request
 
@@ -67,38 +66,6 @@ curl -X GET /api/v2/media/{id}/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Media](/docs/apireference/v2/schemas/media)|
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "added_at": "string",
-  "type": "string",
-  "title": "string",
-  "description": "string",
-  "url": "string(uri)",
-  "image": "string",
-  "image_width": "integer",
-  "image_height": "integer",
-  "order": "integer",
-  "embed": {Embed}
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                 | Description          | Schema                                       |
+|--------|---------------------------------------------------------|----------------------|----------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Media](/docs/apireference/v2/schemas/media) |

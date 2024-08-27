@@ -1,7 +1,7 @@
 ---
 sidebar_label: Subscribe Or Accept Invite
 sidebar_position: 1
-title:  Subscribe Or Accept Invite
+title: Subscribe Or Accept Invite
 ---
 
 This endpoint allows users to subscribe or to accept the invite to subscribe to a specific event.
@@ -18,9 +18,9 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                      |
-|------|------|--------|----------|--------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this event |
+| Name | In   | Type    | Required | Description                                   |
+|------|------|---------|----------|-----------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this event |
 
 ### Example Request
 
@@ -69,10 +69,6 @@ curl -X POST /api/v2/event/{id}/invite/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

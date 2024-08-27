@@ -4,11 +4,11 @@ sidebar_position: 1
 title: Invite Users Or Accept Users
 ---
 
-This endpoint allows user managers to invite or accept users to the event
+This endpoint allows the manager to invite new users to join the event or accept any requests to join the event.
 
 :::info
 
-This operation requires the event manager role.
+This operation requires authentication and that the user is the manager of the event.
 
 :::
 
@@ -18,9 +18,10 @@ This operation requires the event manager role.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                      |
-|------|------|--------|----------|--------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this event |
+| Name  | In   | Type          | Required | Description                                                                     |
+|-------|------|---------------|----------|---------------------------------------------------------------------------------|
+| id    | path | integer       | true     | A unique integer value identifying this event                                   |
+| users | body | list(integer) | true     | List of id of [User](/docs/apireference/v2/schemas/user) to invite or to accept |
 
 ### Example Request
 
@@ -32,7 +33,9 @@ import TabItem from '@theme/TabItem';
 <TabItem value="js">
 
 ```js
-const inputBody = 'null';
+const inputBody = '{
+  "users": ["integer"]
+}';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
   'Accept':'application/json',
@@ -62,6 +65,7 @@ curl -X POST /api/v2/event/{id}/invite/ \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}'
+  --DATA '{body}'
 ```
 </TabItem>
 </Tabs>
@@ -69,10 +73,6 @@ curl -X POST /api/v2/event/{id}/invite/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

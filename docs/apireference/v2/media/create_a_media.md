@@ -10,16 +10,25 @@ This endpoint creates a Media
 
 The allowed types for this endpoint are:
 
- - *image* for image upload. The endpoint retrieve the image associated with the given url and creates an image media type.
+- *image* for image upload. The endpoint retrieve the image associated with the given url and creates an image media
+  type.
 
- - *url* for url fetch. The endpoint retrieve metadata associated with the given url and create a preview.
+- *url* for url fetch. The endpoint retrieve metadata associated with the given url and create a preview.
 
- - *share* for sharing a community object ([Post](/docs/apireference/v2/schemas/post), [Discussion](/docs/apireference/v2/schemas/discussion) or [Status](/docs/apireference/v2/schemas/status)). The community object can't contain a media of type share.
+- *share* for sharing a community contribute
+  object ([Post](/docs/apireference/v2/schemas/post), [Discussion](/docs/apireference/v2/schemas/discussion)
+  or [Status](/docs/apireference/v2/schemas/status)) or a community [Event](/docs/apireference/v2/schemas/event) object.
+  The community object can't contain a media of type share. The object should be pass as an id in the following
+  parameter:
+    - _shared_object_: if the object is a contribute;
+    - _event_object_: if the object is an event.
 
- - *embed* for external objects. The endpoint create an association with an external object using [Embed](/docs/apireference/v2/schemas/embed) format.
+- *embed* for external objects. The endpoint create an association with an external object
+  using [Embed](/docs/apireference/v2/schemas/embed) format.
 
-
-If *embed* parameter are set and no [Embed](/docs/apireference/v2/schemas/embed) with `embed_type` - `embed_id` are in the community database this endpoint create an [Embed](/docs/apireference/v2/schemas/embed) object with the metadata passed.
+If *embed* parameter are set and no [Embed](/docs/apireference/v2/schemas/embed) with `embed_type` - `embed_id` are in
+the community database this endpoint create an [Embed](/docs/apireference/v2/schemas/embed) object with the metadata
+passed.
 
 :::
 
@@ -35,12 +44,13 @@ This operation requires authentication
 
 ### Parameters
 
-| Name            | In   | Type                                         | Required             | Description             |
-|-----------------|------|----------------------------------------------|----------------------|-------------------------|
-| » type          | body | string                                       | true                 | The media type          |
-| » url           | body | string(uri)                                  | if `type` is *url*   | Required for type url   |
-| » shared_object | body | integer                                      | if `type` is *share* | Required for type share |
-| » embed         | body | [Embed](/docs/apireference/v2/schemas/embed) | if `type` is *embed* | The embed object        |
+| Name            | In   | Type                                         | Required             | Description                                                                     |
+|-----------------|------|----------------------------------------------|----------------------|---------------------------------------------------------------------------------|
+| » type          | body | string                                       | true                 | The media type                                                                  |
+| » url           | body | string(uri)                                  | if `type` is *url*   | Required for type url                                                           |
+| » shared_object | body | integer                                      | if `type` is *share* | Required for type share if you are sharing a content (post, discussion, status) |
+| » event_object  | body | integer                                      | if `type` is *share* | Required for type share if you are sharing an event                             |
+| » embed         | body | [Embed](/docs/apireference/v2/schemas/embed) | if `type` is *embed* | The embed object                                                                |
 
 #### Enumerated Values
 
@@ -124,38 +134,6 @@ curl -X POST /api/v2/media/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Media](/docs/apireference/v2/schemas/media)|
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "added_at": "string",
-  "type": "string",
-  "title": "string",
-  "description": "string",
-  "url": "string(uri)",
-  "image": "string",
-  "image_width": "integer",
-  "image_height": "integer",
-  "order": "integer",
-  "embed": {Embed}
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                      | Description          | Schema                                       |
+|--------|--------------------------------------------------------------|----------------------|----------------------------------------------|
+| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Media](/docs/apireference/v2/schemas/media) |

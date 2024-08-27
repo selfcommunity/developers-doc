@@ -4,12 +4,11 @@ sidebar_position: 1
 title: Delete an Event
 ---
 
-This endpoint deletes a specific event identified by \{id}. 
-
+This endpoint deletes a specific event identified by \{id}.
 
 :::info
 
-This operation requires the event manager role.
+This operation requires authentication and that the user is the manager of the event.
 
 :::
 
@@ -19,9 +18,9 @@ This operation requires the event manager role.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this event|
+| Name | In   | Type    | Required | Description                                  |
+|------|------|---------|----------|----------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying the event |
 
 ### Example Request
 
@@ -66,11 +65,6 @@ curl -X DELETE /api/v2/event/{id}/
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

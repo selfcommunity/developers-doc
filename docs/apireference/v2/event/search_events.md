@@ -4,7 +4,9 @@ sidebar_position: 1
 title: Search Events
 ---
 
-This endpoint performs events search only for events that has `visible = true` or when `visible = false` the user must already be subscribed to the event.
+This endpoint (without params) returns the list of all events visible for the current user; this means all events with
+`visible = true` and also the events with `visible = false` and subscribed by the current user. The list of events can
+be filtered by some params (see the parameters section for more information).
 
 :::info
 
@@ -12,19 +14,19 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
-
 ## HTTP Request
 
 `GET /api/v2/event/search/`
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
-|search|query|string|false|A search term|
-
+| Name        | In    | Type    | Required | Description                                                                                                                    |
+|-------------|-------|---------|----------|--------------------------------------------------------------------------------------------------------------------------------|
+| search      | query | string  | false    | A term that will be searched for within the event name and description                                                         |
+| date_filter | query | string  | false    | Filter events by date; return only events that will be running in the: past, today, tomorrow, this_week, next_week, this_month |
+| follows     | query | boolean | false    | Return only events my followings (or connections) are subscribed to                                                            |
+| limit       | query | integer | false    | Number of results to return per page                                                                                           |
+| offset      | query | integer | false    | The initial index from which to return the results                                                                             |
 
 ### Example Request
 
@@ -69,9 +71,10 @@ curl -X GET /api/v2/event/search/ \
 ````
 
 ## Responses
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
@@ -83,64 +86,3 @@ Status Code **200**
 | » next     | string(uri)¦null                                   | false    | none         | Next page url       |
 | » previous | string(uri)¦null                                   | false    | none         | Previous page url   |
 | » results  | list([Event](/docs/apireference/v2/schemas/event)) | false    | none         | List of results     |
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "count": "integer",
-  "next": "string(uri)",
-  "previous": "string(uri)",
-  "results": [
-    {
-          "id": "integer",
-          "name": "string",
-          "description": "string",
-          "slug": "string",
-          "color": "string",
-          "privacy": {},
-          "visible": "boolean",
-          "active": "boolean",
-          "show_on_feed": "boolean",
-          "subscription_status": {},
-          "image_bigger": "string",
-          "image_big": "string",
-          "image_medium": "string",
-          "image_small": "string",
-          "subscribers_counter": "integer",
-          "goings_counter": "integer",
-          "start_date": "string",
-          "end_date": "string",
-          "recurring": "string",
-          "location": "string",
-          "geolocation": "string",
-          "geolocation_lat": "integer",
-          "geolocation_lng": "integer",
-          "link": "string",
-          "created_at": "string",
-          "created_by": {},
-          "managed_by": {},
-          "running": "boolean",
-          "running_start_date": "string",
-          "running_end_date": "string",
-          "next_start_date": "string",
-          "next_end_date": "string"
-
-    }
-  ]
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-

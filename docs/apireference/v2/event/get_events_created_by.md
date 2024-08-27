@@ -1,10 +1,10 @@
 ---
-sidebar_label: Get Related Events
+sidebar_label: Get Events Created By
 sidebar_position: 1
-title: Get Related Events
+title: Get Events Created By
 ---
 
-This endpoint retrieves the list of all the events related to the event identified by `{id}`.
+This endpoint retrieves the list of all the events created by a specific user.
 
 :::info
 
@@ -14,14 +14,13 @@ This operation does not require authentication.
 
 ## HTTP Request
 
-`GET /api/v2/event/{id}/related/`
+`GET /api/v2/event/created/`
 
 ### Parameters
 
 | Name       | In    | Type    | Required | Description                                        |
 |------------|-------|---------|----------|----------------------------------------------------|
-| id         | path  | integer | true     | A unique integer value identifying this event      |
-| created_by | query | integer | false    | The integer value identifying the event creator id |
+| created_by | query | integer | true     | The integer value identifying the event creator id |
 | limit      | query | integer | false    | Number of results to return per page               |
 | offset     | query | integer | false    | The initial index from which to return the results |
 
@@ -40,7 +39,7 @@ const headers = {
   'Authorization: Bearer <token>'
 };
 
-fetch('/api/v2/event/{id}/related/',
+fetch('/api/v2/event/created/?created_by={id}',
 {
   method: 'GET',
   headers: headers
@@ -58,7 +57,7 @@ fetch('/api/v2/event/{id}/related/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/event/{id}/related/ \
+curl -X GET /api/v2/event/created/?created_by={id} \
   -H 'Accept: application/json'
   -H "Authorization: Bearer <token>"
 ```

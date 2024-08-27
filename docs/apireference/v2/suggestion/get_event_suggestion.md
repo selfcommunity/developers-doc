@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Get Event Suggestion
 ---
 
-This endpoint retrieves a list of suggested events.
+This endpoint retrieves a list of suggested events for the authenticated user.
 
 :::info
 
@@ -18,10 +18,10 @@ This operation requires authentication.
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|limit|query|integer|false|Number of results to return per page|
-|offset|query|integer|false|The initial index from which to return the results|
+| Name   | In    | Type    | Required | Description                                        |
+|--------|-------|---------|----------|----------------------------------------------------|
+| limit  | query | integer | false    | Number of results to return per page               |
+| offset | query | integer | false    | The initial index from which to return the results |
 
 ### Example Request
 
@@ -65,77 +65,17 @@ curl -X GET /api/v2/suggestion/event/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|Inline|
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
 Status Code **200**
 
-|Name| Type                                               |Required|Restrictions|Description|
-|---|----------------------------------------------------|---|---|---|
-|» count| integer                                            |false|none|Total results count|
-|» next| string(uri)¦null                                   |false|none|Next page url|
-|» previous| string(uri)¦null                                   |false|none|Previous page url|
-|» results| list([Event](/docs/apireference/v2/schemas/event)) |false|none|List of results|
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "count": "integer",
-  "next": "string(uri)",
-  "previous": "string(uri)",
-  "results": [
-            {
-              "id": "integer",
-              "name": "string",
-              "description": "string",
-              "slug": "string",
-              "color": "string",
-              "privacy": {},
-              "visible": "boolean",
-              "active": "boolean",
-              "show_on_feed": "boolean",
-              "subscription_status": {},
-              "image_bigger": "string",
-              "image_big": "string",
-              "image_medium": "string",
-              "image_small": "string",
-              "subscribers_counter": "integer",
-              "goings_counter": "integer",
-              "start_date": "string",
-              "end_date": "string",
-              "recurring": "string",
-              "location": "string",
-              "geolocation": "string",
-              "geolocation_lat": "integer",
-              "geolocation_lng": "integer",
-              "link": "string",
-              "created_at": "string",
-              "created_by": {},
-              "managed_by": {},
-              "running": "boolean",
-              "running_start_date": "string",
-              "running_end_date": "string",
-              "next_start_date": "string",
-              "next_end_date": "string"
-            }
-  ]
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Name       | Type                                               | Required | Restrictions | Description         |
+|------------|----------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                            | false    | none         | Total results count |
+| » next     | string(uri)¦null                                   | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                   | false    | none         | Previous page url   |
+| » results  | list([Event](/docs/apireference/v2/schemas/event)) | false    | none         | List of results     |

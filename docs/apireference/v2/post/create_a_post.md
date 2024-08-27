@@ -20,7 +20,8 @@ This operation requires authentication.
 
 :::info
 
-By passing a category id that has parents defined, the system will automatically ascend the category graph based on the parents and will also automatically add the parents category ids to the post.
+By passing a category id that has parents defined, the system will automatically ascend the category graph based on the
+parents and will also automatically add the parents category ids to the post.
 
 :::
 
@@ -29,6 +30,7 @@ By passing a category id that has parents defined, the system will automatically
 | » text              | body | string            | false    | The content of the post in html format, it can contain some mentions                               |
 | » categories        | body | list(integer)     | true     | List of [Category](/docs/apireference/v2/schemas/category) ids                                     |
 | » group             | body | integer           | false    | The id of the group                                                                                |
+| » event             | body | integer           | false    | The id of the event                                                                                |
 | » medias            | body | list(integer)     | false    | List of [Media](/docs/apireference/v2/schemas/media) (only one media of type share is allowed) ids |
 | » location          | body | object¦null       | false    | The Location object to associate at the post                                                       |
 | »» location         | body | string¦null       | true     | Location name                                                                                      |
@@ -174,51 +176,3 @@ curl -X POST /api/v2/post/ \
 | Status | Meaning                                                      | Description          | Schema                                     |
 |--------|--------------------------------------------------------------|----------------------|--------------------------------------------|
 | 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Post](/docs/apireference/v2/schemas/post) |
-
-### Example responses
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "type": "string",
-  "last_activity_at": "string",
-  "author": {User},
-  "added_at": "string",
-  "last_edited_at": "string",
-  "html": "string",
-  "summary": "string",
-  "deleted": "boolean",
-  "collapsed": "boolean",
-  "comment_count": "integer",
-  "view_count": "integer",
-  "vote_count": "integer",
-  "reactions_count": [{Reaction}],
-  "voted": "boolean",
-  "reaction": {Reaction},
-  "follower_count": "integer",
-  "followed": "boolean",
-  "suspended": "boolean",
-  "flag_count": "integer",
-  "share_count": "integer",
-  "slug": "string",
-  "categories": [{Category}],
-  "medias": [{Media}],
-  "location": {Location},
-  "addressing": ["integer"],
-  "tags": ["integer"],
-  "poll": {Poll}
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-

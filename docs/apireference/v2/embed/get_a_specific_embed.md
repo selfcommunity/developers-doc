@@ -4,7 +4,8 @@ sidebar_position: 1
 title: Get a specific Embed
 ---
 
-This endpoint retrieves a specific embed using ID.
+This endpoint retrieves a specific embed using ID; for embed of type `sc_shared_event` the `metadata` field will contain
+the [Event](/docs/apireference/v2/schemas/event) serialized.
 
 :::info
 
@@ -18,9 +19,9 @@ This operation require authentication only if `content_availability` community o
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this embed|
+| Name | In   | Type   | Required | Description                                   |
+|------|------|--------|----------|-----------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this embed |
 
 ### Example Request
 
@@ -67,32 +68,6 @@ curl -X GET /api/v2/embed/{id}/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Embed](/docs/apireference/v2/schemas/embed)|
-
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "embed_type": "string",
-  "embed_id": "string",
-  "url": "string(uri)",
-  "metadata": {}
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                 | Description          | Schema                                       |
+|--------|---------------------------------------------------------|----------------------|----------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Embed](/docs/apireference/v2/schemas/embed) |
