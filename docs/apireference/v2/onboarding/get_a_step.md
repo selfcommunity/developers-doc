@@ -7,9 +7,11 @@ title: Get An Onboarding Step
 This endpoint retrieves a specific onboarding step.
 
 :::info
-
 This operation requires authentication. The logged user must be the creator of the community (id=1).
+:::
 
+:::warning
+The onboarding APIs are not available for Enterprise plans.
 :::
 
 ## HTTP Request

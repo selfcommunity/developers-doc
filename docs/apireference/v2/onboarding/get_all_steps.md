@@ -7,9 +7,11 @@ title: Get All Onboarding Steps
 This endpoint retrieves all onboarding steps.
 
 :::info
-
 This operation requires authentication. The logged user must be the creator of the community (id=1).
+:::
 
+:::warning
+The onboarding APIs are not available for Enterprise plans.
 :::
 
 ## HTTP Request

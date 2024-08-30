@@ -10,9 +10,11 @@ api call [Start An Onboarding Step](/docs/apireference/v2/onboarding/start_a_ste
 Step status should be "not_started" or "failed".
 
 :::info
-
 This operation requires authentication. The logged user must be the creator of the community (id=1).
+:::
 
+:::warning
+The onboarding APIs are not available for Enterprise plans.
 :::
 
 ## HTTP Request

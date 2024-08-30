@@ -11,9 +11,13 @@ api call [Complete An Onboarding Step](/docs/apireference/v2/onboarding/complete
 Step status should be "not_started" or "failed".
 
 :::info
-
 This operation requires authentication. The logged user must be the creator of the community (id=1).
+:::
 
+:::warning
+The onboarding APIs are not available for Enterprise plans; in particular this API has some parameters (`num_posts`,
+`num_images`, `force`) that are available only in the Stage and Dev environments to simplify development and integration
+with the PWA.
 :::
 
 ## HTTP Request

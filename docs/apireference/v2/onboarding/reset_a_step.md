@@ -5,12 +5,15 @@ title: Reset An Onboarding Step
 ---
 
 This endpoint reset a specific onboarding step.
-It's available only in stage. 
+It's available only in stage.
 
 :::info
-
 This operation requires authentication. The logged user must be the creator of the community (id=1).
+:::
 
+:::warning
+The onboarding APIs are not available for Enterprise plans; in particular this API is available only in the Stage and
+Dev environments to simplify development and integration with the PWA.
 :::
 
 ## HTTP Request
@@ -19,9 +22,9 @@ This operation requires authentication. The logged user must be the creator of t
 
 ### Parameters
 
-| Name       | In    | Type    | Required | Description                                                                                                                                     |
-|------------|-------|---------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| id         | path  | integer | true     | A unique integer value identifying this onboarding step                                                                                         |
+| Name | In   | Type    | Required | Description                                             |
+|------|------|---------|----------|---------------------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this onboarding step |
 
 ### Example Request
 
