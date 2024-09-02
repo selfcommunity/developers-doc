@@ -25,4 +25,9 @@ yarn-error.log*
 
 # Local files
 # inside has only: /docs/sdk/community-js/
+/docs/sdk/community-js/api-services/API_Reference/
+/docs/sdk/community-js/react-core/API_Reference/
+/docs/sdk/community-js/react-templates/Component API/
+/docs/sdk/community-js/react-ui/component_API/
+/docs/sdk/community-js/types/Reference/
 /docs/sdk/.gitignore
