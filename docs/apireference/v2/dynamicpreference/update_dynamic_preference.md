@@ -15,8 +15,13 @@ updatable:
     - `font_color_secondary`
     - `navbarback`
 - Section `logo`:
+    - `logo_dark`
+    - `logo_light`
     - `navbar_logo`
     - `navbar_logo_mobile`
+- Section `text`:
+    - `application_slogan1`
+    - `application_slogan2`
 
 :::info
 
@@ -67,10 +72,12 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-    "name": "string",
-    "description": "string",
-    "color": "string",
-    "visible": boolean
+    "colorback": "#fdfdfd",
+    "colorprimary": "#555555",
+    "colorsecondary": "#B20404",
+    "font_color": "#333333",
+    "font_color_secondary": "#666666",
+    "navbarback": "#ffffff"
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
