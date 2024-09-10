@@ -10,20 +10,20 @@ title: Onboarding Step
   "step": {},
   "status": {},
   "completion_percentage": "integer",
-  "ids": []
+  "results": []
 }
 
 ```
 
 #### Properties
 
-| Name                  | Type                                                                      | Required | Restrictions | Description                                                           |
-|-----------------------|---------------------------------------------------------------------------|----------|--------------|-----------------------------------------------------------------------|
-| id                    | integer                                                                   | false    | read-only    | Unique integer value identifying this onboarding step                 |                                                                         |
-| step                  | [step](/docs/apireference/v2/schemas/onboarding_step#enumerated-values)   | false    | read-only    | Unique name of the onboarding step                                    |
-| status                | [status](/docs/apireference/v2/schemas/onboarding_step#enumerated-values) | false    | read-only    | Enum to define the status of the onboarding step                      |
-| completion_percentage | integer                                                                   | false    | read-only    | The percentage of completion of the onboarding step (0-100)           |
-| ids                   | list(integer)                                                             | false    | read-only    | List of ids created (for step contents) or modified (step categories) | 
+| Name                  | Type                                                                                                   | Required | Restrictions | Description                                                                                                                                                     |
+|-----------------------|--------------------------------------------------------------------------------------------------------|----------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| id                    | integer                                                                                                | false    | read-only    | Unique integer value identifying this onboarding step                                                                                                           |                                                                         |
+| step                  | [step](/docs/apireference/v2/schemas/onboarding_step#enumerated-values)                                | false    | read-only    | Unique name of the onboarding step                                                                                                                              |
+| status                | [status](/docs/apireference/v2/schemas/onboarding_step#enumerated-values)                              | false    | read-only    | Enum to define the status of the onboarding step                                                                                                                |
+| completion_percentage | integer                                                                                                | false    | read-only    | The percentage of completion of the onboarding step (0-100)                                                                                                     |
+| results               | list([Feed](/docs/apireference/v2/schemas/feed) or [Category](/docs/apireference/v2/schemas/category)) | false    | read-only    | List of [Feed](/docs/apireference/v2/schemas/feed) created (for step contents) or [Category](/docs/apireference/v2/schemas/category) modified (step categories) | 
 
 #### Enumerated Values
 
