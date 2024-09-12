@@ -8,8 +8,9 @@ This endpoint retrieves the list of all the subscribed users to the event identi
 
 :::info
 
-This operation requires being subscribed to the event if the event is private.
+This operation does not require authentication and subscription if the event is **public**.
 
+This operation requires authentication and being subscribed to the event if the event is **private**.
 :::
 
 ## HTTP Request

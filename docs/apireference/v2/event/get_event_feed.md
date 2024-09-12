@@ -8,7 +8,9 @@ This endpoint retrieves the event feed.
 
 :::info
 
-This operation requires authentication and being subscribed to the event.
+This operation does not require authentication and subscription if the event is **public**.
+
+This operation requires authentication and being subscribed to the event if the event is **private**.
 
 :::
 
