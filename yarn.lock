@@ -2698,6 +2698,11 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@ctrl/tinycolor@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@ctrl/tinycolor/-/tinycolor-4.1.0.tgz#91a8f8120ffc9da2feb2a38f7862b300d5e9691a"
+  integrity sha512-WyOx8cJQ+FQus4Mm4uPIZA64gbk3Wxh0so5Lcii0aJifqwoVOlfFtorjLE0Hen4OYyHZMXDWqMmaQemBhgxFRQ==
+
 "@discoveryjs/json-ext@0.5.7":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
@@ -3436,6 +3441,21 @@
     intl-messageformat "10.5.8"
     tslib "^2.4.0"
 
+"@googlemaps/js-api-loader@1.16.2":
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/@googlemaps/js-api-loader/-/js-api-loader-1.16.2.tgz#3fe748e21243f8e8322c677a5525c569ae9cdbe9"
+  integrity sha512-psGw5u0QM6humao48Hn4lrChOM2/rA43ZCm3tKK9qQsEj1/VzqkCqnvGfEOshDbBQflydfaRovbKwZMF4AyqbA==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+
+"@googlemaps/markerclusterer@2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@googlemaps/markerclusterer/-/markerclusterer-2.5.3.tgz#9f891ce7e8e161775f3a3e2c9f66956810284591"
+  integrity sha512-x7lX0R5yYOoiNectr10wLgCBasNcXFHiADIBdmn7jQllF2B5ENQw5XtZK+hIw4xnV0Df0xhN4LN98XqA5jaiOw==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    supercluster "^8.0.1"
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
@@ -3770,6 +3790,13 @@
     "@lexical/offset" "0.15.0"
     lexical "0.15.0"
 
+"@lottiefiles/react-lottie-player@^3.5.4":
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/@lottiefiles/react-lottie-player/-/react-lottie-player-3.5.4.tgz#a3a4d5c901ecace8f5f7a5797eb0bf55e5e94da1"
+  integrity sha512-2FptWtHQ+o7MzdsMKSvNZ1Mz7xtKSYI0WL9HjZ1r+CvsXR3lbLQUDp7Pwx6qhg0Akm4VluQ+8/D1S1fcr1Ao4w==
+  dependencies:
+    lottie-web "^5.12.2"
+
 "@mapbox/node-pre-gyp@^1.0.0":
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@mapbox/node-pre-gyp/-/node-pre-gyp-1.0.10.tgz#8e6735ccebbb1581e5a7e652244cadc8a844d03c"
@@ -3996,6 +4023,19 @@
     prop-types "^15.8.1"
     react-is "^18.3.1"
 
+"@mui/x-date-pickers@^6.18.7":
+  version "6.20.2"
+  resolved "https://registry.yarnpkg.com/@mui/x-date-pickers/-/x-date-pickers-6.20.2.tgz#b1b1e4862daafb750496cc77a1645caeac28a739"
+  integrity sha512-x1jLg8R+WhvkmUETRfX2wC+xJreMii78EXKLl6r3G+ggcAZlPyt0myID1Amf6hvJb9CtR7CgUo8BwR+1Vx9Ggw==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
+    "@mui/base" "^5.0.0-beta.22"
+    "@mui/utils" "^5.14.16"
+    "@types/react-transition-group" "^4.4.8"
+    clsx "^2.0.0"
+    prop-types "^15.8.1"
+    react-transition-group "^4.4.5"
+
 "@mui/x-date-pickers@^6.19.9":
   version "6.19.9"
   resolved "https://registry.yarnpkg.com/@mui/x-date-pickers/-/x-date-pickers-6.19.9.tgz#5fb7ecbeec5b5ce1fddbb547583d0083e30a845b"
@@ -4065,6 +4105,28 @@
   version "2.11.8"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
+
+"@react-google-maps/api@^2.19.3":
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/api/-/api-2.19.3.tgz#6bb307c6e9d06344badd77facb6dc9eaac5b9b32"
+  integrity sha512-jiLqvuOt5lOowkLeq7d077AByTyJp+s6hZVlLhlq7SBacBD37aUNpXBz2OsazfeR6Aw4a+9RRhAEjEFvrR1f5A==
+  dependencies:
+    "@googlemaps/js-api-loader" "1.16.2"
+    "@googlemaps/markerclusterer" "2.5.3"
+    "@react-google-maps/infobox" "2.19.2"
+    "@react-google-maps/marker-clusterer" "2.19.2"
+    "@types/google.maps" "3.55.2"
+    invariant "2.2.4"
+
+"@react-google-maps/infobox@2.19.2":
+  version "2.19.2"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/infobox/-/infobox-2.19.2.tgz#b6bda962a4fa1074fdd3dfd63bc4c7d68b1dd745"
+  integrity sha512-6wvBqeJsQ/eFSvoxg+9VoncQvNoVCdmxzxRpLvmjPD+nNC6mHM0vJH1xSqaKijkMrfLJT0nfkTGpovrF896jwg==
+
+"@react-google-maps/marker-clusterer@2.19.2":
+  version "2.19.2"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/marker-clusterer/-/marker-clusterer-2.19.2.tgz#24d9fb9aa555bb063ba5fe82f80fcd7d48662184"
+  integrity sha512-x9ibmsP0ZVqzyCo1Pitbw+4b6iEXRw/r1TCy3vOUR3eKrzWLnHYZMR325BkZW2r8fnuWE/V3Fp4QZOP9qYORCw==
 
 "@rpldy/abort@^1.8.0":
   version "1.8.0"
@@ -4186,72 +4248,85 @@
     "@rpldy/shared-ui" "1.8.0"
     "@rpldy/uploader" "1.8.0"
 
-"@selfcommunity/api-services@0.4.56-alpha.0", "@selfcommunity/api-services@^0.4.56-alpha.0":
-  version "0.4.56-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.4.56-alpha.0.tgz#a8012bbfb662b89988a193b7838a0bf8c89f88f0"
-  integrity sha512-/9Bpp4iVjNUf9zadODgiz4H0nZ+4rYz6qq7FslkwhOwhDjM8YvMQB6/A0s+FK48yWBN20e/a5pwyjksrH3sUCg==
+"@selfcommunity/api-services@0.5.0-alpha.1", "@selfcommunity/api-services@^0.5.0-alpha.1":
+  version "0.5.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.5.0-alpha.1.tgz#d7dcbd6eadf8d7bdffa9a0a743628cd70443907e"
+  integrity sha512-NyyR2ByOVpImcNRmwGgZtTOK64fmMmi/dXhv5pZzdqmDoh3VCxKs2n0zPIJsJr0HaqmaUXZzYkXbqG1XkgoIwQ==
   dependencies:
-    "@selfcommunity/types" "^0.5.56-alpha.0"
+    "@selfcommunity/types" "^0.6.0-alpha.1"
     "@selfcommunity/utils" "^0.2.56-alpha.0"
     axios "^1.4.0"
     jose "^4.14.4"
 
-"@selfcommunity/react-core@0.4.56-alpha.0", "@selfcommunity/react-core@^0.4.56-alpha.0":
-  version "0.4.56-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.4.56-alpha.0.tgz#52458436f360d78d6f5cb81ba93b7e37052ab4c3"
-  integrity sha512-OAAABBOrcGB64PT9DcVavWlSYQBwMnTCMrqeQ1aT4gyEZTEQXXJdtsTw9rLgQhBjAFAqpeTUALfpMzG0X8pEbg==
+"@selfcommunity/react-core@0.5.0-alpha.4", "@selfcommunity/react-core@^0.5.0-alpha.4":
+  version "0.5.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.5.0-alpha.4.tgz#9cd4709a440944a62c81d6dfa3bb1989a602b58d"
+  integrity sha512-vm0vAF5R4ROnmLTvrnDooOxS3nydiOXyuSP20lLSRaBggZ5LTfbmEJGTbGSswigcrBpeyByz65u7rPXphOSvSA==
   dependencies:
-    "@selfcommunity/api-services" "^0.4.56-alpha.0"
-    "@selfcommunity/react-i18n" "^0.5.56-alpha.0"
-    "@selfcommunity/types" "^0.5.56-alpha.0"
+    "@selfcommunity/api-services" "^0.5.0-alpha.1"
+    "@selfcommunity/react-i18n" "^0.6.0-alpha.3"
+    "@selfcommunity/types" "^0.6.0-alpha.1"
     "@selfcommunity/utils" "^0.2.56-alpha.0"
     js-cookie "^3.0.5"
     pubsub-js "^1.9.4"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.4"
 
-"@selfcommunity/react-i18n@0.5.56-alpha.0", "@selfcommunity/react-i18n@^0.5.56-alpha.0":
-  version "0.5.56-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.5.56-alpha.0.tgz#cb37d17afb2747bb77079e988ec6ea1abe9cd2ed"
-  integrity sha512-4cCdSNy9ZNvibauKbikAvVtHJz8gI44o8CZGLCggB3MOYNIotGLmYjz33hWxDhcpVYKN+Y+xGD1QjvMCn1S58g==
+"@selfcommunity/react-i18n@0.6.0-alpha.3", "@selfcommunity/react-i18n@^0.6.0-alpha.3":
+  version "0.6.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.6.0-alpha.3.tgz#dc0055d93e140bd90ca60bd89e9ccf40fb319afd"
+  integrity sha512-5pnPOzgX5aaIij3V7JrpEtMsEO8wwzWAmvKq5Cvm4/WJKfgMKxhLBIUQ2H3TMNJO6BoNZ7QCEVRjdIPDFfKbIQ==
 
-"@selfcommunity/react-templates@0.3.56-alpha.0":
-  version "0.3.56-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.3.56-alpha.0.tgz#5618ea49302d5a50fd0096db35891eae205431c3"
-  integrity sha512-wn1+4YUoiBvMOMs5B+GHSIWI6uqS1v4fzyVtZh75ZPfZaRqDj/+5kBqNurR8aIiYbvp6sPaHU0kYkCJUhaehRQ==
+"@selfcommunity/react-templates@0.4.0-alpha.14":
+  version "0.4.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.4.0-alpha.14.tgz#5ea8a9f97141641d90b005f25214ddcabcc7017a"
+  integrity sha512-p9QuBYQZ5E6ld0JnwBTNzmFQEActJ1YesG0v8HKg/ilI0huK7n7PnH/AoqEhOT5aPRQKY7tNUSr8qldrkErMQw==
   dependencies:
-    "@selfcommunity/react-core" "^0.4.56-alpha.0"
-    "@selfcommunity/react-i18n" "^0.5.56-alpha.0"
-    "@selfcommunity/react-ui" "^0.7.56-alpha.0"
-    "@selfcommunity/types" "^0.5.56-alpha.0"
+    "@selfcommunity/react-core" "^0.5.0-alpha.4"
+    "@selfcommunity/react-i18n" "^0.6.0-alpha.3"
+    "@selfcommunity/react-ui" "^0.8.0-alpha.14"
+    "@selfcommunity/types" "^0.6.0-alpha.1"
     "@types/classnames" "^2.3.1"
     classnames "^2.3.2"
 
-"@selfcommunity/react-theme-default@0.1.56-alpha.0":
-  version "0.1.56-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.1.56-alpha.0.tgz#5ecaa958af05a8170a5050b4623efac4e5199c36"
-  integrity sha512-9c1a/kOITlBLBNX07cOwIMbLI4I/GxVl53V4/ba7O5Ewvj2u6w6vWpdfhso5yD1Hb1+SPk5uFpxhRMX7PBxJLw==
+"@selfcommunity/react-theme-default@0.2.0-alpha.14":
+  version "0.2.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.2.0-alpha.14.tgz#851c33f8fa5f732cf6edaf7e6b31bf1f75d5198b"
+  integrity sha512-RWW/SjHXyQITXPuL7zY6RFKW5dIEBCa9pMZb0pEcLwcX3oqQYvRBrG63SUj+XU5w8WEBT+589LSxvLxh33V7Ng==
   dependencies:
     "@emotion/react" "^11.11.3"
     "@emotion/styled" "^11.11.0"
     "@mui/material" "^5.15.3"
-    "@selfcommunity/react-core" "^0.4.56-alpha.0"
-    "@selfcommunity/react-ui" "^0.7.56-alpha.0"
+    "@selfcommunity/react-core" "^0.5.0-alpha.4"
+    "@selfcommunity/react-ui" "^0.8.0-alpha.14"
     hex-to-css-filter "^5.4.0"
     react "^17.0.2 || 18"
     react-dom "17 || 18"
 
-"@selfcommunity/react-ui@0.7.56-alpha.0", "@selfcommunity/react-ui@^0.7.56-alpha.0":
-  version "0.7.56-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.7.56-alpha.0.tgz#f63aa02a48f74f09d80c2c4265a12726fd8b5d9f"
-  integrity sha512-7puJS+SwpDRyv+meVQsR80aF6hnf0nOeWOyZEeUGmvpSvEsVwq9SYdZkPhzj/68g1CTLcpKpj2wkWY6qrMTOlA==
+"@selfcommunity/react-ui@0.8.0-alpha.14", "@selfcommunity/react-ui@^0.8.0-alpha.14":
+  version "0.8.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.8.0-alpha.14.tgz#a4e5e0718097e2b748a0febec7c4ad169ecba198"
+  integrity sha512-l2n7TDRct5qJ0snK8vj9JJCw44skFuVaSQWgZMKm56HXsGeqjwSjP7f/kVgWYgcPk//mUqZhailzYW3HijReOA==
   dependencies:
+    "@emotion/react" "^11.11.3"
+    "@emotion/styled" "^11.11.0"
     "@lexical/html" "^0.15.0"
     "@lexical/react" "^0.15.0"
-    "@selfcommunity/api-services" "^0.4.56-alpha.0"
-    "@selfcommunity/react-core" "^0.4.56-alpha.0"
-    "@selfcommunity/react-i18n" "^0.5.56-alpha.0"
-    "@selfcommunity/types" "^0.5.56-alpha.0"
+    "@lottiefiles/react-lottie-player" "^3.5.4"
+    "@mui/lab" "~5.0.0-alpha.159"
+    "@mui/material" "^5.15.3"
+    "@mui/x-date-pickers" "^6.18.7"
+    "@react-google-maps/api" "^2.19.3"
+    "@rpldy/chunked-sender" "^1.7.1"
+    "@rpldy/chunked-uploady" "^1.7.1"
+    "@rpldy/upload-button" "^1.7.1"
+    "@rpldy/upload-drop-zone" "^1.7.1"
+    "@rpldy/upload-preview" "^1.7.1"
+    "@rpldy/uploady" "^1.7.1"
+    "@selfcommunity/api-services" "^0.5.0-alpha.1"
+    "@selfcommunity/react-core" "^0.5.0-alpha.4"
+    "@selfcommunity/react-i18n" "^0.6.0-alpha.3"
+    "@selfcommunity/types" "^0.6.0-alpha.1"
     "@selfcommunity/utils" "^0.2.56-alpha.0"
     "@types/classnames" "^2.3.1"
     "@types/sortablejs" "1"
@@ -4261,11 +4336,17 @@
     emoji-picker-react "4.5.16"
     lexical "0.15.0"
     libphonenumber-js "^1.10.53"
+    mui-color-input "^3.0.0"
+    notistack "^3.0.1"
+    pdfjs-dist "3.11.174"
     prop-types "^15.8.1"
     prop-types-extra "^1.1.1"
     pubsub-js "^1.9.4"
+    react "^17.0.2 || 18"
     react-custom-scrollbars-2 "^4.5.0"
+    react-dom "17 || 18"
     react-intersection-observer "^9.4.3"
+    react-intl "^6.4.7"
     react-lazyload "^3.2.0"
     react-photo-view "^1.2.3"
     react-player "^2.12.0"
@@ -4276,16 +4357,17 @@
     seamless-scroll-polyfill "^2.3.4"
     sortablejs "^1.15.0"
     spark-md5 "~3.0.2"
+    swiper "^11.1.9"
     throttle-debounce "^2.1.0"
     use-deep-compare-effect "^1.8.1"
     use-resize-observer "^9.1.0"
     virtual-scroller "^1.12.3"
     yjs "^13.6.7"
 
-"@selfcommunity/types@0.5.56-alpha.0", "@selfcommunity/types@^0.5.56-alpha.0":
-  version "0.5.56-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.5.56-alpha.0.tgz#030cb64f19c81ffd86ede740dc49450bb500774d"
-  integrity sha512-aWePKtNk/gzWxQFPdaMBKADM/A4ZEmEuf1GHFE20zWQdboLiTh2ptd+y2f0bVbe4Isf6Z5JiuBLgsr9E9ZPW2g==
+"@selfcommunity/types@0.6.0-alpha.1", "@selfcommunity/types@^0.6.0-alpha.1":
+  version "0.6.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.6.0-alpha.1.tgz#07df7928184313ae9c4a171771c9579a74659455"
+  integrity sha512-pygD/GOS/HDYTfA3zmW8zr4TyJL5pF91jPSrXz7XAilBhE4TqFfOCP9mV4Ws78HrgFQefKY1gGxkOL4rzdV/9Q==
 
 "@selfcommunity/utils@0.2.56-alpha.0", "@selfcommunity/utils@^0.2.56-alpha.0":
   version "0.2.56-alpha.0"
@@ -4659,6 +4741,11 @@
     "@types/express-serve-static-core" "^4.17.33"
     "@types/qs" "*"
     "@types/serve-static" "*"
+
+"@types/google.maps@3.55.2":
+  version "3.55.2"
+  resolved "https://registry.yarnpkg.com/@types/google.maps/-/google.maps-3.55.2.tgz#6e5a1c257aeda3861a919a56fb9f369468e79e15"
+  integrity sha512-JcTwzkxskR8DN/nnX96Pie3gGN3WHiPpuxzuQ9z3516o1bB243d8w8DHUJ8BohuzoT1o3HUFta2ns/mkZC8KRw==
 
 "@types/gtag.js@^0.0.12":
   version "0.0.12"
@@ -7958,7 +8045,7 @@ intl-messageformat@10.5.8:
     "@formatjs/icu-messageformat-parser" "2.7.3"
     tslib "^2.4.0"
 
-invariant@^2.2.4:
+invariant@2.2.4, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -8327,6 +8414,11 @@ just-throttle@^4.2.0:
   resolved "https://registry.yarnpkg.com/just-throttle/-/just-throttle-4.2.0.tgz#5a22da10a4bdb906d2583400eff2fe3fbd9f9662"
   integrity sha512-/iAZv1953JcExpvsywaPKjSzfTiCLqeguUTE6+VmK15mOcwxBx7/FHrVvS4WEErMR03TRazH8kcBSHqMagYIYg==
 
+kdbush@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/kdbush/-/kdbush-4.0.2.tgz#2f7b7246328b4657dd122b6c7f025fbc2c868e39"
+  integrity sha512-WbCVYJ27Sz8zi9Q7Q0xHC+05iwkm3Znipc2XTlrnJbsHMYktW4hPhXUE8Ys1engBrvffoSCqbil1JQAa7clRpA==
+
 keyv@^4.5.3:
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.4.tgz#a879a99e29452f942439f2a405e3af8b31d4de93"
@@ -8475,6 +8567,11 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lottie-web@^5.12.2:
+  version "5.12.2"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.12.2.tgz#579ca9fe6d3fd9e352571edd3c0be162492f68e5"
+  integrity sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==
 
 lower-case@^2.0.2:
   version "2.0.2"
@@ -9363,6 +9460,13 @@ ms@2.1.3:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
+mui-color-input@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mui-color-input/-/mui-color-input-3.0.0.tgz#a8a2a50f1fd217fc4851bb29f6004147022edabd"
+  integrity sha512-Qcm72za0yhulZxq13NMnaWFLLoPdZ89JiAmhrRAzXqA26fV0wVDmWpJtNbIMZvancyT4HpKq2ai+7IV9NmZR5g==
+  dependencies:
+    "@ctrl/tinycolor" "^4.1.0"
+
 multicast-dns@^7.2.5:
   version "7.2.5"
   resolved "https://registry.yarnpkg.com/multicast-dns/-/multicast-dns-7.2.5.tgz#77eb46057f4d7adbd16d9290fa7299f6fa64cced"
@@ -9796,7 +9900,7 @@ path2d-polyfill@^2.0.1:
   resolved "https://registry.yarnpkg.com/path2d-polyfill/-/path2d-polyfill-2.0.1.tgz#24c554a738f42700d6961992bf5f1049672f2391"
   integrity sha512-ad/3bsalbbWhmBo0D6FZ4RNMwsLsPpL6gnvhuSaU5Vm7b06Kr5ubSltQQ0T7YKsiJQO+g22zJ4dJKNTXIyOXtA==
 
-pdfjs-dist@^3.11.174:
+pdfjs-dist@3.11.174, pdfjs-dist@^3.11.174:
   version "3.11.174"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-3.11.174.tgz#5ff47b80f2d58c8dd0d74f615e7c6a7e7e704c4b"
   integrity sha512-TdTZPf1trZ8/UFu5Cx/GXB7GZM30LT+wWUNfsi6Bq8ePLnb+woNKtDymI2mxZYBpMbonNFqKmiz684DIfnd8dA==
@@ -11470,6 +11574,13 @@ stylis@4.2.0:
   resolved "https://registry.yarnpkg.com/stylis/-/stylis-4.2.0.tgz#79daee0208964c8fe695a42fcffcac633a211a51"
   integrity sha512-Orov6g6BB1sDfYgzWfTHDOxamtX1bE/zo104Dh9e6fqJ3PooipYyfJ0pUmrZO2wAvO8YbEyeFrkV91XTsGMSrw==
 
+supercluster@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/supercluster/-/supercluster-8.0.1.tgz#9946ba123538e9e9ab15de472531f604e7372df5"
+  integrity sha512-IiOea5kJ9iqzD2t7QJq/cREyLHTtSmUT6gQsweojg9WH2sYJqZK9SswTu6jrscO6D1G5v5vYZ9ru/eq85lXeZQ==
+  dependencies:
+    kdbush "^4.0.2"
+
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -11525,6 +11636,11 @@ svgo@^3.0.2:
     css-tree "^2.2.1"
     csso "^5.0.5"
     picocolors "^1.0.0"
+
+swiper@^11.1.9:
+  version "11.1.14"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.1.14.tgz#7901b4955c46dd0ad76fac1e9de2a69f04f34abb"
+  integrity sha512-VbQLQXC04io6AoAjIUWuZwW4MSYozkcP9KjLdrsG/00Q/yiwvhz9RQyt0nHXV10hi9NVnDNy1/wv7Dzq1lkOCQ==
 
 tapable@^1.0.0:
   version "1.1.3"
