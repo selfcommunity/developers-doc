@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.33e69370.css">
-<script src="/assets/js/runtime~main.9844b2c7.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.490451ee.js" defer="defer"></script>
 <script src="/assets/js/main.4650d250.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -20,7 +20,7 @@ be filtered by some params (see the parameters section for more information).</p
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request">​</a></h2>
 <p><code>GET /api/v2/event/search/</code></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h3>
-<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>search</td><td>query</td><td>string</td><td>false</td><td>A term that will be searched for within the event name and description</td></tr><tr><td>date_filter</td><td>query</td><td>string</td><td>false</td><td>Filter events by date; return only events that will be running in the: past, today, tomorrow, this_week, next_week, this_month</td></tr><tr><td>follows</td><td>query</td><td>boolean</td><td>false</td><td>Return only events my followings (or connections) are subscribed to</td></tr><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>search</td><td>query</td><td>string</td><td>false</td><td>A term that will be searched for within the event name and description</td></tr><tr><td>date_filter</td><td>query</td><td>string</td><td>false</td><td>Filter events by date; return only events that will be running in the: past, today, tomorrow, this_week, next_week, this_month</td></tr><tr><td>follows</td><td>query</td><td>boolean</td><td>false</td><td>Return only events my followings (or connections) are subscribed to</td></tr><tr><td>recurring</td><td>query</td><td>string</td><td>false</td><td>Filter by recurring <a href="/docs/apireference/v2/schemas/event#enumerated-values">recurring</a></td></tr><tr><td>location</td><td>query</td><td>string</td><td>false</td><td>Filter by location <a href="/docs/apireference/v2/schemas/event#enumerated-values">location</a></td></tr><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-request">Example Request<a href="#example-request" class="hash-link" aria-label="Direct link to Example Request" title="Direct link to Example Request">​</a></h3>
 <!-- -->
 <!-- -->
