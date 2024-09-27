@@ -25,6 +25,8 @@ This operation requires authentication only if `content_availability` community 
 | search      | query | string  | false    | A term that will be searched for within the event name and description                                                         |
 | date_filter | query | string  | false    | Filter events by date; return only events that will be running in the: past, today, tomorrow, this_week, next_week, this_month |
 | follows     | query | boolean | false    | Return only events my followings (or connections) are subscribed to                                                            |
+| recurring   | query | string  | false    | Filter by recurring [recurring](/docs/apireference/v2/schemas/event#enumerated-values)                                         |
+| location    | query | string  | false    | Filter by location [location](/docs/apireference/v2/schemas/event#enumerated-values)                                           |
 | limit       | query | integer | false    | Number of results to return per page                                                                                           |
 | offset      | query | integer | false    | The initial index from which to return the results                                                                             |
 

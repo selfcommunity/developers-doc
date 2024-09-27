@@ -25,6 +25,8 @@ This operation requires authentication.
 | subscription_status | query | string  | false    | Filter by subscription [status](/docs/apireference/v2/schemas/event#enumerated-values) |
 | past                | query | boolean | false    | Return only past events (events already ended) or events not ended (default)           |
 | created_by          | query | integer | false    | Return only events created by this user id                                             |
+| recurring           | query | string  | false    | Filter by recurring [recurring](/docs/apireference/v2/schemas/event#enumerated-values) |
+| location            | query | string  | false    | Filter by location [location](/docs/apireference/v2/schemas/event#enumerated-values)   |
 | limit               | query | integer | false    | Number of results to return per page                                                   |
 | offset              | query | integer | false    | The initial index from which to return the results                                     |
 
