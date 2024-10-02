@@ -22,6 +22,10 @@ updatable:
 - Section `text`:
     - `application_slogan1`
     - `application_slogan2`
+- Section `webmaster`:
+    - `meta_robots`
+    - `meta_title_home_not_logged`
+    - `meta_description`
 
 :::info
 
