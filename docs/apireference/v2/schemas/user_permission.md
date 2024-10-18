@@ -6,12 +6,13 @@ title: User Permission
 
 ```json
 {
-  "upload_video": "boolean",
   "create_contribute": "boolean",
   "create_poll": "boolean",
   "locate_post": "boolean",
   "create_post": "boolean",
   "create_post_with_category": "boolean",
+  "create_group": "boolean",
+  "create_event": "boolean",
   "follow_user": "boolean",
   "request_connection": "boolean",
   "accept_connection": "boolean"
@@ -23,12 +24,13 @@ title: User Permission
 
 | Name                      | Type | Required | Restrictions | Description                                    |
 |---------------------------|------|----------|--------------|------------------------------------------------|
-| upload_video              | bool | true     | read-only    | User can upload video when creating a post     |
 | create_contribute         | bool | true     | read-only    | User can create a contribute                   |
 | create_poll               | bool | true     | read-only    | User can add a poll when creating a contribute |
 | locate_post               | bool | true     | read-only    | User can locate a contribute                   |
 | create_post               | bool | true     | read-only    | User can create a post                         |
 | create_post_with_category | bool | true     | read-only    | User can add categories when creating a post   |
+| create_group              | bool | true     | read-only    | User can create a group                        |
+| create_event              | bool | true     | read-only    | User can create an event                       |
 | follow_user               | bool | true     | read-only    | User can follow users                          |
 | request_connection        | bool | true     | read-only    | User can accept a connection                   |
 | accept_connection         | bool | true     | read-only    | User can accept a connection                   |
