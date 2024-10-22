@@ -14,6 +14,8 @@ updatable:
     - `font_color`
     - `font_color_secondary`
     - `navbarback`
+- Section `configurations`:
+    - `onboarding_hidden`
 - Section `logo`:
     - `logo_dark`
     - `logo_light`
