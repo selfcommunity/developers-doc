@@ -1,27 +1,28 @@
 ---
-sidebar_label: Invite Users Or Accept Users
+sidebar_label: Remove Invitation To Course
 sidebar_position: 1
-title: Invite Users Or Accept Users
+title: Remove Invitation To Course
 ---
 
-This endpoint allows user managers to invite or accept users to the group
+This endpoint allows the manager to remove one or more invitations to join a course that were previously sent to some
+users.
 
 :::info
 
-This operation requires the group manager role.
+This operation requires authentication and that the user is the manager of the course.
 
 :::
 
 ## HTTP Request
 
-`POST /api/v2/group/{id}/invite/`
+`DELETE /api/v2/course/{id}/invite/`
 
 ### Parameters
 
-| Name  | In   | Type          | Required | Description                                                                     |
-|-------|------|---------------|----------|---------------------------------------------------------------------------------|
-| id    | path | string        | true     | A unique integer value identifying this group                                   |
-| users | body | list(integer) | true     | List of id of [User](/docs/apireference/v2/schemas/user) to invite or to accept |
+| Name  | In   | Type          | Required | Description                                                                   |
+|-------|------|---------------|----------|-------------------------------------------------------------------------------|
+| id    | path | integer       | true     | A unique integer value identifying this course                                |
+| users | body | list(integer) | true     | List of id of [User](/docs/apireference/v2/schemas/user) to remove invitation |
 
 ### Example Request
 
@@ -39,12 +40,11 @@ const inputBody = '{
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
   'Accept':'application/json',
-  'Authorization': 'Bearer {access_token}'
+  'Authorization: Bearer <token>'
 };
-
-fetch('/api/v2/group/{id}/invite/',
+fetch('/api/v2/course/{id}/invite/',
 {
-  method: 'POST',
+  method: 'DELETE',
   body: inputBody,
   headers: headers
 })
@@ -61,10 +61,9 @@ fetch('/api/v2/group/{id}/invite/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/group/{id}/invite/ \
-  -H 'Content-Type: application/x-www-form-urlencoded' \
-  -H 'Accept: application/json'
-  -H 'Authorization: Bearer {access_token}'
+curl -X DELETE /api/v2/course/{id}/invite/
+  -H "Authorization: Bearer <token>"
+  --DATA '{body}'
 ```
 </TabItem>
 </Tabs>

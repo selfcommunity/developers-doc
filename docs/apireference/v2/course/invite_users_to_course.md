@@ -4,23 +4,23 @@ sidebar_position: 1
 title: Invite Users Or Accept Users
 ---
 
-This endpoint allows user managers to invite or accept users to the group
+This endpoint allows user managers to invite or accept users to the course
 
 :::info
 
-This operation requires the group manager role.
+This operation requires the course manager role.
 
 :::
 
 ## HTTP Request
 
-`POST /api/v2/group/{id}/invite/`
+`POST /api/v2/course/{id}/invite/`
 
 ### Parameters
 
 | Name  | In   | Type          | Required | Description                                                                     |
 |-------|------|---------------|----------|---------------------------------------------------------------------------------|
-| id    | path | string        | true     | A unique integer value identifying this group                                   |
+| id    | path | string        | true     | A unique integer value identifying this course                                  |
 | users | body | list(integer) | true     | List of id of [User](/docs/apireference/v2/schemas/user) to invite or to accept |
 
 ### Example Request
@@ -42,7 +42,7 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/group/{id}/invite/',
+fetch('/api/v2/course/{id}/invite/',
 {
   method: 'POST',
   body: inputBody,
@@ -61,7 +61,7 @@ fetch('/api/v2/group/{id}/invite/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/group/{id}/invite/ \
+curl -X POST /api/v2/course/{id}/invite/ \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}'

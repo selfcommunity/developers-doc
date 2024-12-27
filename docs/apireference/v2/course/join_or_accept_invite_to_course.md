@@ -1,27 +1,26 @@
 ---
-sidebar_label: Invite Users Or Accept Users
+sidebar_label: Join Or Accept Invite
 sidebar_position: 1
-title: Invite Users Or Accept Users
+title: Join Or Accept Invite
 ---
 
-This endpoint allows user managers to invite or accept users to the group
+This endpoint allows users to join or to accept the invite to join a specific course.
 
 :::info
 
-This operation requires the group manager role.
+This operation requires authentication.
 
 :::
 
 ## HTTP Request
 
-`POST /api/v2/group/{id}/invite/`
+`POST /api/v2/course/{id}/join/`
 
 ### Parameters
 
-| Name  | In   | Type          | Required | Description                                                                     |
-|-------|------|---------------|----------|---------------------------------------------------------------------------------|
-| id    | path | string        | true     | A unique integer value identifying this group                                   |
-| users | body | list(integer) | true     | List of id of [User](/docs/apireference/v2/schemas/user) to invite or to accept |
+| Name | In   | Type   | Required | Description                                    |
+|------|------|--------|----------|------------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this course |
 
 ### Example Request
 
@@ -33,16 +32,14 @@ import TabItem from '@theme/TabItem';
 <TabItem value="js">
 
 ```js
-const inputBody = '{
-  "users": ["integer"]
-}';
+const inputBody = 'null';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
   'Accept':'application/json',
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/group/{id}/invite/',
+fetch('/api/v2/course/{id}/invite/',
 {
   method: 'POST',
   body: inputBody,
@@ -61,7 +58,7 @@ fetch('/api/v2/group/{id}/invite/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/group/{id}/invite/ \
+curl -X POST /api/v2/course/{id}/invite/ \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}'
