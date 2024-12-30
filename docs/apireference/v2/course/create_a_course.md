@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Create a Course
 ---
 
-This endpoint creates a course
+This endpoint creates a course.
 
 :::info
 
