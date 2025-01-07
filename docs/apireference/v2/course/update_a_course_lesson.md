@@ -1,11 +1,11 @@
 ---
-sidebar_label: Create a Course Lesson
+sidebar_label: Update Course Lesson
 sidebar_position: 1
-title: Create a Course Lesson
+title: Update Course Lesson
 ---
 
-This endpoint creates a lesson for the course identified by `{course_id}` and under the section identified by
-`{section_id}`.
+This endpoint updates a specific lesson with id `{lesson_id}` for the course identified by `{course_id}` and under the
+section identified by `{section_id}`.
 
 :::info
 
@@ -15,7 +15,7 @@ This operation requires the course manager role.
 
 ## HTTP Request
 
-`POST /api/v2/course/{course_id}/section/{section_id}/lesson/`
+`PUT /api/v2/course/{course_id}/section/{section_id}/lesson/{lesson_id}/`
 
 ### Parameters
 
@@ -23,7 +23,8 @@ This operation requires the course manager role.
 |------------|------|--------------------------------------------------------------|----------|--------------------------------------------------------------|
 | course_id  | path | string                                                       | true     | A unique integer value identifying the course of the lesson  |
 | section_id | path | string                                                       | true     | A unique integer value identifying the section of the lesson |
-| body       | body | [Course Lesson](/docs/apireference/v2/schemas/course_lesson) | true     | The request body (course section params)                     |
+| lesson_id  | path | string                                                       | true     | A unique integer value identifying the lesson                |
+| body       | body | [Course Lesson](/docs/apireference/v2/schemas/course_lesson) | true     | The request body (course lesson params)                      |
 
 #### Example Body Parameters
 
@@ -58,7 +59,6 @@ const inputBody = '{
     "name": "string",
     "type": "string",
     "text": "string"
-
 }';
 const headers = {
   'Content-Type':'application/x-www-form-urlencoded',
@@ -66,9 +66,9 @@ const headers = {
   'Authorization': 'Bearer {access_token}'
 };
 
-fetch('/api/v2/course/{course_id}/section/{section_id}/lesson/',
+fetch('/api/v2/course/{course_id}/section/{section_id}/lesson/{lesson_id}/',
 {
-  method: 'POST',
+  method: 'PUT',
   body: inputBody,
   headers: headers
 })
@@ -85,7 +85,7 @@ fetch('/api/v2/course/{course_id}/section/{section_id}/lesson/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/course/{course_id}/section/{section_id}/lesson/ \
+curl -X PUT /api/v2/course/{course_id}/section/{section_id}/lesson/{lesson_id}/ \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'Accept: application/json'
   -H 'Authorization: Bearer {access_token}'
@@ -97,6 +97,6 @@ curl -X POST /api/v2/course/{course_id}/section/{section_id}/lesson/ \
 
 ## Responses
 
-| Status | Meaning                                                      | Description          | Schema                                                       |
-|--------|--------------------------------------------------------------|----------------------|--------------------------------------------------------------|
-| 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Course Lesson](/docs/apireference/v2/schemas/course_lesson) |
+| Status | Meaning                                                | Description          | Schema                                                       |
+|--------|--------------------------------------------------------|----------------------|--------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Course Lesson](/docs/apireference/v2/schemas/course_lesson) |

@@ -18,13 +18,11 @@ This operation requires the course manager role.
 
 ### Parameters
 
-| Name       | In   | Type   | Required | Description                                            |
-|------------|------|--------|----------|--------------------------------------------------------|
-| id         | path | string | true     | A unique integer value identifying this course         |
-| section_id | path | string | true     | A unique integer value identifying this course section |
-
-| body | body | [Course Section](/docs/apireference/v2/schemas/course_section) | true | The request body (course section
-params)       |
+| Name       | In   | Type                                                           | Required | Description                                            |
+|------------|------|----------------------------------------------------------------|----------|--------------------------------------------------------|
+| id         | path | string                                                         | true     | A unique integer value identifying this course         |
+| section_id | path | string                                                         | true     | A unique integer value identifying this course section |
+| body       | body | [Course Section](/docs/apireference/v2/schemas/course_section) | true     | The request body (course section params)               |
 
 #### Example Body Parameters
 
