@@ -26,7 +26,7 @@ You can use this endpoint to edit a single field passing only the id and the nee
 
 | Name | In   | Type                                           | Required | Description                                    |
 |------|------|------------------------------------------------|----------|------------------------------------------------|
-| id   | path | string                                         | true     | A unique integer value identifying this course |
+| id   | path | integer                                        | true     | A unique integer value identifying this course |
 | body | body | [Course](/docs/apireference/v2/schemas/course) | true     | The request body (course params)               |
 
 #### Example Body Parameters

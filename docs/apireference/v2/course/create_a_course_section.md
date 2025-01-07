@@ -20,7 +20,7 @@ This operation requires the course manager role.
 
 | Name | In   | Type                                                           | Required | Description                                    |
 |------|------|----------------------------------------------------------------|----------|------------------------------------------------|
-| id   | path | string                                                         | true     | A unique integer value identifying this course |
+| id   | path | integer                                                        | true     | A unique integer value identifying this course |
 | body | body | [Course Section](/docs/apireference/v2/schemas/course_section) | true     | The request body (course section params)       |
 
 #### Example Body Parameters

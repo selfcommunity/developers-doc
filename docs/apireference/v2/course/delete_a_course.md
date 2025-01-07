@@ -18,9 +18,9 @@ This operation requires the course manager role.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                    |
-|------|------|--------|----------|------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this course |
+| Name | In   | Type    | Required | Description                                    |
+|------|------|---------|----------|------------------------------------------------|
+| id   | path | integer | true     | A unique integer value identifying this course |
 
 ### Example Request
 
