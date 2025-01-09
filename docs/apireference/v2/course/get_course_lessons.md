@@ -15,7 +15,7 @@ This operation requires authentication only if `content_availability` community 
 
 ## HTTP Request
 
-`GET /api/v2/{course_id}/section/{section_id}/lesson/`
+`GET /api/v2/course/{course_id}/section/{section_id}/lesson/`
 
 ### Parameters
 
@@ -68,6 +68,6 @@ curl -X GET /api/v2/course/{course_id}/section/{section_id}/lesson/ \
 
 ## Responses
 
-| Status | Meaning                                                | Description          | Schema                                                             |
-|--------|--------------------------------------------------------|----------------------|--------------------------------------------------------------------|
+| Status | Meaning                                                 | Description          | Schema                                                             |
+|--------|---------------------------------------------------------|----------------------|--------------------------------------------------------------------|
 | 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | list([Course Lesson](/docs/apireference/v2/schemas/course_lesson)) |
