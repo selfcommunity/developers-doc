@@ -14,6 +14,7 @@ title: Course
   "privacy": "string",
   "enforce_lessons_order": "boolean",
   "new_comment_notification_enabled": "boolean",
+  "sections_order": [],
   "image_original": "string",
   "image_bigger": "string",
   "image_big": "string",
