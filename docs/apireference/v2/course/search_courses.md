@@ -4,8 +4,8 @@ sidebar_position: 1
 title: Search Courses
 ---
 
-This endpoint performs courses search only for courses that has `privacy != secret` or when `privacy = secret` the user
-must already be part of the course (joined).
+This endpoint performs courses search only for courses that has `privacy` different from `secret` or when `privacy` is
+`secret` the user must be at least invited to the course.
 
 :::info
 
@@ -78,9 +78,9 @@ curl -X GET /api/v2/course/search/ \
 
 Status Code **200**
 
-| Name       | Type                                                 | Required | Restrictions | Description         |
-|------------|------------------------------------------------------|----------|--------------|---------------------|
-| » count    | integer                                              | false    | none         | Total results count |
-| » next     | string(uri)¦null                                     | false    | none         | Next page url       |
-| » previous | string(uri)¦null                                     | false    | none         | Previous page url   |
-| » results  | list([Course](/docs/apireference/v2/schemas/course)) | false    | none         | List of results     |
+| Name       | Type                                                                 | Required | Restrictions | Description         |
+|------------|----------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                              | false    | none         | Total results count |
+| » next     | string(uri)¦null                                                     | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                                     | false    | none         | Previous page url   |
+| » results  | list([Course Minimal](/docs/apireference/v2/schemas/course_minimal)) | false    | none         | List of results     |
