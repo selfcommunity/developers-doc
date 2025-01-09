@@ -8,7 +8,18 @@ This endpoint retrieves a specific course information.
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+If course `privacy` is:
+
+- empty string: only moderators can see the course;
+- `open`: anyone can see and join the course;
+- `private`: only invited members can see the course; non-members will see the lock screen (only basic data);
+- `secret`: only invited members can see the course.
+
+:::
+
+:::info
+
+This operation requires authentication if `content_availability` community option is false.
 
 :::
 

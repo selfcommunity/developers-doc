@@ -4,7 +4,8 @@ sidebar_position: 1
 title: Join Or Accept Invite
 ---
 
-This endpoint allows users to join or to accept the invite to join a specific course.
+This endpoint allows users to join or to accept the invite to join a specific course.<br/>
+It will request to join the course if the course is `private` or `secret`.
 
 :::info
 

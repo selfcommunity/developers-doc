@@ -57,7 +57,7 @@ title: Course
 | type        | self-paced | Course starts when a member enrolls. All contents are available immediately                                                                                                  |
 | type        | structured | Course starts when a member enrolls. Sections are dripped relative to their enrollment date                                                                                  |
 | type        | scheduled  | Course starts on a specific date. Sections are dripped relative to that date                                                                                                 |
-| privacy     |            | Unselected privacy status; cannot revert to this status after selecting another privacy status                                                                               |
+| privacy     |            | Unselected privacy status (aka draft); cannot revert to this status after selecting another privacy status                                                                   |
 | privacy     | open       | Access: Open. Anyone in your community can see and join this course.<br/>Visibility: Visible to all members of your community                                                |
 | privacy     | private    | Access: Closed. Only members who are added by you will be able to access this course.<br/>Visibility: Invited members only. Non-members will see the lock screen             |
 | privacy     | secret     | Access: Closed. Only members who are added by you will be able to access this course.<br/>Visibility: Invited members only. Non-members will not see that this course exists |

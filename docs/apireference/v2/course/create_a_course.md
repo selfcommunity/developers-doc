@@ -8,7 +8,8 @@ This endpoint creates a course.
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication.<br/>If `courses_only_staff_enabled` is `true` only staff members can create new
+courses.
 
 :::
 
