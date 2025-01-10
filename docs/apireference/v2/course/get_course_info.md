@@ -8,6 +8,12 @@ This endpoint retrieves a specific course information.
 
 :::info
 
+The `view` param with values `edit` and `dashboard` needs manager permissions.
+
+:::
+
+:::info
+
 If course `privacy` is:
 
 - empty string: only moderators can see the course;
@@ -30,9 +36,18 @@ This operation requires authentication if `content_availability` community optio
 
 ### Parameters
 
-| Name | In   | Type    | Required | Description                                    |
-|------|------|---------|----------|------------------------------------------------|
-| id   | path | integer | true     | A unique integer value identifying this course |
+| Name | In    | Type    | Required | Description                                    |
+|------|-------|---------|----------|------------------------------------------------|
+| id   | path  | integer | true     | A unique integer value identifying this course |
+| view | query | string  | false    | Recover the course data for a specific view    |
+
+#### Enumerated Values
+
+| Parameter | Value     | Description                                                                                                              |
+|-----------|-----------|--------------------------------------------------------------------------------------------------------------------------|
+| » view    | user      | Default value; recover the data of a course for a generic user (sections empty and lessons in draft mode will be hidden) |
+| » view    | edit      | Like `user` but include any section and lesson; user must be a manager of the course                                     |
+| » view    | dashboard | Recover useful data for the dashboard; user must be a manager of the course                                              |
 
 ### Example Request
 
@@ -78,6 +93,14 @@ curl -X GET /api/v2/course/{id}/ \
 
 ## Responses
 
-| Status | Meaning                                                 | Description          | Schema                                         |
-|--------|---------------------------------------------------------|----------------------|------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Course](/docs/apireference/v2/schemas/course) |
+### view = user|edit
+
+| Status | Meaning                                                 | Description          | Schema                                                       |
+|--------|---------------------------------------------------------|----------------------|--------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Course Detail](/docs/apireference/v2/schemas/course_detail) |
+
+### view = dashboard
+
+| Status | Meaning                                                 | Description          | Schema                                                             |
+|--------|---------------------------------------------------------|----------------------|--------------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Course Dashboard](/docs/apireference/v2/schemas/course_dashboard) |
