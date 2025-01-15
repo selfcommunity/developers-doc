@@ -16,7 +16,7 @@ By passing the optional param `user` a course manager is able to remove the user
 :::info
 
 This operation requires authentication. It requires also that the user is a manager of the course if the `user` param is
-passed.
+passed. The creator of the group cannot unjoin the group but the other managers can.
 
 :::
 

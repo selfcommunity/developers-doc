@@ -8,7 +8,7 @@ This endpoint retrieves the join status for a specific course identified by `{id
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication and that the user can view the info of the course; otherwise it will return 404.
 
 :::
 

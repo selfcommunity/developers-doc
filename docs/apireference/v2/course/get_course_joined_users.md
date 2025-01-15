@@ -8,7 +8,7 @@ This endpoint retrieves the list of all joined users to the course identified by
 
 :::info
 
-This operation requires being a member of the course if the course has private access.
+This operation requires the course manager role.
 
 :::
 

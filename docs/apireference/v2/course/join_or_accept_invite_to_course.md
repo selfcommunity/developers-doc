@@ -5,7 +5,9 @@ title: Join Or Accept Invite
 ---
 
 This endpoint allows users to join or to accept the invite to join a specific course.<br/>
-It will request to join the course if the course is `private` or `secret`.
+It will request to join the course if the course is `private`.<br/>
+If the course is `secret` then the user can only accept an invitation (cause non-members will not see that this course
+exists unless the user has been invited to participate in the course).
 
 :::info
 

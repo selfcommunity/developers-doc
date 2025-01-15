@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Get User Courses
 ---
 
-This endpoint return the list of courses the user has joined.
+This endpoint return the list of courses the user has joined. Return only the courses that the current user can view.
 
 :::info
 
