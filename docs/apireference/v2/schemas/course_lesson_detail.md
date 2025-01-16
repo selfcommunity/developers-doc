@@ -16,12 +16,13 @@ title: Course Lesson Detail
 
 #### Properties
 
-| Name   | Type                                                                    | Required | Restrictions | Description                                                 |
-|--------|-------------------------------------------------------------------------|----------|--------------|-------------------------------------------------------------|
-| id     | integer                                                                 | false    | read-only    | Unique integer value identifying this lesson course         |                                                                        
-| name   | string                                                                  | true     | read-only    | Name of the lesson course                                   |
-| type   | [type](/docs/apireference/v2/schemas/course_lesson#enumerated-values)   | true     | read-only    | Enum to define the course lesson type                       |
-| status | [status](/docs/apireference/v2/schemas/course_lesson#enumerated-values) | false    | read-only    | Enum to define the course lesson status.<br/>Default: draft |                                                                       
+| Name             | Type                                                                    | Required | Restrictions | Description                                                                                                        |
+|------------------|-------------------------------------------------------------------------|----------|--------------|--------------------------------------------------------------------------------------------------------------------|
+| id               | integer                                                                 | false    | read-only    | Unique integer value identifying this lesson course                                                                |                                                                        
+| name             | string                                                                  | true     | read-only    | Name of the lesson course                                                                                          |
+| type             | [type](/docs/apireference/v2/schemas/course_lesson#enumerated-values)   | true     | read-only    | Enum to define the course lesson type                                                                              |
+| status           | [status](/docs/apireference/v2/schemas/course_lesson#enumerated-values) | false    | read-only    | Enum to define the course lesson status.<br/>Default: draft                                                        |                                                                       
+| comments_enabled | boolean                                                                 | false    | read-only    | Enable the comments on the current lesson; if enabled, the users can comment the current lesson.<br/>Default: true |                                                                                                                
 
 #### Enumerated Values
 

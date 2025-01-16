@@ -93,7 +93,13 @@ curl -X GET /api/v2/course/{id}/ \
 
 ## Responses
 
-### view = user|edit
+### view = user
+
+| Status | Meaning                                                 | Description          | Schema                                                                 |
+|--------|---------------------------------------------------------|----------------------|------------------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Course User Detail](/docs/apireference/v2/schemas/course_user_detail) |
+
+### view = edit
 
 | Status | Meaning                                                 | Description          | Schema                                                       |
 |--------|---------------------------------------------------------|----------------------|--------------------------------------------------------------|
