@@ -5,12 +5,21 @@ title: Mark Incomplete a Course Lesson
 ---
 
 This endpoint mark incomplete a specific lesson with id `{lesson_id}` for the course identified by `{course_id}` and
-under
-the section identified by `{section_id}`.
+under the section identified by `{section_id}`.
 
 :::info
 
-This operation requires the user joined the course.
+This operation requires the user joins the course.<br/>
+Users with role manager can always get a lesson while the other users should follow the rules setup by the
+managers.<br/>
+**Rules**:
+
+1. lesson should be `published`;
+2. if the course `type` is `scheduled` the current datetime should be greater than or equal to `dripped_at`;
+3. if the course `type` is `structured` the current datetime should be greater than or equal to the `joined_at` datetime
+   plus `drip_delay` days;
+4. if the course has `enforce_lessons_order` set to true then all the published lessons before the current one should be
+   completed.
 
 :::
 

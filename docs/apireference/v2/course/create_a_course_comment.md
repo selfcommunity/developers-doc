@@ -11,7 +11,17 @@ the comment identified by `in_reply_to`.
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the user joins the course and that the lesson has `comments_enabled` (also managers).<br/>
+Users with role manager can always get a lesson while the other users should follow the rules setup by the
+managers.<br/>
+**Rules**:
+
+1. lesson should be `published`;
+2. if the course `type` is `scheduled` the current datetime should be greater than or equal to `dripped_at`;
+3. if the course `type` is `structured` the current datetime should be greater than or equal to the `joined_at` datetime
+   plus `drip_delay` days;
+4. if the course has `enforce_lessons_order` set to true then all the published lessons before the current one should be
+   completed.
 
 :::
 
