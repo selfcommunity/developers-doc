@@ -11,7 +11,7 @@ Look at [Course Comment](/docs/apireference/v2/schemas/course_comment).
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+This operation requires the course manager role
 
 :::
 

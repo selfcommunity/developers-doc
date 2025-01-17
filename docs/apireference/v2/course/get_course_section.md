@@ -8,7 +8,7 @@ This endpoint retrieves a specific section for the course identified by `{id}`.
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+This operation requires the course manager role
 
 :::
 

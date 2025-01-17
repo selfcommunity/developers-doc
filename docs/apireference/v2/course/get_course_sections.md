@@ -8,7 +8,7 @@ This endpoint retrieves all sections (ordered and not paginated) for the course 
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+This operation requires the course manager role
 
 :::
 

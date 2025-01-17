@@ -9,7 +9,7 @@ the section identified by `{section_id}` and written in the lesson identified by
 
 :::info
 
-This operation requires authentication only if `content_availability` community option is false.
+This operation requires the course manager role
 
 :::
 
