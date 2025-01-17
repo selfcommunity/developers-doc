@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.33e69370.css">
-<script src="/assets/js/runtime~main.ff80235c.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.66d72d81.js" defer="defer"></script>
 <script src="/assets/js/main.391084ae.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -17,7 +17,17 @@
 and under the section identified by <code>{section_id}</code>.<br>
 If <code>in_reply_to</code> is passed then also <code>parent</code> is mandatory and it must be the same <code>parent</code> as the <code>parent</code> present in
 the comment identified by <code>in_reply_to</code>.</p>
-<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>This operation requires the course manager role.</p></div></div>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>This operation requires the user joins the course and that the lesson has <code>comments_enabled</code> (also managers).<br>
+Users with role manager can always get a lesson while the other users should follow the rules setup by the
+managers.<br>
+<strong>Rules</strong>:</p><ol>
+<li>lesson should be <code>published</code>;</li>
+<li>if the course <code>type</code> is <code>scheduled</code> the current datetime should be greater than or equal to <code>dripped_at</code>;</li>
+<li>if the course <code>type</code> is <code>structured</code> the current datetime should be greater than or equal to the <code>joined_at</code> datetime
+plus <code>drip_delay</code> days;</li>
+<li>if the course has <code>enforce_lessons_order</code> set to true then all the published lessons before the current one should be
+completed.</li>
+</ol></div></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request">​</a></h2>
 <p><code>POST /api/v2/course/{course_id}/section/{section_id}/lesson/{lesson_id}/comment/</code></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h3>
