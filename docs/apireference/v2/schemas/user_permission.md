@@ -13,6 +13,8 @@ title: User Permission
   "create_post_with_category": "boolean",
   "create_group": "boolean",
   "create_event": "boolean",
+  "create_course": "boolean",
+  "create_live_stream": "boolean",
   "follow_user": "boolean",
   "request_connection": "boolean",
   "accept_connection": "boolean"
@@ -31,6 +33,8 @@ title: User Permission
 | create_post_with_category | bool | true     | read-only    | User can add categories when creating a post   |
 | create_group              | bool | true     | read-only    | User can create a group                        |
 | create_event              | bool | true     | read-only    | User can create an event                       |
+| create_course             | bool | true     | read-only    | User can create a course                       |
+| create_live_stream        | bool | true     | read-only    | User can create a live stream                  |
 | follow_user               | bool | true     | read-only    | User can follow users                          |
 | request_connection        | bool | true     | read-only    | User can accept a connection                   |
 | accept_connection         | bool | true     | read-only    | User can accept a connection                   |
