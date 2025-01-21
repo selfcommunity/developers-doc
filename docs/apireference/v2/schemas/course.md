@@ -21,6 +21,7 @@ title: Course
   "image_medium": "string",
   "image_small": "string",
   "join_status": "string",
+  "user_completion_rate": "integer",
   "created_at": "string",
   "created_by": {},
   "categories": []
@@ -47,6 +48,7 @@ title: Course
 | image_medium                     | string                                                            | false    | read-only    | Squared image - auto generated medium size                                                                                                                                           |
 | image_small                      | string                                                            | false    | read-only    | Squared image - auto generated small size                                                                                                                                            |
 | join_status                      | [status](/docs/apireference/v2/schemas/course#enumerated-values)  | false    | read-only    | Enum to define the course subscription status of the current user                                                                                                                    |
+| user_completion_rate             | integer                                                           | false    | read-only    | Progress completion of the course in percentage for the current user                                                                                                                 |
 | created_at                       | string(date-time)                                                 | false    | read-only    | Datetime of course creation                                                                                                                                                          |
 | created_by                       | [User](/docs/apireference/v2/schemas/user)                        | false    | read-only    | The course creator                                                                                                                                                                   |
 | categories                       | list([Category](/docs/apireference/v2/schemas/category))          | false    | none         | The categories associated to the course                                                                                                                                              |

@@ -11,7 +11,7 @@ title: Course User Dashboard
   "real_name": "string",
   "avatar": "string",
   "join_status": "string",
-  "progress": "integer",
+  "user_completion_rate": "integer",
   "last_active_at": "string",
   "joined_at": "string"
 }
@@ -20,16 +20,16 @@ title: Course User Dashboard
 
 #### Properties
 
-| Name           | Type                                                                            | Required | Restrictions | Description                                                                       |                                                                
-|----------------|---------------------------------------------------------------------------------|----------|--------------|-----------------------------------------------------------------------------------|
-| id             | integer                                                                         | false    | read-only    | A unique integer value identifying this user                                      |
-| username       | string                                                                          | false    | read-only    | The username of the user. Max 255 characters. Letters, numbers and -/_ characters |
-| real_name      | string                                                                          | false    | read-only    | Real name. Max 255 characters                                                     |
-| avatar         | string(binary)¦null                                                             | false    | read-only    | The user avatar                                                                   |
-| join_status    | [status](/docs/apireference/v2/schemas/course_user_dashboard#enumerated-values) | false    | read-only    | Enum to define the course subscription status of the current user                 |
-| progress       | integer                                                                         | false    | read-only    | Progress completion of the course in percentage for the current user              |
-| last_active_at | string(date-time)                                                               | false    | read-only    | The datetime when the user completed a lesson in the course                       |
-| joined_at      | string(date-time)                                                               | false    | read-only    | The datetime when the user joined the course                                      |
+| Name                 | Type                                                                            | Required | Restrictions | Description                                                                       |                                                                
+|----------------------|---------------------------------------------------------------------------------|----------|--------------|-----------------------------------------------------------------------------------|
+| id                   | integer                                                                         | false    | read-only    | A unique integer value identifying this user                                      |
+| username             | string                                                                          | false    | read-only    | The username of the user. Max 255 characters. Letters, numbers and -/_ characters |
+| real_name            | string                                                                          | false    | read-only    | Real name. Max 255 characters                                                     |
+| avatar               | string(binary)¦null                                                             | false    | read-only    | The user avatar                                                                   |
+| join_status          | [status](/docs/apireference/v2/schemas/course_user_dashboard#enumerated-values) | false    | read-only    | Enum to define the course subscription status of the current user                 |
+| user_completion_rate | integer                                                                         | false    | read-only    | Progress completion of the course in percentage for the current user              |
+| last_active_at       | string(date-time)                                                               | false    | read-only    | The datetime when the user completed a lesson in the course                       |
+| joined_at            | string(date-time)                                                               | false    | read-only    | The datetime when the user joined the course                                      |
 
 #### Enumerated Values
 
