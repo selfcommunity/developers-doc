@@ -14,6 +14,12 @@ title: Course User Detail
   "privacy": "string",
   "enforce_lessons_order": "boolean",
   "new_comment_notification_enabled": "boolean",
+  "hide_member_count": "boolean",
+  "meta_title": "string",
+  "meta_description": "string",
+  "og_title": "string",
+  "og_description": "string",
+  "og_image": "string",
   "sections_order": [],
   "image_bigger": "string",
   "image_big": "string",
@@ -44,6 +50,12 @@ title: Course User Detail
 | privacy                          | [privacy](/docs/apireference/v2/schemas/course#enumerated-values)                            | false    | read-only    | Enum to define the course privacy (default value: empty string)                                                                                                                      |
 | enforce_lessons_order            | boolean                                                                                      | false    | read-only    | Lesson order enforcement (default: false).<br/>Your members will have to complete each lesson in order before moving onto the next one                                               |
 | new_comment_notification_enabled | boolean                                                                                      | false    | read-only    | Notify course admins about new lesson comments (default: true).<br/>If enabled, admins and moderators will receive a new comment notification anytime members leave a lesson comment |
+| hide_member_count                | boolean                                                                                      | false    | read-only    | Hide member count (default: false).<br/>If enabled, only managers can see the member count                                                                                           |
+| meta_title                       | string                                                                                       | false    | read-only    | The course meta title                                                                                                                                                                |
+| meta_description                 | string                                                                                       | false    | read-only    | The course meta description                                                                                                                                                          |
+| og_title                         | string                                                                                       | false    | read-only    | The course Open Graph title                                                                                                                                                          |
+| og_description                   | string                                                                                       | false    | read-only    | The course Open Graph description                                                                                                                                                    |
+| og_image                         | string                                                                                       | false    | read-only    | The course Open Graph image                                                                                                                                                          |
 | sections_order                   | list(integer)                                                                                | false    | read-only    | List of all section IDs belonging to the current course; IDs are sorted based on the choice made by the course managers                                                              |
 | image_bigger                     | string                                                                                       | false    | read-only    | Squared image - auto generated bigger size                                                                                                                                           |
 | image_big                        | string                                                                                       | false    | read-only    | Squared image - auto generated big size                                                                                                                                              |
