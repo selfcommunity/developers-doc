@@ -82,4 +82,4 @@ Status Code **200**
 | » count    | integer                                                                            | false    | none         | Total results count                                                 |
 | » next     | string(uri)¦null                                                                   | false    | none         | Next page url                                                       |
 | » previous | string(uri)¦null                                                                   | false    | none         | Previous page url                                                   |
-| » results  | list([Course User Dashboard](/docs/apireference/v2/schemas/course_user_dashboard)) | false    | none         | List of results. Every items will contain only the necessary fields |
+| » results  | list([User Course Dashboard](/docs/apireference/v2/schemas/user_course_dashboard)) | false    | none         | List of results. Every items will contain only the necessary fields |

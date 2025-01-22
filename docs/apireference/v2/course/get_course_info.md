@@ -16,7 +16,7 @@ The `view` param with values `edit` and `dashboard` needs manager permissions.
 
 If course `privacy` is:
 
-- empty string: only moderators can see the course;
+- empty string (draft mode): only managers can see the course;
 - `open`: anyone can see and join the course;
 - `private`: only invited members can see the course; non-members will see the lock screen (only basic
   data: [Course Minimal](/docs/apireference/v2/schemas/course_minimal));

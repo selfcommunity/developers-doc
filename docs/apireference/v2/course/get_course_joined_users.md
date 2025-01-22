@@ -7,8 +7,12 @@ title: Get Course Joined Users
 This endpoint retrieves the list of all joined users to the course identified by `{id}`.
 
 :::info
+This operation requires the course manager role if the option `hide_member_count` is active.<br/>
+If the option `hide_member_count` is not active and the course `privacy` is:
 
-This operation requires the course manager role.
+- empty string (draft mode): only managers can see the users that joined the course;
+- `open` and `private`: anyone can see the users that joined the course;
+- `secret`: only invited members can see the users that joined the course.
 
 :::
 
@@ -75,9 +79,9 @@ curl -X GET /api/v2/course/{id}/join/ \
 
 Status Code **200**
 
-| Name       | Type                                             | Required | Restrictions | Description         |
-|------------|--------------------------------------------------|----------|--------------|---------------------|
-| » count    | integer                                          | false    | none         | Total results count |
-| » next     | string(uri)¦null                                 | false    | none         | Next page url       |
-| » previous | string(uri)¦null                                 | false    | none         | Previous page url   |
-| » results  | list([User](/docs/apireference/v2/schemas/user)) | false    | none         | List of users       |
+| Name       | Type                                                                           | Required | Restrictions | Description         |
+|------------|--------------------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                                        | false    | none         | Total results count |
+| » next     | string(uri)¦null                                                               | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                                               | false    | none         | Previous page url   |
+| » results  | list([User Course Minimal](/docs/apireference/v2/schemas/user_course_minimal)) | false    | none         | List of users       |
