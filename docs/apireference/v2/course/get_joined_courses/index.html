@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.33e69370.css">
-<script src="/assets/js/runtime~main.5a35e051.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.4a012abe.js" defer="defer"></script>
 <script src="/assets/js/main.d543f5de.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -18,7 +18,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request">​</a></h2>
 <p><code>GET /api/v2/course/</code></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h3>
-<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>join_status</td><td>query</td><td>string</td><td>false</td><td>Filter by join <a href="/docs/apireference/v2/schemas/course#enumerated-values">join_status</a></td></tr><tr><td>created_by</td><td>query</td><td>integer</td><td>false</td><td>Return only courses created by this user id</td></tr><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>statuses</td><td>query</td><td>list(string)¦string</td><td>false</td><td>Filter by <a href="/docs/apireference/v2/schemas/course#enumerated-values">join_status</a>; default: <code>[&quot;manager&quot;, &quot;joined&quot;]</code></td></tr><tr><td>created_by</td><td>query</td><td>integer</td><td>false</td><td>Return only courses created by this user id</td></tr><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-request">Example Request<a href="#example-request" class="hash-link" aria-label="Direct link to Example Request" title="Direct link to Example Request">​</a></h3>
 <!-- -->
 <!-- -->
