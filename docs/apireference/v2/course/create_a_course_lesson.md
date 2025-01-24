@@ -9,7 +9,7 @@ This endpoint creates a lesson for the course identified by `{course_id}` and un
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 

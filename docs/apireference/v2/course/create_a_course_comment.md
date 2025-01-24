@@ -11,9 +11,10 @@ the comment identified by `in_reply_to`.
 
 :::info
 
-This operation requires the user joins the course and that the lesson has `comments_enabled` (also managers).<br/>
-Users with role manager can always get a lesson while the other users should follow the rules setup by the
-managers.<br/>
+This operation requires the user joins the course and that the lesson has `comments_enabled` (also creator and
+managers).<br/>
+The creator and users with role manager can always get a lesson while the other users should follow the rules setup by
+the managers.<br/>
 **Rules**:
 
 1. lesson should be `published`;

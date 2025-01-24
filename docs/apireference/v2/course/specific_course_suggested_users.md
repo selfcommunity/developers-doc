@@ -8,7 +8,7 @@ This endpoint retrieves the list of all suggested users to invite to a specific 
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 

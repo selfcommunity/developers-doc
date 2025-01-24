@@ -4,7 +4,8 @@ sidebar_position: 1
 title: Get User Courses
 ---
 
-This endpoint return the list of courses the user has joined. Return only the courses that the current user can view.
+This endpoint return the list of courses the user has [status](/docs/apireference/v2/schemas/course#enumerated-values)
+`joined` or `manager`. Return only the courses that the current user can view.
 
 :::info
 

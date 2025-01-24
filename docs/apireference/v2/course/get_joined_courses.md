@@ -18,12 +18,12 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name        | In    | Type    | Required | Description                                                                          |
-|-------------|-------|---------|----------|--------------------------------------------------------------------------------------|
-| join_status | query | string  | false    | Filter by join [join_status](/docs/apireference/v2/schemas/course#enumerated-values) |
-| created_by  | query | integer | false    | Return only courses created by this user id                                          |
-| limit       | query | integer | false    | Number of results to return per page                                                 |
-| offset      | query | integer | false    | The initial index from which to return the results                                   |
+| Name       | In    | Type                | Required | Description                                                                                                       |
+|------------|-------|---------------------|----------|-------------------------------------------------------------------------------------------------------------------|
+| statuses   | query | list(string)¦string | false    | Filter by [join_status](/docs/apireference/v2/schemas/course#enumerated-values); default: `["manager", "joined"]` |
+| created_by | query | integer             | false    | Return only courses created by this user id                                                                       |
+| limit      | query | integer             | false    | Number of results to return per page                                                                              |
+| offset     | query | integer             | false    | The initial index from which to return the results                                                                |
 
 ### Example Request
 

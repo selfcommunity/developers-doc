@@ -8,7 +8,7 @@ This endpoint retrieves a specific course information.
 
 :::info
 
-The `view` param with values `edit` and `dashboard` needs manager permissions.
+The `view` param with values `edit` and `dashboard` needs creator or manager role.
 
 :::
 
@@ -16,7 +16,7 @@ The `view` param with values `edit` and `dashboard` needs manager permissions.
 
 If course `privacy` is:
 
-- empty string (draft mode): only managers can see the course;
+- empty string (draft mode): only creator and managers can see the course;
 - `open`: anyone can see and join the course;
 - `private`: only invited members can see the course; non-members will see the lock screen (only basic
   data: [Course Minimal](/docs/apireference/v2/schemas/course_minimal));
@@ -46,8 +46,8 @@ This operation requires authentication if `content_availability` community optio
 | Parameter | Value     | Description                                                                                                              |
 |-----------|-----------|--------------------------------------------------------------------------------------------------------------------------|
 | » view    | user      | Default value; recover the data of a course for a generic user (sections empty and lessons in draft mode will be hidden) |
-| » view    | edit      | Like `user` but include any section and lesson; user must be a manager of the course                                     |
-| » view    | dashboard | Recover useful data for the dashboard; user must be a manager of the course                                              |
+| » view    | edit      | Like `user` but include any section and lesson; user must be a creator or manager of the course                          |
+| » view    | dashboard | Recover useful data for the dashboard; user must be a creator or manager of the course                                              |
 
 ### Example Request
 

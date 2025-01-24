@@ -8,7 +8,7 @@ This endpoint retrieves all sections (ordered and not paginated) for the course 
 
 :::info
 
-This operation requires the course manager role
+This operation requires the course creator or manager role
 
 :::
 

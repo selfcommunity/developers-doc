@@ -10,7 +10,7 @@ section identified by `{section_id}`.
 :::info
 
 This operation requires the user joins the course.<br/>
-Users with role manager can always get a lesson while the other users should follow the rules setup by the
+Users with role creator or manager can always get a lesson while the other users should follow the rules setup by the
 managers.<br/>
 **Rules**:
 

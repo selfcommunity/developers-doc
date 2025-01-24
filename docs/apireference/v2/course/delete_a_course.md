@@ -8,7 +8,7 @@ This endpoint deletes a specific course identified by `{id}`.
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 

@@ -9,7 +9,7 @@ section identified by `{section_id}`.
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 
@@ -68,6 +68,6 @@ curl -X DELETE /api/v2/course/{course_id}/section/{section_id}/lesson/{lesson_id
 
 ## Responses
 
-| Status | Meaning                                                        | Description          | Schema |
-|--------|----------------------------------------------------------------|----------------------|--------|
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
 | 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

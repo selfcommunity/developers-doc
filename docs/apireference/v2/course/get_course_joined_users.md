@@ -7,7 +7,7 @@ title: Get Course Joined Users
 This endpoint retrieves the list of all joined users to the course identified by `{id}`.
 
 :::info
-This operation requires the course manager role if the option `hide_member_count` is active.<br/>
+This operation requires the course creator or manager role if the option `hide_member_count` is active.<br/>
 If the option `hide_member_count` is not active and the course `privacy` is:
 
 - empty string (draft mode): only managers can see the users that joined the course;

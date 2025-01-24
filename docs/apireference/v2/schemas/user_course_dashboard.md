@@ -33,10 +33,11 @@ title: User Course Dashboard
 
 #### Enumerated Values
 
-| Property    | Value     | Description                                                                  |
-|-------------|-----------|------------------------------------------------------------------------------|
-| join_status | null      | The user has no status                                                       |
-| join_status | joined    | The user joined the course                                                   |
-| join_status | invited   | The user was invited to the course                                           |
-| join_status | requested | The user requests access to the course (available when the course is closed) |
-| join_status | manager   | The user is a manager of the course and of course the user joined the course |
+| Property    | Value     | Description                                                                              |
+|-------------|-----------|------------------------------------------------------------------------------------------|
+| join_status | null      | The user has no status                                                                   |
+| join_status | creator   | The user is the creator of the course; the user cannot leave the course or change status |
+| join_status | manager   | The user is a manager of the course                                                      |
+| join_status | joined    | The user joined the course                                                               |
+| join_status | invited   | The user was invited to the course                                                       |
+| join_status | requested | The user requests access to the course (available when the course is closed)             |

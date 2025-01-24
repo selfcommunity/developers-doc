@@ -4,18 +4,18 @@ sidebar_position: 1
 title: Change User Role
 ---
 
-This endpoint allows user managers to change the role of some users in the specified course.<br/>
+This endpoint allows the creator and user managers to change the role of some users in the specified course.<br/>
 At least one parameter between managers, joined and unjoined is required.
 
 :::note
 
-The creator of the course cannot be removed from the managers.
+The creator of the course cannot be removed from the course.
 
 :::
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 

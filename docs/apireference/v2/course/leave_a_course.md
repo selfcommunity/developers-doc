@@ -9,14 +9,14 @@ requested to join a course with private access then remove the request to join.
 
 :::note
 
-By passing the optional param `user` a course manager is able to remove the user from the course.
+By passing the optional param `user` a course creator or manager is able to remove the user from the course.
 
 :::
 
 :::info
 
-This operation requires authentication. It requires also that the user is a manager of the course if the `user` param is
-passed. The creator of the group cannot unjoin the group but the other managers can.
+This operation requires authentication. It requires also that the user is a creator or manager of the course if the
+`user` param is passed. The creator of the group cannot unjoin the group but the other managers can.
 
 :::
 

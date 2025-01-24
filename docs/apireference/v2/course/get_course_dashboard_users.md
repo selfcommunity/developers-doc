@@ -9,7 +9,7 @@ useful stats that can be used to make a course dashboard.
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 
@@ -19,12 +19,13 @@ This operation requires the course manager role.
 
 ### Parameters
 
-| Name   | In    | Type    | Required | Description                                                       |
-|--------|-------|---------|----------|-------------------------------------------------------------------|
-| id     | path  | string  | true     | A unique integer value identifying this course                    |
-| limit  | query | integer | false    | Number of results to return per page                              |
-| offset | query | integer | false    | The initial index from which to return the results                |
-| search | query | string  | false    | A search term (search inside username and real_name of the users) |
+| Name     | In    | Type                | Required | Description                                                                                                       |
+|----------|-------|---------------------|----------|-------------------------------------------------------------------------------------------------------------------|
+| id       | path  | string              | true     | A unique integer value identifying this course                                                                    |
+| limit    | query | integer             | false    | Number of results to return per page                                                                              |
+| offset   | query | integer             | false    | The initial index from which to return the results                                                                |
+| search   | query | string              | false    | A search term (search inside username and real_name of the users)                                                 |
+| statuses | query | list(string)¦string | false    | Filter by [join_status](/docs/apireference/v2/schemas/course#enumerated-values); default: `["manager", "joined"]` |
 
 ### Example Request
 

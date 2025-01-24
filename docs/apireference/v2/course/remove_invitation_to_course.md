@@ -4,12 +4,12 @@ sidebar_position: 1
 title: Remove Invitation To Course
 ---
 
-This endpoint allows the manager to remove one or more invitations to join a course that were previously sent to some
-users.
+This endpoint allows the creator or manager to remove one or more invitations to join a course that were previously sent
+to some users.
 
 :::info
 
-This operation requires authentication and that the user is the manager of the course.
+This operation requires authentication and that the user is the creator or manager of the course.
 
 :::
 

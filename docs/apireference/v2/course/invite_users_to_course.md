@@ -4,11 +4,11 @@ sidebar_position: 1
 title: Invite Users Or Accept Users
 ---
 
-This endpoint allows user managers to invite or accept users to the course
+This endpoint allows user creator or managers to invite or accept users to the course.
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 

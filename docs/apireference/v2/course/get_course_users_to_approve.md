@@ -8,7 +8,7 @@ This endpoint retrieves the list of all the users waiting to be accepted to join
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 

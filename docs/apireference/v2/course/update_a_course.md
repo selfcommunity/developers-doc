@@ -8,7 +8,7 @@ This endpoint updates a specific course.
 
 :::info
 
-This operation requires the course manager role.
+This operation requires the course creator or manager role.
 
 :::
 
