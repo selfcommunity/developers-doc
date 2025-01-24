@@ -4,7 +4,14 @@ sidebar_position: 1
 title: Get Course Joined Users
 ---
 
-This endpoint retrieves the list of all joined users to the course identified by `{id}`.
+This endpoint retrieves the list of joined users to the course identified by `{id}`.<br/>
+By default joined users means:
+
+- user with `join_status` equal to `manager`;
+- user with `join_status` equal to `joined`.
+
+If you need more or less roles use the param `statuses` (only `creator`, `manager` and `joined` are valid status for
+this route).
 
 :::info
 This operation requires the course creator or manager role if the option `hide_member_count` is active.<br/>
@@ -22,11 +29,20 @@ If the option `hide_member_count` is not active and the course `privacy` is:
 
 ### Parameters
 
-| Name   | In    | Type    | Required | Description                                        |
-|--------|-------|---------|----------|----------------------------------------------------|
-| id     | path  | string  | true     | A unique integer value identifying this course     |
-| limit  | query | integer | false    | Number of results to return per page               |
-| offset | query | integer | false    | The initial index from which to return the results |
+| Name     | In    | Type                | Required | Description                                                                                                                                                                                   |
+|----------|-------|---------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| id       | path  | string              | true     | A unique integer value identifying this course                                                                                                                                                |
+| limit    | query | integer             | false    | Number of results to return per page                                                                                                                                                          |
+| offset   | query | integer             | false    | The initial index from which to return the results                                                                                                                                            |
+| statuses | query | list(string)¦string | false    | Filter by [join_status](/docs/apireference/v2/schemas/course#enumerated-values); default: `["manager", "joined"]`.<br/>Only `creator`, `manager` and `joined` are valid status for this route |
+
+#### Enumerated Values
+
+| Parameter     | Value   | Description                      |
+|---------------|---------|----------------------------------|
+| » join_status | creator | The creator of the course        |
+| » join_status | manager | The managers of the course       |
+| » join_status | joined  | The users that joined the course |
 
 ### Example Request
 
