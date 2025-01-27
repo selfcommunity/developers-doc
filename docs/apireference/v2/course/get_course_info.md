@@ -4,11 +4,14 @@ sidebar_position: 1
 title: Get Course Info
 ---
 
-This endpoint retrieves a specific course information.
+This endpoint retrieves a specific course information; you can also emulate a specific community user using the `user`
+parameter.
 
 :::info
 
-The `view` param with values `edit` and `dashboard` needs creator or manager role.
+The `view` param with values `edit` and `dashboard` needs creator or manager role.<br/>
+The user making the request must be the creator or a manager although the `user` parameter will be passed to emulate a
+specific user.
 
 :::
 
@@ -36,10 +39,11 @@ This operation requires authentication if `content_availability` community optio
 
 ### Parameters
 
-| Name | In    | Type    | Required | Description                                    |
-|------|-------|---------|----------|------------------------------------------------|
-| id   | path  | integer | true     | A unique integer value identifying this course |
-| view | query | string  | false    | Recover the course data for a specific view    |
+| Name | In    | Type    | Required | Description                                                                   |
+|------|-------|---------|----------|-------------------------------------------------------------------------------|
+| id   | path  | integer | true     | A unique integer value identifying this course                                |
+| view | query | string  | false    | Recover the course data for a specific view                                   |
+| user | body  | integer | false    | A unique integer value identifying the user; required creator or manager role |
 
 #### Enumerated Values
 
@@ -47,7 +51,7 @@ This operation requires authentication if `content_availability` community optio
 |-----------|-----------|--------------------------------------------------------------------------------------------------------------------------|
 | » view    | user      | Default value; recover the data of a course for a generic user (sections empty and lessons in draft mode will be hidden) |
 | » view    | edit      | Like `user` but include any section and lesson; user must be a creator or manager of the course                          |
-| » view    | dashboard | Recover useful data for the dashboard; user must be a creator or manager of the course                                              |
+| » view    | dashboard | Recover useful data for the dashboard; user must be a creator or manager of the course                                   |
 
 ### Example Request
 
