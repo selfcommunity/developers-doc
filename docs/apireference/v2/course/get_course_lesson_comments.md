@@ -108,6 +108,17 @@ curl -X GET /api/v2/course/{course_id}/section/{section_id}/lesson/{lesson_id}/c
 
 ## Responses
 
-| Status | Meaning                                                 | Description          | Schema                                                               |
-|--------|---------------------------------------------------------|----------------------|----------------------------------------------------------------------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | list([Course Comment](/docs/apireference/v2/schemas/course_comment)) |
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
+
+### Response Schema
+
+Status Code **200**
+
+| Name       | Type                                                                 | Required | Restrictions | Description         |
+|------------|----------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                              | false    | none         | Total results count |
+| » next     | string(uri)¦null                                                     | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                                     | false    | none         | Previous page url   |
+| » results  | list([Course Comment](/docs/apireference/v2/schemas/course_comment)) | false    | none         | List of results     |
