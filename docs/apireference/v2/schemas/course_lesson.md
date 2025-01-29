@@ -17,7 +17,11 @@ title: Course Lesson
   "html": "string",
   "created_at": "string",
   "created_by": {},
-  "medias": []
+  "medias": [],
+  "passing_grade": "integer",
+  "questions_order": [],
+  "questions": [],
+  "last_attempt": {}
 }
 ```
 
@@ -38,6 +42,10 @@ title: Course Lesson
 | created_at        | string(date-time)                                                                  | false    | read-only    | Datetime of lesson course creation                                                                                 |
 | created_by        | [User](/docs/apireference/v2/schemas/user)                                         | false    | read-only    | The lesson course creator                                                                                          |
 | medias            | list(integer)                                                                      | false    | none         | List of id of [Media](/docs/apireference/v2/schemas/media) for the lesson course                                   |
+| passing_grade     | integer                                                                            | false    | none         | Define the minimum percentage of score required for students to pass the quiz; default: 60                         |
+| questions_order   | list(integer)                                                                      | false    | write-only   | Define the order of the questions for the lesson; should be a list of question ids                                 |
+| questions         | list([Course Quiz Question](/docs/apireference/v2/schemas/course_question))        | false    | read-only    | List of [Course Quiz Question](/docs/apireference/v2/schemas/course_question) for the lesson                       |
+| last_attempt      | list([Course Quiz Attempt](/docs/apireference/v2/schemas/course_attempt))          | false    | read-only    | Last [Course Quiz Attempt](/docs/apireference/v2/schemas/course_attempt) by the current user in this lesson course |
 
 #### Enumerated Values
 
