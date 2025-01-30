@@ -17,6 +17,11 @@ This operation requires the course creator or manager role.
 
 You can use this endpoint to edit a single field passing only the id and the needed field (without mandatory fields).
 
+If the lesson is of type `quiz` then it is possible to use this call to reorder the questions within the quiz using
+the `questions_order` parameter and assigning it a list of question ids.
+Be careful cause if some ids assigned to the quiz are omitted then the related questions will be automatically deleted
+and the only questions still associated to the quiz will be those contained in the `questions_order` list.
+
 :::
 
 ## HTTP Request

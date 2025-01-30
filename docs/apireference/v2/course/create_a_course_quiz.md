@@ -9,7 +9,7 @@ identified by `{section_id}`.
 
 :::info
 
-This operation requires the course creator or manager role.
+This operation requires the course creator or manager role and you should specify the parameter `type`=`quiz`.
 
 :::
 
@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
 ```json
 {
     "name": "string",
-    "type": "string",
+    "type": "quiz",
     "text": "string"
 }
 ```
@@ -56,7 +56,7 @@ import TabItem from '@theme/TabItem';
 ```js
 const inputBody = '{
     "name": "string",
-    "type": "string",
+    "type": "quiz",
     "text": "string"
 
 }';
