@@ -25,10 +25,10 @@ Example preview:
 
 #### Properties
 
-|Name|Type|Required|Restrictions|Description|
-|---|---|---|---|---|
-|is_new|boolean|true|read-only|If true, the notification has been read|
-|sid|string|true|read-only|Serialization id of the notification|
-|type|string|true|read-only|Type "blocker_user"|
-|active_at|string(date-time)|true|read-only|Time when the notification was generated|
-|block_settings|[BlockedSettings](/docs/apireference/v2/schemas/blocked_settings)|true|read-only|Data of user block|
+| Name           | Type                                                              | Required | Restrictions | Description                              |
+|----------------|-------------------------------------------------------------------|----------|--------------|------------------------------------------|
+| is_new         | boolean                                                           | true     | read-only    | If true, the notification has been read  |
+| sid            | string                                                            | true     | read-only    | Serialization id of the notification     |
+| type           | string                                                            | true     | read-only    | Type "blocker_user"                      |
+| active_at      | string(date-time)                                                 | true     | read-only    | Time when the notification was generated |
+| block_settings | [BlockedSettings](/docs/apireference/v2/schemas/blocked_settings) | true     | read-only    | Data of user block                       |

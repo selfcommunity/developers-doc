@@ -38,4 +38,4 @@ title: Course User Lesson Detail
 | status            | published   | Lesson course status is published                                                          |
 | completion_status | uncompleted | Lesson course completion status is uncompleted for the user                                |
 | completion_status | completed   | Lesson course completion status is completed for the user                                  |
-| completion_status | failed      | Lesson course completion status is failed for the user                                     |
+| completion_status | failed      | Lesson course completion status is failed for the user; for quiz                           |

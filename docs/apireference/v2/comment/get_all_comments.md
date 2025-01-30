@@ -60,10 +60,10 @@ This operation requires authentication only if `content_availability` community 
 
 #### Enumerated Values
 
-| Parameter  | Value      | Description                                                       |
-|------------|------------|-------------------------------------------------------------------|
-| » ordering | added_at   | Order by added_at comment field                                   |
-| » ordering | connection | Order giving pripority to user connections (friends or followers) |
+| Parameter  | Value      | Description                                                      |
+|------------|------------|------------------------------------------------------------------|
+| » ordering | added_at   | Order by added_at comment field                                  |
+| » ordering | connection | Order giving priority to user connections (friends or followers) |
 
 ### Example Request
 
@@ -109,9 +109,9 @@ curl -X GET /api/v2/comment/ \
 
 ## Responses
 
-| Status | Meaning                                                 | Description | Schema |
-|--------|---------------------------------------------------------|-------------|--------|
-| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code        | Inline |
+| Status | Meaning                                                 | Description          | Schema |
+|--------|---------------------------------------------------------|----------------------|--------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | Inline |
 
 ### Response Schema
 
@@ -125,6 +125,7 @@ Status Code **200**
 | » results  | list([Comment](/docs/apireference/v2/schemas/comment)) | false    | none         | none        |
 
 ### Example responses
+
 ````mdx-code-block
 
 <Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
