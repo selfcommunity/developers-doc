@@ -1,7 +1,7 @@
 ---
-sidebar_label: User Course Dashboard
+sidebar_label: Course User Dashboard
 sidebar_position: 1
-title: User Course Dashboard
+title: Course User Dashboard
 ---
 
 ```json
@@ -26,7 +26,7 @@ title: User Course Dashboard
 | username             | string                                                                          | false    | read-only    | The username of the user. Max 255 characters. Letters, numbers and -/_ characters |
 | real_name            | string                                                                          | false    | read-only    | Real name. Max 255 characters                                                     |
 | avatar               | string(binary)¦null                                                             | false    | read-only    | The user avatar                                                                   |
-| join_status          | [status](/docs/apireference/v2/schemas/user_course_dashboard#enumerated-values) | false    | read-only    | Enum to define the course subscription status of the current user                 |
+| join_status          | [status](/docs/apireference/v2/schemas/course_user_dashboard#enumerated-values) | false    | read-only    | Enum to define the course subscription status of the current user                 |
 | user_completion_rate | integer                                                                         | false    | read-only    | Progress completion of the course in percentage for the current user              |
 | last_active_at       | string(date-time)                                                               | false    | read-only    | The datetime when the user completed a lesson in the course                       |
 | joined_at            | string(date-time)                                                               | false    | read-only    | The datetime when the user joined the course                                      |

@@ -95,9 +95,9 @@ curl -X GET /api/v2/course/{id}/join/ \
 
 Status Code **200**
 
-| Name       | Type                                                                           | Required | Restrictions | Description         |
-|------------|--------------------------------------------------------------------------------|----------|--------------|---------------------|
-| » count    | integer                                                                        | false    | none         | Total results count |
-| » next     | string(uri)¦null                                                               | false    | none         | Next page url       |
-| » previous | string(uri)¦null                                                               | false    | none         | Previous page url   |
-| » results  | list([User Course Minimal](/docs/apireference/v2/schemas/user_course_minimal)) | false    | none         | List of users       |
+| Name       | Type                                                             | Required | Restrictions | Description         |
+|------------|------------------------------------------------------------------|----------|--------------|---------------------|
+| » count    | integer                                                          | false    | none         | Total results count |
+| » next     | string(uri)¦null                                                 | false    | none         | Next page url       |
+| » previous | string(uri)¦null                                                 | false    | none         | Previous page url   |
+| » results  | list([User Minimal](/docs/apireference/v2/schemas/user_minimal)) | false    | none         | List of users       |

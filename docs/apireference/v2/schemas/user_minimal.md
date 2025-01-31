@@ -1,7 +1,7 @@
 ---
-sidebar_label: User Course Minimal
+sidebar_label: User Minimal
 sidebar_position: 1
-title: User Course Minimal
+title: User Minimal
 ---
 
 ```json

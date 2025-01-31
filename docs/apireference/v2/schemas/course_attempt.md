@@ -9,7 +9,7 @@ title: Course Quiz Attempt
   "id": "integer",
   "created_at": "string",
   "lesson_id": "integer",
-  "user_id": "integer",
+  "user": {},
   "quiz_attempt": {
     "grade": "integer",
     "result": "string",
@@ -29,7 +29,7 @@ title: Course Quiz Attempt
 | id                  | integer                                                                     | false    | read-only    | Unique integer value identifying this quiz attempt                                                                         |                                                                        
 | created_at          | string(date-time)                                                           | false    | read-only    | Datetime of quiz attempt                                                                                                   |
 | lesson_id           | integer                                                                     | false    | read-only    | Unique integer value identifying this quiz (lesson course)                                                                 |                                                                        
-| user_id             | integer                                                                     | false    | read-only    | Unique integer value identifying the user that made the quiz attempt                                                       |
+| user                | [User Minimal](/docs/apireference/v2/schemas/user_minimal)                  | false    | read-only    | the user who attempted to solve the quiz                                                                                   |
 | quiz_attempt        | object                                                                      | false    | read-only    | The detailed quiz attempt                                                                                                  |
 | » grade             | integer                                                                     | false    | read-only    | The grade (score in percentage) the user received at the end of the following quiz attempt                                 |
 | » result            | [result](/docs/apireference/v2/schemas/course_attempt#enumerated-values)    | false    | read-only    | The result of the current quiz attempt                                                                                     |

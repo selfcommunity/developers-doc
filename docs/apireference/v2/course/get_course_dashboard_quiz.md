@@ -1,11 +1,11 @@
 ---
-sidebar_label: Get Course Dashboard Users
+sidebar_label: Get Course Dashboard Quiz
 sidebar_position: 1
-title: Get Course Dashboard Users
+title: Get Course Dashboard Quiz
 ---
 
-This endpoint retrieves the list of all users that joined the course identified by `{id}`; it will also return some
-useful stats that can be used to make a course dashboard.
+This endpoint retrieves the list of all quiz that the users that joined the course identified by `{id}` made. It will
+also return some useful stats that can be used to make a course dashboard about quiz.
 
 :::info
 
@@ -15,7 +15,7 @@ This operation requires the course creator or manager role.
 
 ## HTTP Request
 
-`GET /api/v2/course/{id}/users/`
+`GET /api/v2/course/{id}/quiz/`
 
 ### Parameters
 
@@ -24,7 +24,7 @@ This operation requires the course creator or manager role.
 | id       | path  | string              | true     | A unique integer value identifying this course                                                                    |
 | limit    | query | integer             | false    | Number of results to return per page                                                                              |
 | offset   | query | integer             | false    | The initial index from which to return the results                                                                |
-| search   | query | string              | false    | A search term (search inside username and real_name of the users)                                                 |
+| search   | query | string              | false    | A search term (search inside username, real_name of the users and name of lessons)                                |
 | statuses | query | list(string)¦string | false    | Filter by [join_status](/docs/apireference/v2/schemas/course#enumerated-values); default: `["manager", "joined"]` |
 
 ### Example Request
@@ -42,7 +42,7 @@ const headers = {
   'Authorization: Bearer <token>'
 };
 
-fetch('/api/v2/course/{id}/users/',
+fetch('/api/v2/course/{id}/quiz/',
 {
   method: 'GET',
   headers: headers
@@ -60,7 +60,7 @@ fetch('/api/v2/course/{id}/users/',
 
 ```bash
 # You can also use wget
-curl -X GET /api/v2/course/{id}/users/ \
+curl -X GET /api/v2/course/{id}/quiz/ \
   -H 'Accept: application/json'
   -H "Authorization: Bearer <token>"
 ```
@@ -83,4 +83,4 @@ Status Code **200**
 | » count    | integer                                                                            | false    | none         | Total results count                                                 |
 | » next     | string(uri)¦null                                                                   | false    | none         | Next page url                                                       |
 | » previous | string(uri)¦null                                                                   | false    | none         | Previous page url                                                   |
-| » results  | list([Course User Dashboard](/docs/apireference/v2/schemas/course_user_dashboard)) | false    | none         | List of results. Every items will contain only the necessary fields |
+| » results  | list([Course Quiz Dashboard](/docs/apireference/v2/schemas/course_quiz_dashboard)) | false    | none         | List of results. Every items will contain only the necessary fields |

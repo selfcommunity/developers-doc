@@ -53,7 +53,7 @@ title: Course Dashboard
 | join_status          | [status](/docs/apireference/v2/schemas/course_dashboard#enumerated-values)  | false    | read-only    | Enum to define the course subscription status of the current user                          |
 | user_completion_rate | integer                                                                     | false    | read-only    | Progress completion of the course in percentage for the current user                       |
 | created_at           | string(date-time)                                                           | false    | read-only    | Datetime of course creation                                                                |
-| created_by           | [User](/docs/apireference/v2/schemas/user)                                  | false    | read-only    | The course creator                                                                         |
+| created_by           | [User Minimal](/docs/apireference/v2/schemas/user_minimal)                  | false    | read-only    | The course creator                                                                         |
 | avg_completion_rate  | integer                                                                     | false    | read-only    | Average completion rate of the course in percentage                                        |                                                                         |
 
 #### Enumerated Values
