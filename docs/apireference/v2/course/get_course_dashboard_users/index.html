@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.33e69370.css">
-<script src="/assets/js/runtime~main.c0342154.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.7a7e8ed0.js" defer="defer"></script>
 <script src="/assets/js/main.006a826d.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -19,7 +19,9 @@ useful stats that can be used to make a course dashboard.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request">​</a></h2>
 <p><code>GET /api/v2/course/{id}/users/</code></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h3>
-<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>path</td><td>string</td><td>true</td><td>A unique integer value identifying this course</td></tr><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr><tr><td>search</td><td>query</td><td>string</td><td>false</td><td>A search term (search inside username and real_name of the users)</td></tr><tr><td>statuses</td><td>query</td><td>list(string)¦string</td><td>false</td><td>Filter by <a href="/docs/apireference/v2/schemas/course#enumerated-values">join_status</a>; default: <code>[&quot;manager&quot;, &quot;joined&quot;]</code></td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>id</td><td>path</td><td>string</td><td>true</td><td>A unique integer value identifying this course</td></tr><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr><tr><td>search</td><td>query</td><td>string</td><td>false</td><td>A search term (search inside username and real_name of the users)</td></tr><tr><td>statuses</td><td>query</td><td>list(string)¦string</td><td>false</td><td>Filter by <a href="/docs/apireference/v2/schemas/course#enumerated-values">join_status</a>; default: <code>[&quot;manager&quot;, &quot;joined&quot;]</code></td></tr><tr><td>ordering</td><td>query</td><td>string</td><td>false</td><td>The order of the users. Default to <code>-joined_at</code></td></tr></tbody></table>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="enumerated-values">Enumerated Values<a href="#enumerated-values" class="hash-link" aria-label="Direct link to Enumerated Values" title="Direct link to Enumerated Values">​</a></h4>
+<table><thead><tr><th>Parameter</th><th>Value</th><th>Description</th></tr></thead><tbody><tr><td>» ordering</td><td>joined_at</td><td>Order by joined_at datetime</td></tr><tr><td>» ordering</td><td>last_active_at</td><td>Order by last_active_at datetime</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-request">Example Request<a href="#example-request" class="hash-link" aria-label="Direct link to Example Request" title="Direct link to Example Request">​</a></h3>
 <!-- -->
 <!-- -->
