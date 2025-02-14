@@ -26,6 +26,14 @@ This operation requires the course creator or manager role.
 | offset   | query | integer             | false    | The initial index from which to return the results                                                                |
 | search   | query | string              | false    | A search term (search inside username and real_name of the users)                                                 |
 | statuses | query | list(string)¦string | false    | Filter by [join_status](/docs/apireference/v2/schemas/course#enumerated-values); default: `["manager", "joined"]` |
+| ordering | query | string              | false    | The order of the users. Default to `-joined_at`                                                                   |
+
+#### Enumerated Values
+
+| Parameter  | Value          | Description                      |
+|------------|----------------|----------------------------------|
+| » ordering | joined_at      | Order by joined_at datetime      |
+| » ordering | last_active_at | Order by last_active_at datetime |
 
 ### Example Request
 
