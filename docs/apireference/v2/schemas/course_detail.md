@@ -30,7 +30,9 @@ title: Course Detail
   "created_at": "string",
   "created_by": {},
   "categories": [],
-  "sections": []
+  "sections": [],
+  "num_lessons": "integer",
+  "num_sections": "integer"
 }
 
 ```
@@ -64,6 +66,8 @@ title: Course Detail
 | created_by                       | [User Minimal](/docs/apireference/v2/schemas/user_minimal)                         | false    | read-only    | The course creator                                                                                                                                                                   |
 | categories                       | list([Category](/docs/apireference/v2/schemas/category))                           | false    | read-only    | The categories associated to the course                                                                                                                                              |
 | sections                         | list([Course Section Detail](/docs/apireference/v2/schemas/course_section_detail)) | false    | read-only    | The sections associated to the course                                                                                                                                                |
+| num_lessons                      | integer                                                                            | false    | read-only    | Total number of lessons of the course                                                                                                                                                |                                                                         |
+| num_sections                     | integer                                                                            | false    | read-only    | Total number of sections                                                                                                                                                             |                                                                         |
 
 #### Enumerated Values
 
