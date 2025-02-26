@@ -25,13 +25,14 @@ to [Get Categories tagged with a Specific Tag](/docs/apireference/v2/tag/get_cat
 
 ### Parameters
 
-| Name    | In    | Type    | Required | Description                                                |
-|---------|-------|---------|----------|------------------------------------------------------------|
-| limit   | query | integer | false    | Number of results to return per page                       |
-| offset  | query | integer | false    | The initial index from which to return the results         |
-| search  | query | string  | false    | A search term                                              |
-| active  | query | string  | false    | Filter using field active (only if user is administrator)  |
-| deleted | query | string  | false    | Filter using field deleted (only if user is administrator) |
+| Name               | In    | Type    | Required | Description                                                                                                                                                                                             |
+|--------------------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| limit              | query | integer | false    | Number of results to return per page                                                                                                                                                                    |
+| offset             | query | integer | false    | The initial index from which to return the results                                                                                                                                                      |
+| search             | query | string  | false    | A search term                                                                                                                                                                                           |
+| can_create_content | query | string  | false    | Search category where the current user can (value: true) or cannot (value: false) create a content; the default value is '' and didn't check if the user can or cannot create a content in the category |
+| active             | query | string  | false    | Filter using field active (only if user is administrator)                                                                                                                                               |
+| deleted            | query | string  | false    | Filter using field deleted (only if user is administrator)                                                                                                                                              |
 
 ### Example Request
 
