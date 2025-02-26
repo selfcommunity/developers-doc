@@ -18,9 +18,9 @@ This operation requires authentication. The logged user must be the post creator
 
 ### Parameters
 
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|id|path|string|true|A unique integer value identifying this post|
+| Name | In   | Type   | Required | Description                                  |
+|------|------|--------|----------|----------------------------------------------|
+| id   | path | string | true     | A unique integer value identifying this post |
 
 ### Example Request
 
@@ -62,11 +62,6 @@ curl -X POST /api/v2/post/{id}/restore/
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
-
-
-
-
-
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |

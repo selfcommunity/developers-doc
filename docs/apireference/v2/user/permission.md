@@ -61,37 +61,8 @@ curl -X GET /api/v2/user/me/permission/ \
 
 ## Responses
 
-### Response 
-Schema|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[User Permission](/docs/apireference/v2/schemas/user_permission)|
+### Response
 
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-    "upload_video": "boolean",
-    "create_contribute": "boolean",
-    "create_poll": "boolean",
-    "locate_post": "boolean",
-    "create_post": "boolean",
-    "create_post_with_category": "boolean",
-    "follow_user": "boolean",
-    "request_connection": "boolean",
-    "accept_connection": "boolean"
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                 | Description          | Schema                                                           |
+|--------|---------------------------------------------------------|----------------------|------------------------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [User Permission](/docs/apireference/v2/schemas/user_permission) |
