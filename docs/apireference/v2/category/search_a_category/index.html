@@ -9,7 +9,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.33e69370.css">
-<script src="/assets/js/runtime~main.6aecea42.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.576c48e4.js" defer="defer"></script>
 <script src="/assets/js/main.59070bc7.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -18,7 +18,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request">​</a></h2>
 <p><code>GET /api/v2/category/search/</code></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters">​</a></h3>
-<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr><tr><td>search</td><td>query</td><td>string</td><td>false</td><td>A search term</td></tr><tr><td>active</td><td>query</td><td>string</td><td>false</td><td>Filter using field active (only if user is administrator)</td></tr><tr><td>deleted</td><td>query</td><td>string</td><td>false</td><td>Filter using field deleted (only if user is administrator)</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>limit</td><td>query</td><td>integer</td><td>false</td><td>Number of results to return per page</td></tr><tr><td>offset</td><td>query</td><td>integer</td><td>false</td><td>The initial index from which to return the results</td></tr><tr><td>search</td><td>query</td><td>string</td><td>false</td><td>A search term</td></tr><tr><td>can_create_content</td><td>query</td><td>string</td><td>false</td><td>Search category where the current user can (value: true) or cannot (value: false) create a content; the default value is &#x27;&#x27; and didn&#x27;t check if the user can or cannot create a content in the category</td></tr><tr><td>active</td><td>query</td><td>string</td><td>false</td><td>Filter using field active (only if user is administrator)</td></tr><tr><td>deleted</td><td>query</td><td>string</td><td>false</td><td>Filter using field deleted (only if user is administrator)</td></tr></tbody></table>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-request">Example Request<a href="#example-request" class="hash-link" aria-label="Direct link to Example Request" title="Direct link to Example Request">​</a></h3>
 <!-- -->
 <!-- -->
