@@ -12,7 +12,6 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
-
 ## HTTP Request
 
 `GET /api/v2/category/{id}/`
@@ -66,51 +65,7 @@ curl -X GET /api/v2/category/{id}/ \
 ````
 
 ## Responses
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|Response status code|[Category](/docs/apireference/v2/schemas/category)|
 
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
-
-```json
-{
-  "id": "integer",
-  "tags": [{Tag}],
-  "followed": "boolean",
-  "order": "integer",
-  "name": "string",
-  "name_synonyms": "string",
-  "slug": "string",
-  "slogan": "string",
-  "html_info": "string",
-  "seo_title": "string",
-  "seo_description": "string",
-  "auto_follow": "string",
-  "active": "boolean",
-  "image_original": "string",
-  "image_bigger": "string",
-  "image_big": "string",
-  "image_medium": "string",
-  "image_small": "string",
-  "emotional_image_original": "string",
-  "emotional_image_position": "integer",
-  "lastmod_datetime": "string",
-  "stream_order_by": "string",
-  "followers_counter": "integer",
-  "parents": ["integer"]
-}
-```
-
-</TabItem>
-</Tabs>
-````
-
-
-
-
+| Status | Meaning                                                 | Description          | Schema                                             |
+|--------|---------------------------------------------------------|----------------------|----------------------------------------------------|
+| 200    | [OK](https://tools.ietf.org/html/rfc7231#section-6.3.1) | Response status code | [Category](/docs/apireference/v2/schemas/category) |

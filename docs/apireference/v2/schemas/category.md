@@ -18,6 +18,7 @@ title: Category
   "seo_title": "string",
   "seo_description": "string",
   "auto_follow": "string",
+  "content_only_staff": "boolean",
   "active": "boolean",
   "image_original": "string",
   "image_bigger": "string",
@@ -52,6 +53,7 @@ title: Category
 | seo_title                | string¦null                                                        | false    | none         | Title for HTML meta tag                                                                            |
 | seo_description          | string¦null                                                        | false    | none         | Description for HTML meta tag                                                                      |
 | auto_follow              | [string](/docs/apireference/v2/schemas/category#enumerated-values) | false    | none         | Enum to define auto follow behaviour                                                               |
+| content_only_staff       | boolean                                                            | false    | none         | Define if only staff can publish contents in this category (default: false)                        |
 | active                   | boolean                                                            | false    | none         | Is this category active?                                                                           |
 | image_original           | string(binary)¦null                                                | false    | none         | Squared image with min size (600x600) if passed empty a default image will be used - original size |
 | image_bigger             | string(binary)                                                     | false    | read-only    | Squared image - auto generated bigger size                                                         |

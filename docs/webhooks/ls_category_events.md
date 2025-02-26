@@ -38,6 +38,7 @@ import TabItem from '@theme/TabItem';
               "seo_title": "string",
               "seo_description": "string",
               "auto_follow": "none",
+              "content_only_staff": false,
               "active": true,
               "image_original": "string",
               "image_bigger": "string",
