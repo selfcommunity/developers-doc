@@ -19,12 +19,14 @@ This operation requires authentication only if `content_availability` community 
 
 ### Parameters
 
-| Name       | In    | Type          | Required | Description                                                      |
-|------------|-------|---------------|----------|------------------------------------------------------------------|
-| limit      | query | integer       | false    | Number of results to return per page                             |
-| offset     | query | integer       | false    | The initial index from which to return the results               |
-| search     | query | string        | false    | A search term (search inside name and description)               |
-| categories | query | list(integer) | false    | List of id of [Category](/docs/apireference/v2/schemas/category) |
+| Name       | In    | Type                | Required | Description                                                                                                                                                      |
+|------------|-------|---------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| limit      | query | integer             | false    | Number of results to return per page                                                                                                                             |
+| offset     | query | integer             | false    | The initial index from which to return the results                                                                                                               |
+| search     | query | string              | false    | A search term (search inside name and description)                                                                                                               |
+| categories | query | list(integer)       | false    | List of id of [Category](/docs/apireference/v2/schemas/category)                                                                                                 |
+| statuses   | query | list(string)¦string | false    | Filter by [join_status](/docs/apireference/v2/schemas/course_minimal#enumerated-values).<br/>The default value: `[]` means that it will not filter by any status |
+| ordering   | query | string              | false    | The ordering of the courses; use `-` for order desc.<br/>Default to `-id`                                                                                        |
 
 ### Example Request
 
