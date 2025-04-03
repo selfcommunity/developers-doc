@@ -18,11 +18,12 @@ This operation requires the course creator or manager role.
 
 ### Parameters
 
-| Name   | In    | Type    | Required | Description                                        |
-|--------|-------|---------|----------|----------------------------------------------------|
-| id     | path  | string  | true     | A unique integer value identifying this course     |
-| limit  | query | integer | false    | Number of results to return per page               |
-| offset | query | integer | false    | The initial index from which to return the results |
+| Name   | In    | Type    | Required | Description                                                       |
+|--------|-------|---------|----------|-------------------------------------------------------------------|
+| id     | path  | string  | true     | A unique integer value identifying this course                    |
+| limit  | query | integer | false    | Number of results to return per page                              |
+| offset | query | integer | false    | The initial index from which to return the results                |
+| search | query | string  | false    | A search term (search inside username and real_name of the users) |
 
 ### Example Request
 
