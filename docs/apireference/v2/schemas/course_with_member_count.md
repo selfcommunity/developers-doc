@@ -25,6 +25,7 @@ title: Course With Member Count
   "image_big": "string",
   "image_medium": "string",
   "image_small": "string",
+  "deleted": "boolean",
   "join_status": "string",
   "user_completion_rate": "integer",
   "created_at": "string",
@@ -58,6 +59,7 @@ title: Course With Member Count
 | image_big                        | string                                                                              | false    | read-only    | Squared image - auto generated big size                                                                                                                                              |
 | image_medium                     | string                                                                              | false    | read-only    | Squared image - auto generated medium size                                                                                                                                           |
 | image_small                      | string                                                                              | false    | read-only    | Squared image - auto generated small size                                                                                                                                            |
+| deleted                          | boolean                                                                             | false    | read-only    | Define if this course is deleted                                                                                                                                                     |
 | join_status                      | [status](/docs/apireference/v2/schemas/course_with_member_count#enumerated-values)  | false    | read-only    | Enum to define the course subscription status of the current user                                                                                                                    |
 | user_completion_rate             | integer                                                                             | false    | read-only    | Progress completion of the course in percentage for the current user                                                                                                                 |
 | created_at                       | string(date-time)                                                                   | false    | read-only    | Datetime of course creation                                                                                                                                                          |

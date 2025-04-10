@@ -25,6 +25,7 @@ title: Course User Detail
   "image_big": "string",
   "image_medium": "string",
   "image_small": "string",
+  "deleted": "boolean",
   "join_status": "string",
   "created_at": "string",
   "created_by": {},
@@ -61,6 +62,7 @@ title: Course User Detail
 | image_big                        | string                                                                                       | false    | read-only    | Squared image - auto generated big size                                                                                                                                              |
 | image_medium                     | string                                                                                       | false    | read-only    | Squared image - auto generated medium size                                                                                                                                           |
 | image_small                      | string                                                                                       | false    | read-only    | Squared image - auto generated small size                                                                                                                                            |
+| deleted                          | boolean                                                                                      | false    | read-only    | Define if this course is deleted                                                                                                                                                     |
 | join_status                      | [status](/docs/apireference/v2/schemas/course#enumerated-values)                             | false    | read-only    | Enum to define the course subscription status of the current user                                                                                                                    |
 | created_at                       | string(date-time)                                                                            | false    | read-only    | Datetime of course creation                                                                                                                                                          |
 | created_by                       | [User Minimal](/docs/apireference/v2/schemas/user_minimal)                                   | false    | read-only    | The course creator                                                                                                                                                                   |
