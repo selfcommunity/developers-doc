@@ -205,7 +205,19 @@ const config = {
     () => ({
       configureWebpack(config, isServer) {
         return {
-          externals : { canvas: {} },
+          externals: {
+            canvas: {},
+          },
+          module: {
+            rules: [
+              {
+                test: /\.m?js$/,
+                resolve: {
+                  fullySpecified: false, // 💡 This disables the need for fully specified imports like '@mui/material/InputAdornment.js'
+                },
+              },
+            ],
+          },
         };
       },
     }),
