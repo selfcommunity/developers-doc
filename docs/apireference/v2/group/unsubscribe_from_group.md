@@ -9,14 +9,14 @@ group but has requested to participate to a private group then remove the reques
 
 :::note
 
-By passing the optional param `user` an group manager is able to remove the user from the group.
+By passing the optional param `user` a group manager is able to remove the user from the group.
 
 :::
 
 :::info
 
-This operation requires only authentication without the `user` param. It requires also that the user is the manager of
-the group if the `user` param is passed.
+This operation requires authentication. It requires also that the user is the manager of the group if the `user` param
+is passed.
 
 :::
 

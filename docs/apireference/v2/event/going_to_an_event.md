@@ -6,9 +6,17 @@ title: Going to Event
 
 This endpoint allows the user to specify that he will be going to the event.
 
+:::note
+
+By passing the optional param `users` an event manager is able to set to going some users (if they are not subscribed
+the api will first subscribe them to the event).
+
+:::
+
 :::info
 
-This operation requires authentication and that the user is subscribed to the event.
+This operation requires authentication and that the user is subscribed to the event. It requires also that the user is
+the manager of the event if the `users` param is passed.
 
 :::
 
@@ -18,9 +26,10 @@ This operation requires authentication and that the user is subscribed to the ev
 
 ### Parameters
 
-| Name | In   | Type    | Required | Description                                   |
-|------|------|---------|----------|-----------------------------------------------|
-| id   | path | integer | true     | A unique integer value identifying this event |
+| Name  | In   | Type          | Required | Description                                                                       |
+|-------|------|---------------|----------|-----------------------------------------------------------------------------------|
+| id    | path | integer       | true     | A unique integer value identifying this event                                     |
+| users | body | list(integer) | false    | List of id of [User](/docs/apireference/v2/schemas/user) to set going to an event |
 
 ### Example Request
 

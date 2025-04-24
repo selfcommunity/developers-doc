@@ -1,14 +1,21 @@
 ---
 sidebar_label: Subscribe Or Accept Invite
 sidebar_position: 1
-title:  Subscribe Or Accept Invite
+title: Subscribe Or Accept Invite
 ---
 
-This endpoint allows users to subscribe or to accept the invite to join  a specific group.
+This endpoint allows users to subscribe or to accept the invite to join a specific group.
+
+:::note
+
+By passing the optional param `users` a group manager is able to subscribe some users to the group.
+
+:::
 
 :::info
 
-This operation requires authentication.
+This operation requires authentication. It requires also that the user is the manager of the group if the `users`
+param is passed.
 
 :::
 
@@ -18,9 +25,10 @@ This operation requires authentication.
 
 ### Parameters
 
-| Name | In   | Type   | Required | Description                                      |
-|------|------|--------|----------|--------------------------------------------------|
-| id   | path | string | true     | A unique integer value identifying this group |
+| Name  | In   | Type          | Required | Description                                                           |
+|-------|------|---------------|----------|-----------------------------------------------------------------------|
+| id    | path | string        | true     | A unique integer value identifying this group                         |
+| users | body | list(integer) | false    | List of id of [User](/docs/apireference/v2/schemas/user) to subscribe |
 
 ### Example Request
 
@@ -69,9 +77,9 @@ curl -X POST /api/v2/group/{id}/invite/ \
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
+| Status | Meaning                                                         | Description          | Schema |
+|--------|-----------------------------------------------------------------|----------------------|--------|
+| 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |
 
 
 
