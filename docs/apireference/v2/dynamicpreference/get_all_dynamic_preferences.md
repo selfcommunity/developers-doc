@@ -133,7 +133,6 @@ This section contains a collection of modules which can be added as an extra fea
 * **share_post_on_facebook_enabled**: This feature allows users to share posts on Facebook.
 * **share_post_on_twitter_enabled**: This feature allows users to share posts on Twitter.
 * **share_post_on_linkedin_enabled**: This feature allows users to share posts on Linkedin.
-* **zapier_enabled**: This feature enables Zapier.
 * **custom_code_head**: Custom code printed in the head section.
 * **custom_code_body**: Custom code printed in the body section.
 
