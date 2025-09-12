@@ -2,7 +2,7 @@
 
 ### Requirement
 
-Install node (at least version 18; eg: node v**18.18.0**)
+Install node (at least version 20; eg: node v**20.10.0**)
 
 ### Build
 
