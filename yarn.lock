@@ -4450,51 +4450,51 @@
     "@rpldy/shared-ui" "1.8.0"
     "@rpldy/uploader" "1.8.0"
 
-"@selfcommunity/api-services@0.7.0-alpha.0", "@selfcommunity/api-services@^0.7.0-alpha.0":
-  version "0.7.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.7.0-alpha.0.tgz#86a72ec8fc99e5bca29a7afda3fc6f3ab33cfc57"
-  integrity sha512-9mxyt1yhbZrPxa98zBg6hLqvH4j5x0oPl3ljsSqDAYHKsWGN19laxr6kLGMURvdUgdPDCDwLb3Tybyl1pawojw==
+"@selfcommunity/api-services@0.7.0-alpha.10", "@selfcommunity/api-services@^0.7.0-alpha.10":
+  version "0.7.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/api-services/-/api-services-0.7.0-alpha.10.tgz#dd7674edf92700f12ff0ade34921e2f02db5d09a"
+  integrity sha512-YQtXSFGGM1CgfFCo87VfMq/JetifGyr+HMb4/1c6TIqFkUXQhbPZEebyN5St2zEf/8EDWhezbnciu48+pTOuTA==
   dependencies:
-    "@selfcommunity/types" "^0.8.0-alpha.0"
-    "@selfcommunity/utils" "^0.2.64-alpha.1"
+    "@selfcommunity/types" "^0.8.0-alpha.10"
+    "@selfcommunity/utils" "^0.2.64-alpha.2"
     axios "^1.4.0"
     jose "^4.14.4"
 
-"@selfcommunity/react-core@0.7.0-alpha.2", "@selfcommunity/react-core@^0.7.0-alpha.2":
-  version "0.7.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.7.0-alpha.2.tgz#e922a28af243454b25c7893b5e03868e08929f66"
-  integrity sha512-og3jypFpfGkx4TK7mi4BeeFfzZP/lSxM36+nHK7XHE434AbnLorbMFOWZYfCRotd1DE8bXAl+/qdUQOQp7uzGg==
+"@selfcommunity/react-core@0.7.0-alpha.20", "@selfcommunity/react-core@^0.7.0-alpha.20":
+  version "0.7.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-core/-/react-core-0.7.0-alpha.20.tgz#2ae3236b1f786e84abcfd7c8d5650072fda9dc71"
+  integrity sha512-4OTd8rqH1dFMVSStVXlh1Tkvq5K1VeFkD4aPrOdN/hPROCvxNN1xZRI1v5MwFIVy3iUUS8eO6URmqnUED1aylA==
   dependencies:
-    "@selfcommunity/api-services" "^0.7.0-alpha.0"
-    "@selfcommunity/react-i18n" "^0.8.0-alpha.14"
-    "@selfcommunity/types" "^0.8.0-alpha.0"
-    "@selfcommunity/utils" "^0.2.64-alpha.1"
+    "@selfcommunity/api-services" "^0.7.0-alpha.10"
+    "@selfcommunity/react-i18n" "^0.8.0-alpha.22"
+    "@selfcommunity/types" "^0.8.0-alpha.10"
+    "@selfcommunity/utils" "^0.2.64-alpha.2"
     js-cookie "^3.0.5"
     pubsub-js "^1.9.5"
     use-deep-compare-effect "^1.8.1"
     validate-color "^2.2.4"
 
-"@selfcommunity/react-i18n@0.8.0-alpha.14", "@selfcommunity/react-i18n@^0.8.0-alpha.14":
-  version "0.8.0-alpha.14"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.8.0-alpha.14.tgz#e9b65ada8e3109e33b27b03bb9e9a4bebf3e8c04"
-  integrity sha512-XUcwnNR5xtpZXpOxMu6uEdWlxLhrO4S4BRjkvSY49RcglqNdx07ivHVBLVkcf7mXNahKe8E1gGRXg6Ztwp7gZQ==
+"@selfcommunity/react-i18n@0.8.0-alpha.22", "@selfcommunity/react-i18n@^0.8.0-alpha.22":
+  version "0.8.0-alpha.22"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-i18n/-/react-i18n-0.8.0-alpha.22.tgz#23d8501048a40bcc11dc573af388186c2e257a91"
+  integrity sha512-oFmrFYd8KVpgrQ0mepeidF0L8O9EvF/2J/lsrhRTk6UVbdT/fo8YbgIl5U5eA8uE9rgFucOcPZ3bdvClTfYjng==
 
-"@selfcommunity/react-templates@0.5.0-alpha.6":
-  version "0.5.0-alpha.6"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.5.0-alpha.6.tgz#1cac1b0b21eff0669d418899d9526bdff8a01665"
-  integrity sha512-B79L1ffEH7VmPdSUjx14I4wN/UvUkIsd7IEhyTHuIFj6Oo54zNYBgA87SxLcuxRwsj9HiOjRyJBJxjnUZ/EFuw==
+"@selfcommunity/react-templates@0.5.0-alpha.47":
+  version "0.5.0-alpha.47"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-templates/-/react-templates-0.5.0-alpha.47.tgz#1ec943df269ec9664f17771ff6644c56040d034f"
+  integrity sha512-err+J3pQspE15408JEOb6Qs+c52sqTrMt8fGPAfHd9a/UWGzlQK4dPZYtGaXqE3GPNWxbn7nEj+/pc9Bcpi6wA==
   dependencies:
-    "@selfcommunity/react-core" "^0.7.0-alpha.2"
-    "@selfcommunity/react-i18n" "^0.8.0-alpha.14"
-    "@selfcommunity/react-ui" "^0.11.0-alpha.67"
-    "@selfcommunity/types" "^0.8.0-alpha.0"
+    "@selfcommunity/react-core" "^0.7.0-alpha.20"
+    "@selfcommunity/react-i18n" "^0.8.0-alpha.22"
+    "@selfcommunity/react-ui" "^0.11.0-alpha.108"
+    "@selfcommunity/types" "^0.8.0-alpha.10"
     "@types/classnames" "^2.3.4"
     classnames "^2.5.1"
 
-"@selfcommunity/react-theme-default@0.5.0-alpha.1", "@selfcommunity/react-theme-default@^0.5.0-alpha.1":
-  version "0.5.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.5.0-alpha.1.tgz#0f59023505f76253dbcd4ada8ae356c7ae9757f3"
-  integrity sha512-J6ZBENU7Zb80ccFcgWUjDXaTjt0Rb8df+L9O05DzQpSr7fRtlRhIG69wW8jgg2CoxHQm5V69Xg+tCpWwPEoKtw==
+"@selfcommunity/react-theme-default@0.5.0-alpha.22", "@selfcommunity/react-theme-default@^0.5.0-alpha.22":
+  version "0.5.0-alpha.22"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-theme-default/-/react-theme-default-0.5.0-alpha.22.tgz#1987683a788ca3b98d6dd0466d3550f72437f1e2"
+  integrity sha512-DS97ukZTXQhwGd01mCZiiadLRLqiVUM8gDFXXQyoyzAvwmNQYgw8HmU+oUN03blUtiw0d73OszkJR1qrevhQ6g==
   dependencies:
     "@emotion/react" "^11.11.3"
     "@emotion/styled" "^11.11.0"
@@ -4502,10 +4502,10 @@
     react "^17.0.2 || 18"
     react-dom "17 || 18"
 
-"@selfcommunity/react-ui@0.11.0-alpha.67", "@selfcommunity/react-ui@^0.11.0-alpha.67":
-  version "0.11.0-alpha.67"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.11.0-alpha.67.tgz#df63f47e5b7c81bc41a44f730db44f1bbecac0d4"
-  integrity sha512-2d4PUiF7FH/iANxf9LI358uu2KLZoJn0wqDbeol/mF4qdCqh3z051Lz6Z4f8zjOXxrC6TIsLu0PZizQIlcfjJw==
+"@selfcommunity/react-ui@0.11.0-alpha.108", "@selfcommunity/react-ui@^0.11.0-alpha.108":
+  version "0.11.0-alpha.108"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/react-ui/-/react-ui-0.11.0-alpha.108.tgz#c9d246f445c1c8fcef46170542f31bbb209277fa"
+  integrity sha512-kTI1P3Q00wE++YX8DvHzzwf7J6Cv7DBPptd8F3Yzlj8/OB06LVbia8ja2yzdOpdMXINxqbvZhNwAn0mW7WQJDA==
   dependencies:
     "@emotion/react" "^11.11.3"
     "@emotion/styled" "^11.11.0"
@@ -4527,12 +4527,14 @@
     "@rpldy/upload-drop-zone" "^1.7.1"
     "@rpldy/upload-preview" "^1.7.1"
     "@rpldy/uploady" "^1.7.1"
-    "@selfcommunity/api-services" "^0.7.0-alpha.0"
-    "@selfcommunity/react-core" "^0.7.0-alpha.2"
-    "@selfcommunity/react-i18n" "^0.8.0-alpha.14"
-    "@selfcommunity/react-theme-default" "^0.5.0-alpha.1"
-    "@selfcommunity/types" "^0.8.0-alpha.0"
-    "@selfcommunity/utils" "^0.2.64-alpha.1"
+    "@selfcommunity/api-services" "^0.7.0-alpha.10"
+    "@selfcommunity/react-core" "^0.7.0-alpha.20"
+    "@selfcommunity/react-i18n" "^0.8.0-alpha.22"
+    "@selfcommunity/react-theme-default" "^0.5.0-alpha.22"
+    "@selfcommunity/types" "^0.8.0-alpha.10"
+    "@selfcommunity/utils" "^0.2.64-alpha.2"
+    "@stripe/react-stripe-js" "^3.1.1"
+    "@stripe/stripe-js" "^5.7.0"
     "@types/classnames" "^2.3.4"
     "@types/sortablejs" "1"
     autosuggest-highlight "^3.3.4"
@@ -4556,10 +4558,13 @@
     react-intersection-observer "^9.4.3"
     react-intl "^6.4.7"
     react-lazyload "^3.2.1"
+    react-number-format "^5.4.3"
+    react-pdf "^7.7.1"
     react-photo-view "^1.2.6"
     react-player "^2.12.0"
     react-share "^4.4.1"
     react-sortablejs "^6.1.4"
+    react-svg-credit-card-payment-icons "^2.1.3"
     react-waypoint "^10.3.0"
     resize-observer-polyfill "^1.5.1"
     seamless-scroll-polyfill "^2.3.4"
@@ -4573,15 +4578,15 @@
     virtual-scroller "^1.12.3"
     yjs "^13.6.7"
 
-"@selfcommunity/types@0.8.0-alpha.0", "@selfcommunity/types@^0.8.0-alpha.0":
-  version "0.8.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.8.0-alpha.0.tgz#36682e58e8f3dcca8e28111c9618df23c9a3d3d1"
-  integrity sha512-EkjXq28oETZsjN/N3tw35Zela7sKqyWLBqCS6JFnlq2VVFWdiZOopZsmzdQhmsmEMo05lfkSyWme5waE/6kouw==
+"@selfcommunity/types@0.8.0-alpha.10", "@selfcommunity/types@^0.8.0-alpha.10":
+  version "0.8.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/types/-/types-0.8.0-alpha.10.tgz#94064ef28e3493260dadf55895ce2d34eec88bdc"
+  integrity sha512-EJ0wyTLhSBvj1xx3r9oQYsbjfpAqwtCedtOTv1hFRjliHp5XYC8X8NjI65qZFie0bD2MBVWwdLpFPncfT64ACg==
 
-"@selfcommunity/utils@0.2.64-alpha.1", "@selfcommunity/utils@^0.2.64-alpha.1":
-  version "0.2.64-alpha.1"
-  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.2.64-alpha.1.tgz#ad53fe6e30d881fa3bb8807da37fc7b30f0510e3"
-  integrity sha512-tYctT8GiVWL+4+QItin2CzR8Am7lxWCQMyKWpbHTZrNAx5sQFK0tNZKzyQ3E8wOlFljox2SnMg+gL682G3nIxw==
+"@selfcommunity/utils@0.2.64-alpha.2", "@selfcommunity/utils@^0.2.64-alpha.2":
+  version "0.2.64-alpha.2"
+  resolved "https://registry.yarnpkg.com/@selfcommunity/utils/-/utils-0.2.64-alpha.2.tgz#6957da5684aedfb81b1cafedc340f464d5467472"
+  integrity sha512-WOR4TFo3B8Xaj37sS42m2gOyc6s80IN8ezAfkbqG8yzYmLlvGa4bCteRdoOJXA5z7X84gS0jvBoMWpUDNxm2QA==
 
 "@shikijs/engine-oniguruma@^3.2.2":
   version "3.3.0"
@@ -4658,6 +4663,18 @@
     micromark-factory-space "^1.0.0"
     micromark-util-character "^1.1.0"
     micromark-util-symbol "^1.0.1"
+
+"@stripe/react-stripe-js@^3.1.1":
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/@stripe/react-stripe-js/-/react-stripe-js-3.10.0.tgz#f9147b18058f25d921f1d74158c2101624c8ed8a"
+  integrity sha512-UPqHZwMwDzGSax0ZI7XlxR3tZSpgIiZdk3CiwjbTK978phwR/fFXeAXQcN/h8wTAjR4ZIAzdlI9DbOqJhuJdeg==
+  dependencies:
+    prop-types "^15.7.2"
+
+"@stripe/stripe-js@^5.7.0":
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-5.10.0.tgz#4d1fcf8c59530865fcd59ce910798cc9c973a870"
+  integrity sha512-PTigkxMdMUP6B5ISS7jMqJAKhgrhZwjprDqR1eATtFfh0OpKVNp110xiH+goeVdrJ29/4LeZJR4FaHHWstsu0A==
 
 "@svgr/babel-plugin-add-jsx-attribute@8.0.0":
   version "8.0.0"
@@ -6941,7 +6958,7 @@ depd@~1.1.2:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==
 
-dequal@^2.0.0, dequal@^2.0.2:
+dequal@^2.0.0, dequal@^2.0.2, dequal@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/dequal/-/dequal-2.0.3.tgz#2644214f1997d39ed0ee0ece72335490a7ac67be"
   integrity sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==
@@ -8954,12 +8971,22 @@ lunr@^2.3.9:
   resolved "https://registry.yarnpkg.com/lunr/-/lunr-2.3.9.tgz#18b123142832337dd6e964df1a5a7707b25d35e1"
   integrity sha512-zTU3DaZaF3Rt9rhN3uBMGQD3dD2/vFQqnvZCDv4dl5iOzq2IZQqTxu90r4E5J+nP70J3ilqVCrbho2eWaeW8Ow==
 
+make-cancellable-promise@^1.3.1:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/make-cancellable-promise/-/make-cancellable-promise-1.3.2.tgz#993c8c8b79cff13c74fa93de0bd8a17fe66685c1"
+  integrity sha512-GCXh3bq/WuMbS+Ky4JBPW1hYTOU+znU+Q5m9Pu+pI8EoUqIHk9+tviOKC6/qhHh8C4/As3tzJ69IF32kdz85ww==
+
 make-dir@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-3.1.0.tgz#415e967046b3a7f1d185277d84aa58203726a13f"
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+make-event-props@^1.6.0:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/make-event-props/-/make-event-props-1.6.2.tgz#c8e0e48eb28b9b808730de38359f6341de7ec5a2"
+  integrity sha512-iDwf7mA03WPiR8QxvcVHmVWEPfMY1RZXerDVNCRYW7dUr2ppH3J58Rwb39/WG39yTZdRSxr3x+2v22tvI0VEvA==
 
 markdown-extensions@^2.0.0:
   version "2.0.0"
@@ -9247,6 +9274,11 @@ merge-descriptors@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
   integrity sha512-cCi6g3/Zr1iqQi6ySbseM1Xvooa98N0w31jzUYrXPX2xqObmFGHJ0tQ5u74H3mVh7wLouTseZyYIq39g8cNp1w==
+
+merge-refs@^1.2.1:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/merge-refs/-/merge-refs-1.3.0.tgz#65d7f8c5058917b9d1fc204ae4b9a727614d0119"
+  integrity sha512-nqXPXbso+1dcKDpPCXvwZyJILz+vSLqGGOnDrYHQYE+B8n9JTCekVLC65AfCpR4ggVyA/45Y0iR9LDyS2iI+zA==
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -11259,6 +11291,26 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   dependencies:
     "@types/react" "*"
 
+react-number-format@^5.4.3:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/react-number-format/-/react-number-format-5.4.4.tgz#d31f0e260609431500c8d3f81bbd3ae1fb7cacad"
+  integrity sha512-wOmoNZoOpvMminhifQYiYSTCLUDOiUbBunrMrMjA+dV52sY+vck1S4UhR6PkgnoCquvvMSeJjErXZ4qSaWCliA==
+
+react-pdf@^7.7.1:
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-7.7.3.tgz#eea8104cd165dfec7ae0fa54259cfe7de12b5e81"
+  integrity sha512-a2VfDl8hiGjugpqezBTUzJHYLNB7IS7a2t7GD52xMI9xHg8LdVaTMsnM9ZlNmKadnStT/tvX5IfV0yLn+JvYmw==
+  dependencies:
+    clsx "^2.0.0"
+    dequal "^2.0.3"
+    make-cancellable-promise "^1.3.1"
+    make-event-props "^1.6.0"
+    merge-refs "^1.2.1"
+    pdfjs-dist "3.11.174"
+    prop-types "^15.6.2"
+    tiny-invariant "^1.0.0"
+    warning "^4.0.0"
+
 react-photo-view@^1.2.6:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/react-photo-view/-/react-photo-view-1.2.7.tgz#7cebfd88f20665ac85de053e9980b492d0f66095"
@@ -11333,6 +11385,11 @@ react-sortablejs@^6.1.4:
   dependencies:
     classnames "2.3.1"
     tiny-invariant "1.2.0"
+
+react-svg-credit-card-payment-icons@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/react-svg-credit-card-payment-icons/-/react-svg-credit-card-payment-icons-2.1.3.tgz#5878c49ca9cd2c029412fab38c7b623a1f0667d5"
+  integrity sha512-QqMjOuuoClsXlH9CxJpOFiSpZAvxRSXieogbhtCGe7aKYlpzYNt1o7p9jC3lcMTL1dTkfcikPEmBAHQrDI80ew==
 
 react-transition-group@^4.4.5:
   version "4.4.5"
@@ -12523,15 +12580,15 @@ tiny-invariant@1.2.0:
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.2.0.tgz#a1141f86b672a9148c72e978a19a73b9b94a15a9"
   integrity sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==
 
+tiny-invariant@^1.0.0, tiny-invariant@^1.0.6:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.3.3.tgz#46680b7a873a0d5d10005995eb90a70d74d60127"
+  integrity sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==
+
 tiny-invariant@^1.0.2:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.3.1.tgz#8560808c916ef02ecfd55e66090df23a4b7aa642"
   integrity sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==
-
-tiny-invariant@^1.0.6:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.3.3.tgz#46680b7a873a0d5d10005995eb90a70d74d60127"
-  integrity sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==
 
 tiny-warning@^1.0.0:
   version "1.0.3"
