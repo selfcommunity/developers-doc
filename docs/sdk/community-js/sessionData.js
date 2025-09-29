@@ -5,6 +5,6 @@ export const sessionData = {
         'client_id': 'XJjPE54IBBjhibs0Rf0wZ969cZNPq6WjC02FrkaM',
         'grant_type': 'password',
     },
-    portal: 'https://api.fashionista.community'
+    portal: 'https://internal.selfcommunity.io/mkg2zxd0'
 };
 
