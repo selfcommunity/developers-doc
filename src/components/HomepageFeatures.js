@@ -6,7 +6,7 @@ import Link from "@docusaurus/core/lib/client/exports/Link";
 const FeatureList = [
     {
         title: <Link to="/docs/api/intro">API Documentation</Link>,
-        Svg: require('../../static/img/api.svg').default,
+        imgSrc: '/img/api.svg',
         description: (
             <>
                 Explore our APIs.<br/>Learn how to build apps and integrations with the SelfCommunity platform.
@@ -15,7 +15,7 @@ const FeatureList = [
     },
     {
         title: <Link to="/docs/apireference/v2/intro">API Reference</Link>,
-        Svg: require('../../static/img/api_reference.svg').default,
+        imgSrc: '/img/api_reference.svg',
         description: (
             <>
                 Harness the power of our v2 APIs.<br/>Discover the endpoints you can use to build innovative Community
@@ -25,7 +25,7 @@ const FeatureList = [
     },
     {
         title: <Link to="/docs/sdk/community-js/intro">Community-JS SDK</Link>,
-        Svg: require('../../static/img/sdk.svg').default,
+        imgSrc: '/img/sdk.svg',
         description: (
             <>
                 Quickly embed a powerful Community within your eCommerce, Website or APP.<br/>
@@ -35,11 +35,11 @@ const FeatureList = [
     },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({imgSrc, title, description}) {
     return (
         <div className={clsx('col col-xs-6')}>
             <div className="text--center">
-                <Svg className={styles.featureSvg} alt={title}/>
+                <img src={imgSrc} className={styles.featureImg} alt={title} />
             </div>
             <div className="text--center padding-horiz--md">
                 <h3>{title}</h3>
