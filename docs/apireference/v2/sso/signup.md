@@ -30,15 +30,29 @@ This operation requires admin role.
 
 ### Parameters
 
-| Name     | In   | Type               | Required | Description                                                                                                                                                                                                                                                        |
-|----------|------|--------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ext_id   | body | string             | false    | A unique external id identifying the user                                                                                                                                                                                                                          |
-| username | body | string             | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                                  |
-| email    | body | string             | false    | The email of the user.                                                                                                                                                                                                                                             |
-| password | body | string             | false    | The password of the user. If passed, the password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&) |
-| avatar   | body | url                | false    | The avatar of the user                                                                                                                                                                                                                                             |
-| role     | body | string¦null        | false    | Role of the user; it can be: admin, moderator, editor                                                                                                                                                                                                              |
-| tags     | body | list(integer)¦null | false    | List of tags id                                                                                                                                                                                                                                                    |
+`ext_id` is a string identifier provided by the external service used for SSO.
+
+
+
+
+
+
+
+
+
+
+
+
+
+| Name     | In   | Type               | Required | Description                                                                                                                                                                                                                                                                                                                          |
+|----------|------|--------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ext_id   | body | string             | false    | A unique external id identifying the user in the **external service**. By **external service**, we mean any generic service that is **not** a provider officially certified by SelfCommunity. To add a **certified external provider**, use: [Create a social association](/docs/apireference/v2/user/create_a_social_association)   |
+| username | body | string             | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                                                                                                    |
+| email    | body | string             | false    | The email of the user.                                                                                                                                                                                                                                                                                                               |
+| password | body | string             | false    | The password of the user. If passed, the password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&)                                                                   |
+| avatar   | body | url                | false    | The avatar of the user                                                                                                                                                                                                                                                                                                               |
+| role     | body | string¦null        | false    | Role of the user; it can be: admin, moderator, editor                                                                                                                                                                                                                                                                                |
+| tags     | body | list(integer)¦null | false    | List of tags id                                                                                                                                                                                                                                                                                                                      |
 
 #### Example Body Parameters
 
