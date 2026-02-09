@@ -20,7 +20,7 @@ This operation requires that the user is the same or has the admin role.
 |-----------------|------|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------|
 | user_id         | body | integer | true     | The user id                                                                                                                              |
 | ext_id          | body | string  | true     | A unique external id identifying the user                                                                                                |
-| provider        | body | string  | true     | The external provider of the ext_id                                                                                                      |
+| provider        | body | string  | true     | The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad                                |
 | profile_url     | body | string  | false    | An optional url to the social profile; only for providers other than external                                                            |
 | metadata        | body | string  | false    | An optional json only for the external provider                                                                                          |
 | show_in_profile | body | bool    | false    | Default false. An optional flag to indicate if the social association can be showed in the user profile. Provider must not be 'external' |

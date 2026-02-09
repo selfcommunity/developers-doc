@@ -21,7 +21,7 @@ title: User External Provider
 |-----------------|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------|
 | user_id         | integer | true     | The user id                                                                                                                              |
 | ext_id          | string  | true     | A unique external id identifying the user                                                                                                |
-| provider        | string  | true     | The external provider of the ext_id                                                                                                      |
+| provider        | string  | true     | The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad                                |
 | profile_url     | string  | false    | An optional url to the social profile; only for providers other than external                                                            |
 | metadata        | string  | false    | An optional json only for the external provider                                                                                          |
 | show_in_profile | bool    | false    | Default false. An optional flag to indicate if the social association can be showed in the user profile. Provider must not be 'external' |
