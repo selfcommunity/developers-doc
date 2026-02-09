@@ -30,20 +30,6 @@ This operation requires admin role.
 
 ### Parameters
 
-`ext_id` is a string identifier provided by the external service used for SSO.
-
-
-
-
-
-
-
-
-
-
-
-
-
 | Name     | In   | Type               | Required | Description                                                                                                                                                                                                                                                                                                                          |
 |----------|------|--------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ext_id   | body | string             | false    | A unique external id identifying the user in the **external service**. By **external service**, we mean any generic service that is **not** a provider officially certified by SelfCommunity. To add a **certified external provider**, use: [Create a social association](/docs/apireference/v2/user/create_a_social_association)   |
