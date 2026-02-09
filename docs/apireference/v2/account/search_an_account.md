@@ -18,12 +18,12 @@ This operation requires admin role.
 
 ### Parameters
 
-| Name     | In    | Type   | Required | Description                          |
-|----------|-------|--------|----------|--------------------------------------|
-| username | query | string | false    | The username of the user             |
-| email    | query | string | false    | The email of the user                |
-| ext_id   | query | string | false    | A unique external id identifying the user |
-| provider | query | string | false    | The external provider of the ext_id  |
+| Name     | In    | Type   | Required | Description                                                                                               |
+|----------|-------|--------|----------|-----------------------------------------------------------------------------------------------------------|
+| username | query | string | false    | The username of the user                                                                                  |
+| email    | query | string | false    | The email of the user                                                                                     |
+| ext_id   | query | string | false    | A unique external id identifying the user                                                                 |
+| provider | query | string | false    | The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad |
 
 :::info
 
