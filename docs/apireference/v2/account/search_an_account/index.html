@@ -10,7 +10,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.fcca0432.css">
-<script src="/assets/js/runtime~main.e073e0e6.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.358c8239.js" defer="defer"></script>
 <script src="/assets/js/main.f3613fe6.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -22,7 +22,7 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request" translate="no">​</a></h2>
 <p><code>GET /api/v2/account/search/</code></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters" translate="no">​</a></h3>
-<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>username</td><td>query</td><td>string</td><td>false</td><td>The username of the user</td></tr><tr><td>email</td><td>query</td><td>string</td><td>false</td><td>The email of the user</td></tr><tr><td>ext_id</td><td>query</td><td>string</td><td>false</td><td>A unique external id identifying the user</td></tr><tr><td>provider</td><td>query</td><td>string</td><td>false</td><td>The external provider of the ext_id</td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>username</td><td>query</td><td>string</td><td>false</td><td>The username of the user</td></tr><tr><td>email</td><td>query</td><td>string</td><td>false</td><td>The email of the user</td></tr><tr><td>ext_id</td><td>query</td><td>string</td><td>false</td><td>A unique external id identifying the user</td></tr><tr><td>provider</td><td>query</td><td>string</td><td>false</td><td>The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad</td></tr></tbody></table>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>You can pass in the query only one between: username, email or the pair ext_id and provider</p></div></div>
 <div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>If you are using a custom provider you can pass &#x27;external&#x27; as provider parameter.</p></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-request">Example Request<a href="#example-request" class="hash-link" aria-label="Direct link to Example Request" title="Direct link to Example Request" translate="no">​</a></h3>
