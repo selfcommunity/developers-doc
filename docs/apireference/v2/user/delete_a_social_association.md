@@ -16,11 +16,11 @@ This operation requires that the user is the same or has the admin role.
 
 ### Parameters
 
-| Name     | In    | Type    | Required | Description                                                                                               |
-|----------|-------|---------|----------|-----------------------------------------------------------------------------------------------------------|
-| id       | query | integer | true     | A unique integer value identifying this  user                                                             |
-| ext_id   | body  | integer | true     | A unique external id identifying the user                                                                 |
-| provider | body  | string  | true     | The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad |
+| Name       | In    | Type    | Required | Description                                                                                                                           |
+|------------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------------|
+| id         | query | integer | true     | A unique integer value identifying this  user                                                                                                                              |
+| ext_id     | body  | string  | true     | A unique external id identifying the user                                                                                             |
+| provider   | body  | string  | true     | The external provider of the ext_id                                                                                                   |
 
 ### Example Request
 
@@ -33,7 +33,7 @@ import TabItem from '@theme/TabItem';
 
 ```js
 const inputBody = '{
-  "ext_id":  "integer",
+  "ext_id":  "string",
   "provider": "string"
 }';
 const headers = {
@@ -67,7 +67,7 @@ curl -X DELETE /api/v2/user/{id}/provider/ \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json'
   -d '{
-  "ext_id":  "integer",
+  "ext_id":  "string",
   "provider": "string"
  }'
 ```

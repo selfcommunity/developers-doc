@@ -20,7 +20,7 @@ title: User External Provider
 | Name            | Type    | Required | Description                                                                                                                              |
 |-----------------|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------|
 | user_id         | integer | true     | The user id                                                                                                                              |
-| ext_id          | string  | true     | A unique external id identifying the user                                                                                                |
+| ext_id          | string  | true     | A unique external id identifying the user (with the provider)                                                                            |
 | provider        | string  | true     | The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad                                |
 | profile_url     | string  | false    | An optional url to the social profile; only for providers other than external                                                            |
 | metadata        | string  | false    | An optional json only for the external provider                                                                                          |

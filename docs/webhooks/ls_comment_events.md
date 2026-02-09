@@ -32,7 +32,7 @@ import TabItem from '@theme/TabItem';
             "real_name": "string",
             "description": "string",
             "avatar": "string",
-            "ext_id": 3,
+            "ext_id": "string",
             "tags": [],
             "reputation": 24,
             "followings_counter": 1,

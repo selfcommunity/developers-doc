@@ -32,7 +32,7 @@ This operation requires admin role.
 
 | Name     | In   | Type               | Required | Description                                                                                                                                                                                                                                                        |
 |----------|------|--------------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ext_id   | body | integer            | false    | A unique external id identifying the user                                                                                                                                                                                                                          |
+| ext_id   | body | string             | false    | A unique external id identifying the user                                                                                                                                                                                                                          |
 | username | body | string             | true     | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                                                                                                                                                                  |
 | email    | body | string             | false    | The email of the user.                                                                                                                                                                                                                                             |
 | password | body | string             | false    | The password of the user. If passed, the password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&) |
@@ -51,7 +51,7 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "ext_id": "integer",
+  "ext_id": "string",
   "username": "string",
   "role": "string",
   "tags": ["integer"]
@@ -62,7 +62,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="yaml">
 
 ```yaml
-ext_id: integer
+ext_id: string
 username: string
 role: string
 tags:
@@ -83,7 +83,7 @@ tags:
 ```js
 const inputBody = '{
   "username": "string",
-  "ext_id": "integer"
+  "ext_id": "string"
 }';
 const headers = {
   'Authorization':'Bearer {access_token}',
@@ -117,7 +117,7 @@ curl -X POST /api/v2/sso/signup/ \
   -H 'Accept: application/json'
   -d '{
     "username": "string",
-    "ext_id": "integer"
+    "ext_id": "string"
  }'
 ```
 </TabItem>
@@ -132,7 +132,7 @@ headers = {
   'Content-Type': 'application/json',
   'Accept': 'application/json'
 }
-payload = '{"username": "string","ext_id": "integer"}'
+payload = '{"username": "string","ext_id": "string"}'
 
 r = requests.post('/api/v2/sso/signup/', headers = headers, data = payload)
 
@@ -157,7 +157,7 @@ Status Code **201**
 | Name       | Type             | Required | Restrictions | Description                                           |
 |------------|------------------|----------|--------------|-------------------------------------------------------|
 | » id       | integer          | true     | none         | The unique internal id associated to the created user |
-| » ext_id   | integer¦null     | true     | none         | A unique external id identifying the user             |
+| » ext_id   | string¦null      | true     | none         | A unique external id identifying the user             |
 | » username | string           | true     | none         | Username of the registered user                       |
 | » email    | string           | false    | none         | Email of the registered user                          |
 | » role     | string¦null      | false    | none         | Role of the user; it can be: admin, moderator, editor |
@@ -173,7 +173,7 @@ Status Code **201**
 ```json
 {
   "id": "integer",
-  "ext_id": "integer",
+  "ext_id": "string",
   "username": "string",
   "role": "string",
   "tags": ["integer"]

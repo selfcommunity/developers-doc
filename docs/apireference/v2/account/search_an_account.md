@@ -124,7 +124,7 @@ It will return status code 200 if the user is found. If not found it will return
   "website": "string",
   "cover": "string",
   "tags": [{Tag}],
-  "ext_id": "integer",
+  "ext_id": "string",
   "reputation": "integer",
   "community_badge": "boolean",
   "reg_approved": "boolean",

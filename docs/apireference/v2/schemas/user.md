@@ -10,7 +10,7 @@ title: User
   "username": "string",
   "real_name": "string",
   "avatar": "string",
-  "ext_id": "integer",
+  "ext_id": "string",
   "followings_counter": "integer",
   "followers_counter": "integer",
   "posts_counter": "integer",
@@ -47,7 +47,7 @@ title: User
 | username            | string                                                                       | false    | read-only    | The username of the user. Max 255 characters. Letters, numbers and -/_ characters                                   |
 | real_name           | string                                                                       | false    | none         | Real name. Max 255 characters                                                                                       |
 | avatar              | string(binary)¦null                                                          | false    | none         | The user avatar                                                                                                     |
-| ext_id              | integer                                                                      | false    | read-only    | The external ID of the user. It is assigned only during signup                                                      |
+| ext_id              | string                                                                       | false    | read-only    | The external ID of the user. It is assigned only during signup                                                      |
 | followings_counter  | integer¦null                                                                 | false    | read-only    | Number of followings of the user                                                                                    | Only if dynamic preference `configurations.follow_enabled` is `true`                             |
 | followers_counter   | integer¦null                                                                 | false    | read-only    | Number of followers of the user                                                                                     | Only if dynamic preference `configurations.follow_enabled` is `true`                             |
 | posts_counter       | integer¦null                                                                 | false    | read-only    | Number of posts created by the user                                                                                 | Only if dynamic preference `configurations.post_type_enabled` is `true`                          |

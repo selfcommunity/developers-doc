@@ -302,7 +302,7 @@ import TabItem from '@theme/TabItem';
                 "real_name": "string",
                 "description": "string",
                 "avatar": "string",
-                "ext_id": 3,
+                "ext_id":"string",
                 "tags": [],
                 "reputation": 13,
                 "followings_counter": 7,
@@ -520,7 +520,7 @@ import TabItem from '@theme/TabItem';
           "website": "https://example.com",
           "avatar": "string",
           "cover": "string",
-          "ext_id": 3
+          "ext_id": "string",
         },
         "active_at": "2021-06-07T12:07:01.701850+02:00"
     }
@@ -621,7 +621,7 @@ import TabItem from '@theme/TabItem';
             "website": "https://example.com",
             "avatar": "string",
             "cover": "string",
-            "ext_id": 3,
+            "ext_id": "string",
             "tags": [],
             "reputation": 111,
             "followings_counter": 7,
@@ -1237,7 +1237,7 @@ import TabItem from '@theme/TabItem';
             "website": "https://example.com",
             "avatar": "string",
             "cover": "string",
-            "ext_id": 3,
+            "ext_id": "string",
             "tags": [],
             "reputation": 111,
             "followings_counter": 7,

@@ -69,7 +69,7 @@ import TabItem from '@theme/TabItem';
             "website": "https://example.com",
             "avatar": "string",
             "cover": "string",
-            "ext_id": 3,
+            "ext_id": "string",
             "tags": [],
             "reputation": 111,
             "followings_counter": 1,

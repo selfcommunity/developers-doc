@@ -110,7 +110,7 @@ Status Code **200**
       "username": "string",
       "real_name": "string",
       "avatar": "string",
-      "ext_id": "integer"
+      "ext_id": "string"
     }
   ]
 }

@@ -141,7 +141,7 @@ curl -X PUT /api/v2/user/{id}/ \
   "username": "string",
   "real_name": "string",
   "avatar": "string",
-  "ext_id": "integer",
+  "ext_id": "string",
   "followings_counter": "integer",
   "followers_counter": "integer",
   "posts_counter": "integer",

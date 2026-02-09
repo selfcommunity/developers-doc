@@ -18,7 +18,7 @@ title: Incubator
     "username": "string",
     "real_name": "string",
     "avatar": "string",
-    "ext_id": "integer"
+    "ext_id": "string"
   },
   "subscribers_count": "integer",
   "subscribers_threshold": "integer",

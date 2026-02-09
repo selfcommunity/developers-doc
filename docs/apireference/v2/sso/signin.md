@@ -87,7 +87,7 @@ Status Code **200**
 | Name       | Type               | Required | Restrictions | Description                                             |
 |------------|--------------------|----------|--------------|---------------------------------------------------------|
 | » id       | integer            | true     | none         | A unique internal id identifying the authenticated user |
-| » ext_id   | integer¦null       | true     | none         | A unique external id identifying the authenticated user |
+| » ext_id   | string¦null        | true     | none         | A unique external id identifying the authenticated user |
 | » username | string             | true     | none         | Username of the authenticated user                      |
 | » role     | string¦null        | false    | none         | Role of the user; it can be: admin, moderator, editor   |
 | » tags     | list(integer)¦null | false    | none         | List of tag ids                                         |
@@ -103,7 +103,7 @@ Status Code **200**
 ```json
 {
   "id": "integer",
-  "ext_id": "integer",
+  "ext_id": "string",
   "username": "string",
   "role": "string",
   "tags": ["integer"]

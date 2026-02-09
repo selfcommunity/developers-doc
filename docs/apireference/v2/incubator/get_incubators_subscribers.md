@@ -88,7 +88,7 @@ curl -X GET /api/v2/incubator/{id}/subscribers/ \
     "username": "string",
     "real_name": "string",
     "avatar": "string",
-    "ext_id": "integer"
+    "ext_id": "string"
     }
   ]
 }

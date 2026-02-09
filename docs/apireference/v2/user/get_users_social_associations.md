@@ -88,9 +88,9 @@ curl -X GET /api/v2/user/provider/ \
     {
         "user_id": "integer",
         "provider": "string",
-        "ext_id": "integer",
+        "ext_id": "string",
         "metadata": {
-            "ext_id": "integer",
+            "ext_id": "string",
             "username": "string",
             "email": "string"
         }
@@ -98,7 +98,7 @@ curl -X GET /api/v2/user/provider/ \
     {
         "user_id": "integer",
         "provider": "string",
-        "ext_id": "integer",
+        "ext_id": "string",
         "profile_url": "string(uri)",
         "show_in_profile": "boolean"
     },

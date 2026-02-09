@@ -89,7 +89,7 @@ curl -X GET /api/v2/category/{id}/followers/ \
       "username": "string",
       "real_name": "string",
       "avatar": "string",
-      "ext_id": "integer",
+      "ext_id": "string",
       "followings_counter": "integer",
       "followers_counter": "integer",
       "posts_counter": "integer",
