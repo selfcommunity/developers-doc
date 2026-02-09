@@ -10,7 +10,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.fcca0432.css">
-<script src="/assets/js/runtime~main.a6a7e648.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.880dc187.js" defer="defer"></script>
 <script src="/assets/js/main.f3613fe6.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -24,7 +24,6 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="http-request">HTTP Request<a href="#http-request" class="hash-link" aria-label="Direct link to HTTP Request" title="Direct link to HTTP Request" translate="no">​</a></h2>
 <p><code>POST /api/v2/sso/signup/</code></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="parameters">Parameters<a href="#parameters" class="hash-link" aria-label="Direct link to Parameters" title="Direct link to Parameters" translate="no">​</a></h3>
-<p><code>ext_id</code> is a string identifier provided by the external service used for SSO.</p>
 <table><thead><tr><th>Name</th><th>In</th><th>Type</th><th>Required</th><th>Description</th></tr></thead><tbody><tr><td>ext_id</td><td>body</td><td>string</td><td>false</td><td>A unique external id identifying the user in the <strong>external service</strong>. By <strong>external service</strong>, we mean any generic service that is <strong>not</strong> a provider officially certified by SelfCommunity. To add a <strong>certified external provider</strong>, use: <a class="" href="/docs/apireference/v2/user/create_a_social_association">Create a social association</a></td></tr><tr><td>username</td><td>body</td><td>string</td><td>true</td><td>The username of the user. Max 255 characters. Letters, numbers and -/_ characters</td></tr><tr><td>email</td><td>body</td><td>string</td><td>false</td><td>The email of the user.</td></tr><tr><td>password</td><td>body</td><td>string</td><td>false</td><td>The password of the user. If passed, the password must be at least 8 characters (max 128 chararacters) and it must contains at least 3 of the following 4 types of characters: lower case letters, upper case letters, numbers and special characters (eg !@#$%^&amp;)</td></tr><tr><td>avatar</td><td>body</td><td>url</td><td>false</td><td>The avatar of the user</td></tr><tr><td>role</td><td>body</td><td>string¦null</td><td>false</td><td>Role of the user; it can be: admin, moderator, editor</td></tr><tr><td>tags</td><td>body</td><td>list(integer)¦null</td><td>false</td><td>List of tags id</td></tr></tbody></table>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="example-body-parameters">Example Body Parameters<a href="#example-body-parameters" class="hash-link" aria-label="Direct link to Example Body Parameters" title="Direct link to Example Body Parameters" translate="no">​</a></h4>
 <!-- -->
