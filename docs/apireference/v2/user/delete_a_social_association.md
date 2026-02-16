@@ -4,6 +4,8 @@ sidebar_position: 200
 title: Delete a social association
 ---
 
+Delete a social association for the user (identified in the path)
+
 :::info
 
 This operation requires that the user is the same or has the admin role.
@@ -16,11 +18,11 @@ This operation requires that the user is the same or has the admin role.
 
 ### Parameters
 
-| Name       | In    | Type    | Required | Description                                                                                                                           |
-|------------|-------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------------|
-| id         | query | integer | true     | A unique integer value identifying this  user                                                                                                                              |
-| ext_id     | body  | string  | true     | A unique external id identifying the user                                                                                             |
-| provider   | body  | string  | true     | The external provider of the ext_id                                                                                                   |
+| Name     | In   | Type   | Required | Description                                  |
+|----------|------|--------|----------|----------------------------------------------|
+| id       | path | string | true     | A unique integer value identifying this user |
+| ext_id   | body | string | true     | A unique external id identifying the user    |
+| provider | body | string | true     | The external provider of the ext_id          |
 
 ### Example Request
 

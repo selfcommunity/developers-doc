@@ -4,6 +4,8 @@ sidebar_position: 200
 title: Create a social association
 ---
 
+Create a social association for the user (identified in the path)
+
 :::info
 
 This operation requires that the user is the same or has the admin role.
@@ -12,18 +14,18 @@ This operation requires that the user is the same or has the admin role.
 
 ## HTTP Request
 
-`POST /api/v2/user/provider/`
+`POST /api/v2/user/{id}/provider/`
 
 ### Parameters
 
-| Name            | In   | Type    | Required | Description                                                                                                                              |
-|-----------------|------|---------|----------|------------------------------------------------------------------------------------------------------------------------------------------|
-| user_id         | body | integer | true     | The user id                                                                                                                              |
-| ext_id          | body | string  | true     | A unique external id identifying the user                                                                                                |
-| provider        | body | string  | true     | The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad                                |
-| profile_url     | body | string  | false    | An optional url to the social profile; only for providers other than external                                                            |
-| metadata        | body | string  | false    | An optional json only for the external provider                                                                                          |
-| show_in_profile | body | bool    | false    | Default false. An optional flag to indicate if the social association can be showed in the user profile. Provider must not be 'external' |
+| Name            | In   | Type   | Required | Description                                                                                                                              |
+|-----------------|------|--------|----------|------------------------------------------------------------------------------------------------------------------------------------------|
+| id              | path | string | true     | A unique integer value identifying this user                                                                                             | |
+| ext_id          | body | string | true     | A unique external id identifying the user                                                                                                |
+| provider        | body | string | true     | The external provider of the ext_id. For example: facebook, google, linkedin, twitter, keycloak, azure-ad                                |
+| profile_url     | body | string | false    | An optional url to the social profile; only for providers other than external                                                            |
+| metadata        | body | string | false    | An optional json only for the external provider                                                                                          |
+| show_in_profile | body | bool   | false    | Default false. An optional flag to indicate if the social association can be showed in the user profile. Provider must not be 'external' |
 
 ### Example Request
 
@@ -46,7 +48,7 @@ const headers = {
   'Accept':'application/json'
 };
 
-fetch('/api/v2/user/provider/',
+fetch('/api/v2/user/{id}/provider/',
 {
   method: 'POST',
   body: inputBody,
@@ -66,7 +68,7 @@ fetch('/api/v2/user/provider/',
 
 ```bash
 # You can also use wget
-curl -X POST /api/v2/user/provider/ \
+curl -X POST /api/v2/user/{id}/provider/ \
   -H 'Authorization: Bearer {access_token}'
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json'
