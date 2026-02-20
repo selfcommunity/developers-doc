@@ -10,7 +10,7 @@
 
 
 <link rel="search" type="application/opensearchdescription+xml" title="SelfCommunity Developers" href="/opensearch.xml"><link rel="stylesheet" href="/assets/css/styles.fcca0432.css">
-<script src="/assets/js/runtime~main.4442d40d.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.e77188a0.js" defer="defer"></script>
 <script src="/assets/js/main.e9927b4f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -32,7 +32,7 @@
 <p>Before you can verify signatures, you need to retrieve your endpoint’s secret from your Dashboard’s Webhooks settings. Select an endpoint that you want to obtain the secret for, then click the Click to reveal button.</p>
 <p>SelfCommunity generates a unique secret key for each endpoint. If you use multiple endpoints, you must obtain a secret for each one you want to verify signatures on. After this setup, SelfCommunity starts to sign each webhook it sends to the endpoint.</p>
 <p><strong>Signature Verification</strong>
-The SelfCommunity-Signature header included in each signed event contains a timestamp and one or more signatures. The timestamp is prefixed by t=, and each signature is prefixed by a scheme. Schemes start with v, followed by an integer. Currently, the only valid live signature scheme is v1.</p>
+The SelfCommunity-Signature header included in each signed event contains a timestamp and one or more signatures. The timestamp is prefixed by t=, and each signature is prefixed by a scheme. Schemes start with v, followed by an integer. Currently, the only valid live signature scheme is v0.</p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SelfCommunity-Signature:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">t=1492774577,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">v1=5257a869e7ecebeda32affa62cdca3fa51cad7e77a0e56ff536d0ce8e108d8bd,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">v0=6ffbb59b2300aae63f272406069a9788598b792a944a07aba816edb039989a39</span><br></span></code></pre></div></div>
 <p>Note that newlines have been added for clarity, but a real SelfCommunity-Signature header is on a single line.</p>
 <p>SelfCommunity generates signatures using a hash-based message authentication code (HMAC) with SHA-256.</p>
