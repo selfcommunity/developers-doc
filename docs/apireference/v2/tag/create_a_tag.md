@@ -33,13 +33,15 @@ import TabItem from '@theme/TabItem';
 
 ```json
 {
-  "active": "boolean",
-  "type": "string",
-  "name": "string",
+  "id": "integer",
+  "type": "string",      
+  "name": "string",      
   "description": "string",
   "color": "string",
   "visible": "boolean",
   "visibility_boost": "boolean",
+  "created_at": "string",
+  "active": "boolean",
   "deleted": "boolean"
 }
 ```
@@ -109,7 +111,6 @@ curl -X POST /api/v2/tag/ \
 | 201    | [Created](https://tools.ietf.org/html/rfc7231#section-6.3.2) | Response status code | [Tag](/docs/apireference/v2/schemas/tag) |
 
 ### Example responses
-
 
 ````mdx-code-block
 
