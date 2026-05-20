@@ -4,7 +4,9 @@ sidebar_position: 1
 title: Add/Remove Score to a User
 ---
 
-This endpoint adds/removes score to a user.
+This endpoint adds or removes score points from a user.
+
+The score change is registered as a manual reputation adjustment.
 
 :::info
 
@@ -18,122 +20,100 @@ This operation requires admin or moderation role.
 
 ### Parameters
 
-| Name    | In   | Type    | Required | Description                                              |
-|---------|------|---------|----------|----------------------------------------------------------|
-| user    | body | integer | true     | A unique integer value identifying the user              |
-| score   | body | integer | true     | Positive or negative integer value                       |
-| comment | body | string  | false    | A comment about this operation (only for internal usage) |
+| Name               | In   | Type    | Required | Description                                                        |
+|--------------------|------|---------|----------|--------------------------------------------------------------------|
+| user_id            | body | integer | false    | A unique integer value identifying the user                        |
+| username           | body | string  | false    | Username identifying the user                                      |
+| score              | body | integer | true     | Positive or negative integer value                                 |
+| reputation_context | body | string  | true     | Pipe-separated values used to classify and filter the score change |
+| comment            | body | string  | false    | Optional comment about this operation                              |
+
+#### Notes
+
+- You must specify either `user_id` or `username`.
+- You cannot specify both `user_id` and `username`.
+- `score` can be positive or negative.
+- `score` cannot be `0`.
+- `reputation_context` is required.
+- `reputation_type` is automatically set to `manual`.
 
 #### Example Body Parameters
 
-````mdx-code-block
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs defaultValue="json" values={[{ label: 'JSON', value: 'json', }]}>
-<TabItem value="json">
-
 ```json
 {
-  "comment": "string",
-  "user": "integer",
-  "score": "integer"
+  "username": "mario.rossi",
+  "score": 10,
+  "reputation_context": "contest|first_place|apis",
+  "comment": "Winner of the APIS contest"
 }
 ```
-
-</TabItem>
-</Tabs>
-````
 
 ### Example Request
 
-````mdx-code-block
-
-<Tabs defaultValue="js" values={[{ label: 'JavaScript', value: 'js', }, { label: 'Bash', value: 'bash', }]}>
-<TabItem value="js">
-
-```js
-const inputBody = '{
-  "user": "integer",
-  "score": "integer",
-  "comment": "string"
-}';
-const headers = {
-  'Content-Type':'application/x-www-form-urlencoded',
-  'Accept':'application/json',
-  'Authorization': 'Bearer {access_token}'
-};
-
-fetch('/api/v2/score/',
-{
-  method: 'POST',
-  body: inputBody,
-  headers: headers
-})
-.then(function(res) {
-    return res.json();
-}).then(function(body) {
-    console.log(body);
-});
-
-```
-
-</TabItem>
-<TabItem value="bash">
-
 ```bash
-# You can also use wget
 curl -X POST /api/v2/score/ \
-  -H 'Content-Type: application/json' \
-  -H 'Accept: application/json' \
-  -H 'Authorization: Bearer {access_token}' \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json" \
+  -H "Authorization: Bearer {access_token}" \
   --data-raw '{
-      "user": "integer",
-      "score": "integer",
-      "comment": "string"
+    "username": "mario.rossi",
+    "score": 10,
+    "reputation_context": "contest|first_place|apis",
+    "comment": "Winner of the APIS contest"
   }'
 ```
-</TabItem>
-</Tabs>
-````
 
 ## Responses
 
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Response status code|[Score](/docs/apireference/v2/schemas/score)|
+| Status | Meaning      | Description                               |
+|--------|--------------|-------------------------------------------|
+| 201    | Created      | Score change created                      |
+| 400    | Bad Request  | Invalid request body                      |
+| 401    | Unauthorized | Missing or invalid access token           |
+| 403    | Forbidden    | User does not have moderation permissions |
 
-### Example responses
-
-
-````mdx-code-block
-
-<Tabs defaultValue="200" values={[{ label: '200', value: '200', }]}>
-<TabItem value="200">
+### Example response
 
 ```json
 {
-  "id": "integer",
+  "id": 456,
   "user": {
-    "id": "integer",
-    "username": "string",
-    "real_name": "string",
-    "email": "string",
-    "description": "string",
-    "avatar": "string",
-    "reputation": "integer"
+    "id": 123,
+    "username": "mario.rossi",
+    "real_name": "Mario Rossi",
+    "avatar": "https://example.com/avatar.jpg",
+    "reputation": 110
   },
-  "score": "string",
-  "reputation_type": "integer",
-  "reputation_type_description": "string",
-  "comment": "string"
+  "score": 10,
+  "reputation_type": 10,
+  "reputation_type_description": "manual",
+  "comment": "Winner of the APIS contest",
+  "reputation_context": "contest|first_place|apis",
+  "created_by": {
+    "id": 1,
+    "username": "moderator",
+    "avatar": "https://example.com/avatar.jpg"
+  },
+  "reputed_at": "2026-05-20T10:30:00Z"
 }
 ```
 
-</TabItem>
-</Tabs>
-````
+## Validation Errors
 
+### Example invalid request
 
+```json
+{
+  "score": 0,
+  "reputation_context": ""
+}
+```
 
+### Example error response
 
+```json
+{
+  "user": "user_id or username is required.",
+  "score": "Is required and must be an integer (positive or negative)."
+}
+```
