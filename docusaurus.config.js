@@ -14,7 +14,7 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'SelfCommunity', // Usually your GitHub org/user name.
+  organizationName: 'SelfCommunity', // Usually your GitHub org/username.
   projectName: 'developers-doc', // Usually your repo name.
 
   i18n: {
