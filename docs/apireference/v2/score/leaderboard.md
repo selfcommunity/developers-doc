@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Get Leaderboard
 ---
 
-This endpoint returns the users leaderboard ordered by total score.
+This endpoint returns the user’s leaderboard ordered by total score.
 
 The leaderboard aggregates all score history entries and calculates the total score for each user.
 

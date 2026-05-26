@@ -25,8 +25,8 @@ This operation requires admin or moderation role.
 | user_id            | body | integer | false    | A unique integer value identifying the user                        |
 | username           | body | string  | false    | Username identifying the user                                      |
 | score              | body | integer | true     | Positive or negative integer value                                 |
-| reputation_context | body | string  | true     | Pipe-separated values used to classify and filter the score change |
-| comment            | body | string  | false    | Optional comment about this operation                              |
+| reputation_context | body | string  | false    | Pipe-separated values used to classify and filter the score change |
+| comment            | body | string  | false    | A comment about this operation                                     |
 
 #### Notes
 
@@ -34,7 +34,7 @@ This operation requires admin or moderation role.
 - You cannot specify both `user_id` and `username`.
 - `score` can be positive or negative.
 - `score` cannot be `0`.
-- `reputation_context` is required.
+-  You must specify either `reputation_context` or `comment`.
 - `reputation_type` is automatically set to `manual`.
 
 #### Example Body Parameters
@@ -95,25 +95,5 @@ curl -X POST /api/v2/score/ \
     "avatar": "https://example.com/avatar.jpg"
   },
   "reputed_at": "2026-05-20T10:30:00Z"
-}
-```
-
-## Validation Errors
-
-### Example invalid request
-
-```json
-{
-  "score": 0,
-  "reputation_context": ""
-}
-```
-
-### Example error response
-
-```json
-{
-  "user": "user_id or username is required.",
-  "score": "Is required and must be an integer (positive or negative)."
 }
 ```
