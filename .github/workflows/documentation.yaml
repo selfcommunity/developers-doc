@@ -23,8 +23,8 @@ jobs:
           GIT_USER: git
           NODE_OPTIONS: '--max_old_space_size=4096'
         run: |
-          git config --global user.email "fede.torre@gmail.com"
-          git config --global user.name "gh-actions"
+          git config --global user.email "team@quentral.com"
+          git config --global user.name "quentralhub"
           yarn --cwd "sdk/community-js" bootstrap
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
