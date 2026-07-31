@@ -13,6 +13,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: true,
   favicon: 'img/favicon.png',
   organizationName: 'SelfCommunity', // Usually your GitHub org/username.
   projectName: 'developers-doc', // Usually your repo name.
