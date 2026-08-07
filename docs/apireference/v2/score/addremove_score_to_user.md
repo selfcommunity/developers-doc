@@ -10,7 +10,9 @@ The score change is registered as a manual reputation adjustment.
 
 :::info
 
-This operation requires admin or moderation role.
+Any authenticated user can call this endpoint, but a **non-moderator can only add/remove
+points to themselves** — the user identified by the access token. To change another user's
+score you need an admin or moderation role.
 
 :::
 
@@ -30,14 +32,30 @@ This operation requires admin or moderation role.
 
 #### Notes
 
-- You must specify either `user_id` or `username`.
 - You cannot specify both `user_id` and `username`.
+- If you are **not** a moderator/admin:
+  - omit `user_id`/`username` entirely to add/remove points to yourself, or
+  - pass your own `user_id`/`username` — any other value returns a `400` error.
+- If you **are** a moderator/admin, you must specify either `user_id` or `username`
+  (unchanged: this still lets you act on any user).
 - `score` can be positive or negative.
 - `score` cannot be `0`.
 -  You must specify either `reputation_context` or `comment`.
 - `reputation_type` is automatically set to `manual`.
 
 #### Example Body Parameters
+
+Self-service (no `user_id`/`username`, adds points to the caller):
+
+```json
+{
+  "score": 10,
+  "reputation_context": "contest|first_place|apis",
+  "comment": "Winner of the APIS contest"
+}
+```
+
+Moderator adding points on behalf of another user:
 
 ```json
 {
@@ -56,7 +74,6 @@ curl -X POST /api/v2/score/ \
   -H "Accept: application/json" \
   -H "Authorization: Bearer {access_token}" \
   --data-raw '{
-    "username": "mario.rossi",
     "score": 10,
     "reputation_context": "contest|first_place|apis",
     "comment": "Winner of the APIS contest"
@@ -65,12 +82,11 @@ curl -X POST /api/v2/score/ \
 
 ## Responses
 
-| Status | Meaning      | Description                               |
-|--------|--------------|-------------------------------------------|
-| 201    | Created      | Score change created                      |
-| 400    | Bad Request  | Invalid request body                      |
-| 401    | Unauthorized | Missing or invalid access token           |
-| 403    | Forbidden    | User does not have moderation permissions |
+| Status | Meaning      | Description                                                                                     |
+|--------|--------------|---------------------------------------------------------------------------------------------------|
+| 201    | Created      | Score change created                                                                             |
+| 400    | Bad Request  | Invalid request body, or a non-moderator targeted a `user_id`/`username` other than their own    |
+| 401    | Unauthorized | Missing or invalid access token                                                                  |
 
 ### Example response
 
