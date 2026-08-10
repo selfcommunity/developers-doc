@@ -41,7 +41,7 @@ title: Score
 | reputation_type | reputation_type_description              |
 |-----------------|------------------------------------------|
 | 1               | gain_by_upvoted                          |
-| 10              | assigned_by_moderator                    |
+| 10              | manual                                   |
 | 11              | gain_by_cancelling_contribute_moderation |
 | 12              | gain_by_make_post                        |
 | 13              | gain_by_make_first_level_comment         |
@@ -51,6 +51,7 @@ title: Score
 | 18              | gain_by_daily_visit                      |
 | 19              | gain_by_follower                         |
 | 20              | gain_by_unblock_account                  |
+| 21              | reset                                    |
 | -1              | lose_by_upvote_canceled                  |
 | -11             | lose_by_contribute_moderation            |
 | -12             | lose_by_delete_post                      |
