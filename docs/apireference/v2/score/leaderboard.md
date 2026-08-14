@@ -27,20 +27,24 @@ leaderboard as `results`.
 | limit           | query | integer          | false    | Number of results to return per page                                  |
 | offset          | query | integer          | false    | The initial index from which to return the results                    |
 | search          | query | string           | false    | Search by username, comment or reputation_context                     |
+| search_reputation_context | query | string  | false    | Filter score entries by reputation_context only, before aggregation, case-insensitive "contains" |
 | user_id         | query | integer          | false    | Filter score entries by user id before aggregation                    |
 | reputation_type | query | integer          | false    | Filter score entries by reputation type                               |
 | reputed_at_from | query | string(datetime) | false    | Filter entries with reputed_at greater than or equal to this datetime |
 | reputed_at_to   | query | string(datetime) | false    | Filter entries with reputed_at lower than or equal to this datetime   |
 | exclude_manual  | query | boolean          | false    | Exclude manual reputation entries                                     |
 | exclude_reset   | query | boolean          | false    | Exclude reset reputation entries                                      |
-| ordering        | query | string           | false    | Ordering field                                                        |
 
 ### Notes
 
 - The leaderboard is calculated using the sum of `variation_points`.
 - Filters are applied before aggregation.
-- Results are ordered by `total_score` descending by default.
-- `search` also supports filtering by `reputation_context`.
+- Results are always ordered by `total_score` descending — there is no `ordering` parameter for
+  this endpoint (unlike [Get All Scores](/docs/apireference/v2/score/get_all_scores)), since any
+  per-row ordering would be discarded by the aggregation anyway.
+- `search` also supports filtering by `reputation_context`; `search_reputation_context` is the
+  narrower, exact-field variant (see [Get All Scores](/docs/apireference/v2/score/get_all_scores)
+  for the same distinction).
 - Each entry's `position` (and `my_position.position`) is a **1-based rank**, computed as the
   count of users with a strictly greater `total_score`, plus 1. Users tied on `total_score`
   share the same `position`.

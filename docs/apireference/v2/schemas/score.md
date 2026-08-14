@@ -19,22 +19,28 @@ title: Score
   "score": "string",
   "reputation_type": "integer",
   "reputation_type_description": "string",
-  "comment": "string"
+  "comment": "string",
+  "related_content": {
+    "id": "integer",
+    "type": "string",
+    "title": "string"
+  }
 }
 
 ```
 
 #### Properties
 
-| Name                        | Type                                                            | Required | Restrictions | Description                                              |
-|-----------------------------|-----------------------------------------------------------------|----------|--------------|----------------------------------------------------------|
-| id                          | integer                                                         | false    | read-only    | A unique integer value identifying this score            |
-| user                        | object                                                          | false    | read-only    | The [user](/docs/apireference/v2/schemas/user) object    |
-| score                       | string                                                          | false    | read-only    | Positive or negative integer value                       |
-| reputation_type             | [integer](/docs/apireference/v2/schemas/score#reputation-types) | false    | read-only    | Integer code                                             |
-| reputation_type_description | string                                                          | false    | read-only    | String description of the code                           |
-| comment                     | string¦null                                                     | false    | none         | Custom comment for this score variation                  |
-| created_by                  | object                                                          | false    | read-only    | The moderator [user](/docs/apireference/v2/schemas/user) |
+| Name                        | Type                                                            | Required | Restrictions | Description                                                                    |
+|-----------------------------|-----------------------------------------------------------------|----------|--------------|----------------------------------------------------------------------------------|
+| id                          | integer                                                         | false    | read-only    | A unique integer value identifying this score                                  |
+| user                        | object                                                          | false    | read-only    | The [user](/docs/apireference/v2/schemas/user) object                          |
+| score                       | string                                                          | false    | read-only    | Positive or negative integer value                                             |
+| reputation_type             | [integer](/docs/apireference/v2/schemas/score#reputation-types) | false    | read-only    | Integer code                                                                    |
+| reputation_type_description | string                                                          | false    | read-only    | String description of the code                                                 |
+| comment                     | string¦null                                                     | false    | none         | Custom comment for this score variation                                        |
+| related_content             | object¦null                                                     | false    | read-only    | `{id, type, title}` of the post/discussion/status this score is tied to, or `null` if none (e.g. manual, connection, follower changes) |
+| created_by                  | object                                                          | false    | read-only    | The moderator [user](/docs/apireference/v2/schemas/user)                       |
 
 #### Reputation Types
 

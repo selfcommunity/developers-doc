@@ -105,6 +105,7 @@ curl -X POST /api/v2/score/ \
   "reputation_type_description": "manual",
   "comment": "Winner of the APIS contest",
   "reputation_context": "contest|first_place|apis",
+  "related_content": null,
   "created_by": {
     "id": 1,
     "username": "moderator",

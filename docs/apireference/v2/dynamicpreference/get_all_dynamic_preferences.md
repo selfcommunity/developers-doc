@@ -193,6 +193,7 @@ This section contains general configurations.
 * **discussion_type_enabled**: Enables discussion type.
 * **post_type_enabled**: Enables post type.
 * **status_type_enabled**: Enables status type.
+* **leaderboards_enabled**: Shows the leaderboard UI. Frontend-only flag, has no backend behavior tied to it.
 
 ### Covers
 

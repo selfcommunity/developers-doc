@@ -25,6 +25,7 @@ Moderators/admins see everything and can filter by any `user_id`.
 | limit           | query | integer          | false    | Number of results to return per page                                  |
 | offset          | query | integer          | false    | The initial index from which to return the results                    |
 | search          | query | string           | false    | Search by username, comment or reputation_context                     |
+| search_reputation_context | query | string  | false    | Filter by reputation_context only, case-insensitive "contains"        |
 | user_id         | query | integer          | false    | Filter by user id (moderators/admins only, see note below)            |
 | reputation_type | query | integer          | false    | Filter by reputation type                                             |
 | reputed_at_from | query | string(datetime) | false    | Filter results with reputed_at greater than or equal to this datetime |
@@ -45,6 +46,9 @@ Moderators/admins see everything and can filter by any `user_id`.
     [Add/Remove Score to a User](/docs/apireference/v2/score/addremove_score_to_user) are
     always visible to them.
 - Moderators/admins are unaffected by the above and keep seeing every entry.
+- `search_reputation_context` differs from `search`: it only matches `reputation_context`,
+  never `comment` or the username, so it's the right choice when filtering by a campaign/context
+  tag without accidentally matching unrelated comments.
 
 ### Search Fields
 
@@ -102,6 +106,7 @@ curl -X GET "/api/v2/score/?search=contest&exclude_reset=true&ordering=-reputed_
       "reputation_type_description": "manual",
       "comment": "Winner of the APIS contest",
       "reputation_context": "contest|first_place|apis",
+      "related_content": null,
       "created_by": {
         "id": 123,
         "username": "mario.rossi",
@@ -123,6 +128,11 @@ curl -X GET "/api/v2/score/?search=contest&exclude_reset=true&ordering=-reputed_
       "reputation_type_description": "gain_by_make_post",
       "comment": null,
       "reputation_context": null,
+      "related_content": {
+        "id": 789,
+        "type": "post",
+        "title": "My new post"
+      },
       "created_by": null,
       "reputed_at": "2026-05-20T11:15:00Z"
     }
