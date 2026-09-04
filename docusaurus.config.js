@@ -11,6 +11,7 @@ const config = {
   tagline: 'Build amazing Community solutions powered by the SelfCommunity platform',
   url: 'https://developers.selfcommunity.com',
   baseUrl: '/',
+  noIndex: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: true,
