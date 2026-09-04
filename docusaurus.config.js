@@ -2,6 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 const lightCodeTheme = require('prism-react-renderer').themes.github;
 const darkCodeTheme = require('prism-react-renderer').themes.dracula;
+const path = require('path');
 const glob = require('glob');
 const globs = require('glob-all');
 
@@ -200,6 +201,18 @@ const config = {
           return {
             externals: {
               canvas: {},
+            },
+            resolve: {
+              alias: isServer
+                ? {
+                    // lottie-web (bundled inside the player) touches `document`
+                    // at import time, which breaks static site generation.
+                    '@lottiefiles/react-lottie-player': path.resolve(
+                      __dirname,
+                      'src/stubs/react-lottie-player.js'
+                    ),
+                  }
+                : {},
             },
             module: {
               rules: [
