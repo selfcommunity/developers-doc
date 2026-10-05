@@ -16,6 +16,20 @@ This operation requires authentication.
 
 `GET /api/v2/user/`
 
+### GDPR data managers
+
+:::note
+
+When the authenticated user belongs to the **GDPR data manager** group (`gdpr_data_manager`), each item of `results`
+also contains the following fields, which are not returned to any other user:
+
+| Name      | Type   | Description                                             |
+|-----------|--------|---------------------------------------------------------|
+| email     | string | The user's email address                                |
+| last_seen | string | Date and time (ISO 8601) of the user's last access      |
+
+:::
+
 ### Parameters
 
 | Name        | In    | Type    | Required | Description                                                                                             |
@@ -131,7 +145,9 @@ Status Code **200**
       "reg_approved": "boolean",
       "deleted" : "boolean",
       "company_name": "string",
-      "company_role": "string"
+      "company_role": "string",
+      "email": "string (only for GDPR data managers)",
+      "last_seen": "string (only for GDPR data managers)"
     }
   ]
 }
