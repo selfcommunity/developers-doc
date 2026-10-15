@@ -8,7 +8,7 @@ This endpoint restores a status
 
 :::info
 
-This operation requires authentication. The logged user must be the status creator.
+This operation requires authentication. The logged user must be the status creator, or the manager of the group the status is addressed to (the manager of a group can delete and restore the contributions of the group).
 
 :::
 

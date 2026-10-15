@@ -8,14 +8,14 @@ This endpoint restores a Discussion.
 
 :::info
 
-This operation requires authentication. The logged user must be the discussion creator
+This operation requires authentication. The logged user must be the discussion creator, or the manager of the group the discussion is addressed to (the manager of a group can delete and restore the contributions of the group).
 
 :::
 
 
 ## HTTP Request
 
-`DELETE /api/v2/discussion/{id}/restore/`
+`POST /api/v2/discussion/{id}/restore/`
 
 ### Parameters
 

@@ -8,7 +8,7 @@ This endpoint deletes a Comment.
 
 :::info
 
-This operation requires authentication. The logged user must be the comment creator
+This operation requires authentication. The logged user must be the comment creator, or the manager of the group the comment is addressed to (the manager of a group can delete and restore the contributions of the group).
 
 :::
 
