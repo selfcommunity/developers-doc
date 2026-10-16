@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Hide a Post as Group Manager
 ---
 
-This endpoint hides the Post for all the members of the group it is addressed to. A hidden contribution is not shown in the group feed, except to the manager of the group, who can show it again.
+This endpoint hides the Post for all the members of the group it is addressed to. A hidden contribution cannot be seen (nor opened, commented or voted) by the other members of the group: only its author and the manager of the group can still see it and interact with it, and the manager can show it again. The user who requests a hidden contribution that he cannot see gets a `404`.
 
 :::note
 

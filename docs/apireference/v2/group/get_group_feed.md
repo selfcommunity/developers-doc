@@ -15,8 +15,8 @@ This operation requires being a member of the group.
 :::note
 
 The contributions hidden by the manager of the group (see [Hide a Discussion as Group
-Manager](/docs/apireference/v2/discussion/hide_a_discussion_as_group_manager)) are not returned, except to the manager
-of the group, who gets them with `collapsed: true` to be able to show them again.
+Manager](/docs/apireference/v2/discussion/hide_a_discussion_as_group_manager)) are not returned, except to their author
+and to the manager of the group. Both get them with `collapsed: true`: the manager to be able to show them again.
 
 :::
 
