@@ -12,6 +12,14 @@ This operation requires authentication.
 
 :::
 
+:::note
+
+The users passed in `invite_users` (a list of user ids) are invited to join the group if the groups of the community
+work in `invite` mode (the default), and are added directly to the group, without any invitation, if they work in `add`
+mode (the `groups_membership_mode` dynamic preference of the `configurations` section).
+
+:::
+
 
 ## HTTP Request
 
