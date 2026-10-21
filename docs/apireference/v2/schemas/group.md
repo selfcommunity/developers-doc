@@ -27,7 +27,8 @@ title: Group
   "subscribers_counter": "integer",
   "created_at": "string",
   "created_by": {},
-  "managed_by": {}
+  "managed_by": {},
+  "can_manage": true
 }
 
 ```
@@ -57,6 +58,7 @@ title: Group
 | created_at               | string(date-time)                                               | false    | read-only    | Datetime of group creation                                                                                                               |
 | created_by               | [User](/docs/apireference/v2/schemas/user)                      | false    | read-only    | The group creator                                                                                                                        |
 | managed_by               | [User](/docs/apireference/v2/schemas/user)                      | false    | read-only    | The group manager                                                                                                                        |
+| can_manage               | boolean                                                         | false    | read-only    | `true` if the logged user is an administrator of the group (the creator, the manager or a user elected by the other administrators) |
 
 
 #### Enumerated Values

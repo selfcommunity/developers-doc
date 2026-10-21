@@ -8,7 +8,7 @@ This endpoint restores a Comment.
 
 :::info
 
-This operation requires authentication. The logged user must be the comment creator, or the manager of the group the comment is addressed to (the manager of a group can delete and restore the contributions of the group).
+This operation requires authentication. The logged user must be the comment creator, or an administrator of the group the comment is addressed to (the administrators of a group can delete and restore the contributions of the group).
 
 :::
 

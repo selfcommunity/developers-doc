@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Show a Hidden Status as Group Manager
 ---
 
-This endpoint shows again a Status previously hidden by the manager of the group.
+This endpoint shows again a Status previously hidden by an administrator of the group.
 
 :::note
 
@@ -15,7 +15,7 @@ notify the author. Only the statuss addressed to a group can be hidden this way.
 
 :::info
 
-This operation requires authentication. The logged user must be the manager of the group the status is addressed to, or a
+This operation requires authentication. The logged user must be an administrator of the group the status is addressed to, or a
 moderator or an administrator of the community.
 
 :::
@@ -73,5 +73,5 @@ curl -X DELETE /api/v2/status/{id}/collapse/ \
 |--------|------------------------------------------------------------------|--------------------------------------------------------------------------|--------|
 | 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)  | Response status code                                                     | None   |
 | 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The status is not hidden                                                                 | Error  |
-| 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | The user is not the manager of the group the status is addressed to         | Error  |
+| 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | The user is not an administrator of the group the status is addressed to         | Error  |
 | 404    | [Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)   | The status does not exist, or the user cannot see it                        | Error  |

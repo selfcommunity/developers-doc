@@ -9,7 +9,7 @@ This endpoint deletes a specific group identified by \{id}.
 
 :::info
 
-This operation requires the group manager role.
+This operation requires being the creator (owner) of the group: the other administrators cannot delete it.
 
 :::
 

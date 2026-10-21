@@ -9,8 +9,8 @@ group but has requested to participate to a private group then remove the reques
 
 :::note
 
-By passing the optional param `user` a group manager or an administrator of the community is able to remove the user
-from the group. The group manager cannot be removed from the group.
+By passing the optional param `user` an administrator of the group or an administrator of the community is able to remove the user
+from the group. The creator of the group cannot be removed from the group, and an administrator of the group can be removed from it only by the creator.
 
 By passing also the optional param `silent` (administrators only) the removed user is not notified.
 
@@ -18,7 +18,7 @@ By passing also the optional param `silent` (administrators only) the removed us
 
 :::info
 
-This operation requires authentication. It requires also that the user is the manager of the group or an administrator
+This operation requires authentication. It requires also that the user is an administrator of the group or an administrator
 of the community if the `user` param is passed, and that the user is an administrator of the community if the `silent`
 param is passed.
 
@@ -81,7 +81,7 @@ curl -X DELETE "/api/v2/group/{id}/subscribe/?user={user_id}&silent=true" \
 | Status | Meaning                                                         | Description          | Schema |
 |--------|-----------------------------------------------------------------|----------------------|--------|
 | 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The user is not valid, is neither subscribed nor has requested to join the group, is the group manager, `silent` is used without `user`, or the user is neither the manager of the group nor an administrator | Error  |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The user is not valid, is neither subscribed nor has requested to join the group, is the creator of the group, is an administrator of the group removed by someone who is not the creator, `silent` is used without `user`, or the user is neither an administrator of the group nor an administrator of the community | Error  |
 | 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | `silent` is used by a user who is not an administrator of the community                                                                                                           | Error  |
 
 :::note

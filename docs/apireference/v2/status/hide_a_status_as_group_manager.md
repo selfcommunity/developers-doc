@@ -4,7 +4,7 @@ sidebar_position: 1
 title: Hide a Status as Group Manager
 ---
 
-This endpoint hides the Status for all the members of the group it is addressed to. A hidden contribution cannot be seen (nor opened, commented or voted) by the other members of the group: only its author and the manager of the group can still see it and interact with it, and the manager can show it again. The user who requests a hidden contribution that he cannot see gets a `404`.
+This endpoint hides the Status for all the members of the group it is addressed to. A hidden contribution cannot be seen (nor opened, commented or voted) by the other members of the group: only its author and the administrators of the group can still see it and interact with it, and the administrators can show it again. The user who requests a hidden contribution that he cannot see gets a `404`.
 
 :::note
 
@@ -15,7 +15,7 @@ notify the author. Only the statuss addressed to a group can be hidden this way.
 
 :::info
 
-This operation requires authentication. The logged user must be the manager of the group the status is addressed to, or a
+This operation requires authentication. The logged user must be an administrator of the group the status is addressed to, or a
 moderator or an administrator of the community.
 
 :::
@@ -73,5 +73,5 @@ curl -X POST /api/v2/status/{id}/collapse/ \
 |--------|------------------------------------------------------------------|--------------------------------------------------------------------------|--------|
 | 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)  | Response status code                                                     | None   |
 | 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The status is already hidden                                                                 | Error  |
-| 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | The user is not the manager of the group the status is addressed to         | Error  |
+| 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | The user is not an administrator of the group the status is addressed to         | Error  |
 | 404    | [Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)   | The status does not exist, or the user cannot see it                        | Error  |

@@ -8,7 +8,7 @@ This endpoint delete a Post
 
 :::info
 
-This operation requires authentication. The logged user must be the post creator, or the manager of the group the post is addressed to (the manager of a group can delete and restore the contributions of the group).
+This operation requires authentication. The logged user must be the post creator, or an administrator of the group the post is addressed to (the administrators of a group can delete and restore the contributions of the group).
 
 :::
 

@@ -8,10 +8,10 @@ This endpoint allows users to subscribe or to accept the invite to join a specif
 
 :::note
 
-By passing the optional param `users` a group manager or an administrator of the community is able to subscribe some
+By passing the optional param `users` an administrator of the group or an administrator of the community is able to subscribe some
 users to the group. The users are added directly, without any invitation, even if the group is private.
 
-A group manager can add users directly only if the groups of the community work in `add` mode (the
+An administrator of the group can add users directly only if the groups of the community work in `add` mode (the
 `groups_membership_mode` dynamic preference of the `configurations` section; the default value is `invite`). The
 administrators of the community can always add users directly, whatever the mode is.
 
@@ -22,7 +22,7 @@ By passing also the optional param `silent` (administrators only) the users are 
 :::info
 
 This operation requires authentication. It requires also that the user is an administrator of the community, or the
-manager of the group if the groups work in `add` mode, if the `users` param is passed, and that the user is an
+an administrator of the group if the groups work in `add` mode, if the `users` param is passed, and that the user is an
 administrator of the community if the `silent` param is passed.
 
 :::
@@ -91,7 +91,7 @@ curl -X POST /api/v2/group/{id}/subscribe/ \
 | Status | Meaning                                                         | Description          | Schema |
 |--------|-----------------------------------------------------------------|----------------------|--------|
 | 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |
-| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The users are not valid, `silent` is used without `users`, the user is neither the manager of the group nor an administrator, or the user is the group manager but the groups work by invitation (`invite` mode) | Error  |
+| 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The users are not valid, `silent` is used without `users`, the user is neither an administrator of the group nor an administrator of the community, or the user is an administrator of the group but the groups work by invitation (`invite` mode) | Error  |
 | 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | `silent` is used by a user who is not an administrator of the community                                                          | Error  |
 
 :::note

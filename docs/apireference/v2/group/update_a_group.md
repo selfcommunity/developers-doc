@@ -8,7 +8,7 @@ This endpoint updates a specific group.
 
 :::info
 
-This operation requires the group manager role.
+This operation requires the group administrator role (the creator and the administrators elected by the other administrators).
 
 :::
 

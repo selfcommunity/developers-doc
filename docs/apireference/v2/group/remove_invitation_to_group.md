@@ -9,7 +9,7 @@ users.
 
 :::info
 
-This operation requires authentication and that the user is the manager of the group.
+This operation requires authentication and that the user is an administrator of the group.
 
 :::
 

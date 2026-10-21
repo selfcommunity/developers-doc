@@ -8,7 +8,7 @@ This endpoint retrieves the list of all suggested users to invite to a specific 
 
 :::info
 
-This operation requires the group manager role.
+This operation requires the group administrator role (the creator and the administrators elected by the other administrators).
 
 :::
 
