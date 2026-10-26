@@ -12,6 +12,13 @@ This operation requires being a member of the group if the group is private.
 
 :::
 
+:::note
+
+Every user of the list has also `group_role`, the role of the user in the group: `creator` (who created the group),
+`admin` (the group manager, or a user elected by the other administrators) or `member`.
+
+:::
+
 ## HTTP Request
 
 `GET /api/v2/group/{id}/subscribe/`
@@ -103,6 +110,7 @@ Status Code **200**
       "real_name": "string",
       "avatar": "string",
       "ext_id": "string",
+      "group_role": "string",
       "followings_counter": "integer",
       "followers_counter": "integer",
       "posts_counter": "integer",

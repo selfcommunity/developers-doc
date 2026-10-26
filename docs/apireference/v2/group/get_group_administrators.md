@@ -13,6 +13,13 @@ This operation requires authentication, and being a member of the group if the g
 
 :::
 
+:::note
+
+Every user of the list has also `group_role`, the role of the user in the group: `creator` (who created the group),
+`admin` (the group manager, or a user elected by the other administrators) or `member`.
+
+:::
+
 ## HTTP Request
 
 `GET /api/v2/group/{id}/admin/`
