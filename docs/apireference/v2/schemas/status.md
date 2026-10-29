@@ -16,6 +16,8 @@ title: Status
   "summary": "string",
   "deleted": "boolean",
   "collapsed": "boolean",
+  "can_restore": "boolean",
+  "can_uncollapse": "boolean",
   "comment_count": "integer",
   "view_count": "integer",
   "vote_count": "integer",
@@ -50,6 +52,8 @@ title: Status
 | summary          | string                                                   | false    | read-only    | The status summary                                                                                                   |
 | deleted          | boolean                                                  | false    | read-only    | If true, status has been deleted                                                                                     |
 | collapsed        | string                                                   | false    | read-only    | If true, status has been collapsed                                                                                   |
+| can_restore      | boolean                                                  | false    | read-only    | If true, the user can restore it with `POST .../restore/` (only for a deleted contribution)                          |
+| can_uncollapse   | boolean                                                  | false    | read-only    | If true, the user can show it again with `DELETE .../collapse/` (only for a hidden contribution)                     |
 | comment_count    | integer                                                  | false    | read-only    | The number of comments associated to this contribution                                                               |
 | view_count       | integer                                                  | false    | read-only    | The number of views associated to this contribution                                                                  |
 | vote_count       | integer                                                  | false    | read-only    | Number of votes/reactions associated to this contribution                                                            |

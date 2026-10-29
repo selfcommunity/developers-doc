@@ -12,6 +12,13 @@ This operation requires authentication only if `content_availability` community 
 
 :::
 
+
+:::note
+
+A deleted status is not returned (404), with two exceptions: the moderators always get it, and its author gets it when he deleted it himself, so that he can restore it. Check `can_restore` in the response to know if the logged user can restore it with `POST /api/v2/status/{id}/restore/`.
+
+:::
+
 ## HTTP Request
 
 `GET /api/v2/status/{id}/`
@@ -90,6 +97,8 @@ curl -X GET /api/v2/status/{id}/ \
   "summary": "string",
   "deleted": "boolean",
   "collapsed": "boolean",
+  "can_restore": "boolean",
+  "can_uncollapse": "boolean",
   "comment_count": "integer",
   "view_count": "integer",
   "vote_count": "integer",

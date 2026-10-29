@@ -14,6 +14,8 @@ title: Comment
   "summary": "string",
   "deleted": "boolean",
   "collapsed": "boolean",
+  "can_restore": "boolean",
+  "can_uncollapse": "boolean",
   "parent": "integer",
   "in_reply_to": "integer",
   "comment_count": "integer",
@@ -44,6 +46,8 @@ title: Comment
 | summary         | string                                                                | false    | read-only    | The comment summary                                                                                           |
 | deleted         | boolean                                                               | false    | read-only    | Is this comment deleted                                                                                       |
 | collapsed       | boolean                                                               | false    | read-only    | Is this comment collapsed                                                                                     |
+| can_restore     | boolean                                                               | false    | read-only    | If true, the user can restore it with `POST .../restore/` (only for a deleted contribution)                   |
+| can_uncollapse  | boolean                                                               | false    | read-only    | If true, the user can show it again with `DELETE .../collapse/` (only for a hidden contribution)              |
 | parent          | integer¦null                                                          | false    | none         | Id of the parent [Comment](/docs/apireference/v2/schemas/comment)                                             |
 | in_reply_to     | integer¦null                                                          | false    | none         | Id of the reply [Comment](/docs/apireference/v2/schemas/comment), it must have the same `parent` and `object` |
 | comment_count   | integer                                                               | false    | read-only    | The number of comments                                                                                        |

@@ -112,6 +112,8 @@ curl -X PUT /api/v2/comment/{id}/ \
   "summary": "string",
   "deleted": "boolean",
   "collapsed": "boolean",
+  "can_restore": "boolean",
+  "can_uncollapse": "boolean",
   "parent": "integer",
   "in_reply_to": "integer",
   "comment_count": "integer",

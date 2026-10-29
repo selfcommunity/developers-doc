@@ -201,6 +201,8 @@ curl -X PUT /api/v2/discussion/{id}/ \
   "summary": "string",
   "deleted": "boolean",
   "collapsed": "boolean",
+  "can_restore": "boolean",
+  "can_uncollapse": "boolean",
   "comment_count": "integer",
   "view_count": "integer",
   "vote_count": "integer",

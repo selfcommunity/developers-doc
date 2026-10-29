@@ -22,9 +22,9 @@ This operation requires moderation role.
 |-------------------|------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | id                | path | string  | true     | A unique integer value identifying this contribution                                                                                                                                                    |
 | contribution_type | body | string  | true     | Valid values are: post, discussion, comment                                                                                                                                                             |
-| action            | body | string  | true     | Valid values are: scold_author, scold_flagger, ignore, hide, delete                                                                                                                                     |
+| action            | body | string  | true     | Valid values are: scold_author, scold_flagger, ignore, hide, delete, restore                                                                                                                                  |
 | user              | body | integer | true     | The user id of the contribution flagger to scold (use only with action=scold_flagger)                                                                                                                   |
-| moderation_type   | body | integer | true     | An integer value to describe the moderation activity if action is one between scold_author, hide or delete. This param is not needed if the contribute is already hidden or deleted (you are restoring) |
+| moderation_type   | body | integer | true     | An integer value to describe the moderation activity if action is one between scold_author, hide or delete. This param is not needed if the contribute is already hidden or deleted (you are restoring) or if action=restore |
 
 #### Enumerated Values
 
@@ -43,9 +43,12 @@ The following actions can be performed using this endpoint:
 * *scold_flagger*: scold a flagger of the post, a kindly notification will be sent to the author of the flag
 * *ignore*: ignore the contribute into the moderation flow (for moderators)
 * *hide*: hide the contribution for all community users except for the author with moderation_type as the cause
-* *delete*: delete the contribution for all community users with moderation_type as the cause
+* *delete*: delete the contribution for all community users with moderation_type as the cause. If the contribution is already deleted by a moderator, it is restored (toggle). If it was deleted lightly (by its author or by an administrator of the group, with no moderation) and `moderation_type` is sent, the deletion becomes a moderated one: from then on only the moderators can restore it
+* *restore*: restore a deleted contribution. Unlike *delete*, it never deletes: it answers 400 if the contribution is not deleted. Prefer it to calling *delete* twice
 
-The following types of actions are "toggle actions" (calling the endpoint twice with the same action will cancel it): ignore, hide and delete.
+The moderators have the precedence over the administrators of a group and over the authors: a contribution deleted or hidden by a moderator can be restored or shown again only by the moderators.
+
+The following types of actions are "toggle actions" (calling the endpoint twice with the same action will cancel it): ignore, hide and delete. *restore* is not a toggle.
 
 ### Example Request
 
@@ -101,6 +104,7 @@ curl -X PATCH /api/v2/moderation/contribution/{id}/ \
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
 |204|[No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)|Response status code|None|
+|400|[Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1)|Invalid action or moderation_type, or action=restore on a contribution that is not deleted|Error|
 
 
 

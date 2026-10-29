@@ -16,7 +16,8 @@ notify the author. Only the comments addressed to a group can be hidden this way
 :::info
 
 This operation requires authentication. The logged user must be an administrator of the group the comment is addressed to, or a
-moderator or an administrator of the community.
+moderator or an administrator of the community. An administrator of the group cannot show again a comment
+hidden by a moderator: only the moderators can.
 
 :::
 
@@ -73,5 +74,5 @@ curl -X DELETE /api/v2/comment/{id}/collapse/ \
 |--------|------------------------------------------------------------------|--------------------------------------------------------------------------|--------|
 | 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5)  | Response status code                                                     | None   |
 | 400    | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The comment is not hidden                                                                 | Error  |
-| 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | The user is not an administrator of the group the comment is addressed to         | Error  |
+| 403    | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3)   | The user is not an administrator of the group the comment is addressed to, or the comment was hidden by a moderator | Error  |
 | 404    | [Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)   | The comment does not exist, or the user cannot see it                        | Error  |

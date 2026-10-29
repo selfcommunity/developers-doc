@@ -8,7 +8,11 @@ This endpoint restores a Post
 
 :::info
 
-This operation requires authentication. The logged user must be the post creator, or an administrator of the group the post is addressed to (the administrators of a group can delete and restore the contributions of the group).
+This operation requires authentication. Who can restore a post depends on who deleted it (moderators > administrators of the group > author):
+
+* a moderator can always restore it;
+* an administrator of the group the post is addressed to (or of the community) can restore it, unless it was deleted by a moderator;
+* the author can restore it only if he deleted it himself, not if it was deleted by an administrator of the group or by a moderator.
 
 :::
 
@@ -65,3 +69,6 @@ curl -X POST /api/v2/post/{id}/restore/
 | Status | Meaning                                                         | Description          | Schema |
 |--------|-----------------------------------------------------------------|----------------------|--------|
 | 204    | [No Content](https://tools.ietf.org/html/rfc7231#section-6.3.5) | Response status code | None   |
+| 400 | [Bad Request](https://tools.ietf.org/html/rfc7231#section-6.5.1) | The post is not deleted | Error |
+| 403 | [Forbidden](https://tools.ietf.org/html/rfc7231#section-6.5.3) | The user cannot restore the post: it was deleted by someone with a higher role | Error |
+| 404 | [Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4) | The post does not exist | Error |
